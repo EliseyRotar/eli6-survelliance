@@ -27,9 +27,6 @@ cache/
 !cache/.gitkeep
 *.cache
 
-# Large recording files (>50MB)
-recordings/camera_19_Camera 20 (Video) - Russia_20260114_183304.avi
-
 # Screenshots / captures
 grid_capture_*.jpg
 test_all_cameras_view.jpg
