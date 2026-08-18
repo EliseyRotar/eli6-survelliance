@@ -1,0 +1,37 @@
+{
+  "cameras": [
+    {
+      "url": "http://192.168.1.100/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 1 - Location",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://192.168.1.101/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 2 - Location",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "rtsp://192.168.1.102:554/stream",
+      "username": "admin",
+      "password": "password",
+      "name": "Camera 3 - Video Stream",
+      "enabled": true,
+      "type": "video"
+    }
+  ],
+  "settings": {
+    "timeout": 10,
+    "delay": 1.0,
+    "cam_width": 320,
+    "cam_height": 240,
+    "use_threading": true,
+    "max_workers": 20,
+    "cache_memory_mb": 256
+  }
+}
