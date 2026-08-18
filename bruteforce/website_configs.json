@@ -1,0 +1,112 @@
+{
+  "wordpress": {
+    "name": "WordPress",
+    "login_path": "/wp-login.php",
+    "username_field": "log",
+    "password_field": "pwd",
+    "success_indicators": ["dashboard", "wp-admin"],
+    "failure_indicators": ["incorrect username", "incorrect password"],
+    "csrf_field": null,
+    "common_usernames": ["admin", "administrator", "wp-admin", "user", "test"],
+    "notes": "WordPress default login form"
+  },
+  "drupal": {
+    "name": "Drupal",
+    "login_path": "/user/login",
+    "username_field": "name",
+    "password_field": "pass",
+    "success_indicators": ["dashboard", "admin/content"],
+    "failure_indicators": ["unrecognized username", "password is incorrect"],
+    "csrf_field": "form_token",
+    "common_usernames": ["admin", "administrator", "root", "user1"],
+    "notes": "Drupal CMS login form"
+  },
+  "joomla": {
+    "name": "Joomla",
+    "login_path": "/administrator/index.php",
+    "username_field": "username",
+    "password_field": "passwd",
+    "success_indicators": ["control panel", "administrator"],
+    "failure_indicators": ["username and password do not match"],
+    "csrf_field": null,
+    "common_usernames": ["admin", "administrator", "super user"],
+    "notes": "Joomla administrator login"
+  },
+  "generic_form": {
+    "name": "Generic Login Form",
+    "login_path": "/login",
+    "username_field": "username",
+    "password_field": "password",
+    "success_indicators": ["welcome", "dashboard", "profile", "logout"],
+    "failure_indicators": ["invalid", "incorrect", "failed", "error"],
+    "csrf_field": "_token",
+    "common_usernames": ["admin", "user", "test", "guest"],
+    "notes": "Generic web application login form"
+  },
+  "laravel": {
+    "name": "Laravel Application",
+    "login_path": "/login",
+    "username_field": "email",
+    "password_field": "password",
+    "success_indicators": ["dashboard", "home", "profile"],
+    "failure_indicators": ["these credentials do not match", "validation failed"],
+    "csrf_field": "_token",
+    "common_usernames": ["admin@example.com", "test@test.com", "user@domain.com"],
+    "notes": "Laravel framework login form"
+  },
+  "django": {
+    "name": "Django Application",
+    "login_path": "/admin/login/",
+    "username_field": "username",
+    "password_field": "password",
+    "success_indicators": ["django administration", "site administration"],
+    "failure_indicators": ["please enter the correct", "invalid login"],
+    "csrf_field": "csrfmiddlewaretoken",
+    "common_usernames": ["admin", "superuser", "root"],
+    "notes": "Django admin interface"
+  },
+  "flask": {
+    "name": "Flask Application",
+    "login_path": "/login",
+    "username_field": "username",
+    "password_field": "password",
+    "success_indicators": ["dashboard", "welcome", "profile"],
+    "failure_indicators": ["invalid credentials", "login failed"],
+    "csrf_field": "csrf_token",
+    "common_usernames": ["admin", "user", "test"],
+    "notes": "Flask web application"
+  },
+  "phpmyadmin": {
+    "name": "phpMyAdmin",
+    "login_path": "/phpmyadmin/index.php",
+    "username_field": "pma_username",
+    "password_field": "pma_password",
+    "success_indicators": ["server:", "database server"],
+    "failure_indicators": ["access denied", "login failed"],
+    "csrf_field": "token",
+    "common_usernames": ["root", "admin", "mysql", "phpmyadmin"],
+    "notes": "phpMyAdmin database interface"
+  },
+  "cpanel": {
+    "name": "cPanel",
+    "login_path": ":2083/login/",
+    "username_field": "user",
+    "password_field": "pass",
+    "success_indicators": ["cpanel", "control panel"],
+    "failure_indicators": ["login failed", "invalid login"],
+    "csrf_field": null,
+    "common_usernames": ["admin", "cpanel", "root"],
+    "notes": "cPanel hosting control panel"
+  },
+  "plesk": {
+    "name": "Plesk",
+    "login_path": ":8443/login_up.php",
+    "username_field": "login_name",
+    "password_field": "passwd",
+    "success_indicators": ["plesk", "control panel"],
+    "failure_indicators": ["authentication failed"],
+    "csrf_field": null,
+    "common_usernames": ["admin", "root", "plesk"],
+    "notes": "Plesk hosting control panel"
+  }
+}
