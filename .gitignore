@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Virtual environment
+venv/
+.venv/
+
+# Logs
+*.log
+surveillance.log
+
+# Recordings (large binary files)
+recordings/
+!recordings/.gitkeep
+*.avi
+*.mp4
+*.mkv
+
+# Cache
+cache/
+!cache/.gitkeep
+*.cache
+
+# Backups
+backups/
+!backups/.gitkeep
+
+# Screenshots / captures
+grid_capture_*.jpg
+test_all_cameras_view.jpg
+
+# Test artifacts / scratch files
+test.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sensitive config variants (keep camera_config.json as example)
+camera_config_65.json
+camera_config_corrected.json
+camera_testing/__pycache__/
+camera_testing/camera_test_results_*.json
