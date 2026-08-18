@@ -1,0 +1,2323 @@
+{
+  "cameras": [
+    {
+      "url": "http://187.140.117.185/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 1 - Brazil",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://162.204.123.101/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 2 - Canada",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://190.20.231.202/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 3 - Colombia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://133.232.94.137/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 4 - Japan",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://187.37.20.35/tmpfs/snap.jpg",
+      "username": "guest",
+      "password": "guest",
+      "name": "Camera 5 - Brazil",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://121.116.26.50/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 6 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://83.87.104.50:1029/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 7 - Turkey",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://185.73.190.212/web/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 8 - Russia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://75.82.132.7/web/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 9 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://85.165.118.60/web/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 10 - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://66.74.41.152/tmpfs/snap.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 11 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://222.10.11.86/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 12 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://213.144.145.239:8090/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 13 (Video) - Russia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://195.223.180.50/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 14 (Video) - Russia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://119.224.56.57:8081/out.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 15 (No Auth) - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://116.82.9.82:5001/out.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 16 (No Auth) - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://61.78.164.58:8089/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 17 (Video) - South Korea",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://72.199.200.5:8080/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 18 (Video) - Private - USA",
+      "enabled": true,
+      "type": "video",
+      "nsfw": true,
+      "company": "Private House"
+    },
+    {
+      "url": "http://72.199.200.5:8080/cam_2.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 19 (Video) - Same House - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Private House"
+    },
+    {
+      "url": "http://95.255.183.164:8080/cam_2.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 20 (Video) - Russia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://75.149.26.30:1024/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 21 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://74.105.120.201:444/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 22 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://191.113.29.26:8082/cam_1.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 23 (No Auth) - Brazil",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://188.6.81.94:8080/cam_1.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 24 (No Auth) - Turkey",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://188.6.81.94:8080/cam_3.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 25 (No Auth) - Turkey",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://37.123.131.43:97/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 26 (No Auth) - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://96.3.20.210:81/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 27 (No Auth) - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://2.85.145.112:8080/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 28 (Video) - France",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://69.140.27.58:10001/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 29 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://151.75.126.105/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 30 (No Auth) - Italy",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://82.65.168.85:8005/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 31 (No Auth) - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://82.65.168.85:8001/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 32 (No Auth) - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://96.236.138.17:8888/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 33 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://80.61.63.103:81/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 34 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://82.64.212.123:4444/out.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 35 (No Auth) - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://79.136.47.231:8083/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 36 (Video) - Turkey",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://91.158.41.198/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 37 (Video) - Russia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://62.20.188.15:89/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 38 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://62.92.246.134:1024/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 39 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://71.115.155.24:93/cam_1.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 40 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://111.68.118.121:11082/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 41 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:12412/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 42 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:12410/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 43 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:12406/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 44 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:12404/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 45 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:12203/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 46 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:11434/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 47 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:11210/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 48 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:10106/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 49 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:9113/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 50 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:9112/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 51 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://111.68.118.121:9103/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 52 (Company A) - China",
+      "enabled": true,
+      "type": "video",
+      "company": "Company A"
+    },
+    {
+      "url": "http://72.142.24.116:10001/axis-cgi/jpg/image.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 53 (Axis) - USA",
+      "enabled": true,
+      "type": "image",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://72.142.24.116:10005/axis-cgi/jpg/image.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 54 (Axis) - USA",
+      "enabled": true,
+      "type": "image",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://72.142.24.116:10013/axis-cgi/jpg/image.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 55 (Axis) - USA",
+      "enabled": true,
+      "type": "image",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://84.59.205.112:10000/GetImage.cgi?CH=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 56 - Germany",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://117.102.180.203:50000/GetImage.cgi?CH=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 57 - South Korea",
+      "enabled": true,
+      "type": "image",
+      "company": "Korea Cams"
+    },
+    {
+      "url": "http://67.82.213.63:8081/GetImage.cgi?CH=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 58 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://220.128.115.31:8085/GetImage.cgi?CH=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 59 - Taiwan",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://87.139.62.155:81/IMAGE.JPG",
+      "username": "",
+      "password": "",
+      "name": "Camera 60 - Germany",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://153.222.169.170:8081/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 61 (Video) - Japan",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://180.57.60.5:8081/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 62 (Video) - South Korea",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://61.44.165.156:8040/IMAGE.JPG",
+      "username": "",
+      "password": "",
+      "name": "Camera 63 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://110.3.32.93:83/IMAGE.JPG",
+      "username": "",
+      "password": "",
+      "name": "Camera 64 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://110.4.178.160:5986/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 65 (Video) - South Korea",
+      "enabled": true,
+      "type": "video",
+      "company": "Korea Multi-Cam"
+    },
+    {
+      "url": "http://119.242.104.211:82/IMAGE.JPG",
+      "username": "",
+      "password": "",
+      "name": "Camera 66 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://125.199.56.127:81/IMAGE.JPG",
+      "username": "",
+      "password": "",
+      "name": "Camera 67 - South Korea",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://117.102.180.203:50000/GetImage.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 68 - South Korea",
+      "enabled": true,
+      "type": "image",
+      "company": "Korea Cams"
+    },
+    {
+      "url": "http://62.2.85.226:8051/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 69 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video",
+      "company": "Netherlands Cams"
+    },
+    {
+      "url": "http://62.2.85.226:8052/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 70 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video",
+      "company": "Netherlands Cams"
+    },
+    {
+      "url": "http://79.52.47.7:3791/eng/liveView.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 71 (Video) - Turkey",
+      "enabled": true,
+      "type": "video",
+      "company": "Turkey Multi-Cam"
+    },
+    {
+      "url": "http://79.52.47.7:9200/eng/liveView.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 72 (Video) - Turkey",
+      "enabled": true,
+      "type": "video",
+      "company": "Turkey Multi-Cam"
+    },
+    {
+      "url": "http://188.193.201.244:84/web/ptz.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 73 - Russia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://79.0.95.68:85/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 74 (Video) - Turkey",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://79.52.47.7:11211/eng/liveView.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 75 (Video) - Turkey",
+      "enabled": true,
+      "type": "video",
+      "company": "Turkey Multi-Cam"
+    },
+    {
+      "url": "http://79.52.47.7:4321/eng/liveView.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 76 (Video) - Turkey",
+      "enabled": true,
+      "type": "video",
+      "company": "Turkey Multi-Cam"
+    },
+    {
+      "url": "http://36.55.48.9:5001/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 77 (Video) - China",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://110.4.178.160:5001/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 78 (Video) - South Korea",
+      "enabled": true,
+      "type": "video",
+      "company": "Korea Multi-Cam"
+    },
+    {
+      "url": "http://61.196.233.106:5001/-wvhttp-01-/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 79 (Video) - South Korea",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://115.65.166.141:5001/cgi-bin/camera",
+      "username": "",
+      "password": "",
+      "name": "Camera 80 (Video) - South Korea",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://114.162.235.129:8089/cgi-bin/camera",
+      "username": "",
+      "password": "",
+      "name": "Camera 81 (Video) - South Korea",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://37.123.131.43:96/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 82 (Video) - Netherlands",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://104.158.1.86:9002/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 83 (Video) - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://82.64.32.236/",
+      "username": "",
+      "password": "",
+      "name": "Camera 84 - Netherlands",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://74.88.252.233/web/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 85 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.51.187.49/web/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 86 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://82.72.192.154/tmpfs/snap.jpg",
+      "username": "user",
+      "password": "user",
+      "name": "Camera 87 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.14.88.219/tmpfs/auto.jpg",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 88 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://62.215.52.101:80",
+      "username": "",
+      "password": "",
+      "name": "Camera 89 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://118.243.218.106:81/portal/js_pane/131?action=controls.Restore",
+      "username": "",
+      "password": "",
+      "name": "Camera 90 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://85.229.58.96/",
+      "username": "",
+      "password": "",
+      "name": "Camera 91 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://94.125.55.139/",
+      "username": "",
+      "password": "",
+      "name": "Camera 92 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://121.123.62.177/image",
+      "username": "",
+      "password": "",
+      "name": "Camera 93 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://176.139.112.250/",
+      "username": "",
+      "password": "",
+      "name": "Camera 94 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://93.38.57.20:8080/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+      "username": "",
+      "password": "",
+      "name": "Camera 95 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://194.32.174.72:80",
+      "username": "",
+      "password": "",
+      "name": "Camera 96 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://2.115.171.20/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 97 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://2.47.47.117/cgi-bin/faststream.jpg?stream=full&fps=15",
+      "username": "",
+      "password": "",
+      "name": "Camera 98 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://2.35.32.6:82/record/current.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 99 (Europe Surveillance) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Europe Surveillance"
+    },
+    {
+      "url": "http://188.12.181.140:82/control/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 100 (Europe Surveillance) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Europe Surveillance"
+    },
+    {
+      "url": "http://93.64.78.83:80",
+      "username": "",
+      "password": "",
+      "name": "Camera 101 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://46.234.223.63:8200/video.mp4?line=1&inst=1&rec=0&buffer_ms=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 102 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://77.108.0.46:8083/control/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 103 (Europe Multi-Port) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Europe Multi-Port"
+    },
+    {
+      "url": "http://79.7.31.219:8090/cgi-bin/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 104 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://213.137.36.178/jpg/image.jpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 105 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://79.7.75.166/cgi-bin/mjpeg?resolution=1280x960&quality=5",
+      "username": "",
+      "password": "",
+      "name": "Camera 106 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://77.89.39.134:1024/cgi-bin/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 107 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://88.149.182.79:8080/control/faststream.jpg?stream=full&fps=4",
+      "username": "",
+      "password": "",
+      "name": "Camera 108 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://84.33.89.170:85",
+      "username": "",
+      "password": "",
+      "name": "Camera 109 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://194.116.34.4/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 110 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://94.94.93.50:50000/live/oneshot.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 111 (Live Stream Systems) - Europe",
+      "enabled": true,
+      "type": "image",
+      "company": "Live Stream Systems"
+    },
+    {
+      "url": "http://94.177.176.113:8080/?action=stream",
+      "username": "",
+      "password": "",
+      "name": "Camera 112 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://37.116.21.2:8083/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 113 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://79.3.196.235/cgi-bin/mjpeg",
+      "username": "",
+      "password": "",
+      "name": "Camera 114 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://77.242.135.139:8082/control/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 115 (Europe Multi-Port) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Europe Multi-Port"
+    },
+    {
+      "url": "http://2.234.120.231:91/control/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 116 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://185.5.196.54:90/control/faststream.jpg?stream=full&fps=12",
+      "username": "",
+      "password": "",
+      "name": "Camera 117 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://213.182.91.27:8082/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+      "username": "",
+      "password": "",
+      "name": "Camera 118 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.143.192.75/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+      "username": "",
+      "password": "",
+      "name": "Camera 119 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://128.116.187.241:81",
+      "username": "admin",
+      "password": "admin",
+      "name": "Camera 120 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://94.32.86.58:8090",
+      "username": "admin",
+      "password": "12345678",
+      "name": "Camera 121 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.231.166.180:86/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 122 (Dual Camera Setup) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Dual Camera Setup"
+    },
+    {
+      "url": "http://185.94.82.113/cgi-bin/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 123 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://185.97.122.32:8080/cgi-bin/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 124 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://185.124.182.119:80",
+      "username": "",
+      "password": "",
+      "name": "Camera 125 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://185.87.69.220:8001/snap.jpg?JpegCam=1",
+      "username": "",
+      "password": "",
+      "name": "Camera 126 (Multi-Channel Security) - Europe",
+      "enabled": true,
+      "type": "image",
+      "company": "Multi-Channel Security"
+    },
+    {
+      "url": "http://188.10.94.195:9000/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 127 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://91.214.60.215/cgi-bin/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 128 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://218.219.214.248:50000/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 129 - Asia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://218.219.195.24/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 130 - Asia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://221.189.116.218:60001/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 131 - Asia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://86.63.39.58:8080/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 132 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://83.48.75.113:8320/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 133 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://213.3.30.80:6001/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 134 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://213.123.122.163:1087/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 135 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://24.134.3.9:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 136 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://80.75.114.18:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 137 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://82.127.206.236:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 138 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://80.254.191.189:8008/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 139 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://77.110.245.165:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 140 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://85.196.146.82:3337/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 141 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://79.161.6.126:9092/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 142 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://185.108.19.197:10800/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 143 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://142.0.109.159:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 144 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://74.95.172.65:8100/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 145 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://77.60.226.189:8012/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 146 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://212.26.235.210:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 147 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://185.74.192.88:85/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 148 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://194.94.76.134:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 149 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://80.245.224.153:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 150 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://213.5.145.4:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 151 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://109.247.15.178:6001/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 152 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://208.124.240.178:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 153 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://82.77.203.219:8080/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 154 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://61.115.78.205:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 155 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://185.226.233.55:8001/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 156 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://74.113.182.246:9600/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 157 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://187.141.142.149:8010/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 158 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://63.42.216.178:8088/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 159 (Axis Communications) - USA",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://194.44.38.196:8083/view/viewer_index.shtml?id=493",
+      "username": "",
+      "password": "",
+      "name": "Camera 160 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://77.89.48.20:8003/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 161 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://89.97.231.70:8083/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 162 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://195.32.24.180:1024/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 163 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://173.165.152.129:8011/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 164 (Axis Communications) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://77.106.164.66:80/#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 165 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://72.253.153.216:81/view/index.shtml",
+      "username": "",
+      "password": "",
+      "name": "Camera 166 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://115.179.100.76:8080/CgiStart?page=Single&Language=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 167 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://185.80.208.125:80/#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 168 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://14.160.87.118:82/live/index.html?Language=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 169 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://58.94.98.44:80/CgiStart?page=Single&Language=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 170 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://212.67.236.61:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 171 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://210.248.127.20:80/CgiStart?page=Single&Language=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 172 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://213.98.123.127:8050/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 173 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://153.156.235.87:80/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 174 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://218.45.173.232:8000/live/index.html?Language=1&ViewMode=pull",
+      "username": "",
+      "password": "",
+      "name": "Camera 175 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.214.62.226:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 176 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://193.90.139.222:33445/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 177 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://193.214.75.118:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 178 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://63.41.124.38:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 179 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://91.133.105.85:50050/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 180 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://87.224.70.147:1884/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 181 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://77.110.203.114:82/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 182 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://85.8.92.1:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 183 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://87.139.9.247:80/#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 184 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://50.197.223.169:80/#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 185 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://109.236.111.203:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 186 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://166.151.98.221:7001/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 187 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://221.189.0.181:80/cgi-bin/guestimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 188 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://50.197.223.170:80/#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 189 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://97.68.104.34:80/aca/index.html#view",
+      "username": "",
+      "password": "",
+      "name": "Camera 190 - USA",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://194.106.254.98:1080/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 191 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://77.222.181.11:8080/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 192 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://220.233.144.165:8888/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 193 - Asia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://204.106.237.68:88/mjpg/1/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 194 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://63.142.190.238:6120/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 195 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://166.149.155.73:7001/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 196 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://213.236.250.78:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 197 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://80.14.201.251:8010/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 198 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://83.136.176.101:10013/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 199 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://153.156.82.99:80/nphMotionJpeg",
+      "username": "",
+      "password": "",
+      "name": "Camera 200 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://89.106.109.144:12060/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 201 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://212.67.231.233:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 202 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://78.31.82.246:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 203 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://67.53.46.161:65123/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 204 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://159.130.70.206:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 205 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://104.243.223.162:8082/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 206 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://212.170.100.189:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 207 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://70.63.123.20:80/mjpg/1/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 208 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://109.109.87.147:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 209 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://62.214.4.38:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 210 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://212.41.248.38:80/cgi-bin/hugesize.jpg?camera=4&motion=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 211 (Multi-Camera Array) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Multi-Camera Array"
+    },
+    {
+      "url": "http://31.132.43.196:81/cgi-bin/fullsize.jpg?camera=2&motion=0",
+      "username": "",
+      "password": "",
+      "name": "Camera 212 (Multi-Camera Array) - Europe",
+      "enabled": true,
+      "type": "video",
+      "company": "Multi-Camera Array"
+    },
+    {
+      "url": "http://61.211.241.239:80/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 213 - Asia",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://37.128.212.84:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 214 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://46.14.58.189:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 215 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://82.134.72.194:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 216 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://78.186.26.188:80/mjpg/1/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 217 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://81.167.114.67:84/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 218 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://202.174.60.121:80/-wvhttp-01-/image.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 219 - Asia",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://199.104.253.4:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 220 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://barbadillodeherreros.dyndns.org:9001/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 221 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://207.194.15.97:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 222 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://webcam.anklam.de:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 223 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://185.49.169.66:1024/control/faststream.jpg?stream=full&fps=16",
+      "username": "",
+      "password": "",
+      "name": "Camera 224 - Europe",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://85.220.149.7:80/cgi-bin/guestimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 225 - Europe",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://minigolf-paderborn.spdns.de:86/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 226 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://cam-mckeldin-eastview.umd.edu:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 227 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://live1.tusten.no:8080/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 228 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://webcam.fairharbormarina.com:80/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 229 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://chalet-chuenis.internet-box.ch:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 230 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://96.91.10.219:80/mjpg/1/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 231 - USA",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://montfarlagne.tacticddns.com:8081/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 232 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://shimamaki-camera.aa0.netvolante.jp:8001/nphMotionJpeg?Resolution=320x240",
+      "username": "",
+      "password": "",
+      "name": "Camera 233 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://oceanmist.ddns.net:8084/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 234 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://webcam2.vilhelmina.se:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 235 (Vilhelmina Municipality) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Vilhelmina Municipality"
+    },
+    {
+      "url": "http://renzo.dyndns.tv:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 236 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://museumhallevik2.ddns.net:9501/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 237 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://webcam1.vilhelmina.se:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 238 (Vilhelmina Municipality) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Vilhelmina Municipality"
+    },
+    {
+      "url": "http://webcam4.vilhelmina.se:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 239 (Vilhelmina Municipality) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Vilhelmina Municipality"
+    },
+    {
+      "url": "http://captainsbounty.dnsalias.com:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 240 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://webcam2.minden-wlan.de:10000/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 241 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "http://webcam3.vilhelmina.se:80/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 242 (Vilhelmina Municipality) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Vilhelmina Municipality"
+    },
+    {
+      "url": "http://nasukashi.aa0.netvolante.jp:8192/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 243 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://mittaghorn.mine.nu:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 244 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://lafarge.sarl2e.fr:3100/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 245 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://eyc.synology.me:10001/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 246 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://camera.sissiboo.com:86/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 247 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://holmen.tplinkdns.com:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 248 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "https://webcam.vliegveldzeeland.nl:7171/axis-cgi/mjpg/video.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 249 (Axis Communications) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Axis Communications"
+    },
+    {
+      "url": "https://webcamrm.loodswezen.nl:443/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 250 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://yakumo-fishing-circle.aa0.netvolante.jp:80/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 251 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://kamera.mikulov.cz:8888/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 252 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://webcam.agf-bw.info:8092/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 253 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://cam0819917993.ddns.komatsuelec.co.jp:80/nphMotionJpeg?Resolution=640x480",
+      "username": "",
+      "password": "",
+      "name": "Camera 254 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://camera6.city.satsumasendai.lg.jp:80/-wvhttp-01-/image.cgi",
+      "username": "",
+      "password": "",
+      "name": "Camera 255 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://cam6284208.miemasu.net:80/nphMotionJpeg",
+      "username": "",
+      "password": "",
+      "name": "Camera 256 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://yukijinjya.st.wakwak.ne.jp:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 257 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://hoybakken.dyndns.org:9876/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 258 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://honjin1.miemasu.net:80/nphMotionJpeg",
+      "username": "",
+      "password": "",
+      "name": "Camera 259 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://casamellow.dyndns.org:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 260 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://abcmaingate.dyndns.info:8081/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 261 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://plassenburg-blick.iyxdveyshavdrmjx.myfritz.net:80/cgi-bin/faststream.jpg?stream=full&fps=25",
+      "username": "",
+      "password": "",
+      "name": "Camera 262 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://skycam.sebewainggigvillage.com:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 263 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://mbr-cam.dyndns.org:8088/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 264 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://koupaliste.velkeopatovice.cz:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 265 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://alatsaeroclub.ddns.net:85/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 266 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://myrafjell.sodvin.no:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 267 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://ferienpenthouse34.spdns.de:4601/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 268 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "https://ipcam-1.byrd.osu.edu:443/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 269 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://mmb.aa1.netvolante.jp:1025/mjpg/video.mjpg?resolution=640x360&compression=50",
+      "username": "",
+      "password": "",
+      "name": "Camera 270 (Dynamic DNS Cameras) - Unknown",
+      "enabled": true,
+      "type": "video",
+      "company": "Dynamic DNS Cameras"
+    },
+    {
+      "url": "http://adlerschanze.selfhost.eu:80/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 271 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://amrescam1.homeip.net:88/control/userimage.html",
+      "username": "",
+      "password": "",
+      "name": "Camera 272 - Unknown",
+      "enabled": true,
+      "type": "image"
+    },
+    {
+      "url": "http://view.dikemes.edu.gr:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 273 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://iyashi-webcam.st.wakwak.ne.jp:80/nphMotionJpeg?Resolution=320x240",
+      "username": "",
+      "password": "",
+      "name": "Camera 274 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://e1480d3b88f7.sn.mynetname.net:91/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 275 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://www.groto.dy.fi:80/mjpg/video.mjpg",
+      "username": "",
+      "password": "",
+      "name": "Camera 276 - Unknown",
+      "enabled": true,
+      "type": "video"
+    },
+    {
+      "url": "http://flightcam3.pr.erau.edu:80/view/view.shtml",
+      "username": "",
+      "password": "",
+      "name": "Camera 277 - Unknown",
+      "enabled": true,
+      "type": "image"
+    }
+  ],
+  "settings": {
+    "cam_width": 384,
+    "cam_height": 288,
+    "fullscreen_width": 1200,
+    "fullscreen_height": 900,
+    "timeout": 10.0,
+    "refresh_delay": 0.3,
+    "web_port": 5000,
+    "web_host": "0.0.0.0",
+    "max_grid_width": 1920,
+    "max_grid_height": 1080,
+    "cameras_per_page": 12,
+    "high_quality": false,
+    "jpeg_quality": 85,
+    "parallel_loading": true,
+    "initial_load_timeout": 15.0
+  }
+}
