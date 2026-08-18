@@ -22,21 +22,13 @@ venv/
 *.log
 surveillance.log
 
-# Recordings (large binary files)
-recordings/
-!recordings/.gitkeep
-*.avi
-*.mp4
-*.mkv
-
 # Cache
 cache/
 !cache/.gitkeep
 *.cache
 
-# Backups
-backups/
-!backups/.gitkeep
+# Large recording files (>50MB)
+recordings/camera_19_Camera 20 (Video) - Russia_20260114_183304.avi
 
 # Screenshots / captures
 grid_capture_*.jpg
