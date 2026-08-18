@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELI6 Webcams - Configuration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tabs {
+            display: flex;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .tab {
+            padding: 1rem 2rem;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .tab.active {
+            border-bottom-color: #4CAF50;
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .camera-list {
+            display: grid;
+            gap: 1rem;
+        }
+        
+        .camera-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .camera-item:hover {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .camera-item.disabled {
+            opacity: 0.5;
+        }
+        
+        .camera-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .camera-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .toggle-switch {
+            position: relative;
+            width: 60px;
+            height: 30px;
+            background: #ccc;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        
+        .toggle-switch.active {
+            background: #4CAF50;
+        }
+        
+        .toggle-slider {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 24px;
+            height: 24px;
+            background: white;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        
+        .toggle-switch.active .toggle-slider {
+            transform: translateX(30px);
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 1rem;
+        }
+        
+        .form-group select {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 1rem;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 1rem;
+        }
+        
+        .btn {
+            background: linear-gradient(45deg, #4CAF50, #45a049);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        
+        .btn.danger {
+            background: linear-gradient(45deg, #f44336, #d32f2f);
+        }
+        
+        .btn.secondary {
+            background: linear-gradient(45deg, #2196F3, #1976D2);
+        }
+        
+        .actions {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            z-index: 1000;
+            transform: translateX(400px);
+            transition: transform 0.3s ease;
+        }
+        
+        .notification.show {
+            transform: translateX(0);
+        }
+        
+        .notification.success {
+            background: #4CAF50;
+        }
+        
+        .notification.error {
+            background: #f44336;
+        }
+        
+        .settings-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .settings-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+        }
+        
+        .settings-section h3 {
+            margin-bottom: 1rem;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚙️ ELI6 Webcams Configuration</h1>
+            <p>Manage your surveillance system settings</p>
+        </div>
+        
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('cameras')">📹 Cameras</div>
+            <div class="tab" onclick="switchTab('settings')">🔧 Settings</div>
+        </div>
+        
+        <div id="cameras-tab" class="tab-content active">
+            <div style="margin-bottom: 1rem;">
+                <button class="btn secondary" onclick="addCamera()">➕ Add Camera</button>
+                <button class="btn" onclick="testAllCameras()">🔍 Test All</button>
+            </div>
+            
+            <div id="camera-list" class="camera-list">
+                <!-- Cameras will be loaded here -->
+            </div>
+        </div>
+        
+        <div id="settings-tab" class="tab-content">
+            <div class="settings-grid">
+                <div class="settings-section">
+                    <h3>Display Settings</h3>
+                    <div class="form-group">
+                        <label>Grid Camera Width</label>
+                        <input type="number" id="cam_width" min="160" max="640" step="10">
+                    </div>
+                    <div class="form-group">
+                        <label>Grid Camera Height</label>
+                        <input type="number" id="cam_height" min="120" max="480" step="10">
+                    </div>
+                    <div class="form-group">
+                        <label>Fullscreen Width</label>
+                        <input type="number" id="fullscreen_width" min="640" max="1920" step="10">
+                    </div>
+                    <div class="form-group">
+                        <label>Fullscreen Height</label>
+                        <input type="number" id="fullscreen_height" min="480" max="1080" step="10">
+                    </div>
+                </div>
+                
+                <div class="settings-section">
+                    <h3>Network Settings</h3>
+                    <div class="form-group">
+                        <label>Connection Timeout (seconds)</label>
+                        <input type="number" id="timeout" min="1" max="30" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label>Refresh Delay (seconds)</label>
+                        <input type="number" id="refresh_delay" min="0.1" max="10" step="0.1">
+                    </div>
+                    <div class="form-group">
+                        <label>Web Server Port</label>
+                        <input type="number" id="web_port" min="1000" max="65535">
+                    </div>
+                    <div class="form-group">
+                        <label>Web Server Host</label>
+                        <input type="text" id="web_host" placeholder="0.0.0.0">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <button class="btn" onclick="saveConfiguration()">💾 Save Configuration</button>
+            <button class="btn secondary" onclick="loadConfiguration()">🔄 Reload</button>
+            <button class="btn danger" onclick="resetToDefaults()">⚠️ Reset to Defaults</button>
+        </div>
+    </div>
+    
+    <div id="notification" class="notification"></div>
+    
+    <script>
+        let cameras = [];
+        let settings = {};
+        
+        function switchTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName + '-tab').classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        function showNotification(message, type = 'success') {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+        
+        function loadConfiguration() {
+            // Load cameras
+            fetch('/api/cameras')
+                .then(response => response.json())
+                .then(data => {
+                    cameras = data;
+                    renderCameras();
+                })
+                .catch(error => {
+                    showNotification('Error loading cameras: ' + error.message, 'error');
+                });
+            
+            // Load settings
+            fetch('/api/settings')
+                .then(response => response.json())
+                .then(data => {
+                    settings = data;
+                    renderSettings();
+                })
+                .catch(error => {
+                    showNotification('Error loading settings: ' + error.message, 'error');
+                });
+        }
+        
+        function renderCameras() {
+            const container = document.getElementById('camera-list');
+            container.innerHTML = '';
+            
+            cameras.forEach((camera, index) => {
+                const item = document.createElement('div');
+                item.className = `camera-item ${camera.enabled ? '' : 'disabled'}`;
+                const cameraTypeIcon = camera.type === 'video' ? '📹' : '📷';
+                const cameraTypeText = camera.type === 'video' ? 'Video Stream' : 'Image Snapshot';
+                item.innerHTML = `
+                    <div class="camera-header">
+                        <div class="camera-name">${cameraTypeIcon} ${camera.name}</div>
+                        <div class="toggle-switch ${camera.enabled ? 'active' : ''}" onclick="toggleCamera(${index})">
+                            <div class="toggle-slider"></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Camera URL</label>
+                            <input type="text" value="${camera.url}" onchange="updateCamera(${index}, 'url', this.value)">
+                        </div>
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" value="${camera.username}" onchange="updateCamera(${index}, 'username', this.value)" ${camera.type === 'video' ? 'placeholder="Not required for video streams"' : ''}>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" value="${camera.password}" onchange="updateCamera(${index}, 'password', this.value)" ${camera.type === 'video' ? 'placeholder="Not required for video streams"' : ''}>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Camera Name</label>
+                            <input type="text" value="${camera.name}" onchange="updateCamera(${index}, 'name', this.value)">
+                        </div>
+                        <div class="form-group">
+                            <label>Camera Type</label>
+                            <select onchange="updateCamera(${index}, 'type', this.value)">
+                                <option value="image" ${camera.type === 'image' ? 'selected' : ''}>📷 Image Snapshot</option>
+                                <option value="video" ${camera.type === 'video' ? 'selected' : ''}>📹 Video Stream</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Status</label>
+                            <div style="color: #4CAF50; font-weight: bold;">${cameraTypeText}</div>
+                        </div>
+                    </div>
+                    <div style="margin-top: 1rem;">
+                        <button class="btn secondary" onclick="testCamera(${index})">🔍 Test</button>
+                        <button class="btn danger" onclick="removeCamera(${index})">🗑️ Remove</button>
+                    </div>
+                `;
+                container.appendChild(item);
+            });
+        }
+        
+        function renderSettings() {
+            Object.keys(settings).forEach(key => {
+                const input = document.getElementById(key);
+                if (input) {
+                    input.value = settings[key];
+                }
+            });
+        }
+        
+        function toggleCamera(index) {
+            cameras[index].enabled = !cameras[index].enabled;
+            renderCameras();
+        }
+        
+        function updateCamera(index, field, value) {
+            cameras[index][field] = value;
+        }
+        
+        function addCamera() {
+            cameras.push({
+                url: 'http://192.168.1.100/web/tmpfs/snap.jpg',
+                username: 'admin',
+                password: 'admin',
+                name: `Camera ${cameras.length + 1}`,
+                enabled: true,
+                type: 'image'
+            });
+            renderCameras();
+        }
+        
+        function removeCamera(index) {
+            if (confirm('Are you sure you want to remove this camera?')) {
+                cameras.splice(index, 1);
+                renderCameras();
+            }
+        }
+        
+        function testCamera(index) {
+            const camera = cameras[index];
+            showNotification(`Testing ${camera.name}...`, 'success');
+            
+            // Simple test by trying to load the image
+            const img = new Image();
+            img.onload = () => {
+                showNotification(`${camera.name} is working!`, 'success');
+            };
+            img.onerror = () => {
+                showNotification(`${camera.name} failed to connect`, 'error');
+            };
+            img.src = camera.url;
+        }
+        
+        function testAllCameras() {
+            showNotification('Testing all cameras...', 'success');
+            cameras.forEach((camera, index) => {
+                if (camera.enabled) {
+                    setTimeout(() => testCamera(index), index * 1000);
+                }
+            });
+        }
+        
+        function saveConfiguration() {
+            // Collect settings from form
+            const newSettings = {};
+            ['cam_width', 'cam_height', 'fullscreen_width', 'fullscreen_height', 
+             'timeout', 'refresh_delay', 'web_port', 'web_host'].forEach(key => {
+                const input = document.getElementById(key);
+                if (input) {
+                    newSettings[key] = input.type === 'number' ? parseFloat(input.value) : input.value;
+                }
+            });
+            
+            // Save cameras
+            fetch('/api/cameras', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(cameras)
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Save settings
+                    return fetch('/api/settings', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify(newSettings)
+                    });
+                } else {
+                    throw new Error(data.message);
+                }
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showNotification('Configuration saved successfully! Restart the application to apply changes.', 'success');
+                } else {
+                    throw new Error(data.message);
+                }
+            })
+            .catch(error => {
+                showNotification('Error saving configuration: ' + error.message, 'error');
+            });
+        }
+        
+        function resetToDefaults() {
+            if (confirm('Are you sure you want to reset to default configuration? This will overwrite all current settings.')) {
+                // This would need to be implemented on the server side
+                showNotification('Reset functionality not implemented yet', 'error');
+            }
+        }
+        
+        // Load configuration on page load
+        document.addEventListener('DOMContentLoaded', loadConfiguration);
+    </script>
+</body>
+</html>
