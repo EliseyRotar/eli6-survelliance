@@ -21,7 +21,7 @@ from urllib3.util.retry import Retry
 UA = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126.0.0.0'
 CSV_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv'
 LOG_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\bf_log.txt'
-CREDS_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\bruteforce\camera_credentials.txt'
+CREDS_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\recon\bruteforce\camera_credentials.txt'
 
 # Auth/Probe URLs by cam family
 CAM_AUTH_URLS = {

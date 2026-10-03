@@ -14,7 +14,7 @@ sys.stdout.reconfigure(line_buffering=True)
 
 CSV_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv'
 LOG_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\trafficvision_v4b_log.txt'
-MISSING_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\tv_missing.json'
+MISSING_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\tv_missing.json'
 
 BATCH_SIZE = 500
 csv.field_size_limit(2**31 - 1)

@@ -181,9 +181,9 @@ CANON_VB_CREDS = [
 ```powershell
 # Start BF as background process
 Start-Process -FilePath "C:\Users\eli6-admin\AppData\Local\Programs\Python\Python312\pythonw.exe" `
-    -ArgumentList "C:\Users\eli6-admin\Documents\eli6-surveillance\bruteforce\vbviewer_bf_cve.py" `
+    -ArgumentList "C:\Users\eli6-admin\Documents\eli6-surveillance\recon\bruteforce\vbviewer_bf_cve.py" `
     -WindowStyle Hidden
 
 # Check progress
-Get-Content "C:\Users\eli6-admin\Documents\eli6-surveillance\bruteforce\vbviewer_bf_cve_progress.json"
+Get-Content "C:\Users\eli6-admin\Documents\eli6-surveillance\recon\bruteforce\vbviewer_bf_cve_progress.json"
 ```

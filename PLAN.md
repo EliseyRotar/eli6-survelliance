@@ -19,11 +19,11 @@
 - Python: `C:\Users\eli6-admin\AppData\Local\Programs\Python\Python312\python.exe`
 
 ## Key files
-- `C:\Users\eli6-admin\Documents\eli6-surveillance\fl511_helpers.py` — server lookup, token fetch
-- `C:\Users\eli6-admin\Documents\eli6-surveillance\hls_proxy.py` — proxy on 8770
-- `C:\Users\eli6-admin\Documents\eli6-surveillance\fl511_token_daemon.py` — token refresh
-- `C:\Users\eli6-admin\Documents\eli6-surveillance\fl511_divas_full_tokens.json` — token cache (4,267 entries)
-- `C:\Users\eli6-admin\Documents\eli6-surveillance\fl511_cams_with_live.json` — source cam metadata
+- `C:\Users\eli6-admin\Documents\eli6-surveillance\services\fl511_helpers.py` — server lookup, token fetch
+- `C:\Users\eli6-admin\Documents\eli6-surveillance\services\hls_proxy.py` — proxy on 8770
+- `C:\Users\eli6-admin\Documents\eli6-surveillance\services\fl511_token_daemon.py` — token refresh
+- `C:\Users\eli6-admin\Documents\eli6-surveillance\data\fl511_divas_full_tokens.json` — token cache (4,267 entries)
+- `C:\Users\eli6-admin\Documents\eli6-surveillance\data\fl511_cams_with_live.json` — source cam metadata
 - `C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv` — master CSV (4,261 fl511 rows in idx 121817+)
 - `C:\Users\eli6-admin\Documents\eli6-surveillance\web_viewer\static\js\player.js` — HLS/MJPEG dispatcher
 - `C:\Users\eli6-admin\Documents\eli6-surveillance\api\app.py` — backend API

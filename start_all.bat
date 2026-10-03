@@ -3,6 +3,18 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 40 update (2026-10-03) - PROJECT REORGANIZATION:
+REM   - Root decluttered: 495 files -> 24 (by-function layout)
+REM   - Services moved to services\ (hls_proxy, skyline, digitraffic,
+REM     fl511_token_daemon, cam_reaper, argus_geocode, fl511_helpers)
+REM   - Scripts -> scripts\{ingest,scan,brute,geo,fix,fl511,misc,launchers}
+REM   - CVE tools -> exploits\, recon folders -> recon\, data -> data\
+REM   - Logs/screenshots -> archive\, docs -> docs\, tools -> tools\
+REM   - 236 hardcoded path references rewritten repo-wide
+REM   - controllable_Webcams.csv + pid files stay at root (hot paths)
+REM   - .gitignore: backups/ (39GB), *.db (5.6GB), CSV >100MB excluded
+REM   - Baseline commit before reorg = restore point (git revert)
+REM
 REM Session 38 update (2026-09-15):
 REM   - 230,024 cams total (was 228,674)
 REM   - +931 ALERTCalifornia cams (UC San Diego HPWREN wildfire cams, all live)
@@ -113,37 +125,37 @@ goto :eof
 :start_hls_proxy
 echo [2/8] Starting fl511 HLS proxy (%HLS_PROXY_PORT%)...
 echo Starting fl511 HLS proxy >> "%LOG_FILE%"
-start "ELI6-fl511" /B cmd /c ""%PY%" "%ROOT%\hls_proxy.py" %HLS_PROXY_PORT% > "%HLS_LOG%" 2>&1"
+start "ELI6-fl511" /B cmd /c ""%PY%" "%ROOT%\services\hls_proxy.py" %HLS_PROXY_PORT% > "%HLS_LOG%" 2>&1"
 goto :eof
 
 :start_skyline
 echo [3/8] Starting Skyline HLS proxy (%SKYLINE_PORT%)...
 echo Starting Skyline HLS proxy >> "%LOG_FILE%"
-start "ELI6-Skyline" /B cmd /c ""%PY%" "%ROOT%\skyline_hls_proxy.py" %SKYLINE_PORT% > "%SKYLINE_LOG%" 2>&1"
+start "ELI6-Skyline" /B cmd /c ""%PY%" "%ROOT%\services\skyline_hls_proxy.py" %SKYLINE_PORT% > "%SKYLINE_LOG%" 2>&1"
 goto :eof
 
 :start_digitraffic
 echo [4/8] Starting Digitraffic proxy (%DIGITRAFFIC_PORT%)...
 echo Starting Digitraffic proxy >> "%LOG_FILE%"
-start "ELI6-Digitraffic" /B cmd /c ""%PY%" "%ROOT%\digitraffic_proxy.py" %DIGITRAFFIC_PORT% > "%DIGITRAFFIC_LOG%" 2>&1"
+start "ELI6-Digitraffic" /B cmd /c ""%PY%" "%ROOT%\services\digitraffic_proxy.py" %DIGITRAFFIC_PORT% > "%DIGITRAFFIC_LOG%" 2>&1"
 goto :eof
 
 :start_token_daemon
 echo [5/8] Starting fl511 token daemon...
 echo Starting fl511 token daemon >> "%LOG_FILE%"
-start "ELI6-TokenDaemon" /B cmd /c ""%PY%" "%ROOT%\fl511_token_daemon.py" > "%TOKEN_LOG%" 2>&1"
+start "ELI6-TokenDaemon" /B cmd /c ""%PY%" "%ROOT%\services\fl511_token_daemon.py" > "%TOKEN_LOG%" 2>&1"
 goto :eof
 
 :start_cam_reaper
 echo [6/8] Starting cam reaper (probe pass)...
 echo Starting cam reaper >> "%LOG_FILE%"
-start "ELI6-Reaper" /B cmd /c ""%PY%" "%ROOT%\cam_reaper.py" probe > "%REAPER_LOG%" 2>&1"
+start "ELI6-Reaper" /B cmd /c ""%PY%" "%ROOT%\services\cam_reaper.py" probe > "%REAPER_LOG%" 2>&1"
 goto :eof
 
 :start_argus_geocode
 echo [7/8] Starting argus geocode (rate-limited 1/sec)...
 echo Starting argus geocode >> "%LOG_FILE%"
-start "ELI6-ArgusGeocode" /B cmd /c ""%PY%" "%ROOT%\argus_geocode.py" > "%NOMINATIM_LOG%" 2>&1"
+start "ELI6-ArgusGeocode" /B cmd /c ""%PY%" "%ROOT%\services\argus_geocode.py" > "%NOMINATIM_LOG%" 2>&1"
 goto :eof
 
 :start_poster_extractor

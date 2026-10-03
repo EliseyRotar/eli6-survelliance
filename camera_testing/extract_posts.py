@@ -5,7 +5,7 @@ import re
 print("=" * 60)
 print("BLOGGER POSTS")
 print("=" * 60)
-with open(r"C:\Users\eli6-admin\Documents\eli6-surveillance\dossier_nolandda\10_full_recon\blogger.html", encoding="utf-8") as f:
+with open(r"C:\Users\eli6-admin\Documents\eli6-surveillance\recon\dossier_nolandda\10_full_recon\blogger.html", encoding="utf-8") as f:
     bg = f.read()
 print(f"Size: {len(bg)}")
 # Find h3 posts (Blogger default)
@@ -41,7 +41,7 @@ print()
 print("=" * 60)
 print("DOCKERHUB HTML")
 print("=" * 60)
-with open(r"C:\Users\eli6-admin\Documents\eli6-surveillance\dossier_nolandda\10_full_recon\dockerhub_user.html", encoding="utf-8") as f:
+with open(r"C:\Users\eli6-admin\Documents\eli6-surveillance\recon\dossier_nolandda\10_full_recon\dockerhub_user.html", encoding="utf-8") as f:
     dh = f.read()
 print(f"Size: {len(dh)}")
 # Look for repositories

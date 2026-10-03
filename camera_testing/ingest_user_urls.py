@@ -27,7 +27,7 @@ import subprocess
 
 CSV_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv'
 LOG_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\ingest_user_log.txt'
-ULTIMATE_BF = r'C:\Users\eli6-admin\Documents\eli6-surveillance\bruteforce\ultimate_bruteforce.py'
+ULTIMATE_BF = r'C:\Users\eli6-admin\Documents\eli6-surveillance\recon\bruteforce\ultimate_bruteforce.py'
 PYTHON = r'C:\Users\eli6-admin\AppData\Local\Programs\Python\Python312\python.exe'
 
 USER_URLS = [

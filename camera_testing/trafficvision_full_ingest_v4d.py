@@ -18,8 +18,8 @@ import random
 sys.stdout.reconfigure(line_buffering=True)
 
 CSV_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv'
-SCRAPE_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\tv_missing_scrape.json'
-MISSING_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\tv_missing.json'
+SCRAPE_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\tv_missing_scrape.json'
+MISSING_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\tv_missing.json'
 LOG_PATH = r'C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\trafficvision_v4d_log.txt'
 
 BATCH_SIZE = 500

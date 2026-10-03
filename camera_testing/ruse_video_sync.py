@@ -11,7 +11,7 @@ import urllib.request
 import urllib.error
 import ssl
 
-OUT_DIR = r"C:\Users\eli6-admin\Documents\eli6-surveillance\dossier_ruse\video_streams"
+OUT_DIR = r"C:\Users\eli6-admin\Documents\eli6-surveillance\recon\dossier_ruse\video_streams"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 URLS_TO_CHECK = [

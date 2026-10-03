@@ -230,7 +230,7 @@ class MJPEGHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Type', 'application/json')
             self.end_headers()
             cams = []
-            csv_path = r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams_vbviewer.csv'
+            csv_path = r'C:\Users\eli6-admin\Documents\eli6-surveillance\archive/csv_backups\controllable_Webcams_vbviewer.csv'
             if os.path.exists(csv_path):
                 import csv as csvmod
                 with open(csv_path, 'r', encoding='utf-8', errors='replace', newline='') as f:

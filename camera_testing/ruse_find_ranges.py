@@ -7,7 +7,7 @@ import urllib.request
 import ssl
 import time
 
-OUT = r"C:\Users\eli6-admin\Documents\eli6-surveillance\dossier_ruse\ip_ranges"
+OUT = r"C:\Users\eli6-admin\Documents\eli6-surveillance\recon\dossier_ruse\ip_ranges"
 os.makedirs(OUT, exist_ok=True)
 
 

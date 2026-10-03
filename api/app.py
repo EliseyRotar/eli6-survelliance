@@ -106,7 +106,7 @@ def _gzip_response(resp):
 # ====== fl511 id lookup ======
 # Map CSV idx -> fl511 image_id (used by player.js to pass cam_id to /stream_url)
 _FLT_IDX_TO_CAMID = {}
-_FLT_IDX_TO_CAMID_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\fl511_idx_to_camid.json')
+_FLT_IDX_TO_CAMID_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\fl511_idx_to_camid.json')
 try:
     if _FLT_IDX_TO_CAMID_PATH.exists():
         with open(_FLT_IDX_TO_CAMID_PATH, encoding='utf-8') as _f:
@@ -1214,8 +1214,8 @@ def api_kcscout_token():
 # a live video feed (the images themselves update every few minutes on the server).
 
 # Cache the cam databases
-_TRANSTAR_LOCAL_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\transtar_local_cams.json')
-_TRANSTAR_REGIONAL_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\transtar_regional_cams.json')
+_TRANSTAR_LOCAL_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\transtar_local_cams.json')
+_TRANSTAR_REGIONAL_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\transtar_regional_cams.json')
 _TRANSTAR_LOCAL = None
 _TRANSTAR_REGIONAL = None
 
@@ -1377,7 +1377,7 @@ def api_satap_poster():
 
 
 # ====== LIVE STREAM MAPPINGS (from TV catalog + autostrade regex) ======
-_LIVE_MAP_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\live_cam_mappings_v2.json')
+_LIVE_MAP_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\data\live_cam_mappings_v2.json')
 _LIVE_MAP = None
 _LIVE_MAP_MTIME = 0
 
