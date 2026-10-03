@@ -1,0 +1,119 @@
+{
+  "cams_scanned": 14,
+  "cams_added": 11,
+  "details": [
+    {
+      "url": "https://images-webcams.windy.com/15/1597690315/current/full/1597690315.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "server_header": "",
+      "brand": "windy",
+      "notes": "ruse bg | Windy 1597690315 | Windy cam image proxy"
+    },
+    {
+      "url": "https://images-webcams.windy.com/15/1793898215/current/full/1793898215.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "server_header": "",
+      "brand": "windy",
+      "notes": "ruse bg | Windy 1793898215 | Windy cam image proxy"
+    },
+    {
+      "url": "https://images-webcams.windy.com/97/1793902097/current/full/1793902097.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "server_header": "",
+      "brand": "windy",
+      "notes": "ruse bg | Windy 1793902097 | Windy cam image proxy"
+    },
+    {
+      "url": "https://www.img.worldcam.pl/webcams/200x113/2026-08-25/14906.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpg",
+      "server_header": "",
+      "brand": "worldcam",
+      "notes": "ruse bg | Worldcam 14906 | Worldcam bg cam (Ruse)"
+    },
+    {
+      "url": "https://www.img.worldcam.pl/webcams/200x113/2026-08-25/24496.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpg",
+      "server_header": "",
+      "brand": "worldcam",
+      "notes": "ruse bg | Worldcam 24496 | Worldcam bg cam (Ruse)"
+    },
+    {
+      "url": "https://www.img.worldcam.pl/webcams/200x113/2026-08-25/2706.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpg",
+      "server_header": "",
+      "brand": "worldcam",
+      "notes": "ruse bg | Worldcam 2706 | Worldcam bg cam (Ruse)"
+    },
+    {
+      "url": "https://www.img.worldcam.pl/webcams/200x113/2026-08-25/37360.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpg",
+      "server_header": "",
+      "brand": "worldcam",
+      "notes": "ruse bg | Worldcam 37360 | Worldcam bg cam (Ruse)"
+    },
+    {
+      "url": "https://www.img.worldcam.pl/webcams/200x113/2026-08-25/40580.jpg",
+      "live_status": "live",
+      "http_status": 200,
+      "content_type": "image/jpg",
+      "server_header": "",
+      "brand": "worldcam",
+      "notes": "ruse bg | Worldcam 40580 | Worldcam bg cam (Ruse)"
+    },
+    {
+      "url": "https://cdn.webcamera24.com/static/image/camera/detail/8438-omv-bala-uastreaming/",
+      "live_status": "auth_required",
+      "http_status": 403,
+      "content_type": "",
+      "server_header": "",
+      "brand": "webcamera24",
+      "notes": "ruse bg | Webcamera24 8438 OMV Bala | OMV Bala streaming (Ruse area)"
+    },
+    {
+      "url": "https://cdn.webcamera24.com/static/image/camera/detail/8565-ueb-kamera-ot-letise-ruse-s-srklevo-uast/",
+      "live_status": "auth_required",
+      "http_status": 404,
+      "content_type": "",
+      "server_header": "",
+      "brand": "webcamera24",
+      "notes": "ruse bg | Webcamera24 8565 Ruse letishte Srklevo | Ruse airport"
+    },
+    {
+      "url": "https://cdn.webcamera24.com/static/image/camera/detail/8566-ueb-kamera-ot-letise-ruse-lbrs-ruse-do-s/",
+      "live_status": "auth_required",
+      "http_status": 404,
+      "content_type": "",
+      "server_header": "",
+      "brand": "webcamera24",
+      "notes": "ruse bg | Webcamera24 8566 Ruse LBRS | Ruse LBRS"
+    }
+  ],
+  "additional_scan_targets": [
+    "212.25.0.1",
+    "212.25.1.1",
+    "212.25.10.1",
+    "212.25.20.1",
+    "212.25.50.1",
+    "212.25.60.1",
+    "212.25.100.1",
+    "212.25.150.1",
+    "77.85.0.1",
+    "77.85.10.1",
+    "77.85.50.1",
+    "77.85.100.1"
+  ]
+}

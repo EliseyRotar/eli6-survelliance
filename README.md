@@ -29,7 +29,7 @@ A professional Python-based multi-camera surveillance system for monitoring IP c
 ## Project Structure
 
 ```
-eli6-survelliance/
+eli6-surveillance/
 ├── src/
 │   ├── webcams.py                  # Main Flask application
 │   ├── test_cameras.py             # Basic camera connectivity test
@@ -106,8 +106,8 @@ pip install opencv-python pillow requests numpy flask psutil
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/EliseyRotar/eli6-survelliance.git
-cd eli6-survelliance
+git clone https://github.com/EliseyRotar/eli6-surveillance.git
+cd eli6-surveillance
 ```
 
 ### 2. Set up a virtual environment

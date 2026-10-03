@@ -1,0 +1,27 @@
+.root {
+    background-color: rgb(245, 245, 245);
+}
+
+.loader {
+    border: 2px solid rgb(220, 220, 220);
+    border-top: 2px solid rgb(255, 204, 51);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

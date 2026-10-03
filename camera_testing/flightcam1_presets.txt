@@ -1,0 +1,11 @@
+root.PTZ.Preset.P0.HomePosition=1
+root.PTZ.Preset.P0.ImageSource=0
+root.PTZ.Preset.P0.Name=
+root.PTZ.Preset.P0.Position.P1.Data=tilt=0.000000:pan=59.498489:focusdiopt=-0.200073:autofocus=off:zoom=1
+root.PTZ.Preset.P0.Position.P1.Name=Home
+root.PTZ.Preset.P0.Position.P2.Data=tilt=0.000000:pan=59.498489:focusdiopt=-0.200073:autofocus=off:zoom=1
+root.PTZ.Preset.P0.Position.P2.Name=Pos2
+root.PTZ.Preset.P0.Position.P3.Data=tilt=0.000000:pan=42.902069:focusdiopt=-0.200073:autofocus=off:zoom=1
+root.PTZ.Preset.P0.Position.P3.Name=Pos3
+root.PTZ.Preset.P0.Position.P4.Data=tilt=0.000000:pan=65.698090:focusdiopt=0.167969:autofocus=off:zoom=9990
+root.PTZ.Preset.P0.Position.P4.Name=Pos4

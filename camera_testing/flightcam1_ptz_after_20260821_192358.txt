@@ -1,0 +1,7 @@
+pan=44.00
+tilt=0.00
+zoom=500
+iris=5000
+focus=8961
+brightness=5000
+autofocus=on

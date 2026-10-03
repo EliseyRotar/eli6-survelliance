@@ -1,0 +1,1541 @@
+[18:52:14] [init] starting FULL TrafficVision.Live ingestion
+[18:52:15] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[18:52:16] [init] 71167 existing live URLs, 926 existing TV IDs
+[18:52:16] [init] resuming from idx 0
+[19:02:26] [init] starting FULL TrafficVision.Live ingestion
+[19:02:27] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:02:28] [init] 71523 existing live URLs, 1086 existing TV IDs
+[19:02:28] [init] resuming from idx 0
+[19:06:29] [init] starting FULL TrafficVision.Live ingestion v2
+[19:06:29] [init] loaded 148575 cams
+[19:11:26] [init] starting FULL TrafficVision.Live ingestion
+[19:11:27] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:12:30] [init] starting FULL TrafficVision.Live ingestion
+[19:12:31] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:12:56] [init] starting FULL TrafficVision.Live ingestion
+[19:12:57] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:14:11] [init] starting FULL TrafficVision.Live ingestion
+[19:14:12] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:14:13] [init] 66983 existing live URLs, 1116 existing TV IDs
+[19:14:13] [init] resuming from idx 0
+[19:16:20] [init] starting FULL TrafficVision.Live ingestion
+[19:16:21] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:16:23] [init] 66983 existing live URLs, 1116 existing TV IDs
+[19:16:23] [init] resuming from idx 0
+[19:18:27] [init] starting FULL TrafficVision.Live ingestion
+[19:18:28] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:18:29] [init] 66983 existing live URLs, 1116 existing TV IDs
+[19:18:29] [init] resuming from idx 0
+[19:29:12] [init] starting FULL TrafficVision.Live ingestion v3
+[19:29:13] [init] loaded 148575 cams
+[19:29:13] [init] header: 35 cols
+[19:29:14] [init] 66983 URLs, 1116 TV IDs, 9121 proj names already in CSV
+[19:29:14] [init] starting from idx 0
+[19:29:14]   build_row err at 13: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:15]   progress idx=1605/148575, added=1000, skipped_dup=604, rate=652/s
+[19:29:16]   progress idx=3431/148575, added=2000, skipped_dup=1430, rate=763/s
+[19:29:19]   progress idx=5787/148575, added=3000, skipped_dup=2786, rate=542/s
+[19:29:20]   progress idx=6787/148575, added=4000, skipped_dup=2786, rate=606/s
+[19:29:23]   progress idx=7787/148575, added=5000, skipped_dup=2786, rate=544/s
+[19:29:29]   progress idx=8787/148575, added=6000, skipped_dup=2786, rate=389/s
+[19:29:35]   progress idx=9787/148575, added=7000, skipped_dup=2786, rate=329/s
+[19:29:37]   progress idx=11290/148575, added=8000, skipped_dup=3289, rate=343/s
+[19:29:38]   progress idx=12290/148575, added=9000, skipped_dup=3289, rate=368/s
+[19:29:39]   progress idx=13371/148575, added=10000, skipped_dup=3370, rate=394/s
+[19:29:42]   progress idx=14371/148575, added=11000, skipped_dup=3370, rate=387/s
+[19:29:42]   build_row err at 14782: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14783: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14784: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14785: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14786: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14787: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14788: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14789: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14790: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14791: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14792: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14793: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14794: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14795: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14796: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14797: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14798: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14799: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14800: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14801: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14802: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14803: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14804: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14805: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14806: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14807: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14808: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14809: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14810: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14811: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14812: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14814: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14815: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14816: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14817: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14818: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14819: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14820: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14821: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14822: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14823: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14824: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14825: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14826: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14827: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14828: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14829: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14830: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14831: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14832: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14833: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14834: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14835: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14836: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14837: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14838: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14839: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14840: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14841: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14842: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14843: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14844: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14845: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14846: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14847: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14848: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14849: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14850: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14851: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14852: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14853: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14854: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14855: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14856: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14857: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14858: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14859: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14861: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14862: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14863: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14864: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14866: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14867: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14868: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14869: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14870: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14871: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14872: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14873: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14875: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14876: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14877: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14878: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14879: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14880: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14881: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14882: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14883: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14884: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14885: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14886: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14887: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14888: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14889: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14890: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14891: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14892: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14893: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14894: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14895: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14896: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14897: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 14936: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:42]   build_row err at 15236: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:47]   progress idx=16106/148575, added=12000, skipped_dup=3991, rate=356/s
+[19:29:50]   progress idx=25224/148575, added=13000, skipped_dup=12109, rate=358/s
+[19:29:52]   progress idx=28788/148575, added=14000, skipped_dup=14673, rate=364/s
+[19:29:53]   progress idx=29788/148575, added=15000, skipped_dup=14673, rate=381/s
+[19:29:53]   build_row err at 30674: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30680: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30686: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30693: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30697: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30700: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30705: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:53]   build_row err at 30706: cannot access local variable 'live_url' where it is not associated with a value
+[19:29:58]   progress idx=31132/148575, added=16000, skipped_dup=15009, rate=359/s
+[19:30:03] [init] starting FULL TrafficVision.Live ingestion v3
+[19:30:03] [init] loaded 148575 cams
+[19:30:03] [init] header: 35 cols
+[19:30:04] [init] 66983 URLs, 1116 TV IDs, 9121 proj names already in CSV
+[19:30:04] [init] starting from idx 16106
+[19:30:08]   progress idx=32168/148575, added=17000, skipped_dup=15045, rate=316/s
+[19:30:10]   progress idx=25224/148575, added=13000, skipped_dup=8118, rate=2170/s
+[19:30:13]   progress idx=28788/148575, added=14000, skipped_dup=10682, rate=1630/s
+[19:30:20]   progress idx=33201/148575, added=18000, skipped_dup=15078, rate=270/s
+[19:30:20]   build_row err at 34614: cannot access local variable 'live_url' where it is not associated with a value
+[19:30:20]   build_row err at 34626: cannot access local variable 'live_url' where it is not associated with a value
+[19:30:23]   progress idx=29788/148575, added=15000, skipped_dup=10682, rate=791/s
+[19:30:24]   progress idx=31132/148575, added=16000, skipped_dup=11018, rate=797/s
+[19:30:25]   progress idx=32168/148575, added=17000, skipped_dup=11054, rate=801/s
+[19:30:28]   progress idx=33201/148575, added=18000, skipped_dup=11087, rate=757/s
+[19:30:32]   progress idx=34815/148575, added=19000, skipped_dup=15690, rate=244/s
+[19:30:33]   progress idx=35985/148575, added=20000, skipped_dup=15860, rate=253/s
+[19:30:33]   build_row err at 36873: cannot access local variable 'live_url' where it is not associated with a value
+[19:30:34]   progress idx=37560/148575, added=21000, skipped_dup=16434, rate=262/s
+[19:30:38]   progress idx=34815/148575, added=19000, skipped_dup=11699, rate=560/s
+[19:30:47]   progress idx=38567/148575, added=22000, skipped_dup=16441, rate=236/s
+[19:30:50]   progress idx=35985/148575, added=20000, skipped_dup=11869, rate=439/s
+[19:30:51]   progress idx=37560/148575, added=21000, skipped_dup=12443, rate=450/s
+[19:30:57]   progress idx=38567/148575, added=22000, skipped_dup=12450, rate=419/s
+[19:30:58]   progress idx=39577/148575, added=23000, skipped_dup=12460, rate=428/s
+[19:31:02]   progress idx=39577/148575, added=23000, skipped_dup=16451, rate=212/s
+[19:31:03]   progress idx=40632/148575, added=24000, skipped_dup=16506, rate=219/s
+[19:31:03]   build_row err at 41311: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:03]   build_row err at 41313: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:03]   build_row err at 41314: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:03]   build_row err at 41315: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:03]   build_row err at 41316: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:03]   build_row err at 41317: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:08]   progress idx=41850/148575, added=25000, skipped_dup=16718, rate=219/s
+[19:31:09]   progress idx=40632/148575, added=24000, skipped_dup=12515, rate=368/s
+[19:31:11]   progress idx=41850/148575, added=25000, skipped_dup=12727, rate=375/s
+[19:31:16]   progress idx=42852/148575, added=26000, skipped_dup=16720, rate=213/s
+[19:31:18]   progress idx=46014/148575, added=27000, skipped_dup=18882, rate=216/s
+[19:31:26]   progress idx=47015/148575, added=28000, skipped_dup=18883, rate=211/s
+[19:31:26]   build_row err at 48696: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:26]   build_row err at 48697: cannot access local variable 'live_url' where it is not associated with a value
+[19:31:28]   progress idx=48904/148575, added=29000, skipped_dup=19770, rate=217/s
+[19:31:28]   WARN: could not acquire lock after 120 attempts
+[19:31:28]   progress idx=42852/148575, added=25000, skipped_dup=12729, rate=299/s
+[19:31:34]   progress idx=46014/148575, added=26000, skipped_dup=14891, rate=288/s
+[19:31:36]   progress idx=47015/148575, added=27000, skipped_dup=14892, rate=295/s
+[19:31:37]   progress idx=48904/148575, added=28000, skipped_dup=15779, rate=303/s
+[19:31:38]   progress idx=51433/148575, added=30000, skipped_dup=21299, rate=208/s
+[19:31:44]   progress idx=51433/148575, added=29000, skipped_dup=17308, rate=290/s
+[19:31:46]   progress idx=52433/148575, added=31000, skipped_dup=21299, rate=204/s
+[19:31:52]   progress idx=53433/148575, added=32000, skipped_dup=21299, rate=202/s
+[19:31:54]   progress idx=54433/148575, added=33000, skipped_dup=21299, rate=206/s
+[19:31:56]   progress idx=55440/148575, added=34000, skipped_dup=21306, rate=210/s
+[19:31:57]   progress idx=56440/148575, added=35000, skipped_dup=21306, rate=214/s
+[19:31:59]   progress idx=57440/148575, added=36000, skipped_dup=21306, rate=218/s
+[19:32:00]   progress idx=58440/148575, added=37000, skipped_dup=21306, rate=222/s
+[19:32:01]   WARN: could not acquire lock after 120 attempts
+[19:32:01]   progress idx=52433/148575, added=29000, skipped_dup=17308, rate=247/s
+[19:32:13]   progress idx=53433/148575, added=30000, skipped_dup=17308, rate=232/s
+[19:32:17]   WARN: could not acquire lock after 120 attempts
+[19:32:17]   progress idx=59588/148575, added=37000, skipped_dup=21454, rate=201/s
+[19:32:18]   progress idx=54433/148575, added=31000, skipped_dup=17308, rate=231/s
+[19:32:20]   progress idx=55440/148575, added=32000, skipped_dup=17315, rate=236/s
+[19:32:21]   progress idx=56440/148575, added=33000, skipped_dup=17315, rate=240/s
+[19:32:23]   progress idx=57440/148575, added=34000, skipped_dup=17315, rate=245/s
+[19:32:28]   progress idx=60603/148575, added=38000, skipped_dup=21469, rate=195/s
+[19:32:33]   progress idx=58440/148575, added=35000, skipped_dup=17315, rate=235/s
+[19:32:34]   progress idx=59588/148575, added=36000, skipped_dup=17463, rate=240/s
+[19:32:41]   progress idx=60603/148575, added=37000, skipped_dup=17478, rate=236/s
+[19:32:46]   WARN: could not acquire lock after 120 attempts
+[19:32:46]   progress idx=62935/148575, added=38000, skipped_dup=22801, rate=179/s
+[19:32:50]   progress idx=64181/148575, added=39000, skipped_dup=23047, rate=180/s
+[19:32:51]   progress idx=65181/148575, added=40000, skipped_dup=23047, rate=184/s
+[19:32:53]   progress idx=66181/148575, added=41000, skipped_dup=23047, rate=187/s
+[19:32:54]   progress idx=67224/148575, added=42000, skipped_dup=23090, rate=191/s
+[19:32:58]   progress idx=62935/148575, added=38000, skipped_dup=18810, rate=219/s
+[19:32:59]   progress idx=64181/148575, added=39000, skipped_dup=19056, rate=222/s
+[19:33:05]   progress idx=68680/148575, added=43000, skipped_dup=23546, rate=186/s
+[19:33:07]   progress idx=70793/148575, added=44000, skipped_dup=24659, rate=189/s
+[19:33:16]   WARN: could not acquire lock after 120 attempts
+[19:33:16]   progress idx=65181/148575, added=39000, skipped_dup=19056, rate=203/s
+[19:33:24]   WARN: could not acquire lock after 120 attempts
+[19:33:24]   progress idx=72535/148575, added=44000, skipped_dup=25401, rate=176/s
+[19:33:27]   progress idx=73649/148575, added=45000, skipped_dup=25515, rate=178/s
+[19:33:28]   progress idx=66181/148575, added=40000, skipped_dup=19056, rate=197/s
+[19:33:29]   progress idx=74714/148575, added=46000, skipped_dup=25580, rate=180/s
+[19:33:30]   progress idx=76407/148575, added=47000, skipped_dup=26273, rate=183/s
+[19:33:32]   progress idx=78630/148575, added=48000, skipped_dup=27496, rate=185/s
+[19:33:34]   progress idx=79658/148575, added=49000, skipped_dup=27524, rate=189/s
+[19:33:38]   progress idx=67224/148575, added=41000, skipped_dup=19099, rate=192/s
+[19:33:39]   progress idx=80709/148575, added=50000, skipped_dup=27575, rate=188/s
+[19:33:39]   build_row err at 81007: cannot access local variable 'live_url' where it is not associated with a value
+[19:33:39]   build_row err at 81568: cannot access local variable 'live_url' where it is not associated with a value
+[19:33:41]   progress idx=81824/148575, added=51000, skipped_dup=27688, rate=191/s
+[19:33:41]   build_row err at 81927: cannot access local variable 'live_url' where it is not associated with a value
+[19:33:42]   progress idx=83049/148575, added=52000, skipped_dup=27912, rate=194/s
+[19:33:43]   progress idx=84049/148575, added=53000, skipped_dup=27912, rate=197/s
+[19:33:44]   progress idx=68680/148575, added=42000, skipped_dup=19555, rate=191/s
+[19:33:45]   progress idx=70793/148575, added=43000, skipped_dup=20668, rate=195/s
+[19:33:46]   progress idx=72535/148575, added=44000, skipped_dup=21410, rate=198/s
+[19:33:48]   progress idx=85072/148575, added=54000, skipped_dup=27935, rate=197/s
+[19:33:49]   progress idx=73649/148575, added=45000, skipped_dup=21524, rate=200/s
+[19:33:53]   progress idx=74714/148575, added=46000, skipped_dup=21589, rate=201/s
+[19:33:55]   progress idx=76407/148575, added=47000, skipped_dup=22282, rate=204/s
+[19:33:56]   progress idx=86074/148575, added=55000, skipped_dup=27937, rate=195/s
+[19:34:02]   progress idx=87074/148575, added=56000, skipped_dup=27937, rate=194/s
+[19:34:03]   progress idx=78630/148575, added=48000, skipped_dup=23505, rate=201/s
+[19:34:04]   progress idx=79658/148575, added=49000, skipped_dup=23533, rate=204/s
+[19:34:05]   progress idx=88075/148575, added=57000, skipped_dup=27938, rate=196/s
+[19:34:09]   progress idx=89075/148575, added=58000, skipped_dup=27938, rate=196/s
+[19:34:14]   progress idx=90075/148575, added=59000, skipped_dup=27938, rate=197/s
+[19:34:15]   progress idx=91079/148575, added=60000, skipped_dup=27942, rate=199/s
+[19:34:15]   build_row err at 91523: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91524: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91525: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91526: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91527: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91528: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91529: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91531: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91532: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91533: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91534: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91535: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91536: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91537: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91538: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91539: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91540: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91541: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91542: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91543: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91544: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91545: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91546: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91547: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91548: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91549: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91550: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91551: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91552: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91553: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91554: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91555: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91556: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91557: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91558: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91559: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91560: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91561: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91562: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91563: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91564: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91565: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91566: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91567: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91568: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91569: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91570: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91571: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91572: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91573: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91574: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91575: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91576: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91577: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91578: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91579: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91580: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91581: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91582: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91583: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91584: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91585: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91586: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91587: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91588: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91589: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91590: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91591: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91592: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91593: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91594: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91595: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91596: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91597: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91598: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91599: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91600: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91601: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91602: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91603: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91604: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91605: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91606: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91607: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91608: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91609: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91610: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91611: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91612: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91613: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91614: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91615: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91616: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91617: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91618: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91619: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91620: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91621: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91622: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91623: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91624: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91625: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91626: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91627: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91628: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91629: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91630: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91631: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91632: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91633: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91634: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91635: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91636: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91637: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91638: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91639: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91640: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91641: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91642: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91643: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91644: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91645: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91646: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91647: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91648: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91649: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91650: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91651: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91652: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91653: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91654: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91655: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91656: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91657: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91658: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91659: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91660: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91661: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91662: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91663: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91664: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91665: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91666: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91667: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91668: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91669: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91670: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91671: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91672: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91673: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91674: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91675: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91676: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91677: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91678: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91679: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91680: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91681: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91682: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91683: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91684: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91685: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91686: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91687: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91688: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91689: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91690: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91691: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91692: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91693: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91694: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91695: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91696: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91697: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91698: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91699: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91700: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91701: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91702: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91703: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91704: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91705: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91706: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91707: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91708: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91709: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91710: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91711: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91712: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91713: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91714: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91715: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91716: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91717: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91718: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91719: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91720: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91721: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91722: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91723: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91724: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91725: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91726: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91727: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91728: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91729: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91730: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91731: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91732: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91733: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91734: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91735: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91736: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91737: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91738: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91739: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91740: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91741: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91742: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91743: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91744: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91745: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91746: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91747: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91748: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91749: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:15]   build_row err at 91750: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:19]   progress idx=93330/148575, added=61000, skipped_dup=28966, rate=200/s
+[19:34:20]   progress idx=94581/148575, added=62000, skipped_dup=29217, rate=202/s
+[19:34:24]   progress idx=98428/148575, added=63000, skipped_dup=32064, rate=203/s
+[19:34:26]   progress idx=99598/148575, added=64000, skipped_dup=32234, rate=205/s
+[19:34:27]   progress idx=100736/148575, added=65000, skipped_dup=32372, rate=207/s
+[19:34:28]   progress idx=102102/148575, added=66000, skipped_dup=32738, rate=210/s
+[19:34:30]   progress idx=104304/148575, added=67000, skipped_dup=33940, rate=212/s
+[19:34:31]   progress idx=106980/148575, added=68000, skipped_dup=35616, rate=214/s
+[19:34:32]   progress idx=108753/148575, added=69000, skipped_dup=36389, rate=217/s
+[19:34:32]   build_row err at 108977: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108978: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108979: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108980: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108981: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108982: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108983: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108984: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108985: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 108988: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:32]   build_row err at 109524: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:33]   progress idx=110476/148575, added=70000, skipped_dup=37101, rate=219/s
+[19:34:33]   build_row err at 110618: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:33]   build_row err at 111186: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:36]   progress idx=111627/148575, added=71000, skipped_dup=37250, rate=220/s
+[19:34:36]   build_row err at 112110: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:36]   build_row err at 112111: cannot access local variable 'live_url' where it is not associated with a value
+[19:34:39]   progress idx=112795/148575, added=72000, skipped_dup=37416, rate=222/s
+[19:34:40]   progress idx=113795/148575, added=73000, skipped_dup=37416, rate=224/s
+[19:36:31] [init] starting FULL TrafficVision.Live ingestion
+[19:36:32] [init] loaded 148575 cams from C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\tv_catalog_full.json
+[19:36:33] [init] 66983 existing live URLs, 1116 existing TV IDs
+[19:36:33] [init] resuming from idx 99598
+[19:40:49] [init] starting FULL TrafficVision.Live ingestion v3
+[19:40:50] [init] loaded 148575 cams
+[19:40:50] [init] header: 35 cols
+[19:40:50] [init] 66983 URLs, 1116 TV IDs, 9121 proj names already in CSV
+[19:40:50] [init] starting from idx 99598
+[19:40:53]   progress idx=100731/148575, added=65000, skipped_dup=133, rate=21104/s
+[19:40:54]   progress idx=101975/148575, added=66000, skipped_dup=377, rate=15766/s
+[19:40:55]   progress idx=103064/148575, added=67000, skipped_dup=466, rate=13206/s
+[19:40:56]   progress idx=104085/148575, added=68000, skipped_dup=487, rate=11071/s
+[19:40:57]   progress idx=105124/148575, added=69000, skipped_dup=526, rate=9551/s
+[19:40:59]   progress idx=108536/148575, added=70000, skipped_dup=2938, rate=8372/s
+[19:41:09]   progress idx=109978/148575, added=71000, skipped_dup=3380, rate=3830/s
+[19:41:10]   progress idx=111171/148575, added=72000, skipped_dup=3573, rate=3664/s
+[19:41:15]   progress idx=112320/148575, added=73000, skipped_dup=3722, rate=2994/s
+[19:41:16]   progress idx=113333/148575, added=74000, skipped_dup=3735, rate=2927/s
+[19:41:17]   progress idx=114333/148575, added=75000, skipped_dup=3735, rate=2845/s
+[19:41:22]   progress idx=115333/148575, added=76000, skipped_dup=3735, rate=2386/s
+[19:41:23]   progress idx=116333/148575, added=77000, skipped_dup=3735, rate=2336/s
+[19:41:25]   progress idx=117333/148575, added=78000, skipped_dup=3735, rate=2226/s
+[19:41:28]   progress idx=118335/148575, added=79000, skipped_dup=3737, rate=2099/s
+[19:41:31]   progress idx=119335/148575, added=80000, skipped_dup=3737, rate=1954/s
+[19:41:32]   progress idx=120363/148575, added=81000, skipped_dup=3765, rate=1924/s
+[19:41:33]   progress idx=121363/148575, added=82000, skipped_dup=3765, rate=1898/s
+[19:41:35]   progress idx=122458/148575, added=83000, skipped_dup=3860, rate=1872/s
+[19:41:44]   progress idx=123510/148575, added=84000, skipped_dup=3912, rate=1568/s
+[19:41:46]   progress idx=124510/148575, added=85000, skipped_dup=3912, rate=1512/s
+[19:41:48]   progress idx=125510/148575, added=86000, skipped_dup=3912, rate=1500/s
+[19:41:48]   progress idx=126510/148575, added=87000, skipped_dup=3912, rate=1493/s
+[19:41:50]   progress idx=127788/148575, added=88000, skipped_dup=4190, rate=1482/s
+[19:41:51]   progress idx=128957/148575, added=89000, skipped_dup=4359, rate=1472/s
+[19:41:52]   progress idx=129957/148575, added=90000, skipped_dup=4359, rate=1462/s
+[19:41:53]   progress idx=130970/148575, added=91000, skipped_dup=4372, rate=1452/s
+[19:41:54]   progress idx=132053/148575, added=92000, skipped_dup=4455, rate=1442/s
+[19:41:55]   progress idx=133241/148575, added=93000, skipped_dup=4643, rate=1434/s
+[19:41:56]   progress idx=134347/148575, added=94000, skipped_dup=4749, rate=1425/s
+[19:42:00]   progress idx=135357/148575, added=95000, skipped_dup=4759, rate=1359/s
+[19:42:02]   progress idx=136372/148575, added=96000, skipped_dup=4774, rate=1343/s
+[19:42:04]   progress idx=137372/148575, added=97000, skipped_dup=4774, rate=1310/s
+[19:42:07]   progress idx=138397/148575, added=98000, skipped_dup=4799, rate=1276/s
+[19:42:10]   progress idx=140535/148575, added=99000, skipped_dup=5937, rate=1246/s
+[19:42:15]   progress idx=142631/148575, added=100000, skipped_dup=7033, rate=1174/s
+[19:42:17]   progress idx=144453/148575, added=101000, skipped_dup=7855, rate=1167/s
+[19:42:20]   progress idx=145898/148575, added=102000, skipped_dup=8300, rate=1140/s
+[19:42:21]   progress idx=146898/148575, added=103000, skipped_dup=8300, rate=1140/s
+[19:42:22]   progress idx=147898/148575, added=104000, skipped_dup=8300, rate=1137/s
+[19:42:23] [done] added 104676 cams, skipped 8301 dups + 0 invalid, in 92.8s (1128/s)
+[19:44:10] [init] starting FULL TrafficVision.Live ingestion v3
+[19:44:11] [init] loaded 148575 cams
+[19:44:11] [init] header: 35 cols
+[19:44:11] [init] 66983 URLs, 1116 TV IDs, 9121 proj names already in CSV
+[19:44:11] [init] starting from idx 130970
+[19:44:17]   progress idx=131985/148575, added=92000, skipped_dup=15, rate=16540/s
+[19:44:23]   progress idx=133036/148575, added=93000, skipped_dup=66, rate=7819/s
+[19:44:26]   progress idx=134146/148575, added=94000, skipped_dup=176, rate=6587/s
+[19:44:27]   progress idx=135155/148575, added=95000, skipped_dup=185, rate=6167/s
+[19:44:29]   progress idx=136171/148575, added=96000, skipped_dup=201, rate=5335/s
+[19:44:35]   progress idx=137171/148575, added=97000, skipped_dup=201, rate=4128/s
+[19:44:36]   progress idx=138179/148575, added=98000, skipped_dup=209, rate=4006/s
+[19:44:43]   progress idx=140295/148575, added=99000, skipped_dup=1325, rate=3163/s
+[19:44:48]   progress idx=142178/148575, added=100000, skipped_dup=2208, rate=2730/s
+[19:44:49]   progress idx=144208/148575, added=101000, skipped_dup=3238, rate=2684/s
+[19:44:56]   progress idx=145654/148575, added=102000, skipped_dup=3684, rate=2300/s
+[19:44:57]   progress idx=146654/148575, added=103000, skipped_dup=3684, rate=2262/s
+[19:44:58]   progress idx=147654/148575, added=104000, skipped_dup=3684, rate=2224/s
+[19:44:59] [done] added 104920 cams, skipped 3685 dups + 0 invalid, in 48.0s (2186/s)
+[19:45:27] [init] starting FULL TrafficVision.Live ingestion v3
+[19:45:27] [init] loaded 148575 cams
+[19:45:27] [init] header: 35 cols
+[19:45:28] [init] 80949 URLs, 15036 TV IDs, 22626 proj names already in CSV
+[19:45:28] [init] starting from idx 140295
+[19:45:28] [done] added 99000 cams, skipped 8280 dups + 0 invalid, in 0.0s (99000/s)
+[19:46:49] [init] starting FULL TrafficVision.Live ingestion v3
+[19:46:49] [init] loaded 148575 cams
+[19:46:49] [init] header: 35 cols
+[19:46:50] [init] 81005 URLs, 15036 TV IDs, 22670 proj names already in CSV
+[19:46:50] [init] starting from idx 0
+[19:46:52]   progress idx=1605/148575, added=1000, skipped_dup=605, rate=415/s
+[19:46:54]   progress idx=3431/148575, added=2000, skipped_dup=1431, rate=515/s
+[19:47:00]   progress idx=5787/148575, added=3000, skipped_dup=2787, rate=310/s
+[19:47:07]   progress idx=6787/148575, added=4000, skipped_dup=2787, rate=238/s
+[19:47:08]   progress idx=7787/148575, added=5000, skipped_dup=2787, rate=273/s
+[19:47:10]   progress idx=8787/148575, added=6000, skipped_dup=2787, rate=302/s
+[19:47:14]   progress idx=9787/148575, added=7000, skipped_dup=2787, rate=292/s
+[19:47:20]   progress idx=11290/148575, added=8000, skipped_dup=3290, rate=269/s
+[19:47:23]   progress idx=12290/148575, added=9000, skipped_dup=3290, rate=272/s
+[19:47:25]   progress idx=13371/148575, added=10000, skipped_dup=3371, rate=288/s
+[19:47:26]   progress idx=14371/148575, added=11000, skipped_dup=3371, rate=304/s
+[19:47:30]   progress idx=15736/148575, added=12000, skipped_dup=3736, rate=303/s
+[19:47:37]   progress idx=22477/148575, added=13000, skipped_dup=9477, rate=279/s
+[19:47:47]   progress idx=28676/148575, added=14000, skipped_dup=14676, rate=245/s
+[19:47:51]   progress idx=29676/148575, added=15000, skipped_dup=14676, rate=248/s
+[19:47:54]   progress idx=30704/148575, added=16000, skipped_dup=14704, rate=250/s
+[19:47:56]   progress idx=31759/148575, added=17000, skipped_dup=14759, rate=258/s
+[19:47:59]   progress idx=32832/148575, added=18000, skipped_dup=14832, rate=261/s
+[19:48:01]   progress idx=33906/148575, added=19000, skipped_dup=14906, rate=269/s
+[19:48:04]   progress idx=35179/148575, added=20000, skipped_dup=15179, rate=269/s
+[19:48:06]   progress idx=36394/148575, added=21000, skipped_dup=15394, rate=276/s
+[19:48:08]   progress idx=37843/148575, added=22000, skipped_dup=15843, rate=283/s
+[19:48:13]   progress idx=38850/148575, added=23000, skipped_dup=15850, rate=277/s
+[19:48:22]   progress idx=39865/148575, added=24000, skipped_dup=15865, rate=260/s
+[19:48:24]   progress idx=40922/148575, added=25000, skipped_dup=15922, rate=265/s
+[19:48:30]   progress idx=42001/148575, added=26000, skipped_dup=16001, rate=260/s
+[19:48:31]   progress idx=43001/148575, added=27000, skipped_dup=16001, rate=266/s
+[19:48:39]   progress idx=46164/148575, added=28000, skipped_dup=18164, rate=256/s
+[19:48:41]   progress idx=47165/148575, added=29000, skipped_dup=18165, rate=261/s
+[19:48:43]   progress idx=49712/148575, added=30000, skipped_dup=19712, rate=266/s
+[19:48:45]   progress idx=51584/148575, added=31000, skipped_dup=20584, rate=270/s
+[19:48:47]   progress idx=52584/148575, added=32000, skipped_dup=20584, rate=274/s
+[19:48:56]   progress idx=53584/148575, added=33000, skipped_dup=20584, rate=262/s
+[19:48:58]   progress idx=54584/148575, added=34000, skipped_dup=20584, rate=266/s
+[19:49:04]   progress idx=55591/148575, added=35000, skipped_dup=20591, rate=262/s
+[19:49:08]   progress idx=56591/148575, added=36000, skipped_dup=20591, rate=261/s
+[19:49:10]   progress idx=57591/148575, added=37000, skipped_dup=20591, rate=264/s
+[19:49:15]   progress idx=58591/148575, added=38000, skipped_dup=20591, rate=261/s
+[19:49:19]   progress idx=59739/148575, added=39000, skipped_dup=20739, rate=262/s
+[19:49:24]   progress idx=60876/148575, added=40000, skipped_dup=20876, rate=260/s
+[19:49:28]   progress idx=63089/148575, added=41000, skipped_dup=22089, rate=260/s
+[19:49:44]   progress idx=64335/148575, added=42000, skipped_dup=22335, rate=242/s
+[19:49:46]   progress idx=65335/148575, added=43000, skipped_dup=22335, rate=245/s
+[19:49:50]   progress idx=66336/148575, added=44000, skipped_dup=22336, rate=245/s
+[19:49:52]   progress idx=67380/148575, added=45000, skipped_dup=22380, rate=247/s
+[19:49:54]   progress idx=68835/148575, added=46000, skipped_dup=22835, rate=250/s
+[19:49:56]   progress idx=71192/148575, added=47000, skipped_dup=24192, rate=252/s
+[19:50:03]   progress idx=72805/148575, added=48000, skipped_dup=24805, rate=249/s
+[19:50:05]   progress idx=73805/148575, added=49000, skipped_dup=24805, rate=252/s
+[19:50:13]   progress idx=75096/148575, added=50000, skipped_dup=25096, rate=246/s
+[19:50:28]   progress idx=76834/148575, added=51000, skipped_dup=25834, rate=233/s
+[19:50:31]   progress idx=78987/148575, added=52000, skipped_dup=26987, rate=236/s
+[19:50:36]   progress idx=80185/148575, added=53000, skipped_dup=27185, rate=235/s
+[19:50:40]   progress idx=81366/148575, added=54000, skipped_dup=27366, rate=234/s
+[19:50:43]   progress idx=82667/148575, added=55000, skipped_dup=27667, rate=237/s
+[19:50:49]   progress idx=83667/148575, added=56000, skipped_dup=27667, rate=234/s
+[19:50:54]   progress idx=84683/148575, added=57000, skipped_dup=27683, rate=234/s
+[19:51:05]   progress idx=85691/148575, added=58000, skipped_dup=27691, rate=227/s
+[19:51:08]   progress idx=86692/148575, added=59000, skipped_dup=27692, rate=229/s
+[19:51:10]   progress idx=87693/148575, added=60000, skipped_dup=27693, rate=231/s
+[19:51:17]   progress idx=88693/148575, added=61000, skipped_dup=27693, rate=229/s
+[19:51:22]   progress idx=89693/148575, added=62000, skipped_dup=27693, rate=228/s
+[19:51:31]   progress idx=90693/148575, added=63000, skipped_dup=27693, rate=224/s
+[19:51:46]   progress idx=91850/148575, added=64000, skipped_dup=27850, rate=216/s
+[19:51:53]   progress idx=93768/148575, added=65000, skipped_dup=28768, rate=214/s
+[19:51:56]   progress idx=94825/148575, added=66000, skipped_dup=28825, rate=216/s
+[19:52:00]   progress idx=98685/148575, added=67000, skipped_dup=31685, rate=216/s
+[19:52:03]   progress idx=99720/148575, added=68000, skipped_dup=31720, rate=217/s
+[19:52:13]   progress idx=100856/148575, added=69000, skipped_dup=31856, rate=213/s
+[19:52:16]   progress idx=102355/148575, added=70000, skipped_dup=32355, rate=215/s
+[19:52:24]   progress idx=104467/148575, added=71000, skipped_dup=33467, rate=213/s
+[19:52:31]   progress idx=107898/148575, added=72000, skipped_dup=35898, rate=211/s
+[19:52:37]   progress idx=108898/148575, added=73000, skipped_dup=35898, rate=211/s
+[19:52:39]   progress idx=110634/148575, added=74000, skipped_dup=36634, rate=212/s
+[19:52:47]   progress idx=111768/148575, added=75000, skipped_dup=36768, rate=210/s
+[19:52:52]   progress idx=112935/148575, added=76000, skipped_dup=36935, rate=210/s
+[19:53:03]   progress idx=113935/148575, added=77000, skipped_dup=36935, rate=207/s
+[19:53:10]   progress idx=114935/148575, added=78000, skipped_dup=36935, rate=205/s
+[19:53:21]   progress idx=115935/148575, added=79000, skipped_dup=36935, rate=202/s
+[19:53:23]   progress idx=116935/148575, added=80000, skipped_dup=36935, rate=203/s
+[19:53:26]   progress idx=117936/148575, added=81000, skipped_dup=36936, rate=205/s
+[19:53:29]   progress idx=118940/148575, added=82000, skipped_dup=36940, rate=206/s
+[19:53:34]   progress idx=119971/148575, added=83000, skipped_dup=36971, rate=205/s
+[19:53:40]   progress idx=120971/148575, added=84000, skipped_dup=36971, rate=205/s
+[19:53:51]   progress idx=122066/148575, added=85000, skipped_dup=37066, rate=202/s
+[19:54:08]   WARN: could not acquire lock after 120 attempts
+[19:54:08]   progress idx=123118/148575, added=85000, skipped_dup=37118, rate=194/s
+[19:54:24]   progress idx=124118/148575, added=86000, skipped_dup=37118, rate=189/s
+[19:54:29]   progress idx=125118/148575, added=87000, skipped_dup=37118, rate=189/s
+[19:54:41]   progress idx=126118/148575, added=88000, skipped_dup=37118, rate=187/s
+[19:54:53]   progress idx=127474/148575, added=89000, skipped_dup=37474, rate=184/s
+[19:55:04]   progress idx=128639/148575, added=90000, skipped_dup=37639, rate=182/s
+[19:55:07]   progress idx=129645/148575, added=91000, skipped_dup=37645, rate=183/s
+[19:55:23]   progress idx=130645/148575, added=92000, skipped_dup=37645, rate=179/s
+[19:55:29] [done] added 92311 cams, skipped 55264 dups + 0 invalid, in 518.6s (178/s)
+[20:57:09] [init] starting FULL TrafficVision.Live ingestion v3
+[20:57:09] [init] loaded 148575 cams
+[20:57:09] [init] header: 35 cols
+[20:57:11] [init] 174654 URLs, 107185 TV IDs, 110760 proj names already in CSV
+[20:57:11] [init] starting from idx 130645
+[20:57:11] [done] added 92000 cams, skipped 17930 dups + 0 invalid, in 0.1s (92000/s)
+[20:58:10] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[20:58:12] [init] loaded 148575 cams
+[20:58:12] [init] header: 35 cols
+[20:58:13] [cycle 1] 174675 URLs, 107185 TV IDs in CSV
+[20:58:13] [cycle 1] starting from idx 130645
+[20:58:14] [cycle 1 done] added 0 cams, skipped 17930 dups + 0 invalid, in 0.1s (0/s)
+[20:58:14] [cycle] sleeping 30 min before next cycle...
+[21:17:08] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[21:17:09] [init] loaded 148575 cams
+[21:17:09] [init] header: 35 cols
+[21:17:11] [cycle 1] 174970 URLs, 107185 TV IDs in CSV
+[21:17:11] [cycle 1] starting from idx 0
+[21:17:29]   WARN: could not acquire lock after 120 attempts
+[21:17:29]   progress idx=123089/148575, added=0, skipped_dup=122089, rate=0/s
+[21:17:36] [cycle 1 done] added 29 cams, skipped 147546 dups + 0 invalid, in 24.7s (1/s)
+[21:17:36] [cycle] sleeping 30 min before next cycle...
+[21:47:38] [cycle 2] 175352 URLs, 106993 TV IDs in CSV
+[21:47:38] [cycle 2] starting from idx 0
+[21:47:44]   progress idx=122818/148575, added=1000, skipped_dup=121818, rate=163/s
+[21:47:52] [cycle 2 done] added 1219 cams, skipped 147356 dups + 0 invalid, in 13.9s (87/s)
+[21:47:52] [cycle] sleeping 30 min before next cycle...
+[22:17:53] [cycle 3] 177117 URLs, 108183 TV IDs in CSV
+[22:17:53] [cycle 3] starting from idx 0
+[22:17:58] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.7s (6/s)
+[22:17:58] [cycle] sleeping 30 min before next cycle...
+[22:47:59] [cycle 4] 177836 URLs, 108183 TV IDs in CSV
+[22:47:59] [cycle 4] starting from idx 0
+[22:48:14] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 14.6s (2/s)
+[22:48:14] [cycle] sleeping 30 min before next cycle...
+[23:18:16] [cycle 5] 178724 URLs, 108183 TV IDs in CSV
+[23:18:16] [cycle 5] starting from idx 0
+[23:18:20] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.4s (7/s)
+[23:18:20] [cycle] sleeping 30 min before next cycle...
+[00:05:10] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[00:05:11] [init] loaded 148575 cams
+[00:05:11] [init] header: 35 cols
+[00:05:14] [cycle 1] 178837 URLs, 108183 TV IDs in CSV
+[00:05:14] [cycle 1] starting from idx 0
+[00:05:20] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.7s (5/s)
+[00:05:20] [cycle] sleeping 30 min before next cycle...
+[00:35:22] [cycle 2] 179427 URLs, 108183 TV IDs in CSV
+[00:35:22] [cycle 2] starting from idx 0
+[00:35:40]   WARN: could not acquire lock after 120 attempts
+[00:35:40] [cycle 2 done] added 0 cams, skipped 148546 dups + 0 invalid, in 18.1s (0/s)
+[00:35:40] [cycle] sleeping 30 min before next cycle...
+[01:05:42] [cycle 3] 180098 URLs, 108183 TV IDs in CSV
+[01:05:42] [cycle 3] starting from idx 0
+[01:05:48] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 6.0s (5/s)
+[01:05:48] [cycle] sleeping 30 min before next cycle...
+[01:35:50] [cycle 4] 180768 URLs, 108183 TV IDs in CSV
+[01:35:50] [cycle 4] starting from idx 0
+[01:35:59] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.7s (3/s)
+[01:35:59] [cycle] sleeping 30 min before next cycle...
+[02:06:01] [cycle 5] 181456 URLs, 108183 TV IDs in CSV
+[02:06:01] [cycle 5] starting from idx 0
+[02:06:09] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 7.8s (4/s)
+[02:06:09] [cycle] sleeping 30 min before next cycle...
+[02:36:10] [cycle 6] 182150 URLs, 108183 TV IDs in CSV
+[02:36:10] [cycle 6] starting from idx 0
+[02:36:14] [cycle 6 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.0s (7/s)
+[02:36:14] [cycle] sleeping 30 min before next cycle...
+[03:06:15] [cycle 7] 182847 URLs, 108183 TV IDs in CSV
+[03:06:15] [cycle 7] starting from idx 0
+[03:06:23] [cycle 7 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.1s (4/s)
+[03:06:23] [cycle] sleeping 30 min before next cycle...
+[03:36:25] [cycle 8] 183537 URLs, 108183 TV IDs in CSV
+[03:36:25] [cycle 8] starting from idx 0
+[03:36:28] [cycle 8 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.3s (9/s)
+[03:36:28] [cycle] sleeping 30 min before next cycle...
+[04:06:30] [cycle 9] 184224 URLs, 108183 TV IDs in CSV
+[04:06:30] [cycle 9] starting from idx 0
+[04:06:35] [cycle 9 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.9s (6/s)
+[04:06:35] [cycle] sleeping 30 min before next cycle...
+[04:36:37] [cycle 10] 184905 URLs, 108183 TV IDs in CSV
+[04:36:37] [cycle 10] starting from idx 0
+[04:36:50] [cycle 10 done] added 29 cams, skipped 148546 dups + 0 invalid, in 13.1s (2/s)
+[04:36:50] [cycle] sleeping 30 min before next cycle...
+[05:06:52] [cycle 11] 185577 URLs, 108183 TV IDs in CSV
+[05:06:52] [cycle 11] starting from idx 0
+[05:06:57] [cycle 11 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.4s (5/s)
+[05:06:57] [cycle] sleeping 30 min before next cycle...
+[05:36:59] [cycle 12] 186246 URLs, 108183 TV IDs in CSV
+[05:36:59] [cycle 12] starting from idx 0
+[05:37:04] [cycle 12 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.7s (5/s)
+[05:37:04] [cycle] sleeping 30 min before next cycle...
+[06:07:06] [cycle 13] 186915 URLs, 108183 TV IDs in CSV
+[06:07:06] [cycle 13] starting from idx 0
+[06:07:15] [cycle 13 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.2s (3/s)
+[06:07:15] [cycle] sleeping 30 min before next cycle...
+[06:37:17] [cycle 14] 187574 URLs, 108183 TV IDs in CSV
+[06:37:17] [cycle 14] starting from idx 0
+[06:37:22] [cycle 14 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.8s (6/s)
+[06:37:22] [cycle] sleeping 30 min before next cycle...
+[07:07:24] [cycle 15] 188173 URLs, 108183 TV IDs in CSV
+[07:07:24] [cycle 15] starting from idx 0
+[07:07:28] [cycle 15 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.9s (7/s)
+[07:07:28] [cycle] sleeping 30 min before next cycle...
+[07:37:29] [cycle 16] 188759 URLs, 108183 TV IDs in CSV
+[07:37:29] [cycle 16] starting from idx 0
+[07:37:35] [cycle 16 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.7s (5/s)
+[07:37:35] [cycle] sleeping 30 min before next cycle...
+[08:07:37] [cycle 17] 189373 URLs, 108183 TV IDs in CSV
+[08:07:37] [cycle 17] starting from idx 0
+[08:07:46] [cycle 17 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.1s (3/s)
+[08:07:46] [cycle] sleeping 30 min before next cycle...
+[08:37:47] [cycle 18] 189983 URLs, 108183 TV IDs in CSV
+[08:37:47] [cycle 18] starting from idx 0
+[08:37:56] [cycle 18 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.9s (3/s)
+[08:37:56] [cycle] sleeping 30 min before next cycle...
+[09:07:58] [cycle 19] 190605 URLs, 108183 TV IDs in CSV
+[09:07:58] [cycle 19] starting from idx 0
+[09:08:04] [cycle 19 done] added 29 cams, skipped 148546 dups + 0 invalid, in 6.3s (5/s)
+[09:08:04] [cycle] sleeping 30 min before next cycle...
+[09:38:06] [cycle 20] 191194 URLs, 108183 TV IDs in CSV
+[09:38:06] [cycle 20] starting from idx 0
+[09:38:16] [cycle 20 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.7s (3/s)
+[09:38:16] [cycle] sleeping 30 min before next cycle...
+[10:08:18] [cycle 21] 191790 URLs, 108183 TV IDs in CSV
+[10:08:18] [cycle 21] starting from idx 0
+[10:08:22] [cycle 21 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.6s (6/s)
+[10:08:22] [cycle] sleeping 30 min before next cycle...
+[10:38:24] [cycle 22] 192392 URLs, 108183 TV IDs in CSV
+[10:38:24] [cycle 22] starting from idx 0
+[10:38:29] [cycle 22 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.3s (7/s)
+[10:38:29] [cycle] sleeping 30 min before next cycle...
+[11:08:30] [cycle 23] 193001 URLs, 108183 TV IDs in CSV
+[11:08:30] [cycle 23] starting from idx 0
+[11:08:42] [cycle 23 done] added 29 cams, skipped 148546 dups + 0 invalid, in 11.6s (3/s)
+[11:08:42] [cycle] sleeping 30 min before next cycle...
+[11:38:43] [cycle 24] 193609 URLs, 108183 TV IDs in CSV
+[11:38:43] [cycle 24] starting from idx 0
+[11:38:52] [cycle 24 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.3s (3/s)
+[11:38:52] [cycle] sleeping 30 min before next cycle...
+[12:08:54] [cycle 25] 194199 URLs, 108183 TV IDs in CSV
+[12:08:54] [cycle 25] starting from idx 0
+[12:08:59] [cycle 25 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.1s (6/s)
+[12:08:59] [cycle] sleeping 30 min before next cycle...
+[12:24:50] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[12:24:51] [init] loaded 148575 cams
+[12:24:51] [init] header: 35 cols
+[12:24:54] [cycle 1] 194492 URLs, 108183 TV IDs in CSV
+[12:24:54] [cycle 1] starting from idx 0
+[12:25:12]   WARN: could not acquire lock after 120 attempts
+[12:25:12] [cycle 1 done] added 0 cams, skipped 148546 dups + 0 invalid, in 17.8s (0/s)
+[12:25:12] [cycle] sleeping 30 min before next cycle...
+[12:55:15] [cycle 2] 194911 URLs, 108183 TV IDs in CSV
+[12:55:15] [cycle 2] starting from idx 0
+[12:55:26] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 11.1s (3/s)
+[12:55:26] [cycle] sleeping 30 min before next cycle...
+[13:25:29] [cycle 3] 195332 URLs, 108183 TV IDs in CSV
+[13:25:29] [cycle 3] starting from idx 0
+[13:25:33] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.6s (6/s)
+[13:25:33] [cycle] sleeping 30 min before next cycle...
+[13:55:35] [cycle 4] 195874 URLs, 108183 TV IDs in CSV
+[13:55:35] [cycle 4] starting from idx 0
+[13:55:39] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.7s (8/s)
+[13:55:39] [cycle] sleeping 30 min before next cycle...
+[14:25:41] [cycle 5] 196392 URLs, 108183 TV IDs in CSV
+[14:25:41] [cycle 5] starting from idx 0
+[14:25:53] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 11.3s (3/s)
+[14:25:53] [cycle] sleeping 30 min before next cycle...
+[14:55:56] [cycle 6] 196788 URLs, 108183 TV IDs in CSV
+[14:55:56] [cycle 6] starting from idx 0
+[14:56:00] [cycle 6 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.2s (7/s)
+[14:56:00] [cycle] sleeping 30 min before next cycle...
+[16:53:54] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[16:53:55] [init] loaded 148575 cams
+[16:53:55] [init] header: 35 cols
+[16:53:58] [cycle 1] 197324 URLs, 108183 TV IDs in CSV
+[16:53:58] [cycle 1] starting from idx 0
+[16:54:03] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.1s (6/s)
+[16:54:03] [cycle] sleeping 30 min before next cycle...
+[17:24:05] [cycle 2] 198090 URLs, 108183 TV IDs in CSV
+[17:24:05] [cycle 2] starting from idx 0
+[17:24:13] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 7.3s (4/s)
+[17:24:13] [cycle] sleeping 30 min before next cycle...
+[17:54:15] [cycle 3] 199444 URLs, 108183 TV IDs in CSV
+[17:54:15] [cycle 3] starting from idx 0
+[17:54:19] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.2s (7/s)
+[17:54:19] [cycle] sleeping 30 min before next cycle...
+[18:24:21] [cycle 4] 199946 URLs, 108183 TV IDs in CSV
+[18:24:21] [cycle 4] starting from idx 0
+[18:24:26] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.1s (6/s)
+[18:24:26] [cycle] sleeping 30 min before next cycle...
+[19:01:11] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[19:01:12] [init] loaded 148575 cams
+[19:01:12] [init] header: 35 cols
+[19:01:15] [cycle 1] 200280 URLs, 108183 TV IDs in CSV
+[19:01:15] [cycle 1] starting from idx 0
+[19:01:24] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.4s (3/s)
+[19:01:24] [cycle] sleeping 30 min before next cycle...
+[19:31:26] [cycle 2] 200767 URLs, 108183 TV IDs in CSV
+[19:31:26] [cycle 2] starting from idx 0
+[19:31:35] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.6s (3/s)
+[19:31:35] [cycle] sleeping 30 min before next cycle...
+[20:01:38] [cycle 3] 201240 URLs, 108183 TV IDs in CSV
+[20:01:38] [cycle 3] starting from idx 0
+[20:01:43] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.2s (6/s)
+[20:01:43] [cycle] sleeping 30 min before next cycle...
+[20:26:21] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[20:26:22] [init] loaded 148575 cams
+[20:26:22] [init] header: 35 cols
+[20:26:23] [cycle 1] 63080 URLs, 1 TV IDs in CSV
+[20:26:23] [cycle 1] starting from idx 0
+[20:26:26]   progress idx=1574/148575, added=1000, skipped_dup=574, rate=344/s
+[20:26:27]   progress idx=2796/148575, added=2000, skipped_dup=796, rate=465/s
+[20:26:28]   progress idx=4351/148575, added=3000, skipped_dup=1351, rate=579/s
+[20:26:29]   progress idx=6239/148575, added=4000, skipped_dup=2239, rate=637/s
+[20:26:31]   progress idx=7239/148575, added=5000, skipped_dup=2239, rate=674/s
+[20:26:31]   progress idx=8239/148575, added=6000, skipped_dup=2239, rate=720/s
+[20:26:33]   progress idx=9239/148575, added=7000, skipped_dup=2239, rate=742/s
+[20:26:34]   progress idx=10239/148575, added=8000, skipped_dup=2239, rate=756/s
+[20:26:35]   progress idx=11719/148575, added=9000, skipped_dup=2719, rate=781/s
+[20:26:36]   progress idx=12800/148575, added=10000, skipped_dup=2800, rate=790/s
+[20:26:37]   progress idx=13800/148575, added=11000, skipped_dup=2800, rate=795/s
+[20:26:38]   progress idx=14800/148575, added=12000, skipped_dup=2800, rate=797/s
+[20:26:39]   progress idx=16180/148575, added=13000, skipped_dup=3180, rate=810/s
+[20:26:40]   progress idx=27157/148575, added=14000, skipped_dup=13157, rate=811/s
+[20:26:42]   progress idx=28862/148575, added=15000, skipped_dup=13862, rate=808/s
+[20:26:43]   progress idx=29862/148575, added=16000, skipped_dup=13862, rate=807/s
+[20:26:44]   progress idx=30937/148575, added=17000, skipped_dup=13937, rate=815/s
+[20:26:45]   progress idx=31969/148575, added=18000, skipped_dup=13969, rate=815/s
+[20:26:46]   progress idx=33007/148575, added=19000, skipped_dup=14007, rate=814/s
+[20:26:48]   progress idx=34126/148575, added=20000, skipped_dup=14126, rate=812/s
+[20:26:49]   progress idx=35351/148575, added=21000, skipped_dup=14351, rate=809/s
+[20:26:50]   progress idx=36726/148575, added=22000, skipped_dup=14726, rate=814/s
+[20:26:51]   progress idx=38010/148575, added=23000, skipped_dup=15010, rate=812/s
+[20:26:53]   progress idx=39017/148575, added=24000, skipped_dup=15017, rate=809/s
+[20:26:54]   progress idx=40032/148575, added=25000, skipped_dup=15032, rate=807/s
+[20:26:55]   progress idx=41082/148575, added=26000, skipped_dup=15082, rate=805/s
+[20:26:57]   progress idx=42157/148575, added=27000, skipped_dup=15157, rate=803/s
+[20:26:58]   progress idx=43549/148575, added=28000, skipped_dup=15549, rate=800/s
+[20:27:00]   progress idx=46319/148575, added=29000, skipped_dup=17319, rate=797/s
+[20:27:01]   progress idx=47355/148575, added=30000, skipped_dup=17355, rate=793/s
+[20:27:02]   progress idx=50736/148575, added=31000, skipped_dup=19736, rate=795/s
+[20:27:04]   progress idx=51736/148575, added=32000, skipped_dup=19736, rate=793/s
+[20:27:05]   progress idx=52736/148575, added=33000, skipped_dup=19736, rate=791/s
+[20:27:06]   progress idx=53736/148575, added=34000, skipped_dup=19736, rate=788/s
+[20:27:08]   progress idx=54736/148575, added=35000, skipped_dup=19736, rate=786/s
+[20:27:09]   progress idx=55743/148575, added=36000, skipped_dup=19743, rate=783/s
+[20:27:11]   progress idx=56743/148575, added=37000, skipped_dup=19743, rate=777/s
+[20:27:12]   progress idx=57743/148575, added=38000, skipped_dup=19743, rate=778/s
+[20:27:15]   progress idx=58743/148575, added=39000, skipped_dup=19743, rate=752/s
+[20:27:16]   progress idx=59891/148575, added=40000, skipped_dup=19891, rate=750/s
+[20:27:18]   progress idx=61374/148575, added=41000, skipped_dup=20374, rate=745/s
+[20:27:20]   progress idx=63238/148575, added=42000, skipped_dup=21238, rate=743/s
+[20:27:21]   progress idx=64484/148575, added=43000, skipped_dup=21484, rate=743/s
+[20:27:23]   progress idx=65484/148575, added=44000, skipped_dup=21484, rate=737/s
+[20:27:24]   progress idx=66484/148575, added=45000, skipped_dup=21484, rate=737/s
+[20:27:26]   progress idx=67528/148575, added=46000, skipped_dup=21528, rate=732/s
+[20:27:28]   progress idx=68983/148575, added=47000, skipped_dup=21983, rate=729/s
+[20:27:29]   progress idx=71489/148575, added=48000, skipped_dup=23489, rate=726/s
+[20:27:31]   progress idx=72954/148575, added=49000, skipped_dup=23954, rate=722/s
+[20:27:33]   progress idx=73954/148575, added=50000, skipped_dup=23954, rate=716/s
+[20:27:35]   progress idx=75453/148575, added=51000, skipped_dup=24453, rate=712/s
+[20:27:37]   progress idx=76981/148575, added=52000, skipped_dup=24981, rate=705/s
+[20:27:39]   progress idx=79129/148575, added=53000, skipped_dup=26129, rate=703/s
+[20:27:40]   progress idx=80164/148575, added=54000, skipped_dup=26164, rate=700/s
+[20:27:44]   progress idx=81232/148575, added=55000, skipped_dup=26232, rate=678/s
+[20:27:46]   progress idx=82530/148575, added=56000, skipped_dup=26530, rate=676/s
+[20:28:03]   WARN: could not acquire lock after 120 attempts
+[20:28:03]   progress idx=83530/148575, added=56000, skipped_dup=26530, rate=562/s
+[20:28:19]   progress idx=84531/148575, added=57000, skipped_dup=26531, rate=490/s
+[20:28:40] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[20:28:41] [init] loaded 148575 cams
+[20:28:41] [init] header: 35 cols
+[20:28:43] [cycle 1] 120058 URLs, 56840 TV IDs in CSV
+[20:28:43] [cycle 1] starting from idx 83530
+[20:29:00]   WARN: could not acquire lock after 120 attempts
+[20:29:00]   progress idx=85553/148575, added=0, skipped_dup=1023, rate=0/s
+[15:05:30] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[15:05:31] [init] loaded 148575 cams
+[15:05:31] [init] header: 35 cols
+[15:05:33] [cycle 1] 175056 URLs, 107214 TV IDs in CSV
+[15:05:33] [cycle 1] starting from idx 83530
+[15:05:37] [cycle 1 done] added 972 cams, skipped 64073 dups + 0 invalid, in 4.1s (239/s)
+[15:05:37] [cycle] sleeping 30 min before next cycle...
+[15:35:38] [cycle 2] 176805 URLs, 108185 TV IDs in CSV
+[15:35:38] [cycle 2] starting from idx 0
+[15:35:53] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 14.4s (2/s)
+[15:35:53] [cycle] sleeping 30 min before next cycle...
+[16:05:55] [cycle 3] 177774 URLs, 108185 TV IDs in CSV
+[16:05:55] [cycle 3] starting from idx 0
+[16:06:00] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.7s (5/s)
+[16:06:00] [cycle] sleeping 30 min before next cycle...
+[16:36:02] [cycle 4] 178612 URLs, 108185 TV IDs in CSV
+[16:36:02] [cycle 4] starting from idx 0
+[16:36:05] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.3s (9/s)
+[16:36:05] [cycle] sleeping 30 min before next cycle...
+[17:06:07] [cycle 5] 179373 URLs, 108185 TV IDs in CSV
+[17:06:07] [cycle 5] starting from idx 0
+[17:06:10] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.2s (9/s)
+[17:06:10] [cycle] sleeping 30 min before next cycle...
+[17:36:12] [cycle 6] 180095 URLs, 108185 TV IDs in CSV
+[17:36:12] [cycle 6] starting from idx 0
+[18:25:57] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[18:25:58] [init] loaded 148575 cams
+[18:25:58] [init] header: 35 cols
+[18:26:00] [cycle 1] 180963 URLs, 108185 TV IDs in CSV
+[18:26:00] [cycle 1] starting from idx 0
+[18:26:15] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 14.8s (2/s)
+[18:26:15] [cycle] sleeping 30 min before next cycle...
+[18:56:18] [cycle 2] 183027 URLs, 109268 TV IDs in CSV
+[18:56:18] [cycle 2] starting from idx 0
+[18:56:25] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 6.5s (4/s)
+[18:56:25] [cycle] sleeping 30 min before next cycle...
+[19:26:29] [cycle 3] 183450 URLs, 109268 TV IDs in CSV
+[19:26:29] [cycle 3] starting from idx 0
+[19:26:36] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 7.8s (4/s)
+[19:26:36] [cycle] sleeping 30 min before next cycle...
+[19:56:39] [cycle 4] 183870 URLs, 109268 TV IDs in CSV
+[19:56:39] [cycle 4] starting from idx 0
+[19:56:55] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 15.3s (2/s)
+[19:56:55] [cycle] sleeping 30 min before next cycle...
+[20:26:57] [cycle 5] 184349 URLs, 109268 TV IDs in CSV
+[20:26:57] [cycle 5] starting from idx 0
+[20:27:10] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 13.3s (2/s)
+[20:27:10] [cycle] sleeping 30 min before next cycle...
+[20:57:13] [cycle 6] 184786 URLs, 109268 TV IDs in CSV
+[20:57:13] [cycle 6] starting from idx 0
+[20:57:22] [cycle 6 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.2s (3/s)
+[20:57:22] [cycle] sleeping 30 min before next cycle...
+[21:27:25] [cycle 7] 185183 URLs, 109268 TV IDs in CSV
+[21:27:25] [cycle 7] starting from idx 0
+[21:27:34] [cycle 7 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.6s (3/s)
+[21:27:34] [cycle] sleeping 30 min before next cycle...
+[21:57:39] [cycle 8] 185407 URLs, 109268 TV IDs in CSV
+[21:57:39] [cycle 8] starting from idx 0
+[21:58:00] [cycle 8 done] added 29 cams, skipped 148546 dups + 0 invalid, in 20.8s (1/s)
+[21:58:00] [cycle] sleeping 30 min before next cycle...
+[22:28:05] [cycle 9] 185625 URLs, 109268 TV IDs in CSV
+[22:28:05] [cycle 9] starting from idx 0
+[22:28:23] [cycle 9 done] added 29 cams, skipped 148546 dups + 0 invalid, in 17.4s (2/s)
+[22:28:23] [cycle] sleeping 30 min before next cycle...
+[22:58:26] [cycle 10] 185893 URLs, 109268 TV IDs in CSV
+[22:58:26] [cycle 10] starting from idx 0
+[22:58:38] [cycle 10 done] added 29 cams, skipped 148546 dups + 0 invalid, in 12.1s (2/s)
+[22:58:38] [cycle] sleeping 30 min before next cycle...
+[23:28:45] [cycle 11] 186153 URLs, 109268 TV IDs in CSV
+[23:28:45] [cycle 11] starting from idx 0
+[23:29:01] [cycle 11 done] added 29 cams, skipped 148546 dups + 0 invalid, in 15.7s (2/s)
+[23:29:01] [cycle] sleeping 30 min before next cycle...
+[23:59:07] [cycle 12] 186431 URLs, 109268 TV IDs in CSV
+[23:59:07] [cycle 12] starting from idx 0
+[23:59:26] [cycle 12 done] added 29 cams, skipped 148546 dups + 0 invalid, in 18.9s (2/s)
+[23:59:26] [cycle] sleeping 30 min before next cycle...
+[00:29:31] [cycle 13] 186619 URLs, 109268 TV IDs in CSV
+[00:29:31] [cycle 13] starting from idx 0
+[00:29:47] [cycle 13 done] added 29 cams, skipped 148546 dups + 0 invalid, in 16.4s (2/s)
+[00:29:47] [cycle] sleeping 30 min before next cycle...
+[00:51:33] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[00:51:35] [init] loaded 148575 cams
+[00:51:35] [init] header: 35 cols
+[00:51:39] [cycle 1] 153373 URLs, 84768 TV IDs in CSV
+[00:51:39] [cycle 1] starting from idx 0
+[00:51:53]   progress idx=4489/148575, added=0, skipped_dup=3489, rate=0/s
+[00:52:13]   progress idx=11994/148575, added=1000, skipped_dup=9994, rate=29/s
+[00:52:23]   progress idx=31471/148575, added=2000, skipped_dup=28471, rate=45/s
+[00:52:41]   progress idx=38429/148575, added=3000, skipped_dup=34429, rate=48/s
+[00:52:59]   progress idx=39429/148575, added=4000, skipped_dup=34429, rate=50/s
+[00:53:15]   progress idx=47589/148575, added=5000, skipped_dup=41589, rate=52/s
+[00:53:33]   WARN: could not acquire lock after 120 attempts
+[00:53:33]   progress idx=53050/148575, added=5000, skipped_dup=46050, rate=44/s
+[00:53:43]   progress idx=55755/148575, added=6000, skipped_dup=47755, rate=48/s
+[00:53:56]   progress idx=57164/148575, added=7000, skipped_dup=48164, rate=51/s
+[00:54:19]   progress idx=59220/148575, added=8000, skipped_dup=49220, rate=50/s
+[00:54:37]   progress idx=60271/148575, added=9000, skipped_dup=49271, rate=51/s
+[00:54:57]   progress idx=65539/148575, added=10000, skipped_dup=53539, rate=51/s
+[00:55:09]   progress idx=69435/148575, added=11000, skipped_dup=56435, rate=52/s
+[00:55:28]   WARN: could not acquire lock after 120 attempts
+[00:55:28]   progress idx=75956/148575, added=11000, skipped_dup=61956, rate=48/s
+[00:55:41]   progress idx=82530/148575, added=12000, skipped_dup=67530, rate=50/s
+[00:56:00]   progress idx=83994/148575, added=13000, skipped_dup=67994, rate=50/s
+[00:56:17]   WARN: could not acquire lock after 120 attempts
+[00:56:17]   progress idx=85652/148575, added=13000, skipped_dup=68652, rate=47/s
+[00:56:41]   progress idx=92550/148575, added=14000, skipped_dup=74550, rate=46/s
+[00:57:00]   progress idx=100426/148575, added=15000, skipped_dup=81426, rate=47/s
+[00:57:18]   WARN: could not acquire lock after 120 attempts
+[00:57:18]   progress idx=103665/148575, added=15000, skipped_dup=83665, rate=44/s
+[00:57:36]   progress idx=116715/148575, added=16000, skipped_dup=95715, rate=45/s
+[00:57:55]   WARN: could not acquire lock after 120 attempts
+[00:57:55]   progress idx=122443/148575, added=16000, skipped_dup=100443, rate=43/s
+[05:14:56] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[05:14:58] [init] loaded 148575 cams
+[05:14:58] [init] header: 35 cols
+[05:15:01] [cycle 1] 166038 URLs, 95093 TV IDs in CSV
+[05:15:01] [cycle 1] starting from idx 122443
+[05:15:10]   progress idx=130147/148575, added=1000, skipped_dup=6704, rate=114/s
+[05:15:23]   progress idx=141188/148575, added=2000, skipped_dup=16745, rate=93/s
+[05:15:35]   progress idx=143478/148575, added=3000, skipped_dup=18035, rate=90/s
+[05:15:47] [cycle 1 done] added 3291 cams, skipped 22841 dups + 0 invalid, in 45.7s (72/s)
+[05:15:47] [cycle] sleeping 30 min before next cycle...
+[05:45:51] [cycle 2] 169586 URLs, 98384 TV IDs in CSV
+[05:45:51] [cycle 2] starting from idx 0
+[05:46:02]   progress idx=4489/148575, added=1000, skipped_dup=3489, rate=91/s
+[05:46:15]   progress idx=11994/148575, added=2000, skipped_dup=9994, rate=81/s
+[05:46:36]   progress idx=31472/148575, added=3000, skipped_dup=28472, rate=66/s
+[05:46:49]   progress idx=38435/148575, added=4000, skipped_dup=34435, rate=69/s
+[05:47:12]   progress idx=39435/148575, added=5000, skipped_dup=34435, rate=61/s
+[05:47:31]   WARN: could not acquire lock after 120 attempts
+[05:47:31]   progress idx=47596/148575, added=5000, skipped_dup=41596, rate=50/s
+[05:47:39]   progress idx=53096/148575, added=6000, skipped_dup=46096, rate=55/s
+[05:47:45]   progress idx=55761/148575, added=7000, skipped_dup=47761, rate=61/s
+[05:48:03]   progress idx=71271/148575, added=8000, skipped_dup=62271, rate=60/s
+[05:48:15]   progress idx=84510/148575, added=9000, skipped_dup=74510, rate=62/s
+[05:48:35]   progress idx=101897/148575, added=10000, skipped_dup=90897, rate=61/s
+[05:48:47]   progress idx=121159/148575, added=11000, skipped_dup=109159, rate=62/s
+[05:49:07]   WARN: could not acquire lock after 120 attempts
+[05:49:07] [cycle 2 done] added 11000 cams, skipped 136013 dups + 0 invalid, in 196.1s (56/s)
+[05:49:07] [cycle] sleeping 30 min before next cycle...
+[06:19:12] [cycle 3] 180779 URLs, 109353 TV IDs in CSV
+[06:19:12] [cycle 3] starting from idx 0
+[06:19:32]   WARN: could not acquire lock after 120 attempts
+[06:19:32]   progress idx=47596/148575, added=0, skipped_dup=46596, rate=0/s
+[06:19:43] [cycle 3 done] added 591 cams, skipped 146984 dups + 0 invalid, in 31.3s (19/s)
+[06:19:43] [cycle] sleeping 30 min before next cycle...
+[06:49:50] [cycle 4] 181558 URLs, 109915 TV IDs in CSV
+[06:49:50] [cycle 4] starting from idx 0
+[06:50:09]   WARN: could not acquire lock after 120 attempts
+[06:50:09]   progress idx=47596/148575, added=0, skipped_dup=46596, rate=0/s
+[06:50:25] [cycle 4 done] added 29 cams, skipped 147546 dups + 0 invalid, in 35.1s (1/s)
+[06:50:25] [cycle] sleeping 30 min before next cycle...
+[07:09:01] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[07:09:04] [init] loaded 148575 cams
+[07:09:04] [init] header: 35 cols
+[07:09:10] [cycle 1] 118814 URLs, 69305 TV IDs in CSV
+[07:09:10] [cycle 1] starting from idx 0
+[07:09:17]   progress idx=1385/148575, added=1000, skipped_dup=385, rate=139/s
+[07:09:24]   progress idx=3295/148575, added=2000, skipped_dup=1295, rate=141/s
+[07:09:30]   progress idx=4576/148575, added=3000, skipped_dup=1576, rate=147/s
+[07:09:37]   progress idx=6433/148575, added=4000, skipped_dup=2433, rate=148/s
+[07:20:28] [cycle 5] 126091 URLs, 72173 TV IDs in CSV
+[07:20:28] [cycle 5] starting from idx 0
+[11:15:33] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[11:15:34] [init] loaded 148575 cams
+[11:15:34] [init] header: 35 cols
+[11:15:35] [cycle 1] 128021 URLs, 73490 TV IDs in CSV
+[11:15:35] [cycle 1] starting from idx 0
+[11:15:38]   progress idx=9375/148575, added=1000, skipped_dup=8375, rate=330/s
+[11:15:42]   progress idx=10431/148575, added=2000, skipped_dup=8431, rate=318/s
+[11:15:47]   progress idx=12389/148575, added=3000, skipped_dup=9389, rate=257/s
+[11:15:50]   progress idx=13511/148575, added=4000, skipped_dup=9511, rate=270/s
+[11:15:58]   progress idx=14602/148575, added=5000, skipped_dup=9602, rate=223/s
+[11:16:01]   progress idx=15767/148575, added=6000, skipped_dup=9767, rate=230/s
+[11:16:06]   progress idx=17656/148575, added=7000, skipped_dup=10656, rate=227/s
+[11:16:11]   progress idx=26529/148575, added=8000, skipped_dup=18529, rate=224/s
+[11:16:17]   progress idx=28118/148575, added=9000, skipped_dup=19118, rate=218/s
+[11:16:29]   progress idx=29172/148575, added=10000, skipped_dup=19172, rate=187/s
+[11:16:32]   progress idx=30175/148575, added=11000, skipped_dup=19175, rate=194/s
+[11:16:35]   progress idx=31245/148575, added=12000, skipped_dup=19245, rate=200/s
+[11:16:37]   progress idx=32300/148575, added=13000, skipped_dup=19300, rate=209/s
+[11:16:49]   progress idx=33315/148575, added=14000, skipped_dup=19315, rate=189/s
+[11:17:06]   WARN: could not acquire lock after 120 attempts
+[11:17:06]   progress idx=39902/148575, added=14000, skipped_dup=24902, rate=154/s
+[11:17:08]   progress idx=50287/148575, added=15000, skipped_dup=34287, rate=161/s
+[11:17:16]   progress idx=57358/148575, added=16000, skipped_dup=40358, rate=160/s
+[11:17:33]   progress idx=59423/148575, added=17000, skipped_dup=41423, rate=144/s
+[11:36:20] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[11:36:21] [init] loaded 148575 cams
+[11:36:21] [init] header: 35 cols
+[11:36:22] [cycle 1] 146451 URLs, 91455 TV IDs in CSV
+[11:36:22] [cycle 1] starting from idx 50287
+[11:36:28]   progress idx=67237/148575, added=1000, skipped_dup=15950, rate=158/s
+[11:36:42]   progress idx=68889/148575, added=2000, skipped_dup=16602, rate=100/s
+[11:36:44]   progress idx=76982/148575, added=3000, skipped_dup=23695, rate=138/s
+[11:36:49]   progress idx=82779/148575, added=4000, skipped_dup=28492, rate=150/s
+[23:50:44] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[23:50:45] [init] loaded 148575 cams
+[23:50:45] [init] header: 35 cols
+[23:50:47] [cycle 1] 168647 URLs, 96427 TV IDs in CSV
+[23:50:47] [cycle 1] starting from idx 50287
+[23:50:55]   progress idx=93746/148575, added=1000, skipped_dup=42459, rate=115/s
+[23:51:12]   WARN: could not acquire lock after 120 attempts
+[23:51:12]   progress idx=97230/148575, added=1000, skipped_dup=44943, rate=39/s
+[23:51:21]   progress idx=107358/148575, added=2000, skipped_dup=54071, rate=58/s
+[23:51:37]   progress idx=122152/148575, added=3000, skipped_dup=67865, rate=59/s
+[23:51:40]   progress idx=127628/148575, added=4000, skipped_dup=72341, rate=75/s
+[23:51:42]   progress idx=132151/148575, added=5000, skipped_dup=75864, rate=90/s
+[23:51:48]   progress idx=133671/148575, added=6000, skipped_dup=76384, rate=99/s
+[23:51:52]   progress idx=134725/148575, added=7000, skipped_dup=76438, rate=107/s
+[23:51:58]   progress idx=135886/148575, added=8000, skipped_dup=76599, rate=113/s
+[23:52:13]   progress idx=136990/148575, added=9000, skipped_dup=76703, rate=104/s
+[23:52:21]   progress idx=138129/148575, added=10000, skipped_dup=76842, rate=106/s
+[23:52:24]   progress idx=140207/148575, added=11000, skipped_dup=77920, rate=113/s
+[23:52:37]   progress idx=141700/148575, added=12000, skipped_dup=78413, rate=109/s
+[23:52:44]   progress idx=144080/148575, added=13000, skipped_dup=79793, rate=111/s
+[23:52:57]   progress idx=145864/148575, added=14000, skipped_dup=80577, rate=107/s
+[23:53:07]   progress idx=146864/148575, added=15000, skipped_dup=80577, rate=107/s
+[23:53:20]   progress idx=147864/148575, added=16000, skipped_dup=80577, rate=104/s
+[23:53:25] [cycle 1 done] added 16580 cams, skipped 80708 dups + 0 invalid, in 158.6s (105/s)
+[23:53:25] [cycle] sleeping 30 min before next cycle...
+[00:23:28] [cycle 2] 185865 URLs, 112978 TV IDs in CSV
+[00:23:28] [cycle 2] starting from idx 0
+[00:23:34]   progress idx=93811/148575, added=1000, skipped_dup=92811, rate=163/s
+[00:23:39] [cycle 2 done] added 1936 cams, skipped 146639 dups + 0 invalid, in 11.1s (175/s)
+[00:23:39] [cycle] sleeping 30 min before next cycle...
+[00:53:41] [cycle 3] 188375 URLs, 114885 TV IDs in CSV
+[00:53:41] [cycle 3] starting from idx 0
+[00:53:45] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.9s (7/s)
+[00:53:45] [cycle] sleeping 30 min before next cycle...
+[01:23:47] [cycle 4] 188908 URLs, 114873 TV IDs in CSV
+[01:23:47] [cycle 4] starting from idx 0
+[01:23:51] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.0s (7/s)
+[01:23:51] [cycle] sleeping 30 min before next cycle...
+[01:53:54] [cycle 5] 189312 URLs, 114849 TV IDs in CSV
+[01:53:54] [cycle 5] starting from idx 0
+[01:53:59] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.5s (5/s)
+[01:53:59] [cycle] sleeping 30 min before next cycle...
+[02:24:02] [cycle 6] 189703 URLs, 114849 TV IDs in CSV
+[02:24:02] [cycle 6] starting from idx 0
+[02:24:08] [cycle 6 done] added 29 cams, skipped 148546 dups + 0 invalid, in 6.1s (5/s)
+[02:24:08] [cycle] sleeping 30 min before next cycle...
+[02:54:10] [cycle 7] 190125 URLs, 114849 TV IDs in CSV
+[02:54:10] [cycle 7] starting from idx 0
+[02:54:14] [cycle 7 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.4s (8/s)
+[02:54:14] [cycle] sleeping 30 min before next cycle...
+[03:24:16] [cycle 8] 190536 URLs, 114849 TV IDs in CSV
+[03:24:16] [cycle 8] starting from idx 0
+[03:24:22] [cycle 8 done] added 29 cams, skipped 148546 dups + 0 invalid, in 6.3s (5/s)
+[03:24:22] [cycle] sleeping 30 min before next cycle...
+[03:54:25] [cycle 9] 190935 URLs, 114849 TV IDs in CSV
+[03:54:25] [cycle 9] starting from idx 0
+[03:54:31] [cycle 9 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.8s (5/s)
+[03:54:31] [cycle] sleeping 30 min before next cycle...
+[04:24:33] [cycle 10] 191338 URLs, 114849 TV IDs in CSV
+[04:24:33] [cycle 10] starting from idx 0
+[04:24:42] [cycle 10 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.4s (3/s)
+[04:24:42] [cycle] sleeping 30 min before next cycle...
+[04:54:44] [cycle 11] 191777 URLs, 114849 TV IDs in CSV
+[04:54:44] [cycle 11] starting from idx 0
+[04:54:49] [cycle 11 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.9s (6/s)
+[04:54:49] [cycle] sleeping 30 min before next cycle...
+[05:24:51] [cycle 12] 192213 URLs, 114849 TV IDs in CSV
+[05:24:51] [cycle 12] starting from idx 0
+[05:25:04] [cycle 12 done] added 29 cams, skipped 148546 dups + 0 invalid, in 12.6s (2/s)
+[05:25:04] [cycle] sleeping 30 min before next cycle...
+[05:55:06] [cycle 13] 192660 URLs, 114849 TV IDs in CSV
+[05:55:06] [cycle 13] starting from idx 0
+[05:55:10] [cycle 13 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.4s (7/s)
+[05:55:10] [cycle] sleeping 30 min before next cycle...
+[06:25:13] [cycle 14] 193101 URLs, 114849 TV IDs in CSV
+[06:25:13] [cycle 14] starting from idx 0
+[06:25:17] [cycle 14 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.3s (7/s)
+[06:25:17] [cycle] sleeping 30 min before next cycle...
+[06:55:19] [cycle 15] 193536 URLs, 114849 TV IDs in CSV
+[06:55:19] [cycle 15] starting from idx 0
+[06:55:30] [cycle 15 done] added 29 cams, skipped 148546 dups + 0 invalid, in 10.9s (3/s)
+[06:55:30] [cycle] sleeping 30 min before next cycle...
+[07:25:33] [cycle 16] 193981 URLs, 114849 TV IDs in CSV
+[07:25:33] [cycle 16] starting from idx 0
+[07:25:49] [cycle 16 done] added 29 cams, skipped 148546 dups + 0 invalid, in 16.1s (2/s)
+[07:25:49] [cycle] sleeping 30 min before next cycle...
+[07:55:51] [cycle 17] 194424 URLs, 114849 TV IDs in CSV
+[07:55:51] [cycle 17] starting from idx 0
+[07:56:02] [cycle 17 done] added 29 cams, skipped 148546 dups + 0 invalid, in 11.4s (3/s)
+[07:56:02] [cycle] sleeping 30 min before next cycle...
+[08:26:05] [cycle 18] 194927 URLs, 114849 TV IDs in CSV
+[08:26:05] [cycle 18] starting from idx 0
+[08:26:09] [cycle 18 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.8s (8/s)
+[08:26:09] [cycle] sleeping 30 min before next cycle...
+[08:56:11] [cycle 19] 195525 URLs, 114849 TV IDs in CSV
+[08:56:11] [cycle 19] starting from idx 0
+[08:56:14] [cycle 19 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.3s (9/s)
+[08:56:14] [cycle] sleeping 30 min before next cycle...
+[09:26:16] [cycle 20] 196174 URLs, 114849 TV IDs in CSV
+[09:26:16] [cycle 20] starting from idx 0
+[09:26:21] [cycle 20 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.8s (5/s)
+[09:26:21] [cycle] sleeping 30 min before next cycle...
+[09:56:23] [cycle 21] 196440 URLs, 114849 TV IDs in CSV
+[09:56:23] [cycle 21] starting from idx 0
+[09:56:28] [cycle 21 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.2s (6/s)
+[09:56:28] [cycle] sleeping 30 min before next cycle...
+[10:08:02] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[10:08:03] [init] loaded 148575 cams
+[10:08:03] [init] header: 35 cols
+[10:08:06] [cycle 1] 196521 URLs, 114849 TV IDs in CSV
+[10:08:06] [cycle 1] starting from idx 0
+[10:08:20] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 14.5s (2/s)
+[10:08:20] [cycle] sleeping 30 min before next cycle...
+[10:38:22] [cycle 2] 197028 URLs, 114849 TV IDs in CSV
+[10:38:22] [cycle 2] starting from idx 0
+[10:38:25] [cycle 2 done] added 29 cams, skipped 148546 dups + 0 invalid, in 3.3s (9/s)
+[10:38:25] [cycle] sleeping 30 min before next cycle...
+[11:08:27] [cycle 3] 197563 URLs, 114849 TV IDs in CSV
+[11:08:27] [cycle 3] starting from idx 0
+[11:08:35] [cycle 3 done] added 29 cams, skipped 148546 dups + 0 invalid, in 8.9s (3/s)
+[11:08:35] [cycle] sleeping 30 min before next cycle...
+[11:38:37] [cycle 4] 198099 URLs, 114849 TV IDs in CSV
+[11:38:37] [cycle 4] starting from idx 0
+[11:38:49] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 11.8s (2/s)
+[11:38:49] [cycle] sleeping 30 min before next cycle...
+[12:08:51] [cycle 5] 198647 URLs, 114849 TV IDs in CSV
+[12:08:51] [cycle 5] starting from idx 0
+[12:08:56] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 5.5s (5/s)
+[12:08:56] [cycle] sleeping 30 min before next cycle...
+[12:38:59] [cycle 6] 199173 URLs, 114849 TV IDs in CSV
+[12:38:59] [cycle 6] starting from idx 0
+[12:39:03] [cycle 6 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.4s (7/s)
+[12:39:03] [cycle] sleeping 30 min before next cycle...
+[15:46:12] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[15:46:13] [init] loaded 148575 cams
+[15:46:13] [init] header: 35 cols
+[15:46:15] [cycle 1] 149472 URLs, 94464 TV IDs in CSV
+[15:46:15] [cycle 1] starting from idx 0
+[15:46:20]   progress idx=31683/148575, added=1000, skipped_dup=30683, rate=194/s
+[15:46:24]   progress idx=39826/148575, added=2000, skipped_dup=37826, rate=216/s
+[15:46:34]   progress idx=85975/148575, added=3000, skipped_dup=82975, rate=153/s
+[15:46:40]   progress idx=93856/148575, added=4000, skipped_dup=89856, rate=159/s
+[15:46:46]   progress idx=97302/148575, added=5000, skipped_dup=92302, rate=163/s
+[15:47:02]   WARN: could not acquire lock after 120 attempts
+[15:47:02]   progress idx=107378/148575, added=5000, skipped_dup=101378, rate=105/s
+[15:47:05]   progress idx=122172/148575, added=6000, skipped_dup=115172, rate=120/s
+[15:47:10]   progress idx=127509/148575, added=7000, skipped_dup=119509, rate=128/s
+[15:47:17]   progress idx=131950/148575, added=8000, skipped_dup=122950, rate=128/s
+[15:47:24]   progress idx=133281/148575, added=9000, skipped_dup=123281, rate=131/s
+[15:47:32]   progress idx=134563/148575, added=10000, skipped_dup=123563, rate=130/s
+[15:47:38]   progress idx=135716/148575, added=11000, skipped_dup=123716, rate=132/s
+[15:47:40]   progress idx=136835/148575, added=12000, skipped_dup=123835, rate=140/s
+[15:47:57]   WARN: could not acquire lock after 120 attempts
+[15:47:57]   progress idx=137908/148575, added=12000, skipped_dup=123908, rate=117/s
+[15:48:07]   progress idx=140029/148575, added=13000, skipped_dup=125029, rate=116/s
+[15:48:14]   progress idx=141516/148575, added=14000, skipped_dup=125516, rate=117/s
+[15:48:31]   WARN: could not acquire lock after 120 attempts
+[15:48:31]   progress idx=143902/148575, added=14000, skipped_dup=126902, rate=103/s
+[15:48:35]   progress idx=145368/148575, added=15000, skipped_dup=127368, rate=107/s
+[15:48:39]   progress idx=146425/148575, added=16000, skipped_dup=127425, rate=111/s
+[15:48:41]   progress idx=147425/148575, added=17000, skipped_dup=127425, rate=116/s
+[15:48:45]   progress idx=148427/148575, added=18000, skipped_dup=127427, rate=120/s
+[15:48:48] [cycle 1 done] added 18019 cams, skipped 127556 dups + 0 invalid, in 152.8s (118/s)
+[15:48:48] [cycle] sleeping 30 min before next cycle...
+[16:18:49] [cycle 2] 168364 URLs, 112454 TV IDs in CSV
+[16:18:49] [cycle 2] starting from idx 0
+[16:18:55]   progress idx=107350/148575, added=1000, skipped_dup=106350, rate=184/s
+[16:18:59]   progress idx=137877/148575, added=2000, skipped_dup=135877, rate=208/s
+[16:19:05]   progress idx=143867/148575, added=3000, skipped_dup=140867, rate=189/s
+[16:19:14] [cycle 2 done] added 3029 cams, skipped 145546 dups + 0 invalid, in 24.6s (123/s)
+[16:19:14] [cycle] sleeping 30 min before next cycle...
+[16:49:15] [cycle 3] 172210 URLs, 115454 TV IDs in CSV
+[16:49:15] [cycle 3] starting from idx 0
+[16:49:32]   WARN: could not acquire lock after 120 attempts
+[16:49:32] [cycle 3 done] added 0 cams, skipped 148546 dups + 0 invalid, in 17.5s (0/s)
+[16:49:32] [cycle] sleeping 30 min before next cycle...
+[17:19:34] [cycle 4] 173031 URLs, 115454 TV IDs in CSV
+[17:19:34] [cycle 4] starting from idx 0
+[17:19:37] [cycle 4 done] added 29 cams, skipped 148546 dups + 0 invalid, in 2.7s (11/s)
+[17:19:37] [cycle] sleeping 30 min before next cycle...
+[17:49:38] [cycle 5] 173778 URLs, 115454 TV IDs in CSV
+[17:49:38] [cycle 5] starting from idx 0
+[17:49:43] [cycle 5 done] added 29 cams, skipped 148546 dups + 0 invalid, in 4.7s (6/s)
+[17:49:43] [cycle] sleeping 30 min before next cycle...
+[18:18:42] [init] starting FULL TrafficVision.Live ingestion v3 (forever)
+[18:18:42] [init] loaded 148575 cams
+[18:18:42] [init] header: 35 cols
+[18:18:44] [cycle 1] 173844 URLs, 115454 TV IDs in CSV
+[18:18:44] [cycle 1] starting from idx 0
+[18:18:54] [cycle 1 done] added 29 cams, skipped 148546 dups + 0 invalid, in 9.3s (3/s)
+[18:18:54] [cycle] sleeping 30 min before next cycle...
+[18:48:55] [cycle 2] 174590 URLs, 115483 TV IDs in CSV
+[18:48:55] [cycle 2] starting from idx 0
+[18:48:56] [cycle 2 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[18:48:56] [cycle] sleeping 30 min before next cycle...
+[19:18:55] [cycle 3] 175342 URLs, 115483 TV IDs in CSV
+[19:18:55] [cycle 3] starting from idx 0
+[19:18:56] [cycle 3 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.9s (0/s)
+[19:18:56] [cycle] sleeping 30 min before next cycle...
+[19:48:59] [cycle 4] 176082 URLs, 115483 TV IDs in CSV
+[19:48:59] [cycle 4] starting from idx 0
+[19:49:00] [cycle 4 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.9s (0/s)
+[19:49:00] [cycle] sleeping 30 min before next cycle...
+[20:19:02] [cycle 5] 176823 URLs, 115483 TV IDs in CSV
+[20:19:02] [cycle 5] starting from idx 0
+[20:19:03] [cycle 5 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[20:19:03] [cycle] sleeping 30 min before next cycle...
+[20:49:04] [cycle 6] 177582 URLs, 115483 TV IDs in CSV
+[20:49:04] [cycle 6] starting from idx 0
+[20:49:05] [cycle 6 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[20:49:05] [cycle] sleeping 30 min before next cycle...
+[21:19:07] [cycle 7] 178364 URLs, 115483 TV IDs in CSV
+[21:19:07] [cycle 7] starting from idx 0
+[21:19:07] [cycle 7 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[21:19:07] [cycle] sleeping 30 min before next cycle...
+[21:49:09] [cycle 8] 179151 URLs, 115483 TV IDs in CSV
+[21:49:09] [cycle 8] starting from idx 0
+[21:49:09] [cycle 8 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[21:49:09] [cycle] sleeping 30 min before next cycle...
+[22:19:11] [cycle 9] 179926 URLs, 115483 TV IDs in CSV
+[22:19:11] [cycle 9] starting from idx 0
+[22:19:12] [cycle 9 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[22:19:12] [cycle] sleeping 30 min before next cycle...
+[22:49:13] [cycle 10] 180638 URLs, 115483 TV IDs in CSV
+[22:49:13] [cycle 10] starting from idx 0
+[22:49:14] [cycle 10 done] added 0 cams, skipped 148575 dups + 0 invalid, in 1.0s (0/s)
+[22:49:14] [cycle] sleeping 30 min before next cycle...
+[23:19:16] [cycle 11] 181192 URLs, 115483 TV IDs in CSV
+[23:19:16] [cycle 11] starting from idx 0
+[23:19:17] [cycle 11 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[23:19:17] [cycle] sleeping 30 min before next cycle...
+[23:49:18] [cycle 12] 181844 URLs, 115483 TV IDs in CSV
+[23:49:18] [cycle 12] starting from idx 0
+[23:49:19] [cycle 12 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[23:49:19] [cycle] sleeping 30 min before next cycle...
+[00:19:20] [cycle 13] 182583 URLs, 115483 TV IDs in CSV
+[00:19:20] [cycle 13] starting from idx 0
+[00:19:21] [cycle 13 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[00:19:21] [cycle] sleeping 30 min before next cycle...
+[00:49:22] [cycle 14] 183318 URLs, 115483 TV IDs in CSV
+[00:49:22] [cycle 14] starting from idx 0
+[00:49:23] [cycle 14 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[00:49:23] [cycle] sleeping 30 min before next cycle...
+[01:19:25] [cycle 15] 184062 URLs, 115483 TV IDs in CSV
+[01:19:25] [cycle 15] starting from idx 0
+[01:19:25] [cycle 15 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[01:19:25] [cycle] sleeping 30 min before next cycle...
+[01:49:27] [cycle 16] 184674 URLs, 115483 TV IDs in CSV
+[01:49:27] [cycle 16] starting from idx 0
+[01:49:28] [cycle 16 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.8s (0/s)
+[01:49:28] [cycle] sleeping 30 min before next cycle...
+[02:19:30] [cycle 17] 185203 URLs, 115483 TV IDs in CSV
+[02:19:30] [cycle 17] starting from idx 0
+[02:19:30] [cycle 17 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[02:19:30] [cycle] sleeping 30 min before next cycle...
+[02:49:32] [cycle 18] 185727 URLs, 115483 TV IDs in CSV
+[02:49:32] [cycle 18] starting from idx 0
+[02:49:32] [cycle 18 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[02:49:32] [cycle] sleeping 30 min before next cycle...
+[03:19:34] [cycle 19] 186280 URLs, 115483 TV IDs in CSV
+[03:19:34] [cycle 19] starting from idx 0
+[03:19:35] [cycle 19 done] added 0 cams, skipped 148575 dups + 0 invalid, in 1.0s (0/s)
+[03:19:35] [cycle] sleeping 30 min before next cycle...
+[03:49:37] [cycle 20] 186923 URLs, 115483 TV IDs in CSV
+[03:49:37] [cycle 20] starting from idx 0
+[03:49:37] [cycle 20 done] added 0 cams, skipped 148575 dups + 0 invalid, in 1.0s (0/s)
+[03:49:37] [cycle] sleeping 30 min before next cycle...
+[04:19:39] [cycle 21] 187639 URLs, 115483 TV IDs in CSV
+[04:19:39] [cycle 21] starting from idx 0
+[04:19:40] [cycle 21 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[04:19:40] [cycle] sleeping 30 min before next cycle...
+[04:49:41] [cycle 22] 188316 URLs, 115483 TV IDs in CSV
+[04:49:41] [cycle 22] starting from idx 0
+[04:49:42] [cycle 22 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[04:49:42] [cycle] sleeping 30 min before next cycle...
+[05:19:43] [cycle 23] 188997 URLs, 115483 TV IDs in CSV
+[05:19:43] [cycle 23] starting from idx 0
+[05:19:44] [cycle 23 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.6s (0/s)
+[05:19:44] [cycle] sleeping 30 min before next cycle...
+[05:49:46] [cycle 24] 189692 URLs, 115483 TV IDs in CSV
+[05:49:46] [cycle 24] starting from idx 0
+[05:49:46] [cycle 24 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[05:49:46] [cycle] sleeping 30 min before next cycle...
+[06:19:48] [cycle 25] 190383 URLs, 115483 TV IDs in CSV
+[06:19:48] [cycle 25] starting from idx 0
+[06:19:48] [cycle 25 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[06:19:48] [cycle] sleeping 30 min before next cycle...
+[06:49:50] [cycle 26] 190960 URLs, 115483 TV IDs in CSV
+[06:49:50] [cycle 26] starting from idx 0
+[06:49:51] [cycle 26 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[06:49:51] [cycle] sleeping 30 min before next cycle...
+[07:19:53] [cycle 27] 191447 URLs, 115483 TV IDs in CSV
+[07:19:53] [cycle 27] starting from idx 0
+[07:19:54] [cycle 27 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[07:19:54] [cycle] sleeping 30 min before next cycle...
+[07:49:55] [cycle 28] 192050 URLs, 115483 TV IDs in CSV
+[07:49:55] [cycle 28] starting from idx 0
+[07:49:56] [cycle 28 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[07:49:56] [cycle] sleeping 30 min before next cycle...
+[08:19:58] [cycle 29] 192580 URLs, 115483 TV IDs in CSV
+[08:19:58] [cycle 29] starting from idx 0
+[08:19:58] [cycle 29 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.6s (0/s)
+[08:19:58] [cycle] sleeping 30 min before next cycle...
+[08:50:00] [cycle 30] 192950 URLs, 115483 TV IDs in CSV
+[08:50:00] [cycle 30] starting from idx 0
+[08:50:01] [cycle 30 done] added 0 cams, skipped 148575 dups + 0 invalid, in 1.0s (0/s)
+[08:50:01] [cycle] sleeping 30 min before next cycle...
+[09:20:03] [cycle 31] 193398 URLs, 115483 TV IDs in CSV
+[09:20:03] [cycle 31] starting from idx 0
+[09:20:04] [cycle 31 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.6s (0/s)
+[09:20:04] [cycle] sleeping 30 min before next cycle...
+[09:50:05] [cycle 32] 193811 URLs, 115483 TV IDs in CSV
+[09:50:05] [cycle 32] starting from idx 0
+[09:50:06] [cycle 32 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.9s (0/s)
+[09:50:06] [cycle] sleeping 30 min before next cycle...
+[10:20:08] [cycle 33] 194234 URLs, 115483 TV IDs in CSV
+[10:20:08] [cycle 33] starting from idx 0
+[10:20:08] [cycle 33 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[10:20:08] [cycle] sleeping 30 min before next cycle...
+[10:50:10] [cycle 34] 194551 URLs, 115483 TV IDs in CSV
+[10:50:10] [cycle 34] starting from idx 0
+[10:50:11] [cycle 34 done] added 0 cams, skipped 148575 dups + 0 invalid, in 1.0s (0/s)
+[10:50:11] [cycle] sleeping 30 min before next cycle...
+[11:20:13] [cycle 35] 194721 URLs, 115483 TV IDs in CSV
+[11:20:13] [cycle 35] starting from idx 0
+[11:20:14] [cycle 35 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.9s (0/s)
+[11:20:14] [cycle] sleeping 30 min before next cycle...
+[11:50:16] [cycle 36] 195001 URLs, 115483 TV IDs in CSV
+[11:50:16] [cycle 36] starting from idx 0
+[11:50:17] [cycle 36 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[11:50:17] [cycle] sleeping 30 min before next cycle...
+[12:20:18] [cycle 37] 195366 URLs, 115483 TV IDs in CSV
+[12:20:18] [cycle 37] starting from idx 0
+[12:20:19] [cycle 37 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.6s (0/s)
+[12:20:19] [cycle] sleeping 30 min before next cycle...
+[12:50:21] [cycle 38] 195778 URLs, 115483 TV IDs in CSV
+[12:50:21] [cycle 38] starting from idx 0
+[12:50:21] [cycle 38 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[12:50:21] [cycle] sleeping 30 min before next cycle...
+[13:20:23] [cycle 39] 196124 URLs, 115483 TV IDs in CSV
+[13:20:23] [cycle 39] starting from idx 0
+[13:20:24] [cycle 39 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[13:20:24] [cycle] sleeping 30 min before next cycle...
+[13:50:25] [cycle 40] 196521 URLs, 115483 TV IDs in CSV
+[13:50:25] [cycle 40] starting from idx 0
+[13:50:26] [cycle 40 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.9s (0/s)
+[13:50:26] [cycle] sleeping 30 min before next cycle...
+[14:20:28] [cycle 41] 196899 URLs, 115483 TV IDs in CSV
+[14:20:28] [cycle 41] starting from idx 0
+[14:20:29] [cycle 41 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.6s (0/s)
+[14:20:29] [cycle] sleeping 30 min before next cycle...
+[14:50:30] [cycle 42] 197246 URLs, 115483 TV IDs in CSV
+[14:50:30] [cycle 42] starting from idx 0
+[14:50:31] [cycle 42 done] added 0 cams, skipped 148575 dups + 0 invalid, in 0.7s (0/s)
+[14:50:31] [cycle] sleeping 30 min before next cycle...

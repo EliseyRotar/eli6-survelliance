@@ -1,0 +1,379 @@
+﻿@
+================================================================================
+DATE: 2004.01.08.03.10.16
+================================================================================
+ qblog entry 03:10:16 Thursday January 08 2004 03:10:16 Thursday January 08 2004 Ha! I got some things accomplished today. I believe that I am finally pulling out of the semester break funk that I have been in. Besides the work that I get paid for I have finally started writing up some lecture notes for the 490 course that I am teaching this semester. You see, I really love teaching. I strongly believe that it is one of the most important jobs there is. People in the east tend to have the proper concept of teacher (or rather Sensei). If someone entrusts you with their children's education it is both a great honor and a great responsibility. Society as a whole would benefit immeasurably if we decided that teachers were a group that deserved to be respected and paid as much as doctors and lawyers. Then our best and brightest minds would go into teaching and within a few generations we would have reaped several hundred times our initial outlay. I used to work for the Computer Science Department teaching C and C++ programming. At first I was pretty bad. Lehman sat in on my first class and was horrified. However, I have always believed teaching was important so I devoted myself to improving, and improve I did. Before long I had outstripped the other TAs and was promoted to course administrator. This is where things got hairy. Hairy like a sasquatch with hirsuitism. At this level I frequently had to go to the assistant head of the department and lobby for sufficient funds to run the course. I don't know how much you know about the way the academic system works, but a graduate student has about as much political pull in a department as he has gravitational pull on Jupiter. Needless to say I quickly expended all of my political capital. Last semester I did not teach at all. I took a programming job with RCS . It is great. I get to work with people as geeky as myself and do something that I am good at. However, I miss teaching. So beginning next week I will be teaching a 490 experimental course for 3 to 4 students. Naturally, this work is gratis. The course will cover a variety of topics in computer music. It is not about listening to music or about how to use a particular piece of software. It is about how computers acquire, store, process, manipulate, and output sound. It is as much a course in information theory and digital signal processing as anything else. I am just happy to be teaching again and this time I am working outside of the beaurocracy so I do not expect the same difficulties as last time. 
+
+
+
+================================================================================
+DATE: 2004.01.16.02.19.29
+================================================================================
+ qblog entry 02:19:29 Friday January 16 2004 02:19:29 Friday January 16 2004 Apparently the electric company stopped by today. They scared Brad half to death by leaving this little card that says something to the effect of "Our worker was here to disconnect your electricity, but due to extreme cold temperatures we will be nice and postpone disconnection." Yeah, they will postpone disconnection. They will postpone it until at least March 15th. Do you know why? It sure as hell isn't because they are nice. It is because there is a fucking law . There was a time in my life that I would have been upset that we had such socialist laws which discourage people from working. I was young and stupid and going through my Ayn Rand phase then. I think the Any Rand phase is natural. Everyone should seriously absorb her philosophy and then reject it on their own terms. The reason that this is good for you is because even after you snap out of it you will hold on to some of those core lessons about self confidence and living for yourself and not for other people. I hadn't intended to be up this late, so I will logout now. 
+
+
+
+================================================================================
+DATE: 2004.01.19.06.45.40
+================================================================================
+ qblog entry 06:45:40 Monday January 19 2004 06:45:40 Monday January 19 2004 I finally added a very simple counter to the site. You can see the output here . It has only been up for a day or two, but it more or less confirms my suspicions. No one reads the log. Several people use the various link and search pages. The only surprise was the number of hits the web cam page gets. Another Microserfs moment: I guess supermodels are like geeks, but instead of winning the Punnett Square of brains, they won the Punnett Square of looks. It must be bizarre being fabulously good-looking. I mean, at least you can disguise brains. 
+
+
+
+================================================================================
+DATE: 2004.01.23.04.03.20
+================================================================================
+ qblog entry 04:03:20 Friday January 23 2004 04:03:20 Friday January 23 2004 Yeah, yeah, so I missed an entry yesterday. Let me see yesterday... I woke up early for a PSO. That is P ractice S tudy and O bservation for those of you not from purdue . There is a rule here that you must give at least one credit for a "lab". So the CS department is known for scheduling "optional" PSO sessions (see how they cleverly did not use the word "lab") once or twice a week (for which you receive no credit). Of course you will find it incredibly difficult to pass the course without attending these "optional" sessions so you essentially have to attend. At least they schedule them during the free time on your schedule. We were assigned our packet sniffer project. This should not be too hard. Just many lines of code. From there I met with Professor Simonsen. I did not get as much done on her project as I thought I could, but she is happy. Her research seems to be moving along nicely. I know her postdoc is actually using an earlier version of my code. I learned earlier this week that I am going to get moved into a new group at work. Apparently they are going to support a group to work on advanced scientific programming. I will miss working under with Dale Talcott. He is a good guy, and a real old time hacker. I will be working under Faisal Saied now. I don't know much about him, but he seems like a nice guy. He is a mathematician with all kinds of connections within NCSA. He helped me get an account there for working on the Globus/grid stuff. After work last night I came home, had spicy stir fry of death with Brad, and was just too tired to produce any notes for cs490-dsp. So I went to bed a little early last night and got up a lot early today. I threw together some lecture notes. Actually they were not half bad. I zipped through all my classes without lunch. For some reason I was not hungry today. Did some more work this afternoon, mostly small stuff that had been put off by all the administrivia last week. I did some plotting about what our 590d project should be. I had hoped to be in bed well before now, unfortunately I am going to need to violate the no-alarm-on-Friday rule tomorrow. 
+
+
+
+================================================================================
+DATE: 2004.01.24.03.03.54
+================================================================================
+ qblog entry 03:03:54 Saturday January 24 2004 03:03:54 Saturday January 24 2004 Today I learned about empty adverbs . After a careful reading I have determined that this must be the reason my writing seems so flat nowadays. I can see how they crept in. Seven years of scientific education taught me that you cannot say anything that isn't math without qualifying it. Phrases such as: "It is currently believed that..." and "Hopefully future work will explain..." Are so common in scientific literature that they have begun to seep into my brain. I also have adopted a much more relativistic philosophy. In high school it was so damn easy to write everything without qualification because life was simple and right was right and wrong was wrong. I don't believe that anymore and because I govern my life from first philosophical principles it is difficult to avoid qualifying things. None the less I shall make a concerted effort to eliminate them. Let us see how it goes. Once again without the waffling. Tomorrow Brad makes the long trip back to Alabama. As Sara with no 'H' said a moment ago. "It is actually kinda sad." And so it is. I have enjoyed Brad's company a great deal these last two years. He may be a son of a bitch, but he is the type of son of a bitch that is great to have around. I was very surprised at how willing he was to join my little group of super dorky friends. I am glad he did. I know all of our lives have been made much more interesting by having him about. I am very bad at goodbyes. When I know someone is leaving my first instinct is to spend less and less time with them. I tend want to ration them out of my life. I know the feel good pop psychology camp will feed me some bullshit line about how I should be treasuring the little time we have together. I don't buy it. When I spend time with the nearly departed all I can think about is how this is probably the last time we will drink a beer together or the last time we will watch Futurama together. I am never able to treasure the time. Each minute brings another "last time" it is just too depressing. It is best just to let them fade away. I have delusions that one day not long from now when it comes time for me to move on I won't tell anyone until a few days before. I would avoid people for a few weeks, then send out the mail that I am moving to Azerbaijan next Thursday. Of course the logistics of accomplishing something like that are mind boggling, but it would be fitting if I just faded away one day. 
+
+
+
+================================================================================
+DATE: 2004.01.30.00.27.47
+================================================================================
+ qblog entry 00:27:47 Friday January 30 2004 00:27:47 Friday January 30 2004 I feel much better than I did yesterday. Perhaps it is because the weekend is coming up. I know that I will need to work through the weekend, but at least it means that I can get a fair amount of sleep each night. Today I did all of the usual Thursday things. I think my lack of preparation showed in 490-dsp. Teaching is not something that you can do "off the cuff" unless you are a true expert on the subject. I made progress on my packet sniffer. The weekend MUST be devoted to the packet sniffer. It is due in a little more than a week. Chris just sent me an invite (literally seconds ago) to the new orkut thing . I am honored that he invited me. I should probably jump on the bandwagon early, but I rarely use the social networks I have in real life let alone virtual ones. Long long ago in the before times I was into the sixdegrees thing when that meme was spreading like wildfire. I still get spam as a result. On the other hand I suspect that this will be the most usable "friend of a friend" site because it is backed by google. Warren echos some of my thoughts on the subject, er... maybe I echo him. 
+
+
+
+================================================================================
+DATE: 2004.01.31.02.58.53
+================================================================================
+ qblog entry 02:58:53 Saturday January 31 2004 02:58:53 Saturday January 31 2004 Today I woke up only to discover that I had a flat tire. After bumming a ride to campus with Matt I met with Professor Xie. After that I met with my group for 590d. That didn't go too well. It looks like we will be implementing the PFIR TRIPOLI scheme. I am not very fond of the scheme from a technical point of view. However, I am glad that a decision has been made and that it is something that I feel we can actually implement. After those meetings I met with Faisel et al concerning the new performance engineering group that I will now be a part of. I think the meeting went well. I think they picked up on the fact that I was already a bit overloaded. Perhaps they will not dump a new project in my lap immediately. After this I hung out in the office with David and Rick. It is always interesting to hear them opine on the day's events. I wrote some code for a couple of hours and then headed off to the improv show. The improv show featured improv crews from Lafayette, Purdue, UIUC, and Michigan. I enjoyed it a great deal and Big Brothers/Big Sisters made out like bandits, which is excellent because that is such a good cause. We ran into Lita at the Improv show. We also saw Yost. Strangely enough he was performing. He actually did a hell of a job. I was very impressed. After the improv Chris, Sara, Sara's new flatmate (who's name eludes me due to my mutant weakness) stopped by. We had some quite tasty vegetarian Chili and watched Being John Malkovich. I like Sara's flatmate. She is one of those people who seems to understand that judging people by the quality of their media is a time honored early/mid twenties hipster thing to do. 
+
+
+
+================================================================================
+DATE: 2004.02.03.05.18.36
+================================================================================
+ qblog entry 05:18:36 Tuesday February 03 2004 05:18:36 Tuesday February 03 2004 Much more was accomplished today. Perhaps I should have crashed earlier yesterday. I got off to a slow start because I had to change the tire on my car. There was a flat and I have been remiss to change it these past two days because of the deathly cold weather. However today everything warmed up and Matt needed to get to school so there were no more excuses. After changing the tire I had some fish for dinner and headed off to work. I completed my paper for 590d, lecture notes for 490-dsp, and filled and emergency feature request for Professor Simonsen. Also on the list of odd jobs that got accomplished today: mailed the financial aid people, made a bank deposit, paid some bills, did some laundry, and crashed calypso (the house fileserver) twice while trying to sort out some MIDI business. Perhaps sleep is more important than I often give it credit for. 
+
+
+
+================================================================================
+DATE: 2004.02.03.22.28.39
+================================================================================
+ qblog entry 22:28:39 Tuesday February 03 2004 22:28:39 Tuesday February 03 2004 I did all of the requisite Tuesday things today. I didn't stay late to work on my packet thing. I decided to grab some sleep and put that off until tomorrow. I finally gave up and joined orkut . Drop me a line if you want an invite. I have been reading Sex, Drugs, and Cocoa Puffs by Chuck Klosterman. I can't seem to get to sleep any more without reading a couple of chapters of something. So any time I finish a book a new one is always immediately in the offing. SD&CP is a series of semi-academic takes on pop culture. It is kind of hard to explain. For example: As America's best-loved semipro freelance conversationalist, I am often queried about my brazen humorousity. "How is it possible," I am asked, "that you are able to extemporaneously lecture so effortlessly on such a myriad of complex topics? What is the key to your incisive, witty repertoire?" ... The formula is as follows: When discussing any given issue, always do three things. First, make an intellectual concession (this makes the listener feel comfortable). Next, make a completely incomprehensible -- but remarkably specific -- "cultural accusation" (this makes you insightful). Finally, end the dialogue by interjecting slang lexicon that does not necessarily exist(this makes you contemporary). ... For example when talking about music: "Oh, let's face it we all know that if Rivers Cuomo makes one more album about the Cubism didactic, he might as well just give up completely and turn Weezer into a hobo-core three piece." 
+
+
+
+================================================================================
+DATE: 2004.02.06.04.51.51
+================================================================================
+ qblog entry 04:51:51 Friday February 06 2004 04:51:51 Friday February 06 2004 I am in deep hack mode. Learned some new things about the format of emacs regular expressions today. Wrote a butt load of code for my packet sniffer. I am a bit off because of my medication. More on that when I am not so pressed for time. 
+
+
+
+================================================================================
+DATE: 2004.04.07.06.15.26
+================================================================================
+ qblog entry 06:15:26 Wednesday April 07 2004 06:15:26 Wednesday April 07 2004 New plan: Leave all network cards, magazines, novels, etc at home. Take diogenese (my laptop) to campus. Hide somewhere quiet and work on stuff. Profit? I feel I am spending too much time browsing the web. Crunch time is coming up and I want to get as much as possible done before hand. 
+
+
+
+================================================================================
+DATE: 2004.07.23.05.45.30
+================================================================================
+ qblog entry 05:45:30 Friday July 23 2004 05:45:30 Friday July 23 2004 /var/log/nolandda now returns you to your regularly scheduled program. Today is my father's birthday. I was in A-Town to celebrate with him yesterday. I recovered all of his old genealogy data from our old IBM AT and gave it to him as a gift. This morning I attempted to call my mother in South Africa. Africa is broken. Someone needs to fix it. I swear that Cape Town has as many telephone circuits as Daleville, IN. I gave a presentation at work today. It went all right, but I should have run through it a couple of times beforehand. I stumbled once or twice during the presentation. This evening I was supposed to go out drinking with John and his sister Misty. However times got mixed up or something and after waiting at Fazolis for the better part of an hour I gave up and went over to Terry's to drink with he and Lita. Watched The Stepford Wives (1975) upon my return to the house. It is a dark, but very good flick. I recommend it unconditionally. I wonder how the remake will hold up. I should read the book also. Speaking of which I am currently reading Krakatoa by Simon Winchester. I picked it up because of a positive review on NPR and because I enjoyed The Professor and The Madman . While the author's ability to make dry subjects fascinating is clearly evident again in this book, I already know most everything there is to know about plate tectonics and subduction zones and the like. Therefore I find myself skimming most of the book. 
+
+
+
+================================================================================
+DATE: 2005.05.31.18.47.46
+================================================================================
+ qblog entry 18:47:46 Tuesday May 31 2005 18:47:46 Tuesday May 31 2005 Why can't people obey the standards? It isn't hard. No one has any respect for standards. As I shall demonstrate, unwashed open source hippies who talk a lot about respecting standards are as guilty as everyone else. case 1: Visual C++ does not understand scoping at all. Paste this into your compiler. Go on this will still be here when you return. int x = 77; for(int x=0; x<10; x++) {} printf("the value of x is %d\n", x); What should the value of x be? It should be 77 because the x declared in the for loop only exists inside the for loop. Moreover there should be a warning about overriding a previous x. Does VC++ do either of these things? No. case 2: Both VC++ and gcc treat the result of the trinary conditional operator as an lvalue. If you check your copy of ISO 9899 section 6.5.15 you will find that it says EXPLICITLY that the conditional operator DOES NOT yield an lvalue. However feel free to try something like this. It is almost guaranteed to work on any given compiler: int a=0, b=0; (rand()%2) ? a : b = 42; case 3: gcc absolutely abuses the standard by allowing the second operand to the conditional operator to be omitted. Yep, try it out. int alpha = 0; int beta = 13; alpha = (rand()%2) ? : beta; This is exactly equivalent to: alpha = (tmp=(rand()%2)) ? tmp : beta; which, as it happens, is actually legal C. case 4: Today I discovered that Visual C++ disables certain language features by default. While attempting to use the dynamic_cast operator I discovered that RTTI was missing. This piece of information came to me by way of the mysterious compiler warning: main.cpp(51): warning C4541: 'dynamic_cast' used on polymorphic type 'Foo' with /GR-; unpredictable behavior may result What VC++ means to say is : "I am a crippled non-standard compiler. You need to explicitly enable RTTI by doing Project -> Properties -> C/C++ -> Language -> Enable Run-Time Type Info and then fiddling around with the drop box that will allow me to fully implement the C++ language." 
+
+
+
+================================================================================
+DATE: 2006.03.02.23.54.05
+================================================================================
+ qblog entry 23:54:05 Thursday March 02 2006 23:54:05 Thursday March 02 2006 Former Secretary of State Dr Madeline Albright spoke in the PMU ballroom this evening. The talk was sponsored by The College of Engineering as part of their National Engineers Week celebrations. The title of her speech was Globalizing the World's Technology Supply . The talk primarily focused on issues associated with the rapid technical advancement of South Asia in general and China and India in particular. Dr Albright readily admitted that she had very little technical expertise, but stuck to areas she understood well such as competition for natural resources and the need for more science education. She was very good about preventing herself from getting drawn off topic, yet still managed to lighten things up with the occasional interesting story of life in the land of the diplomats. Photos here . 
+
+
+
+================================================================================
+DATE: 2006.03.06.19.35.49
+================================================================================
+ qblog entry 19:35:49 Monday March 06 2006 19:35:49 Monday March 06 2006 To those of you just joining us from the livejournal feed: welcome. I am Dan Noland, mild mannered computer hacker in West Lafayette, Indiana. I have other aliases on the network of course. This weekend was quite busy. I was pleased to have dinner with my lovely and talented girlfriend, Sara with no 'h' , on Friday after work. We skipped the Mardi Gras rush and waited until the first Friday of Lent to eat at the Cajun Connection . On Saturday I attended Darwin Day on the IUPUI campus. The event was hosted by the Indiana branch of The Center for Inquiry . It featured a number of interesting speakers from Indiana Universities, Government, and Civil Liberties groups. There was even a debate between an Intelligent Design proponent and Scott Hartman who in addition to being a paleontologist is also an artist. Listening to so many lectures was not dissimilar to being back at University. Photos here 
+
+
+
+================================================================================
+DATE: 2006.03.14.16.33.55
+================================================================================
+ qblog entry 16:33:55 Tuesday March 14 2006 16:33:55 Tuesday March 14 2006 This weekend was eventful. On Friday evening we ate Korean and started some seedlings for our garden (including various spicy peppers and herbs). Sara's birthday was Saturday. We did yard work in the morning because it was a beautiful day. In the evening we had dinner at Sarge Oak and afterwards drinks and desert at Eight West . Sunday was spent cleaning up around the house. That pesky second law of thermodynamics keeps me busy all the time. Showalter came over and talked for a while. We watched a few episodes of Gargoyles . On Monday Brad and I received a our shipment of computer parts. As a result we fiddled with computers most of the evening while Sara watched Swingers for the first time. 
+
+
+
+================================================================================
+DATE: 2006.03.31.18.29.51
+================================================================================
+ qblog entry 18:29:51 Friday March 31 2006 18:29:51 Friday March 31 2006 Busy, busy, busy. I went to a Blackhawks game last weekend. It is crunch time at work. A WAR Team has been instantiated. 
+
+
+
+================================================================================
+DATE: 2006.03.31.19.33.37
+================================================================================
+ qblog entry 19:33:37 Friday March 31 2006 19:33:37 Friday March 31 2006 Dear Livejournal Users, I am sorry I spammed your friends list with my entries. There was a bug in my rss generation code, and I thought livejournal was smart enough to interpret the old entries correctly. It was not. My bad. 
+
+
+
+================================================================================
+DATE: 2006.05.02.17.19.20
+================================================================================
+ qblog entry 17:19:20 Tuesday May 02 2006 17:19:20 Tuesday May 02 2006 Michael Kelsey at the LBC last Saturday. A large percentage of the party list made their presence known. More pictures here . 
+
+
+
+================================================================================
+DATE: 2006.05.16.20.09.35
+================================================================================
+ qblog entry 20:09:35 Tuesday May 16 2006 20:09:35 Tuesday May 16 2006 Photos from the Conrad Bakker show at the Indianapolis Museum of Contemporary Art . 
+
+
+
+================================================================================
+DATE: 2006.05.30.19.05.46
+================================================================================
+ qblog entry 19:05:46 Tuesday May 30 2006 19:05:46 Tuesday May 30 2006 Weekend update: Friday * Had lunch with Kennell and Shuey * Built a vermin defense perimeter around the berries * Potted my peppers * Purchased a new grill and grilled some Salmon Saturday * Helped Sara feed and weigh the rats * Went to the Round the Fountain Art Fair Sunday * Helped Sara feed and weigh the rats * Played in Brad's CP2020: Deus Ex Machina game Monday * Helped Sara feed and weigh the rats * Attended The Abbey's Memorial day party * Grilled chicken wings and watched The Adventures of Buckaroo Banzai Across the 8th Dimension Also, if anyone has 2600 USD lying around I want a giant praying mantis sculpture. 
+
+
+
+================================================================================
+DATE: 2007.03.08.19.47.32
+================================================================================
+ qblog entry 19:47:32 Thursday March 08 2007 19:47:32 Thursday March 08 2007 The hard disk drive (hdd) in my computer at work died yesterday. While I am fixing up this one to be usable I should log the necessary actions in case I (or anyone else) needs to do it again. Windows Itself Open any folder. Choose tools->options. In the view menu check: (1) Display the contents of system folders, (2) Show hidden files and folders, (3) Restore previous folder windows at login. Uncheck: (4) Hide extensions for known file types and (5) Hide protected operating system files. Right click on the task bar. Choose properties. In the Taskbar tab uncheck (6) Group similar taskbar buttons. In the Start Menu tab choose (7) classic start menu. Click the customize button. (8) Click Sort. Uncheck (9) Use Personalized Menus. Delete all the icons in the Start menu by right clicking on them and choosing delete. Things to Install Launchy WinAmp Taskbar Shuffle Sharp Reader Gaim Gimp WinZip 8.0 WinRar Startup Control Panel Acrobat PDF Reader Java Runtime and Dev Kit Microsoft Visual Studio Microsoft Office Microsoft Communicator TightVNC Putty Pscp Mozilla Firefox Adblock Plus Filterset.G Updater User Agent Switcher Session Manager HashColouredTabs+ Other Configuration In any office program: Tools -> Customize -> Options -> Always Show Full Menus Outlook is awful, but it must be used at work. Configuring it to be even remotely useful is very difficult. Some good first steps. (1) View -> Reading Pane -> Bottom. (2) Tools -> Options -> Preferences Tab -> E-Mail Options -> Read all mail in plain text. (3) Tools -> Options -> Mail Format Tab -> Compose all mail in plain text. (4) View -> Arrange By -> Current View -> Hide messages marked for deletion. (5) Tools -> Customize -> Commands Tab -> Edit -> Drag the command "Purge Deleted Messages" into the tool bar up top. (6) Set up your filters using Tools -> Rules and Alerts. There are lots of other work related configuration changes that need to be made, but I won't list them here because they would just help hackers map our internal network. 
+
+
+
+================================================================================
+DATE: 2007.06.13.18.58.59
+================================================================================
+ qblog entry 18:58:59 Wednesday June 13 2007 18:58:59 Wednesday June 13 2007 My hops have popped their heads up above the ground. It will be a couple of years before we can harvest any cones. Last month we stopped by the Some Place Like Home installation downtown. I wasn't impressed. The space was not a good match for the theme. I was also frightened by the strange obsession with the old Herb Alpert's Tijuana Brass album Whipped Cream and Other Delights . We made an appearance at the Round the Fountain Art Fair again this year. Constantine was kind enough to invite us all to his Memorial Day party where we learned the joys of Ladder Ball (a.k.a. Bolo Toss). There is apparently a flash version of the game . It is much better in person and with beer. Sara and I attended Robin's high school graduation open house and had a fine dinner with Homer Hargrave, Jr., but we missed out on Vintage Indiana this year. We were good theater patrons and endured a downpour while watching A Mid-Samara Night's Dream . The performance was organized by Project IN Motion and hosted by Dr John Christian in the valley beneath his beautiful Frank Lloyd Wright home, Samara . Unfortunately the weather was more conducive to a performance of The Tempest. The cast had fun with the conditions when they could and endured when they could not. Of particular note was Ms Laura Marie Williams who played Titania and was stuck on a platform high in a tree when the rain came. Despite getting soaked she sat up there and sang to the remaining audience members huddled under their umbrellas below. After the downpour things picked up nicely and by Act V the memory of the storm was no more yielding but a dream. Chrissy has been staying with us off and on, but she has her own apartment now. Recent cooking experiments have included Cinnamon Buns with the Showalters and Squid with Brad. 
+
+
+
+================================================================================
+DATE: 2007.12.08.21.34.41
+================================================================================
+ qblog entry 21:34:41 Saturday December 08 2007 21:34:41 Saturday December 08 2007 OK, these updates are coming in a completely random order now. On October 27th Sara and I braved the cold to watch the dedication of the Neil Armstrong Hall of Engineering . Because of Purdue's long history with the space program sixteen astronauts attended the dedication including: Neil Armstrong John Blaha Mark Brown Eugene Cernan Richard Covey Drew Feustel Greg Harbaugh Michael McCulley Gary Payton Mark Polansky Jerry Ross Loren Shriver Janice Voss Charles Walker Don Williams David Wolf It was moving to see so many parents holding their children on their shoulders so they could see the Astronauts. Gene Cernan , the most recent man on the moon; Dr. France Cordova , Purdue's new President; and Neil Armstrong , the first man on the moon spoke. 
+
+
+
+================================================================================
+DATE: 2007.12.31.18.30.42
+================================================================================
+ qblog entry 18:30:42 Monday December 31 2007 18:30:42 Monday December 31 2007 Christmas 2007 was a great success. This year we spent the majority of the holidays with my family. 
+
+
+
+================================================================================
+DATE: 2007.12.31.18.33.25
+================================================================================
+ qblog entry 18:33:25 Monday December 31 2007 18:33:25 Monday December 31 2007 The Kinzig Lab has a postdoctoral student named Sam from northern England. She and her fiance, Chris, decided to get married on the 28th in superior court six in the Tippecanoe County Courthouse. Sara and I attended and acted as witnesses. We also baked cupcakes for the reception that night at O'Bryan's Nine Irish Brothers . 
+
+
+
+================================================================================
+DATE: 2008.01.18.00.17.11
+================================================================================
+ qblog entry 00:17:11 Friday January 18 2008 00:17:11 Friday January 18 2008 Concerning chestnuts : We all know that early in the 1900s the American Chestnut, castanea dentata , was almost wiped out by a fungal blight. A while back I learned that there has been some significant progress made in breeding the few remaining American Chestnuts with disease resistant Asian Chestnuts such as Castanea Crenata and Castanea Mollissima . These hybrids appear to be disease resistant while tasting more or less like original American Chestnut. Of course, I simply had to try a food that almost went extinct. I bought a pound or two of these chestnuts from my local grocer. I had intended to eat them with my family over Christmas, but the time never presented itself. So I decided to roast them after the holidays back at my house. I expected them to pop while roasting in the oven. However when they didn't I chalked it up to their loss of moisture because it had been more than a week since they were purchased at the store. This was a dumb move on my part. I pulled them out of the oven, set them on the range, and, figuring that they weren't getting any hotter, began to inspect them with my face about half a meter away. This was an even more dumb move on my part. As Murphy demands one of the chestnuts chose that precise moment to explode in my face. I am very lucky that I didn't suffer any eye damage. After I realized that I wasn't hurt I began laughing and Sara grabbed the camera for documentation. If you click on the picture you can get a nice large version showing bits of Chestnut flesh in my hair. 
+
+
+
+================================================================================
+DATE: 2008.02.23.14.31.23
+================================================================================
+ qblog entry 14:31:23 Saturday February 23 2008 14:31:23 Saturday February 23 2008 February is a very boring month. There are a lot of hours spent in the house trying to avoid the cold. The motivation to go out and find interesting things to do drops in proportion to the temperature. Nature did provide something interesting with a total lunar eclipse on the 20th . Before that Sara and I celebrated Saint Valentine's Day with a nice meal and a quiet evening at home. 
+
+
+
+================================================================================
+DATE: 2008.03.04.19.48.41
+================================================================================
+ qblog entry 19:48:41 Tuesday March 04 2008 19:48:41 Tuesday March 04 2008 Sara's mother and sister visited us on the weekend of February 23rd. The girls had their hair done at Christina's Spa. They all came back looking even more lovely than usual. After their spa session we stopped by the Purdue Armory and caught the tail end of the 2008 Rube Goldberg High School Regionals . On February 24th we had some people over to make pizza's. They were delicious and fun as always. Just last night we stopped by campus to hear Artist Ken Rinaldo from Ohio State talk about his Autotelematic Spider Bots. He has some weird artist ideas about trans-species communication and what constitutes consciousness, but the art was interesting. The spider-bots seemed to do an OK job of avoiding one another and the walls, but it was evident that he hadn't worked out a number of important engineering problems such as battery life. I suppose that is why he is an artist and not an engineer. Photos of the spider-bots are in the usual place. 
+
+
+
+================================================================================
+DATE: 2008.03.08.23.59.59
+================================================================================
+ qblog entry 23:59:59 Saturday March 08 2008 23:59:59 Saturday March 08 2008 Sara and I got up early and drove down to IUPUI for the 3rd annual Darwin Day conference held by CFI Indy . That event seems to go further downhill every year. What began as an interesting event with nuanced presentations and debates has degenerated into a boring training session for primary school teachers looking to collect certificates and graduate credit. The primary reason that I returned this year was to hear Richard Carrier Talk about the creationism vs. evolution debate as it played out in ancient Rome 1800 years ago. Unfortunately he was sick and unable to attend. We did watch a video version of his lecture which was interesting even though there was no opportunity to ask questions. Many of the other morning presentations, such as a hokey speech by a gentleman dressed as Charles Darwin were torturous to endure. In addition the conference was also plagued by technical issues most of the morning. As a result Sara and I bailed out before noon. Supporting the science of evolution is one thing. Wasting an entire Saturday on a poorly executed event is quite another. Fortunately not all was lost. On our way out of Indy we noticed that The Flying Cupcake Bakery was open. We had been by before, on the recommendation of braingirl , but their hours are somewhat sporadic around the holidays so we had never actually made it in. We are glad we made it in this time. We had delicious gourmet cupcakes for lunch. Later that evening the behavioral neuroscience crew got together to check out the newest bar in town, the Black Sparrow . It is a nice place with a very artsy/hipster feel to it. You can tell that the owners put thought into the design. There is lots of stencil art. Live DJs are common (The Soul Stewards played that night). The cocktails are modeled on drinks popular during prohibition. Many contain whiskey and bitters of some type. Feel free to check out my photos of the evening including Sara's arm wrestling victory. 
+
+
+
+================================================================================
+DATE: 2008.04.09.16.27.52
+================================================================================
+ qblog entry 16:27:52 Wednesday April 09 2008 16:27:52 Wednesday April 09 2008 The queue for tickets to Senator Barack Obama's town hall meeting tomorrow night at Jefferson High School. 
+
+
+
+================================================================================
+DATE: 2008.04.09.17.25.54
+================================================================================
+ qblog entry 17:25:54 Wednesday April 09 2008 17:25:54 Wednesday April 09 2008 Nota Bene: I am going to start posting some backdated log entries. 
+
+
+
+================================================================================
+DATE: 2008.04.17.20.09.40
+================================================================================
+ qblog entry 20:09:40 Thursday April 17 2008 20:09:40 Thursday April 17 2008 Senator Barack Obama speaking at at Jefferson High School on April 10th. Sara and I managed to find some balcony seats way in the back. Sorry about the photo quality. 
+
+
+
+================================================================================
+DATE: 2008.06.13.19.17.14
+================================================================================
+ qblog entry 19:17:14 Friday June 13 2008 19:17:14 Friday June 13 2008 Yesterday on the way to dinner Sara and I discovered a tiny little Eastern Cottontail in the road. It was limping on one of its hind legs. A passerby mentioned that they had seen another one in the area earlier, so I suspect a dog or other predator flushed a nest. We were uncertain if the mother was still alive, and the kit was injured even if the mother still lived, so we decided to take it to get help. We brought it home and placed it in a bin with some hay. It survived the night and we took it to Wildcat Wildlife Center just up IN-25 near Delphi. They will set its leg and tube feed it until it is well enough to be released. 
+
+
+
+================================================================================
+DATE: 2008.07.04.00.50.16
+================================================================================
+ qblog entry 00:50:16 Friday July 04 2008 00:50:16 Friday July 04 2008 Windmills belonging to the Somerset Wind Farm . I snapped this photo on June 1st from a rest stop on the Pennsylvania Turnpike as we drove to Mechanicsburg, Pennsylvania to attend the funeral of Sara's Grandfather, John Laughlin. 
+
+
+
+================================================================================
+DATE: 2008.07.04.00.56.14
+================================================================================
+ qblog entry 00:56:14 Friday July 04 2008 00:56:14 Friday July 04 2008 An Ash tree on Cumberland Avenue that is being used to test for the presence of Emerald Ash Borers (Agrilus planipennis) . The USDA is conducting the survey. More info about the survey here. If you see what look like purple kites stuck in trees it is probably the USDA counting Emerald Ash Borers. 
+
+
+
+================================================================================
+DATE: 2008.07.14.14.01.44
+================================================================================
+ qblog entry 14:01:44 Monday July 14 2008 14:01:44 Monday July 14 2008 On vacation in Paris. Everything has been wonderful: the museums, the churches, the food, and even the parade since it is Bastille Day here in France. Photos of Munich and Paris are forthcoming as are photos of the Constantine wedding. However, the most important news is that today at the Medici Fountain in the Luxembourg Garden my lovely girlfriend, Sara, agreed to marry me. 
+
+
+
+================================================================================
+DATE: 2008.12.19.00.51.46
+================================================================================
+ qblog entry 00:51:46 Friday December 19 2008 00:51:46 Friday December 19 2008 This is the fourth Europe trip post. It covers the events of July 14th and July 15th of the year 2008. -- July 14th 2008: Dan's photoset , Sara's photoset , -- We woke up very early on the morning of the 14th, about 5:30 local time I think. You see July 14th is F&ecirc;te Nationale (a.k.a. Bastille Day ) in France. We wanted to watch the parade down the Avenue des Champs-&Eacute;lys&eacute;es so getting there early to claim a spot was a necessity. When we first arrived we found a very nice spot right at the corner where Avenue de Marigny intersects Avenue des Champs-&Eacute;lys&eacute;es. Unfortunately after we had been there for 90 minutes or so, the street had become crowded. Only then did the security forces show up to cordon off the area we were in and force us all out of viewing range. Through guile and cunning on Sara's part we were admitted into another cordoned off area that provided a decent view of the street. Given my height I could see fairly well, but Sara had some difficulty. Fortunately we met a very kindly older French couple who were there to watch their son, a military officer, march in the parade. They allowed Sara to use their step stool once they had seen their son pass by. The parade itself was quite a production including soldiers in dress uniform, mounted cavalry, tanks, jeeps, jets, helicopters, and even paratroopers. We also saw President Nicolas Sarkozy pass by to go inspect the troops. After the parade getting back to the apartment proved somewhat difficult. Many streets were barricaded against both vehicular and pedestrian traffic. I suspect that they were being used to get VIPs back to their hotels and offices. This meant that we, as not so important people, had to walk a very long way back to our apartment. We punctuated our hike with a stop for a snack and made it back without incident. Back at the house we showered again, much needed after being out half the day in the hot sun, and rested a bit after our long walk. Then, secure in the knowledge that we were both spiffed up a little bit, I slipped a little black velvet box into my pocket and asked Sara to join me for a walk in the gardens. We had discussed seeing both the Jardin du Luxembourg and the Jardin des Plantes when planning our trip. Heading over to the south side of town I was pretty nervous. I only picked at my lunch. At the garden I discovered, to my dismay, that since most french people don't have to work on the national holiday the park was more crowded than I had hoped. Walking around I noticed how different formal European-style gardens are from the landscape architecture influenced parks common in the US. Instead of winding trails you find straight well-maintained gravel paths. Flowers are arranged in geometric patterns in beds that themselves form geometric patterns. It took us a while to find it, but eventually we stumbled upon what I had been looking for, the Medici Fountain in the northeast corner of the garden. I was happy to see that its secluded location meant that it wasn't nearly as crowded as the rest of the park. We walked around it admiring the sculpture and then sat down on a pair of wrought iron chairs to enjoy the beautiful day. Then beneath the canopy of trees I asked Sara to be my wife. Of course we all know how that worked out . We walked over and explored the Jardin des Plantes while enjoying eachother's company. Unfortunately we arrived to late to explore the natural history museum, but we didn't really care. Eventually we grew tired of walking and acquired an excellent engagement meal at Le Loup Blanc near our apartment. We retired for the evening happy, young, and in love in Paris. -- July 15th 2008: Dan's photoset , Sara's photoset , -- We awoke on the 15th with the certain knowledge that our six day Paris Museum Pass was about to expire. We had already gotten more than our money's worth out of it with our many trips to the Louvre and other museums, but none the less we were determined to hit as many more as possible. The most glaring omission from our list was obviously the Mus&eacute;e d'Orsay , and that is precisely where we spent our morning. The Orsay used to be a train station and the layout betrays this. It is filled with excellent work by impressionists and members of related movements. We had lunch in the little caf&eacute; at the top of the museum before strolling through some of the Art Nouveau furnishings in their collection. By mid-afternoon we were burned out on impressionist masterpieces. Still intent on using our passes to their fullest effect we headed to the Rodin Museum . The most famous work there is The Thinker . As the afternoon stretched on we decided to hit one final museum before everything closed. We made it to the Picasso Museum just in time to make a hurried tour. We didn't capture any photos because (a) they were not permitted and (b) there wasn't time to be sneaky about it. I was fairly unimpressed with the Picasso Museum. It was small and contained only a few interesting works. I think anyone planning a trip to Paris could easily skip it if time were tight. Later we made our way over to the The Panth&eacute;on . Across the street there is a government building associated with the 5th Arrondissement somehow (I gave up trying to understand the hierarchy of government levels in Paris). In that nice old government building the organizers of the SSIB conference had rented a ball room wherein they held a reception for the conference attendees. After we walked about eight blocks to the registration site to pick up Sara's badges they even believed we were conference attendees. At the reception we rendezvoused with several of Sara's friends namely Ashley, Chelsea, and Lindsey. With the reception completed we all gathered to make the trip up the Eiffel Tower. Unfortunately the very top deck was closed for repairs, but we were able to ride up to the lower two decks. It is an impressive feat of engineering and provides an amazing view of the city. And despite how much the French complain about the new sparkling lights on the tower that are triggered every hour or so after sundown in thirty years they will all love it. 
+
+
+
+================================================================================
+DATE: 2009.04.10.19.48.32
+================================================================================
+ qblog entry 19:48:32 Friday April 10 2009 19:48:32 Friday April 10 2009 We went to see Randi talk on Monday. The photoset is here . I was somewhat disappointed. Randi gave a very meandering talk with no central thesis. It was more like story time with "grandpa Randi" than a lecture. Michael Shermer did a much better job when he presented a Woods Lecture a few years ago. In other news: chess has suddenly become a popular recreation activity at my workplace. This has re-awakened the long dormant chess circuits in my brain. It is interesting to me that lots of my friends and co-workers don't know me as a "chess person". Once upon a time it was a major part of my life. My father taught me to play at a fairly young age. Once I got over losing my first game, I enjoyed playing chess a lot. My parents were always looking to get me involved in activities, but I was a socially inept child. When placed on a sports team I would just sit on the field and pull weeds. In a stroke of genius they realized that they could get me involved by sending me to summer chess camp run by the legendary Mike Zabawa . I remember him as a very intimidating man, kind of a hard-ass, but I learned a lot from him. I played great deal of chess in middle school and early high school. Hell, I even started the chess club at my middle school (Zabawa's club across town was so good that my middle school had never even bothered to form a club). In the later half of high school I became more interested in role playing games like Dungeons and Dragons and socializing with girls and forgot about chess for a few years. In college Ryan and Andy were very into chess and we would play game after game after game just to kill time in the dorms. Once grad school started I didn't play again for a long time. Now everyone at work is interested and I am experiencing my 3rd chess era. I think the moral of the story is that I am a big nerd. 
+
+
+
+================================================================================
+DATE: 2010.02.14.14.19.39
+================================================================================
+ qblog entry 14:19:39 Sunday February 14 2010 14:19:39 Sunday February 14 2010 I have fallen criminally behind on this log. Time to get a few entries in here to update people on events from September forward. Note to self: just get them done. The perfect is the enemy of the good. 2009 September 12th : While in downtown Chicago acquiring our marriage license Sara and I took a detour over to The Sears Willis Tower . We went up to the skydeck where I took a few photos . 2009 September 13th : Amazingly Sara and I completed our wedding planning activities a little early and so we had time for a visit to the Chicago Botanic Garden . It was a beautiful late summer day. A very relaxing time before the impending flurry of wedding activity. My photos are here . 2009 September 19th : This weekend was my bachelor party. Woodfin , Castor, Ron, Constantine, and Tyler took me down to The Bourbon Trail where we visited the Maker's Mark Distillery where we took a tour. Later that evening we headed to Louisville for an expensive dinner at Z's Oyster Bar & Steakhouse . It was a great weekend and I am very grateful to my friends for organizing and attending my party. 
+
+
+
+================================================================================
+DATE: 2010.06.17.23.10.08
+================================================================================
+ qblog entry 23:10:08 Thursday June 17 2010 23:10:08 Thursday June 17 2010 An update to the earlier things to install list . I have been meaning to post this for some time. System Utilities Launchy - Tab completion for starting windows programs. Console - A better version of the windows cmd.exe shell Unix-Utils - Allows Unix commands at the shell Process Explorer - Replace the Windows Task Manager with something useful WinDirStat - Keep disk usage in check Eraser - Don't just delete files, kill them Handle - Find out what process is holding the file handle and kill it Taskbar Shuffle - Reorder running programs in the taskbar Startup Control Panel - Allows you to disable stupid little programs that start at bootup without hunting them down in the registry Manipulate standard files IZArc - Extract or create compressed files (replaces WinZip and WinRar) Notepad++ - Useful simple text editor Acrobat PDF Reader - Read PDF files Microsoft Office - If you have a copy; otherwise OpenOffice Gimp - For heavy duty image manipulation Picasa - For simple image manipulation and viewing Network Apps Putty - An ssh client to connect to a real computer Pscp - An scp client so you can copy files to a real computer Mozilla Firefox NoScript Adblock Plus Session Manager HashColouredTabs+ WorldIP Flash Player - Flash must die, but can't live without it yet User Agent Switcher - Pretend to be MSIE on sites that disallow Firefox (haven't needed this recently) Pidgin - Universal instant messaging client Rip, Burn, and Play Media FreeRip - For ripping your albums to mp3 ImgBurn - For burning CDs and DVDs WinAmp - The music player of choice Media Player Classic - The video player of choice QuickTime Alternative - Quicktime is evil Media Player Codec Pack - Codecs for DivX et cetera iTunes - The music player for updating the iPhone Misc Java Runtime and Dev Kit - Your browser wants Java TightVNC - For remote control of your system Xobni - If you are forced to use Outlook this plugin that allows efficent searching of your mail is absolutely essential Password Safe - Store all of your passwords encrypted Skype - Phone and chat 
+
+
+
+================================================================================
+DATE: 2010.08.18.12.14.45
+================================================================================
+ qblog entry 12:14:45 Wednesday August 18 2010 12:14:45 Wednesday August 18 2010 Surprising news in the garden this year. After three years of waiting my hop bines finally began flowering and producing cones (i.e. strobiles). 
+
+
+
+================================================================================
+DATE: 2010.10.24.20.25.36
+================================================================================
+ qblog entry 20:25:36 Sunday October 24 2010 20:25:36 Sunday October 24 2010 Declaring log bankruptcy and starting fresh. The list of things that should have been logged in the last year but weren't: October 21st 2009 - The maternal side of my family has a tradition. At weddings involving descendants of my great grandmother, Frances King (nee Smith), the bride may carry her lace handkerchief as their "something old". She first carried it on January 22nd 1907 on the occasion of her marriage to Edgar King. A record is kept of each bride that has carried the handkerchief. Both Sara and Chrissy added their names to the roll . November 26th 2009 - Thanksgiving December 16th 2009 - I made a trip to Philadelphia and saw some sites. December 25th 2009 - Christmas February 18th 2010 - I returned to Philadelphia and saw some more sites. April 10th 2010 - Sara and I explored the wind farm that has sprung up north of Lafayette. April 17th 2010 - We visited Chicago: toured the Half Acre Brewery , took in the Transmissions exhibition which Katie both coordinated and participated in, and celebrated Castor's birthday a bit early. Photos here . April 20th 2010 - I explored the National Cryptologic Museum . April 24th 2010 - We celebrated the April birthdays . May 2nd 2010 - Everyone got together to wish my grandparents a happy 62nd wedding anniversary . May 3rd 2010 - Jenny Graduated from high school . May 8th 2010 - Sara and Chrissy ran the Indianapolis Mini-Marathon . May 10th 2010 - Sara hosted renowned neuroscientist Olaf Blanke for dinner at our home. She served Chiles en Nogada . May 12th 2010 - I visited Charm City . May 15th 2010 - Chelsea and Steve got married . May 29th 2010 - We had the good fortune to attend game one of the Stanley Cup Final between the Chicago Blackhawks and the Philadelphia Flyers. May 30th 2010 - Sara and I took another trip to the Chicago Botanic Garden . June 7th 2010 - I returned to Charm City . June 11th 2010 - By way of some extraordinary kindness and good luck Sara and I were able to ride in the Chicago Blackhawks Stanley Cup victory parade . June 12th 2010 - Betsy and Bob got married . July 3rd 2010 - Sara, Liz, Brad, and I examined the B-17 Flying Fortress that was parked at the Purdue Airport for a few days. August 1st 2010 - Sara and Chrissy ran the Chicago Rock 'n Roll Half-Marathon . August 8th 2010 - Mike and Julia got married . September 4th 2010 - Alex and Dawn got married . October 10th 2010 - Sara and I celebrated our First Anniversary in Las Vegas . August 16th 2010 - We explored Mississinewa Reservoir . 
+
+
+
+================================================================================
+DATE: 2010.10.27.20.40.16
+================================================================================
+ qblog entry 20:40:16 Wednesday October 27 2010 20:40:16 Wednesday October 27 2010 This weekend we paid a visit to UIUC on the occasion of Jenny's 19th birthday . Also we went downtown to watch the zombie horde shamble down main street. Zombaid Lafayette collected food for Food Finders Food Bank . We donated some food and got a t-shirt. My photos can be found in the usual place . 
+
+
+
+================================================================================
+DATE: 2010.11.04.01.06.54
+================================================================================
+ qblog entry 01:06:54 Thursday November 04 2010 01:06:54 Thursday November 04 2010 Once again this year Phil was gracious enough to host a truly excellent All Hallows Eve party. In addition to providing the space, making tasty treats, and setting up clever decorations he and Ashley also created great costumes complete with moving props powered by little electro-motors. Brad and Liz came over from Cincinnati and everyone had a great time. Sara and I had surealism themed costumes this year. I was Son of Man by Ren&eacute; Magritte and Sara did The Burning Giraffe by Salvador Dal&iacute;. My photos of the event are available to those who are interested. Since the trick-or-treaters were not out until Sunday we were once again able to get a good count. It was 33 this year. Back to a high not seen since 2007. 
+
+
+
+================================================================================
+DATE: 2010.11.15.12.44.10
+================================================================================
+ qblog entry 12:44:10 Monday November 15 2010 12:44:10 Monday November 15 2010 For our paper anniversary I bought Sara and myself tickets to see Gogol Bordello with Forro in the Dark at The Vogue in Broad Ripple. It was a truly great show. We ended up with great seats on the upper level which was something of an accomplishment since it was general admission. I didn't know anything about Forro in the Dark (the opener), but they were surprisingly good simple fun Brazilian music. By the time Gogol Bordello took the stage everyone had lots of energy. As an added bonus they played a heroically long encore. As Eugene said "It seems like we don't see each other very often. Let's get some more shit done." An interesting bit of trivia: Eugene mentioned that he was nearly sent to Indiana when he originally came to the US as a a political refugee; he ended up in Vermont instead. 
+
+
+
+================================================================================
+DATE: 2010.12.27.19.05.57
+================================================================================
+ qblog entry 19:05:57 Monday December 27 2010 19:05:57 Monday December 27 2010 Happy holidays from Puerto Vallarta. 
+
+
+
+================================================================================
+DATE: 2011.02.14.00.43.03
+================================================================================
+ qblog entry 00:43:03 Monday February 14 2011 00:43:03 Monday February 14 2011 Christmas was a little different this year. Early in the season we attended a holiday / birthday / terrible sweater party with Sara's grad-school friends hosted by Jared and Mary Ann. On the 17th we had an early gift exchange with my family. For Christmas itself Sara and I were given the amazing opportunity to travel to Puerto Vallarta, Mexico with her family. This was an opportunity made possible by the astounding generosity of her grandmother. 2010.12.25 : On Christmas morning we were picked up and delivered to the airport. The flight was pleasantly uneventful, but Sara did win a giant candy cane in a trivia contest by guessing the correct number of seats on the plane and the national origin of the flight attendant. 2010.12.26 : After getting settled into the resort the night before Sara and I took a cab into the city proper and explored a bit . We waled along the Malec&oacute;n (pier) and discovered sand sculptures as well as more permanent sculptures. We walked the markets and the island situated in the Rio Cuale where we discovered leaf-cutter ants. After making our way back to the resort we were treated to a fantastic Asian meal at Gong 2010.12.27 : We awoke early on the 27th to make our way out into the jungle for our zip-line tour through the canopy. I wasn't supposed to bring my camera, but as you can see I don't always do as I am told. After spending all morning zipping through the jungle on a cable we spent the afternoon relaxing. In the evening we were treated to another excellent dinner at a beach party hosted by our resort. The most interesting treat at the beach party was the "coco loco", a rum drink served in a coconut. 2010.12.28 : On the 28th the whole family got together to explore the city in earnest. We had a fantastic lunch at Le Bistro Jazz Cafe . We were seated at a fantastic table overlooking the river. After lunch Sara and I took the opportunity to explore La Iglesia de Nuestra Se&ntilde;ora de Guadalupe (the Church of Our Lady of Guadalupe). After splitting off from the remainder of the family we explored downtown a bit more with Katie. 2010.12.29 : Sara and I rented a car and decided to head north. Our destination was the Alta Vista Archaeological Zone . It took us a couple hours to get to approximately the right place and then another hour to actually find it. The signage non-existent and the roads went from bad, to worse, to impassable. At one point we ended up in dense brush on a road intended for ATVs. We eventually abandoned our car near a Soursop (a.k.a. Guan&aacute;bana, annona muricata ) plantation and walked the last 1-2 miles. The archaeological site contains petroglyphs carved into the rocks by an Aztecan tribe called the Tecoxquines more than 2000 years ago. The site is laid out in a very climactic way. At first the stone carvings are sparse and difficult to find. As you progress up the stream they become more common and more elaborate. At the very end of the stream there is an amazing little waterfall flowing over rock shelves that have eroded into surprisingly regular cuboid blocks. After our archaeological adventure we made our way to the local beach town of Chacala for a lunch on the beach. The difference between this little town and the giant beach resorts of Puerto Vallarta was striking. We saw tiny little hotels renting rooms for less than 20 USD per night. After lunch we headed back by way of Bucer&iacute;as . That evening we were once again treated to an amazing meal at Tramonto . 2010.12.30 : We still had our rental car, so we packed up with Charlie Sr. and Charlie Jr. and headed south to Mismaloya . I wanted to see Los Arcos (a set of arch shaped islands in Banderas Bay). The rocky beach near the town was home to crabs, sea urchins, and all kinds of interesting sea life . At the end of the beach were the ruins of the set of the 1963 film The Night of the Iguana . For lunch I drove us inland and straight up some very steep hills. Despite some concern we made it to the El Eden Restaurant . It is a tourist trap located over a beautiful waterfall that was featured in the 1987 film Predator . The food was overpriced and mediocre as you might expect, but getting seated at a table overlooking the waterfall made up for it. We explored the site, but did not swim in the pools and flat rock slides. Afterward we descended into Puerto Vallarta proper and did a bit of shopping before returning to the resort for dinner at the Havana Moon restaurant. 2010.12.31 : After a relaxing morning Sara and I went into town for some Mexican food (which had been somewhat lacking up to this point in our trip). We were hoping to have some truly strange food (cricket tacos!) at El Array&aacute;n , but unfortunately they were closed. Instead we wandered the art district a bit and found Si Se&ntilde;or which provided a very nice lunch out on the patio overlooking the city. After lunch we finished buying our trinkets and headed back for a lazy afternoon. I wandered the grounds of the resort and even found my way onto the roof where I snapped some nice photos . As evening fell we celebrated New Year's Eve and an early birthday party for Ittie in the hotel room. We watched fireworks displays all along the bay from the balcony of our rooms before retiring for the evening. 2011.01.01 : With a new year before us we packed up and made the return flight to Chicago. 
+
+
+
+================================================================================
+DATE: 2011.02.19.16.39.23
+================================================================================
+ qblog entry 16:39:23 Saturday February 19 2011 16:39:23 Saturday February 19 2011 Sara and I have had some nice evenings with friends recently. On January 29th Jeff and Katie joined us for a night of sushi (at Maru) and beer (at Jake's). It was good to catch up with them and have the "college bar" experience again. The next weekend we (February 5th) we finally got to hang out with Joe and Kristen again. They were very kind to host us at their home and provide dinner. It is amazing how their children have grown. 
+
+
+
+================================================================================
+DATE: 2011.02.27.16.30.23
+================================================================================
+ qblog entry 16:30:23 Sunday February 27 2011 16:30:23 Sunday February 27 2011 On Sunday February 6th (Superbowl Sunday) my sister gave birth to my first nephew. The next generation has begun. Photos here . 
+
+
+
+================================================================================
+DATE: 2011.06.22.01.13.10
+================================================================================
+ qblog entry 01:13:10 Wednesday June 22 2011 01:13:10 Wednesday June 22 2011 Trying to catch up on log entries with some happenings from February. You already know that my nephew was born . Sara and I also attended the Winter Warmer at the Lafayette Brewing Company (their annual Barleywine & Strong Ale tasting). We had never gone before since the tickets sell out in a matter of hours. But some very kind folks from the Tippecanoe Homebrewers' Circle had some spare tickets that we could buy. It was a nice event and I will try to attend again. Photos here . Of course there was also Saint Valentine's Day. The recipe was mostly good, but the frosting turned out too hard to apply to the cupcakes, so it was kind of a mess. The flaming strawberry part worked out well. 
+
+
+
+================================================================================
+DATE: 2011.06.26.19.32.48
+================================================================================
+ qblog entry 19:32:48 Sunday June 26 2011 19:32:48 Sunday June 26 2011 On March 14th 2011 Sara's grandfather Homer P. Hargrave Jr. passed away. He was a kind man who lived a very interesting life. After his mother died at a young age he was adopted by Colleen Moore. Yes, that Colleen Moore . He grew up in Chicago and served in the 11th Airborne Division in the Pacific during World War II. After the war he was a member of the Chicago Board of Trade and the Chicago Board Options Exchange. He served on the Junior Chamber of Commerce's Atoms for Peace campaign earning their Distinguished Service Award. He ran for congress in 1958. His campaign to unseat Sidney Yates from Illinois's 9th congressional district was unsuccessful. His family in Hollywood and his political life allowed him to meet a number of interesting people. He shows up in the congressional record as an associate of both Ronald Reagan and Hugh Hefner . He loved history, backgammon, martinis, ice cream, and most especially his family. He will be missed. 
+
+
+
+================================================================================
+DATE: 2011.09.11.21.52.03
+================================================================================
+ qblog entry 21:52:03 Sunday September 11 2011 21:52:03 Sunday September 11 2011 In March we celebrated Ittie's birthday with a Mexican themed party at Alice's place. The theme was particularly appropriate on account of the vacation to Puerto Vallarta we took over the Christmas break in celebration of her impending birthday. 
+
+
+
+================================================================================
+DATE: 2012.01.12.13.44.37
+================================================================================
+ qblog entry 13:44:37 Thursday January 12 2012 13:44:37 Thursday January 12 2012 You may have noticed the lack of transmissions recently. The current server setup has degenerated to the point that it is no longer even remotely usable. Alternatives are being investigated, but it may take some time. I appreciate your patience. 
+
+
+

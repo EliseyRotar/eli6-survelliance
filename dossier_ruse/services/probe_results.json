@@ -1,0 +1,141 @@
+[
+  {
+    "ip": "2.56.54.0",
+    "port": 80,
+    "url": "http://2.56.54.0:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "nginx/1.25.3",
+    "title": "",
+    "tags": [
+      "eol-product"
+    ],
+    "cpes": [
+      "cpe:/a:f5:nginx:1.25.3"
+    ]
+  },
+  {
+    "ip": "5.32.134.0",
+    "port": 80,
+    "url": "http://5.32.134.0:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "freenginx/1.28.0",
+    "title": "",
+    "tags": [],
+    "cpes": [
+      "cpe:/a:f5:nginx:1.28.0"
+    ]
+  },
+  {
+    "ip": "2.56.52.1",
+    "port": 80,
+    "url": "http://2.56.52.1:80/",
+    "status": 302,
+    "content_type": ": text/html; charset=UTF-8",
+    "server": "nginx/1.25.3",
+    "title": "",
+    "tags": [
+      "eol-product"
+    ],
+    "cpes": [
+      "cpe:/a:f5:nginx:1.25.3",
+      "cpe:/a:openbsd:openssh:9.5",
+      "cpe:/a:php:php:5.6.40"
+    ]
+  },
+  {
+    "ip": "5.181.55.128",
+    "port": 80,
+    "url": "http://5.181.55.128:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "freenginx/1.28.0",
+    "title": "",
+    "tags": [],
+    "cpes": []
+  },
+  {
+    "ip": "31.13.192.128",
+    "port": 80,
+    "url": "http://31.13.192.128:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "nginx/1.18.0",
+    "title": "",
+    "tags": [],
+    "cpes": []
+  },
+  {
+    "ip": "31.10.5.128",
+    "port": 80,
+    "url": "http://31.10.5.128:80/",
+    "status": 302,
+    "content_type": ": text/html",
+    "server": "FUJITSU ServerView iRMC S4 Webserver",
+    "title": "",
+    "tags": [
+      "self-signed"
+    ],
+    "cpes": []
+  },
+  {
+    "ip": "31.13.209.0",
+    "port": 80,
+    "url": "http://31.13.209.0:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "nginx/1.18.0",
+    "title": "",
+    "tags": [
+      "eol-product"
+    ],
+    "cpes": [
+      "cpe:/a:f5:nginx:1.18.0"
+    ]
+  },
+  {
+    "ip": "31.13.195.128",
+    "port": 80,
+    "url": "http://31.13.195.128:80/",
+    "status": 302,
+    "content_type": ": text/html; charset=utf-8",
+    "server": "nginx",
+    "title": "",
+    "tags": [],
+    "cpes": [
+      "cpe:/a:f5:nginx"
+    ]
+  },
+  {
+    "ip": "31.13.208.1",
+    "port": 80,
+    "url": "http://31.13.208.1:80/",
+    "status": 200,
+    "content_type": ": text/html",
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "title": "",
+    "tags": [
+      "eol-product"
+    ],
+    "cpes": [
+      "cpe:/o:canonical:ubuntu_linux",
+      "cpe:/a:f5:nginx:1.24.0",
+      "cpe:/o:linux:linux_kernel"
+    ]
+  },
+  {
+    "ip": "45.133.251.1",
+    "port": 80,
+    "url": "http://45.133.251.1:80/",
+    "status": 200,
+    "content_type": ": text/html; charset=UTF-8",
+    "server": "Apache/2.4.58 (Ubuntu)",
+    "title": "",
+    "tags": [],
+    "cpes": [
+      "cpe:/a:apache:http_server:2.4.58",
+      "cpe:/o:canonical:ubuntu_linux"
+    ]
+  }
+]

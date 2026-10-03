@@ -1,0 +1,17 @@
+=== Ruse Cam Bypass Toolkit ===
+
+=== Reverse DNS for 212.25.48.117 ===
+  212.25.48.117 -> ('212-25-48-117.ip.btc-net.bg', [], ['212.25.48.117'])
+
+=== Geolocation for 212.25.48.117 ===
+  https://ipinfo.io/212.25.48.117/json: b'{\n  "ip": "212.25.48.117",\n  "hostname": "212-25-48-117.ip.btc-net.bg",\n  "city": "Ruse",\n  "region": "Ruse",\n  "country": "BG",\n  "loc": "43.8487,25.9534",\n  "org": "AS8866 Vivacom Bulgaria EAD",\n  "postal": "7000",\n  "timezone": "Europe/Sofia",\n  "readme": "https://ipinfo.io/missingauth"\n}'
+  https://ipapi.co/212.25.48.117/json/: HTTP Error 403: Forbidden
+  s.win/get?url=https://ipapi.co/212.25.48.117/json/: HTTP Error 502: Bad Gateway
+  http://ip-api.com/json/212.25.48.117: b'{"status":"success","country":"Bulgaria","countryCode":"BG","region":"18","regionName":"Ruse","city":"Rousse","zip":"7000","lat":43.8356,"lon":25.9657,"timezone":"Europe/Sofia","isp":"Vivacom Bulgaria EAD","org":"","as":"AS8866 Vivacom Bulgaria EAD","query":"212.25.48.117"}'
+
+=== Scanning 212.25.48.0/24 (first 20 IPs) ===
+
+  Total found: 0
+
+=== Subnet scan for other Ruse cams ===
+  No cam-like servers found in Ruse range

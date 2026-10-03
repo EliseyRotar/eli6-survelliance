@@ -1,0 +1,2747 @@
+<!DOCTYPE html>
+<!--
+================================================================================
+  CamSentry embeddable player — PUBLIC CONTRACT, DO NOT BREAK
+================================================================================
+  Clients embed this file via <iframe src="/player.html?cam=X&profile=Y">.
+  Changes here can break their websites silently. Rules:
+
+  1. Always preserve query params: cam, profile (case-sensitive).
+  2. Always render in any of these states (loading / live / archive / error).
+  3. Never block on auth — read-only embeds use ?sig=… or open profiles.
+  4. Adding a feature: append, never remove or rename fields.
+  5. Profile schema is defined in server.js _defaultProfile() — keep this file
+     forward-compatible by treating all fields as optional with safe defaults.
+  6. Hold a copy of the last-known-good build at /var/www/html/player.html.bak
+     so you can rollback in 1 second if a deploy breaks an embed.
+  7. Smoke-test cron at /root/embed-smoke.sh hits this URL hourly and alerts
+     if it stops returning 200 or stops including required JS symbols.
+
+  Last reviewed: 2026-04-24
+================================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HD Relay Player</title>
+<meta name="cs-embed-version" content="2026-04-24"/>
+<script src="/js/hls-1.6.16.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;background:#000;overflow:hidden;font-family:system-ui,-apple-system,sans-serif}
+body.theme-light{background:#0a0e13}
+.wrap{position:relative;width:100vw;height:100vh;background:#000}
+video,img.intro{width:100%;height:100%;object-fit:contain;display:block;background:#000}
+.intro-layer{position:absolute;inset:0;display:none;align-items:center;justify-content:center;background:#000;z-index:5}
+.intro-layer.on{display:flex}
+.intro-layer img,.intro-layer video{width:100%;height:100%;object-fit:contain}
+.hud{position:absolute;inset:0;pointer-events:none;z-index:3}
+.tl{position:absolute;top:12px;left:12px;display:flex;gap:6px;align-items:center}
+.tr{position:absolute;top:12px;right:12px;display:flex;gap:6px;align-items:center}
+.badge{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.65rem;padding:4px 9px;border-radius:4px;background:rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.1);color:#fff;backdrop-filter:blur(6px)}
+.live-badge{background:rgba(255,40,40,0.82);border-color:rgba(255,40,40,0.4);display:flex;align-items:center;gap:5px}
+.dot{width:5px;height:5px;border-radius:50%;background:#fff;animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.35}}
+.brand{padding:4px 9px;border-radius:4px;font-size:0.65rem;font-weight:700;letter-spacing:0.04em;background:rgba(0,0,0,0.55);border:1px solid var(--accent,#00e5ff);color:var(--accent,#00e5ff);backdrop-filter:blur(6px)}
+#brand-link:hover #brand-label{background:rgba(0,229,255,0.18);border-color:#fff;color:#fff;cursor:pointer;transition:background 0.15s,border-color 0.15s,color 0.15s}
+#brand-link:focus-visible #brand-label{outline:2px solid #fff;outline-offset:2px}
+
+.logo-wm{position:absolute;bottom:14px;right:14px;max-width:88px;max-height:64px;opacity:0.78;pointer-events:none;z-index:3}
+.ts{position:absolute;bottom:14px;left:14px;padding:4px 10px;border-radius:999px;background:rgba(0,0,0,0.55);color:var(--accent,#00e5ff);font-family:ui-monospace,Menlo,Consolas,monospace;font-size:0.72rem;border:1px solid rgba(0,229,255,0.25);backdrop-filter:blur(6px);z-index:3}
+/* Controls visibility:
+   - Default: visible (opacity 1) so users opening a preview see them
+     immediately. The auto-fade behavior was confusing for profile-review
+     workflows where the operator needs to verify which buttons are
+     configured.
+   - .auto-hide on .wrap turns on hover-fade (legacy kiosk behavior). The
+     player JS sets .auto-hide only when the profile explicitly opts in
+     via { autoHideControls: true }. */
+/* controls-responsive-marker (2026-06-25): bar padding/gap scale with player width (vw = player width inside the embed iframe); desktop >=~640px unchanged */
+.controls{position:absolute;left:0;right:0;bottom:0;padding:clamp(6px,1.56vw,10px) clamp(8px,2.19vw,14px);background:linear-gradient(transparent,rgba(0,0,0,0.72));display:flex;flex-wrap:wrap;gap:clamp(4px,1.25vw,8px);align-items:center;opacity:1;transition:opacity 0.25s;z-index:4;pointer-events:all}
+.wrap.auto-hide .controls{opacity:0}
+.wrap.auto-hide:hover .controls,.wrap.auto-hide.show .controls{opacity:1}
+/* Independent auto-hide for viewer count (added 2026-05-12). Ticker is
+   intentionally NOT in any auto-hide rule - it should always be visible
+   per UX feedback (info ticker carries persistent info). */
+.wrap.auto-hide-vc #viewer-count-overlay{opacity:0;transition:opacity 0.25s}
+.wrap.auto-hide-vc:hover #viewer-count-overlay,.wrap.auto-hide-vc.show #viewer-count-overlay{opacity:1}
+.btn{background:rgba(255,255,255,0.13);border:1px solid rgba(255,255,255,0.2);color:#fff;padding:clamp(4px,0.94vw,6px) clamp(7px,1.72vw,11px);border-radius:6px;font-size:clamp(0.55rem,1.75vw,0.7rem);cursor:pointer;min-height:clamp(24px,5vw,32px);backdrop-filter:blur(6px);transition:all 0.15s}
+.btn:hover{background:rgba(255,255,255,0.22)}
+.btn.accent{color:var(--accent,#00e5ff);border-color:rgba(0,229,255,0.35);background:rgba(0,229,255,0.08)}
+.loader{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;z-index:2}
+.spinner{width:34px;height:34px;border:2px solid rgba(255,255,255,0.15);border-top-color:var(--accent,#00e5ff);border-radius:50%;animation:spin 0.85s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* player-err-overlay-standby-marker (2026-05-19): brand the err panel too */
+.err{position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:18px;padding:24px;text-align:center;z-index:6;background:radial-gradient(ellipse at center, rgba(20,28,42,0.96) 0%, rgba(6,9,14,0.98) 70%)}
+.err.on{display:flex}
+.err-logo{width:clamp(110px, 22vw, 200px);height:auto;opacity:0.95;filter:brightness(0) invert(1) drop-shadow(0 4px 14px rgba(0,229,255,0.35))}
+.err-standby{color:#e8edf2;font-size:clamp(1.0rem, 3.2vw, 1.6rem);font-weight:800;letter-spacing:0.22em;text-transform:uppercase;font-family:'DM Sans',-apple-system,system-ui,sans-serif;padding:6px 18px;background:linear-gradient(90deg, transparent 0%, rgba(0,229,255,0.08) 50%, transparent 100%);background-size:200% 100%;animation:standby-shimmer 4s ease-in-out infinite}
+.err-msg{color:#c8d3dd;font-size:clamp(0.78rem, 2vw, 0.95rem);font-weight:600;letter-spacing:0.05em;text-transform:uppercase;max-width:560px}
+.err-hint{color:#8a97a5;font-size:clamp(0.62rem, 1.5vw, 0.74rem);font-family:ui-monospace,'SF Mono',Menlo,monospace;max-width:560px}
+@media (max-height: 220px){
+  .err{gap:6px;padding:8px}
+  .err-logo{display:none}
+  .err-hint{display:none}
+}
+.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:7;background:rgba(8,12,18,0.65);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.15);color:#e8edf2;width:40px;height:40px;border-radius:50%;cursor:pointer;font-size:1.2rem;display:none;align-items:center;justify-content:center;transition:background .15s,border-color .15s;user-select:none}
+.carousel-arrow:hover{background:rgba(0,229,255,0.2);border-color:rgba(0,229,255,0.5)}
+.carousel-arrow.left{left:10px}
+.carousel-arrow.right{right:10px}
+.carousel-dots{position:absolute;bottom:58px;left:50%;transform:translateX(-50%);display:none;gap:6px;z-index:7;align-items:center}
+.carousel-dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,0.3);cursor:pointer;transition:background .2s,transform .2s}
+.carousel-dot.active{background:var(--accent,#00e5ff);transform:scale(1.3)}
+.carousel-timer{position:absolute;bottom:58px;right:12px;display:none;z-index:7;width:28px;height:28px}
+.carousel-timer svg{transform:rotate(-90deg)}
+/* player-offline-standby-marker (2026-05-19): branded "please stand by" panel */
+.offline-overlay{position:absolute;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;gap:18px;z-index:5;background:radial-gradient(ellipse at center, rgba(20,28,42,0.96) 0%, rgba(6,9,14,0.98) 70%);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);padding:24px;text-align:center}
+.offline-overlay.on{display:flex}
+.offline-logo{width:clamp(110px, 22vw, 200px);height:auto;opacity:0.95;filter:brightness(0) invert(1) drop-shadow(0 4px 14px rgba(0,229,255,0.35))}
+.offline-standby{color:#e8edf2;font-size:clamp(1.0rem, 3.2vw, 1.6rem);font-weight:800;letter-spacing:0.22em;text-transform:uppercase;font-family:'DM Sans',-apple-system,system-ui,sans-serif;position:relative;padding:6px 18px;background:linear-gradient(90deg, transparent 0%, rgba(0,229,255,0.08) 50%, transparent 100%);background-size:200% 100%;animation:standby-shimmer 4s ease-in-out infinite}
+@keyframes standby-shimmer{0%,100%{background-position:200% 0;opacity:0.85}50%{background-position:-200% 0;opacity:1}}
+.offline-title{color:#c8d3dd;font-size:clamp(0.78rem, 2vw, 0.95rem);font-weight:600;letter-spacing:0.05em;text-transform:uppercase;margin-top:2px}
+.offline-sub{color:#8a97a5;font-size:clamp(0.62rem, 1.5vw, 0.74rem);font-family:ui-monospace,'SF Mono',Menlo,monospace;display:flex;align-items:center;justify-content:center;gap:7px}
+.offline-dot{width:6px;height:6px;border-radius:50%;background:#e05555;animation:pulse-dot 1.4s ease-in-out infinite;box-shadow:0 0 8px rgba(224,85,85,0.6)}
+@keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.35;transform:scale(0.85)}}
+/* On very small embeds (lobby thumbnails etc.), drop the logo + subtitle */
+@media (max-height: 220px){
+  .offline-overlay{gap:6px;padding:8px}
+  .offline-logo{display:none}
+  .offline-sub{display:none}
+}
+
+/* debug-overlay-marker (2026-05-20): admin stream-health debug HUD */
+#debug-overlay{position:absolute;top:8px;right:8px;display:none;flex-direction:column;gap:3px;background:rgba(6,10,16,0.88);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(0,229,255,0.32);border-radius:8px;padding:8px 10px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10.5px;color:#d8e3ec;line-height:1.4;min-width:240px;max-width:320px;z-index:9;box-shadow:0 6px 20px rgba(0,0,0,0.45);pointer-events:auto}
+#debug-overlay.on{display:flex}
+#debug-overlay .dbg-hdr{color:#00e5ff;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;font-size:9.5px;margin-bottom:3px;display:flex;justify-content:space-between;align-items:center}
+#debug-overlay .dbg-hdr button{background:none;border:none;color:#8a97a5;cursor:pointer;font-size:13px;line-height:1;padding:0 0 0 8px;margin:0}
+#debug-overlay .dbg-hdr button:hover{color:#fff}
+#debug-overlay .dbg-row{display:flex;justify-content:space-between;gap:8px}
+#debug-overlay .dbg-key{color:#8a97a5}
+#debug-overlay .dbg-val{color:#d8e3ec;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:180px}
+#debug-overlay .dbg-val.good{color:#5ef898}
+#debug-overlay .dbg-val.warn{color:#ffd66b}
+#debug-overlay .dbg-val.bad{color:#ff6b6b}
+#debug-overlay .dbg-sep{height:1px;background:rgba(255,255,255,0.08);margin:4px 0}
+</style>
+<style>
+/* wx-mobile-fit-marker (2026-07-03): on narrow players, scale the weather
+   widget down PROPORTIONALLY (same design, same content, ~identical look —
+   just sized so it never covers half the video). Stays fully readable. */
+@media (max-width: 560px) {
+  .pp-weather-widget { transform: scale(0.78) !important; transform-origin: top left !important; }
+}
+@media (max-width: 400px) {
+  .pp-weather-widget { transform: scale(0.66) !important; transform-origin: top left !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap" id="wrap">
+  <video id="player" playsinline></video>
+  <!-- profile-startpano-player: panorama start overlay -->
+  <div id="start-pano-overlay" style="display:none;position:absolute;inset:0;background:#000;overflow:hidden;z-index:8;cursor:grab;touch-action:none">
+    <img id="start-pano-img" draggable="false" style="position:absolute;top:0;left:0;height:100%;width:auto;max-width:none;user-select:none;pointer-events:none"/>
+    <button id="start-pano-live" type="button" style="position:absolute;top:12px;right:12px;background:rgba(220,0,0,0.88);color:#fff;border:none;padding:7px 14px;border-radius:999px;font-weight:700;font-size:0.8rem;cursor:pointer;z-index:9">● Go Live</button>
+    <div style="position:absolute;bottom:10px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,0.55);color:#fff;padding:3px 10px;border-radius:999px;font-size:0.62rem;pointer-events:none;backdrop-filter:blur(4px)">↔ drag to pan · scroll to zoom · 🌄 Panorama</div>
+  </div>
+
+  <button class="carousel-arrow left" id="car-prev" onclick="carouselPrev()" title="Previous camera">&#8249;</button>
+  <button class="carousel-arrow right" id="car-next" onclick="carouselNext()" title="Next camera">&#8250;</button>
+  <div class="carousel-dots" id="car-dots"></div>
+  <div class="carousel-timer" id="car-timer" title="Auto-advance timer">
+    <svg width="28" height="28" viewBox="0 0 28 28">
+      <circle cx="14" cy="14" r="11" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2.5"/>
+      <circle id="car-timer-ring" cx="14" cy="14" r="11" fill="none" stroke="var(--accent,#00e5ff)" stroke-width="2.5"
+        stroke-dasharray="69.1" stroke-dashoffset="0" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <div class="intro-layer" id="intro">
+    <img id="intro-img" style="display:none" alt=""/>
+    <video id="intro-video" style="display:none" playsinline></video>
+  </div>
+
+  <div class="loader" id="loader"><div class="spinner"></div><div style="color:#8a97a5;font-size:0.72rem;font-family:ui-monospace,monospace" id="loader-msg">Loading…</div></div>
+
+  <div class="hud">
+    <div class="tl">
+      <div class="badge live-badge" id="live-badge"><span class="dot"></span>LIVE</div>
+      <div class="badge" id="cam-label">Camera</div>
+    </div>
+    <div class="tr">
+      <!-- brand-badge-clickable-marker (2026-05-27): wrap badge in anchor.
+     target=_blank + rel=noopener prevents the embed iframe from being
+     navigated away; pointer-events on the anchor only (parent .tr
+     row keeps its layout intact). -->
+      <a id="brand-link" href="https://hdrelay.io" target="_blank" rel="noopener noreferrer" aria-label="Powered by HD Relay" style="text-decoration:none;pointer-events:auto;display:inline-block"><div class="brand" id="brand-label">HD Relay</div></a>
+    </div>
+  </div>
+
+  <img id="wm" class="logo-wm" style="display:none" alt=""/>
+  <div class="ts" id="ts" style="display:none">--:--:--</div>
+
+  <div class="controls" id="controls">
+    <button class="btn" id="btn-mute" onclick="toggleMute()">🔇 Unmute</button>
+    <button class="btn accent" id="btn-live" onclick="goLive()" title="Jump to live">⚡ Live</button>
+    <button class="btn" id="btn-snap" onclick="takeSnapshot()" title="Download a snapshot">📸 Snap</button>
+    <button class="btn" id="btn-ptz" onclick="togglePTZPad()" title="Pan / Tilt / Zoom" style="display:none">🎯 PTZ</button>
+    <button class="btn" id="btn-presets" onclick="togglePresets()" title="Saved camera positions" style="display:none">📍 Presets</button>
+    <button class="btn" id="btn-timelapse" onclick="toggleTimelapseMenu()" title="Pre-built timelapses + fast archive playback">⏩ Timelapse</button>
+    <button class="btn" id="btn-archive" onclick="toggleArchiveBar()" title="Browse recordings inline">🎞 Archive</button>
+    <button class="btn" id="btn-fs" onclick="goFullscreen()" title="Fullscreen">⛶</button>
+  </div>
+
+  <!-- Inline archive scrubber (toggled by 🎞 Archive). Pick a date/time and the
+       player switches to the matching recording. Click "Back to Live" to return. -->
+  <div id="archive-bar" style="display:none;position:absolute;left:0;right:0;bottom:54px;padding:8px 14px;background:rgba(12,16,24,0.95);border-top:1px solid rgba(0,229,255,0.25);z-index:5;display:none;align-items:center;gap:8px;flex-wrap:wrap;backdrop-filter:blur(8px)">
+    <span style="font-size:0.65rem;color:#00e5ff;font-weight:700;letter-spacing:0.06em">🎞 ARCHIVE</span>
+    <input type="date" id="ar-date" style="background:#131a22;border:1px solid rgba(255,255,255,0.1);color:#e8edf2;padding:5px 8px;border-radius:5px;font-size:0.72rem;outline:none;font-family:inherit"/>
+    <input type="time" id="ar-time" value="00:00" style="background:#131a22;border:1px solid rgba(255,255,255,0.1);color:#e8edf2;padding:5px 8px;border-radius:5px;font-size:0.72rem;outline:none;font-family:inherit"/>
+    <button class="btn accent" onclick="goToArchiveAt()" style="font-weight:600">▶ Go</button>
+    <div style="display:flex;gap:4px;align-items:center">
+      <button class="btn" onclick="archiveStep(-3600)" title="-1 hour">◀◀ 1h</button>
+      <button class="btn" onclick="archiveStep(-300)" title="-5 min">◀ 5m</button>
+      <button class="btn" onclick="archiveStep(300)" title="+5 min">5m ▶</button>
+      <button class="btn" onclick="archiveStep(3600)" title="+1 hour">1h ▶▶</button>
+    </div>
+    <button class="btn accent" onclick="backToLive()" style="margin-left:auto;font-weight:600">● Back to Live</button>
+    <div id="ar-status" style="flex-basis:100%;font-size:0.65rem;color:#8a97a5;font-family:ui-monospace,monospace"></div>
+  </div>
+
+  <!-- PTZ direction pad (toggled by 🎯 PTZ). Hold direction to pan/tilt. -->
+  <div id="ptz-pad" style="display:none;position:absolute;right:14px;bottom:60px;background:rgba(12,16,24,0.95);border:1px solid rgba(0,229,255,0.3);border-radius:10px;padding:10px;z-index:6;backdrop-filter:blur(8px)">
+    <div style="display:grid;grid-template-columns:repeat(3,42px);grid-template-rows:repeat(3,42px);gap:4px">
+      <div></div>
+      <button class="btn ptz-dir" data-act="tilt" data-val="1">▲</button>
+      <div></div>
+      <button class="btn ptz-dir" data-act="pan" data-val="-1">◀</button>
+      <button class="btn" id="btn-ptz-home" onclick="ptzHome()" title="Home position">⌂</button>
+      <button class="btn ptz-dir" data-act="pan" data-val="1">▶</button>
+      <div></div>
+      <button class="btn ptz-dir" data-act="tilt" data-val="-1">▼</button>
+      <div></div>
+    </div>
+    <div style="display:flex;gap:4px;margin-top:6px">
+      <button class="btn ptz-dir" data-act="zoom" data-val="1" style="flex:1">🔍+</button>
+      <button class="btn ptz-dir" data-act="zoom" data-val="-1" style="flex:1">🔍−</button>
+    </div>
+  </div>
+
+  <!-- Saved presets list (toggled by 📍 Presets) -->
+  <div id="presets-pad" style="display:none;position:absolute;right:14px;bottom:60px;width:200px;max-height:50%;overflow-y:auto;background:rgba(12,16,24,0.95);border:1px solid rgba(0,229,255,0.3);border-radius:10px;padding:8px;z-index:6;backdrop-filter:blur(8px)">
+    <div id="presets-list" style="display:flex;flex-direction:column;gap:4px"><div style="color:#8a97a5;font-size:0.7rem;padding:8px;text-align:center">Loading…</div></div>
+  </div>
+
+  <!-- Timelapse menu (toggled by ⏩ Timelapse). Lists pre-built timelapse MP4s +
+       a "play archive at 8×" fallback. -->
+  <div id="tl-pad" style="display:none;position:absolute;right:14px;bottom:60px;width:280px;max-height:55%;overflow-y:auto;background:rgba(12,16,24,0.95);border:1px solid rgba(0,229,255,0.3);border-radius:10px;padding:10px;z-index:6;backdrop-filter:blur(8px)">
+    <div style="font-size:0.66rem;color:var(--accent,#00e5ff);font-weight:700;letter-spacing:0.06em;text-transform:uppercase;margin-bottom:8px">Pre-built Timelapses</div>
+    <div id="tl-builds-list" style="display:flex;flex-direction:column;gap:4px;max-height:220px;overflow-y:auto">
+      <div style="color:#8a97a5;font-size:0.7rem;padding:8px;text-align:center">Loading…</div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,0.08);margin-top:10px;padding-top:8px">
+      <div style="font-size:0.66rem;color:#8a97a5;margin-bottom:6px">Or play raw archive fast</div>
+      <button class="btn" onclick="playArchiveFast(8)" style="width:100%;padding:8px 10px;font-size:0.72rem;font-weight:600">⏩ Last 24h @ 8× speed</button>
+    </div>
+  </div>
+
+  <!-- player-err-overlay-standby-marker (2026-05-19) -->
+  <div class="err" id="err">
+    <img class="err-logo" src="/icons/logo-hdrelay.svg" alt="HD Relay" onerror="this.onerror=null;this.src='/icons/logo-hdrelay-lg.png'"/>
+    <div class="err-standby">Please Stand By</div>
+    <div class="err-msg" id="err-msg">Stream unavailable</div>
+    <div class="err-hint" id="err-hint">Retrying automatically…</div>
+  </div>
+
+  <!-- player-offline-standby-marker + offline-onsite-marker (2026-05-19) -->
+  <div class="offline-overlay" id="offline-overlay">
+    <img class="offline-custom-img" id="offline-custom-img" alt="" style="display:none"/><!-- offline-image-marker -->
+    <img class="offline-logo" src="/icons/logo-hdrelay.svg" alt="HD Relay" onerror="this.onerror=null;this.src='/icons/logo-hdrelay-lg.png'"/>
+    <div class="offline-standby">Please Stand By</div>
+    <div class="offline-title">Camera is offline on-site</div>
+    <div class="offline-sub"><span class="offline-dot"></span>Awaiting reconnect from site…</div>
+  </div>
+
+  <!-- debug-overlay-marker (2026-05-20): admin-only stream-health HUD -->
+  <div id="debug-overlay" aria-hidden="true">
+    <div class="dbg-hdr"><span>📊 Stream Debug</span><button onclick="_debugOverlayToggle(false)" title="Hide">✕</button></div>
+    <div class="dbg-row"><span class="dbg-key">cam</span><span class="dbg-val" id="dbg-cam">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">profile</span><span class="dbg-val" id="dbg-profile">—</span></div>
+    <div class="dbg-sep"></div>
+    <div class="dbg-row"><span class="dbg-key">video</span><span class="dbg-val" id="dbg-video">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">frames</span><span class="dbg-val" id="dbg-frames">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">dropped</span><span class="dbg-val" id="dbg-dropped">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">buffer</span><span class="dbg-val" id="dbg-buffer">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">live latency</span><span class="dbg-val" id="dbg-latency">—</span></div>
+    <div class="dbg-sep"></div>
+    <div class="dbg-row"><span class="dbg-key">hls level</span><span class="dbg-val" id="dbg-level">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">bitrate</span><span class="dbg-val" id="dbg-bitrate">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">last err</span><span class="dbg-val" id="dbg-err">—</span></div>
+    <div class="dbg-sep"></div>
+    <div class="dbg-row"><span class="dbg-key">net</span><span class="dbg-val" id="dbg-net">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">hls-rebuild</span><span class="dbg-val" id="dbg-rebuild">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">zombie reconn</span><span class="dbg-val" id="dbg-zombie">—</span></div>
+    <div class="dbg-row"><span class="dbg-key">cf-cache</span><span class="dbg-val" id="dbg-cfcache">—</span></div>
+    <div class="dbg-sep"></div>
+    <div class="dbg-row" style="font-size:9px;color:#5a6975"><span>toggle: Shift+D · ?_debug=1</span></div>
+  </div>
+
+  <div id="viewer-count-overlay" style="display:none;position:absolute;bottom:54px;left:12px;background:rgba(8,12,18,0.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:6px 12px;font-size:0.64rem;color:#e8edf2;pointer-events:none;display:none;flex-direction:column;gap:3px;line-height:1.4;z-index:4;box-shadow:0 4px 14px rgba(0,0,0,0.4)">
+    <div style="display:flex;align-items:center;gap:5px;color:#b0bcc7"><span>👥</span><span id="vc-now" style="color:#ff9d00;font-weight:600">—</span><span style="color:#8a97a5">watching</span></div>
+    <div style="display:flex;align-items:center;gap:5px;color:#b0bcc7"><span>👁</span><span id="vc-total" style="color:#00ff9d;font-weight:600">—</span><span style="color:#8a97a5">total views</span></div>
+  </div>
+</div>
+
+<script>
+var params  = new URLSearchParams(location.search);
+var camId   = params.get('cam') || '';
+var profId  = params.get('profile') || '';
+var API     = '/api/player-profile/' + encodeURIComponent(camId) + '/' + encodeURIComponent(profId);
+
+var video       = document.getElementById('player');
+// player-poster-marker (2026-07-10): latest snapshot as join-time poster —
+// kills the black rectangle during the 1-3s HLS join. 404 = no poster, fine.
+try { if (camId && video) video.poster = '/api/public/poster/' + encodeURIComponent(camId); } catch(_) {}
+var introLayer  = document.getElementById('intro');
+var introImg    = document.getElementById('intro-img');
+var introVideo  = document.getElementById('intro-video');
+var loader      = document.getElementById('loader');
+var loaderMsg   = document.getElementById('loader-msg');
+var errEl       = document.getElementById('err');
+var errMsg      = document.getElementById('err-msg');
+var errHint     = document.getElementById('err-hint');
+var offlineOverlay = document.getElementById('offline-overlay');
+var tsEl        = document.getElementById('ts');
+var wmEl        = document.getElementById('wm');
+var liveBadge   = document.getElementById('live-badge');
+var camLabel    = document.getElementById('cam-label');
+var brandLabel  = document.getElementById('brand-label');
+var controls    = document.getElementById('controls');
+var btnMute     = document.getElementById('btn-mute');
+var btnFs       = document.getElementById('btn-fs');
+
+var profile = null;
+var streamUrl = '';
+
+// network-aware-marker (2026-05-22): pause + resume player on browser online/offline.
+// Mobile users in dead zones stop burning battery retrying segment fetches that
+// can't succeed; coverage recovery is near-instant when network returns.
+var _netAwareOffline = false;
+var _netAwareWasLowResBeforeOffline = false;
+function _netAwareOnOffline() {
+  if (_netAwareOffline) return;
+  _netAwareOffline = true;
+  console.log('[net-aware] browser reports offline — pausing hls + watchdogs');
+  // Pause HLS.js segment loading (keeps the instance alive so resume is fast)
+  try { if (typeof hls !== 'undefined' && hls && hls.stopLoad) hls.stopLoad(); } catch(_){}
+  // Pause the zombie watchdog so it doesn't fire bogus reconnects
+  try { if (typeof _zombieStop === 'function') _zombieStop(); } catch(_){}
+  // Pause the 4h hls-rebuild timer
+  try { if (typeof _hlsRebuildCancel === 'function') _hlsRebuildCancel(); } catch(_){}
+  // Show offline overlay with network-specific copy
+  var off = document.getElementById('offline-overlay');
+  if (off) {
+    off.classList.add('on');
+    // Override the subtitle while offline (saved + restored on online)
+    var sub = off.querySelector('.offline-sub') || off.querySelector('#offline-hint') || off.querySelector('[id$="-sub"]');
+    if (sub) {
+      if (!sub.dataset._netAwareSaved) sub.dataset._netAwareSaved = sub.textContent || '';
+      sub.textContent = 'Waiting for network…';
+    }
+    var title = off.querySelector('.offline-title') || off.querySelector('#offline-txt') || off.querySelector('[id$="-title"]');
+    if (title) {
+      if (!title.dataset._netAwareSaved) title.dataset._netAwareSaved = title.textContent || '';
+      title.textContent = 'Your device is offline';
+    }
+  }
+}
+function _netAwareOnOnline() {
+  if (!_netAwareOffline) return;
+  _netAwareOffline = false;
+  console.log('[net-aware] browser reports online — resuming hls + watchdogs');
+  // Restore offline overlay text (then hide it; existing logic will re-show it
+  // if the actual stream is still down for a non-network reason)
+  var off = document.getElementById('offline-overlay');
+  if (off) {
+    var sub = off.querySelector('.offline-sub') || off.querySelector('#offline-hint') || off.querySelector('[id$="-sub"]');
+    if (sub && sub.dataset._netAwareSaved) { sub.textContent = sub.dataset._netAwareSaved; delete sub.dataset._netAwareSaved; }
+    var title = off.querySelector('.offline-title') || off.querySelector('#offline-txt') || off.querySelector('[id$="-title"]');
+    if (title && title.dataset._netAwareSaved) { title.textContent = title.dataset._netAwareSaved; delete title.dataset._netAwareSaved; }
+    off.classList.remove('on');
+  }
+  // Resume HLS.js — startLoad(-1) means "seek to liveSyncPosition" so we snap
+  // back to the live edge instead of resuming where we stopped (which is now
+  // way behind live).
+  try {
+    if (typeof hls !== 'undefined' && hls && hls.startLoad) {
+      hls.startLoad(-1);
+      // Re-snap video to live edge if behind
+      var v = document.getElementById('player');
+      if (v && hls.liveSyncPosition && isFinite(hls.liveSyncPosition)) {
+        if (Math.abs(v.currentTime - hls.liveSyncPosition) > 10) {
+          try { v.currentTime = hls.liveSyncPosition; } catch(_){}
+        }
+        v.play().catch(function(){});
+      }
+    } else {
+      // No HLS instance — full restart
+      if (typeof startStream === 'function') startStream();
+    }
+  } catch(e) {
+    console.warn('[net-aware] resume threw:', e && e.message);
+    try { if (typeof startStream === 'function') startStream(); } catch(_){}
+  }
+  // Re-arm background watchdogs
+  try { if (typeof _zombieStart === 'function') _zombieStart(); } catch(_){}
+  try { if (typeof _hlsRebuildArm === 'function') _hlsRebuildArm(); } catch(_){}
+}
+(function bindNetAware(){
+  try {
+    window.addEventListener('online',  _netAwareOnOnline);
+    window.addEventListener('offline', _netAwareOnOffline);
+    // If we load while already offline, set the state up front
+    if (typeof navigator.onLine === 'boolean' && navigator.onLine === false) {
+      setTimeout(_netAwareOnOffline, 200);
+    }
+  } catch(_){}
+})();
+// Expose status for the debug HUD
+window.__netAwareStatus = function(){
+  return { offline: _netAwareOffline, navigatorOnLine: navigator.onLine };
+};
+
+// debug-overlay-marker (2026-05-20): admin stream-health HUD wiring
+var _dbgOverlayOn = false;
+var _dbgTimer = null;
+var _dbgLastHlsError = '';
+function _debugOverlayToggle(forceState) {
+  var ov = document.getElementById('debug-overlay');
+  if (!ov) return;
+  _dbgOverlayOn = (forceState === undefined) ? !_dbgOverlayOn : !!forceState;
+  ov.classList.toggle('on', _dbgOverlayOn);
+  if (_dbgOverlayOn) {
+    _debugOverlayTick();
+    if (!_dbgTimer) _dbgTimer = setInterval(_debugOverlayTick, 1000);
+  } else {
+    if (_dbgTimer) { clearInterval(_dbgTimer); _dbgTimer = null; }
+  }
+}
+function _dbgSet(id, val, cls) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  el.textContent = (val == null) ? '—' : String(val);
+  el.classList.remove('good','warn','bad');
+  if (cls) el.classList.add(cls);
+}
+function _dbgFmtMs(ms) {
+  if (!isFinite(ms)) return '—';
+  if (ms < 1000) return Math.round(ms) + 'ms';
+  return (ms/1000).toFixed(1) + 's';
+}
+function _dbgFmtBps(bps) {
+  if (!isFinite(bps) || bps <= 0) return '—';
+  if (bps > 1e6) return (bps/1e6).toFixed(2) + ' Mbps';
+  if (bps > 1e3) return (bps/1e3).toFixed(1) + ' Kbps';
+  return Math.round(bps) + ' bps';
+}
+function _debugOverlayTick() {
+  if (!_dbgOverlayOn) return;
+  try {
+    var qs = new URLSearchParams(location.search);
+    _dbgSet('dbg-cam',     (qs.get('cam') || '').slice(-30));
+    _dbgSet('dbg-profile', (qs.get('profile') || '').slice(-30));
+
+    var v = document.getElementById('player');
+    if (v) {
+      _dbgSet('dbg-video', v.videoWidth + '×' + v.videoHeight + ' rs=' + v.readyState);
+      // Frame quality
+      var fq = (typeof v.getVideoPlaybackQuality === 'function') ? v.getVideoPlaybackQuality() : null;
+      if (fq) {
+        _dbgSet('dbg-frames', (fq.totalVideoFrames || 0).toLocaleString());
+        var dropped = fq.droppedVideoFrames || 0;
+        var total = fq.totalVideoFrames || 1;
+        var dropPct = (dropped / total * 100).toFixed(2);
+        _dbgSet('dbg-dropped', dropped + ' (' + dropPct + '%)',
+          dropped === 0 ? 'good' : (dropPct > 2 ? 'bad' : 'warn'));
+      }
+      // Buffer ahead
+      if (v.buffered && v.buffered.length) {
+        var ahead = v.buffered.end(v.buffered.length - 1) - v.currentTime;
+        _dbgSet('dbg-buffer', ahead.toFixed(1) + 's',
+          ahead < 2 ? 'bad' : (ahead < 5 ? 'warn' : 'good'));
+      } else {
+        _dbgSet('dbg-buffer', 'empty', 'bad');
+      }
+    }
+
+    // HLS-specific
+    if (typeof hls !== 'undefined' && hls && hls.media) {
+      var lev = (hls.levels || [])[hls.currentLevel];
+      if (lev) {
+        _dbgSet('dbg-level', lev.width + '×' + lev.height + ' L' + hls.currentLevel + '/' + (hls.levels.length - 1));
+        _dbgSet('dbg-bitrate', _dbgFmtBps(lev.bitrate));
+      } else {
+        _dbgSet('dbg-level', 'no level');
+      }
+      // Live latency (currentTime vs liveSyncPosition)
+      try {
+        var live = hls.liveSyncPosition;
+        if (isFinite(live) && v) {
+          var lag = (live - v.currentTime);
+          _dbgSet('dbg-latency', lag.toFixed(1) + 's behind',
+            lag < 6 ? 'good' : (lag < 12 ? 'warn' : 'bad'));
+        }
+      } catch(_){}
+    } else {
+      _dbgSet('dbg-level', 'no hls');
+    }
+
+    _dbgSet('dbg-err', _dbgLastHlsError || 'none', _dbgLastHlsError ? 'bad' : 'good');
+
+    // Network
+    try {
+      var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+      if (c) {
+        var net = (c.effectiveType || '?');
+        if (isFinite(c.downlink)) net += ' · ' + c.downlink + ' Mbps';
+        if (c.saveData) net += ' · saveData';
+        _dbgSet('dbg-net', net);
+      } else {
+        _dbgSet('dbg-net', 'no API');
+      }
+    } catch(_){}
+
+    // Background watchdog state
+    if (typeof window.__hlsRebuildStatus === 'function') {
+      var r = window.__hlsRebuildStatus();
+      _dbgSet('dbg-rebuild', r.count + ' (next: ' + _dbgFmtMs(r.intervalMs) + ')');
+    }
+    if (typeof window.__zombieStatus === 'function') {
+      var z = window.__zombieStatus();
+      _dbgSet('dbg-zombie', z.reconnects + ' (consec=' + z.consecutiveReconnects + ')',
+        z.reconnects === 0 ? 'good' : (z.reconnects > 2 ? 'bad' : 'warn'));
+    }
+
+    // CF cache probe (cheap, only every 5 ticks)
+    if (!_debugOverlayTick._cfCounter) _debugOverlayTick._cfCounter = 0;
+    _debugOverlayTick._cfCounter++;
+    if (_debugOverlayTick._cfCounter % 5 === 0 && streamUrl) {
+      fetch(streamUrl, { method: 'HEAD', cache: 'no-store' })
+        .then(function(r){
+          var st = r.headers.get('cf-cache-status') || r.headers.get('CF-Cache-Status') || '?';
+          var cls = (st === 'BYPASS' || st === 'DYNAMIC') ? 'good' : (st === 'HIT' ? 'bad' : 'warn');
+          _dbgSet('dbg-cfcache', st, cls);
+        }).catch(function(){});
+    }
+  } catch(e) {
+    _dbgSet('dbg-err', 'tick: ' + (e.message || e).slice(0,40), 'bad');
+  }
+}
+// Hook to capture last HLS error from anywhere — startStream's ERROR handler
+// already fires; we set this and the tick reads it.
+window.__dbgRecordHlsError = function(msg) { _dbgLastHlsError = String(msg || '').slice(0, 80); };
+// Keyboard shortcut (Shift+D) + URL param to enable
+(function bindDebugOverlay(){
+  try {
+    if (new URLSearchParams(location.search).get('_debug') === '1') {
+      // Tiny delay to let HLS attach before first tick
+      setTimeout(function(){ _debugOverlayToggle(true); }, 800);
+    }
+    document.addEventListener('keydown', function(e){
+      if (e.shiftKey && (e.key === 'D' || e.key === 'd')) {
+        _debugOverlayToggle();
+        e.preventDefault();
+      }
+    });
+  } catch(_){}
+})();
+
+// autolowres-player-marker (2026-05-20): per-profile low-res-on-slow-connection.
+// When the profile has autoLowResOnSlow=true AND navigator.connection reports
+// a slow effectiveType, modify the streamUrl to request a low-res variant.
+// Verkada proxy supports ?resolution=low_res; other brands are no-ops for now
+// (framework laid for future transcode-based variants).
+var _autoLowRes = false;
+var _slowThreshold = '3g';      // '3g' | '2g' | 'slow-2g'
+var _isCurrentlyLowRes = false; // tracks last-applied state
+var _autoLowResDebounceTimer = null;
+function _connectionLooksSlow() {
+  try {
+    var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    if (!c || !c.effectiveType) return false;
+    var t = String(c.effectiveType);
+    // Threshold ranking: slow-2g (worst) < 2g < 3g < 4g (best)
+    var rank = { 'slow-2g': 0, '2g': 1, '3g': 2, '4g': 3 };
+    var current = rank[t];
+    var trigger = rank[_slowThreshold];
+    if (current == null || trigger == null) return false;
+    return current <= trigger;
+  } catch(_) { return false; }
+}
+function _applyLowResToUrl(u, low) {
+  if (!u) return u;
+  // Only modify Verkada proxy URLs today. Generic HLS gets the flag passed
+  // through in case a future MediaMTX setup uses query-string variant selection.
+  if (u.indexOf('/api/verkada/proxy/') === -1) return u;
+  // Remove any existing resolution= param then optionally append low_res.
+  var clean = u.replace(/([?&])resolution=[^&]*(&|$)/g, function(m, pre, post){
+    return post === '&' ? pre : (pre === '&' ? '' : '?').replace(/[?&]$/, '');
+  });
+  if (!low) return clean;
+  return clean + (clean.indexOf('?') === -1 ? '?' : '&') + 'resolution=low_res';
+}
+function _autoLowResMaybeSwap() {
+  if (!_autoLowRes) return;
+  var slow = _connectionLooksSlow();
+  if (slow === _isCurrentlyLowRes) return; // no change
+  _isCurrentlyLowRes = slow;
+  var newUrl = _applyLowResToUrl(streamUrl, slow);
+  if (newUrl !== streamUrl) {
+    console.log('[auto-lowres] connection=' + (slow ? 'slow' : 'fast') + ', swapping stream');
+    streamUrl = newUrl;
+    if (typeof startStream === 'function') startStream();
+  }
+}
+function _autoLowResScheduleSwap() {
+  if (_autoLowResDebounceTimer) clearTimeout(_autoLowResDebounceTimer);
+  // 30-sec debounce — avoids flapping when Wi-Fi/cellular briefly switches
+  _autoLowResDebounceTimer = setTimeout(_autoLowResMaybeSwap, 30 * 1000);
+}
+(function bindAutoLowResConnectionChange(){
+  try {
+    var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    if (c && c.addEventListener) c.addEventListener('change', _autoLowResScheduleSwap);
+  } catch(_){}
+})();
+var hls = null;
+
+// hls-rebuild-marker (2026-05-19): graceful HLS.js rebuild every 4h to clear
+// the slow memory leak that breaks 24/7 displays after ~1-2 days.
+var _hlsRebuildTimer = null;
+var _hlsRebuildCount = 0;
+function _hlsRebuildIntervalMs(){
+  // URL override for testing: ?_hlsRebuildSec=30
+  try {
+    var qs = new URLSearchParams(location.search);
+    var sec = parseInt(qs.get('_hlsRebuildSec'), 10);
+    if (Number.isFinite(sec) && sec >= 10) return sec * 1000;
+  } catch(_){}
+  return 4 * 60 * 60 * 1000;  // 4 hours
+}
+function _hlsRebuildSafe(){
+  if (!hls) return false;
+  if (!video) return false;
+  if (video.paused) return false;
+  if (document.hidden) return false;
+  if (document.getElementById('embed-timeout-overlay')) return false;
+  // Only rebuild when within ~6s of live edge — i.e. user isn't scrubbing
+  // an archive. liveSyncPosition is the player's target live point.
+  try {
+    var live = (hls && hls.liveSyncPosition) || 0;
+    if (live && Math.abs(video.currentTime - live) > 6) return false;
+  } catch(_){}
+  return true;
+}
+function _hlsRebuildArm(){
+  if (_hlsRebuildTimer) { clearTimeout(_hlsRebuildTimer); _hlsRebuildTimer = null; }
+  var ms = _hlsRebuildIntervalMs();
+  console.log('[hls-rebuild] armed for', Math.round(ms/1000), 'sec');
+  _hlsRebuildTimer = setTimeout(_hlsRebuildFire, ms);
+}
+function _hlsRebuildFire(){
+  if (!_hlsRebuildSafe()) {
+    console.log('[hls-rebuild] skipped (unsafe right now); retry in 60s');
+    _hlsRebuildTimer = setTimeout(_hlsRebuildFire, 60 * 1000);
+    return;
+  }
+  _hlsRebuildCount++;
+  console.log('[hls-rebuild] rebuilding hls instance (#' + _hlsRebuildCount + ') at', new Date().toISOString());
+  try {
+    if (typeof startStream === 'function') startStream();
+    else if (hls && typeof hls.destroy === 'function') {
+      // Defensive fallback if startStream was renamed/removed.
+      try { hls.destroy(); } catch(_){}
+      hls = null;
+    }
+  } catch (e) {
+    console.warn('[hls-rebuild] rebuild threw:', e && e.message);
+  }
+  // startStream() arms the next rebuild on its own MANIFEST_PARSED handler.
+}
+function _hlsRebuildCancel(){
+  if (_hlsRebuildTimer) { clearTimeout(_hlsRebuildTimer); _hlsRebuildTimer = null; }
+}
+// Expose a tiny status helper for the admin debug overlay (future use).
+window.__hlsRebuildStatus = function(){
+  return { count: _hlsRebuildCount, armed: !!_hlsRebuildTimer, intervalMs: _hlsRebuildIntervalMs() };
+};
+
+// zombie-watchdog-marker (2026-05-19): catch frozen-frame "zombie" streams
+// that HLS.js doesn't notice because no FATAL error ever fires. If
+// video.currentTime stops advancing while we think we're playing, force a
+// clean reconnect via startStream().
+var _zombieWatchdogTimer = null;
+var _zombieLastCurrentTime = 0;
+var _zombieLastAdvanceMs = 0;
+var _zombieReconnectsTotal = 0;
+var _zombieConsecutiveReconnects = 0;
+var _zombieLastReconnectMs = 0;
+var _zombieAdvanceCount = 0;
+var _zombieFreezeChecks = 0;
+function _zombieThresholdMs(){
+  try {
+    var qs = new URLSearchParams(location.search);
+    var sec = parseInt(qs.get('_zombieSec'), 10);
+    if (Number.isFinite(sec) && sec >= 5) return sec * 1000;
+  } catch(_){}
+  return 30 * 1000;
+}
+function _zombieCooldownMs(){
+  try {
+    var qs = new URLSearchParams(location.search);
+    var sec = parseInt(qs.get('_zombieCooldownSec'), 10);
+    if (Number.isFinite(sec) && sec >= 5) return sec * 1000;
+  } catch(_){}
+  return 60 * 1000;
+}
+function _zombieTick(){
+  // skip if we can't reasonably evaluate playback health
+  if (!video) return;
+  if (video.paused) { _zombieLastCurrentTime = video.currentTime; _zombieLastAdvanceMs = Date.now(); return; }
+  if (document.hidden) { _zombieLastAdvanceMs = Date.now(); return; }
+  if (!hls) return;
+  if (video.readyState < 2) { _zombieLastAdvanceMs = Date.now(); return; }
+  // skip if user is viewing archive (not near live edge)
+  try {
+    var live = (hls && hls.liveSyncPosition) || 0;
+    if (live && Math.abs(video.currentTime - live) > 6) {
+      _zombieLastAdvanceMs = Date.now();
+      _zombieLastCurrentTime = video.currentTime;
+      return;
+    }
+  } catch(_){}
+  // skip during offline overlay (server-side detected outage)
+  var off = document.getElementById('offline-overlay');
+  if (off && off.classList.contains('on')) { _zombieLastAdvanceMs = Date.now(); return; }
+  // skip during embed-timeout (user-idle pause)
+  if (document.getElementById('embed-timeout-overlay')) return;
+
+  var now = video.currentTime;
+  _zombieFreezeChecks++;
+  if (now > _zombieLastCurrentTime + 0.05) {
+    // healthy: currentTime advanced
+    _zombieLastCurrentTime = now;
+    _zombieLastAdvanceMs = Date.now();
+    _zombieAdvanceCount++;
+    return;
+  }
+  // frozen so far — but only act if frozen for >= threshold
+  var frozenMs = Date.now() - _zombieLastAdvanceMs;
+  if (frozenMs < _zombieThresholdMs()) return;
+
+  // honor cooldown
+  if (_zombieLastReconnectMs && (Date.now() - _zombieLastReconnectMs) < _zombieCooldownMs()) return;
+
+  // give up after 3 consecutive zombie reconnects without recovery
+  if (_zombieConsecutiveReconnects >= 3) {
+    console.warn('[zombie] 3 consecutive reconnects failed — surrendering to offline overlay');
+    try { if (off) off.classList.add('on'); } catch(_){}
+    return;
+  }
+  _zombieReconnectsTotal++;
+  _zombieConsecutiveReconnects++;
+  _zombieLastReconnectMs = Date.now();
+  console.warn('[zombie] currentTime frozen ' + Math.round(frozenMs/1000) + 's — forcing reconnect (#' +
+    _zombieReconnectsTotal + ', consec=' + _zombieConsecutiveReconnects + ')');
+  try {
+    if (typeof startStream === 'function') startStream();
+  } catch(e) {
+    console.warn('[zombie] startStream threw:', e && e.message);
+  }
+}
+function _zombieReset(){
+  // Called whenever a fresh manifest parses (i.e. a real recovery occurred)
+  _zombieConsecutiveReconnects = 0;
+  _zombieLastCurrentTime = (video && video.currentTime) || 0;
+  _zombieLastAdvanceMs = Date.now();
+}
+function _zombieStart(){
+  if (_zombieWatchdogTimer) return;
+  _zombieReset();
+  _zombieWatchdogTimer = setInterval(_zombieTick, 1000);
+  console.log('[zombie] watchdog armed (threshold=' +
+    Math.round(_zombieThresholdMs()/1000) + 's, cooldown=' +
+    Math.round(_zombieCooldownMs()/1000) + 's)');
+}
+function _zombieStop(){
+  if (_zombieWatchdogTimer) { clearInterval(_zombieWatchdogTimer); _zombieWatchdogTimer = null; }
+}
+window.__zombieStatus = function(){
+  return {
+    advances: _zombieAdvanceCount,
+    checks: _zombieFreezeChecks,
+    reconnects: _zombieReconnectsTotal,
+    consecutiveReconnects: _zombieConsecutiveReconnects,
+    lastReconnectMs: _zombieLastReconnectMs,
+    lastCurrentTime: _zombieLastCurrentTime,
+    msSinceAdvance: _zombieLastAdvanceMs ? Date.now() - _zombieLastAdvanceMs : null,
+    thresholdMs: _zombieThresholdMs(),
+    cooldownMs: _zombieCooldownMs(),
+    running: !!_zombieWatchdogTimer
+  };
+};
+
+function showError(msg, hint) {
+  errMsg.textContent = msg || 'Stream unavailable';
+  errHint.textContent = hint || 'Retrying automatically…';
+  errEl.classList.add('on');
+  loader.style.display = 'none';
+  offlineOverlay.classList.remove('on');
+}
+function hideError(){
+  errEl.classList.remove('on');
+  offlineOverlay.classList.remove('on');
+}
+function showOffline() {
+  offlineOverlay.classList.add('on');
+  loader.style.display = 'none';
+  errEl.classList.remove('on');
+}
+function hideOffline(){ offlineOverlay.classList.remove('on'); }
+
+async function boot() {
+  if (!camId || !profId) {
+    showError('Missing camera or profile in URL', 'Expected ?cam=<id>&profile=<id>');
+    return;
+  }
+  try {
+    var r = await fetch(API);
+    if (!r.ok) {
+      var j = {};
+      try { j = await r.json(); } catch(_){}
+      showError(j.error || ('Profile not available (' + r.status + ')'),
+                r.status === 403 ? 'This embed is not authorized for this domain.' : 'Check the link with the site admin.');
+      return;
+    }
+    var data = await r.json();
+    profile = data.profile || {};
+    streamUrl = data.streamUrl || '';
+    window._startPanoUrl = data.panoramaUrl || null;  // profile-startpano-player
+    // player-html-embed-creds-marker (2026-05-27): cache server-minted embed
+    // credentials so signed-embed endpoints (presets, goto-preset) work
+    // even when the page URL has no ?sig=&exp= query.
+    window._embedAuth = data.embedAuth || null;
+    // player-append-sig-stream-marker (2026-05-27): the Verkada HLS proxy
+    // requires sig+exp+dom auth (MediaMTX /live/... is public, doesn't need
+    // it). Lift the iframe's auth params onto the stream URL so HLS.js can
+    // load the manifest without 401.
+    if (streamUrl && streamUrl.indexOf('/api/verkada/proxy/') !== -1) {
+      var __pqs = new URLSearchParams(location.search);
+      var __psig = __pqs.get('sig'), __pexp = __pqs.get('exp'), __pdom = __pqs.get('dom') || '';
+      if (__psig && __pexp) {
+        var __sep = streamUrl.indexOf('?') === -1 ? '?' : '&';
+        streamUrl += __sep + 'sig=' + encodeURIComponent(__psig)
+                    + '&exp=' + encodeURIComponent(__pexp)
+                    + (__pdom ? '&dom=' + encodeURIComponent(__pdom) : '');
+      }
+    }
+    // autolowres-player-marker: arm the auto-lowres logic from profile config
+    _autoLowRes    = !!profile.autoLowResOnSlow;
+    _slowThreshold = profile.slowConnectionThreshold || '3g';
+    if (_autoLowRes && _connectionLooksSlow()) {
+      streamUrl = _applyLowResToUrl(streamUrl, true);
+      _isCurrentlyLowRes = true;
+      console.log('[auto-lowres] initial load on slow connection — using low_res variant');
+    }
+    // Server pre-resolves the stream-timeout precedence (profile > cam).
+    // Player just reads this single number; 0 = disabled.
+    window._effectiveStreamTimeoutSec = parseInt(data.effectiveStreamTimeoutSec, 10) || 0;
+    // Stash camera tz so the archive bar's default date/time is in cam tz
+    window._cameraTz = (data.camera && data.camera.timezone) || 'America/Los_Angeles';
+    applyProfile(data.camera || {}, profile);
+    // offline-image-marker: wire the custom offline placeholder (camera-level,
+    // inherited). The existing offline-overlay show/hide logic does the rest —
+    // image shows whenever offline, stream returns on reconnect.
+    try {
+      var _oi = document.getElementById('offline-custom-img');
+      var _oo = document.getElementById('offline-overlay');
+      if (_oi && _oo) {
+        if (data.offlineImageUrl) { _oi.src = data.offlineImageUrl; _oi.style.display = 'block'; _oo.classList.add('has-custom'); }
+        else { _oi.style.display = 'none'; _oo.classList.remove('has-custom'); }
+      }
+    } catch(_){}
+    // Render customButtons from the profile into the control bar so the
+    // preview player matches what the main Live View renders.
+    // profile-cb-fallback-marker (2026-08-12): also fall back to the
+    // camera-level playerConfig.customButtons when neither the profile
+    // nor its inline playerConfig defines any. Camera admins usually
+    // configure buttons on the camera (⚙️ Player Settings) and expect
+    // them to appear in every profile that doesn't override.
+    var _pcbA = Array.isArray(profile.customButtons) && profile.customButtons.length ? profile.customButtons : null;
+    var _pcbB = _pcbA || (profile.playerConfig && Array.isArray(profile.playerConfig.customButtons) && profile.playerConfig.customButtons.length ? profile.playerConfig.customButtons : null);
+    var _pcbC = _pcbB || (typeof cam !== 'undefined' && cam && cam.playerConfig && Array.isArray(cam.playerConfig.customButtons) ? cam.playerConfig.customButtons : []);
+    renderCustomButtons(_pcbC);
+    // ── Per-profile ticker + overlays (added 2026-05-11) ──
+    try {
+      var et = data.effectiveTicker;
+      if (et && et.enabled && et.text) ppRenderTicker(et);
+      var eov = data.effectiveOverlays;
+      if (Array.isArray(eov)) {
+        eov.forEach(function(o){
+          if (o && o.enabled !== false && (o.image || o.text || o.url)) ppRenderOverlay(o);
+        });
+      }
+      // pp-weather-widget-marker: weather widget inherited from camera/profile
+      if (data.effectiveWeather && data.effectiveWeather.enabled) ppRenderWeather(data.effectiveWeather);
+      setTimeout(function(){ if (window._ppOvRescaleNow) window._ppOvRescaleNow(); }, 400);  // letterbox-anchor-always
+    } catch (e) { console.warn('ticker/overlay render:', e); }
+    // offline-instant-marker (2026-07-03): server says this camera is
+    // deactivated — its manifest would 404 forever, so show the offline /
+    // maintenance overlay right away instead of an eternal "Connecting..."
+    // spinner. Recheck every 60s; reload the embed when the camera returns.
+    if (data.camOffline) {
+      loader.style.display = 'none';
+      showOffline();
+      setInterval(function(){
+        fetch(API).then(function(r){ return r.json(); }).then(function(j){
+          if (j && !j.camOffline) location.reload();
+        }).catch(function(){});
+      }, 60000);
+      return;
+    }
+    // Multi-camera carousel — if profile has rotationStreams, init carousel
+    if (data.rotationStreams && data.rotationStreams.length > 1) {
+      runIntroThen(function() {
+        carouselInit(data.rotationStreams, profile.rotationDurationSec || 15);
+      });
+    } else if (profile.startView === 'panorama' && window._startPanoUrl) {
+      runIntroThen(function(){ showStartPano(window._startPanoUrl); });
+    } else if (profile && profile.mode === 'timelapse') {
+      // timelapse-mode-render-marker (2026-06-19): play a snapshot slideshow
+      // instead of starting the live HLS stream.
+      runIntroThen(function(){ _tlSlideshowStart(data); });
+    } else {
+      runIntroThen(startStream);
+    }
+  } catch(e) {
+    showError('Could not load player profile', (e && e.message) || '');
+  }
+}
+
+function showStartPano(url){
+  // pano-start-automove-marker (2026-06-05): auto-pan ping-pong + drag/zoom.
+  var ov = document.getElementById('start-pano-overlay');
+  var img = document.getElementById('start-pano-img');
+  var vid = document.getElementById('player');
+  if(!ov || !img){ startStream(); return; }
+  var par = vid && vid.parentElement;
+  if(par && getComputedStyle(par).position === 'static') par.style.position = 'relative';
+  var st = { off:0, min:0, drag:false, x0:0, o0:0, scale:1, dir:-1, raf:0, lastT:0, speed:0, stopped:false };
+  function clamp(o){ return o>0?0:(o<st.min?st.min:o); }
+  function apply(){ img.style.transformOrigin='left center'; img.style.transform = 'translateX('+st.off+'px) scale('+st.scale+')'; }
+  function tick(ts){
+    if(st.stopped) return;
+    var dt = st.lastT ? Math.min(0.05,(ts-st.lastT)/1000) : 0; st.lastT=ts;
+    // Auto-pan only when not interacting and not zoomed in.
+    if(!st.drag && st.scale <= 1.001 && st.min < 0){
+      st.off += st.dir * st.speed * dt;
+      if(st.off <= st.min){ st.off=st.min; st.dir=1; }
+      else if(st.off >= 0){ st.off=0; st.dir=-1; }
+      apply();
+    }
+    st.raf = requestAnimationFrame(tick);
+  }
+  img.onload = function(){
+    var vw=ov.clientWidth, rw=img.getBoundingClientRect().width;
+    st.min=Math.min(0, vw-rw); st.off=0;
+    var travel=Math.abs(st.min)||1;
+    var durSec=(typeof profile==='object' && profile && profile.panoScrollDurationSec) ? Math.max(6, profile.panoScrollDurationSec) : 44;
+    st.speed=travel/durSec; apply();
+    // pano-rotate-option: auto-pan only when the profile opts in (default on)
+    var _rotateOn = !(typeof profile === 'object' && profile && profile.panoAutoRotate === false);
+    if (_rotateOn) { st.lastT=0; st.stopped=false; cancelAnimationFrame(st.raf); st.raf=requestAnimationFrame(tick); }
+    else { st.stopped=true; cancelAnimationFrame(st.raf); }
+  };
+  img.onerror = function(){ st.stopped=true; ov.style.display='none'; startStream(); };
+  img.src = url;
+  ov.style.display = 'block';
+  if(!ov.dataset.wired){
+    ov.dataset.wired='1';
+    function down(x){ st.drag=true; st.x0=x; st.o0=st.off; ov.style.cursor='grabbing'; }
+    function move(x){ if(!st.drag) return; st.off=clamp(st.o0+(x-st.x0)); apply(); }
+    function up(){ st.drag=false; ov.style.cursor='grab'; }
+    ov.addEventListener('mousedown', function(e){ down(e.clientX); });
+    window.addEventListener('mousemove', function(e){ move(e.clientX); });
+    window.addEventListener('mouseup', up);
+    ov.addEventListener('touchstart', function(e){ if(e.touches[0]) down(e.touches[0].clientX); }, {passive:true});
+    window.addEventListener('touchmove', function(e){ if(e.touches[0]) move(e.touches[0].clientX); }, {passive:true});
+    window.addEventListener('touchend', up);
+    ov.addEventListener('wheel', function(e){ e.preventDefault(); st.scale=Math.max(1, Math.min(4, st.scale + (e.deltaY<0?0.2:-0.2))); st.off=clamp(st.off); apply(); }, {passive:false});
+    var lb = document.getElementById('start-pano-live');
+    if(lb) lb.addEventListener('click', function(){ st.stopped=true; cancelAnimationFrame(st.raf); ov.style.display='none'; startStream(); });
+  }
+}
+
+function applyProfile(cam, p) {
+  document.documentElement.style.setProperty('--accent', p.accentColor || '#00e5ff');
+  if (p.theme === 'light') document.body.classList.add('theme-light');
+
+  camLabel.textContent = cam.name || 'Camera';
+  camLabel.style.display = p.showLabel === false ? 'none' : '';
+  brandLabel.style.display = p.showBrand === false ? 'none' : '';
+  // show-live-toggle-marker (2026-05-27): honor profile.showLive
+  if (p.showLive === false && liveBadge) liveBadge.style.display = 'none';
+
+  if (p.overlayLogoUrl) { wmEl.src = p.overlayLogoUrl; wmEl.style.display = ''; }
+
+  if (p.controls === false) controls.style.display = 'none';
+  var wrap = document.getElementById('wrap');
+  if (p.autoHideControls === true) wrap.classList.add('auto-hide');
+  if (p.autoHideViewerCount === true) wrap.classList.add('auto-hide-vc');
+  if (p.allowFullscreen === false) btnFs.style.display = 'none';
+
+  // Per-button visibility from profile.toolbar (admin sets via Player Profile editor).
+  // Defaults: snapshot + go-live + archive on; PTZ + presets on only if camera supports PTZ.
+  var tb = (p.toolbar && typeof p.toolbar === 'object') ? p.toolbar : {};
+  var $ = function(id){ return document.getElementById(id); };
+  if (tb.mute === false)       $('btn-mute').style.display = 'none';
+  if (tb.live === false)       $('btn-live').style.display = 'none';
+  if (tb.snap === false)       $('btn-snap').style.display = 'none';
+  if (tb.archive === false)    $('btn-archive').style.display = 'none';
+  if (tb.timelapse === false)  $('btn-timelapse').style.display = 'none';
+  if (tb.fullscreen === false) $('btn-fs').style.display = 'none';
+  // PTZ + presets only if the camera is PTZ-capable (cam.ptz === true)
+  // share-clip-removed-marker (2026-05-26): in embedded contexts (URL has
+  // sig= or token=), hide the Presets button unless publicPresets is enabled —
+  // tapping it would 401 against /api/ptz/presets without admin auth.
+  // profile-toolbar-authoritative-marker (2026-05-26): the player profile's
+  // toolbar checkboxes are the source of truth for what shows in the embed.
+  // Don't second-guess admin intent based on cam.public* flags — the click
+  // handlers already gracefully degrade when the underlying capability
+  // isn't available (e.g. presets list shows "Presets unavailable in this
+  // embed" if the public PTZ endpoint returns 403).
+  //
+  // We KEEP the intrinsic check (cam.ptz === true) further down — if the
+  // camera has no PTZ hardware at all, the preset/PTZ buttons stay hidden
+  // regardless of toolbar config. That's not second-guessing the admin,
+  // it's just respecting the hardware capability.
+  var __inIframe = false;
+  try { __inIframe = (window.top !== window.self); } catch (_) { __inIframe = true; }
+  var __isEmbedCtx = __inIframe || /[?&](sig|token)=/.test(location.search);
+  // (tb.presets / tb.ptz / tb.snap are NOT force-cleared here anymore —
+  //  the profile's toolbar config wins.)
+  if (cam && cam.ptz === true) {
+    if (tb.ptz !== false)      $('btn-ptz').style.display = '';
+    if (tb.snapshot !== false && $('btn-snap')) $('btn-snap').style.display = '';
+    if (tb.presets !== false)  $('btn-presets').style.display = '';  /* player-comprehensive-hardening-marker */
+  }
+
+  video.autoplay = p.autoplay !== false;
+  video.muted    = p.muted !== false;
+  video.loop     = !!p.loop;
+  video.controls = false; // we use our own overlay controls
+
+  btnMute.textContent = video.muted ? '🔇 Unmute' : '🔊 Mute';
+
+  if (p.showTimestamp) {
+    tsEl.style.display = '';
+    setInterval(function(){ tsEl.textContent = new Date().toLocaleTimeString(); }, 1000);
+  }
+
+  if (p.showViewerCount) {
+    var vcEl = document.getElementById('viewer-count-overlay');
+    if (vcEl) vcEl.style.display = 'flex';
+    startViewerCount(camId);
+  }
+}
+
+var _vcTimer = null;
+var _beaconTimer = null;
+function startViewerCount(id) {
+  function fetchStats() {
+    fetch('/api/public/watch-stats/' + encodeURIComponent(id))
+      .then(function(r){ return r.json(); })
+      .then(function(j){
+        var now  = document.getElementById('vc-now');
+        var tot  = document.getElementById('vc-total');
+        if (now) now.textContent = (j && j.count != null) ? j.count : '—';
+        if (tot) tot.textContent = (j && j.total != null) ? j.total.toLocaleString() : '—';
+      }).catch(function(){});
+  }
+  function sendBeacon() {
+    if (document.hidden) return;
+    fetch('/api/public/watch-beacon/' + encodeURIComponent(id), {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}', keepalive: true
+    }).catch(function(){});
+  }
+  sendBeacon();
+  fetchStats();
+  if (_vcTimer) clearInterval(_vcTimer);
+  if (_beaconTimer) clearInterval(_beaconTimer);
+  _vcTimer = setInterval(fetchStats, 10000);
+  _beaconTimer = setInterval(sendBeacon, 30000);
+  document.addEventListener('visibilitychange', function(){
+    if (!document.hidden) sendBeacon();
+  });
+}
+
+// ── MULTI-CAMERA CAROUSEL ──────────────────────────────────────────────────
+var _carousel = { streams: [], idx: 0, durMs: 15000, timer: null, timerRaf: null, timerStart: 0 };
+
+function carouselInit(streams, durSec) {
+  if (!streams || streams.length < 2) return;
+  _carousel.streams = streams;
+  _carousel.durMs   = (durSec || 15) * 1000;
+  _carousel.idx     = 0;
+
+  // Show arrows + dots + timer ring
+  var prev = document.getElementById('car-prev');
+  var next = document.getElementById('car-next');
+  var dots = document.getElementById('car-dots');
+  var timer = document.getElementById('car-timer');
+  if (prev) prev.style.display = 'flex';
+  if (next) next.style.display = 'flex';
+  if (timer) timer.style.display = 'block';
+  if (dots) {
+    dots.style.display = 'flex';
+    dots.innerHTML = '';
+    streams.forEach(function(_, i) {
+      var d = document.createElement('div');
+      d.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+      d.onclick = (function(ii){ return function(){ carouselGoto(ii, true); }; })(i);
+      dots.appendChild(d);
+    });
+  }
+  carouselGoto(0, false);
+}
+
+function carouselGoto(idx, userAction) {
+  _carousel.idx = idx;
+  var s = _carousel.streams[idx];
+  if (!s) return;
+
+  // Update label
+  camLabel.textContent = s.name || ('Camera ' + (idx + 1));
+
+  // Update dots
+  document.querySelectorAll('.carousel-dot').forEach(function(d, i) {
+    d.classList.toggle('active', i === idx);
+  });
+
+  // Switch stream
+  streamUrl = s.streamUrl;
+  startStream();
+
+  // Restart auto-advance timer
+  _carouselClearTimer();
+  _carouselStartTimer();
+}
+
+function carouselNext() { carouselGoto((_carousel.idx + 1) % _carousel.streams.length, true); }
+function carouselPrev() { carouselGoto((_carousel.idx - 1 + _carousel.streams.length) % _carousel.streams.length, true); }
+
+function _carouselClearTimer() {
+  if (_carousel.timer) { clearTimeout(_carousel.timer); _carousel.timer = null; }
+  if (_carousel.timerRaf) { cancelAnimationFrame(_carousel.timerRaf); _carousel.timerRaf = null; }
+}
+
+function _carouselStartTimer() {
+  _carousel.timerStart = performance.now();
+  var ring = document.getElementById('car-timer-ring');
+  var circ = 69.1;
+
+  function tick(now) {
+    var elapsed = now - _carousel.timerStart;
+    var progress = Math.min(elapsed / _carousel.durMs, 1);
+    if (ring) ring.setAttribute('stroke-dashoffset', circ * progress);
+    if (progress < 1) {
+      _carousel.timerRaf = requestAnimationFrame(tick);
+    }
+  }
+  _carousel.timerRaf = requestAnimationFrame(tick);
+  _carousel.timer = setTimeout(function() {
+    carouselGoto((_carousel.idx + 1) % _carousel.streams.length, false);
+  }, _carousel.durMs);
+}
+// ──────────────────────────────────────────────────────────────────────────
+
+// -- ad-slot-player-marker (2026-07-03): sponsored pre-roll + banner overlay --
+// Active ONLY when profile.adSlot.enabled === true. Pre-roll reuses the intro
+// layer (stream keeps warming behind it - zero added join time); any media
+// error skips straight to the stream. Beacons feed /api/ad-event.
+function _adBeacon(kind) {
+  try {
+    fetch('/api/ad-event', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ camId: camId, profileId: profId, kind: kind }), keepalive: true })
+      .catch(function(){});
+  } catch(_) {}
+}
+function runAdPreroll(next) {
+  var a = (profile.adSlot && profile.adSlot.preroll) || {};
+  var url = a.mediaUrl || '';
+  var isVideo = /\.(mp4|webm|mov)(\?|$)/i.test(url);
+  var durMs = Math.max(3, Math.min(30, parseFloat(a.durationSec) || 8)) * 1000;
+  var skipAfterMs = Math.max(0, Math.min(15, parseFloat(a.skippableAfterSec) || 0)) * 1000;
+  var done = false, cdTimer = null, endTimer = null, skipTimer = null;
+  var chip = document.createElement('div');
+  chip.style.cssText = 'position:absolute;top:12px;left:12px;z-index:52;display:flex;gap:8px;align-items:center;' +
+    'font-family:ui-monospace,monospace;font-size:12px;color:#fff';
+  chip.innerHTML = '<span style="background:rgba(255,255,255,0.22);border-radius:3px;padding:1px 6px;font-size:10px;font-weight:700;letter-spacing:0.08em">AD</span>' +
+    '<span id="ad-pr-count" style="background:rgba(0,0,0,0.55);border-radius:5px;padding:3px 9px"></span>';
+  var skipBtn = document.createElement('button');
+  skipBtn.textContent = 'Skip ad \u203A';
+  skipBtn.style.cssText = 'position:absolute;bottom:18px;right:18px;z-index:52;display:none;' +
+    'background:rgba(0,0,0,0.7);color:#fff;border:1px solid rgba(255,255,255,0.35);padding:9px 16px;' +
+    'border-radius:999px;cursor:pointer;font-size:13px;font-weight:600;font-family:system-ui,sans-serif';
+  function cleanup() {
+    if (cdTimer) clearInterval(cdTimer);
+    if (endTimer) clearTimeout(endTimer);
+    if (skipTimer) clearTimeout(skipTimer);
+    try { introVideo.pause(); } catch(_) {}
+    introImg.style.display = 'none'; introVideo.style.display = 'none';
+    introImg.removeAttribute('src'); introVideo.removeAttribute('src');
+    if (chip.parentNode) chip.parentNode.removeChild(chip);
+    if (skipBtn.parentNode) skipBtn.parentNode.removeChild(skipBtn);
+    introLayer.style.cursor = '';
+    introLayer.onclick = null;
+    introLayer.classList.remove('on');
+  }
+  function finish(kind) {
+    if (done) return; done = true;
+    if (kind) _adBeacon(kind);
+    cleanup(); next();
+  }
+  if (!url) { next(); return; }
+  introLayer.classList.add('on');
+  loader.style.display = 'none';
+  introLayer.appendChild(chip);
+  introLayer.appendChild(skipBtn);
+  introLayer.style.cursor = 'pointer';
+  introLayer.onclick = function(e) {
+    if (done || e.target === skipBtn) return;
+    if (a.clickUrl) { try { window.open(a.clickUrl, '_blank', 'noopener'); } catch(_) {} }
+    _adBeacon('preroll_click');
+  };
+  skipBtn.onclick = function(e) { e.stopPropagation(); finish('preroll_skip'); };
+  if (isVideo) {
+    introVideo.src = url; introVideo.muted = true; introVideo.playsInline = true;
+    introVideo.style.display = 'block';
+    introVideo.onended = function(){ finish(null); };
+    introVideo.onerror = function(){ finish(null); };
+    var pp = introVideo.play(); if (pp && pp.catch) pp.catch(function(){});
+    endTimer = setTimeout(function(){ finish(null); }, 30000); // hard cap
+  } else {
+    introImg.src = url; introImg.style.display = 'block';
+    introImg.onerror = function(){ finish(null); };
+    endTimer = setTimeout(function(){ finish(null); }, durMs);
+  }
+  var deadline = Date.now() + (isVideo ? 30000 : durMs);
+  var cd = document.getElementById('ad-pr-count');
+  function updCd(){ if (cd) cd.textContent = 'Ad \u00b7 ' + Math.max(0, Math.ceil((deadline - Date.now())/1000)) + 's'; }
+  updCd(); cdTimer = setInterval(updCd, 500);
+  if (skipAfterMs > 0) skipTimer = setTimeout(function(){ skipBtn.style.display = 'block'; }, skipAfterMs);
+  _adBeacon('preroll_impression');
+}
+// Banner overlay - armed once the profile is loaded; independent of pre-roll.
+(function _armAdBanner() {
+  var poll = setInterval(function() {
+    if (typeof profile === 'undefined' || !profile) return;
+    clearInterval(poll);
+    var o = profile.adSlot && profile.adSlot.enabled === true && profile.adSlot.overlay;
+    if (!o || o.enabled !== true || (!o.text && !o.imageUrl)) return;
+    var dismissed = false, hideT = null;
+    var bar = document.createElement('div');
+    bar.setAttribute('role', 'button');
+    bar.style.cssText = 'position:fixed;left:50%;transform:translateX(-50%);z-index:44;display:flex;' +
+      'align-items:center;gap:10px;max-width:min(86%,520px);background:rgba(8,12,16,0.88);' +
+      'border:1px solid rgba(0,229,255,0.28);border-radius:10px;padding:8px 12px;cursor:pointer;' +
+      'opacity:0;transition:opacity 0.4s;pointer-events:none;font-family:system-ui,sans-serif;' +
+      (o.position === 'top' ? 'top:46px' : 'bottom:46px');
+    var inner = '<span style="background:rgba(255,255,255,0.16);border-radius:3px;padding:1px 5px;' +
+      'font-size:9px;font-weight:700;letter-spacing:0.08em;color:#c9d4dc;align-self:flex-start">AD</span>';
+    if (o.imageUrl) inner += '<img src="' + String(o.imageUrl).replace(/"/g, '&quot;') + '" alt="" ' +
+      'style="width:36px;height:36px;border-radius:7px;object-fit:cover;flex-shrink:0"/>';
+    if (o.text) inner += '<span style="font-size:12.5px;font-weight:600;color:#e8eef3;line-height:1.35">' +
+      String(o.text).replace(/</g, '&lt;') + '</span>';
+    if (o.clickUrl) inner += '<span style="margin-left:auto;font-size:10.5px;font-weight:700;color:#00e5ff;' +
+      'border:1px solid rgba(0,229,255,0.35);border-radius:6px;padding:4px 9px;white-space:nowrap">Learn more \u2192</span>';
+    bar.innerHTML = inner;
+    if (o.dismissible !== false) {
+      var x = document.createElement('span');
+      x.textContent = '\u2715';
+      x.style.cssText = 'position:absolute;top:-8px;right:-8px;width:20px;height:20px;border-radius:50%;' +
+        'background:#182028;border:1px solid rgba(255,255,255,0.2);color:#7e8a96;font-size:10px;' +
+        'line-height:19px;text-align:center;cursor:pointer';
+      x.onclick = function(e){ e.stopPropagation(); dismissed = true; hide(); };
+      bar.appendChild(x);
+    }
+    bar.onclick = function() {
+      if (o.clickUrl) { try { window.open(o.clickUrl, '_blank', 'noopener'); } catch(_) {} }
+      _adBeacon('overlay_click');
+    };
+    document.body.appendChild(bar);
+    function show() {
+      if (dismissed) return;
+      if (introLayer && introLayer.classList.contains('on')) { setTimeout(show, 4000); return; }
+      bar.style.opacity = '1'; bar.style.pointerEvents = 'auto';
+      _adBeacon('overlay_impression');
+      clearTimeout(hideT);
+      hideT = setTimeout(hide, Math.max(5, Math.min(120, parseInt(o.showSec, 10) || 20)) * 1000);
+    }
+    function hide() { bar.style.opacity = '0'; bar.style.pointerEvents = 'none'; }
+    setTimeout(show, 10000);
+    setInterval(function(){ if (!dismissed) show(); },
+      Math.max(1, Math.min(120, parseInt(o.intervalMin, 10) || 10)) * 60000);
+  }, 800);
+})();
+
+function runIntroThen(next) {
+  // ad-slot-player-marker: sponsored pre-roll takes over the intro slot when
+  // enabled on this profile (avoids double pre-stream delay).
+  var _as = profile.adSlot;
+  if (_as && _as.enabled === true && _as.preroll && _as.preroll.enabled === true && _as.preroll.mediaUrl) {
+    runAdPreroll(next); return;
+  }
+  // pp-skip-intro-player-marker (2026-05-19): viewer-controlled skip button
+  var imgUrl   = profile.introImageUrl || '';
+  var vidUrl   = profile.introVideoUrl || '';
+  var durMs    = Math.max(0.5, parseFloat(profile.introDurationSec || 4)) * 1000;
+  var showSkip = !!profile.showSkipIntro;
+  var skipAfterMs = Math.max(0, parseFloat(profile.skipIntroAfterSec) * 1000 || 3000);
+
+  if (!imgUrl && !vidUrl) { next(); return; }
+  introLayer.classList.add('on');
+  loader.style.display = 'none';
+
+  // ── Skip button (created lazily, removed on completion or skip) ─────────
+  var skipBtn = null;
+  var skipTimer = null;
+  function showSkipButton() {
+    if (skipBtn || !showSkip) return;
+    skipBtn = document.createElement('button');
+    skipBtn.id = 'intro-skip-btn';
+    skipBtn.textContent = 'Skip Intro \u203A';
+    skipBtn.style.cssText = 'position:absolute;bottom:18px;right:18px;z-index:50;' +
+      'background:rgba(0,0,0,0.7);color:#fff;border:1px solid rgba(255,255,255,0.35);' +
+      'padding:9px 16px;border-radius:999px;cursor:pointer;font-size:13px;font-weight:600;' +
+      'font-family:system-ui,-apple-system,sans-serif;letter-spacing:0.02em;' +
+      'backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);' +
+      'transition:opacity 0.25s ease,transform 0.2s ease;opacity:0';
+    skipBtn.onmouseover = function(){ skipBtn.style.background = 'rgba(0,229,255,0.85)'; skipBtn.style.color = '#000'; };
+    skipBtn.onmouseout  = function(){ skipBtn.style.background = 'rgba(0,0,0,0.7)';     skipBtn.style.color = '#fff'; };
+    skipBtn.onclick = function(){ cleanupAndContinue(); };
+    introLayer.appendChild(skipBtn);
+    // Fade in
+    requestAnimationFrame(function(){ skipBtn.style.opacity = '1'; });
+  }
+  function cleanupAndContinue() {
+    if (skipTimer) { clearTimeout(skipTimer); skipTimer = null; }
+    if (skipBtn) { try { skipBtn.remove(); } catch(_){} skipBtn = null; }
+    try { if (introVideo) { introVideo.pause(); introVideo.removeAttribute('src'); introVideo.load(); } } catch(_){}
+    introLayer.classList.remove('on');
+    next();
+  }
+  if (showSkip) {
+    skipTimer = setTimeout(showSkipButton, skipAfterMs);
+  }
+
+  if (vidUrl) {
+    introVideo.style.display = '';
+    introVideo.src = vidUrl;
+    introVideo.muted = true;
+    introVideo.playsInline = true;
+    introVideo.autoplay = true;
+    introVideo.addEventListener('ended', function onEnd(){
+      introVideo.removeEventListener('ended', onEnd);
+      cleanupAndContinue();
+    });
+    introVideo.addEventListener('error', function(){ cleanupAndContinue(); }, { once: true });
+    introVideo.play().catch(function(){ /* autoplay blocked — wait durMs then skip */
+      setTimeout(cleanupAndContinue, durMs);
+    });
+  } else {
+    introImg.style.display = '';
+    introImg.src = imgUrl;
+    setTimeout(cleanupAndContinue, durMs);
+  }
+}
+
+// ── STREAM AUTO-TIMEOUT (embed player) ───────────────────────────────────
+// Mirrors the admin-portal logic. When effectiveStreamTimeoutSec > 0, the
+// embed player tears down HLS after that many seconds with no input + tab
+// hidden, and shows a "click to resume" overlay. Saves bandwidth on idle
+// embeds (e.g. dashboards left running on a wall display all night).
+var _embedTimeoutId = null;
+var _embedLastActivity = Date.now();
+var _embedTimeoutPaused = false;
+var _embedTimeoutSec = 0;
+
+(function bindEmbedActivity(){
+  ['mousemove','mousedown','keydown','touchstart','wheel'].forEach(function(ev){
+    document.addEventListener(ev, function(){ _embedLastActivity = Date.now(); }, { passive: true });
+  });
+  document.addEventListener('visibilitychange', function(){
+    if (document.visibilityState === 'visible') _embedLastActivity = Date.now();
+  });
+  // idle-timeout-video-activity-marker (2026-05-15) — treat active video
+  // playback as keep-alive. Without this, embeds in cross-origin iframes
+  // never received mouse events from the parent page and got paused after
+  // streamTimeoutSec, even while playing fine. The original "save bandwidth
+  // on idle" intent is preserved: when the video is genuinely paused or
+  // stalled, the timer still counts down.
+  document.addEventListener('DOMContentLoaded', function(){
+    var v = document.querySelector('video');
+    if (!v) return;
+    ['timeupdate','playing'].forEach(function(ev){
+      v.addEventListener(ev, function(){
+        if (!v.paused && !v.ended) _embedLastActivity = Date.now();
+      });
+    });
+  });
+})();
+
+function _embedTimeoutClear(){
+  if (_embedTimeoutId) { clearInterval(_embedTimeoutId); _embedTimeoutId = null; }
+}
+function _embedTimeoutArm(sec){
+  _embedTimeoutClear();
+  _embedTimeoutSec = sec;
+  _embedTimeoutPaused = false;
+  _embedLastActivity = Date.now();
+  if (!sec || sec <= 0) return;
+  _embedTimeoutId = setInterval(function(){
+    if (_embedTimeoutPaused) return;
+    var idleMs = Date.now() - _embedLastActivity;
+    if (idleMs >= sec * 1000) _embedTimeoutFire();
+  }, 1000);
+}
+function _embedTimeoutFire(){
+  if (_embedTimeoutPaused) return;
+  _embedTimeoutPaused = true;
+  _embedTimeoutClear();
+  try { if (video) video.pause(); } catch(_){}
+  if (hls) { try { hls.destroy(); } catch(_){} hls = null; }
+  _embedTimeoutShowOverlay();
+}
+function _embedTimeoutShowOverlay(){
+  var existing = document.getElementById('embed-timeout-overlay');
+  if (existing) { existing.style.display = 'flex'; return; }
+  var ov = document.createElement('div');
+  ov.id = 'embed-timeout-overlay';
+  ov.style.cssText = 'position:absolute;inset:0;background:rgba(2,8,16,0.85);backdrop-filter:blur(4px);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:7;cursor:pointer;color:#e6edf3;font-family:inherit;text-align:center;padding:24px';
+  ov.innerHTML = '<div style="font-size:2.4rem;margin-bottom:14px">⏸</div>' +
+    '<div style="font-weight:700;font-size:1.05rem;margin-bottom:6px">Stream paused to save bandwidth</div>' +
+    '<div style="font-size:0.8rem;color:#9aa7b2;max-width:380px;line-height:1.5">No activity for ' + _embedTimeoutSec + 's. Click anywhere on the player to resume.</div>' +
+    '<div style="margin-top:18px;display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:rgba(0,229,255,0.12);border:1px solid rgba(0,229,255,0.4);color:#00e5ff;font-weight:700;font-size:0.85rem;border-radius:8px">▶ Resume stream</div>';
+  ov.onclick = function(){
+    ov.remove();
+    _embedTimeoutPaused = false;
+    startStream();
+  };
+  var wrap = video && video.parentElement;
+  if (wrap) wrap.appendChild(ov);
+}
+
+// timelapse-mode-render-marker: snapshot-slideshow machinery
+var _tlSlideTimer = null, _tlRefreshTimer = null, _tlImages = [], _tlIdx = 0, _tlFps = 6;
+function _tlBuildElements(){
+  var wrap = document.getElementById('wrap'); if (!wrap) return null;
+  var box = document.getElementById('tl-slideshow');
+  if (box) return box;
+  box = document.createElement('div');
+  box.id = 'tl-slideshow';
+  box.style.cssText = 'position:absolute;inset:0;z-index:3;background:#000;display:flex;align-items:center;justify-content:center;overflow:hidden';
+  box.innerHTML =
+    '<img id="tl-slide-img" alt="" style="max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;background:#000"/>' +
+    '<div id="tl-slide-stamp" style="position:absolute;left:14px;bottom:14px;background:rgba(0,0,0,0.55);color:#e8edf2;font:600 12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;padding:5px 10px;border-radius:6px;backdrop-filter:blur(4px);pointer-events:none">--</div>' +
+    '<div id="tl-slide-empty" style="position:absolute;color:#8a97a5;font-size:0.9rem;display:none;text-align:center;padding:20px">No timelapse snapshots yet \u2014 they\u2019ll appear here as the camera captures them.</div>';
+  wrap.appendChild(box);
+  return box;
+}
+function _tlEmbedQS(data){
+  var qs = new URLSearchParams(location.search);
+  var sig = (data && data.embedAuth && data.embedAuth.sig) || qs.get('sig');
+  var exp = (data && data.embedAuth && data.embedAuth.exp) || qs.get('exp');
+  var dom = (data && data.embedAuth && (data.embedAuth.dom || '')) || qs.get('dom') || '';
+  var s = 'sig=' + encodeURIComponent(sig) + '&exp=' + encodeURIComponent(exp);
+  if (dom) s += '&dom=' + encodeURIComponent(dom);
+  return s;
+}
+function _tlFmtStamp(it, tz){
+  if (!it || !it.timestampUtc) return it && it.name ? it.name.replace(/^snap_|\.jpg$/g,'') : '';
+  try {
+    var d = new Date(it.timestampUtc);
+    return d.toLocaleString('en-US', { timeZone: tz || 'America/Los_Angeles', dateStyle: 'medium', timeStyle: 'short' });
+  } catch(_){ return it.name; }
+}
+function _tlAdvance(tz){
+  if (!_tlImages.length) return;
+  _tlIdx = (_tlIdx + 1) % _tlImages.length;
+  var img = document.getElementById('tl-slide-img');
+  var st  = document.getElementById('tl-slide-stamp');
+  var cur = _tlImages[_tlIdx];
+  if (img && cur) img.src = cur.url;
+  if (st)  st.textContent = _tlFmtStamp(cur, tz);
+}
+function _tlSlideshowStart(data){
+  // hide the live video + offline overlay; show our slideshow
+  var v = document.getElementById('player'); if (v){ try{ v.pause(); }catch(_){}; v.style.visibility='hidden'; }
+  var off = document.getElementById('offline-overlay'); if (off) off.classList.remove('on');
+  _tlBuildElements();
+  if (profile && profile.timelapseFps) _tlFps = Math.max(0.5, Math.min(30, parseFloat(profile.timelapseFps)));
+  // timelapse-show-stamp: hide the timestamp overlay if the profile says so
+  if (profile && profile.timelapseShowStamp === false) { var _tlst = document.getElementById('tl-slide-stamp'); if (_tlst) _tlst.style.display = 'none'; }
+  var tz = (data.camera && data.camera.timezone) || 'America/Los_Angeles';
+  function fetchList(){
+    var _tlDays = parseInt((new URLSearchParams(location.search)).get('days') || (profile && profile.timelapseDays) || 0, 10) || 0;  // timelapse-days-window
+    return fetch('/api/embed/timelapse-snapshots/' + encodeURIComponent(camId) + '?' + _tlEmbedQS(data) + '&limit=2000' + (_tlDays > 0 ? '&days=' + _tlDays : ''))
+      .then(function(r){ return r.ok ? r.json() : { images: [] }; })
+      .then(function(j){
+        _tlImages = j.images || [];
+        var empty = document.getElementById('tl-slide-empty');
+        if (empty) empty.style.display = _tlImages.length ? 'none' : 'block';
+        if (_tlImages.length) {
+          // start on the most recent frame
+          _tlIdx = _tlImages.length - 1;
+          var first = _tlImages[_tlIdx];
+          var img = document.getElementById('tl-slide-img');
+          if (img) img.src = first.url;
+          var st = document.getElementById('tl-slide-stamp');
+          if (st) st.textContent = _tlFmtStamp(first, tz);
+          // then begin advancing forward from start, looping
+          _tlIdx = -1;
+        }
+      })
+      .catch(function(){});
+  }
+  fetchList().then(function(){
+    if (_tlSlideTimer) clearInterval(_tlSlideTimer);
+    _tlSlideTimer = setInterval(function(){ _tlAdvance(tz); }, Math.round(1000 / _tlFps));
+  });
+  // refresh the snapshot list every 5 min so new captures show up
+  if (_tlRefreshTimer) clearInterval(_tlRefreshTimer);
+  _tlRefreshTimer = setInterval(fetchList, 5 * 60 * 1000);
+}
+
+function startStream() {
+  loader.style.display = 'flex';
+  loaderMsg.textContent = 'Connecting…';
+  hideError();
+
+  if (hls) { try { hls.destroy(); } catch(_){} hls = null; }
+  // Clear any stale timeout overlay (e.g. on resume click)
+  var stale = document.getElementById('embed-timeout-overlay');
+  if (stale) stale.remove();
+  _embedTimeoutClear();
+  _embedTimeoutPaused = false;
+
+  if (window.Hls && Hls.isSupported()) {
+    hls = new Hls({
+      lowLatencyMode: false,
+      liveSyncDurationCount: 4,
+      liveMaxLatencyDurationCount: 8,
+      maxBufferLength: 30
+    });
+    hls.loadSource(streamUrl);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, function(){
+      loader.style.display = 'none';
+      hideOffline();
+      if (profile.autoplay !== false) video.play().catch(function(){});
+      // Arm auto-timeout with the server-resolved effective value
+      // (profile-level wins over cam-level; 0 = disabled).
+      var sec = (window._effectiveStreamTimeoutSec || 0);
+      _embedTimeoutArm(sec);
+      // hls-rebuild-marker: arm the periodic-rebuild timer on every successful manifest parse
+      _hlsRebuildArm();
+      // zombie-watchdog-marker: start (or reset) the frozen-frame watchdog
+      _zombieReset();
+      _zombieStart();
+    });
+    // resilient-hls-recovery-marker (2026-05-15)
+    // Replaces the old "10s offline overlay on any fatal" handler that made
+    // every network hiccup look like a freeze. Now uses hls.js's official
+    // recovery functions to resume in ~1s for the common cases.
+    var _hlsRecoverAttempts = 0;
+    var _hlsLastRecoverTs = 0;
+    var _hlsStallWatch = null;
+    hls.on(Hls.Events.ERROR, function(_, d){
+      // debug-overlay-marker: record for the admin HUD (incl. non-fatal)
+      try { if (d && (d.fatal || d.type)) window.__dbgRecordHlsError && window.__dbgRecordHlsError((d.type || "err") + ":" + (d.details || "?")); } catch(_){}
+      if (!d || !d.fatal) return; // non-fatal: hls.js handles internally
+      var now = Date.now();
+      var type = d.type;
+      // If we've been bouncing through recoveries fast, escalate
+      var closeToLast = (now - _hlsLastRecoverTs) < 8000;
+      _hlsLastRecoverTs = now;
+      _hlsRecoverAttempts++;
+      try {
+        if (type === Hls.ErrorTypes.NETWORK_ERROR && !closeToLast) {
+          // Quiet network retry — usually a segment fetch timeout
+          hls.startLoad();
+          return;
+        }
+        if (type === Hls.ErrorTypes.MEDIA_ERROR) {
+          // Decoder/buffer issue — flush + restart media
+          hls.recoverMediaError();
+          return;
+        }
+        if (closeToLast && _hlsRecoverAttempts > 2) {
+          // Multiple fast failures → full reload with short delay (not 10s)
+          showOffline();
+          setTimeout(function(){ _hlsRecoverAttempts = 0; startStream(); }, 3000);
+          return;
+        }
+        // Other fatal — try a soft restart first
+        hls.startLoad();
+      } catch (e) {
+        // hls.js threw — fall back to full restart
+        showOffline();
+        setTimeout(function(){ _hlsRecoverAttempts = 0; startStream(); }, 3000);
+      }
+    });
+    // Stall watchdog: if video.currentTime hasn't advanced in 8s while we
+    // think the stream is playing, try a silent recovery. Avoids the case
+    // where the player appears stuck without any explicit error.
+    if (_hlsStallWatch) { clearInterval(_hlsStallWatch); _hlsStallWatch = null; }
+    var _lastT = 0, _stuckTicks = 0;
+    _hlsStallWatch = setInterval(function(){
+      if (!video || video.paused || video.ended) { _stuckTicks = 0; return; }
+      var t = video.currentTime || 0;
+      if (Math.abs(t - _lastT) < 0.05) {
+        _stuckTicks++;
+        if (_stuckTicks >= 8) { // ~8 sec stuck
+          _stuckTicks = 0;
+          try { if (hls && typeof hls.startLoad === 'function') hls.startLoad(); } catch(_) {}
+        }
+      } else {
+        _stuckTicks = 0;
+      }
+      _lastT = t;
+    }, 1000);
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = streamUrl;
+    video.addEventListener('loadedmetadata', function(){ loader.style.display = 'none'; }, { once: true });
+    if (profile.autoplay !== false) video.play().catch(function(){});
+  } else {
+    showError('HLS not supported in this browser', '');
+  }
+}
+
+function toggleMute() {
+  video.muted = !video.muted;
+  btnMute.textContent = video.muted ? '🔇 Unmute' : '🔊 Mute';
+}
+function goLive() {
+  if (hls) { try { hls.stopLoad(); hls.startLoad(-1); } catch(_){} video.currentTime = hls && hls.liveSyncPosition || video.duration || 0; }
+  video.play().catch(function(){});
+}
+/* mobile-fs-player-marker (2026-06-04) */
+function goFullscreen() {
+  var wrap = document.getElementById('wrap');
+  var v = document.getElementById('player');
+  // Already fullscreen? exit (standard + webkit).
+  if (document.fullscreenElement || document.webkitFullscreenElement) {
+    if (document.exitFullscreen) document.exitFullscreen();
+    else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+    return;
+  }
+  // Standard Fullscreen API with vendor prefix (desktop + Android Chrome/FF).
+  var req = wrap && (wrap.requestFullscreen || wrap.webkitRequestFullscreen || wrap.msRequestFullscreen);
+  if (req) {
+    try {
+      var p = req.call(wrap);
+      if (p && p.catch) p.catch(function(){ _iosVideoFs(v); });
+      return;
+    } catch (e) { /* fall through to iOS path */ }
+  }
+  // iOS Safari (iPhone/iPad): no element Fullscreen API — only the native
+  // <video> can go fullscreen via webkitEnterFullscreen().
+  _iosVideoFs(v);
+}
+function _iosVideoFs(v) {
+  if (!v) return;
+  try {
+    if (v.webkitEnterFullscreen) {
+      if (v.readyState < 1 && v.play) { try { v.play().catch(function(){}); } catch(_e){} }
+      v.webkitEnterFullscreen();
+    }
+  } catch (e) {}
+}
+
+// ── CUSTOM TOOLBAR BUTTONS ──
+// Inject profile-configured buttons into the controls strip. Matches
+// index.html's applyPlayerConfig() behavior so the preview player shows
+// the same toolbar as the live portal.
+function renderCustomButtons(list) {
+  if (!Array.isArray(list) || !list.length) return;
+  list.forEach(function(b, idx){
+    if (!b.label && !b.url && !b.icon && !b.iconUrl) return;
+    var btnType = b.type || 'link';
+    var el = document.createElement('button');
+    el.type = 'button';
+    el.className = 'btn pc-custom-btn';
+    el.title = b.tooltip || b.label || '';
+    el.style.cssText += 'color:var(--accent,#00e5ff);border-color:rgba(0,229,255,0.35);background:rgba(0,229,255,0.08)';
+    var ico = '';
+    if (b.iconUrl) ico = '<img src="' + String(b.iconUrl).replace(/"/g,'&quot;') + '" alt="" style="width:14px;height:14px;vertical-align:middle"/>';
+    else if (b.icon) ico = '<span style="font-size:14px;line-height:1">' + b.icon + '</span>';
+    el.innerHTML = ico + (b.label ? '<span style="margin-left:6px">' + b.label + '</span>' : '');
+    el.addEventListener('click', function(){
+      // Auto-detect: any URL pointing at /widgets/ is always iframe-mode.
+      var u = String(b.url || '');
+      var ownWidget = u.indexOf('/widgets/') !== -1;
+      if (ownWidget || btnType === 'iframe' || btnType === 'vpaid' || btnType === 'panel') {
+        openIframePanel(b, idx);
+      } else if (btnType === 'script') {
+        fireApiCall(b);
+      } else {
+        window.open(b.url, '_blank', 'noopener,noreferrer');
+      }
+    });
+    controls.appendChild(el);
+    if ((ownWidgetUrl(b.url) || btnType === 'iframe') && b.startsOpen && b.url) {
+      setTimeout(function(){ openIframePanel(b, idx); }, 600);
+    }
+  });
+}
+function ownWidgetUrl(u) { return (u || '').indexOf('/widgets/') !== -1; }
+
+function openIframePanel(btnCfg, idx) {
+  var panelId = 'custom-panel-' + idx;
+  var existing = document.getElementById(panelId);
+  if (existing) { existing.remove(); return; }
+  var qs = {};
+  try {
+    var u = new URL(btnCfg.url, location.origin);
+    u.searchParams.forEach(function(v, k){ qs[k] = v; });
+  } catch(_){}
+  var w = btnCfg.width  || qs.w || qs.width  || '240px';
+  var h = btnCfg.height || qs.h || qs.height || '180px';
+  if (/^\d+$/.test(w)) w += 'px';
+  if (/^\d+$/.test(h)) h += 'px';
+
+  var panel = document.createElement('div');
+  panel.id = panelId;
+  panel.style.cssText = 'position:absolute;top:10px;right:10px;background:#0c1018;border:1px solid rgba(0,229,255,0.3);border-radius:8px;z-index:20;box-shadow:0 6px 24px rgba(0,0,0,0.5);display:flex;flex-direction:column;overflow:hidden;width:' + w + ';height:' + h + ';max-width:70%;max-height:55%';
+  var title = (btnCfg.tooltip || btnCfg.label || 'Widget').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+  var safeUrl = String(btnCfg.url || '').replace(/"/g,'&quot;');
+  panel.innerHTML =
+    '<div style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;background:#131a22;border-bottom:1px solid rgba(255,255,255,0.06);color:#e8edf2;font-size:12px;font-weight:600">' +
+      '<span>' + title + '</span>' +
+      '<button type="button" onclick="document.getElementById(\'' + panelId + '\').remove()" style="background:transparent;border:0;color:#8a97a5;font-size:18px;cursor:pointer;padding:0 4px;line-height:1">×</button>' +
+    '</div>' +
+    '<iframe src="' + safeUrl + '" style="flex:1;width:100%;border:0;background:#fff;display:block" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  document.getElementById('wrap').appendChild(panel);
+
+  var frame = panel.querySelector('iframe');
+  function pushAuth() {
+    try {
+      var tok = (window.localStorage && localStorage.getItem('cs_token')) || '';
+      if (tok && frame.contentWindow) frame.contentWindow.postMessage({ type: 'auth', token: tok }, '*');
+    } catch(_){}
+  }
+  frame.addEventListener('load', function(){ pushAuth(); setTimeout(pushAuth, 200); });
+  var hs = setInterval(pushAuth, 150); setTimeout(function(){ clearInterval(hs); }, 4000);
+  window.addEventListener('message', function(ev){
+    if (ev.data && ev.data.type === 'request-auth' && ev.source === frame.contentWindow) pushAuth();
+  });
+}
+
+function fireApiCall(btnCfg) {
+  if (!btnCfg.url) return;
+  var tok = (window.localStorage && localStorage.getItem('cs_token')) || '';
+  fetch('/api/admin/cam-action', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': tok ? ('Bearer ' + tok) : '' },
+    body: JSON.stringify({
+      url: btnCfg.url, method: btnCfg.method || 'GET',
+      username: btnCfg.username || '', password: btnCfg.password || ''
+    })
+  }).catch(function(){});
+}
+
+// ── SNAPSHOT ──
+// Capture the current video frame to a PNG and trigger a download. Falls back
+// gracefully if the video isn't tainted by cross-origin yet.
+function takeSnapshot() {
+  try {
+    var w = video.videoWidth || 1920;
+    var h = video.videoHeight || 1080;
+    var c = document.createElement('canvas');
+    c.width = w; c.height = h;
+    var ctx = c.getContext('2d');
+    ctx.drawImage(video, 0, 0, w, h);
+    c.toBlob(function(blob){
+      if (!blob) return;
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      var ts = new Date().toISOString().replace(/[:.]/g,'-').slice(0,19);
+      a.download = (camId || 'snapshot') + '_' + ts + '.png';
+      document.body.appendChild(a); a.click();
+      setTimeout(function(){ try { document.body.removeChild(a); URL.revokeObjectURL(url); } catch(_){} }, 200);
+    }, 'image/png');
+  } catch(e) {
+    alert('Snapshot failed: ' + (e && e.message || 'browser blocked canvas access'));
+  }
+}
+
+// ── PTZ ──
+// Talks to /api/ptz with action+value. Hold a direction button to pan/tilt;
+// release to stop. Same protocol as the main Live View page.
+function _authHeader() {
+  var tok = (window.localStorage && localStorage.getItem('cs_token')) || '';
+  return tok ? { 'Authorization': 'Bearer ' + tok } : {};
+}
+function ptzCall(action, value) {
+  var hdrs = Object.assign({ 'Content-Type': 'application/json' }, _authHeader());
+  return fetch('/api/ptz', { method: 'POST', headers: hdrs,
+    body: JSON.stringify({ camId: camId, action: action, value: value }) })
+    .catch(function(e){ console.warn('PTZ failed', e); });
+}
+var _ptzActive = null;
+function ptzMove(action, val) {
+  _ptzActive = action;
+  ptzCall(action, val);
+}
+function ptzStop() {
+  if (_ptzActive === 'pan' || _ptzActive === 'tilt') ptzCall('stop', 0);
+  _ptzActive = null;
+}
+function ptzZoomStop() {
+  if (_ptzActive === 'zoom') ptzCall('zoomstop', 0);
+  _ptzActive = null;
+}
+function ptzHome() { ptzCall('home', 0); }
+function togglePTZPad() {
+  var pad = document.getElementById('ptz-pad');
+  var pp  = document.getElementById('presets-pad');
+  if (pp) pp.style.display = 'none';
+  pad.style.display = pad.style.display === 'none' ? 'block' : 'none';
+}
+// Wire press-and-hold on direction buttons after DOM is ready.
+document.addEventListener('click', function(){}); // no-op anchor
+function _wirePtzHold() {
+  document.querySelectorAll('.ptz-dir').forEach(function(btn){
+    var act = btn.getAttribute('data-act');
+    var val = parseFloat(btn.getAttribute('data-val'));
+    btn.addEventListener('mousedown', function(e){ e.preventDefault(); ptzMove(act, val); });
+    btn.addEventListener('mouseup',   function(){ act === 'zoom' ? ptzZoomStop() : ptzStop(); });
+    btn.addEventListener('mouseleave',function(){ act === 'zoom' ? ptzZoomStop() : ptzStop(); });
+    btn.addEventListener('touchstart',function(e){ e.preventDefault(); ptzMove(act, val); }, { passive: false });
+    btn.addEventListener('touchend',  function(){ act === 'zoom' ? ptzZoomStop() : ptzStop(); });
+  });
+}
+
+// ── PRESETS ──
+// vote-countdown-ui-marker (2026-06-17): server-synced 10s round countdown.
+var _voteRoundEndsAt = 0, _voteCountdownTimer = null, _voteCountdownBusy = false;
+function _stopVoteCountdown(){ if (_voteCountdownTimer) { clearInterval(_voteCountdownTimer); _voteCountdownTimer = null; } }
+function _startVoteCountdown(){ _stopVoteCountdown(); _voteCountdownBusy = false; _voteCountdownTimer = setInterval(_voteCountdownTick, 250); _voteCountdownTick(); }
+function _voteCountdownTick(){
+  var hdr = document.getElementById('vote-round-hdr'), span = document.getElementById('vote-countdown');
+  if (!hdr || !span) { _stopVoteCountdown(); return; }
+  hdr.style.display = '';
+  var ms = _voteRoundEndsAt - Date.now();
+  if (ms > 300) { span.textContent = Math.max(0, Math.ceil(ms / 1000)) + 's'; return; }
+  span.textContent = 'now';
+  if (_voteCountdownBusy) return;
+  _voteCountdownBusy = true;
+  // Round just ended server-side: camera switches + votes reset. Give it a
+  // beat, then pull the fresh round (new counts + new countdown).
+  setTimeout(function(){
+    fetch('/api/public/presets/' + encodeURIComponent(camId))
+      .then(function(r){ return r.json(); })
+      .then(function(pd){
+        _voteRoundEndsAt = Date.now() + (pd.roundEndsInMs || ((pd.voteRotateSec || 10) * 1000));
+        if (Array.isArray(pd.presets)) _renderVotePresets(pd.presets);
+        _voteCountdownBusy = false;
+      })
+      .catch(function(){ _voteCountdownBusy = false; });
+  }, 1200);
+}
+
+// preset-vote-counter-marker (2026-06-17): voting picker with live counts.
+function _renderVotePresets(presets) {
+  var list = document.getElementById('presets-list');
+  if (!list) return;
+  var maxV = 0;
+  presets.forEach(function(p){ if ((p.votes || 0) > maxV) maxV = p.votes || 0; });
+  list.innerHTML =
+    '<div style="padding:2px 4px 6px"><div style="font-size:0.6rem;color:#8a97a5;text-transform:uppercase;letter-spacing:0.06em">Tap a view to vote</div>' +
+    '<div id="vote-round-hdr" style="font-size:0.62rem;color:#00e5ff;font-weight:700;margin-top:3px;display:none">\u23F1 Top pick goes live in <span id="vote-countdown">--</span> &middot; votes reset</div></div>' +
+    presets.map(function(p){
+      var name = String(p.name || ('Preset ' + p.id)).replace(/</g,'&lt;').replace(/"/g,'&quot;');
+      var encoded = name.replace(/'/g,'&#39;');
+      var v = p.votes || 0;
+      var leader = (v > 0 && v === maxV);
+      var badge = v > 0
+        ? '<span style="margin-left:auto;display:inline-flex;align-items:center;gap:3px;font-size:0.66rem;font-weight:800;background:' +
+          (leader ? 'rgba(0,229,255,0.22)' : 'rgba(255,255,255,0.10)') + ';color:' + (leader ? '#00e5ff' : '#cfd8e0') +
+          ';padding:1px 7px;border-radius:9px">' + (leader ? '\uD83C\uDFC6 ' : '') + v + '</span>'
+        : '';
+      return '<button class="btn" data-preset-name="' + encoded + '" style="text-align:left;padding:8px 10px;font-size:0.74rem;display:flex;align-items:center;gap:6px' +
+        (leader ? ';border-color:rgba(0,229,255,0.55)' : '') + '">\uD83D\uDCCD <span>' + name + '</span>' + badge + '</button>';
+    }).join('');
+  list.querySelectorAll('button[data-preset-name]').forEach(function(b){
+    b.addEventListener('click', function(){
+      var nm = b.getAttribute('data-preset-name');
+      b.disabled = true;
+      fetch('/api/public/presets/' + encodeURIComponent(camId) + '/vote', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ name: nm })
+      }).then(function(r){ return r.json().then(function(j){ return { ok: r.ok, status: r.status, j: j }; }); })
+        .then(function(res){
+          if (!res.ok && res.status === 429) {
+            var hint = document.createElement('div');
+            hint.style.cssText = 'font-size:0.62rem;color:#ffb347;padding:4px 6px;text-align:center';
+            hint.textContent = 'One vote every 8 seconds — try again shortly.';
+            list.insertBefore(hint, list.firstChild);
+            setTimeout(function(){ try { hint.remove(); } catch(_){} }, 2500);
+          }
+          // Re-fetch counts so the counter reflects this vote immediately.
+          return fetch('/api/public/presets/' + encodeURIComponent(camId))
+            .then(function(r){ return r.json(); })
+            .then(function(pd){ if (pd.voteRotate) _voteRoundEndsAt = Date.now() + (pd.roundEndsInMs || 0); if (Array.isArray(pd.presets)) _renderVotePresets(pd.presets); });
+        })
+        .catch(function(){})
+        .finally(function(){ b.disabled = false; });
+    });
+  });
+}
+
+async function togglePresets() {
+  var pad = document.getElementById('presets-pad');
+  var ptzPad = document.getElementById('ptz-pad');
+  if (ptzPad) ptzPad.style.display = 'none';
+  if (pad.style.display !== 'none') { pad.style.display = 'none'; _stopVoteCountdown(); return; }
+  pad.style.display = 'block';
+  var list = document.getElementById('presets-list');
+  list.innerHTML = '<div style="color:#8a97a5;font-size:0.7rem;padding:8px;text-align:center">Loading…</div>';
+  // preset-vote-counter-marker: if public voting is enabled, show the voting
+  // picker (live counts + leader counter). Falls through to direct-goto picker.
+  try {
+    var _vr = await fetch('/api/public/presets/' + encodeURIComponent(camId));
+    if (_vr.ok && (_vr.headers.get('content-type') || '').toLowerCase().includes('json')) {
+      var _vd = await _vr.json();
+      if (Array.isArray(_vd.presets) && _vd.presets.length) {
+        _renderVotePresets(_vd.presets);
+        if (_vd.voteRotate) { _voteRoundEndsAt = Date.now() + (_vd.roundEndsInMs || 0); _startVoteCountdown(); }
+        return;
+      }
+    }
+  } catch (_) {}
+  try {
+    // embed-ptz-presets-marker (2026-05-26): in signed-embed context, hit
+    // the public /api/embed/ptz/presets endpoint instead of the admin one.
+    // player-html-embed-creds-marker: server-minted creds win over URL query.
+    var __qs = new URLSearchParams(location.search);
+    var __sig = (window._embedAuth && window._embedAuth.sig) || __qs.get('sig');
+    var __exp = (window._embedAuth && window._embedAuth.exp) || __qs.get('exp');
+    var __dom = (window._embedAuth && (window._embedAuth.dom || '')) || __qs.get('dom') || '';
+    var __presetUrl = (__sig && __exp)
+      ? '/api/embed/ptz/presets/' + encodeURIComponent(camId) + '?sig=' + encodeURIComponent(__sig) + '&exp=' + encodeURIComponent(__exp) + (__dom ? '&dom=' + encodeURIComponent(__dom) : '')
+      : '/api/ptz/presets/' + encodeURIComponent(camId);
+    var __presetHdrs = (__sig && __exp) ? {} : _authHeader();
+    var r = await fetch(__presetUrl, { headers: __presetHdrs });
+    // embed-preset-hardening-marker / player-comprehensive-hardening-marker (2026-05-26): if response isn't JSON
+    // (e.g. 401 HTML from an unauthenticated embed), bail gracefully
+    // instead of throwing "Unexpected token <".
+    var ctype = (r.headers.get('content-type') || '').toLowerCase();
+    if (!r.ok || !ctype.includes('json')) {
+      list.innerHTML = '<div style="color:#8a97a5;font-size:0.7rem;padding:12px;text-align:center">Presets unavailable in this embed</div>';
+      return;
+    }
+    var data = await r.json();
+    var presets = data.presets || [];
+    if (!presets.length) {
+      list.innerHTML = '<div style="color:#8a97a5;font-size:0.7rem;padding:12px;text-align:center">No presets saved on this camera</div>';
+      return;
+    }
+    // Vote-count chips removed temporarily — counts were unreliable. Will
+    // come back once counting is fixed. Server-side vote endpoint untouched.
+    list.innerHTML = presets.map(function(p){
+      var name = String(p.name || ('Preset ' + p.id)).replace(/</g,'&lt;').replace(/"/g,'&quot;');
+      var encoded = name.replace(/'/g,'&#39;');
+      return '<button class="btn" data-preset-name="' + encoded + '" style="text-align:left;padding:8px 10px;font-size:0.74rem;justify-content:flex-start">📍 ' + name + '</button>';
+    }).join('');
+    list.querySelectorAll('button[data-preset-name]').forEach(function(b){
+      b.addEventListener('click', function(){
+        // Server expects { camId, presetName }. Earlier code sent { preset: id }
+        // which silently failed (server pulled `presetName` and got undefined).
+        // goto-preset-embed-marker (2026-05-26): in signed-embed context use
+        // the public /api/embed/ptz/preset endpoint (sig in body). Falls
+        // back to admin /api/ptz/preset otherwise.
+        var __qsG = new URLSearchParams(location.search);
+        var __sigG = (window._embedAuth && window._embedAuth.sig) || __qsG.get('sig');
+        var __expG = (window._embedAuth && window._embedAuth.exp) || __qsG.get('exp');
+        var __domG = (window._embedAuth && (window._embedAuth.dom || '')) || __qsG.get('dom') || '';
+        var __presetName = b.getAttribute('data-preset-name');
+        var __gotoPromise;
+        if (__sigG && __expG) {
+          __gotoPromise = fetch('/api/embed/ptz/preset', { method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ camId: camId, presetName: __presetName, sig: __sigG, exp: __expG, dom: __domG })
+          });
+        } else {
+          __gotoPromise = fetch('/api/ptz/preset', { method: 'POST',
+            headers: Object.assign({ 'Content-Type': 'application/json' }, _authHeader()),
+            body: JSON.stringify({ camId: camId, presetName: __presetName })
+          });
+        }
+        __gotoPromise
+          .then(function(r){
+            if (!r.ok) {
+              var ct = (r.headers.get('content-type') || '').toLowerCase();
+              if (ct.includes('json')) return r.json().then(function(j){ throw new Error(j.error || ('HTTP ' + r.status)); });
+              throw new Error('HTTP ' + r.status);
+            }
+            pad.style.display = 'none';
+          })
+          .catch(function(e){ alert('Goto preset failed: ' + e.message); });
+      });
+    });
+  } catch(e) {
+    list.innerHTML = '<div style="color:#ff5566;font-size:0.7rem;padding:8px">Error: ' + e.message + '</div>';
+  }
+}
+
+// ── ARCHIVE — inline scrubbing ──
+// Show the archive bar with date/time inputs. Picking a moment switches the
+// video to the matching local recording without leaving the preview player.
+var _archiveActive = false;
+var _archiveCurrentMs = null;
+var _liveSrcBackup = null;
+var _archiveRecordings = null;
+
+async function toggleArchiveBar() {
+  var bar = document.getElementById('archive-bar');
+  if (bar.style.display !== 'none' && bar.style.display !== '') {
+    // hide
+    bar.style.display = 'none';
+    return;
+  }
+  bar.style.display = 'flex';
+  // Default date/time to "now in camera tz".
+  var camTz = (window._cameraTz) || 'America/Los_Angeles';
+  var now = new Date();
+  function p(n){ return String(n).padStart(2,'0'); }
+  try {
+    var parts = {};
+    new Intl.DateTimeFormat('en-CA', { timeZone: camTz, year:'numeric', month:'2-digit', day:'2-digit', hour:'2-digit', minute:'2-digit', hour12:false })
+      .formatToParts(now).forEach(function(x){ parts[x.type] = x.value; });
+    document.getElementById('ar-date').value = parts.year + '-' + parts.month + '-' + parts.day;
+    document.getElementById('ar-time').value = (parts.hour === '24' ? '00' : parts.hour) + ':' + parts.minute;
+  } catch(_){
+    document.getElementById('ar-date').value = now.toISOString().slice(0,10);
+    document.getElementById('ar-time').value = p(now.getHours()) + ':' + p(now.getMinutes());
+  }
+  // Lazy-load recordings: BOTH local (last 6h, fast scrub) and B2 (full archive).
+  if (!_archiveRecordings) {
+    document.getElementById('ar-status').textContent = 'Loading recordings (local + cloud)…';
+    try {
+      var hdrs = _authHeader();
+      var [localRes, b2Res] = await Promise.all([
+        fetch('/api/recordings/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; }),
+        fetch('/api/b2/recordings/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; })
+      ]);
+      var localList = [];
+      var b2List = [];
+      if (localRes && localRes.ok) {
+        var d = await localRes.json();
+        localList = (d.recordings || []).map(function(rec){
+          var m = rec.name.match(/^(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})-(\d{2})/);
+          if (!m) return null;
+          return Object.assign({}, rec, {
+            startMs: Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]),
+            source: 'server'
+          });
+        }).filter(Boolean);
+      }
+      if (b2Res && b2Res.ok) {
+        var d2 = await b2Res.json();
+        b2List = (d2.recordings || d2.files || []).map(function(rec){
+          var name = rec.name || rec.Path || '';
+          var m = name.match(/(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})-(\d{2})/);
+          if (!m) return null;
+          return Object.assign({}, rec, {
+            name: name,
+            startMs: Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]),
+            source: 'b2',
+            // url for B2 recordings is the API endpoint that returns a signed URL
+            url: rec.url || ('/api/b2/stream/' + encodeURIComponent(camId) + '/' + encodeURIComponent(name))
+          });
+        }).filter(Boolean);
+      }
+      // Merge: prefer local (faster). If a recording exists in both, keep local.
+      var localStarts = new Set(localList.map(function(x){ return x.startMs; }));
+      var b2Only = b2List.filter(function(x){ return !localStarts.has(x.startMs); });
+      _archiveRecordings = localList.concat(b2Only).sort(function(a,b){ return a.startMs - b.startMs; });
+
+      var nLocal = localList.length, nB2 = b2Only.length;
+      var earliest = _archiveRecordings.length ? new Date(_archiveRecordings[0].startMs) : null;
+      var latest   = _archiveRecordings.length ? new Date(_archiveRecordings[_archiveRecordings.length-1].startMs) : null;
+      var rangeMsg = '';
+      if (earliest && latest) {
+        var camTz = window._cameraTz || 'America/Los_Angeles';
+        var fmt = function(d){ try { return new Intl.DateTimeFormat('en-US', { timeZone: camTz, dateStyle: 'short', timeStyle: 'short' }).format(d); } catch(_){ return d.toLocaleString(); } };
+        rangeMsg = ' · range: ' + fmt(earliest) + ' → ' + fmt(latest);
+      }
+      document.getElementById('ar-status').textContent =
+        nLocal + ' local + ' + nB2 + ' cloud = ' + _archiveRecordings.length + ' recordings' + rangeMsg;
+    } catch(e) {
+      document.getElementById('ar-status').textContent = 'Error loading recordings: ' + e.message;
+    }
+  }
+}
+
+async function goToArchiveAt() {
+  var date = document.getElementById('ar-date').value;
+  var time = document.getElementById('ar-time').value;
+  if (!date || !time) return;
+  // Inputs are local-time (in browser tz). Convert to UTC ms.
+  var dt = new Date(date + 'T' + time + ':00');
+  if (isNaN(dt.getTime())) return;
+  _archiveCurrentMs = dt.getTime();
+  if (!_archiveRecordings || !_archiveRecordings.length) {
+    document.getElementById('ar-status').textContent = 'No recordings loaded yet';
+    return;
+  }
+  // Find the recording whose start ≤ target. Cap "covers" at +1h since
+  // recordings are 1-hour segments.
+  var target = _archiveRecordings.filter(function(r){ return r.startMs <= _archiveCurrentMs; }).pop();
+  var ONE_HOUR = 3600 * 1000;
+  if (!target || (_archiveCurrentMs - target.startMs) > ONE_HOUR + 60000) {
+    // Show what IS available so the user can pick a valid moment
+    var statusEl = document.getElementById('ar-status');
+    if (_archiveRecordings.length === 0) {
+      statusEl.textContent = '⚠ No recordings exist for this camera.';
+    } else {
+      var camTz = window._cameraTz || 'America/Los_Angeles';
+      var fmt = function(d){ try { return new Intl.DateTimeFormat('en-US', { timeZone: camTz, dateStyle: 'short', timeStyle: 'short' }).format(d); } catch(_){ return d.toLocaleString(); } };
+      var first = new Date(_archiveRecordings[0].startMs);
+      var last  = new Date(_archiveRecordings[_archiveRecordings.length-1].startMs);
+      statusEl.textContent = '⚠ No recording covers ' + fmt(dt) + '. Available: ' + fmt(first) + ' → ' + fmt(last);
+    }
+    return;
+  }
+  var offsetSec = Math.max(0, (_archiveCurrentMs - target.startMs) / 1000);
+  var srcLabel = (target.source === 'b2' ? '☁ ' : '💾 ') + target.name;
+  document.getElementById('ar-status').textContent = '▶ ' + srcLabel + '  (offset ' + offsetSec.toFixed(0) + 's)';
+  // Swap source. Keep the original live src so we can revert.
+  if (!_liveSrcBackup && hls) _liveSrcBackup = streamUrl;
+  _archiveActive = true;
+  if (hls) { try { hls.destroy(); } catch(_){} hls = null; }
+
+  // For B2 recordings the url is an API endpoint that returns a signed URL.
+  // Resolve it before assigning to <video>.
+  var srcUrl = target.url;
+  if (target.source === 'b2' && srcUrl && srcUrl.indexOf('/api/b2/') === 0) {
+    try {
+      var r = await fetch(srcUrl, { headers: _authHeader() });
+      var d = await r.json();
+      if (d && d.url) srcUrl = d.url;
+    } catch(e) {
+      document.getElementById('ar-status').textContent = '⚠ Failed to sign cloud URL: ' + e.message;
+      return;
+    }
+  }
+  video.src = srcUrl;
+  video.addEventListener('loadedmetadata', function _seek(){
+    try { video.currentTime = offsetSec; } catch(_){}
+    video.removeEventListener('loadedmetadata', _seek);
+  });
+  video.play().catch(function(){});
+}
+
+function archiveStep(deltaSec) {
+  if (!_archiveActive) return;
+  // Step current playhead within the loaded archive recording.
+  if (!_archiveCurrentMs) _archiveCurrentMs = (_archiveRecordings && _archiveRecordings[0] ? _archiveRecordings[0].startMs : Date.now());
+  _archiveCurrentMs += deltaSec * 1000;
+  // Re-sync inputs and reload at the new moment.
+  var dt = new Date(_archiveCurrentMs);
+  function p(n){ return String(n).padStart(2,'0'); }
+  document.getElementById('ar-date').value = dt.getFullYear() + '-' + p(dt.getMonth()+1) + '-' + p(dt.getDate());
+  document.getElementById('ar-time').value = p(dt.getHours()) + ':' + p(dt.getMinutes());
+  goToArchiveAt();
+}
+
+function backToLive() {
+  _archiveActive = false;
+  _archiveCurrentMs = null;
+  document.getElementById('archive-bar').style.display = 'none';
+  if (_liveSrcBackup) {
+    streamUrl = _liveSrcBackup;
+    _liveSrcBackup = null;
+  }
+  // Reload the live stream
+  startStream();
+}
+
+// ── TIMELAPSE MENU ──
+// Opens a panel listing pre-built timelapse MP4s for the camera (the ones
+// admins build from the Timelapse page). User can pick one to play, or fall
+// back to "play raw archive at 8× speed".
+async function toggleTimelapseMenu() {
+  var pad = document.getElementById('tl-pad');
+  var ptzPad = document.getElementById('ptz-pad');
+  var presetsPad = document.getElementById('presets-pad');
+  if (ptzPad) ptzPad.style.display = 'none';
+  if (presetsPad) presetsPad.style.display = 'none';
+  if (_tlActive) {
+    // Already playing → stop and revert to live, don't open the menu
+    stopTimelapse();
+    return;
+  }
+  if (pad.style.display !== 'none') { pad.style.display = 'none'; return; }
+  pad.style.display = 'block';
+
+  var list = document.getElementById('tl-builds-list');
+  list.innerHTML = '<div style="color:#8a97a5;font-size:0.7rem;padding:8px;text-align:center">Loading…</div>';
+  // Fetch BOTH local builds and B2 timelapse archive in parallel.
+  try {
+    var hdrs = _authHeader();
+    var [localR, b2R] = await Promise.all([
+      fetch('/api/timelapse/builds/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; }),
+      fetch('/api/b2/timelapse/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; })
+    ]);
+    var localBuilds = [];
+    var b2Builds = [];
+    if (localR && localR.ok) {
+      var d = await localR.json();
+      localBuilds = (d.builds || []).map(function(b){ b.source = 'server'; return b; });
+    }
+    if (b2R && b2R.ok) {
+      try {
+        var d2 = await b2R.json();
+        b2Builds = (d2.builds || d2.files || []).map(function(b){
+          b.source = 'b2';
+          b.url = b.url || ('/api/b2/timelapse-stream/' + encodeURIComponent(camId) + '/' + encodeURIComponent(b.name));
+          return b;
+        });
+      } catch(_){}
+    }
+    var all = localBuilds.concat(b2Builds);
+    if (!all.length) {
+      list.innerHTML = '<div style="color:#8a97a5;font-size:0.7rem;padding:12px;text-align:center;line-height:1.5">' +
+        'No pre-built timelapses yet.<br><span style="color:#5a6a7a">Build one from <strong>Timelapse</strong> page → "Build MP4 Video".</span>' +
+        '</div>';
+      return;
+    }
+    // Sort newest first
+    all.sort(function(a,b){
+      var at = a.mtime || 0, bt = b.mtime || 0;
+      return bt - at;
+    });
+    list.innerHTML = all.map(function(b, i){
+      var label = (b.name || '').replace('timelapse_','').replace('.mp4','');
+      var sizeMB = b.size ? (b.size/1024/1024).toFixed(1) + ' MB' : '';
+      var when = b.mtime ? new Date(b.mtime).toLocaleString() : '';
+      var tag = b.source === 'b2' ? '☁' : '💾';
+      return '<button class="btn tl-build" data-i="' + i + '" style="text-align:left;padding:8px 10px;font-size:0.72rem;justify-content:flex-start;flex-direction:column;align-items:flex-start;gap:2px">' +
+        '<span style="color:#e8edf2"><strong>' + tag + '</strong> ' + label + '</span>' +
+        '<span style="color:#8a97a5;font-size:0.62rem">' + when + ' · ' + sizeMB + '</span>' +
+        '</button>';
+    }).join('');
+    list.querySelectorAll('button.tl-build').forEach(function(btn){
+      var idx = parseInt(btn.getAttribute('data-i'));
+      btn.addEventListener('click', function(){ playTLBuild(all[idx]); });
+    });
+  } catch(e) {
+    list.innerHTML = '<div style="color:#ff5566;font-size:0.7rem;padding:8px">Error: ' + e.message + '</div>';
+  }
+}
+
+// Play a specific pre-built timelapse MP4 in the player. B2 builds get their
+// signed URL resolved before the video.src swap.
+async function playTLBuild(b) {
+  if (!b) return;
+  var srcUrl = b.url;
+  if (b.source === 'b2' && srcUrl && srcUrl.indexOf('/api/b2/') === 0) {
+    try {
+      var r = await fetch(srcUrl, { headers: _authHeader() });
+      var d = await r.json();
+      if (d && d.url) srcUrl = d.url;
+      else throw new Error(d.error || 'no signed URL');
+    } catch(e) {
+      alert('Cloud sign failed: ' + e.message);
+      return;
+    }
+  }
+  if (!_liveSrcBackup) _liveSrcBackup = streamUrl;
+  if (hls) { try { hls.destroy(); } catch(_){} hls = null; }
+  _tlActive = true;
+  _archiveActive = true;
+  video.src = srcUrl;
+  video.playbackRate = 1; // pre-built TLs are already sped up
+  video.play().catch(function(){});
+  document.getElementById('tl-pad').style.display = 'none';
+  var btn = document.getElementById('btn-timelapse');
+  if (btn) btn.textContent = '⏹ Stop TL';
+}
+
+// Stop playing the timelapse and return to the live stream.
+function stopTimelapse() {
+  _tlActive = false;
+  var btn = document.getElementById('btn-timelapse');
+  if (btn) btn.textContent = '⏩ Timelapse';
+  backToLive();
+}
+
+// "Play archive fast" — the OLD behavior renamed. Plays raw archive
+// recordings (last 24h) at the given playback rate. Used as fallback when no
+// pre-built TLs exist.
+var _tlActive = false;
+async function playArchiveFast(rate) {
+  document.getElementById('tl-pad').style.display = 'none';
+  var btn = document.getElementById('btn-timelapse');
+  if (btn) btn.textContent = '⏳ Loading…';
+
+  // Lazy-load both local + B2 recording lists if not already cached.
+  if (!_archiveRecordings) {
+    try {
+      var hdrs = _authHeader();
+      var [localRes, b2Res] = await Promise.all([
+        fetch('/api/recordings/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; }),
+        fetch('/api/b2/recordings/' + encodeURIComponent(camId), { headers: hdrs }).catch(function(){ return null; })
+      ]);
+      var localList = [], b2List = [];
+      if (localRes && localRes.ok) {
+        var d = await localRes.json();
+        localList = (d.recordings || []).map(function(rec){
+          var m = rec.name.match(/^(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})-(\d{2})/);
+          return m ? Object.assign({}, rec, { startMs: Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]), source: 'server' }) : null;
+        }).filter(Boolean);
+      }
+      if (b2Res && b2Res.ok) {
+        var d2 = await b2Res.json();
+        b2List = (d2.recordings || d2.files || []).map(function(rec){
+          var name = rec.name || rec.Path || '';
+          var m = name.match(/(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})-(\d{2})/);
+          return m ? Object.assign({}, rec, { name: name, startMs: Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]), source: 'b2',
+                       url: rec.url || ('/api/b2/stream/' + encodeURIComponent(camId) + '/' + encodeURIComponent(name)) }) : null;
+        }).filter(Boolean);
+      }
+      var localStarts = new Set(localList.map(function(x){ return x.startMs; }));
+      var b2Only = b2List.filter(function(x){ return !localStarts.has(x.startMs); });
+      _archiveRecordings = localList.concat(b2Only).sort(function(a,b){ return a.startMs - b.startMs; });
+    } catch(e) {
+      if (btn) btn.textContent = '⏩ Timelapse';
+      alert('Could not load recordings: ' + e.message);
+      return;
+    }
+  }
+
+  if (!_archiveRecordings.length) {
+    if (btn) btn.textContent = '⏩ Timelapse';
+    alert('No recordings exist for this camera.\nThis camera may not have continuous recording enabled.');
+    return;
+  }
+
+  // Pick the OLDEST recording from the last 24h (or oldest overall if 24h has
+  // nothing). We play forward at 8× from that point.
+  var dayAgo = Date.now() - 24*3600*1000;
+  var recent = _archiveRecordings.filter(function(r){ return r.startMs >= dayAgo; });
+  var first = recent.length ? recent[0] : _archiveRecordings[0];
+
+  // For B2 recordings, the url is an API endpoint that returns a signed URL.
+  // Resolve it before assigning to <video>.
+  var srcUrl = first.url;
+  if (first.source === 'b2' && srcUrl && srcUrl.indexOf('/api/b2/') === 0) {
+    try {
+      var r = await fetch(srcUrl, { headers: _authHeader() });
+      var d = await r.json();
+      if (d && d.url) srcUrl = d.url;
+      else throw new Error(d.error || 'no signed URL');
+    } catch(e) {
+      if (btn) btn.textContent = '⏩ Timelapse';
+      alert('Could not get cloud video URL: ' + e.message);
+      return;
+    }
+  }
+
+  if (!_liveSrcBackup) _liveSrcBackup = streamUrl;
+  if (hls) { try { hls.destroy(); } catch(_){} hls = null; }
+  _tlActive = true;
+  _archiveActive = true;
+  video.src = srcUrl;
+  video.addEventListener('loadedmetadata', function _tlReady(){
+    try { video.playbackRate = rate || 8; video.play().catch(function(){}); } catch(_){}
+    video.removeEventListener('loadedmetadata', _tlReady);
+  });
+  if (btn) btn.textContent = '⏹ Stop TL · ' + (rate || 8) + '×';
+  // Show inline status so the user knows what's playing
+  var bar = document.getElementById('archive-bar');
+  if (bar) {
+    bar.style.display = 'flex';
+    var statusEl = document.getElementById('ar-status');
+    if (statusEl) {
+      var srcLabel = (first.source === 'b2' ? '☁' : '💾');
+      statusEl.textContent = '⏩ Timelapse @ 8× · ' + srcLabel + ' ' + first.name;
+    }
+  }
+}
+
+// Wire PTZ press-and-hold listeners after the DOM is parsed.
+_wirePtzHold();
+
+// Show controls briefly on load so mobile users know they exist
+document.getElementById('wrap').classList.add('show');
+setTimeout(function(){ document.getElementById('wrap').classList.remove('show'); }, 2500);
+
+boot();
+</script>
+<script>
+// ── Per-profile ticker + overlays rendering (added 2026-05-11) ──
+// ── {temp} ticker variable for embeds — ticker-temp-embed-marker ──
+var _ppTempCache = { temp: null, unit: '', ts: 0 };
+function ppFetchTemp() {
+  if (_ppTempCache.ts && (Date.now() - _ppTempCache.ts) < 600000) return; // 10 min cache
+  var camId = (new URLSearchParams(location.search)).get('cam') || window._camId || '';
+  if (!camId) return;
+  fetch('/api/public/weather/' + camId)
+    .then(function(r) { return r.json(); })
+    .then(function(d) {
+      if (d.ok && d.temp !== null) {
+        _ppTempCache = { temp: d.temp, unit: d.unit || '\u00B0F', ts: Date.now() };
+      }
+    })
+    .catch(function() {});
+}
+function ppGetTemp() {
+  if (_ppTempCache.temp !== null) return _ppTempCache.temp + _ppTempCache.unit;
+  ppFetchTemp();
+  return '\u2026';
+}
+ppFetchTemp(); // prefetch on load
+
+function ppTickerReplace(template) {
+  if (!template) return '';
+  var now = new Date();
+  var tz  = (window._cameraTz) || undefined;
+  var time = now.toLocaleTimeString('en-US', { timeZone: tz, hour: '2-digit', minute: '2-digit' });
+  var date = now.toLocaleDateString('en-US', { timeZone: tz, weekday: 'short', month: 'short', day: 'numeric' });
+  return template
+    .replace(/\{time\}/g, time)
+    .replace(/\{date\}/g, date)
+    .replace(/\{datetime\}/g, date + ' ' + time)
+    .replace(/\{temp\}/g, ppGetTemp());
+}
+var _ppTickerTimer = null;
+function ppRenderTicker(tk) {
+  // The actual container in player.html is .wrap with id="wrap" - using
+  // 'player-wrap' previously fell back to document.body and rendered the
+  // ticker OUTSIDE the video. Fixed 2026-05-12.
+  var host = document.getElementById('wrap') || document.getElementById('player-wrap') || document.body;
+  host.querySelectorAll('.pp-ticker').forEach(function(e){ e.remove(); });
+  if (_ppTickerTimer) { clearInterval(_ppTickerTimer); _ppTickerTimer = null; }
+
+  // Detect whether the player has a visible controls bar at the bottom. If
+  // yes, lift the ticker above it so they don't overlap. .controls is
+  // position:absolute bottom:0 with ~48px effective height including the
+  // gradient fade.
+  var controlsEl = host.querySelector('.controls');
+  var controlsVisible = controlsEl && controlsEl.style.display !== 'none' &&
+    getComputedStyle(controlsEl).display !== 'none';
+  var bottomOffset = controlsVisible ? 50 : 0;
+
+  var bar = document.createElement('div');
+  bar.className = 'pp-ticker';
+  bar.style.cssText = 'position:absolute;left:0;right:0;bottom:' + bottomOffset +
+    'px;overflow:hidden;z-index:5;background:' +
+    (tk.bg || 'rgba(0,0,0,0.7)') + ';padding:6px 0;pointer-events:none';
+  bar.dataset.baseBottom = String(bottomOffset);  // letterbox-anchor-all
+
+  var span = document.createElement('div');
+  span.style.cssText = 'white-space:nowrap;display:inline-block;padding-left:100%;color:' +
+    (tk.fg || '#ffffff') + ';font-size:' + (tk.fontSize || 14) + 'px;font-weight:600';
+
+  var hasVars = /\{[a-z]+\}/i.test(tk.text || '');
+  var initial = hasVars ? ppTickerReplace(tk.text) : (tk.text || '');
+  span.textContent = initial;
+
+  // ticker-speed-align-marker (2026-05-20): match portal renderTickerOverlay
+  // formula so the same `speed` value scrolls at the same velocity in both
+  // surfaces. Old formula was ~9x too slow (chars * 200 / speed); new one
+  // uses estimated pixel width + 1000px lead-in, divided by px/sec speed.
+  var _fz   = parseFloat(tk.fontSize) || 14;
+  var _spd  = parseFloat(tk.speed)    || 40;
+  var _estW = initial.length * _fz * 0.6;
+  var dur   = Math.max(5, Math.round((_estW + 1000) / _spd));
+  span.style.animation = 'ppTickerScroll ' + dur + 's linear infinite';
+
+  bar.appendChild(span);
+  host.appendChild(bar);
+
+  // Push viewer-count-overlay above the ticker so they don't overlap.
+  // Ticker height ~32px (padding 6+6 + font 14 + line-height) + 8px gap.
+  var vc = document.getElementById('viewer-count-overlay');
+  if (vc) {
+    vc.dataset._origBottom = vc.dataset._origBottom || (vc.style.bottom || '54px');
+    vc.style.bottom = (bottomOffset + 40) + 'px';
+  }
+
+  if (!document.getElementById('pp-ticker-style')) {
+    var st = document.createElement('style');
+    st.id = 'pp-ticker-style';
+    st.textContent = '@keyframes ppTickerScroll { 0%{transform:translateX(0)} 100%{transform:translateX(-100%)} }';
+    document.head.appendChild(st);
+  }
+
+  if (hasVars) {
+    _ppTickerTimer = setInterval(function() {
+      span.textContent = ppTickerReplace(tk.text);
+    }, 1000);
+  }
+}
+
+// pp-weather-widget-marker (2026-06-17): render the weather widget in embeds.
+var _ppWeatherTimer = null;
+function ppRenderWeather(w) {
+  var host = document.getElementById('wrap') || document.getElementById('player-wrap') || document.body;
+  host.querySelectorAll('.pp-weather-widget').forEach(function(e){ e.remove(); });
+  if (_ppWeatherTimer) { clearInterval(_ppWeatherTimer); _ppWeatherTimer = null; }
+  var camId = (new URLSearchParams(location.search)).get('cam') || window._camId || '';
+  if (!camId) return;
+  var posMap = {
+    'top-right':'top:12px;right:12px','top-left':'top:12px;left:12px',
+    'bottom-right':'bottom:50px;right:12px','bottom-left':'bottom:50px;left:12px'
+  };
+  var el = document.createElement('div');
+  el.className = 'pp-weather-widget';
+  el.style.cssText = 'position:absolute;' + (posMap[w.position] || posMap['top-right']) +
+    ';background:rgba(0,0,0,0.55);color:#fff;padding:8px 10px;border-radius:12px;font-size:0.72rem;' +
+    'font-family:system-ui;pointer-events:none;z-index:5;display:flex;align-items:center;gap:8px;' +
+    'backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.15);min-width:200px';  /* player-html-reference-layout */
+  el.innerHTML = '<span style="opacity:0.7;font-size:0.62rem">\u23F3</span>';
+  // weather-size-marker: scale toward the anchored corner
+  var _wScl = { small:0.8, medium:1, large:1.3, 'x-large':1.6 }[w.size] || 1;
+  var _wOrigin = (w.position || 'top-right').replace('-', ' ');
+  el._wPos = w.position || 'top-right';  // player-html-overlay-fullscreen: for fullscreen re-anchoring
+  host.appendChild(el);
+  // mobile-overlay-scale-marker (2026-06-24): scale the weather widget with the player
+  // width so it doesn't dominate small/mobile players. Inside the embed iframe
+  // the host width IS the player's rendered width. Desktop (>=640px) unchanged.
+  function _ppScaleWeather() {
+    var hw = (host.getBoundingClientRect && host.getBoundingClientRect().width) || window.innerWidth || 640;
+    var eff = _wScl * 0.85 * Math.max(0.5, Math.min(1, hw / 640));  // player-html-reference-layout
+    el.style.transformOrigin = _wOrigin;
+    el.style.transform = (Math.abs(eff - 1) > 0.01) ? ('scale(' + eff.toFixed(3) + ')') : 'none';
+  }
+  _ppScaleWeather();
+  if (window._ppWeatherResize) window.removeEventListener('resize', window._ppWeatherResize);
+  window._ppWeatherResize = _ppScaleWeather;
+  window.addEventListener('resize', window._ppWeatherResize);
+  function draw() {
+    fetch('/api/public/weather/' + camId).then(function(r){ return r.json(); }).then(function(d){
+      if (!d || !d.ok || d.temp === null || d.temp === undefined) { el.style.display='none'; return; }
+      el.style.display = 'flex';
+      var unit = d.unit || '\u00B0F';
+      var icon = d.iconUrl ? '<img src="' + d.iconUrl + '" style="width:28px;height:28px;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.5))" alt=""/>' : '';
+      // weather-forecast-ui-marker: stack current + 3-day forecast
+      el.style.flexDirection = 'column'; el.style.alignItems = 'stretch';
+      var fcStrip = '';
+      if (d.forecast && d.forecast.length) {
+        fcStrip = '<div style="display:flex;gap:10px;margin-top:7px;padding-top:7px;border-top:1px solid rgba(255,255,255,0.18);justify-content:space-between">';
+        d.forecast.forEach(function(f){
+          fcStrip += '<div style="text-align:center;font-size:0.54rem;line-height:1.3">' +
+            '<div style="opacity:0.8;font-weight:700;letter-spacing:0.03em">' + f.day + '</div>' +
+            '<img src="' + f.iconUrl + '" style="width:24px;height:24px;display:block;margin:1px auto" alt=""/>' +
+            '<div><b>' + f.hi + '\u00B0</b> <span style="opacity:0.6">' + f.lo + '\u00B0</span></div>' +
+          '</div>';
+        });
+        fcStrip += '</div>';
+      }
+      // player-html-reference-layout: AccuWeather reference-layout current conditions + forecast
+      var _loc = (w.location || d.city || '');
+      var _now = new Date();
+      var _tstr = _now.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' });
+      var _hi = (d.forecast && d.forecast[0] && d.forecast[0].hi != null) ? d.forecast[0].hi : null;
+      var _lo = (d.forecast && d.forecast[0] && d.forecast[0].lo != null) ? d.forecast[0].lo : null;
+      var _hilo = (_hi !== null && _lo !== null) ? '<div style="font-size:0.6rem;opacity:0.78;text-align:right;line-height:1.35;white-space:nowrap">' + _hi + '\u00B0<br>' + _lo + '\u00B0</div>' : '';
+      var _feels = (d.feels != null) ? '<div style="font-size:0.56rem;opacity:0.65;margin-top:1px">Feels like ' + d.feels + unit + '</div>' : '';
+      var _hum = (d.humidity != null) ? '<span title="Humidity">\uD83D\uDCA7 ' + d.humidity + '%</span>' : '';
+      var _wind = (d.wind != null) ? '<span title="Wind" style="margin-left:12px">\uD83D\uDCA8 ' + d.wind + ' mph</span>' : '';
+      var _metrics = (_hum || _wind) ? '<div style="font-size:0.58rem;opacity:0.85;margin-top:4px">' + _hum + _wind + '</div>' : '';
+      var _bigIcon = d.iconUrl ? '<img src="' + d.iconUrl + '" style="width:54px;height:54px;filter:drop-shadow(0 1px 2px rgba(0,0,0,0.55))" alt=""/>' : '';
+      var _attrib = (w.provider === 'accuweather') ? '<div style="text-align:right;font-size:0.52rem;opacity:0.7;margin-top:4px">AccuWeather</div>' : '';
+      el.innerHTML =
+        '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:3px">' +
+          '<span style="font-size:0.62rem;font-weight:600;opacity:0.85;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">' + _loc + '</span>' +
+        '</div>' +
+        '<div style="display:flex;align-items:center;gap:10px">' + _bigIcon +
+          '<div style="flex:1;min-width:0">' +
+            '<div style="font-size:1.7rem;font-weight:800;line-height:1">' + d.temp + unit + '</div>' +
+            (d.desc ? '<div style="font-size:0.62rem;opacity:0.85;text-transform:capitalize">' + d.desc + '</div>' : '') +
+            _feels +
+          '</div>' +
+          _hilo +
+        '</div>' +
+        _metrics + fcStrip + _attrib;
+    }).catch(function(){ el.style.display='none'; });
+  }
+  draw();
+  _ppWeatherTimer = setInterval(draw, 15 * 60 * 1000);
+}
+
+// player-html-overlay-fullscreen: shared fullscreen-letterbox + mobile-width anchor for player.html.
+// When fullscreen, computes the video's actually-visible rect (object-fit:contain
+// letterboxing) and positions the overlay there instead of in the black bar.
+function _ppAnchorOverlay(el, o, host) {
+  if (!el || !o || !host) return;
+  var fs = !!(document.fullscreenElement || document.webkitFullscreenElement);
+  var v = host.querySelector && host.querySelector('video');
+  var wrct = host.getBoundingClientRect();
+  var pctX = parseFloat(o.x) || 0, pctY = parseFloat(o.y) || 0, pctW = parseFloat(o.w) || 20;
+  // letterbox-anchor-always: a maximized window or mobile portrait screen
+  // letterboxes exactly like fullscreen — anchor to the video rect whenever
+  // the video dimensions are known, not only when fullscreenElement is set.
+  if (!v || !v.videoWidth || !v.videoHeight || !wrct.width || !wrct.height) {
+    el.style.left  = pctX + '%';
+    el.style.top   = pctY + '%';
+    el.style.width = pctW + '%';
+    return;
+  }
+  var vAR = v.videoWidth / v.videoHeight, wAR = wrct.width / wrct.height;
+  var rW, rH, offL = 0, offT = 0;
+  if (wAR > vAR) { rH = wrct.height; rW = rH * vAR; offL = (wrct.width - rW) / 2; }
+  else           { rW = wrct.width;  rH = rW / vAR; offT = (wrct.height - rH) / 2; }
+  el.style.left  = (offL + (pctX / 100) * rW) + 'px';
+  el.style.top   = (offT + (pctY / 100) * rH) + 'px';
+  el.style.width = ((pctW / 100) * rW) + 'px';
+}
+if (!window._ppOverlayFSBound) {
+  window._ppOverlayFSBound = true;
+  var _ppOvRescale = function(){
+    var host = document.getElementById('wrap') || document.getElementById('player-wrap') || document.body;
+    host.querySelectorAll('.pp-overlay').forEach(function(e){ if (e._ov) _ppAnchorOverlay(e, e._ov, host); });
+    // also re-anchor the weather widget when fullscreen state changes
+    host.querySelectorAll('.pp-weather-widget').forEach(function(e){
+      var fs = !!(document.fullscreenElement || document.webkitFullscreenElement);
+      var v = host.querySelector('video');
+      var wrct = host.getBoundingClientRect();
+      var posMap = { 'top-right':['top','right'],'top-left':['top','left'],'bottom-right':['bottom','right'],'bottom-left':['bottom','left'] };
+      var pos = posMap[(e._wPos || 'top-right')];
+      var offT = 0, offL = 0;
+      if (v && v.videoWidth && v.videoHeight && wrct.width && wrct.height) {  // letterbox-anchor-always
+        var vAR = v.videoWidth / v.videoHeight, wAR = wrct.width / wrct.height;
+        if (wAR > vAR) { offL = (wrct.width - wrct.height * vAR) / 2; }
+        else           { offT = (wrct.height - wrct.width / vAR) / 2; }
+      }
+      if (pos[0] === 'top')    { e.style.top    = (12 + offT) + 'px'; e.style.bottom = ''; }
+      if (pos[0] === 'bottom') { e.style.bottom = (50 + offT) + 'px'; e.style.top    = ''; }
+      if (pos[1] === 'left')   { e.style.left   = (12 + offL) + 'px'; e.style.right  = ''; }
+      if (pos[1] === 'right')  { e.style.right  = (12 + offL) + 'px'; e.style.left   = ''; }
+    });
+    // letterbox-anchor-all: pin the remaining video-content elements inside
+    // the video rect too — HUD badges (LIVE/name/brand), watermark logo,
+    // timestamp, and the ticker. Controls stay window-anchored (UI chrome).
+    (function(){
+      var v = host.querySelector('video');
+      var wrct = host.getBoundingClientRect();
+      var offT = 0, offL = 0;
+      if (v && v.videoWidth && v.videoHeight && wrct.width && wrct.height) {
+        var vAR = v.videoWidth / v.videoHeight, wAR = wrct.width / wrct.height;
+        if (wAR > vAR) { offL = (wrct.width - wrct.height * vAR) / 2; }
+        else           { offT = (wrct.height - wrct.width / vAR) / 2; }
+      }
+      var hud = host.querySelector('.hud');
+      if (hud) { hud.style.left = offL + 'px'; hud.style.right = offL + 'px'; hud.style.top = offT + 'px'; hud.style.bottom = offT + 'px'; }
+      var wm = document.getElementById('wm');
+      if (wm) { wm.style.right = (14 + offL) + 'px'; wm.style.bottom = (14 + offT) + 'px'; }
+      var tsEl = document.getElementById('ts');
+      if (tsEl) { tsEl.style.left = (14 + offL) + 'px'; tsEl.style.bottom = (14 + offT) + 'px'; }
+      // letterbox-anchor-controls: the controls bar lives INSIDE the video
+      // frame too — flush at the video's bottom edge, spanning the video's
+      // width. The ticker's baseBottom (50 when controls shown) stacks on
+      // offT, landing it directly above these video-anchored controls.
+      // ticker-below-controls: the info ticker owns the very bottom edge of
+      // the video; the controls bar sits directly ABOVE it. No ticker -> the
+      // controls sit flush at the video's bottom edge as before.
+      var ctl = document.getElementById('controls');
+      var _tkH = 0;
+      host.querySelectorAll('.pp-ticker').forEach(function(t){
+        t.style.left = offL + 'px'; t.style.right = offL + 'px'; t.style.bottom = offT + 'px';
+        var _h = t.getBoundingClientRect().height; if (_h > _tkH) _tkH = _h;
+      });
+      if (ctl) { ctl.style.left = offL + 'px'; ctl.style.right = offL + 'px'; ctl.style.bottom = (offT + _tkH) + 'px'; }
+    })();
+  };
+  window._ppOvRescaleNow = _ppOvRescale;  // letterbox-anchor-always
+  window.addEventListener('resize', _ppOvRescale);
+  window.addEventListener('orientationchange', _ppOvRescale);
+  document.addEventListener('fullscreenchange', _ppOvRescale);
+  document.addEventListener('webkitfullscreenchange', _ppOvRescale);
+  setTimeout(function(){ var v = document.querySelector('#wrap video, #player-wrap video, video'); if (v) v.addEventListener('loadedmetadata', _ppOvRescale); }, 0);
+}
+function ppRenderOverlay(o) {
+  var host = document.getElementById('wrap') || document.getElementById('player-wrap') || document.body;
+  var ov = document.createElement(o.url ? 'a' : 'div');
+  if (o.url) {
+    ov.href = o.url;
+    ov.target = o.target === '_self' ? '_self' : '_blank';
+    ov.rel = 'noopener noreferrer';
+  }
+  ov.className = 'pp-overlay';
+  ov.style.cssText = 'position:absolute;left:' + (parseFloat(o.x)||0) + '%;top:' + (parseFloat(o.y)||0) +
+    '%;width:' + (parseFloat(o.w)||20) + '%;z-index:4;pointer-events:auto;text-decoration:none;color:' +
+    (o.fg || '#fff') + ';font-size:' + (o.fontSize || 14) + 'px;background:' +
+    (o.image ? 'transparent' : (o.bg || 'rgba(0,0,0,0.55)')) +
+    ';padding:' + (o.image ? '0' : '6px 10px') + ';border-radius:' + (o.image ? '0' : '6px') + ';font-weight:600;text-align:center';
+  if (o.image) {
+    var img = document.createElement('img');
+    img.src = o.image;
+    img.style.cssText = 'width:100%;height:auto;display:block;border-radius:6px';
+    ov.appendChild(img);
+    if (o.text) {
+      var cap = document.createElement('div');
+      cap.style.cssText = 'margin-top:4px;background:' + (o.bg||'rgba(0,0,0,0.55)') + ';padding:4px 8px;border-radius:4px';
+      cap.textContent = o.text;
+      ov.appendChild(cap);
+    }
+  } else if (o.text) {
+    ov.textContent = o.text;
+  }
+  host.appendChild(ov);
+  ov._ov = o;  // player-html-overlay-fullscreen
+  _ppAnchorOverlay(ov, o, host);
+}
+</script>
+
+
+<!-- share-clip-removed-marker (2026-05-26): clip-share UI removed per admin request -->
+<style>/* offline-image-marker */.offline-custom-img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#0b0f16;z-index:2}.offline-overlay.has-custom{background:#0b0f16}.offline-overlay.has-custom > :not(.offline-custom-img){display:none!important}</style><script>
+// fs-landscape-marker (2026-07-03): portrait phones fullscreening a 16:9
+// stream see big blank bars. Lock to landscape in fullscreen (Android);
+// iOS cannot lock orientation, so show a brief rotate hint instead.
+(function(){
+  function hint(){
+    if (document.getElementById('fs-rotate-hint')) return;
+    var d = document.createElement('div');
+    d.id = 'fs-rotate-hint';
+    d.textContent = '\ud83d\udcf1\u21ba Rotate your phone to fill the screen';
+    d.style.cssText = 'position:fixed;left:50%;top:18px;transform:translateX(-50%);z-index:90;' +
+      'background:rgba(0,0,0,0.78);color:#fff;padding:10px 16px;border-radius:999px;' +
+      'font-size:13px;font-family:system-ui,sans-serif';
+    document.body.appendChild(d);
+    setTimeout(function(){ if (d.parentNode) d.parentNode.removeChild(d); }, 4000);
+  }
+  document.addEventListener('fullscreenchange', function(){
+    var fs = !!document.fullscreenElement;
+    var phone = matchMedia('(pointer:coarse)').matches;
+    try {
+      if (fs && phone && innerHeight > innerWidth) {
+        if (screen.orientation && screen.orientation.lock) {
+          screen.orientation.lock('landscape').catch(hint);
+        } else { hint(); }
+      } else if (!fs && screen.orientation && screen.orientation.unlock) {
+        try { screen.orientation.unlock(); } catch(_){}
+      }
+    } catch(_) { if (fs && phone) hint(); }
+  });
+})();
+</script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a2eaa4ea6c18810f',t:'MTc4NzMyNTg2MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

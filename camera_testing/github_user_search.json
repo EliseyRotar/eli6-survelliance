@@ -1,0 +1,13 @@
+{
+  "message": "Validation Failed",
+  "errors": [
+    {
+      "message": "More than five AND / OR / NOT operators were used.",
+      "resource": "Search",
+      "field": "q",
+      "code": "invalid"
+    }
+  ],
+  "documentation_url": "https://docs.github.com/v3/search/",
+  "status": "422"
+}

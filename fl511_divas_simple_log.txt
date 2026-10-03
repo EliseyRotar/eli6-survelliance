@@ -1,0 +1,22 @@
+[22:36:16] Loaded 4,265 cams with templates
+[22:36:16]   492 already have full live URLs (merged)
+[22:36:16]   Need to query: 3,773
+[22:36:16] Getting session...
+[22:36:17]   Session OK
+[22:42:37] Loaded 4,265 cams with templates
+[22:42:37]   335 already have full live URLs (merged)
+[22:42:37]   Need to query: 3,930
+[22:42:37] Getting session...
+[22:42:37]   Session OK
+[22:47:02]   20/3,930 (6 ok, 14 fail) 0.08/s
+[22:51:14]   40/3,930 (13 ok, 27 fail) 0.08/s
+[23:05:08]   100/3,930 (28 ok, 72 fail) 0.07/s
+[23:09:34]   120/3,930 (35 ok, 85 fail) 0.07/s
+[23:28:45]   220/3,773 (42 ok, 178 fail) 0.07/s
+[23:33:02]   240/3,773 (47 ok, 193 fail) 0.07/s
+[23:38:03]   260/3,773 (50 ok, 210 fail) 0.07/s
+[23:48:18]   300/3,773 (53 ok, 247 fail) 0.07/s
+[23:58:35]   320/3,930 (69 ok, 251 fail) 0.07/s
+[00:08:36]   360/3,930 (75 ok, 285 fail) 0.07/s
+[00:13:36]   380/3,930 (78 ok, 302 fail) 0.07/s
+[00:18:00]   400/3,930 (84 ok, 316 fail) 0.07/s

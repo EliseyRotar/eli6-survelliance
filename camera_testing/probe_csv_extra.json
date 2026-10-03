@@ -1,0 +1,371 @@
+[
+  {
+    "idx": 280,
+    "url": "http://192.171.163.3/view/view.shtml?id=1102&imagePath=/mjpg/video.mjpg&size=1",
+    "http_status": "200",
+    "content_type": "text/html",
+    "server": "Apache/2.4.68 (Unix) OpenSSL/3.5.7",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 290,
+    "url": "http://wc2.dartmouth.edu/mjpg/video.mjpg",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 293,
+    "url": "Memorial",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "Invalid URL 'Memorial': No scheme supplied. Perhaps you meant https://Memorial?"
+  },
+  {
+    "idx": 288,
+    "url": "http://hoybakken.dyndns.org:9876/mjpg/1/video.mjpg",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 285,
+    "url": "http://www.skylinewebcams.com/en/webcam/hrvatska/pag/novalja/stara-novalja-plaza-planjka-trincel.html",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "nginx",
+    "title": "Live Cam Planjka Beach - Novalja | SkylineWebcams",
+    "error": ""
+  },
+  {
+    "idx": 292,
+    "url": "http://sbhome63378.dyndns.org:16251/axis-cgi/mjpg/video.cgi",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 284,
+    "url": "https://videos-3.earthcam.com/fecnetwork/AbbeyRoadHD1.flv/playlist.m3u8",
+    "http_status": "403",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 282,
+    "url": "https://media5.tripsmarter.com/includes/schooners-sunset-cam-responsive.php",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "Apache",
+    "title": "Presented by Destination Network",
+    "error": ""
+  },
+  {
+    "idx": 296,
+    "url": "http://213.161.172.115/axis-cgi/mjpg/video.cgi",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 277,
+    "url": "http://drivemeinsane.com/",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "cloudflare",
+    "title": "Drive Me Insane!",
+    "error": ""
+  },
+  {
+    "idx": 279,
+    "url": "http://www.webviewcams.com/",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "Apache/2.4.62 (CentOS Stream) OpenSSL/3.2.2",
+    "title": "Webview Livescope Webcams",
+    "error": ""
+  },
+  {
+    "idx": 302,
+    "url": "DEAD",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "Invalid URL 'DEAD': No scheme supplied. Perhaps you meant https://DEAD?"
+  },
+  {
+    "idx": 294,
+    "url": "http://flightcam1.pr.erau.edu/view/index.shtml",
+    "http_status": "200",
+    "content_type": "text/html",
+    "server": "",
+    "title": "Index page",
+    "error": ""
+  },
+  {
+    "idx": 283,
+    "url": "http://www.earthcam.com",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "cloudflare",
+    "title": "EarthCam - Webcam Network",
+    "error": ""
+  },
+  {
+    "idx": 278,
+    "url": "https://www.youtube.com/watch?v=kIZp6fUSpS0",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "ESF",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 281,
+    "url": "http://64.251.74.41/viewer/live/en/live.html",
+    "http_status": "200",
+    "content_type": "text/html",
+    "server": "VB",
+    "title": "VB-C60 VB Viewer -",
+    "error": ""
+  },
+  {
+    "idx": 289,
+    "url": "https://www.youtube.com/watch?v=ukJdF27YDVg",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "ESF",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 299,
+    "url": "http://actbwebcam.uwyo.edu/nph-mjpeg.cgi",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace;boundary=JPEG",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 304,
+    "url": "https://195.196.36.242/axis-cgi/mjpg/video.cgi",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "HTTPSConnectionPool(host='195.196.36.242', port=443): Max retries exceeded with url: /axis-cgi/mjpg/"
+  },
+  {
+    "idx": 301,
+    "url": "http://www.opentopia.com/hiddencam.php",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/5.4.16 Phusion_Passenger/6.1.2",
+    "title": "Live Webcams - Free, public web cams found online",
+    "error": ""
+  },
+  {
+    "idx": 300,
+    "url": "http://nolandda.org/cgi-bin/webcams/showcams.py",
+    "http_status": "404",
+    "content_type": "text/html; charset=iso-8859-1",
+    "server": "cloudflare",
+    "title": "404 Not Found",
+    "error": ""
+  },
+  {
+    "idx": 298,
+    "url": "https://g1.ipcamlive.com/player/player.php?alias=wrightbros",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "cloudflare",
+    "title": "Live video stream",
+    "error": ""
+  },
+  {
+    "idx": 291,
+    "url": "https://commons.ramcam.vcu.edu/axis-cgi/jpg/image.cgi",
+    "http_status": "200",
+    "content_type": "image/jpeg",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 310,
+    "url": "https://195.196.36.242/axis-cgi/mjpg/video.cgi",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "HTTPSConnectionPool(host='195.196.36.242', port=443): Max retries exceeded with url: /axis-cgi/mjpg/"
+  },
+  {
+    "idx": 315,
+    "url": "rtsp://flightcam1.pr.erau.edu:554/axis-media/media.amp",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "No connection adapters were found for 'rtsp://flightcam1.pr.erau.edu:554/axis-media/media.amp'"
+  },
+  {
+    "idx": 306,
+    "url": "http://www.camscape.com/",
+    "http_status": "200",
+    "content_type": "text/html; charset=UTF-8",
+    "server": "Apache",
+    "title": "Live Webcams on Camscape \u2013 Free Streaming Cams Worldwide",
+    "error": ""
+  },
+  {
+    "idx": 309,
+    "url": "https://195.196.36.242/",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "HTTPSConnectionPool(host='195.196.36.242', port=443): Max retries exceeded with url: / (Caused by SS"
+  },
+  {
+    "idx": 305,
+    "url": "http://80.254.191.189:8008/axis-cgi/media.cgi",
+    "http_status": "200",
+    "content_type": "video/x-matroska",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 303,
+    "url": "https://www.youtube.com/watch?v=6lYoPExcOwg",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "ESF",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 311,
+    "url": "https://195.196.36.242/axis-cgi/media.cgi?container=matroska&videocodec=h264&resolution=1280x720",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "HTTPSConnectionPool(host='195.196.36.242', port=443): Max retries exceeded with url: /axis-cgi/media"
+  },
+  {
+    "idx": 308,
+    "url": "http://flightcam1.pr.erau.edu/mjpg/video.mjpg",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 286,
+    "url": "http://www.metcam.navcanada.ca/hb/index.jsp?lang=e",
+    "http_status": "200",
+    "content_type": "text/html",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 307,
+    "url": "http://flightcam1.pr.erau.edu/",
+    "http_status": "200",
+    "content_type": "text/html",
+    "server": "",
+    "title": "Index page",
+    "error": ""
+  },
+  {
+    "idx": 317,
+    "url": "http://wc2.dartmouth.edu/mjpg/video.mjpg?resolution=640x480",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 287,
+    "url": "http://61.211.241.239/nphMotionJpeg?Resolution=640x480&Quality=Standard",
+    "http_status": "200",
+    "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 316,
+    "url": "http://sbhome63378.dyndns.org:16251/axis-cgi/media.cgi?container=matroska&videocodec=h264&resolution=1280x720",
+    "http_status": "200",
+    "content_type": "video/x-matroska",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 312,
+    "url": "http://flightcamnorth.db.erau.edu/axis-cgi/media.cgi?container=matroska&videocodec=h264&resolution=1280x720",
+    "http_status": "200",
+    "content_type": "video/x-matroska",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 314,
+    "url": "http://flightcam1.pr.erau.edu/axis-cgi/jpg/image.cgi?resolution=1280x720",
+    "http_status": "200",
+    "content_type": "image/jpeg",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 295,
+    "url": "http://vefmyndavel.akureyri.is/view/index.shtml",
+    "http_status": "200",
+    "content_type": "text/html; charset=utf-8",
+    "server": "ESF",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 313,
+    "url": "http://flightcamsouth.db.erau.edu/axis-cgi/media.cgi?container=matroska&videocodec=h264&resolution=1280x720",
+    "http_status": "200",
+    "content_type": "video/x-matroska",
+    "server": "",
+    "title": "",
+    "error": ""
+  },
+  {
+    "idx": 297,
+    "url": "http://194.117.170.14/view/index.shtml",
+    "http_status": "",
+    "content_type": "",
+    "server": "",
+    "title": "",
+    "error": "HTTPConnectionPool(host='194.117.170.14', port=80): Max retries exceeded with url: /view/index.shtml"
+  }
+]

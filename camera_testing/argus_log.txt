@@ -1,0 +1,4 @@
+[23:03:38] [init] starting Argus ingestion
+[23:03:38] [init] 1130 existing hosts in CSV
+[23:03:38] [core] 229308 cams in Argus core
+[23:03:38] [plan] processing 229 chunks

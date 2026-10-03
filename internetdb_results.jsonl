@@ -1,0 +1,19 @@
+{"cpes": ["cpe:/a:apache:http_server"], "hostnames": ["secure.ne.jp", "tewxdr9.secure.ne.jp"], "ip": "110.50.216.9", "ports": [21, 80, 110, 143, 443, 995], "tags": ["starttls"], "vulns": []}
+{"cpes": ["cpe:/o:microsoft:windows", "cpe:/a:apache:http_server"], "hostnames": ["secure.ne.jp", "tewxdr88.secure.ne.jp"], "ip": "110.50.216.88", "ports": [21, 25, 80, 143, 443, 465, 587, 993, 995, 8080], "tags": ["starttls"], "vulns": []}
+{"cpes": ["cpe:/a:f5:big-ip"], "hostnames": [], "ip": "110.50.229.151", "ports": [80, 443, 7000, 7001], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": ["igw.kasasaku.co.jp"], "ip": "110.50.110.246", "ports": [1723], "tags": ["vpn"], "vulns": []}
+{"cpes": [], "hostnames": ["fp6e42c115.ap.nuro.jp"], "ip": "110.66.193.21", "ports": [7547], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": ["p6e4274c6.chibnt01.ap.so-net.ne.jp"], "ip": "110.66.116.198", "ports": [500], "tags": ["vpn"], "vulns": []}
+{"cpes": [], "hostnames": ["bai6f439d3e.bai.ne.jp"], "ip": "111.67.157.62", "ports": [161], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "111.67.40.22", "ports": [8880, 20018, 30001, 30002, 30003, 30005, 30006, 30007, 30009, 30019], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.5.159.103", "ports": [554], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.5.112.2", "ports": [500], "tags": ["vpn"], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.5.10.151", "ports": [161], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.5.121.72", "ports": [82], "tags": [], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.6.216.106", "ports": [500], "tags": ["vpn"], "vulns": []}
+{"cpes": [], "hostnames": [], "ip": "112.5.48.25", "ports": [3002, 5683], "tags": [], "vulns": []}
+{"cpes": ["cpe:/a:openresty:openresty:1.19.3.1", "cpe:/a:f5:nginx", "cpe:/a:openresty:openresty"], "hostnames": [], "ip": "112.9.4.171", "ports": [6664], "tags": [], "vulns": ["CVE-2021-23017", "CVE-2024-39702", "CVE-2023-44487"]}
+{"cpes": [], "hostnames": ["info.qq.com", "daihuo.qq.com"], "ip": "113.108.81.202", "ports": [80, 443], "tags": [], "vulns": []}
+{"cpes": ["cpe:/a:f5:nginx:1.20.1"], "hostnames": [], "ip": "113.108.12.169", "ports": [8082, 8104], "tags": ["eol-product"], "vulns": ["CVE-2023-44487", "CVE-2021-3618", "CVE-2025-23419"]}
+{"cpes": ["cpe:/a:apache:tomcat", "cpe:/a:jquery:jquery", "cpe:/a:oracle:jre"], "hostnames": ["okaygis.com"], "ip": "113.108.142.90", "ports": [80, 7071, 8081, 8087, 8090, 8098, 8443, 8880, 8889, 9001, 9002, 9999, 10021, 12082, 18037, 18063, 18084, 28080], "tags": [], "vulns": []}
+{"cpes": ["cpe:/a:openbsd:openssh:7.4n"], "hostnames": [], "ip": "113.111.212.227", "ports": [9000, 12333], "tags": [], "vulns": []}

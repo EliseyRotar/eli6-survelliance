@@ -1,0 +1,16 @@
+[11:30:24] [init] starting HTML extractor (Tier 2)
+[11:30:24] [init] 63309 rows, 35 cols
+[11:30:24] [plan] 772 rows to scrape
+[11:31:42]   progress 300/772 updated=32
+[11:31:48]   progress 350/772 updated=57
+[11:33:52] [done] updated 70 rows
+[11:38:39] [init] starting HTML extractor (Tier 2)
+[11:38:40] [init] 63309 rows, 35 cols
+[11:38:40] [plan] 772 rows to scrape
+[11:39:53]   progress 300/772 updated=1
+[11:39:59]   progress 350/772 updated=2
+[11:41:42] [done] updated 10 rows
+[12:00:01] [init] starting HTML extractor (Tier 2)
+[12:00:01] [init] 63814 rows, 35 cols
+[12:00:02] [plan] 768 rows to scrape
+[12:01:38]   progress 350/768 updated=0

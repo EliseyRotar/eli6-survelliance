@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0606">
+<title>ELI6 ▸ SURVEILLANCE</title>
+<meta name="description" content="Live dashboard of 198k+ indexed surveillance cameras worldwide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/main.css">
+
+<!-- hls.js -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
+
+<!-- MapLibre (local, used by MapLibre 2D view) -->
+<link rel="stylesheet" href="/static/vendor/maplibre-gl.css" media="print" onload="this.media='all'">
+</head>
+<body>
+
+<!-- INTRO -->
+<div class="intro" id="intro">
+  <div class="intro-text">▸ ELI6 ▸ SURVEILLANCE</div>
+  <div class="intro-bar"><div class="intro-bar-fill"></div></div>
+  <div class="intro-detail" id="introDetail">initializing</div>
+</div>
+
+<!-- DISCLAIMER -->
+<div class="disclaimer" id="disclaimer">
+  <div class="disclaimer-box">
+    <div class="disclaimer-title">⚠ RESEARCH DASHBOARD · READ CAREFULLY</div>
+    <div class="disclaimer-text">
+      This dashboard aggregates <strong>198,537 publicly accessible webcams</strong> worldwide. Many of these cameras were discovered through automated scanning of internet-exposed devices, including traffic infrastructure, weather stations, scenic overlooks, and personal DVRs.
+      <br><br>
+      <strong>What you should know:</strong>
+      <br>
+      • Some cameras may be on private property or behind insecure networks. <strong>Do not use this to spy, harass, or gain unauthorized access.</strong>
+      <br>
+      • Many are <strong>intentionally public</strong> (transit cams, scenic cams, weather cams, traffic cams). Treat them as such.
+      <br>
+      • Recording, mirroring, or scraping streams at scale may violate local laws.
+      <br>
+      • This dashboard is for <strong>research, education, and situational awareness</strong>.
+    </div>
+    <div class="disclaimer-checks">
+      <label class="disclaimer-check"><input type="checkbox" id="cbResearch"> I will use this only for research/education</label>
+      <label class="disclaimer-check"><input type="checkbox" id="cbLegal"> I understand accessing some cams may be restricted in my jurisdiction</label>
+      <label class="disclaimer-check"><input type="checkbox" id="cbNoHarm"> I will not use this to harass, spy, or harm</label>
+    </div>
+    <div class="disclaimer-actions">
+      <button class="btn" id="btnDecline">Decline</button>
+      <button class="btn primary" id="btnAccept" disabled>I agree</button>
+    </div>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <svg class="brand-logo" viewBox="0 0 100 100" fill="none">
+        <defs>
+          <linearGradient id="brandG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ff2e3a"/>
+            <stop offset="100%" stop-color="#d40000"/>
+          </linearGradient>
+        </defs>
+        <circle cx="50" cy="50" r="45" stroke="url(#brandG)" stroke-width="4"/>
+        <circle cx="50" cy="50" r="30" stroke="url(#brandG)" stroke-width="3" opacity="0.7"/>
+        <line x1="50" y1="5" x2="50" y2="25" stroke="url(#brandG)" stroke-width="4"/>
+        <line x1="50" y1="75" x2="50" y2="95" stroke="url(#brandG)" stroke-width="4"/>
+        <line x1="5" y1="50" x2="25" y2="50" stroke="url(#brandG)" stroke-width="4"/>
+        <line x1="75" y1="50" x2="95" y2="50" stroke="url(#brandG)" stroke-width="4"/>
+        <circle cx="50" cy="50" r="7" fill="url(#brandG)"/>
+      </svg>
+      <div class="brand-name"><span class="a">ELI6</span><span class="sep">▸</span>SURVEILLANCE</div>
+    </div>
+
+    <div class="search-wrap">
+      <div class="search">
+        <span class="search-prefix">$</span>
+        <input id="searchInput" type="text" placeholder="try: 40.5,-74.0 · traffic · isp:Comcast · near Tokyo" autocomplete="off" spellcheck="false">
+        <span class="search-ai">AI</span>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <div class="stats-line">
+        <div class="stat"><span class="l">total</span><span class="v" id="statTotal">—</span></div>
+        <div class="stat"><span class="l">live</span><span class="v live" id="statLive">—</span></div>
+        <div class="stat"><span class="l">visible</span><span class="v" id="statVisible">—</span></div>
+        <div class="stat"><span class="l">loaded</span><span class="v live" id="statLoaded">—</span></div>
+        <div class="stat"><span class="l">err</span><span class="v err" id="statErr">—</span></div>
+      </div>
+      <button class="icon-btn" id="themeToggle" title="Toggle theme">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18" opacity="0.3"/></svg>
+      </button>
+      <button class="icon-btn" id="statsToggle" title="Stats drawer">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- TABS -->
+  <div class="tabs">
+    <div class="tab active" data-view="grid">Grid</div>
+    <div class="tab" data-view="map">Map</div>
+    <div class="tab" data-view="globe">Globe</div>
+    <div class="tab" data-view="ai">AI ▸ Insights</div>
+    <div class="tab-spacer"></div>
+    <div class="tab-extra">
+      <button class="icon-btn" id="shuffleBtn" title="Shuffle random cam">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20l16-16M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
+      </button>
+      <button class="icon-btn" id="pauseBtn" title="Pause all streams">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><rect x="6" y="5" width="4" height="14"/><rect x="14" y="5" width="4" height="14"/></svg>
+      </button>
+      <button class="icon-btn" id="settingsBtn" title="Settings">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.01a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      </button>
+      <button class="icon-btn" id="gridSizeBtn" title="Grid size (compact / wide)">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <span class="filter-label">type ›</span>
+    <div class="chip active" data-type="">all <span class="count" id="countAll">0</span></div>
+    <div class="chip" data-type="hls">hls <span class="count" id="countHls">0</span></div>
+    <div class="chip" data-type="youtube">youtube <span class="count" id="countYt">0</span></div>
+    <div class="chip" data-type="mjpeg">mjpeg <span class="count" id="countMjpeg">0</span></div>
+    <div class="chip" data-type="mp4">mp4 <span class="count" id="countMp4">0</span></div>
+    <span class="filter-label">›</span>
+    <select class="dropdown" id="countryFilter"><option value="">all countries</option></select>
+    <select class="dropdown" id="regionFilter" disabled><option value="">all regions</option></select>
+    <select class="dropdown" id="cityFilter" disabled><option value="">all cities</option></select>
+    <span class="filter-label">›</span>
+    <select class="dropdown" id="sortFilter">
+      <option value="idx">sort: idx</option>
+      <option value="confidence">sort: confidence</option>
+      <option value="country">sort: country</option>
+      <option value="city">sort: city</option>
+    </select>
+  </div>
+
+  <!-- MAIN -->
+  <div class="view" id="viewContainer">
+    <div class="grid-scroll" id="gridScroll">
+      <div class="grid-canvas" id="gridCanvas"></div>
+    </div>
+    <div class="empty" id="emptyState" style="display:none">
+      <div>
+        <h2>No cams match your filter</h2>
+        <p class="dim">Try clearing the search or selecting a different country.</p>
+      </div>
+    </div>
+    <div class="map-container" id="mapContainer" style="display:none"></div>
+    <div class="globe-container" id="globeContainer" style="display:none"></div>
+    <div class="ai-view" id="aiContainer" style="display:none"></div>
+  </div>
+
+</div>
+
+<!-- DETAIL MODAL -->
+<div class="modal" id="detailModal">
+  <div class="modal-box">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title" id="modalTitle">—</div>
+        <div class="modal-subtitle" id="modalSubtitle">—</div>
+      </div>
+      <button class="modal-close" id="modalClose" title="Close (Esc)">×</button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-video" id="modalVideo"></div>
+      <div class="modal-side" id="modalSide"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn" id="btnCopyUrl">copy URL</button>
+      <button class="btn" id="btnOpenRaw">open raw</button>
+      <button class="btn" id="btnFindSimilar">find similar</button>
+      <button class="btn" id="btnShare">share link</button>
+      <button class="btn primary" id="btnShowOnMap">show on map</button>
+    </div>
+  </div>
+</div>
+
+<!-- STATS DRAWER -->
+<div class="drawer" id="statsDrawer">
+  <div class="drawer-header">
+    <div class="drawer-title">SYSTEM <span class="a">▸</span> STATUS</div>
+    <button class="modal-close" id="statsClose">×</button>
+  </div>
+  <div class="drawer-body" id="statsBody">
+    <div style="color:var(--text-dim);text-align:center;padding:40px;" class="mono">loading…</div>
+  </div>
+</div>
+
+<!-- TOASTS -->
+<div class="toast-stack" id="toastStack"></div>
+
+<!-- SETTINGS DRAWER -->
+<div class="drawer" id="settingsDrawer">
+  <div class="drawer-header">
+    <div class="drawer-title">SETTINGS <span class="a">▸</span> CONFIG</div>
+    <button class="modal-close" id="settingsClose">×</button>
+  </div>
+  <div class="drawer-body" id="settingsBody">
+    <section class="settings-section">
+      <h3>Random Sampling</h3>
+      <div class="settings-row">
+        <label>Mode on grid view</label>
+        <select id="setRandomMode">
+          <option value="random">Random (truly random across all cams)</option>
+          <option value="stratified">Stratified (round-robin across countries)</option>
+          <option value="false">Off (use offset/limit only)</option>
+        </select>
+      </div>
+      <div class="settings-row">
+        <label>Map mode</label>
+        <select id="setMapMode">
+          <option value="random">Random</option>
+          <option value="stratified">Stratified</option>
+        </select>
+      </div>
+      <div class="settings-row">
+        <label>Auto-shuffle interval (sec)</label>
+        <input type="number" id="setShuffleSec" min="0" max="600" value="0">
+        <span class="dim">0 = disabled</span>
+      </div>
+    </section>
+
+    <section class="settings-section">
+      <h3>Page Size</h3>
+      <div class="settings-row">
+        <label>Visible tiles in grid</label>
+        <input type="number" id="setPageSize" min="10" max="500" value="60">
+      </div>
+      <div class="settings-row">
+        <label>Visible points in map/globe</label>
+        <input type="number" id="setMapPoints" min="500" max="20000" value="3000" step="500">
+      </div>
+    </section>
+
+    <section class="settings-section">
+      <h3>Filters</h3>
+      <div class="settings-row">
+        <label>Default type filter</label>
+        <select id="setDefaultType">
+          <option value="">all types</option>
+          <option value="hls">hls only</option>
+          <option value="youtube">youtube only</option>
+          <option value="mjpeg">mjpeg only</option>
+          <option value="mp4">mp4 only</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="settings-section">
+      <h3>Performance</h3>
+      <div class="settings-row">
+        <label><input type="checkbox" id="setGlobe3D" checked> Show 3D globe tab</label>
+      </div>
+      <div class="settings-row">
+        <label><input type="checkbox" id="setHeatmap" checked> Heatmap layer on globe</label>
+      </div>
+      <div class="settings-row">
+        <label><input type="checkbox" id="setLabels" checked> Country labels on map</label>
+      </div>
+    </section>
+
+    <section class="settings-section">
+      <h3>Reset</h3>
+      <div class="settings-row">
+        <button class="btn" id="setReset">Reset to defaults</button>
+        <button class="btn primary" id="setSave">Save</button>
+      </div>
+    </section>
+  </div>
+</div>
+
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

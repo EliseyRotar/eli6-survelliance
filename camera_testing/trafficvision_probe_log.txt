@@ -1,0 +1,6 @@
+[17:31:55] [init] probing all TV source IDs
+[17:31:55] [init] 845 sources to probe
+[17:31:56]   LIVE: bpjt (1086 cams)
+[17:32:00]   progress: 518/845
+[17:32:01]   LIVE: oktraffic (612 cams)
+[17:32:04] [done] 2 live sources, total 1698 cams

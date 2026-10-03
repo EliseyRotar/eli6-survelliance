@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+
+<title>What is your belly dance color?</title>
+<script type="text/javascript" src="http://www.rojisan.com/dancercolor/js/range.js"></script>
+<script type="text/javascript" src="http://www.rojisan.com/dancercolor/js/timer.js"></script>
+<script type="text/javascript" src="http://www.rojisan.com/dancercolor/js/slider.js"></script>
+<link type="text/css" rel="StyleSheet" href="http://www.rojisan.com/dancercolor/css/bc.css" />
+<style type="text/css">
+
+body, html {
+	margin:	0;
+	border:	0;
+	padding:	0;
+	width:		100%;
+	background:	rgb(230,230,230);
+	font:		Message-Box;
+}
+
+
+.content {
+	margin: 50px;
+}
+
+.subcontent {
+	width: 60%;
+	margin: 0px;
+}
+
+.dynamic-slider-control {
+	width:		auto;
+	height:	20px;
+	margin:	0;
+}
+
+.row { 
+	position: relative;
+	height: 25px;
+}
+
+.bigrow { 
+	position: relative;
+	height: 75px;
+}
+
+.slider-captionL { 
+	width: 100px;
+	float: left;
+	text-align: right;
+}
+
+.slider-captionR { 
+	width: 100px;
+	float: left;
+	text-align: left;
+}
+
+.slider { 
+	width: 200px;
+	left: 100px;
+	right: 100px;
+	float: left;
+	top: 0px;
+}
+
+.namebox {
+	left: 100px;
+	right: 100px;
+	float: left;
+	top: 0px;
+	font-weight: bold;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="content">
+		<h1>Belly dance Color Widget</a></h1>
+		<h3>
+		<a href="http://www.rojisan.com/dancercolor/about.php">About the widget</a>  ( New widget - Please report any strange behavior.  Suggestions welcome! )<br />
+		</h3>
+	<div class="subcontent">
+		<hr />
+		So, you're a belly dancer, are you?  Sure, you've got a mad shimmy, and maybe you can balance a sabre on your nose, 
+		but there's so many different <em>kinds</em> of belly dancers out there in the wild world - Cabaret?  Turkish?  Lebanese?  Tribal?  Fusion?  
+		Tribal Carbaret Lebanese Egyptian Fusion on Stilts with Poi?  It's all so confusing, how are you ever going to find your compatriots?
+		With colors, of course!  (hey, it works for gangs...)
+		<p />
+		We're here to help - find your color, show your color, and look for colors.  Three core dimensions of belly dance boiled down to one 85x85 pixel square, 
+		and if you like we'll even put your name on it.<br />
+		Enjoy!<br />	
+		<hr />
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="priv-slider"></label>
+		<div class="namebox">
+			Where do you prefer to perform?
+		</div>
+		<label class="slider-captionR" for="priv-slider"></label>
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="priv-slider">Private</label>
+		<div class="slider">
+			<div class="horizontal dynamic-slider-control" id="priv-slider">
+				<input class="slider-input" id="priv-slider-input" />
+			</div>
+		</div>
+		<label class="slider-captionR" for="priv-slider">Public</label>
+		<input class="sl-input" id="priv-input" type="hidden" />
+	</div>
+
+	<div class="row">
+		<label class="slider-captionL" for="priv-slider"></label>
+		<div class="namebox">
+			What sort of costume do you prefer?
+		</div>
+		<label class="slider-captionR" for="priv-slider"></label>
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="glit-slider">Earthy</label>
+		<div class="slider">
+			<div class="dynamic-slider-control" id="glit-slider">
+				<input class="slider-input" id="glit-slider-input" />
+			</div>
+		</div>
+		<label class="slider-captionR" for="glit-slider">Glitter</label>
+		<input class="sl-input" id="glit-input" type="hidden" />
+	</div>
+
+	<div class="row">
+		<label class="slider-captionL" for="priv-slider"></label>
+		<div class="namebox">
+			What style of dance do you prefer?
+		</div>
+		<label class="slider-captionR" for="priv-slider"></label>
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="trad-slider">Experimental</label>
+		<div class="slider">
+			<div class="dynamic-slider-control" id="trad-slider">
+				<input class="slider-input" id="trad-slider-input" />
+			</div>
+		</div>
+		<label class="slider-captionR" for="trad-slider">Traditional</label>
+		<input class="sl-input" id="trad-input" type="hidden" />
+	</div>
+
+	<div class="row">
+		<label class="slider-captionL" for="priv-slider"></label>
+		<div class="namebox">
+			What is your stage name (optional - used only to personalize your icon, and limited to about 14 characters)?
+		</div>
+		<label class="slider-captionR" for="priv-slider"></label>
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="name-input"></label>
+		<div class="namebox">
+			<input id="name-input" type="text" name="dancername" />
+		</div>
+		<label class="slider-captionR" for="priv-slider"></label>
+	</div>
+	<div class="row">
+		<label class="slider-captionL" for="go-button"></label>
+		<div class="namebox">
+			<input id="go-button" type="submit" name="Go" value="Show Me My Color" onclick="gobutton();" />
+		</div>
+		<label class="slider-captionR" for="go-button"></label>
+	</div>
+
+<!--
+<div class="row">
+	<label class="slider-captionL" for="code-button"></label>
+	<div class="namebox">
+		<input id="code-button" type="submit" name="Go" value="Show Me The Code" onclick="showcode();"/>
+	</div>
+	<label class="slider-captionR" for="code-button"></label>
+</div>
+<div class="row">
+	<label class="slider-captionL" for="props-checks"></label>
+	<div class="checks">
+		<input id="props-checks" />
+	</div>	
+	<label class="slider-captionR" for="props-checks"></label>
+</div>
+-->
+
+<hr />
+	<script type="text/javascript"><!--
+		google_ad_client = "pub-6543988535644082";
+		google_ad_width = 468;
+		google_ad_height = 60;
+		google_ad_format = "468x60_as";
+		google_ad_channel ="6685015537";
+		google_color_border = "CCCCCC";
+		google_color_bg = "FFFFFF";
+		google_color_link = "000000";
+		google_color_url = "666666";
+		google_color_text = "333333";
+		//--></script>
+		<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+		
+		<a href="http://www.one.org/">
+		<img src="http://www.rojisan.com/dancercolor/images/ONE_468X60_01.gif" width="468" height="60" alt="one.org banner" /></a>
+<hr />
+	<div class="subcontent">
+			Thanks to Erik Arvidsson for some of the script-magic, but whose site appears to be defunct as I build this.<br />
+			Javascript required.<br />
+			Since you're here, please visit <a href="http://www.rojisan.com/dance/">this community dance resource</a><br />
+	</div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+<!-- Hide from older browsers
+
+// init code
+var r = new Slider(document.getElementById("glit-slider"), document.getElementById("glit-slider-input"));
+r.setMaximum(100);
+var g = new Slider(document.getElementById("trad-slider"), document.getElementById("trad-slider-input"));
+g.setMaximum(100);
+var b = new Slider(document.getElementById("priv-slider"), document.getElementById("priv-slider-input"));
+b.setMaximum(100);
+
+var ri = document.getElementById("glit-input");
+ri.onchange = function () {
+	r.setValue(parseInt(this.value));
+};
+var gi = document.getElementById("trad-input");
+gi.onchange = function () {
+	g.setValue(parseInt(this.value));
+};
+var bi = document.getElementById("priv-input");
+bi.onchange = function () {
+	b.setValue(parseInt(this.value));
+};
+
+//var ic = new String(document.GetElementById("iconcode");
+
+r.setValue(50);
+g.setValue(50);
+b.setValue(50);
+//ic.setValue("");
+
+// end init
+
+function gobutton() {
+window.location= "http://www.rojisan.com/dancercolor/results.php?g=" + r.getValue() + 
+		    "&t=" + g.getValue() + 
+		    "&p=" + b.getValue() + 
+		    "&d=" + document.getElementById("name-input").value;
+}
+
+//function showcode() {
+//ic.SetValue("http://www.rojisan.com/dancercolor/results.php?g=" + r.getValue() + 
+//		    "&t=" + g.getValue() + 
+//		    "&p=" + b.getValue() + 
+//		    "&d=" + document.getElementById("name-input").value);
+//}
+
+// Stop hiding -->
+</script>
+
+</body>
+
+
+</html>

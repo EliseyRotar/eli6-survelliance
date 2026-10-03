@@ -1,0 +1,608 @@
+[
+  {
+    "lodge": "ol-donyo-lodge",
+    "name": "ol Donyo Lodge (Chyulu Hills)",
+    "yt_id": "XsOU8JnEpNM",
+    "yt_title": "ol Donyo Lodge Live | Chyulu Hills",
+    "country": "Kenya",
+    "region": "Chyulu Hills",
+    "lat": -2.683,
+    "lng": 37.85
+  },
+  {
+    "lodge": "angama-amboseli",
+    "name": "Angama Amboseli",
+    "yt_id": "i12eS_2YV-s",
+    "yt_title": "Angama Amboseli Live",
+    "country": "Kenya",
+    "region": "Amboseli",
+    "lat": -2.65,
+    "lng": 37.27
+  },
+  {
+    "lodge": "porini",
+    "name": "Porini Rhino Camp (Ol Pejeta)",
+    "yt_id": "5dhmXmUD1ZE",
+    "yt_title": "Porini Rhino Camp Live | Ol Pejeta",
+    "country": "Kenya",
+    "region": "Ol Pejeta",
+    "lat": 0.0,
+    "lng": 36.93
+  },
+  {
+    "lodge": "angamamara",
+    "name": "Angama Mara",
+    "yt_id": "Njur5IV7icE",
+    "yt_title": "Angama Mara Live",
+    "country": "Kenya",
+    "region": "Maasai Mara",
+    "lat": -1.45,
+    "lng": 35.0
+  },
+  {
+    "lodge": "marariver",
+    "name": "Mara River Fig Tree",
+    "yt_id": "ACc7IkdOF-Y",
+    "yt_title": "Mara River Fig Tree Crossing",
+    "country": "Kenya",
+    "region": "Mara Triangle",
+    "lat": -1.4,
+    "lng": 35.0
+  },
+  {
+    "lodge": "marariver-main",
+    "name": "Mara River Main Crossing",
+    "yt_id": "BaEFc79IMCA",
+    "yt_title": "Mara River Main Crossing",
+    "country": "Kenya",
+    "region": "Mara Triangle",
+    "lat": -1.4,
+    "lng": 35.0
+  },
+  {
+    "lodge": "tortilis",
+    "name": "Tortilis Camp (Amboseli)",
+    "yt_id": "XyPU5-pNg5E",
+    "yt_title": "Tortilis Camp Amboseli Live",
+    "country": "Kenya",
+    "region": "Amboseli",
+    "lat": -2.7,
+    "lng": 37.25
+  },
+  {
+    "lodge": "mahali-mzuri-waterhole",
+    "name": "Mahali Mzuri Waterhole",
+    "yt_id": "ZWhvO6R37ck",
+    "yt_title": "Mahali Mzuri Waterhole Live",
+    "country": "Kenya",
+    "region": "Maasai Mara",
+    "lat": -1.3,
+    "lng": 35.2
+  },
+  {
+    "lodge": "mahali-mzuri-landscape",
+    "name": "Mahali Mzuri Landscape",
+    "yt_id": "jIh2FYqMOw0",
+    "yt_title": "Mahali Mzuri Landscape Live",
+    "country": "Kenya",
+    "region": "Maasai Mara",
+    "lat": -1.3,
+    "lng": 35.2
+  },
+  {
+    "lodge": "finch-hattons",
+    "name": "Finch Hattons (Tsavo West)",
+    "yt_id": "Xe9CPAdyAro",
+    "yt_title": "Finch Hattons Live",
+    "country": "Kenya",
+    "region": "Tsavo West",
+    "lat": -3.0,
+    "lng": 38.0
+  },
+  {
+    "lodge": "lentorre-lodge",
+    "name": "Lentorre Lodge (Rift Valley)",
+    "yt_id": "bEmFpjwMOvs",
+    "yt_title": "Lentorre Lodge Live",
+    "country": "Kenya",
+    "region": "South Central Rift Valley",
+    "lat": -0.7,
+    "lng": 36.0
+  },
+  {
+    "lodge": "serengeti",
+    "name": "Elewana Serengeti Explorer",
+    "yt_id": "BmOLK7LTKbY",
+    "yt_title": "Live from the Serengeti | Wildlife Safari Cam | Serengeti Explorer",
+    "country": "Tanzania",
+    "region": "Serengeti",
+    "lat": -2.333,
+    "lng": 34.834,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "onguma-the-fort-live-stream-africam-live-camera-bordering-etosha-namibia",
+    "name": "Onguma - The Fort",
+    "yt_id": "p8cxqCV85bI",
+    "yt_title": "Introducing Onguma's Live Wildlife Camera!",
+    "country": "Namibia",
+    "region": "Etosha",
+    "lat": -19.0,
+    "lng": 15.917,
+    "secondary_cams": [
+      {
+        "yt_id": "yuIm1V7Ne7I",
+        "title": "LIVE: Onguma Waterhole - Elephants, Giraffes & More | Namibia 24/7"
+      }
+    ]
+  },
+  {
+    "lodge": "safarihoek",
+    "name": "Safarihoek",
+    "yt_id": "kMl8ST21Yt8",
+    "yt_title": "Live Wildlife Camera At Safarihoek, Namibia",
+    "country": "Namibia",
+    "region": "Etosha Heights",
+    "lat": -19.5,
+    "lng": 15.833,
+    "secondary_cams": [
+      {
+        "yt_id": "qwvk5hbEJnY",
+        "title": "Safarihoek - Namibia | Live Wildlife Camera"
+      }
+    ]
+  },
+  {
+    "lodge": "deteemasprings",
+    "name": "Deteema Springs",
+    "yt_id": "m4cAV-_7YpY",
+    "yt_title": "LIVE from Deteema Springs | Hwange National Park, Zimbabwe",
+    "country": "Zimbabwe",
+    "region": "Hwange",
+    "lat": -19.0,
+    "lng": 26.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "the-hide",
+    "name": "The Hide",
+    "yt_id": "nXI-kWu6BLo",
+    "yt_title": "Live Wildlife Camera at The Hide | Hwange Waterhole, Zimbabwe",
+    "country": "Zimbabwe",
+    "region": "Hwange",
+    "lat": -19.0,
+    "lng": 26.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "linkwasha",
+    "name": "Wilderness Linkwasha",
+    "yt_id": "-rXriX4SiQk",
+    "yt_title": "Wilderness Linkwasha LIVE Cam | Hwange Waterhole 24/7 Wildlife Stream",
+    "country": "Zimbabwe",
+    "region": "Hwange",
+    "lat": -19.0,
+    "lng": 26.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "hwange-safari-lodge",
+    "name": "Hwange Safari Lodge",
+    "yt_id": "DhCfRI7XssU",
+    "yt_title": "Hwange Safari Lodge - Zimbabwe | Live Wildlife Stream",
+    "country": "Zimbabwe",
+    "region": "Hwange",
+    "lat": -19.0,
+    "lng": 26.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "tembo-plains",
+    "name": "Tembo Plains",
+    "yt_id": "jH3e5w4BWGA",
+    "yt_title": "LIVE from the Zambezi River | Tembo Plains Safari Cam",
+    "country": "Zimbabwe",
+    "region": "Sapi Private Reserve",
+    "lat": -15.85,
+    "lng": 29.95,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "victoria-falls-safari-lodge",
+    "name": "Victoria Falls Safari Lodge",
+    "yt_id": "f9uqHbXChno",
+    "yt_title": "Victoria Falls Safari Lodge | Live Waterhole Cam - Elephants, Buffalo & More | Zimbabwe",
+    "country": "Zimbabwe",
+    "region": "Victoria Falls",
+    "lat": -17.925,
+    "lng": 25.857,
+    "secondary_cams": [
+      {
+        "yt_id": "v4zcdC-fEKw",
+        "title": "LIVE at Victoria Falls Safari Lodge | Waterhole & Vulture Experience"
+      }
+    ]
+  },
+  {
+    "lodge": "senyati",
+    "name": "Senyati Safari Camp",
+    "yt_id": "EdDdTrahHjI",
+    "yt_title": "Senyati Waterhole LIVE | Elephants & Wildlife in Botswana",
+    "country": "Botswana",
+    "region": "Chobe",
+    "lat": -18.5,
+    "lng": 24.0,
+    "secondary_cams": [
+      {
+        "yt_id": "EdDdTrahHjI",
+        "title": "Senyati Waterhole LIVE | Elephants & Wildlife in Botswana"
+      }
+    ]
+  },
+  {
+    "lodge": "kalahari",
+    "name": "Kalahari Salt Pan",
+    "yt_id": "ZVRUiKmCs84",
+    "yt_title": "Kalahari Salt Pan | Conservation Live Cam",
+    "country": "Botswana",
+    "region": "Makgadikgadi Pans",
+    "lat": -20.5,
+    "lng": 25.5,
+    "secondary_cams": [
+      {
+        "yt_id": "ZVRUiKmCs84",
+        "title": "Kalahari Salt Pan | Conservation Live Cam"
+      }
+    ]
+  },
+  {
+    "lodge": "twin-pan",
+    "name": "Twin Pan - Zarafa Camp",
+    "yt_id": "2EZavJUNdLI",
+    "yt_title": "Twin Pan Live Hide Cam | Zarafa Camp | Selinda Reserve, Botswana",
+    "country": "Botswana",
+    "region": "Selinda Reserve",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": [
+      {
+        "yt_id": "2EZavJUNdLI",
+        "title": "Twin Pan Live Hide Cam | Zarafa Camp | Selinda Reserve, Botswana"
+      }
+    ]
+  },
+  {
+    "lodge": "thebasin-selinda",
+    "name": "The Basin - Selinda Camp",
+    "yt_id": "vEEGzyCvL8Q",
+    "yt_title": "The Basin Live Hide Cam | By Selinda Camp | Botswana",
+    "country": "Botswana",
+    "region": "Selinda Reserve",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": [
+      {
+        "yt_id": "vEEGzyCvL8Q",
+        "title": "The Basin Live Hide Cam | By Selinda Camp | Botswana"
+      }
+    ]
+  },
+  {
+    "lodge": "jackscamp",
+    "name": "Jack's Camp",
+    "yt_id": "jG0uYl5S44E",
+    "yt_title": "Live from Jack's Camp | Kalahari Waterhole Cam - Elephants, Lions & More",
+    "country": "Botswana",
+    "region": "Makgadikgadi Pans",
+    "lat": -20.5,
+    "lng": 25.5,
+    "secondary_cams": [
+      {
+        "yt_id": "jG0uYl5S44E",
+        "title": "Live from Jack’s Camp | Kalahari Waterhole Cam - Elephants, Lions & More"
+      }
+    ]
+  },
+  {
+    "lodge": "meno",
+    "name": "Meno a Kwena",
+    "yt_id": "RZFMYVNhd4k",
+    "yt_title": "LIVE: Zebra Migration at Meno a Kwena | Botswana Wildlife Safari Cam",
+    "country": "Botswana",
+    "region": "Boteti River",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "camelthorn",
+    "name": "Camelthorn",
+    "yt_id": "mk02pEy3FdA",
+    "yt_title": "Camelthorn Waterhole Live - Zebra Migration, Hippos & More | Botswana",
+    "country": "Botswana",
+    "region": "Boteti River",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": [
+      {
+        "yt_id": "mk02pEy3FdA",
+        "title": "Camelthorn Waterhole Live - Zebra Migration, Hippos & More | Botswana"
+      }
+    ]
+  },
+  {
+    "lodge": "moela",
+    "name": "Moela Lodge",
+    "yt_id": "54Y7xlLrkuo",
+    "yt_title": "Moela Safari Lodge LIVE - Zebra Migration | Boteti River, Botswana",
+    "country": "Botswana",
+    "region": "Boteti River",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": [
+      {
+        "yt_id": "54Y7xlLrkuo",
+        "title": "Moela Safari Lodge LIVE - Zebra Migration | Boteti River, Botswana"
+      }
+    ]
+  },
+  {
+    "lodge": "elephant-pan",
+    "name": "Elephant Pan",
+    "yt_id": "QJe1tGI1EZc",
+    "yt_title": "Elephant Pan (Hyena Pan) - Botswana | Live Wildlife Camera",
+    "country": "Botswana",
+    "region": "Khwai Private Reserve",
+    "lat": -19.0,
+    "lng": 23.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "ulusaba",
+    "name": "Ulusaba",
+    "yt_id": "zqc0Z2oWmo8",
+    "yt_title": "Ulusaba Live Wildlife Camera | Sabi Sand, South Africa",
+    "country": "South Africa",
+    "region": "Sabi Sand",
+    "lat": -24.766,
+    "lng": 31.5,
+    "secondary_cams": [
+      {
+        "yt_id": "zqc0Z2oWmo8",
+        "title": "Ulusaba Live Wildlife Camera | Sabi Sand, South Africa"
+      }
+    ]
+  },
+  {
+    "lodge": "black-eagle",
+    "name": "Black Eagle Nest",
+    "yt_id": "xsiM3-M5bmo",
+    "yt_title": "LIVE Black Eagle Nest Cam 2026 | Breeding Season - South Africa",
+    "country": "South Africa",
+    "region": "Selati Game Reserve",
+    "lat": -23.5,
+    "lng": 30.0,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "hesc",
+    "name": "HESC",
+    "yt_id": "YhXWGJQtEQY",
+    "yt_title": "24/7 Live: Rhino Orphans at HESC | Watch Endangered Rhinos Up Close!",
+    "country": "South Africa",
+    "region": "Hoedspruit",
+    "lat": -24.35,
+    "lng": 30.95,
+    "secondary_cams": [
+      {
+        "yt_id": "YhXWGJQtEQY",
+        "title": "24/7 Live: Rhino Orphans at HESC | Watch Endangered Rhinos Up Close!"
+      },
+      {
+        "yt_id": "ZOmcttMcjOI",
+        "title": "HTTP403"
+      }
+    ]
+  },
+  {
+    "lodge": "penguins",
+    "name": "Penguins",
+    "yt_id": "NiwrvhQIHIo",
+    "yt_title": "Watch African Penguins LIVE | Stony Point Colony | South Africa",
+    "country": "South Africa",
+    "region": "Stony Point",
+    "lat": -34.367,
+    "lng": 18.883,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "lesser-flamingos",
+    "name": "Lesser Flamingos",
+    "yt_id": "IdDorfgnATw",
+    "yt_title": "Kamfers Dam | Flamingos, Birds & Wildlife 24/7",
+    "country": "South Africa",
+    "region": "Kamfers Dam",
+    "lat": -29.667,
+    "lng": 18.5,
+    "secondary_cams": [
+      {
+        "yt_id": "IdDorfgnATw",
+        "title": "Kamfers Dam | Flamingos, Birds & Wildlife 24/7"
+      }
+    ]
+  },
+  {
+    "lodge": "serondella",
+    "name": "Serondella",
+    "yt_id": "BMQifTcOgts",
+    "yt_title": "Serondella | LIVE Wildlife Camera - South Africa",
+    "country": "South Africa",
+    "region": "Thornybush Game Reserve",
+    "lat": -24.5,
+    "lng": 31.2,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "kingscamp",
+    "name": "Kings Camp",
+    "yt_id": "_AyumoafMOU",
+    "yt_title": "Kings Camp | Live Wildlife Stream",
+    "country": "South Africa",
+    "region": "Timbavati Game Reserve",
+    "lat": -24.0,
+    "lng": 31.25,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "naledi-bush-lodge",
+    "name": "Naledi Bush Lodge",
+    "yt_id": "QGvjAPzImR8",
+    "yt_title": "Cat Eye LIVE Camera | Naledi Lodge, Greater Kruger Park",
+    "country": "South Africa",
+    "region": "Olifants West",
+    "lat": -24.0,
+    "lng": 31.25,
+    "secondary_cams": [
+      {
+        "yt_id": "Cq2qCph6Lx8",
+        "title": "Rosie's Pan | Wildlife Live Stream – Greater Kruger National Park"
+      },
+      {
+        "yt_id": "NapztoCaKFY",
+        "title": "Olifants River | Wildlife Live Stream – Greater Kruger National Park"
+      },
+      {
+        "yt_id": "S4GIPXZnQTM",
+        "title": "Naledi Dam | Wildlife Live Stream – Greater Kruger National Park"
+      }
+    ]
+  },
+  {
+    "lodge": "nkorho-bush-lodge",
+    "name": "Nkorho Bush Lodge",
+    "yt_id": "sQAhSkjRKGk",
+    "yt_title": "Live Safari from Nkorho Bush Lodge | 24/7 Wildlife in Sabi Sand, South Africa",
+    "country": "South Africa",
+    "region": "Sabi Sand",
+    "lat": -24.766,
+    "lng": 31.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "silvan-safari",
+    "name": "Silvan Safari",
+    "yt_id": "C9hjksOtngo",
+    "yt_title": "Roy’s Dam LIVE Cam | Big 5 Wildlife in Sabi Sand, South Africa",
+    "country": "South Africa",
+    "region": "Sabi Sand",
+    "lat": -24.766,
+    "lng": 31.5,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "simbavati-waterside",
+    "name": "Simbavati Waterside",
+    "yt_id": "zh5QHh9prA0",
+    "yt_title": "Simbavati Waterside Live Wildlife Camera | Klaserie Reserve, South Africa",
+    "country": "South Africa",
+    "region": "Klaserie",
+    "lat": -24.0,
+    "lng": 31.25,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "tembe-elephant-park",
+    "name": "Tembe Elephant Park",
+    "yt_id": "gdrNUUf-cQw",
+    "yt_title": "Tembe Elephant Park | Wildlife Live Stream",
+    "country": "South Africa",
+    "region": "Maputaland",
+    "lat": -27.0,
+    "lng": 32.5,
+    "secondary_cams": [
+      {
+        "yt_id": "gdrNUUf-cQw",
+        "title": "Tembe Elephant Park | Wildlife Live Stream"
+      }
+    ]
+  },
+  {
+    "lodge": "tau-game-lodge",
+    "name": "Tau Game Lodge",
+    "yt_id": "8J9USywkGmw",
+    "yt_title": "Tau Game Lodge | Wildlife Live Stream - Madikwe",
+    "country": "South Africa",
+    "region": "Madikwe",
+    "lat": -24.75,
+    "lng": 26.4,
+    "secondary_cams": [
+      {
+        "yt_id": "8J9USywkGmw",
+        "title": "Tau Game Lodge | Wildlife Live Stream – Madikwe"
+      }
+    ]
+  },
+  {
+    "lodge": "kwa-maritane",
+    "name": "Kwa Maritane Bush Lodge",
+    "yt_id": "aWglOXp5id0",
+    "yt_title": "Africam - Kwa Maritane",
+    "country": "South Africa",
+    "region": "Pilanesberg",
+    "lat": -25.25,
+    "lng": 27.083,
+    "secondary_cams": [
+      {
+        "yt_id": "aWglOXp5id0",
+        "title": "Africam - Kwa Maritane"
+      }
+    ]
+  },
+  {
+    "lodge": "kruger-shalati",
+    "name": "Kruger Shalati",
+    "yt_id": "0mmIsIZXJx4",
+    "yt_title": "Kruger Shalati Bridge View | LIVE Wildlife Stream",
+    "country": "South Africa",
+    "region": "Kruger National Park",
+    "lat": -25.0,
+    "lng": 31.5,
+    "secondary_cams": [
+      {
+        "yt_id": "oeHJXG9mMrI",
+        "title": "Kruger Shalati – Skukuza"
+      },
+      {
+        "yt_id": "eTZ6ZgI8oG0",
+        "title": "Kruger Shalati – Shalati Sunrise"
+      }
+    ]
+  },
+  {
+    "lodge": "jabulani-safari-lodge",
+    "name": "Jabulani Safari Lodge",
+    "yt_id": "8JzwlpcVyKM",
+    "yt_title": "Jabulani: Live Wildlife Stream From South Africa",
+    "country": "South Africa",
+    "region": "Kapama",
+    "lat": -24.45,
+    "lng": 31.0,
+    "secondary_cams": []
+  },
+  {
+    "lodge": "founders-lodge-by-mantis",
+    "name": "Founders Lodge",
+    "yt_id": "LaicUirnDJ4",
+    "yt_title": "Founders Lodge By Mantis | Wildlife Live Stream",
+    "country": "South Africa",
+    "region": "Eastern Cape",
+    "lat": -33.5,
+    "lng": 26.5,
+    "secondary_cams": [
+      {
+        "yt_id": "LaicUirnDJ4",
+        "title": "Founders Lodge By Mantis | Wildlife Live Stream"
+      }
+    ]
+  }
+]

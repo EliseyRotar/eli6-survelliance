@@ -1,0 +1,73 @@
+{
+  "manifests": [
+    {
+      "url": "https://api.trafficvision.live/internal/manifest",
+      "status": 200,
+      "body": "{\"version\":\"2026-08-21T16:51:17.831Z\",\"totalCameras\":163543,\"excludedSources\":[\"oktraffic\",\"bpjt\"],\"badges\":{\"user-\":\"LOCAL\",\"virginiatech-\":\"VIRGINIA TECH\",\"nycdot-\":\"NYCDOT\",\"friantroulette-\":\"FRIANT ROULETTE\",\"mtu-\":\"MTU\",\"cfht-\":\"CFHT\",\"seaice-\":\"UAF SEA ICE\",\"uaf-\":\"UAF\",\"noirlab-\":\"NOIRLAB\",\"a"
+    }
+  ],
+  "shards": [
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/8c796a393d.json",
+      "status": 200,
+      "size": 8030234
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/642c8df80e.json",
+      "status": 200,
+      "size": 8358523
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/75f5e81f2a.json",
+      "status": 200,
+      "size": 8648149
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/9a1532f14e.json",
+      "status": 200,
+      "size": 8614831
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/c339219f3d.json",
+      "status": 200,
+      "size": 8987740
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/5ae2041496.json",
+      "status": 200,
+      "size": 8558033
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/59077ce88d.json",
+      "status": 200,
+      "size": 8048224
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/42dbfe5ace.json",
+      "status": 200,
+      "size": 8603510
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/86f9fe39fd.json",
+      "status": 200,
+      "size": 8644927
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/8e4c5f1c80.json",
+      "status": 200,
+      "size": 8874547
+    },
+    {
+      "url": "https://api.trafficvision.live/internal/catalog/shards/b86ae0b70e.json",
+      "status": 200,
+      "size": 8378297
+    }
+  ],
+  "session": [
+    {
+      "url": "https://app.trafficvision.live/api/session",
+      "status": 201,
+      "body": "{\"token\":\"eyJ2IjoxLCJzY29wZSI6InNpdGUiLCJleHAiOjE3ODc3NjU0NzUsIm4iOiJTT1U4cUZGajM1dyJ9.W9bEmdQyrafySnnnkA4Z0vEodd_8uT0Lsl5Yfqwfmq0\",\"expiresIn\":900}"
+    }
+  ]
+}

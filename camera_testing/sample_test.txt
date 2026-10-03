@@ -1,0 +1,70 @@
+﻿Testing random cams from top sources...
+
+
+=== trafficvision (107,347 cams) ===
+  [149874]  HLS 404   5th Ave & Mercer St EW
+           https://61e0c5d388c2e.streamlock.net/live/5_Mercer_EW.stream/playlist.m3u8
+  [80484]  JPG 200   Dar?ny, Route 6, 6.sz f??t 252+0km
+           https://cdnuiwebcams.utinform.hu/webcamimages/mcs188_1.jpg
+  [69151]  JPG 200   Panama City Beach, Adventures at Sea Boat Station
+           https://g1.ipcamlive.com/player/player.php?alias=59a82f32b1567&autoplay=1&mute=1
+
+=== argus (57,715 cams) ===
+  [51331]  JPG 200   cam webcam (argus)
+           https://cam.river.go.jp/cam/now/cctv_230006_51C01918.jpg
+  [20707]  JPG 200   usgs-nims-images webcam (argus)
+           https://usgs-nims-images.s3.amazonaws.com/720/AK_Shishmaref_C2/AK_Shishmaref_C2_newest.jpg
+  [18729]  JPG 200   wtvpict webcam (argus)
+           https://wtvpict.feratel.com/picture/42/15114.jpeg
+
+=== opencctv (4,915 cams) ===
+  [62870]  JPG 200   Sheridan Rd. at Nebraska Ave. (#4265) (North) webc
+           https://cctv.travelmidwest.com/snapshots/IL-IDOTD4_4_Peoria_SB_Sheridan_4071047_-8960353_1_N.jpg
+  [61573]  JPG 200   Bloomingdale / Fullerton (South) webcam
+           https://cctv.travelmidwest.com/snapshots/IL-DUPAGECOUNTY_1_DuPage_SB_Bloomingdale_4191749_-8808140_1
+  [60503]  JPG 403   AL 118 @ AL 129 webcam
+           https://api.algotraffic.com/v4/Cameras/1913/snapshot.jpg
+
+=== unknown (3,737 cams) ===
+  [58178]  HLS 200   Virginia Jones Branch Dr. at S (live_env/vdot/traf
+           https://media-sfs7.vdotcameras.com:443/rtplive/NO0022/playlist.m3u8
+  [58553]  JPG 200   nav webcam (argus)
+           https://nav.vyncke.org/rapcs/snapshot-apron.jpg?random=1748878308770
+  [59174]  HLS 200   cdn1 webcam (argus)
+           https://cdn1.webcams.bg:8080/hls/golden_ina.m3u8
+
+=== tfl (880 cams) ===
+  [61629]  MP4 200   Baker_St_Marylebone_Rd (Tfl)
+           https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07369.mp4
+  [60582]  MP4 200   Waterworks_R_B (Tfl)
+           https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00002.00861.mp4
+  [61682]  MP4 200   Barking_Rd___W_of_Bartle_Ave (Tfl)
+           https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.02307.mp4
+
+=== caltrans (425 cams) ===
+  [60491]  JPG 200   SR-73____331__South_of_Laguna_Hills_Driv cam
+           https://cwwp2.dot.ca.gov/data/d12/cctv/image/sr73331southoflagunahillsdriveovercross/sr73331southofl
+  [60036]  JPG 200   49_-_EB_SR-12_Jct_SR-160_RWIS cam
+           https://cwwp2.dot.ca.gov/data/d10/cctv/image/49ebsr12jctsr160rwis/49ebsr12jctsr160rwis.jpg
+  [60035]  JPG 200   48_-_EB_SR_12_Brannan_Island_Rd_RWIS cam
+           https://cwwp2.dot.ca.gov/data/d10/cctv/image/48ebsr12brannanislandrdrwis/48ebsr12brannanislandrdrwis
+
+=== netlas (32 cams) ===
+  [65577]  JPG err   ???????????????, ???????? ????????????, ???????? ?
+           https://178.69.7.114:443/
+  [65595]  JPG err   216.24.57.1 IP cam
+           https://216.24.57.1:443/
+  [65698]  JPG err   All Technology Security | Security &amp; Electrica
+           https://216.70.72.66:443/
+
+=== mass_scan3_rtsp (15 cams) ===
+  [173681]  JPG err   Istanbul RTSP cam
+           rtsp://85.105.0.125:554/Streaming/tracks/101
+  [174025]  JPG err   Istanbul RTSP cam
+           rtsp://85.105.0.49:554/live/0/main
+  [63204]  JPG err   Istanbul RTSP cam
+           rtsp://85.105.0.154:554/Streaming/tracks/101
+
+
+Total OK: 16, Total Dead/Error: 8
+

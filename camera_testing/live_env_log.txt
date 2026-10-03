@@ -1,0 +1,12 @@
+[15:19:44] [init] 649 existing hosts
+[15:19:44] [load] 5997 streams from willytop8/Live-Environment-Streams
+[15:19:44] [cands] 2701 candidates (skipped 1297 html_page)
+[15:19:44]   ADDED #25 (Tenby Harbour, UK / GB)
+[15:19:44]   err: 'charmap' codec can't encode character '\u017c' in position 37: character maps to <undefined>
+[15:19:44]   ADDED #75 (Appalachian Ski Mountain Resort, USA / US)
+[15:19:45]   ADDED #100 (Vërmicë, White Drin / XK)
+[15:19:45] [done] added 103, skipped 2598 dup, dedup-csv-host=752
+[19:13:26] [init] 1081 existing hosts
+[19:13:26] [load] 5997 streams from willytop8/Live-Environment-Streams
+[19:13:26] [cands] 0 candidates (skipped 1297 html_page)
+[19:13:26] [done] added 0, skipped 0 dup, dedup-csv-host=1081

@@ -1,0 +1,97 @@
+﻿Pages: 1
+=== Page 1 ===
+Last Upda ted on 19th April 2016
+DanNoland
+http://nolandda.org/
+nolandda@gmail.c om | 765.532. 7327
+EDUCATION
+PURDUE UNIVERSITY
+MS COMPUTER SCIENCE
+Dec 2004 | Wes t La f a ye t te, IN
+BS COMPUTER SCIENCE
+Ma y 2001 | Wes t La f a ye t te, IN
+SKILLS
+PROGRAMMING
+S tr onges t
+CÔÇóC++ÔÇóPerl
+S tr ong
+JavaÔÇóPython ÔÇóx86Assembly
+F amiliar
+Pascal ÔÇóPPCAssembly ÔÇóSQL
+OTHER SKILLS
+Reverse Engineering ÔÇóCryptography
+Anti-Tamper ÔÇóVulnerability Assessment
+Scrum Master ÔÇóContinuous Integration
+Agile Development ÔÇóUnitTesting
+gdbÔÇóIDAProÔÇóWinDbg
+Systems Programming ÔÇóTCP/IP
+XML ÔÇóCGIÔÇóLinux ÔÇóWindows
+Linkers &Loaders ÔÇóCOFF ÔÇóELF
+Network Security ÔÇótcpdump ÔÇóDNS
+Firewalls ÔÇóSSHÔÇóSSL
+CLEARANCE
+TS/SCI
+COURSEWORK
+GRADUATE
+Information Assurance &Security
+Cryptography
+Operating Systems
+Algorithm Design &Analysis
+Network System Design
+Compiler Design
+UNDERGRADUATE
+Computer Architecture
+Data Structures
+Operating Systems
+Software Engineering
+Computer Networking
+Security
+Arti´¼ücial IntelligenceEXPERIENCE
+STAR LAB | SENIOR SECURITY ARCHITECT
+Feb . 2015 ÔÇô Presen t | W ashingt on, DC
+ÔÇóServed asAnti-tamper subject mater expert foralarge Navy program. Created
+white papers andbriefed leadership.
+ÔÇóImplemented custom security algorithms toensure thatthesystem was
+running onauthorized hardware using acustom SYSLINUX bootloader and
+standard cryptographic algorithms.
+ÔÇóConducted research anddevelopment intonovel applications ofIntelSGX
+technologies.
+MICROSEMI | SOFTWARE LEAD / SR. SOFTWARE ENGINEER
+Sept. 2010 ÔÇô J an 2015 | Wes t La f a ye t te, IN
+ÔÇóLedsoftware team of8+todevelop thecompanyÔÇÖs new´¼éagship software
+protection engine withtheability toobfuscate andprotect x86andPPCcode.
+ÔÇóImplemented ÔÇ£whiteboxÔÇØ versions ofmany standard cryptographic algorithms
+including RSA, AES,andECC tomitigate keylifting attacks onhostile targets by
+mathematically decomposing keys.
+ÔÇóServed ontheDesign andArchitecture Committee with´¼ünaloversight of
+software architecture forthedivision.
+ÔÇóSpread technical knowledge byacting astechnical expert atsales calls,
+providing training, andhelping customers resolve issues.
+ARXAN DEFENSE SYSTEMS | SOFTWARE LEAD / SR. SOFTWARE
+ENGINEER
+Dec. 2004 ÔÇô Sept. 2010 | Wes t La f a ye t te, IN
+ÔÇóWorked onateam thatsuccessfully reverse engineered (Red Team) and
+defeated amajor DRM system.
+ÔÇóForti´¼üed customer code against tampering andreverse engineering with
+custom-developed software protection mechanisms.
+ÔÇóDesigned andimplemented anevolutionary algorithm toautomatically
+generate software protections.
+ÔÇóDesigned andimplemented asoftware protection webportal allowing
+customers toremotely protect their software.
+ÔÇóAdded newfeatures and´¼üxed defects inthecoresoftware protection engine.
+ÔÇóContributed toanumber ofDoD SBIR proposals resulting intotalawards in
+excess of$500,000. Personally authored aproposal resulting inanaward of
+$200,000.
+PURDUE UNIVERSITY RESEARCH COMPUTING | PROGRAMMER
+J un. 2003 ÔÇô Dec. 2 004 | Wes t La f a ye t te, IN
+ÔÇóWorked withprofessors inengineering, statistics, andmathematics tohelp
+them optimize andimprove their research code.
+ÔÇóAdministered gridcomputing tools, certi´¼ücates, andaccounts.
+PUBLICATIONS
+ÔÇóK.Simonsen, D.Noland, andC.Le:AnEf´¼ücient Algorithm forSimulating
+Coalescence withRecombination. Computing Science andStatistics Volume 36
+ÔÇóP.Meunier, S.Nystrom, S.Kamara, S.Yost, K.Alexander, D.Noland, andJ.Crane:
+ActiveSync, TCP/IP and802.11b Wireless Vulnerabilities ofWinCE-Based
+PDAs. Proceedings ofEleventh IEEE International Workshops onEnabling
+Technologies
+1

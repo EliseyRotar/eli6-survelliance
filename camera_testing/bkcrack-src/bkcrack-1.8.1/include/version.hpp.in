@@ -1,0 +1,7 @@
+#ifndef BKCRACK_VERSION_HPP
+#define BKCRACK_VERSION_HPP
+
+constexpr auto bkcrackVersion     = "@bkcrack_VERSION@";
+constexpr auto bkcrackVersionDate = "@bkcrack_VERSION_DATE@";
+
+#endif // BKCRACK_VERSION_HPP

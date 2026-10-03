@@ -1,0 +1,5 @@
+[18:31:20] [init] TV v4c - YouTube ID missing cams
+[18:31:20]   606 YouTube-only missing cams
+[18:31:22]   existing: 182,026 URLs, 109,214 TV IDs
+[18:31:22] 
+[done] added 0, skipped 606, in 0.0s

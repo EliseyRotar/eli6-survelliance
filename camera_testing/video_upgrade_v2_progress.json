@@ -1,0 +1,106 @@
+{
+  "tested": {
+    "212.30.222.18:80": {
+      "video": "http://212.30.222.18:80/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "humcam1.utm.edu:80": {
+      "video": "http://humcam1.utm.edu:80/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "193.242.215.2:8001": {
+      "video": "http://193.242.215.2:8001/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary",
+      "vendor": "AXIS"
+    },
+    "91.233.230.14:80": {
+      "video": "http://91.233.230.14:80/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary",
+      "vendor": "AXIS"
+    },
+    "91.233.230.13:80": {
+      "video": "http://91.233.230.13:80/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary",
+      "vendor": "AXIS"
+    },
+    "133.43.28.115:80": {
+      "video": "http://133.43.28.115:80/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    },
+    "109.247.15.178:6001": {
+      "video": "http://109.247.15.178:6001/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "109.206.96.98:8080": {
+      "video": "http://109.206.96.98:8080/cam_1.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary; charset=iso-8859-1",
+      "vendor": "WebcamXP"
+    },
+    "109.206.96.230:8080": {
+      "video": "http://109.206.96.230:8080/cam_1.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary; charset=iso-8859-1",
+      "vendor": "WebcamXP"
+    },
+    "109.206.96.96:8080": {
+      "video": "http://109.206.96.96:8080/cam_1.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary; charset=iso-8859-1",
+      "vendor": "WebcamXP"
+    },
+    "109.206.96.127:8080": {
+      "video": "http://109.206.96.127:8080/cam_1.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary; charset=iso-8859-1",
+      "vendor": "WebcamXP"
+    },
+    "109.206.96.247:8080": {
+      "video": "http://109.206.96.247:8080/cam_1.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=--myboundary; charset=iso-8859-1",
+      "vendor": "WebcamXP"
+    },
+    "153.142.11.156:80": {
+      "video": "http://153.142.11.156:80/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    },
+    "166.251.9.197:8081": {
+      "video": "http://166.251.9.197:8081/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    },
+    "213.161.240.154:8080": {
+      "video": "http://213.161.240.154:8080/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "173.219.84.12:8000": {
+      "video": "http://173.219.84.12:8000/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "70.61.109.142:80": {
+      "video": "http://70.61.109.142:80/axis-cgi/mjpg/video.cgi",
+      "ct": ": multipart/x-mixed-replace; boundary=myboundary",
+      "vendor": "AXIS"
+    },
+    "63.47.84.71:8001": {
+      "video": "http://63.47.84.71:8001/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    },
+    "166.239.195.8:80": {
+      "video": "http://166.239.195.8:80/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    },
+    "183.77.212.197:8081": {
+      "video": "http://183.77.212.197:8081/-wvhttp-01-/getoneshot?image=img",
+      "ct": ": image/jpeg",
+      "vendor": "Canon"
+    }
+  },
+  "upgraded": 0,
+  "videos": []
+}

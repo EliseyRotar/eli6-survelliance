@@ -1,0 +1,169 @@
+"""Webcam viewer v2 - supports HLS streams via hls.js.
+
+Auto-detects HLS (.m3u8) vs MJPEG vs image and uses the right player.
+"""
+<!DOCTYPE html>
+<html>
+<head>
+<title>Webcam Viewer v2 (HLS + MJPEG + Image)</title>
+<style>
+  body { font-family: monospace; background: #111; color: #ddd; padding: 10px; margin: 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 8px; }
+  .cam { background: #222; padding: 6px; border-radius: 4px; position: relative; }
+  .cam .label { font-size: 11px; padding: 2px 4px; color: #aaa; }
+  .cam .label .name { color: #fff; font-weight: bold; }
+  .cam .label .type { background: #444; padding: 1px 4px; border-radius: 2px; font-size: 9px; }
+  .cam .label .type.video-hls { background: #084; }
+  .cam .label .type.video-mjpeg { background: #246; }
+  .cam .label .type.image { background: #642; }
+  .cam img, .cam video { width: 100%; height: 240px; object-fit: contain; background: #000; }
+  .cam .refresh { position: absolute; top: 4px; right: 4px; background: #000a; color: #fff; border: 0; padding: 1px 4px; cursor: pointer; font-size: 10px; }
+  .cam .refresh:hover { background: #444; }
+  .search { width: 100%; padding: 8px; background: #222; color: #fff; border: 1px solid #444; }
+  .stats { margin: 8px 0; padding: 4px; background: #222; border-radius: 4px; font-size: 12px; }
+  .error { background: #500; padding: 4px; margin: 4px 0; border-radius: 3px; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13"></script>
+</head>
+<body>
+
+<h2>Webcam Viewer v2</h2>
+<input class="search" id="search" placeholder="Search cams... (e.g. fl511, rtsp, 511)" />
+<div class="stats" id="stats">Loading...</div>
+<div class="grid" id="grid"></div>
+
+<script>
+const API = '/list';  // can be overridden
+let cams = [];
+let filteredCams = [];
+let hlsInstances = {};
+
+async function loadCams() {
+  try {
+    // Try multiple endpoints
+    const endpoints = ['cams_index.json', 'list', '/list'];
+    let data = null;
+    for (const ep of endpoints) {
+      try {
+        const r = await fetch(ep);
+        if (r.ok) {
+          data = await r.json();
+          if (data && data.cams) break;
+        }
+      } catch (e) {}
+    }
+    if (!data || !data.cams) {
+      document.getElementById('stats').innerHTML = '<div class="error">No cam index found. Run viewer_index.py first.</div>';
+      return;
+    }
+    cams = data.cams;
+    filteredCams = cams;
+    updateStats();
+    render();
+  } catch (e) {
+    document.getElementById('stats').innerHTML = '<div class="error">Error: ' + e.message + '</div>';
+  }
+}
+
+function updateStats() {
+  const types = {};
+  for (const c of filteredCams) {
+    const t = c.type || 'image';
+    types[t] = (types[t] || 0) + 1;
+  }
+  const totalAll = cams.length;
+  document.getElementById('stats').innerHTML = `Showing <b>${filteredCams.length.toLocaleString()}</b> of <b>${totalAll.toLocaleString()}</b> cams | Types: ${JSON.stringify(types)}`;
+}
+
+function getEmbedUrl(cam) {
+  // Prefer live_stream_url
+  let url = cam.live_stream_url || cam.url || '';
+  // If it's fl511 placeholder, try m3u8 variants
+  if (url === 'https://fl511.com:443' || url === 'http://fl511.com:443') {
+    // Can't auto-resolve, skip
+    return null;
+  }
+  return url;
+}
+
+function isHLS(url) {
+  return /\.m3u8/i.test(url) || /application\/vnd\.apple\.mpegurl/.test(url) || /application\/x-mpegurl/i.test(url);
+}
+
+function isMJPEG(url) {
+  return /mjpg|multipart|motion-jpeg/i.test(url) && !isHLS(url);
+}
+
+function isVideo(url) {
+  return /\.mp4|\.webm|\.mov/i.test(url) || isHLS(url);
+}
+
+function render() {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  const max = 200;  // Limit for performance
+  for (const cam of filteredCams.slice(0, max)) {
+    const url = getEmbedUrl(cam);
+    if (!url) continue;
+    const div = document.createElement('div');
+    div.className = 'cam';
+    const type = cam.type || 'image';
+    const hls = isHLS(url);
+    const isVid = isVideo(url);
+    let mediaHtml;
+    if (hls) {
+      mediaHtml = `<video data-url="${url}" data-cam="${cam.id}" muted playsinline autoplay></video>`;
+    } else if (isVid) {
+      mediaHtml = `<video src="${url}" data-cam="${cam.id}" muted playsinline autoplay loop></video>`;
+    } else {
+      // Image
+      mediaHtml = `<img src="${url}" data-cam="${cam.id}" onerror="this.src='https://placehold.co/360x240/222/666?text=FAIL'" />`;
+    }
+    const label = (cam.location || cam.description || cam.id || '').substring(0, 50);
+    div.innerHTML = `
+      <button class="refresh" onclick="location.reload()">↻</button>
+      <div class="label"><span class="name">${label}</span> <span class="type ${type}">${type}</span></div>
+      ${mediaHtml}
+    `;
+    grid.appendChild(div);
+  }
+  // After rendering, attach HLS players
+  setTimeout(() => {
+    document.querySelectorAll('video[data-url]').forEach(v => {
+      const url = v.dataset.url;
+      if (Hls.isSupported()) {
+        const hls = new Hls({ enableWorker: true });
+        hls.loadSource(url);
+        hls.attachMedia(v);
+        hlsInstances[v.dataset.cam] = hls;
+      } else if (v.canPlayType('application/vnd.apple.mpegurl')) {
+        v.src = url;
+      }
+    });
+  }, 100);
+  if (filteredCams.length > max) {
+    const more = document.createElement('div');
+    more.className = 'stats';
+    more.innerHTML = `... and ${(filteredCams.length - max).toLocaleString()} more (refine your search to see them)`;
+    grid.appendChild(more);
+  }
+}
+
+document.getElementById('search').addEventListener('input', (e) => {
+  const q = e.target.value.toLowerCase();
+  if (!q) {
+    filteredCams = cams;
+  } else {
+    filteredCams = cams.filter(c => {
+      const txt = (c.location || c.description || c.url || c.live_stream_url || c.host || '').toLowerCase();
+      return txt.includes(q);
+    });
+  }
+  updateStats();
+  render();
+});
+
+loadCams();
+</script>
+</body>
+</html>

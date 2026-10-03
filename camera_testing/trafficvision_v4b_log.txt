@@ -1,0 +1,14 @@
+[18:30:13] [init] TV v4b - add missing cams with direct URLs
+[18:30:13]   loaded 2,819 missing cams
+[18:30:13]   2,213 have direct URLs
+[18:30:16]   existing: 181,013 URLs, 108,214 TV IDs
+[18:30:20]   1628/2213 processed, 500 added, 1128 skipped
+[18:30:28]   2128/2213 processed, 1000 added, 1128 skipped
+[18:30:46] 
+[done] added 1000, skipped 1129, in 30.2s
+[18:35:12] [init] TV v4b - add missing cams with direct URLs
+[18:35:12]   loaded 1,847 missing cams
+[18:35:12]   1,241 have direct URLs
+[18:35:15]   existing: 182,650 URLs, 109,185 TV IDs
+[18:35:19] 
+[done] added 112, skipped 1129, in 4.4s

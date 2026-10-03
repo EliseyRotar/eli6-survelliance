@@ -1,0 +1,766 @@
+[19:42:47] Loaded 4,483 fl511 cams
+[19:42:47]   Already have 0 divas tokens
+[19:42:47]   Need to query 218 for divas tokens
+[19:42:48] Getting fl511 session...
+[19:43:27]   Token: dtKYfyhQe__Y2xK-6luGgr0omZkEGj...
+[19:43:32]   Retry 1/3 for cam 614: {'error': 500}
+[19:43:36]   Retry 2/3 for cam 614: {'error': 500}
+[19:43:41]   Retry 3/3 for cam 614: {'error': 500}
+[19:43:49]   Retry 1/3 for cam 649: {'error': 500}
+[19:43:54]   Retry 2/3 for cam 649: {'error': 500}
+[19:44:00]   Retry 3/3 for cam 649: {'error': 500}
+[19:44:08]   Retry 1/3 for cam 655: {'error': 500}
+[19:44:12]   Retry 2/3 for cam 655: {'error': 500}
+[19:44:18]   Retry 3/3 for cam 655: {'error': 500}
+[19:44:27]   Retry 1/3 for cam 682: {'error': 500}
+[19:44:31]   Retry 2/3 for cam 682: {'error': 500}
+[19:44:37]   Retry 3/3 for cam 682: {'error': 500}
+[19:44:44]   Retry 1/3 for cam 683: {'error': 500}
+[19:44:48]   Retry 2/3 for cam 683: {'error': 500}
+[19:44:53]   Retry 3/3 for cam 683: {'error': 500}
+[19:44:59]   Too many errors, refresh session
+[19:45:20]   Refreshed, new token: 9OZjIxpdPs6vEnREkKX9O6p5NCZuBK...
+[19:45:24]   Retry 1/3 for cam 685: {'error': 500}
+[19:45:28]   Retry 2/3 for cam 685: {'error': 500}
+[19:45:33]   Retry 3/3 for cam 685: {'error': 500}
+[19:45:43]   Retry 1/3 for cam 689: {'error': 500}
+[19:45:47]   Retry 2/3 for cam 689: {'error': 500}
+[19:45:52]   Retry 3/3 for cam 689: {'error': 500}
+[19:45:59]   Retry 1/3 for cam 690: {'error': 500}
+[19:46:03]   Retry 2/3 for cam 690: {'error': 500}
+[19:46:08]   Retry 3/3 for cam 690: {'error': 500}
+[19:46:15]   Retry 1/3 for cam 693: {'error': 500}
+[19:46:18]   Retry 2/3 for cam 693: {'error': 500}
+[19:46:23]   Retry 3/3 for cam 693: {'error': 500}
+[19:46:31]   Retry 1/3 for cam 694: {'error': 500}
+[19:46:34]   Retry 2/3 for cam 694: {'error': 500}
+[19:46:39]   Retry 3/3 for cam 694: {'error': 500}
+[19:46:45]   Too many errors, refresh session
+[19:47:07]   Refreshed, new token: _ENye5zbjvQ3TvlHvlCrL5G-MYGR1j...
+[19:47:09]   Retry 1/3 for cam 695: {'error': 500}
+[19:47:13]   Retry 2/3 for cam 695: {'error': 500}
+[19:47:18]   Retry 3/3 for cam 695: {'error': 500}
+[19:47:25]   Retry 1/3 for cam 697: {'error': 500}
+[19:47:29]   Retry 2/3 for cam 697: {'error': 500}
+[19:47:34]   Retry 3/3 for cam 697: {'error': 500}
+[19:47:41]   Retry 1/3 for cam 708: {'error': 500}
+[19:47:44]   Retry 2/3 for cam 708: {'error': 500}
+[19:47:50]   Retry 3/3 for cam 708: {'error': 500}
+[19:47:58]   Retry 1/3 for cam 715: {'error': 500}
+[19:48:02]   Retry 2/3 for cam 715: {'error': 500}
+[19:48:07]   Retry 3/3 for cam 715: {'error': 500}
+[19:48:15]   Retry 1/3 for cam 716: {'error': 500}
+[19:48:19]   Retry 2/3 for cam 716: {'error': 500}
+[19:48:25]   Retry 3/3 for cam 716: {'error': 500}
+[19:48:31]   Too many errors, refresh session
+[19:48:52]   Refreshed, new token: VtYN_9q_4tIhjRZqV6NgAqU7PZ4Q0C...
+[19:48:54]   Retry 1/3 for cam 719: {'error': 500}
+[19:48:58]   Retry 2/3 for cam 719: {'error': 500}
+[19:49:04]   Retry 3/3 for cam 719: {'error': 500}
+[19:49:12]   Retry 1/3 for cam 739: {'error': 500}
+[19:49:16]   Retry 2/3 for cam 739: {'error': 500}
+[19:49:22]   Retry 3/3 for cam 739: {'error': 500}
+[19:49:30]   Retry 1/3 for cam 750: {'error': 500}
+[19:49:34]   Retry 2/3 for cam 750: {'error': 500}
+[19:49:39]   Retry 3/3 for cam 750: {'error': 500}
+[19:49:48]   Retry 1/3 for cam 758: {'error': 500}
+[19:49:52]   Retry 2/3 for cam 758: {'error': 500}
+[19:49:58]   Retry 3/3 for cam 758: {'error': 500}
+[19:50:06]   Retry 1/3 for cam 769: {'error': 500}
+[19:50:10]   Retry 2/3 for cam 769: {'error': 500}
+[19:50:15]   Retry 3/3 for cam 769: {'error': 500}
+[19:50:21]   Too many errors, refresh session
+[19:50:43]   Refreshed, new token: iRv3NoycHfcNWyo1_LTzOAFPCvSJlq...
+[19:50:43]   20/218 done (0 ok, 20 fail) 0/s
+[19:50:46]   Retry 1/3 for cam 770: {'error': 500}
+[19:50:50]   Retry 2/3 for cam 770: {'error': 500}
+[19:50:55]   Retry 3/3 for cam 770: {'error': 500}
+[19:51:03]   Retry 1/3 for cam 772: {'error': 500}
+[19:51:06]   Retry 2/3 for cam 772: {'error': 500}
+[19:51:13]   Retry 3/3 for cam 772: {'error': 500}
+[19:51:22]   Retry 1/3 for cam 797: {'error': 500}
+[19:51:26]   Retry 2/3 for cam 797: {'error': 500}
+[19:51:30]   Retry 3/3 for cam 797: {'error': 500}
+[19:51:38]   Retry 1/3 for cam 842: {'error': 500}
+[19:51:41]   Retry 2/3 for cam 842: {'error': 500}
+[19:51:47]   Retry 3/3 for cam 842: {'error': 500}
+[19:51:54]   Retry 1/3 for cam 843: {'error': 500}
+[19:51:58]   Retry 2/3 for cam 843: {'error': 500}
+[19:52:02]   Retry 3/3 for cam 843: {'error': 500}
+[19:52:09]   Too many errors, refresh session
+[19:52:30]   Refreshed, new token: rr8gGB4D5NCTiXfqqVYnRYonr_PYGo...
+[19:52:33]   Retry 1/3 for cam 848: {'error': 500}
+[19:52:36]   Retry 2/3 for cam 848: {'error': 500}
+[19:52:42]   Retry 3/3 for cam 848: {'error': 500}
+[19:52:50]   Retry 1/3 for cam 862: {'error': 500}
+[19:52:53]   Retry 2/3 for cam 862: {'error': 500}
+[19:52:58]   Retry 3/3 for cam 862: {'error': 500}
+[19:53:05]   Retry 1/3 for cam 863: {'error': 500}
+[19:53:08]   Retry 2/3 for cam 863: {'error': 500}
+[19:53:14]   Retry 3/3 for cam 863: {'error': 500}
+[19:53:23]   Retry 1/3 for cam 879: {'error': 500}
+[19:53:26]   Retry 2/3 for cam 879: {'error': 500}
+[19:53:32]   Retry 3/3 for cam 879: {'error': 500}
+[19:53:41]   Retry 1/3 for cam 885: {'error': 500}
+[19:53:46]   Retry 2/3 for cam 885: {'error': 500}
+[19:53:52]   Retry 3/3 for cam 885: {'error': 500}
+[19:53:58]   Too many errors, refresh session
+[19:54:20]   Refreshed, new token: mxyJTMBBF2GKBxNZyXfoX_0Insw5rf...
+[19:54:23]   Retry 1/3 for cam 915: {'error': 500}
+[19:54:27]   Retry 2/3 for cam 915: {'error': 500}
+[19:54:33]   Retry 3/3 for cam 915: {'error': 500}
+[19:54:42]   Retry 1/3 for cam 966: {'error': 500}
+[19:54:46]   Retry 2/3 for cam 966: {'error': 500}
+[19:54:52]   Retry 3/3 for cam 966: {'error': 500}
+[19:55:00]   Retry 1/3 for cam 979: {'error': 500}
+[19:55:04]   Retry 2/3 for cam 979: {'error': 500}
+[19:55:10]   Retry 3/3 for cam 979: {'error': 500}
+[19:55:18]   Retry 1/3 for cam 989: {'error': 500}
+[19:55:22]   Retry 2/3 for cam 989: {'error': 500}
+[19:55:28]   Retry 3/3 for cam 989: {'error': 500}
+[19:55:36]   Retry 1/3 for cam 991: {'error': 500}
+[19:55:40]   Retry 2/3 for cam 991: {'error': 500}
+[19:55:46]   Retry 3/3 for cam 991: {'error': 500}
+[19:55:52]   Too many errors, refresh session
+[19:56:13]   Refreshed, new token: WLMO8vEGD_kUK2hfIZg5k0mPX9AcG-...
+[19:56:15]   Retry 1/3 for cam 1003: {'error': 500}
+[19:56:18]   Retry 2/3 for cam 1003: {'error': 500}
+[19:56:25]   Retry 3/3 for cam 1003: {'error': 500}
+[19:56:32]   Retry 1/3 for cam 1005: {'error': 500}
+[19:56:36]   Retry 2/3 for cam 1005: {'error': 500}
+[19:56:41]   Retry 3/3 for cam 1005: {'error': 500}
+[19:56:49]   Retry 1/3 for cam 1023: {'error': 500}
+[19:56:53]   Retry 2/3 for cam 1023: {'error': 500}
+[19:56:59]   Retry 3/3 for cam 1023: {'error': 500}
+[19:57:07]   Retry 1/3 for cam 1024: {'error': 500}
+[19:57:11]   Retry 2/3 for cam 1024: {'error': 500}
+[19:57:16]   Retry 3/3 for cam 1024: {'error': 500}
+[19:57:23]   Retry 1/3 for cam 1025: {'error': 500}
+[19:57:27]   Retry 2/3 for cam 1025: {'error': 500}
+[19:57:33]   Retry 3/3 for cam 1025: {'error': 500}
+[19:57:39]   Too many errors, refresh session
+[19:58:01]   Refreshed, new token: p9ZdgMxF8a3rq2HlFXqJer4Q1qpoUQ...
+[19:58:01]   40/218 done (0 ok, 40 fail) 0/s
+[19:58:03]   Retry 1/3 for cam 1029: {'error': 500}
+[19:58:06]   Retry 2/3 for cam 1029: {'error': 500}
+[19:58:12]   Retry 3/3 for cam 1029: {'error': 500}
+[19:58:20]   Retry 1/3 for cam 1033: {'error': 500}
+[19:58:23]   Retry 2/3 for cam 1033: {'error': 500}
+[19:58:29]   Retry 3/3 for cam 1033: {'error': 500}
+[19:58:38]   Retry 1/3 for cam 1035: {'error': 500}
+[19:58:42]   Retry 2/3 for cam 1035: {'error': 500}
+[19:58:48]   Retry 3/3 for cam 1035: {'error': 500}
+[19:58:56]   Retry 1/3 for cam 1046: {'error': 500}
+[19:59:00]   Retry 2/3 for cam 1046: {'error': 500}
+[19:59:05]   Retry 3/3 for cam 1046: {'error': 500}
+[19:59:13]   Retry 1/3 for cam 1052: {'error': 500}
+[19:59:17]   Retry 2/3 for cam 1052: {'error': 500}
+[19:59:23]   Retry 3/3 for cam 1052: {'error': 500}
+[19:59:29]   Too many errors, refresh session
+[19:59:51]   Refreshed, new token: JNn2T-9u0OZ_3tyos9K9-Hma0E31YG...
+[19:59:54]   Retry 1/3 for cam 1059: {'error': 500}
+[19:59:58]   Retry 2/3 for cam 1059: {'error': 500}
+[20:00:04]   Retry 3/3 for cam 1059: {'error': 500}
+[20:00:12]   Retry 1/3 for cam 1082: {'error': 500}
+[20:00:16]   Retry 2/3 for cam 1082: {'error': 500}
+[20:00:22]   Retry 3/3 for cam 1082: {'error': 500}
+[20:00:31]   Retry 1/3 for cam 1093: {'error': 500}
+[20:00:35]   Retry 2/3 for cam 1093: {'error': 500}
+[20:00:42]   Retry 3/3 for cam 1093: {'error': 500}
+[20:00:52]   Retry 1/3 for cam 1107: {'error': 500}
+[20:00:56]   Retry 2/3 for cam 1107: {'error': 500}
+[20:01:02]   Retry 3/3 for cam 1107: {'error': 500}
+[20:01:11]   Retry 1/3 for cam 1122: {'error': 500}
+[20:01:16]   Retry 2/3 for cam 1122: {'error': 500}
+[20:01:23]   Retry 3/3 for cam 1122: {'error': 500}
+[20:01:29]   Too many errors, refresh session
+[20:01:50]   Refreshed, new token: A9x2Eo9yoG8yBBzERdCMWrx6lanIIG...
+[20:01:53]   Retry 1/3 for cam 1123: {'error': 500}
+[20:01:57]   Retry 2/3 for cam 1123: {'error': 500}
+[20:02:04]   Retry 3/3 for cam 1123: {'error': 500}
+[20:02:13]   Retry 1/3 for cam 1152: {'error': 500}
+[20:02:17]   Retry 2/3 for cam 1152: {'error': 500}
+[20:02:24]   Retry 3/3 for cam 1152: {'error': 500}
+[20:02:32]   Retry 1/3 for cam 1153: {'error': 500}
+[20:02:36]   Retry 2/3 for cam 1153: {'error': 500}
+[20:02:42]   Retry 3/3 for cam 1153: {'error': 500}
+[20:02:50]   Retry 1/3 for cam 1162: {'error': 500}
+[20:02:55]   Retry 2/3 for cam 1162: {'error': 500}
+[20:03:01]   Retry 3/3 for cam 1162: {'error': 500}
+[20:03:09]   Retry 1/3 for cam 1166: {'error': 500}
+[20:03:13]   Retry 2/3 for cam 1166: {'error': 500}
+[20:03:20]   Retry 3/3 for cam 1166: {'error': 500}
+[20:03:26]   Too many errors, refresh session
+[20:03:47]   Refreshed, new token: OPKt1t49AwudMaNwaOWBGGivpj3iAo...
+[20:03:51]   Retry 1/3 for cam 1177: {'error': 500}
+[20:03:55]   Retry 2/3 for cam 1177: {'error': 500}
+[20:04:03]   Retry 3/3 for cam 1177: {'error': 500}
+[20:04:11]   Retry 1/3 for cam 1183: {'error': 500}
+[20:04:15]   Retry 2/3 for cam 1183: {'error': 500}
+[20:04:21]   Retry 3/3 for cam 1183: {'error': 500}
+[20:04:29]   Retry 1/3 for cam 1187: {'error': 500}
+[20:04:33]   Retry 2/3 for cam 1187: {'error': 500}
+[20:04:40]   Retry 3/3 for cam 1187: {'error': 500}
+[20:04:48]   Retry 1/3 for cam 1193: {'error': 500}
+[20:04:52]   Retry 2/3 for cam 1193: {'error': 500}
+[20:04:58]   Retry 3/3 for cam 1193: {'error': 500}
+[20:05:07]   Retry 1/3 for cam 1202: {'error': 500}
+[20:05:11]   Retry 2/3 for cam 1202: {'error': 500}
+[20:05:17]   Retry 3/3 for cam 1202: {'error': 500}
+[20:05:23]   Too many errors, refresh session
+[20:05:44]   Refreshed, new token: -7Bk8rQ2wKHUeWPPXkLaolgyLm-Hx9...
+[20:05:44]   60/218 done (0 ok, 60 fail) 0/s
+[20:05:48]   Retry 1/3 for cam 1216: {'error': 500}
+[20:05:52]   Retry 2/3 for cam 1216: {'error': 500}
+[20:05:58]   Retry 3/3 for cam 1216: {'error': 500}
+[20:06:06]   Retry 1/3 for cam 1222: {'error': 500}
+[20:06:10]   Retry 2/3 for cam 1222: {'error': 500}
+[20:06:17]   Retry 3/3 for cam 1222: {'error': 500}
+[20:06:26]   Retry 1/3 for cam 1223: {'error': 500}
+[20:06:30]   Retry 2/3 for cam 1223: {'error': 500}
+[20:06:36]   Retry 3/3 for cam 1223: {'error': 500}
+[20:06:44]   Retry 1/3 for cam 1225: {'error': 500}
+[20:06:48]   Retry 2/3 for cam 1225: {'error': 500}
+[20:06:55]   Retry 3/3 for cam 1225: {'error': 500}
+[20:07:04]   Retry 1/3 for cam 2768: {'error': 500}
+[20:07:08]   Retry 2/3 for cam 2768: {'error': 500}
+[20:07:15]   Retry 3/3 for cam 2768: {'error': 500}
+[20:07:21]   Too many errors, refresh session
+[20:07:42]   Refreshed, new token: 5e4UKgd72rbjvOP8XFA5N7jOsYi2hn...
+[20:07:45]   Retry 1/3 for cam 3017: {'error': 500}
+[20:07:49]   Retry 2/3 for cam 3017: {'error': 500}
+[20:07:55]   Retry 3/3 for cam 3017: {'error': 500}
+[20:08:05]   Retry 1/3 for cam 3881: {'error': 500}
+[20:08:10]   Retry 2/3 for cam 3881: {'error': 500}
+[20:08:16]   Retry 3/3 for cam 3881: {'error': 500}
+[20:08:23]   Retry 1/3 for cam 3922: {'error': 500}
+[20:08:26]   Retry 2/3 for cam 3922: {'error': 500}
+[20:08:31]   Retry 3/3 for cam 3922: {'error': 500}
+[20:08:39]   Retry 1/3 for cam 3926: {'error': 500}
+[20:08:43]   Retry 2/3 for cam 3926: {'error': 500}
+[20:08:49]   Retry 3/3 for cam 3926: {'error': 500}
+[20:08:57]   Retry 1/3 for cam 3947: {'error': 500}
+[20:09:01]   Retry 2/3 for cam 3947: {'error': 500}
+[20:09:06]   Retry 3/3 for cam 3947: {'error': 500}
+[20:09:12]   Too many errors, refresh session
+[20:09:34]   Refreshed, new token: Kjx6aKb12uioNpN_tilAQj4uL6tkUi...
+[20:09:37]   Retry 1/3 for cam 3955: {'error': 500}
+[20:09:41]   Retry 2/3 for cam 3955: {'error': 500}
+[20:09:47]   Retry 3/3 for cam 3955: {'error': 500}
+[20:09:55]   Retry 1/3 for cam 3968: {'error': 500}
+[20:09:58]   Retry 2/3 for cam 3968: {'error': 500}
+[20:10:04]   Retry 3/3 for cam 3968: {'error': 500}
+[20:10:12]   Retry 1/3 for cam 3978: {'error': 500}
+[20:10:16]   Retry 2/3 for cam 3978: {'error': 500}
+[20:10:22]   Retry 3/3 for cam 3978: {'error': 500}
+[20:10:30]   Retry 1/3 for cam 3987: {'error': 500}
+[20:10:34]   Retry 2/3 for cam 3987: {'error': 500}
+[20:10:40]   Retry 3/3 for cam 3987: {'error': 500}
+[20:10:48]   Retry 1/3 for cam 4000: {'error': 500}
+[20:10:52]   Retry 2/3 for cam 4000: {'error': 500}
+[20:10:58]   Retry 3/3 for cam 4000: {'error': 500}
+[20:11:04]   Too many errors, refresh session
+[20:11:26]   Refreshed, new token: 2BL4olTtwD0uwn18X7vAxSeUBlbZwV...
+[20:11:29]   Retry 1/3 for cam 4026: {'error': 500}
+[20:11:33]   Retry 2/3 for cam 4026: {'error': 500}
+[20:11:39]   Retry 3/3 for cam 4026: {'error': 500}
+[20:11:48]   Retry 1/3 for cam 4031: {'error': 500}
+[20:11:52]   Retry 2/3 for cam 4031: {'error': 500}
+[20:11:58]   Retry 3/3 for cam 4031: {'error': 500}
+[20:12:07]   Retry 1/3 for cam 4042: {'error': 500}
+[20:12:11]   Retry 2/3 for cam 4042: {'error': 500}
+[20:12:17]   Retry 3/3 for cam 4042: {'error': 500}
+[20:12:25]   Retry 1/3 for cam 4048: {'error': 500}
+[20:12:29]   Retry 2/3 for cam 4048: {'error': 500}
+[20:12:35]   Retry 3/3 for cam 4048: {'error': 500}
+[20:12:44]   Retry 1/3 for cam 4076: {'error': 500}
+[20:12:48]   Retry 2/3 for cam 4076: {'error': 500}
+[20:12:54]   Retry 3/3 for cam 4076: {'error': 500}
+[20:13:00]   Too many errors, refresh session
+[20:13:24]   Refreshed, new token: dw95KmskG4esYHMbonGoddAJU_oVeB...
+[20:13:24]   80/218 done (0 ok, 80 fail) 0/s
+[20:13:28]   Retry 1/3 for cam 4077: {'error': 500}
+[20:13:32]   Retry 2/3 for cam 4077: {'error': 500}
+[20:13:38]   Retry 3/3 for cam 4077: {'error': 500}
+[20:13:46]   Retry 1/3 for cam 4084: {'error': 500}
+[20:13:50]   Retry 2/3 for cam 4084: {'error': 500}
+[20:13:56]   Retry 3/3 for cam 4084: {'error': 500}
+[20:14:05]   Retry 1/3 for cam 4085: {'error': 500}
+[20:14:09]   Retry 2/3 for cam 4085: {'error': 500}
+[20:14:14]   Retry 3/3 for cam 4085: {'error': 500}
+[20:14:23]   Retry 1/3 for cam 4086: {'error': 500}
+[20:14:27]   Retry 2/3 for cam 4086: {'error': 500}
+[20:14:33]   Retry 3/3 for cam 4086: {'error': 500}
+[20:14:41]   Retry 1/3 for cam 4090: {'error': 500}
+[20:14:45]   Retry 2/3 for cam 4090: {'error': 500}
+[20:14:50]   Retry 3/3 for cam 4090: {'error': 500}
+[20:14:56]   Too many errors, refresh session
+[20:15:18]   Refreshed, new token: iXlz6kNuPjonpGIwqO_GHg3XMoj3MA...
+[20:15:22]   Retry 1/3 for cam 4095: {'error': 500}
+[20:15:26]   Retry 2/3 for cam 4095: {'error': 500}
+[20:15:31]   Retry 3/3 for cam 4095: {'error': 500}
+[20:15:40]   Retry 1/3 for cam 4106: {'error': 500}
+[20:15:44]   Retry 2/3 for cam 4106: {'error': 500}
+[20:15:50]   Retry 3/3 for cam 4106: {'error': 500}
+[20:15:58]   Retry 1/3 for cam 4111: {'error': 500}
+[20:16:02]   Retry 2/3 for cam 4111: {'error': 500}
+[20:16:08]   Retry 3/3 for cam 4111: {'error': 500}
+[20:16:16]   Retry 1/3 for cam 4112: {'error': 500}
+[20:16:20]   Retry 2/3 for cam 4112: {'error': 500}
+[20:16:26]   Retry 3/3 for cam 4112: {'error': 500}
+[20:16:34]   Retry 1/3 for cam 4115: {'error': 500}
+[20:16:38]   Retry 2/3 for cam 4115: {'error': 500}
+[20:16:44]   Retry 3/3 for cam 4115: {'error': 500}
+[20:16:50]   Too many errors, refresh session
+[20:17:11]   Refreshed, new token: d9HmHlhW-8CkATfg9vOkqnLc8xoI88...
+[20:17:14]   Retry 1/3 for cam 4118: {'error': 500}
+[20:17:18]   Retry 2/3 for cam 4118: {'error': 500}
+[20:17:24]   Retry 3/3 for cam 4118: {'error': 500}
+[20:17:32]   Retry 1/3 for cam 4133: {'error': 500}
+[20:17:36]   Retry 2/3 for cam 4133: {'error': 500}
+[20:17:42]   Retry 3/3 for cam 4133: {'error': 500}
+[20:17:50]   Retry 1/3 for cam 4135: {'error': 500}
+[20:17:54]   Retry 2/3 for cam 4135: {'error': 500}
+[20:18:00]   Retry 3/3 for cam 4135: {'error': 500}
+[20:18:07]   Retry 1/3 for cam 4137: {'error': 500}
+[20:18:10]   Retry 2/3 for cam 4137: {'error': 500}
+[20:18:16]   Retry 3/3 for cam 4137: {'error': 500}
+[20:18:24]   Retry 1/3 for cam 4574: {'error': 500}
+[20:18:28]   Retry 2/3 for cam 4574: {'error': 500}
+[20:18:36]   Retry 3/3 for cam 4574: {'error': 500}
+[20:18:42]   Too many errors, refresh session
+[20:19:03]   Refreshed, new token: FfLWRpYegD8F1ilWUmJ9z1f5HOaSWv...
+[20:19:06]   Retry 1/3 for cam 4952: {'error': 500}
+[20:19:10]   Retry 2/3 for cam 4952: {'error': 500}
+[20:19:16]   Retry 3/3 for cam 4952: {'error': 500}
+[20:19:23]   Retry 1/3 for cam 4953: {'error': 500}
+[20:19:27]   Retry 2/3 for cam 4953: {'error': 500}
+[20:19:33]   Retry 3/3 for cam 4953: {'error': 500}
+[20:19:41]   Retry 1/3 for cam 4962: {'error': 500}
+[20:19:45]   Retry 2/3 for cam 4962: {'error': 500}
+[20:19:50]   Retry 3/3 for cam 4962: {'error': 500}
+[20:19:58]   Retry 1/3 for cam 4963: {'error': 500}
+[20:20:02]   Retry 2/3 for cam 4963: {'error': 500}
+[20:20:08]   Retry 3/3 for cam 4963: {'error': 500}
+[20:20:16]   Retry 1/3 for cam 4964: {'error': 500}
+[20:20:19]   Retry 2/3 for cam 4964: {'error': 500}
+[20:20:25]   Retry 3/3 for cam 4964: {'error': 500}
+[20:20:31]   Too many errors, refresh session
+[20:20:52]   Refreshed, new token: Q2LW1nUbpNWlVjrmQ5IJHiIRe0qUGX...
+[20:20:52]   100/218 done (0 ok, 100 fail) 0/s
+[20:20:56]   Retry 1/3 for cam 4966: {'error': 500}
+[20:20:59]   Retry 2/3 for cam 4966: {'error': 500}
+[20:21:06]   Retry 3/3 for cam 4966: {'error': 500}
+[20:21:14]   Retry 1/3 for cam 4967: {'error': 500}
+[20:21:18]   Retry 2/3 for cam 4967: {'error': 500}
+[20:21:24]   Retry 3/3 for cam 4967: {'error': 500}
+[20:21:32]   Retry 1/3 for cam 4968: {'error': 500}
+[20:21:36]   Retry 2/3 for cam 4968: {'error': 500}
+[20:21:42]   Retry 3/3 for cam 4968: {'error': 500}
+[20:21:51]   Retry 1/3 for cam 4969: {'error': 500}
+[20:21:55]   Retry 2/3 for cam 4969: {'error': 500}
+[20:22:01]   Retry 3/3 for cam 4969: {'error': 500}
+[20:22:09]   Retry 1/3 for cam 4970: {'error': 500}
+[20:22:13]   Retry 2/3 for cam 4970: {'error': 500}
+[20:22:19]   Retry 3/3 for cam 4970: {'error': 500}
+[20:22:25]   Too many errors, refresh session
+[20:22:47]   Refreshed, new token: i0_DednH9F9VjEn7MNOt91J05Fk1bU...
+[20:22:48]   Retry 1/3 for cam 4971: {'error': 500}
+[20:22:52]   Retry 2/3 for cam 4971: {'error': 500}
+[20:22:56]   Retry 3/3 for cam 4971: {'error': 500}
+[20:23:03]   Retry 1/3 for cam 4972: {'error': 500}
+[20:23:06]   Retry 2/3 for cam 4972: {'error': 500}
+[20:23:11]   Retry 3/3 for cam 4972: {'error': 500}
+[20:23:18]   Retry 1/3 for cam 4973: {'error': 500}
+[20:23:21]   Retry 2/3 for cam 4973: {'error': 500}
+[20:23:26]   Retry 3/3 for cam 4973: {'error': 500}
+[20:23:33]   Retry 1/3 for cam 4974: {'error': 500}
+[20:23:37]   Retry 2/3 for cam 4974: {'error': 500}
+[20:23:42]   Retry 3/3 for cam 4974: {'error': 500}
+[20:23:49]   Retry 1/3 for cam 5255: {'error': 500}
+[20:23:53]   Retry 2/3 for cam 5255: {'error': 500}
+[20:23:57]   Retry 3/3 for cam 5255: {'error': 500}
+[20:24:03]   Too many errors, refresh session
+[20:24:24]   Refreshed, new token: Q1JaITT9DPjkpwP5X12nLfkrC0tSh_...
+[20:24:28]   Retry 1/3 for cam 5291: {'error': 500}
+[20:24:31]   Retry 2/3 for cam 5291: {'error': 500}
+[20:24:37]   Retry 3/3 for cam 5291: {'error': 500}
+[20:24:45]   Retry 1/3 for cam 5294: {'error': 500}
+[20:24:49]   Retry 2/3 for cam 5294: {'error': 500}
+[20:24:55]   Retry 3/3 for cam 5294: {'error': 500}
+[20:25:04]   Retry 1/3 for cam 5297: {'error': 500}
+[20:25:09]   Retry 2/3 for cam 5297: {'error': 500}
+[20:25:15]   Retry 3/3 for cam 5297: {'error': 500}
+[20:25:23]   Retry 1/3 for cam 5300: {'error': 500}
+[20:25:27]   Retry 2/3 for cam 5300: {'error': 500}
+[20:25:32]   Retry 3/3 for cam 5300: {'error': 500}
+[20:25:41]   Retry 1/3 for cam 5313: {'error': 500}
+[20:25:45]   Retry 2/3 for cam 5313: {'error': 500}
+[20:25:52]   Retry 3/3 for cam 5313: {'error': 500}
+[20:25:58]   Too many errors, refresh session
+[20:26:19]   Refreshed, new token: Pgcf31xn6b3RNM29UORPagJS4xFZA5...
+[20:26:23]   Retry 1/3 for cam 5317: {'error': 500}
+[20:26:26]   Retry 2/3 for cam 5317: {'error': 500}
+[20:26:33]   Retry 3/3 for cam 5317: {'error': 500}
+[20:26:41]   Retry 1/3 for cam 5318: {'error': 500}
+[20:26:45]   Retry 2/3 for cam 5318: {'error': 500}
+[20:26:51]   Retry 3/3 for cam 5318: {'error': 500}
+[20:26:59]   Retry 1/3 for cam 5320: {'error': 500}
+[20:27:03]   Retry 2/3 for cam 5320: {'error': 500}
+[20:27:09]   Retry 3/3 for cam 5320: {'error': 500}
+[20:27:17]   Retry 1/3 for cam 5322: {'error': 500}
+[20:27:21]   Retry 2/3 for cam 5322: {'error': 500}
+[20:27:27]   Retry 3/3 for cam 5322: {'error': 500}
+[20:27:35]   Retry 1/3 for cam 5342: {'error': 500}
+[20:27:39]   Retry 2/3 for cam 5342: {'error': 500}
+[20:27:45]   Retry 3/3 for cam 5342: {'error': 500}
+[20:27:51]   Too many errors, refresh session
+[20:28:14]   Refreshed, new token: 2bprd4BffgRdg-r1YO5qfxqS1Jqa23...
+[20:28:14]   120/218 done (0 ok, 120 fail) 0/s
+[20:28:17]   Retry 1/3 for cam 5343: {'error': 500}
+[20:28:21]   Retry 2/3 for cam 5343: {'error': 500}
+[20:28:27]   Retry 3/3 for cam 5343: {'error': 500}
+[20:28:35]   Retry 1/3 for cam 5389: {'error': 500}
+[20:28:39]   Retry 2/3 for cam 5389: {'error': 500}
+[20:28:45]   Retry 3/3 for cam 5389: {'error': 500}
+[20:28:53]   Retry 1/3 for cam 5635: {'error': 500}
+[20:28:57]   Retry 2/3 for cam 5635: {'error': 500}
+[20:29:03]   Retry 3/3 for cam 5635: {'error': 500}
+[20:29:12]   Retry 1/3 for cam 5636: {'error': 500}
+[20:29:16]   Retry 2/3 for cam 5636: {'error': 500}
+[20:29:22]   Retry 3/3 for cam 5636: {'error': 500}
+[20:29:30]   Retry 1/3 for cam 5637: {'error': 500}
+[20:29:34]   Retry 2/3 for cam 5637: {'error': 500}
+[20:29:41]   Retry 3/3 for cam 5637: {'error': 500}
+[20:29:47]   Too many errors, refresh session
+[20:30:08]   Refreshed, new token: uW03LYC_jX2b3zS6P7NU9wa6lpME_B...
+[20:30:12]   Retry 1/3 for cam 5638: {'error': 500}
+[20:30:16]   Retry 2/3 for cam 5638: {'error': 500}
+[20:30:23]   Retry 3/3 for cam 5638: {'error': 500}
+[20:30:30]   Retry 1/3 for cam 5639: {'error': 500}
+[20:30:35]   Retry 2/3 for cam 5639: {'error': 500}
+[20:30:41]   Retry 3/3 for cam 5639: {'error': 500}
+[20:30:49]   Retry 1/3 for cam 5640: {'error': 500}
+[20:30:53]   Retry 2/3 for cam 5640: {'error': 500}
+[20:30:59]   Retry 3/3 for cam 5640: {'error': 500}
+[20:31:07]   Retry 1/3 for cam 5810: {'error': 500}
+[20:31:11]   Retry 2/3 for cam 5810: {'error': 500}
+[20:31:18]   Retry 3/3 for cam 5810: {'error': 500}
+[20:31:26]   Retry 1/3 for cam 1291: {'error': 500}
+[20:31:30]   Retry 2/3 for cam 1291: {'error': 500}
+[20:31:37]   Retry 3/3 for cam 1291: {'error': 500}
+[20:31:43]   Too many errors, refresh session
+[20:32:04]   Refreshed, new token: 2HieAWFIh-ePXLYRnsgAYnoRqQFVbm...
+[20:32:07]   Retry 1/3 for cam 1407: {'error': 500}
+[20:32:11]   Retry 2/3 for cam 1407: {'error': 500}
+[20:32:17]   Retry 3/3 for cam 1407: {'error': 500}
+[20:32:25]   Retry 1/3 for cam 1483: {'error': 500}
+[20:32:29]   Retry 2/3 for cam 1483: {'error': 500}
+[20:32:35]   Retry 3/3 for cam 1483: {'error': 500}
+[20:32:43]   Retry 1/3 for cam 1484: {'error': 500}
+[20:32:47]   Retry 2/3 for cam 1484: {'error': 500}
+[20:32:54]   Retry 3/3 for cam 1484: {'error': 500}
+[20:33:02]   Retry 1/3 for cam 1562: {'error': 500}
+[20:33:06]   Retry 2/3 for cam 1562: {'error': 500}
+[20:33:11]   Retry 3/3 for cam 1562: {'error': 500}
+[20:33:19]   Retry 1/3 for cam 1580: {'error': 500}
+[20:33:23]   Retry 2/3 for cam 1580: {'error': 500}
+[20:33:28]   Retry 3/3 for cam 1580: {'error': 500}
+[20:33:35]   Too many errors, refresh session
+[20:33:56]   Refreshed, new token: M7pc-FL26DyFcNFCE6HHyRKHFv8FLI...
+[20:33:58]   Retry 1/3 for cam 1588: {'error': 500}
+[20:34:02]   Retry 2/3 for cam 1588: {'error': 500}
+[20:34:08]   Retry 3/3 for cam 1588: {'error': 500}
+[20:34:17]   Retry 1/3 for cam 1589: {'error': 500}
+[20:34:21]   Retry 2/3 for cam 1589: {'error': 500}
+[20:34:27]   Retry 3/3 for cam 1589: {'error': 500}
+[20:34:38]   Retry 1/3 for cam 1636: {'error': 500}
+[20:34:42]   Retry 2/3 for cam 1636: {'error': 500}
+[20:34:48]   Retry 3/3 for cam 1636: {'error': 500}
+[20:34:57]   Retry 1/3 for cam 1722: {'error': 500}
+[20:35:00]   Retry 2/3 for cam 1722: {'error': 500}
+[20:35:06]   Retry 3/3 for cam 1722: {'error': 500}
+[20:35:15]   Retry 1/3 for cam 1756: {'error': 500}
+[20:35:19]   Retry 2/3 for cam 1756: {'error': 500}
+[20:35:25]   Retry 3/3 for cam 1756: {'error': 500}
+[20:35:31]   Too many errors, refresh session
+[20:35:53]   Refreshed, new token: 8QaEkD4zcsi_LtDFuIwpyNrEW7tGfx...
+[20:35:53]   140/218 done (0 ok, 140 fail) 0/s
+[20:35:56]   Retry 1/3 for cam 1768: {'error': 500}
+[20:36:00]   Retry 2/3 for cam 1768: {'error': 500}
+[20:36:06]   Retry 3/3 for cam 1768: {'error': 500}
+[20:36:14]   Retry 1/3 for cam 1797: {'error': 500}
+[20:36:19]   Retry 2/3 for cam 1797: {'error': 500}
+[20:36:25]   Retry 3/3 for cam 1797: {'error': 500}
+[20:36:33]   Retry 1/3 for cam 1799: {'error': 500}
+[20:36:37]   Retry 2/3 for cam 1799: {'error': 500}
+[20:36:43]   Retry 3/3 for cam 1799: {'error': 500}
+[20:36:52]   Retry 1/3 for cam 1802: {'error': 500}
+[20:36:56]   Retry 2/3 for cam 1802: {'error': 500}
+[20:37:02]   Retry 3/3 for cam 1802: {'error': 500}
+[20:37:11]   Retry 1/3 for cam 1806: {'error': 500}
+[20:37:15]   Retry 2/3 for cam 1806: {'error': 500}
+[20:37:21]   Retry 3/3 for cam 1806: {'error': 500}
+[20:37:27]   Too many errors, refresh session
+[20:37:49]   Refreshed, new token: J6Ze3Oqs8bnROA_B3HFtKs5X2V1FLQ...
+[20:37:53]   Retry 1/3 for cam 3642: {'error': 500}
+[20:37:57]   Retry 2/3 for cam 3642: {'error': 500}
+[20:38:03]   Retry 3/3 for cam 3642: {'error': 500}
+[20:38:11]   Retry 1/3 for cam 5015: {'error': 500}
+[20:38:15]   Retry 2/3 for cam 5015: {'error': 500}
+[20:38:20]   Retry 3/3 for cam 5015: {'error': 500}
+[20:38:29]   Retry 1/3 for cam 5016: {'error': 500}
+[20:38:33]   Retry 2/3 for cam 5016: {'error': 500}
+[20:38:39]   Retry 3/3 for cam 5016: {'error': 500}
+[20:38:47]   Retry 1/3 for cam 5017: {'error': 500}
+[20:38:51]   Retry 2/3 for cam 5017: {'error': 500}
+[20:38:57]   Retry 3/3 for cam 5017: {'error': 500}
+[20:39:06]   Retry 1/3 for cam 5019: {'error': 500}
+[20:39:10]   Retry 2/3 for cam 5019: {'error': 500}
+[20:39:15]   Retry 3/3 for cam 5019: {'error': 500}
+[20:39:21]   Too many errors, refresh session
+[20:39:43]   Refreshed, new token: zGa0w_XjDGvCzb0WOetMxSrkt80b11...
+[20:39:46]   Retry 1/3 for cam 5021: {'error': 500}
+[20:39:50]   Retry 2/3 for cam 5021: {'error': 500}
+[20:39:56]   Retry 3/3 for cam 5021: {'error': 500}
+[20:40:05]   Retry 1/3 for cam 5029: {'error': 500}
+[20:40:09]   Retry 2/3 for cam 5029: {'error': 500}
+[20:40:15]   Retry 3/3 for cam 5029: {'error': 500}
+[20:40:23]   Retry 1/3 for cam 5030: {'error': 500}
+[20:40:27]   Retry 2/3 for cam 5030: {'error': 500}
+[20:40:33]   Retry 3/3 for cam 5030: {'error': 500}
+[20:40:42]   Retry 1/3 for cam 5838: {'error': 500}
+[20:40:46]   Retry 2/3 for cam 5838: {'error': 500}
+[20:40:52]   Retry 3/3 for cam 5838: {'error': 500}
+[20:41:01]   Retry 1/3 for cam 5842: {'error': 500}
+[20:41:05]   Retry 2/3 for cam 5842: {'error': 500}
+[20:41:11]   Retry 3/3 for cam 5842: {'error': 500}
+[20:41:17]   Too many errors, refresh session
+[20:41:39]   Refreshed, new token: BLD5OBKJa7OgUvEAvcluzIDsPMYViG...
+[20:41:43]   Retry 1/3 for cam 5843: {'error': 500}
+[20:41:47]   Retry 2/3 for cam 5843: {'error': 500}
+[20:41:53]   Retry 3/3 for cam 5843: {'error': 500}
+[20:42:02]   Retry 1/3 for cam 5844: {'error': 500}
+[20:42:06]   Retry 2/3 for cam 5844: {'error': 500}
+[20:42:12]   Retry 3/3 for cam 5844: {'error': 500}
+[20:42:21]   Retry 1/3 for cam 5845: {'error': 500}
+[20:42:25]   Retry 2/3 for cam 5845: {'error': 500}
+[20:42:31]   Retry 3/3 for cam 5845: {'error': 500}
+[20:42:40]   Retry 1/3 for cam 5846: {'error': 500}
+[20:42:44]   Retry 2/3 for cam 5846: {'error': 500}
+[20:42:51]   Retry 3/3 for cam 5846: {'error': 500}
+[20:43:06]   Retry 1/3 for cam 5847: {'error': 500}
+[20:43:17]   Retry 2/3 for cam 5847: {'error': 500}
+[20:51:55]   Retry 3/3 for cam 5847: {'error': 500}
+[20:52:01]   Too many errors, refresh session
+[20:52:23]   Refreshed, new token: HKpnRZ-ruUN-QBjpLDKJnnwYX9S6XI...
+[20:52:23]   160/218 done (0 ok, 160 fail) 0/s
+[20:52:26]   Retry 1/3 for cam 5848: {'error': 500}
+[20:52:30]   Retry 2/3 for cam 5848: {'error': 500}
+[20:52:35]   Retry 3/3 for cam 5848: {'error': 500}
+[20:52:44]   Retry 1/3 for cam 5849: {'error': 500}
+[20:52:49]   Retry 2/3 for cam 5849: {'error': 500}
+[20:52:55]   Retry 3/3 for cam 5849: {'error': 500}
+[20:53:02]   Retry 1/3 for cam 5851: {'error': 500}
+[20:53:06]   Retry 2/3 for cam 5851: {'error': 500}
+[20:53:11]   Retry 3/3 for cam 5851: {'error': 500}
+[20:53:18]   Retry 1/3 for cam 5859: {'error': 500}
+[20:53:21]   Retry 2/3 for cam 5859: {'error': 500}
+[20:53:42]   Retry 3/3 for cam 5859: {'error': 500}
+[20:53:51]   Retry 1/3 for cam 3546: {'error': 500}
+[20:53:55]   Retry 2/3 for cam 3546: {'error': 500}
+[20:54:01]   Retry 3/3 for cam 3546: {'error': 500}
+[20:54:07]   Too many errors, refresh session
+[20:54:31]   Refreshed, new token: 83m88nIlTb5dqZ7-tyoQ19Yfv3MR3c...
+[20:54:39]   Retry 1/3 for cam 3552: {'error': 500}
+[20:54:44]   Retry 2/3 for cam 3552: {'error': 500}
+[20:54:48]   Retry 3/3 for cam 3552: {'error': 500}
+[20:54:55]   Retry 1/3 for cam 3585: {'error': 500}
+[20:54:59]   Retry 2/3 for cam 3585: {'error': 500}
+[20:55:04]   Retry 3/3 for cam 3585: {'error': 500}
+[20:55:12]   Retry 1/3 for cam 3624: {'error': 500}
+[20:55:15]   Retry 2/3 for cam 3624: {'error': 500}
+[20:55:20]   Retry 3/3 for cam 3624: {'error': 500}
+[20:55:27]   Retry 1/3 for cam 3625: {'error': 500}
+[20:55:31]   Retry 2/3 for cam 3625: {'error': 500}
+[20:55:37]   Retry 3/3 for cam 3625: {'error': 500}
+[20:55:46]   Retry 1/3 for cam 3626: {'error': 500}
+[20:55:50]   Retry 2/3 for cam 3626: {'error': 500}
+[20:55:55]   Retry 3/3 for cam 3626: {'error': 500}
+[20:56:01]   Too many errors, refresh session
+[20:56:23]   Refreshed, new token: fCZ5U5XDP58K_9-KSXqW6GZvqp7LA4...
+[20:56:24]   Retry 1/3 for cam 3627: {'error': 500}
+[20:56:28]   Retry 2/3 for cam 3627: {'error': 500}
+[20:56:33]   Retry 3/3 for cam 3627: {'error': 500}
+[20:56:41]   Retry 1/3 for cam 3628: {'error': 500}
+[20:56:45]   Retry 2/3 for cam 3628: {'error': 500}
+[20:56:51]   Retry 3/3 for cam 3628: {'error': 500}
+[20:57:00]   Retry 1/3 for cam 3629: {'error': 500}
+[20:57:04]   Retry 2/3 for cam 3629: {'error': 500}
+[20:57:09]   Retry 3/3 for cam 3629: {'error': 500}
+[20:57:17]   Retry 1/3 for cam 3630: {'error': 500}
+[20:57:21]   Retry 2/3 for cam 3630: {'error': 500}
+[20:57:26]   Retry 3/3 for cam 3630: {'error': 500}
+[20:57:34]   Retry 1/3 for cam 3631: {'error': 500}
+[20:57:38]   Retry 2/3 for cam 3631: {'error': 500}
+[20:57:44]   Retry 3/3 for cam 3631: {'error': 500}
+[20:57:50]   Too many errors, refresh session
+[20:58:11]   Refreshed, new token: faPjEN50hN5bpW3jNIa6-pwoymzigP...
+[20:58:14]   Retry 1/3 for cam 3637: {'error': 500}
+[20:58:18]   Retry 2/3 for cam 3637: {'error': 500}
+[20:58:24]   Retry 3/3 for cam 3637: {'error': 500}
+[20:58:32]   Retry 1/3 for cam 3638: {'error': 500}
+[20:58:36]   Retry 2/3 for cam 3638: {'error': 500}
+[20:58:42]   Retry 3/3 for cam 3638: {'error': 500}
+[20:58:50]   Retry 1/3 for cam 3639: {'error': 500}
+[20:58:53]   Retry 2/3 for cam 3639: {'error': 500}
+[20:58:59]   Retry 3/3 for cam 3639: {'error': 500}
+[20:59:07]   Retry 1/3 for cam 3641: {'error': 500}
+[20:59:11]   Retry 2/3 for cam 3641: {'error': 500}
+[20:59:17]   Retry 3/3 for cam 3641: {'error': 500}
+[20:59:25]   Retry 1/3 for cam 3644: {'error': 500}
+[20:59:29]   Retry 2/3 for cam 3644: {'error': 500}
+[20:59:35]   Retry 3/3 for cam 3644: {'error': 500}
+[20:59:41]   Too many errors, refresh session
+[21:00:03]   Refreshed, new token: Cl1ALzd6_2r3ycu2tyHW6wAJRZBjuY...
+[21:00:03]   180/218 done (0 ok, 180 fail) 0/s
+[21:00:06]   Retry 1/3 for cam 3657: {'error': 500}
+[21:08:31]   Retry 2/3 for cam 3657: {'error': 500}
+[21:08:36]   Retry 3/3 for cam 3657: {'error': 500}
+[21:08:43]   Retry 1/3 for cam 3662: {'error': 500}
+[21:08:46]   Retry 2/3 for cam 3662: {'error': 500}
+[21:08:51]   Retry 3/3 for cam 3662: {'error': 500}
+[21:08:59]   Retry 1/3 for cam 3664: {'error': 500}
+[21:09:03]   Retry 2/3 for cam 3664: {'error': 500}
+[21:09:08]   Retry 3/3 for cam 3664: {'error': 500}
+[21:09:16]   Retry 1/3 for cam 3673: {'error': 500}
+[21:09:19]   Retry 2/3 for cam 3673: {'error': 500}
+[21:09:24]   Retry 3/3 for cam 3673: {'error': 500}
+[21:09:31]   Retry 1/3 for cam 3707: {'error': 500}
+[21:09:34]   Retry 2/3 for cam 3707: {'error': 500}
+[21:09:39]   Retry 3/3 for cam 3707: {'error': 500}
+[21:09:45]   Too many errors, refresh session
+[21:10:06]   Refreshed, new token: Gex850ew1vEhDmoMkY5PpSU7C7NWoU...
+[21:10:08]   Retry 1/3 for cam 3726: {'error': 500}
+[21:10:12]   Retry 2/3 for cam 3726: {'error': 500}
+[21:10:17]   Retry 3/3 for cam 3726: {'error': 500}
+[21:10:24]   Retry 1/3 for cam 3810: {'error': 500}
+[21:10:28]   Retry 2/3 for cam 3810: {'error': 500}
+[21:10:33]   Retry 3/3 for cam 3810: {'error': 500}
+[21:10:41]   Retry 1/3 for cam 3811: {'error': 500}
+[21:10:44]   Retry 2/3 for cam 3811: {'error': 500}
+[21:10:50]   Retry 3/3 for cam 3811: {'error': 500}
+[21:10:57]   Retry 1/3 for cam 3813: {'error': 500}
+[21:11:00]   Retry 2/3 for cam 3813: {'error': 500}
+[21:11:05]   Retry 3/3 for cam 3813: {'error': 500}
+[21:11:13]   Retry 1/3 for cam 3815: {'error': 500}
+[21:11:17]   Retry 2/3 for cam 3815: {'error': 500}
+[21:11:22]   Retry 3/3 for cam 3815: {'error': 500}
+[21:11:28]   Too many errors, refresh session
+[21:11:50]   Refreshed, new token: lrUfoJI8yU26wEd5Pn7J0qJQ_e3brx...
+[21:11:53]   Retry 1/3 for cam 3816: {'error': 500}
+[21:11:58]   Retry 2/3 for cam 3816: {'error': 500}
+[21:12:03]   Retry 3/3 for cam 3816: {'error': 500}
+[21:12:11]   Retry 1/3 for cam 3820: {'error': 500}
+[21:12:15]   Retry 2/3 for cam 3820: {'error': 500}
+[21:12:21]   Retry 3/3 for cam 3820: {'error': 500}
+[21:12:29]   Retry 1/3 for cam 3823: {'error': 500}
+[21:12:33]   Retry 2/3 for cam 3823: {'error': 500}
+[21:12:39]   Retry 3/3 for cam 3823: {'error': 500}
+[21:12:47]   Retry 1/3 for cam 3826: {'error': 500}
+[21:12:50]   Retry 2/3 for cam 3826: {'error': 500}
+[21:12:56]   Retry 3/3 for cam 3826: {'error': 500}
+[21:13:04]   Retry 1/3 for cam 3827: {'error': 500}
+[21:13:08]   Retry 2/3 for cam 3827: {'error': 500}
+[21:13:13]   Retry 3/3 for cam 3827: {'error': 500}
+[21:13:19]   Too many errors, refresh session
+[21:13:40]   Refreshed, new token: aWd63gbjVnkhkqhw8l0BZ0dmT7IPRP...
+[21:13:43]   Retry 1/3 for cam 3828: {'error': 500}
+[21:13:47]   Retry 2/3 for cam 3828: {'error': 500}
+[21:13:52]   Retry 3/3 for cam 3828: {'error': 500}
+[21:14:00]   Retry 1/3 for cam 3832: {'error': 500}
+[21:14:04]   Retry 2/3 for cam 3832: {'error': 500}
+[21:14:10]   Retry 3/3 for cam 3832: {'error': 500}
+[21:14:18]   Retry 1/3 for cam 3837: {'error': 500}
+[21:14:22]   Retry 2/3 for cam 3837: {'error': 500}
+[21:14:28]   Retry 3/3 for cam 3837: {'error': 500}
+[21:14:35]   Retry 1/3 for cam 3839: {'error': 500}
+[21:14:39]   Retry 2/3 for cam 3839: {'error': 500}
+[21:14:44]   Retry 3/3 for cam 3839: {'error': 500}
+[21:14:52]   Retry 1/3 for cam 3840: {'error': 500}
+[21:14:56]   Retry 2/3 for cam 3840: {'error': 500}
+[21:15:01]   Retry 3/3 for cam 3840: {'error': 500}
+[21:15:07]   Too many errors, refresh session
+[21:15:29]   Refreshed, new token: BFUn6p6F7gLByemDNdGrVLKz5gZep9...
+[21:15:29]   200/218 done (0 ok, 200 fail) 0/s
+[21:15:32]   Retry 1/3 for cam 3841: {'error': 500}
+[21:15:36]   Retry 2/3 for cam 3841: {'error': 500}
+[21:15:42]   Retry 3/3 for cam 3841: {'error': 500}
+[21:15:51]   Retry 1/3 for cam 3842: {'error': 500}
+[21:15:55]   Retry 2/3 for cam 3842: {'error': 500}
+[21:16:01]   Retry 3/3 for cam 3842: {'error': 500}
+[21:16:09]   Retry 1/3 for cam 3843: {'error': 500}
+[21:16:13]   Retry 2/3 for cam 3843: {'error': 500}
+[21:16:20]   Retry 3/3 for cam 3843: {'error': 500}
+[21:16:28]   Retry 1/3 for cam 3845: {'error': 500}
+[21:16:32]   Retry 2/3 for cam 3845: {'error': 500}
+[21:16:39]   Retry 3/3 for cam 3845: {'error': 500}
+[21:16:47]   Retry 1/3 for cam 3846: {'error': 500}
+[21:16:52]   Retry 2/3 for cam 3846: {'error': 500}
+[21:16:58]   Retry 3/3 for cam 3846: {'error': 500}
+[21:17:04]   Too many errors, refresh session
+[21:17:26]   Refreshed, new token: emAnquNxd5dKurVUSl_WwUxlenfQTO...
+[21:17:28]   Retry 1/3 for cam 3847: {'error': 500}
+[21:17:31]   Retry 2/3 for cam 3847: {'error': 500}
+[21:17:36]   Retry 3/3 for cam 3847: {'error': 500}
+[21:17:44]   Retry 1/3 for cam 3848: {'error': 500}
+[21:17:47]   Retry 2/3 for cam 3848: {'error': 500}
+[21:17:53]   Retry 3/3 for cam 3848: {'error': 500}
+[21:18:01]   Retry 1/3 for cam 3849: {'error': 500}
+[21:18:04]   Retry 2/3 for cam 3849: {'error': 500}
+[21:18:10]   Retry 3/3 for cam 3849: {'error': 500}
+[21:18:18]   Retry 1/3 for cam 3850: {'error': 500}
+[21:18:22]   Retry 2/3 for cam 3850: {'error': 500}
+[21:18:28]   Retry 3/3 for cam 3850: {'error': 500}
+[21:18:36]   Retry 1/3 for cam 3852: {'error': 500}
+[21:18:40]   Retry 2/3 for cam 3852: {'error': 500}
+[21:18:46]   Retry 3/3 for cam 3852: {'error': 500}
+[21:18:52]   Too many errors, refresh session
+[21:19:13]   Refreshed, new token: nuWSumB4ym-lq9IkSuCh3iA9ZOhyrC...
+[21:19:16]   Retry 1/3 for cam 3853: {'error': 500}
+[21:19:20]   Retry 2/3 for cam 3853: {'error': 500}
+[21:19:26]   Retry 3/3 for cam 3853: {'error': 500}
+[21:19:33]   Retry 1/3 for cam 3854: {'error': 500}
+[21:19:37]   Retry 2/3 for cam 3854: {'error': 500}
+[21:19:41]   Retry 3/3 for cam 3854: {'error': 500}
+[21:19:49]   Retry 1/3 for cam 3855: {'error': 500}
+[21:19:53]   Retry 2/3 for cam 3855: {'error': 500}
+[21:19:59]   Retry 3/3 for cam 3855: {'error': 500}
+[21:20:06]   Retry 1/3 for cam 3856: {'error': 500}
+[21:20:10]   Retry 2/3 for cam 3856: {'error': 500}
+[21:20:15]   Retry 3/3 for cam 3856: {'error': 500}
+[21:20:23]   Retry 1/3 for cam 3857: {'error': 500}
+[21:20:27]   Retry 2/3 for cam 3857: {'error': 500}
+[21:20:32]   Retry 3/3 for cam 3857: {'error': 500}
+[21:20:38]   Too many errors, refresh session
+[21:21:00]   Refreshed, new token: thSvFCDN7WtlWWXr0mzvxReIJKURQ-...
+[21:21:02]   Retry 1/3 for cam 4343: {'error': 500}
+[21:21:05]   Retry 2/3 for cam 4343: {'error': 500}
+[21:21:10]   Retry 3/3 for cam 4343: {'error': 500}
+[21:21:17]   Retry 1/3 for cam 4344: {'error': 500}
+[21:21:21]   Retry 2/3 for cam 4344: {'error': 500}
+[21:21:26]   Retry 3/3 for cam 4344: {'error': 500}
+[21:21:34]   Retry 1/3 for cam 4372: {'error': 500}
+[21:21:37]   Retry 2/3 for cam 4372: {'error': 500}
+[21:21:42]   Retry 3/3 for cam 4372: {'error': 500}
+[21:21:49] 
+[DONE] 218 cams, 0 with divas token, 218 fail, in 5902s
+[21:21:49] 
+[BUILD] Building CSV update data...
+[21:21:49]   4,265 cams with live URLs
+[21:21:49]   Saved to fl511_live_urls.json
+[21:21:49] 
+[CSV] Updating master CSV...
+[21:21:51]   Found 4160 fl511 rows in CSV
+[21:21:51] 
+[OK] Live URLs saved to fl511_live_urls.json. Need to match to existing CSV rows.

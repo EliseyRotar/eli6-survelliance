@@ -1,0 +1,3 @@
+var ntpenable="1";
+var ntpserver="ntp.main";
+var ntpinterval="1";

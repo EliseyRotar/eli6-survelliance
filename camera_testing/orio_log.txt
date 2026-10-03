@@ -1,0 +1,58 @@
+[13:44:23] [init] starting Orio al Serio ingest
+[13:44:23]   FAIL: Bergamo Airport Aeroclub webcam (45.67,  | https://www.aeroclub.bg.it/public/webcam/current.jpg
+[13:44:23]   OK: A04 km 174.3 Bergamo Ovest               | https://video.autostrade.it/video-frames/dt2/b095c76f-0172-4
+[13:44:24]     added
+[13:44:24]   OK: A04 km 178.4 Seriate Est                 | https://video.autostrade.it/video-frames/dt2/9136de4a-642b-4
+[13:44:25]     added
+[13:44:25]   OK: A04 km 172.6 Bergamo Ovest Milano        | https://video.autostrade.it/video-frames/dt2/323f0c73-1c83-4
+[13:44:26]     added
+[13:44:26]   OK: A04 km 180.2 Seriate Ovest               | https://video.autostrade.it/video-frames/dt2/9136de4a-642b-4
+[13:44:27]     added
+[13:44:27]   OK: A04 km 171.2 Bergamo Est                 | https://video.autostrade.it/video-frames/dt2/9136de4a-642b-4
+[13:44:28]     added
+[13:44:28]   OK: A04 km 168.8 Dalmine Ovest               | https://video.autostrade.it/video-frames/dt2/9136de4a-642b-4
+[13:44:29]     added
+[13:44:30]   OK: A35 BreBeMi Treviglio                    | https://video.autostrade.it/video-frames/dt2/9136de4a-642b-4
+[13:44:31]     added
+[13:44:31]   OK: Bergamo Porta Sant Alessandro            | https://imgproxy.windy.com/_/preview/plain/current/179390154
+[13:44:32]     added
+[13:44:32]   OK: Mozzo south-east                         | https://imgproxy.windy.com/_/preview/plain/current/169280287
+[13:44:33]     added
+[13:44:33]   OK: Mozzo north-east                         | https://imgproxy.windy.com/_/preview/plain/current/169280276
+[13:44:34]     added
+[13:44:34]   OK: Paladina north                           | https://imgproxy.windy.com/_/preview/plain/current/165393086
+[13:44:35]     added
+[13:44:35]   OK: Sorisole Monte Canto Alto                | https://imgproxy.windy.com/_/preview/plain/current/169754736
+[13:44:36]     added
+[13:44:36]   OK: Almenno San Salvatore meteo              | https://imgproxy.windy.com/_/preview/plain/current/131218516
+[13:44:37]     added
+[13:44:37]   OK: Albino Fiobbio                           | https://imgproxy.windy.com/_/preview/plain/current/151950580
+[13:44:38]     added
+[13:44:38]   OK: Cividate al Piano                        | https://imgproxy.windy.com/_/preview/plain/current/172036173
+[13:44:39]     added
+[13:44:40]   OK: Palazzago                                | https://imgproxy.windy.com/_/preview/plain/current/172035108
+[13:44:41]     added
+[13:44:41]   OK: Vertova Monte Farno                      | https://imgproxy.windy.com/_/preview/plain/current/163185656
+[13:44:42]     added
+[13:44:42]   OK: Treviglio Autostrada A35                 | https://imgproxy.windy.com/_/preview/plain/current/157191282
+[13:44:43]     added
+[13:44:43]   OK: Treviglio Prealpi                        | https://imgproxy.windy.com/_/preview/plain/current/157191276
+[13:44:44]     added
+[13:44:44]   OK: Iseo Lake Iseo                           | https://imgproxy.windy.com/_/preview/plain/current/124888571
+[13:44:44]     added
+[13:44:45]   OK: Sovere Museo Malga Lunga                 | https://imgproxy.windy.com/_/preview/plain/current/145725265
+[13:44:45]     added
+[13:44:46]   OK: Crema Castelnuovo                        | https://imgproxy.windy.com/_/preview/plain/current/179390169
+[13:44:47]     added
+[13:44:47]   OK: San Giovanni Bianco Chiesa               | https://imgproxy.windy.com/_/preview/plain/current/151292465
+[13:44:47]     added
+[13:44:48]   OK: Clusone                                  | https://imgproxy.windy.com/_/preview/plain/current/175923697
+[13:44:48]     added
+[13:44:48]   OK: Gandino Rifugio Parafulmine              | https://imgproxy.windy.com/_/preview/plain/current/129163214
+[13:44:49]     added
+[13:44:50]   OK: Seregno west                             | https://imgproxy.windy.com/_/preview/plain/current/171961336
+[13:44:50]     added
+[13:44:51]   OK: Bresso Airport                           | https://imgproxy.windy.com/_/preview/plain/current/146930222
+[13:44:51]     added
+[13:44:51] [done] added 27 of 28 cams
+[13:44:51]   failed URLs: ['https://www.aeroclub.bg.it/public/webcam/current.jpg']

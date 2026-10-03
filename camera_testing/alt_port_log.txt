@@ -1,0 +1,12 @@
+[03:23:50] [init] 271 hosts
+[03:30:00] [init] 271 hosts
+[04:27:36]   ALT-HIT 213.144.145.239:8090 webcamxp http://213.144.145.239:8090/cam_1.mjpg
+[04:27:38]   ADDED idx=328: Kloten WebcamXP cam (webcamxp)
+[04:33:12]   ALT-HIT 195.223.180.50:80 webcamxp http://195.223.180.50:80/cam_1.mjpg
+[04:33:15]   ADDED idx=329: Rome WebcamXP cam (webcamxp)
+[05:07:12]   ALT-HIT 72.199.200.5:8080 webcamxp http://72.199.200.5:8080/cam_1.mjpg
+[05:07:15]   ADDED idx=332: Escondido WebcamXP cam (webcamxp)
+[05:35:52]   ALT-HIT 95.255.183.164:8080 webcamxp http://95.255.183.164:8080/cam_1.mjpg
+[05:35:55]   ADDED idx=333: Parma WebcamXP cam (webcamxp)
+[07:13:23]   ALT-HIT 80.61.63.103:81 webcamxp http://80.61.63.103:81/cam_1.mjpg
+[07:13:26]   ADDED idx=378: Purmerend WebcamXP cam (webcamxp)

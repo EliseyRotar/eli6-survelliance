@@ -1,0 +1,818 @@
+{
+  "998": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/catanzaro/caminia-baia-dell-est.html",
+    "token_path": "livee.m3u8?a=1577gmapb2gshpr5jl2oa6pse7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1577gmapb2gshpr5jl2oa6pse7",
+    "live": true,
+    "fetched_at": 1788018026.3115497,
+    "content_type": "application/x-mpegURL"
+  },
+  "104": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/isola-capo-rizzuto-le-castella.html",
+    "token_path": "livee.m3u8?a=o574ejvdg1nmb5vpig5kctlev3",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=o574ejvdg1nmb5vpig5kctlev3",
+    "live": true,
+    "fetched_at": 1788018026.8509626,
+    "content_type": "application/x-mpegURL"
+  },
+  "5612": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/carfizzi.html",
+    "token_path": "livee.m3u8?a=32qiab0fh5mtkunrvns4eubp15",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=32qiab0fh5mtkunrvns4eubp15",
+    "live": true,
+    "fetched_at": 1788018027.414586,
+    "content_type": "application/x-mpegURL"
+  },
+  "203": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/villaggio-palumbo.html",
+    "token_path": "livee.m3u8?a=ngr15u4kl56tlvmcg4rubs7v80",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ngr15u4kl56tlvmcg4rubs7v80",
+    "live": true,
+    "fetched_at": 1788018027.9739254,
+    "content_type": "application/x-mpegURL"
+  },
+  "1627": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/palumbo-sila-lago-ampollino.html",
+    "token_path": "livee.m3u8?a=hb686cbbckon17thvgp5npvnk5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=hb686cbbckon17thvgp5npvnk5",
+    "live": true,
+    "fetched_at": 1788018028.5233672,
+    "content_type": "application/x-mpegURL"
+  },
+  "1398": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/palumbo-sila.html",
+    "token_path": "livee.m3u8?a=r3pn104njkavlaf0actvtlqil1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=r3pn104njkavlaf0actvtlqil1",
+    "live": true,
+    "fetched_at": 1788018029.0660312,
+    "content_type": "application/x-mpegURL"
+  },
+  "1363": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/lago-ampollino-cotronei.html",
+    "token_path": "livee.m3u8?a=ftdbnk44ijhd968itom3nc0v01",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ftdbnk44ijhd968itom3nc0v01",
+    "live": true,
+    "fetched_at": 1788018029.6127727,
+    "content_type": "application/x-mpegURL"
+  },
+  "1478": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/torre-melissa.html",
+    "token_path": "livee.m3u8?a=62096iek3t3trgcfe1ggguqb43",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=62096iek3t3trgcfe1ggguqb43",
+    "live": true,
+    "fetched_at": 1788018030.1584222,
+    "content_type": "application/x-mpegURL"
+  },
+  "1479": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/torre-melissa-calabria.html",
+    "token_path": "livee.m3u8?a=mnpkfan3tagq0epqli0f3ijpa6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=mnpkfan3tagq0epqli0f3ijpa6",
+    "live": true,
+    "fetched_at": 1788018030.7815974,
+    "content_type": "application/x-mpegURL"
+  },
+  "580": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/porto-crotone.html",
+    "token_path": "livee.m3u8?a=hs9fesbguha3og7oqj0ceodqd5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=hs9fesbguha3og7oqj0ceodqd5",
+    "live": true,
+    "fetched_at": 1788018031.3340852,
+    "content_type": "application/x-mpegURL"
+  },
+  "1038": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/caribbean-netherlands/bonaire/kralendijk/sorobon-beach.html",
+    "error": "no_token",
+    "fetched_at": 1788018038.0235307
+  },
+  "1064": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/canarias/santa-cruz-de-tenerife/playa-la-pinta.html",
+    "token_path": "livee.m3u8?a=9mmkbdn2r7dh8s4qnlc6rchp66",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=9mmkbdn2r7dh8s4qnlc6rchp66",
+    "live": true,
+    "fetched_at": 1788018038.6053627,
+    "content_type": "application/x-mpegURL"
+  },
+  "1151": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/latina/piazza-della-liberta.html",
+    "token_path": "livee.m3u8?a=6o6kgd9k45l5ojjo5qq0328a95",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=6o6kgd9k45l5ojjo5qq0328a95",
+    "live": true,
+    "fetched_at": 1788018039.1498082,
+    "content_type": "application/x-mpegURL"
+  },
+  "1232": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/liguria/imperia/san-bartolomeo-al-mare.html",
+    "token_path": "livee.m3u8?a=p60gcm33gfhmqc4u37g8k19lr6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=p60gcm33gfhmqc4u37g8k19lr6",
+    "live": true,
+    "fetched_at": 1788018039.69111,
+    "content_type": "application/x-mpegURL"
+  },
+  "1347": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/andalucia/cadiz/olvera.html",
+    "token_path": "livee.m3u8?a=hh7kfpr68nkt4th74pqqaevso2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=hh7kfpr68nkt4th74pqqaevso2",
+    "live": true,
+    "fetched_at": 1788018040.2288563,
+    "content_type": "application/x-mpegURL"
+  },
+  "1370": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/toscana/firenze/firenze-centro-storico.html",
+    "token_path": "livee.m3u8?a=j59uldgdpk7ujq2nibuq0a0k46",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=j59uldgdpk7ujq2nibuq0a0k46",
+    "live": true,
+    "fetched_at": 1788018040.8040824,
+    "content_type": "application/x-mpegURL"
+  },
+  "1373": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lombardia/lecco/lecco.html",
+    "token_path": "livee.m3u8?a=g3qe6d902ndf64pke3813398v6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=g3qe6d902ndf64pke3813398v6",
+    "live": true,
+    "fetched_at": 1788018041.407441,
+    "content_type": "application/x-mpegURL"
+  },
+  "1382": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/piemonte/verbania/mottarone.html",
+    "token_path": "livee.m3u8?a=2jpeuadaftdejumrbjm2rf5mv2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=2jpeuadaftdejumrbjm2rf5mv2",
+    "live": true,
+    "fetched_at": 1788018041.9861693,
+    "content_type": "application/x-mpegURL"
+  },
+  "1475": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/seychelles/mahe/takamaka/anse-parnel-takamaka.html",
+    "token_path": "livee.m3u8?a=9vrq67qtmpb8b0duralaekorl3",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=9vrq67qtmpb8b0duralaekorl3",
+    "live": true,
+    "fetched_at": 1788018042.5446787,
+    "content_type": "application/x-mpegURL"
+  },
+  "1493": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/austria/tyrol/ebbs/ebbs-zahmer-kaiser.html",
+    "token_path": "livee.m3u8?a=ipcpm34hsngm98ap4j2rvflj86",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ipcpm34hsngm98ap4j2rvflj86",
+    "live": true,
+    "fetched_at": 1788018043.0830045,
+    "content_type": "application/x-mpegURL"
+  },
+  "1668": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/austria/vorarlberg/feldkirch-district/dafins.html",
+    "token_path": "livee.m3u8?a=fba0ma0denov7nh1gfg1p14e05",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=fba0ma0denov7nh1gfg1p14e05",
+    "live": true,
+    "fetched_at": 1788018043.6604738,
+    "content_type": "application/x-mpegURL"
+  },
+  "1677": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/ionian-islands/corfu/corfu-sidari.html",
+    "token_path": "livee.m3u8?a=eaaslp6e7h7f206atet978ab34",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=eaaslp6e7h7f206atet978ab34",
+    "live": true,
+    "fetched_at": 1788018044.2105334,
+    "content_type": "application/x-mpegURL"
+  },
+  "1746": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/canarias/las-palmas-gran-canaria/mogan-playa-taurito.html",
+    "token_path": "livee.m3u8?a=pes7uompn57ol1e7qh20ofu2i4",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=pes7uompn57ol1e7qh20ofu2i4",
+    "live": true,
+    "fetched_at": 1788018044.7606103,
+    "content_type": "application/x-mpegURL"
+  },
+  "1851": {
+    "page_url": "https://www.skylinewebcams.com/zh/webcam/taiwan/new-taipei-city/taipei-city/taipei-city.html",
+    "error": "no_token",
+    "fetched_at": 1788018060.6708567
+  },
+  "1865": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/new-york/new-york/sag-harbor.html",
+    "error": "no_token",
+    "fetched_at": 1788018067.4257588
+  },
+  "1993": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/netherlands/south-holland/rotterdam/rotterdam-erasmus-bridge.html",
+    "error": "no_token",
+    "fetched_at": 1788018083.46105
+  },
+  "209": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/liguria/genova/sestri-levante.html",
+    "token_path": "livee.m3u8?a=r6dg5euu8l1iqsj261f4q99de7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=r6dg5euu8l1iqsj261f4q99de7",
+    "live": true,
+    "fetched_at": 1788018084.0384297,
+    "content_type": "application/x-mpegURL"
+  },
+  "2117": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/minnesota/duluth/duluth-bay.html",
+    "error": "no_token",
+    "fetched_at": 1788018090.7707932
+  },
+  "2127": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/hrvatska/splitsko-dalmatinska/bol/bol-seafront.html",
+    "error": "no_token",
+    "fetched_at": 1788018097.4801507
+  },
+  "2185": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/new-york/watertown/watertown.html",
+    "error": "no_token",
+    "fetched_at": 1788018104.2006552
+  },
+  "2208": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/china/shanghai/shanghai/skyline-of-shanghai.html",
+    "token_path": "livee.m3u8?a=eja7fm3egjt91eqqfdlapfsf27",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=eja7fm3egjt91eqqfdlapfsf27",
+    "live": true,
+    "fetched_at": 1788018104.897242,
+    "content_type": "application/x-mpegURL"
+  },
+  "2288": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/texas/galveston/galveston.html",
+    "error": "no_token",
+    "fetched_at": 1788018111.655126
+  },
+  "2402": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/canada/british-columbia/tofino/long-beach.html",
+    "error": "no_token",
+    "fetched_at": 1788018118.3790982
+  },
+  "2434": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/czech-republic/zlin/zlin/peace-square.html",
+    "error": "no_token",
+    "fetched_at": 1788018125.174213
+  },
+  "2517": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/crete/heraklion/hersonissos-stalida.html",
+    "token_path": "livee.m3u8?a=1osth9on47fgkbvh3n840hd2n7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1osth9on47fgkbvh3n840hd2n7",
+    "live": true,
+    "fetched_at": 1788018125.7708974,
+    "content_type": "application/x-mpegURL"
+  },
+  "2587": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/andalucia/cadiz/villamartin-plaza-del-ayuntamiento.html",
+    "token_path": "livee.m3u8?a=vb9hup2ijvun8tkq8fs9q3fg47",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=vb9hup2ijvun8tkq8fs9q3fg47",
+    "live": true,
+    "fetched_at": 1788018126.323642,
+    "content_type": "application/x-mpegURL"
+  },
+  "2630": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/andalucia/cadiz/grazalema-plaza-de-los-asomaderos.html",
+    "token_path": "livee.m3u8?a=psr2peqr4a27mto20gs2tmh9n7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=psr2peqr4a27mto20gs2tmh9n7",
+    "live": true,
+    "fetched_at": 1788018126.890319,
+    "content_type": "application/x-mpegURL"
+  },
+  "2846": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/michigan/st-clair/river.html",
+    "error": "no_token",
+    "fetched_at": 1788018133.6616964
+  },
+  "2895": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/crotone/ciro-marina.html",
+    "token_path": "livee.m3u8?a=vbk4el3be2ju7mafm9t4b8sej1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=vbk4el3be2ju7mafm9t4b8sej1",
+    "live": true,
+    "fetched_at": 1788018134.2442915,
+    "content_type": "application/x-mpegURL"
+  },
+  "2903": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/comunidad-valenciana/alicante/orihuela-costa.html",
+    "token_path": "livee.m3u8?a=uvn6pgube990f5cea12d5pb7h1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=uvn6pgube990f5cea12d5pb7h1",
+    "live": true,
+    "fetched_at": 1788018134.8000593,
+    "content_type": "application/x-mpegURL"
+  },
+  "2942": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/lower-saxony/goslar/hahnenklee.html",
+    "error": "no_token",
+    "fetched_at": 1788018141.4929583
+  },
+  "3003": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/puglia/foggia/cagnano-varano.html",
+    "token_path": "livee.m3u8?a=8r7qvgje0hlhis2vmkt1oos0f7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=8r7qvgje0hlhis2vmkt1oos0f7",
+    "live": true,
+    "fetched_at": 1788018142.0993936,
+    "content_type": "application/x-mpegURL"
+  },
+  "3023": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/north-rhine-westphalia/recke/animal-and-bird-feede.html",
+    "error": "no_token",
+    "fetched_at": 1788018148.7844558
+  },
+  "3070": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/sicilia/messina/isola-di-salina.html",
+    "token_path": "livee.m3u8?a=da6ktht3a0idlseh4mkmgh7vo5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=da6ktht3a0idlseh4mkmgh7vo5",
+    "live": true,
+    "fetched_at": 1788018149.3679214,
+    "content_type": "application/x-mpegURL"
+  },
+  "3255": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/schweiz/canton-of-lucerne/luzern/luzern.html",
+    "error": "no_token",
+    "fetched_at": 1788018156.0735059
+  },
+  "3260": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/czech-republic/zlin/luhacovice/luhacovice.html",
+    "error": "no_token",
+    "fetched_at": 1788018162.7818272
+  },
+  "3511": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/michigan/vicksburg/main-street.html",
+    "error": "no_token",
+    "fetched_at": 1788018169.738246
+  },
+  "3538": {
+    "page_url": "https://www.skylinewebcams.com/zh/webcam/taiwan/changua-county/changhua/changhua.html",
+    "error": "no_token",
+    "fetched_at": 1788018176.5575907
+  },
+  "3566": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/michigan/charlevoix/lake.html",
+    "error": "no_token",
+    "fetched_at": 1788018183.5473588
+  },
+  "3581": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/schleswig-holstein/ockholm/ferry-port.html",
+    "error": "no_token",
+    "fetched_at": 1788018190.6957326
+  },
+  "3713": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lombardia/sondrio/valdidentro.html",
+    "token_path": "livee.m3u8?a=j1pov744b6b09fmch0mbtb4pn5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=j1pov744b6b09fmch0mbtb4pn5",
+    "live": true,
+    "fetched_at": 1788018191.4575968,
+    "content_type": "application/x-mpegURL"
+  },
+  "3775": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/sicilia/messina/patti-tindari.html",
+    "token_path": "livee.m3u8?a=l5r7lr0709q7r5tgq40luj9vt1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=l5r7lr0709q7r5tgq40luj9vt1",
+    "live": true,
+    "fetched_at": 1788018192.0915096,
+    "content_type": "application/x-mpegURL"
+  },
+  "3780": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/crete/heraklion/daru.html",
+    "token_path": "livee.m3u8?a=2a5b013o6qoipf4bdooo27asq3",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=2a5b013o6qoipf4bdooo27asq3",
+    "live": true,
+    "fetched_at": 1788018192.676188,
+    "content_type": "application/x-mpegURL"
+  },
+  "379": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/trentino-alto-adige/bolzano/corvara-in-badia-dolomiti.html",
+    "token_path": "livee.m3u8?a=r80us9rii2bl7nrc6eti98ed44",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=r80us9rii2bl7nrc6eti98ed44",
+    "live": true,
+    "fetched_at": 1788018193.2438934,
+    "content_type": "application/x-mpegURL"
+  },
+  "3910": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/sri-lanka/southern-province/midigama/plantations-beach.html",
+    "token_path": "livee.m3u8?a=7upmqcbqdolhogqh0tv2men3e0",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=7upmqcbqdolhogqh0tv2men3e0",
+    "live": true,
+    "fetched_at": 1788018193.813888,
+    "content_type": "application/x-mpegURL"
+  },
+  "4094": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/marche/ancona/sirolo.html",
+    "token_path": "livee.m3u8?a=vnjpr0b9van0apjcntctf2pnj0",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=vnjpr0b9van0apjcntctf2pnj0",
+    "live": true,
+    "fetched_at": 1788018194.382755,
+    "content_type": "application/x-mpegURL"
+  },
+  "4130": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/australia/new-south-wales/thredbo/ski-trails-thredbo.html",
+    "error": "no_token",
+    "fetched_at": 1788018201.09117
+  },
+  "4176": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/puglia/foggia/rodi-garganico.html",
+    "token_path": "livee.m3u8?a=7ghgia75jaqfkahi9sa32qtq75",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=7ghgia75jaqfkahi9sa32qtq75",
+    "live": true,
+    "fetched_at": 1788018201.7696707,
+    "content_type": "application/x-mpegURL"
+  },
+  "418": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/abruzzo/chieti/punta-aderci-vasto.html",
+    "token_path": "livee.m3u8?a=q4ei5gvo3ed1slvlmr194iuce2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=q4ei5gvo3ed1slvlmr194iuce2",
+    "live": true,
+    "fetched_at": 1788018202.3351035,
+    "content_type": "application/x-mpegURL"
+  },
+  "4183": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/zanzibar/zanzibar-urban-west-region/zanzibar-city/stone-town.html",
+    "token_path": "livee.m3u8?a=kv1drjdmb6tb1r47shli0h04c5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=kv1drjdmb6tb1r47shli0h04c5",
+    "live": true,
+    "fetched_at": 1788018202.887309,
+    "content_type": "application/x-mpegURL"
+  },
+  "422": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/friuli-venezia-giulia/udine/panorama-di-tarvisio.html",
+    "token_path": "livee.m3u8?a=tbibm3uqu84ket3mkm64iglic1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=tbibm3uqu84ket3mkm64iglic1",
+    "live": true,
+    "fetched_at": 1788018203.4874039,
+    "content_type": "application/x-mpegURL"
+  },
+  "4251": {
+    "page_url": "https://www.skylinewebcams.com/zh/webcam/taiwan/new-taipei-city/taipei-city/jiantanshan-weifeng-observatory.html",
+    "error": "no_token",
+    "fetched_at": 1788018210.2899573
+  },
+  "44": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/catanzaro/catanzaro-ponte-bisantis.html",
+    "token_path": "livee.m3u8?a=hvan41nu2dq0ocp5jbl3336eq5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=hvan41nu2dq0ocp5jbl3336eq5",
+    "live": true,
+    "fetched_at": 1788018210.8629189,
+    "content_type": "application/x-mpegURL"
+  },
+  "4415": {
+    "page_url": "https://www.skylinewebcams.com/zh/webcam/taiwan/new-taipei-city/taipei-city/juifen.html",
+    "error": "no_token",
+    "fetched_at": 1788018217.586458
+  },
+  "4432": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/poland/lower-silesian-voivodeship/wroclaw/streets.html",
+    "error": "no_token",
+    "fetched_at": 1788018224.4121056
+  },
+  "4472": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/liguria/genova/zoagli.html",
+    "token_path": "livee.m3u8?a=ia1e4mneliu04n73stei4lo845",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ia1e4mneliu04n73stei4lo845",
+    "live": true,
+    "fetched_at": 1788018225.0299244,
+    "content_type": "application/x-mpegURL"
+  },
+  "4493": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ireland/leinster/dublin/streets.html",
+    "error": "no_token",
+    "fetched_at": 1788018231.7829292
+  },
+  "4565": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/andalucia/cadiz/el-bosque.html",
+    "token_path": "livee.m3u8?a=04qp0icvnnie3cs09k25mifns5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=04qp0icvnnie3cs09k25mifns5",
+    "live": true,
+    "fetched_at": 1788018232.3946147,
+    "content_type": "application/x-mpegURL"
+  },
+  "4623": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/florida/watersound/watersound.html",
+    "error": "no_token",
+    "fetched_at": 1788018239.1083386
+  },
+  "465": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/hrvatska/primorsko-goranska/cabar/nacionalni-park-risnjak.html",
+    "token_path": "livee.m3u8?a=1lp6521ho4o8bl40fn3uqqegt7",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1lp6521ho4o8bl40fn3uqqegt7",
+    "live": true,
+    "fetched_at": 1788018239.6975427,
+    "content_type": "application/x-mpegURL"
+  },
+  "4703": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/caribbean-netherlands/bonaire/kralendijk/coral-reef-underwater-cam.html",
+    "error": "no_token",
+    "fetched_at": 1788018246.4428
+  },
+  "4799": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/trentino-alto-adige/bolzano/ahrntal.html",
+    "token_path": "livee.m3u8?a=vkj5bho4bc91diqmshflehfmq0",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=vkj5bho4bc91diqmshflehfmq0",
+    "live": true,
+    "fetched_at": 1788018247.0551977,
+    "content_type": "application/x-mpegURL"
+  },
+  "4840": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/north-rhine-westphalia/ratingen/ratingen.html",
+    "error": "no_token",
+    "fetched_at": 1788018253.760336
+  },
+  "5002": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ireland/leinster/dublin/collins-avenue.html",
+    "error": "no_token",
+    "fetched_at": 1788018260.4828713
+  },
+  "5074": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/brasil/bahia/cairu/morro-de-sao-paulo-beach.html",
+    "token_path": "livee.m3u8?a=ht22b25gi3ehn0l1dmvm0lhn16",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ht22b25gi3ehn0l1dmvm0lhn16",
+    "live": true,
+    "fetched_at": 1788018261.053353,
+    "content_type": "application/x-mpegURL"
+  },
+  "5110": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/florida/ormond-beach/ormond-by-the-sea.html",
+    "error": "no_token",
+    "fetched_at": 1788018267.7762246
+  },
+  "5258": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/chile/valparaiso/san-antonio/avenida-barros-luco.html",
+    "error": "no_token",
+    "fetched_at": 1788018274.4714959
+  },
+  "5263": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/lower-saxony/hannover/train.html",
+    "error": "no_token",
+    "fetched_at": 1788018281.199109
+  },
+  "5303": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/puglia/brindisi/fasano.html",
+    "token_path": "livee.m3u8?a=n6u0s2dsukm8tko8m7g42dfdd5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=n6u0s2dsukm8tko8m7g42dfdd5",
+    "live": true,
+    "fetched_at": 1788018281.8297136,
+    "content_type": "application/x-mpegURL"
+  },
+  "5375": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/atiki/athina/porto-rafti.html",
+    "token_path": "livee.m3u8?a=n9en812aiepg0s3tf262p7h2e6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=n9en812aiepg0s3tf262p7h2e6",
+    "live": true,
+    "fetched_at": 1788018282.4097693,
+    "content_type": "application/x-mpegURL"
+  },
+  "5409": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lombardia/sondrio/bormio-2000.html",
+    "token_path": "livee.m3u8?a=bodprloo0stdgjpgfba3mb6qp4",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=bodprloo0stdgjpgfba3mb6qp4",
+    "live": true,
+    "fetched_at": 1788018282.9942727,
+    "content_type": "application/x-mpegURL"
+  },
+  "5424": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/cataluna/gerona/calella-de-palafrugell-costa-brava.html",
+    "token_path": "livee.m3u8?a=8hediss70g4sg0dtm81thnu5m6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=8hediss70g4sg0dtm81thnu5m6",
+    "live": true,
+    "fetched_at": 1788018283.5654747,
+    "content_type": "application/x-mpegURL"
+  },
+  "5428": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/michigan/grand-rapids/thornapple-river.html",
+    "token_path": "livee.m3u8?a=0hlfjeabtc1ridit6p0mu1ufb3",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=0hlfjeabtc1ridit6p0mu1ufb3",
+    "live": true,
+    "fetched_at": 1788018284.1381736,
+    "content_type": "application/x-mpegURL"
+  },
+  "5453": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/uruguay/maldonado/punta-del-este/punta-del-este-uruguay.html",
+    "token_path": "livee.m3u8?a=lgvcajsljm06dhb7950ke6vcl4",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=lgvcajsljm06dhb7950ke6vcl4",
+    "live": true,
+    "fetched_at": 1788018284.7415395,
+    "content_type": "application/x-mpegURL"
+  },
+  "5522": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/puglia/foggia/centro-storico-castelluccio-valmaggiore.html",
+    "token_path": "livee.m3u8?a=kvs8k1mec4ejmu4s0ch4uktdt1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=kvs8k1mec4ejmu4s0ch4uktdt1",
+    "live": true,
+    "fetched_at": 1788018285.2897325,
+    "content_type": "application/x-mpegURL"
+  },
+  "5541": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/michigan/traverse-city/traverse-city.html",
+    "error": "no_token",
+    "fetched_at": 1788018292.0431857
+  },
+  "5576": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/schweiz/canton-of-valais/martigny/valais.html",
+    "token_path": "livee.m3u8?a=fntobnmuar0hc7ofmr80dpl0c4",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=fntobnmuar0hc7ofmr80dpl0c4",
+    "live": true,
+    "fetched_at": 1788018292.670497,
+    "content_type": "application/x-mpegURL"
+  },
+  "5627": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/schweiz/canton-of-valais/martigny/martigny.html",
+    "error": "no_token",
+    "fetched_at": 1788018299.4460356
+  },
+  "565": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lombardia/sondrio/pista-stelvio-ski-area-bormio.html",
+    "token_path": "livee.m3u8?a=lnt6v7ufp8d62mpb46spm2t135",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=lnt6v7ufp8d62mpb46spm2t135",
+    "live": true,
+    "fetched_at": 1788018300.0762072,
+    "content_type": "application/x-mpegURL"
+  },
+  "5672": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/sicilia/ragusa/scicli.html",
+    "token_path": "livee.m3u8?a=vfvoebki0t93l7j9dqkod30kv5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=vfvoebki0t93l7j9dqkod30kv5",
+    "live": true,
+    "fetched_at": 1788018300.6920252,
+    "content_type": "application/x-mpegURL"
+  },
+  "5675": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/crete/chania/paleochora-pachia-ammos-beach.html",
+    "token_path": "livee.m3u8?a=2vkh1tknr5budmq75cv7t4slu2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=2vkh1tknr5budmq75cv7t4slu2",
+    "live": true,
+    "fetched_at": 1788018301.2820358,
+    "content_type": "application/x-mpegURL"
+  },
+  "5676": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/poland/lesser-poland-voivodeship/nowy-sacz/streets.html",
+    "token_path": "livee.m3u8?a=aeh3aivtaqmn9g4qc5hoi1a5n4",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=aeh3aivtaqmn9g4qc5hoi1a5n4",
+    "live": true,
+    "fetched_at": 1788018301.9160469,
+    "content_type": "application/x-mpegURL"
+  },
+  "5683": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/rheinland-pfalz/filsen/bopparder-hamm.html",
+    "error": "no_token",
+    "fetched_at": 1788018308.6330783
+  },
+  "570": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/makedonia/chalkidiki/nea-roda.html",
+    "token_path": "livee.m3u8?a=r62n3tnhpmh2cbirk2u76fup64",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=r62n3tnhpmh2cbirk2u76fup64",
+    "live": true,
+    "fetched_at": 1788018309.2279837,
+    "content_type": "application/x-mpegURL"
+  },
+  "5716": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/espana/andalucia/granada/almunecar.html",
+    "token_path": "livee.m3u8?a=1mfghlj134me37251i74p62sc6",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1mfghlj134me37251i74p62sc6",
+    "live": true,
+    "fetched_at": 1788018309.8275032,
+    "content_type": "application/x-mpegURL"
+  },
+  "5721": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/florida/the-villages/spanish-springs-town-square.html",
+    "error": "no_token",
+    "fetched_at": 1788018316.8104653
+  },
+  "5738": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/romania/transylvania/bran/bran-draculas-castle.html",
+    "error": "no_token",
+    "fetched_at": 1788018327.2490666
+  },
+  "5760": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/via-della-frezza.html",
+    "token_path": "livee.m3u8?a=fgqfg4nqgnsqoah4ahdklhq8e2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=fgqfg4nqgnsqoah4ahdklhq8e2",
+    "live": true,
+    "fetched_at": 1788018330.1783605,
+    "content_type": "application/x-mpegURL"
+  },
+  "5780": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/canada/british-columbia/campbell-river/campbell-river-airport-runway.html",
+    "token_path": "livee.m3u8?a=gp46g0kjmk4ascvio77a2d2br2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=gp46g0kjmk4ascvio77a2d2br2",
+    "live": true,
+    "fetched_at": 1788018334.2797356,
+    "content_type": "application/x-mpegURL"
+  },
+  "5796": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/deutschland/bayern/kochel-am-see/walchensee.html",
+    "token_path": "livee.m3u8?a=6gan414r83426epj14hf311vd5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=6gan414r83426epj14hf311vd5",
+    "live": true,
+    "fetched_at": 1788018336.5888534,
+    "content_type": "application/x-mpegURL"
+  },
+  "5873": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/florida/marathon/sunset-grille.html",
+    "error": "no_token",
+    "fetched_at": 1788018344.317659
+  },
+  "5902": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/cosenza/san-donato-di-ninea.html",
+    "token_path": "livee.m3u8?a=sdg38r5s9cscca8reaarl0vkn5",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=sdg38r5s9cscca8reaarl0vkn5",
+    "live": true,
+    "fetched_at": 1788018345.859475,
+    "content_type": "application/x-mpegURL"
+  },
+  "6040": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/sicilia/palermo/ustica-area-marina-protetta.html",
+    "token_path": "livee.m3u8?a=hatdl7q7iocd1q214rqt3gc6r2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=hatdl7q7iocd1q214rqt3gc6r2",
+    "live": true,
+    "fetched_at": 1788018347.1627135,
+    "content_type": "application/x-mpegURL"
+  },
+  "6064": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/new-york/new-york/podcast-view-times-square.html",
+    "token_path": "livee.m3u8?a=enqdsdbkvj0pstill07u9t2un2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=enqdsdbkvj0pstill07u9t2un2",
+    "live": true,
+    "fetched_at": 1788018347.82018,
+    "content_type": "application/x-mpegURL"
+  },
+  "607": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/piazza-venezia.html",
+    "token_path": "livee.m3u8?a=aa1k0oq2ifvl6vu870scqaice3",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=aa1k0oq2ifvl6vu870scqaice3",
+    "live": true,
+    "fetched_at": 1788018348.457144,
+    "content_type": "application/x-mpegURL"
+  },
+  "6117": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/china/hong-kong/hong-kong/panorama.html",
+    "error": "no_token",
+    "fetched_at": 1788018355.1626637
+  },
+  "6154": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/calabria/vibo-valentia/capo-vaticano.html",
+    "token_path": "livee.m3u8?a=ugoipm4f1b607vj86grc0sur96",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=ugoipm4f1b607vj86grc0sur96",
+    "live": true,
+    "fetched_at": 1788018356.2356596,
+    "content_type": "application/x-mpegURL"
+  },
+  "618": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/ellada/central-greece/evrytania/granitsa.html",
+    "token_path": "livee.m3u8?a=5atr5tvvb6c4pofootso10v767",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=5atr5tvvb6c4pofootso10v767",
+    "live": true,
+    "fetched_at": 1788018357.414476,
+    "content_type": "application/x-mpegURL"
+  },
+  "666": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/south-africa/kwazulu-natal/kwadukuza/ballito.html",
+    "token_path": "livee.m3u8?a=n1l5oh8o6bnalq7gn1s6t0pjk1",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=n1l5oh8o6bnalq7gn1s6t0pjk1",
+    "live": true,
+    "fetched_at": 1788018359.9646103,
+    "content_type": "application/x-mpegURL"
+  },
+  "692": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/lazio/roma/campo-de-fiori.html",
+    "token_path": "livee.m3u8?a=65sao4qkvoikhfjh0eho3t6dj0",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=65sao4qkvoikhfjh0eho3t6dj0",
+    "live": true,
+    "fetched_at": 1788018362.0196695,
+    "content_type": "application/x-mpegURL"
+  },
+  "741": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/sicilia/catania/eruzione-etna.html",
+    "token_path": "livee.m3u8?a=pnieori8j35dd101h00ip57ku2",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=pnieori8j35dd101h00ip57ku2",
+    "live": true,
+    "fetched_at": 1788018362.6154304,
+    "content_type": "application/x-mpegURL"
+  },
+  "790": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/united-states/new-york/new-york/new-york-skyline.html",
+    "token_path": "livee.m3u8?a=phpajiq5gnc9dqrgdfvpa0h125",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=phpajiq5gnc9dqrgdfvpa0h125",
+    "live": true,
+    "fetched_at": 1788018363.2088635,
+    "content_type": "application/x-mpegURL"
+  },
+  "800": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/trentino-alto-adige/trento/madonna-di-campiglio.html",
+    "token_path": "livee.m3u8?a=1v0tbf1d5f349cfvdls0bn4694",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1v0tbf1d5f349cfvdls0bn4694",
+    "live": true,
+    "fetched_at": 1788018363.8160543,
+    "content_type": "application/x-mpegURL"
+  },
+  "876": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/puglia/lecce/salento-santa-cesarea-terme.html",
+    "token_path": "livee.m3u8?a=4rmd0t99rhufaf3jta3uesus03",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=4rmd0t99rhufaf3jta3uesus03",
+    "live": true,
+    "fetched_at": 1788018364.5444715,
+    "content_type": "application/x-mpegURL"
+  },
+  "95": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/italia/trentino-alto-adige/bolzano/san-candido-val-pusteria.html",
+    "token_path": "livee.m3u8?a=1k97ctf0qn87eomdcks77nov04",
+    "hls_url": "https://hd-auth.skylinewebcams.com/livee.m3u8?a=1k97ctf0qn87eomdcks77nov04",
+    "live": true,
+    "fetched_at": 1788018365.257551,
+    "content_type": "application/x-mpegURL"
+  },
+  "967": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/malta/malta/xemxija.html",
+    "error": "no_token",
+    "fetched_at": 1788018372.2689574
+  },
+  "984": {
+    "page_url": "https://www.skylinewebcams.com/en/webcam/australia/new-south-wales/orange/falcon-cam.html",
+    "error": "no_token",
+    "fetched_at": 1788018379.2240288
+  }
+}

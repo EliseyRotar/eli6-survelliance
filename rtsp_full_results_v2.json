@@ -1,0 +1,242 @@
+[
+  [
+    "152.65.56.203",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 17:51:49 GMT\r\nContent-Base: rtsp://152.65.56.203/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 634\r\n\r\nv=0\r\no=RTSP 1787766709 566 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=et"
+  ],
+  [
+    "161.72.135.23",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 15:49:44 GMT\r\nContent-Base: rtsp://161.72.135.23/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 431\r\n\r\nv=0\r\no=RTSP 1787759384 668 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=et"
+  ],
+  [
+    "109.102.24.214",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 18:49:46 GMT\r\nContent-Base: rtsp://109.102.24.214/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 328\r\n\r\nv=0\r\no=RTSP 1787770186 141 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=e"
+  ],
+  [
+    "161.72.135.5",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 15:49:44 GMT\r\nContent-Base: rtsp://161.72.135.5/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 195\r\n\r\nv=0\r\no=RTSP 1787759384 927 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=eta"
+  ],
+  [
+    "166.154.247.73",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Sat, 8 Dec 2001 22:35:47 GMT\r\nContent-Base: rtsp://166.154.247.73/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 335\r\n\r\nv=0\r\no=RTSP 1007850947 80 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=eta"
+  ],
+  [
+    "123.226.230.136",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Thu, 27 Aug 2026 2:24:12 GMT\r\nContent-Base: rtsp://123.226.230.136/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 312\r\n\r\nv=0\r\no=RTSP 1787797452 660 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=e"
+  ],
+  [
+    "176.98.119.2",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 16:49:46 GMT\r\nContent-Base: rtsp://176.98.119.2/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 469\r\n\r\nv=0\r\no=RTSP 1787762986 833 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=eta"
+  ],
+  [
+    "175.113.15.151",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"74b89f27585fadbb\", nonce=\"8f4H7fv4X2Vs0mDYw78y1PI\r\n\r\n"
+  ],
+  [
+    "175.117.62.60",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"1b1f28f8835d1107\", nonce=\"1mKaSaQo6Mrnj7K6yA50Jwy\r\n\r\n"
+  ],
+  [
+    "125.17.248.94",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Mon, 6 Mar 2000 10:18:54 GMT\r\nContent-Base: rtsp://125.17.248.94/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 468\r\n\r\nv=0\r\no=RTSP 952337934 165 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag"
+  ],
+  [
+    "147.78.24.8",
+    "/live/0/main",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Aug 26 2026 15:50:02 GMT\r\nContent-Base: rtsp://192.168.1.40/1/h264major/\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nCache-Control: private\r\nx-Accept-Dynamic-Rate: 1\r\nContent-Length: 511\r\n\r\nv=0\r\no=- 1375660802367034 1 IN IP4 192.168.1.40\r"
+  ],
+  [
+    "151.14.98.27",
+    "/h264/ch1/main/av_stream",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Aug 26 2026 16:50:26 GMT\r\nContent-Base: rtsp://151.14.98.27:554/h264/ch1/main/av_stream/\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nCache-Control: private\r\nx-Accept-Dynamic-Rate: 1\r\nContent-Length: 707\r\n\r\nv=0\r\no=- 1787763026474080 1 IN I"
+  ],
+  [
+    "162.229.14.147",
+    "/h264/ch1/main/av_stream",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Aug 26 2026 11:50:53 GMT\r\nContent-Base: rtsp://192.168.5.204:554/h264/ch1/main/av_stream\r\nContent-Type: application/sdp\r\nContent-Length: 678\r\n\r\nv=0\r\no=- 1786461084388300 1 IN IP4 192.168.5.204\r\ns=Jabsco stream server\r\ni=stream1\r\nt=0 0\r\na=tool:LIVE555 Streaming Me"
+  ],
+  [
+    "1.32.0.102",
+    "/trackID=1",
+    "admin:123456",
+    "RTSP/1.0 200 OK\r\nServer: TVT RTSP Server/1.0.0\r\nCSeq: 1\r\nLast-Modified: Tue Apr 11 10:39:14 2017 GMT\r\nCache-Control: must-revalidate\r\nDate: Wed, Aug 26 2026 16:20:14 GMT\r\nExpires: Wed, Aug 26 2026 16:20:14 GMT\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nx-Accept-Dynamic-Rate"
+  ],
+  [
+    "2.136.2.155",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 17:53:13 GMT\r\nContent-Base: rtsp://2.136.2.155/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 485\r\n\r\nv=0\r\no=RTSP 1787766793 302 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag"
+  ],
+  [
+    "205.149.147.150",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: StarDot H264 Server\r\nCSeq: 1\r\nCache-Control: no-cache\r\nContent-Length: 287\r\nContent-Type: application/sdp\r\n\r\nv=0\r\no=- 126dcd0a1aeb9a93 0 IN IP4 81.57.128.244\r\ns= \r\nc=IN IP4 81.57.128.244\r\nt=0 0\r\nm=video 0 RTP/AVP 96\r\na=rtpmap:96 H264/90000\r\na=control:trackID=1\r\na=fmtp:96 pac"
+  ],
+  [
+    "205.149.147.151",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: StarDot H264 Server\r\nCSeq: 1\r\nCache-Control: no-cache\r\nContent-Length: 287\r\nContent-Type: application/sdp\r\n\r\nv=0\r\no=- 67a0b4121855c51c 0 IN IP4 81.57.128.244\r\ns= \r\nc=IN IP4 81.57.128.244\r\nt=0 0\r\nm=video 0 RTP/AVP 96\r\na=rtpmap:96 H264/90000\r\na=control:trackID=1\r\na=fmtp:96 pac"
+  ],
+  [
+    "211.197.37.44",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nContent-Base: rtsp://211.197.37.44:554/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 300\r\n\r\nv=0\r\no=- 2208990726 2208990736 IN IP4 192.168.1.28\r\ns=Video Server Session\r\nt=0 0\r\na=control:*\r\na=range:npt=0-\r\nm=video 0 RTP/AVP 98\r\na=rtpmap:98 H264/90000\r\na=fmtp:98 pr"
+  ],
+  [
+    "212.87.254.166",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 17:54:2 GMT\r\nContent-Base: rtsp://212.87.254.166/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 515\r\n\r\nv=0\r\no=RTSP 1787766842 437 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=et"
+  ],
+  [
+    "218.103.127.44",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 23:54:19 GMT\r\nContent-Base: rtsp://218.103.127.44/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 548\r\n\r\nv=0\r\no=RTSP 1787788459 399 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=e"
+  ],
+  [
+    "24.230.127.254",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 10:54:26 GMT\r\nContent-Base: rtsp://10.225.70.7/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 621\r\n\r\nv=0\r\no=RTSP 1787741666 797 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag"
+  ],
+  [
+    "46.23.58.84",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 16:5:16 GMT\r\nContent-Base: rtsp://46.23.58.84/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 432\r\n\r\nv=0\r\no=RTSP 1787760317 132 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag:"
+  ],
+  [
+    "5.185.125.147",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 17:55:43 GMT\r\nContent-Base: rtsp://5.185.125.147/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 469\r\n\r\nv=0\r\no=RTSP 1787766943 680 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=et"
+  ],
+  [
+    "220.135.56.68",
+    "/Streaming/Channels/101",
+    "admin:123456",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nContent-Type: application/sdp\r\nContent-Length: 668\r\nContent-Base: rtsp://rtsp://admin:123456@220.135.56.68:554/Streaming/Channels/101/\r\n\r\nv=0\r\no=- 1109162014219182 1109162014219192 IN IP4 x.y.z.w\r\ns=RTSP/RTP stream from icamra ipc\r\ne=NONE\r\nc=IN IP4 0.0.0.0\r\na=tool:WWW.ICAMR"
+  ],
+  [
+    "66.188.133.122",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Fri, 17 Mar 2000 20:26:1 GMT\r\nContent-Base: rtsp://66.188.133.122/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 464\r\n\r\nv=0\r\no=RTSP 953324762 52 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag"
+  ],
+  [
+    "77.252.78.102",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 17:58:3 GMT\r\nContent-Base: rtsp://77.252.78.102/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 403\r\n\r\nv=0\r\no=RTSP 1787767083 602 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=eta"
+  ],
+  [
+    "77.40.58.64",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"2bfe8ff11e525732\", nonce=\"nvQwN4gsTzyceKbdZ5PP1LK\r\n\r\n"
+  ],
+  [
+    "78.26.126.26",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 16:58:16 GMT\r\nContent-Base: rtsp://78.26.126.26/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 485\r\n\r\nv=0\r\no=RTSP 1787763496 286 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=eta"
+  ],
+  [
+    "65.76.100.63",
+    "/h264/ch1/main/av_stream",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Aug 26 2026 15:58:57 GMT\r\nContent-Base: rtsp://65.76.100.63:554/h264/ch1/main/av_stream/\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nCache-Control: private\r\nx-Accept-Dynamic-Rate: 1\r\nContent-Length: 589\r\n\r\nv=0\r\no=- 1787759937469682 1 IN I"
+  ],
+  [
+    "82.135.236.222",
+    "/live.sdp",
+    "admin:",
+    "RTSP/1.0 200 OK\r\nCseq: 1 \r\nServer: Rtsp Server 0*0*30*4096\r\nContent-Type: application/sdp\r\nContent-length: 394\r\nContent-Base: rtsp://192.168.1.254/0\r\n\r\nv=0\r\no=StreamingServer 3331435948 1116907222000 IN IP4 192.168.1.254\r\ns=h264.mp4\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=control:*\r\nm=video 0 RTP/AVP 96\r\na=cont"
+  ],
+  [
+    "66.241.67.14",
+    "/stream1",
+    "",
+    "RTSP/1.0 200 OK\r\nContent-Base: rtsp://192.168.99.35/stream1/\r\nContent-Length: 595\r\nContent-Type: application/sdp\r\nCSeq: 1\r\nDate: Wed Aug 26 09:00:20 2026\r\n\r\nv=0\r\no=- 999973 1 IN IP4 192.168.99.35\r\ns=Session streamed by \"Pelco Streaming Server\"\r\ni=stream1\r\nt=0 0\r\na=tool:Pelco Streaming Server 2013-08"
+  ],
+  [
+    "84.252.40.201",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: StarDot H264 Server\r\nCSeq: 1\r\nCache-Control: no-cache\r\nContent-Length: 287\r\nContent-Type: application/sdp\r\n\r\nv=0\r\no=- 99083add9b8e8dc0 0 IN IP4 81.57.128.244\r\ns= \r\nc=IN IP4 81.57.128.244\r\nt=0 0\r\nm=video 0 RTP/AVP 96\r\na=rtpmap:96 H264/90000\r\na=control:trackID=1\r\na=fmtp:96 pac"
+  ],
+  [
+    "85.160.65.190",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Fri, 28 Jan 2000 14:1:2 GMT\r\nContent-Base: rtsp://85.160.65.190/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 221\r\n\r\nv=0\r\no=RTSP 949068062 915 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag:"
+  ],
+  [
+    "85.4.116.213",
+    "/live/0/main",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, Aug 26 2026 16:03:21 GMT\r\nContent-Base: rtsp://192.168.1.110/1/h264major/\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nCache-Control: private\r\nx-Accept-Dynamic-Rate: 1\r\nContent-Length: 450\r\n\r\nv=0\r\no=- 1782673301037325 1 IN IP4 192.168.1.11"
+  ],
+  [
+    "86.122.62.167",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"11057f2ac648d28e\", nonce=\"GvnbGlRhKF6js82ahHmg5JM\r\n\r\n"
+  ],
+  [
+    "86.123.146.149",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"d13c737aafa6160a\", nonce=\"a7fr40293Mzi0D47lRis9lK\r\n\r\n"
+  ],
+  [
+    "88.119.137.171",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Sat, 21 Nov 2009 5:52:46 GMT\r\nContent-Base: rtsp://88.119.137.171/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 325\r\n\r\nv=0\r\no=RTSP 1258782766 631 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=et"
+  ],
+  [
+    "94.110.74.26",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: H264DVR 1.0\r\nCseq: 1\r\nWWW-Authenticate: Digest realm=\"86c016b5a9178a44\", nonce=\"c5uqjQZngj7Bnk9HlDBU8BO\r\n\r\n"
+  ],
+  [
+    "93.99.21.98",
+    "/live.sdp",
+    "",
+    "RTSP/1.0 200 OK\r\nCSeq: 1\r\nDate: Wed, 26 Aug 2026 18:1:48 GMT\r\nContent-Base: rtsp://93.99.21.98/live.sdp/\r\nContent-Type: application/sdp\r\nContent-Length: 355\r\n\r\nv=0\r\no=RTSP 1787767308 656 IN IP4 0.0.0.0\r\ns=RTSP server\r\nc=IN IP4 0.0.0.0\r\nt=0 0\r\na=charset:Shift_JIS\r\na=range:npt=0-\r\na=control:*\r\na=etag:"
+  ],
+  [
+    "93.144.0.95",
+    "/trackID=1",
+    "",
+    "RTSP/1.0 200 OK\r\nServer: Server/1.0.0\r\nCSeq: 1\r\nLast-Modified: Tue Jul 11 21:49:44 2023 GMT\r\nCache-Control: must-revalidate\r\nDate: Wed, Aug 26 2026 16:28:42 GMT\r\nExpires: Wed, Aug 26 2026 16:28:42 GMT\r\nContent-Type: application/sdp\r\nx-Accept-Retransmit: our-retransmit\r\nx-Accept-Dynamic-Rate: 1\r\nCont"
+  ]
+]

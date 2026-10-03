@@ -1,0 +1,7 @@
+{
+  "method": "getAllStreamProfiles",
+  "error": {
+    "code": 2005,
+    "message": "There was an 2005 error"
+  }
+}

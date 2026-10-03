@@ -1,0 +1,23 @@
+[12:29:20] [init] 324 existing hosts
+[12:29:20] [load] 7 URLs from txt
+[12:29:20] [probe targets] 1
+[12:43:59] [init] 324 existing hosts
+[12:43:59] [load] 1904 URLs from txt
+[12:43:59] [probe targets] 1786
+[12:44:11]   HIT http://173.164.213.201:8083/nphMotionJpeg?Resolution=640x480&Quality=Motion w=80
+[12:44:12]     ADDED idx=423
+[12:44:12]   HIT http://173.164.213.201:8083/nphMotionJpeg?Resolution=640x480&Quality=Motion w=80
+[12:44:12]     ADDED idx=424
+[12:44:15]   HIT http://209.124.145.124:84/nphMotionJpeg?Resolution=640x480&Quality=Motion w=80
+[12:44:15]     ADDED idx=425
+[12:49:54]   progress 100/1786, found=3
+[12:59:12]   HIT http://216.14.224.50:80/axis-cgi/mjpg/video.cgi w=88
+[13:01:34]     ADDED idx=426
+[13:04:37]   HIT http://216.14.224.49:80/axis-cgi/mjpg/video.cgi w=88
+[13:22:36]     ADDED idx=427
+[13:22:37]   HIT http://216.14.224.49:80/axis-cgi/mjpg/video.cgi w=88
+[13:40:39] [init] 328 existing hosts
+[13:40:39] [load] 1904 URLs from txt
+[13:40:39] [probe targets] 1778
+[13:49:22]   progress 100/1778, found=0
+[14:08:13]   HIT http://216.14.224.48:80/mjpg/video.mjpg w=85

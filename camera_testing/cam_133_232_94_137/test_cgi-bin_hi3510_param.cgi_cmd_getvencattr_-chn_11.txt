@@ -1,0 +1,7 @@
+var bps_1="1536";
+var fps_1="15";
+var gop_1="60";
+var brmode_1="1";
+var imagegrade_1="1";
+var width_1="2560";
+var height_1="1920";

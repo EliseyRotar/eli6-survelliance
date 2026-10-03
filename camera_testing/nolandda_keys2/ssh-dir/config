@@ -1,0 +1,55 @@
+
+Host bitbucket.org
+ IdentityFile ~/.ssh/id_rsa
+
+Host git.star.lab
+ IdentityFile ~/.ssh/id_rsa_sl
+
+Host git.starlab.io
+ IdentityFile ~/.ssh/id_rsa_sl
+
+Host build-slave-1
+ HostName build-slave-1
+ IdentityFile ~/.ssh/id_rsa_sl
+ User dan
+ Port 22
+
+Host syzfus
+ HostName syzfus.dc.starlab.io
+ IdentityFile ~/.ssh/id_rsa_sl
+ User dan.noland
+ Port 22
+
+Host github.com-nolandda
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_ed25519_github
+
+Host build-slave-2
+ HostName build-slave-2
+ IdentityFile ~/.ssh/id_rsa_sl
+ User dnoland
+ Port 22
+
+Host gorgon
+ HostName 192.168.10.125
+ User nolandda
+ Port 22
+
+Host miniban
+ HostName 10.10.10.158
+ User falken
+ IdentityFile ~/.ssh/id_rsa_falken
+ Port 22
+
+Host pirelay
+ HostName 192.168.0.2
+ IdentityFile ~/.ssh/id_rsa
+ User pi
+ Port 22
+
+Host mrcy-transfer
+ HostName mrcy-transfer.ti.ad.mc.com
+ IdentityFile ~/.ssh/id_rsa_sl
+ User dan.noland
+ Port 22

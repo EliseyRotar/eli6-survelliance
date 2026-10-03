@@ -1,0 +1,47 @@
+<HTML>
+
+<HEAD>
+<TITLE>EvoCam JavaScript Example Page</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide
+
+    var refresh = 360;
+    var seconds = refresh;
+  
+    function webcamRefresh()
+    {
+		document.form.counter.value = --seconds;
+		if (seconds <= 0)
+		{
+			var now = new Date();
+			var imageURL = "webcam.jpg" + "?" + now.getTime();
+			document.webcam.src = imageURL;
+			seconds = refresh;
+		}
+		refreshTimer = setTimeout("webcamRefresh()", 1000);
+    }
+
+// -->
+</SCRIPT>
+
+</HEAD>
+
+<BODY onLoad = "webcamRefresh()">
+<CENTER>
+
+<IMG NAME="webcam" SRC="webcam.jpg" WIDTH="640" HEIGHT="480">
+<BR>
+<FORM NAME="form">
+<INPUT NAME="counter" TYPE="text" SIZE="2" VALUE BORDER=0> seconds until refresh
+</FORM>
+
+<BR>
+<SMALL>
+Powered by <A HREF="http://www.evological.com/evocam.html">EvoCam</A>
+</SMALL>
+
+</CENTER>
+</BODY>
+
+</HTML>

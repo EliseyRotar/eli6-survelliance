@@ -1,0 +1,76 @@
+[12:18:39] [init] starting live TV ingest v2
+[12:18:39] [init] loaded 8666 cams to add
+[12:18:39] [init] loading existing CSV for dedup...
+[12:18:41] [init] 210,673 existing URLs, 115,483 TV IDs
+[12:18:42] [init] max idx: 234689
+[12:18:42] 
+[done] added 0, skipped_dup 8666, skipped_invalid 0, in 0.0s
+[12:22:42] [init] starting TV ingest (live + image) v2
+[12:22:42] [init] loading existing CSV for dedup...
+[12:22:43] [init] 210,673 existing URLs
+[12:22:45] [init] max idx: 234689
+[12:22:45] [init] loaded 8,666 LIVE cams
+[12:22:45] [live] done: 0 added
+[12:22:45] [init] loaded 23,139 IMAGE cams
+[12:22:45] [image] done: 0 added
+[12:22:45] 
+[done] total 0 added
+[12:23:55] [init] starting TV ingest (live + image) v2
+[12:23:55] [init] loading existing CSV for dedup...
+[12:23:57] [init] 210,673 existing URLs
+[12:23:58] [init] max idx: 234689
+[12:23:58] [init] loaded 8,666 LIVE cams
+[12:23:58] [live] done: 0 added
+[12:23:58] [init] loaded 23,139 IMAGE cams
+[12:23:59] [image] done: 0 added
+[12:23:59] [init] loaded 2,457 TRULY MISSING cams (blocked filtered)
+[12:23:59] [truly] done: 0 added
+[12:23:59] 
+[done] total 0 added
+[12:25:45] [init] starting TV ingest (live + image) v2
+[12:25:45] [init] loading existing CSV for dedup...
+[12:25:46] [init] 210,673 existing URLs
+[12:25:47] [init] max idx: 234689
+[12:25:47] [init] loaded 8,666 LIVE cams
+[12:25:47] [live] done: 0 added
+[12:25:47] [init] loaded 23,139 IMAGE cams
+[12:25:47] [image] done: 0 added
+[12:25:47] [init] loaded 570 TRULY MISSING cams (blocked filtered)
+[12:25:47] [truly] done: 0 added
+[12:25:47] 
+[done] total 0 added
+[12:26:36] [init] starting TV ingest (live + image) v2
+[12:26:36] [init] loading existing CSV for dedup...
+[12:26:37] [init] 210,673 existing URLs
+[12:26:38] [init] max idx: 234689
+[12:26:38] [init] loaded 8,666 LIVE cams
+[12:26:38] [live] done: 0 added
+[12:26:39] [init] loaded 23,139 IMAGE cams
+[12:26:39] [image] done: 0 added
+[12:26:39] [init] loaded 570 TRULY MISSING cams (blocked filtered)
+[12:26:39] [truly] done: 0 added
+[12:26:39] 
+[done] total 0 added
+[12:31:31] [init] starting TV ingest (live + image) v2
+[12:31:31] [init] loading existing CSV for dedup...
+[12:31:32] [init] 210,673 existing URLs
+[12:31:33] [init] max idx: 234689
+[12:31:33] [init] loaded 8,666 LIVE cams
+[12:31:33] [live] done: 0 added
+[12:31:33] [init] loaded 23,139 IMAGE cams
+[12:31:33] [image] done: 0 added
+[12:31:33] [init] loaded 570 TRULY MISSING cams (blocked filtered)
+[12:31:33] [truly] done: 0 added
+[12:31:33] [init] loaded 6,008 NEW cams (not in old catalog, blocked filtered)
+[12:31:33]   [new] added 1000, dup 3780, invalid 0, 0s
+[12:31:33]   [new] added 2000, dup 3780, invalid 0, 0s
+[12:31:33] [new] done: 2228 added
+[12:31:33] 
+[done] total 2228 added
+[15:31:45] [init] starting TV v2 ingest
+[15:31:45] [init] loading existing CSV for dedup...
+[15:31:47] [init] 212,876 existing URLs
+[15:31:49] [init] max idx: 236917
+[15:31:49] [init] loaded 235 NEW cams
+[15:31:49] 
+[done] total 230 added, 5 dup

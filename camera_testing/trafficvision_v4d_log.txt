@@ -1,0 +1,15 @@
+[18:34:37] [init] TV v4d - ingest scraped URLs from missing cam landing pages
+[18:34:37]   loaded scraped URLs from 42 sources
+[18:34:37]   586 useful URLs after filtering
+[18:34:37]   586 unique useful URLs
+[18:34:40]   existing: 182,070 URLs
+[18:34:46]   500 added, 12 skipped, 6s
+[18:34:49] 
+[done] added 574, skipped 12, in 9.6s
+[18:36:03] [init] TV v4d - ingest scraped URLs from missing cam landing pages
+[18:36:03]   loaded scraped URLs from 42 sources
+[18:36:03]   586 useful URLs after filtering
+[18:36:03]   586 unique useful URLs
+[18:36:05]   existing: 182,744 URLs
+[18:36:05] 
+[done] added 0, skipped 586, in 0.0s

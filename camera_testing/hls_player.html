@@ -1,0 +1,55 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>HLS Player</title>
+<style>
+body{margin:0;background:#111;color:#eee;font-family:system-ui,sans-serif}
+video{width:100vw;height:85vh;background:#000;display:block}
+#bar{padding:8px;background:#222;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+input{flex:1;min-width:200px;background:#000;color:#0f0;border:1px solid #444;padding:8px;font-family:monospace}
+button{background:#0a0;color:#fff;border:none;padding:8px 16px;cursor:pointer;font-weight:bold}
+button:hover{background:#0c0}
+.info{padding:4px 12px;background:#000;color:#888;font-size:12px;font-family:monospace}
+</style>
+</head><body>
+<div id="bar">
+<input id="url" type="text" placeholder="paste .m3u8 URL here (or use ?url=...)" value="">
+<button onclick="load()">PLAY</button>
+</div>
+<div class="info" id="info">No URL loaded</div>
+<video id="v" controls autoplay playsinline></video>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.7.1"></script>
+<script>
+const v = document.getElementById('v');
+const info = document.getElementById('info');
+const inp = document.getElementById('url');
+const params = new URLSearchParams(location.search);
+if (params.get('url')) {
+  inp.value = params.get('url');
+  load();
+}
+function load() {
+  const url = inp.value.trim();
+  if (!url) return;
+  info.textContent = 'Loading: ' + url;
+  v.src = '';
+  if (Hls.isSupported()) {
+    if (window.hls) window.hls.destroy();
+    const h = new Hls({liveSyncDurationCount: 3});
+    h.loadSource(url);
+    h.attachMedia(v);
+    window.hls = h;
+    h.on(Hls.Events.MANIFEST_PARSED, () => {
+      info.textContent = 'OK | hls.js | ' + url;
+      v.play().catch(e => info.textContent += ' | autoplay blocked: ' + e.message);
+    });
+    h.on(Hls.Events.ERROR, (e, d) => {
+      info.textContent = 'ERROR ' + d.type + ' ' + d.details + ' | ' + url;
+    });
+  } else if (v.canPlayType('application/vnd.apple.mpegurl')) {
+    v.src = url;
+    v.play();
+    info.textContent = 'OK | native (Safari) | ' + url;
+  } else {
+    info.textContent = 'No HLS support in this browser';
+  }
+}
+</script></body></html>

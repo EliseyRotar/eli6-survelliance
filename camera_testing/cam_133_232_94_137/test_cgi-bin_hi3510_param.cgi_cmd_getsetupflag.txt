@@ -1,0 +1,3 @@
+var name0="admin";
+var password0="admin";
+var authLevel0="15";

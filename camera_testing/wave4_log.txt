@@ -1,0 +1,22 @@
+[00:16:10] [init] starting Wave-4
+[00:16:10] [init] 10036 existing live URLs
+[00:16:10] [pass-1] surfline
+[00:16:11] [surfline] +0
+[00:16:11] [pass-2] webcam.travel v2
+[00:16:13] [webcam.travel-v2] +0
+[00:16:13] [pass-3] OSM surveillance cams
+[00:16:14] [osm] +0
+[00:16:14] [pass-4] OWM weather cams
+[00:16:16] [owm] +0
+[00:16:16] [done] Wave-4 complete
+[04:30:00] [init] starting Wave-4
+[04:30:00] [init] 35968 existing live URLs
+[04:30:00] [pass-1] surfline
+[04:30:02] [surfline] +0
+[04:30:02] [pass-2] webcam.travel v2
+[04:30:03] [webcam.travel-v2] +0
+[04:30:03] [pass-3] OSM surveillance cams
+[04:30:04] [osm] +0
+[04:30:04] [pass-4] OWM weather cams
+[04:30:05] [owm] +0
+[04:30:05] [done] Wave-4 complete

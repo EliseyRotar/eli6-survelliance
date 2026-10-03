@@ -1,0 +1,847 @@
+[15:47:36] [init] starting OpenCCTV ingestion
+[15:47:37] [init] 63969 existing live URLs, 0 existing opencctv IDs
+[15:47:37] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[15:47:37] [markers] 158595 total cams
+[15:47:37] [chunks] 3172 batches of 50
+[15:48:55]   progress batch 20/3172, added=18, processed=1000
+[15:52:09]   progress batch 40/3172, added=183, processed=2000
+[15:53:02]   progress batch 60/3172, added=217, processed=3000
+[15:53:50] [init] starting OpenCCTV ingestion
+[15:53:51] [init] 64213 existing live URLs, 231 existing opencctv IDs
+[15:53:51] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[15:53:51] [markers] 158595 total cams
+[15:53:51] [chunks] 3172 batches of 50
+[16:13:31] [init] starting OpenCCTV ingestion
+[16:13:32] [init] 65184 existing live URLs, 849 existing opencctv IDs
+[16:13:32] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[16:13:32] [markers] 158595 total cams
+[16:13:32] [chunks] 3172 batches of 50
+[16:24:30]   progress batch 80/3172, added=353, processed=4000
+[16:30:53]   progress batch 100/3172, added=441, processed=5000
+[16:35:57] [init] starting OpenCCTV ingestion
+[16:35:58] [init] 66276 existing live URLs, 1166 existing opencctv IDs
+[16:35:58] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[16:35:58] [markers] 158595 total cams
+[16:35:58] [chunks] 3172 batches of 50
+[16:39:57] [init] starting OpenCCTV ingestion
+[16:39:58] [init] 66490 existing live URLs, 1166 existing opencctv IDs
+[16:39:58] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[16:39:58] [markers] 158595 total cams
+[16:39:58] [chunks] 3172 batches of 50
+[16:56:11]   progress batch 120/3172, added=861, processed=6000
+[17:17:46]   progress batch 140/3172, added=1478, processed=7000
+[17:58:54]   progress batch 160/3172, added=2472, processed=8000
+[18:53:50]   progress batch 180/3172, added=3042, processed=9000
+[19:04:58]   progress batch 200/3172, added=3153, processed=10000
+[19:07:22]   progress batch 220/3172, added=3200, processed=11000
+[19:11:26] [init] starting OpenCCTV ingestion
+[19:12:30] [init] starting OpenCCTV ingestion
+[19:12:56] [init] starting OpenCCTV ingestion
+[19:14:11] [init] starting OpenCCTV ingestion
+[19:14:12] [init] 66983 existing live URLs, 3906 existing opencctv IDs
+[19:14:12] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[19:14:13] [markers] 158595 total cams
+[19:14:13] [chunks] 3172 batches of 50
+[19:16:20] [init] starting OpenCCTV ingestion
+[19:16:22] [init] 66983 existing live URLs, 3906 existing opencctv IDs
+[19:16:22] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[19:16:22] [markers] 158595 total cams
+[19:16:22] [chunks] 3172 batches of 50
+[19:18:27] [init] starting OpenCCTV ingestion
+[19:18:28] [init] 66983 existing live URLs, 3906 existing opencctv IDs
+[19:18:28] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[19:18:28] [markers] 158595 total cams
+[19:18:28] [chunks] 3172 batches of 50
+[19:31:32]   progress batch 240/3172, added=3260, processed=12000
+[19:36:08]   progress batch 260/3172, added=3340, processed=13000
+[19:36:31] [init] starting OpenCCTV ingestion
+[19:36:32] [init] 66983 existing live URLs, 3906 existing opencctv IDs
+[19:36:32] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[19:36:32] [markers] 158595 total cams
+[19:36:32] [chunks] 3172 batches of 50
+[19:40:11]   progress batch 280/3172, added=3427, processed=14000
+[19:52:42]   progress batch 300/3172, added=3727, processed=15000
+[20:08:34]   progress batch 320/3172, added=3955, processed=16000
+[20:38:50]   progress batch 340/3172, added=4363, processed=17000
+[20:43:59]   progress batch 360/3172, added=4414, processed=18000
+[20:47:49]   progress batch 380/3172, added=4475, processed=19000
+[21:02:31] [init] starting OpenCCTV ingestion
+[21:02:36] [init] 174767 existing live URLs, 4795 existing opencctv IDs
+[21:02:36] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[21:02:36] [markers] 158595 total cams
+[21:02:36] [chunks] 3172 batches of 50
+[21:17:08] [init] starting OpenCCTV ingestion
+[21:17:11] [init] 174970 existing live URLs, 4873 existing opencctv IDs
+[21:17:11] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[21:17:12] [markers] 158595 total cams
+[21:17:12] [chunks] 3172 batches of 50
+[21:28:11]   progress batch 400/3172, added=4591, processed=20000
+[22:25:55]   progress batch 420/3172, added=5357, processed=21000
+[00:05:11] [init] starting OpenCCTV ingestion
+[00:05:15] [init] 178837 existing live URLs, 6692 existing opencctv IDs
+[00:05:15] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[00:05:15] [markers] 158595 total cams
+[00:05:15] [chunks] 3172 batches of 50
+[00:06:08]   progress batch 440/3172, added=5361, processed=22000
+[00:46:53]   progress batch 460/3172, added=5890, processed=23000
+[00:58:26]   progress batch 480/3172, added=6057, processed=24000
+[00:59:23]   progress batch 500/3172, added=6068, processed=25000
+[01:28:53]   progress batch 520/3172, added=6448, processed=26000
+[02:33:22]   progress batch 540/3172, added=7250, processed=27000
+[02:54:39]   progress batch 560/3172, added=7524, processed=28000
+[04:14:32]   progress batch 580/3172, added=8524, processed=29000
+[05:38:59]   progress batch 600/3172, added=9523, processed=30000
+[07:04:53]   progress batch 620/3172, added=10523, processed=31000
+[07:34:57]   progress batch 640/3172, added=10850, processed=32000
+[08:03:44]   progress batch 660/3172, added=11172, processed=33000
+[08:10:41]   progress batch 680/3172, added=11252, processed=34000
+[08:13:22]   progress batch 700/3172, added=11276, processed=35000
+[08:14:16]   progress batch 720/3172, added=11283, processed=36000
+[08:21:29]   progress batch 740/3172, added=11359, processed=37000
+[08:38:52]   progress batch 760/3172, added=11562, processed=38000
+[09:44:38]   progress batch 780/3172, added=12300, processed=39000
+[09:52:32]   progress batch 800/3172, added=12387, processed=40000
+[10:04:47]   progress batch 820/3172, added=12517, processed=41000
+[10:08:15]   progress batch 840/3172, added=12552, processed=42000
+[10:12:15]   progress batch 860/3172, added=12596, processed=43000
+[10:24:01]   progress batch 880/3172, added=12718, processed=44000
+[10:55:40]   progress batch 900/3172, added=13076, processed=45000
+[12:24:01]   progress batch 920/3172, added=14076, processed=46000
+[12:24:50] [init] starting OpenCCTV ingestion
+[12:24:54] [init] 194492 existing live URLs, 15375 existing opencctv IDs
+[12:24:54] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[12:24:55] [markers] 158595 total cams
+[12:24:55] [chunks] 3172 batches of 50
+[13:19:47]   progress batch 940/3172, added=14525, processed=47000
+[13:20:55]   progress batch 960/3172, added=14533, processed=48000
+[13:21:50]   progress batch 980/3172, added=14540, processed=49000
+[13:23:14]   progress batch 1000/3172, added=14550, processed=50000
+[13:30:53]   progress batch 1020/3172, added=14623, processed=51000
+[13:47:38]   progress batch 1040/3172, added=14798, processed=52000
+[15:02:59]   progress batch 1060/3172, added=15513, processed=53000
+[15:04:05]   progress batch 1080/3172, added=15523, processed=54000
+[15:20:39]   progress batch 1100/3172, added=15696, processed=55000
+[16:53:54] [init] starting OpenCCTV ingestion
+[16:53:58] [init] 197324 existing live URLs, 17026 existing opencctv IDs
+[16:53:58] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[16:53:58] [markers] 158595 total cams
+[16:53:58] [chunks] 3172 batches of 50
+[17:25:08]   progress batch 1120/3172, added=15952, processed=56000
+[17:28:49]   progress batch 1140/3172, added=15987, processed=57000
+[17:35:25]   progress batch 1160/3172, added=16054, processed=58000
+[17:36:43]   progress batch 1180/3172, added=16065, processed=59000
+[17:56:27]   progress batch 1200/3172, added=16283, processed=60000
+[18:01:43]   progress batch 1220/3172, added=16338, processed=61000
+[18:03:06]   progress batch 1240/3172, added=16350, processed=62000
+[18:35:47]   progress batch 1260/3172, added=16596, processed=63000
+[19:01:11] [init] starting OpenCCTV ingestion
+[19:01:16] [init] 200280 existing live URLs, 17992 existing opencctv IDs
+[19:01:16] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[19:01:16] [markers] 158595 total cams
+[19:01:16] [chunks] 3172 batches of 50
+[20:26:21] [init] starting OpenCCTV ingestion
+[20:28:40] [init] starting OpenCCTV ingestion
+[20:28:43] [init] 120058 existing live URLs, 1975 existing opencctv IDs
+[20:28:43] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[20:28:43] [markers] 158595 total cams
+[20:28:43] [chunks] 3172 batches of 50
+[15:05:30] [init] starting OpenCCTV ingestion
+[15:05:33] [init] 175056 existing live URLs, 4909 existing opencctv IDs
+[15:05:33] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[15:05:33] [markers] 158595 total cams
+[15:05:33] [chunks] 3172 batches of 50
+[15:45:00]   progress batch 1280/3172, added=17266, processed=64000
+[15:53:58]   progress batch 1300/3172, added=17413, processed=65000
+[15:54:29]   progress batch 1320/3172, added=17417, processed=66000
+[15:55:42]   progress batch 1340/3172, added=17434, processed=67000
+[15:58:51]   progress batch 1360/3172, added=17485, processed=68000
+[15:59:08]   progress batch 1380/3172, added=17485, processed=69000
+[15:59:32]   progress batch 1400/3172, added=17487, processed=70000
+[15:59:49]   progress batch 1420/3172, added=17487, processed=71000
+[16:00:15]   progress batch 1440/3172, added=17490, processed=72000
+[16:00:40]   progress batch 1460/3172, added=17492, processed=73000
+[16:00:59]   progress batch 1480/3172, added=17493, processed=74000
+[16:09:12]   progress batch 1500/3172, added=17621, processed=75000
+[16:09:36]   progress batch 1520/3172, added=17622, processed=76000
+[16:10:33]   progress batch 1540/3172, added=17631, processed=77000
+[16:10:50]   progress batch 1560/3172, added=17631, processed=78000
+[16:55:18]   progress batch 1580/3172, added=18438, processed=79000
+[17:12:03]   progress batch 1600/3172, added=18736, processed=80000
+[17:49:34]   progress batch 1620/3172, added=19238, processed=81000
+[19:01:02]   progress batch 1640/3172, added=19886, processed=82000
+[20:40:54]   progress batch 1660/3172, added=20817, processed=83000
+[22:28:15]   progress batch 1680/3172, added=21530, processed=84000
+[00:37:33]   progress batch 1700/3172, added=22210, processed=85000
+[00:51:35] [init] starting OpenCCTV ingestion
+[00:51:43] [init] 153373 existing live URLs, 6752 existing opencctv IDs
+[00:51:43] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[00:51:43] [markers] 158595 total cams
+[00:51:43] [chunks] 3172 batches of 50
+[03:12:21]   progress batch 1720/3172, added=22979, processed=86000
+[05:50:07]   progress batch 1760/3172, added=23762, processed=86800
+[06:53:36]   err cam=s511-PA-3667: field larger than field limit (131072)
+[06:53:38]   err cam=s511-PA-3668: field larger than field limit (131072)
+[06:53:40]   err cam=s511-PA-3669: field larger than field limit (131072)
+[06:53:42]   err cam=s511-PA-3670: field larger than field limit (131072)
+[06:53:43]   err cam=s511-PA-3671: field larger than field limit (131072)
+[06:53:45]   err cam=s511-PA-3672: field larger than field limit (131072)
+[06:53:47]   err cam=s511-PA-3673: field larger than field limit (131072)
+[06:53:49]   err cam=s511-PA-3674: field larger than field limit (131072)
+[06:53:51]   err cam=s511-PA-3675: field larger than field limit (131072)
+[06:53:53]   err cam=s511-PA-3676: field larger than field limit (131072)
+[06:53:54]   err cam=s511-PA-3677: field larger than field limit (131072)
+[06:53:56]   err cam=s511-PA-3678: field larger than field limit (131072)
+[06:53:59]   err cam=s511-PA-3679: field larger than field limit (131072)
+[06:54:00]   err cam=s511-PA-3680: field larger than field limit (131072)
+[06:54:02]   err cam=s511-PA-3681: field larger than field limit (131072)
+[06:54:04]   err cam=s511-PA-3682: field larger than field limit (131072)
+[06:54:05]   err cam=s511-PA-3683: field larger than field limit (131072)
+[06:54:07]   err cam=s511-PA-3684: field larger than field limit (131072)
+[06:54:09]   err cam=s511-PA-3685: field larger than field limit (131072)
+[06:54:12]   err cam=s511-PA-3686: field larger than field limit (131072)
+[06:54:14]   err cam=s511-PA-3687: field larger than field limit (131072)
+[06:54:16]   err cam=s511-PA-3688: field larger than field limit (131072)
+[06:54:18]   err cam=s511-PA-3689: field larger than field limit (131072)
+[06:54:21]   err cam=s511-PA-3690: field larger than field limit (131072)
+[06:54:23]   err cam=s511-PA-3691: field larger than field limit (131072)
+[06:54:24]   err cam=s511-PA-3692: field larger than field limit (131072)
+[06:54:27]   err cam=s511-PA-3693: field larger than field limit (131072)
+[06:54:29]   err cam=s511-PA-3694: field larger than field limit (131072)
+[06:54:30]   err cam=s511-PA-3695: field larger than field limit (131072)
+[06:54:32]   err cam=s511-PA-3696: field larger than field limit (131072)
+[06:54:34]   err cam=s511-PA-3699: field larger than field limit (131072)
+[06:54:37]   err cam=s511-PA-3700: field larger than field limit (131072)
+[06:54:39]   err cam=s511-PA-3702: field larger than field limit (131072)
+[06:54:41]   err cam=s511-PA-3704: field larger than field limit (131072)
+[06:54:43]   err cam=s511-PA-3706: field larger than field limit (131072)
+[06:54:45]   err cam=s511-PA-3708: field larger than field limit (131072)
+[06:54:46]   err cam=s511-PA-3709: field larger than field limit (131072)
+[06:54:48]   err cam=s511-PA-3710: field larger than field limit (131072)
+[06:54:50]   err cam=s511-PA-3711: field larger than field limit (131072)
+[06:54:51]   err cam=s511-PA-3713: field larger than field limit (131072)
+[06:54:53]   err cam=s511-PA-3714: field larger than field limit (131072)
+[06:54:54]   err cam=s511-PA-3715: field larger than field limit (131072)
+[06:54:56]   err cam=s511-PA-3716: field larger than field limit (131072)
+[06:54:58]   err cam=s511-PA-3717: field larger than field limit (131072)
+[06:54:59]   err cam=s511-PA-3718: field larger than field limit (131072)
+[06:55:01]   err cam=s511-PA-3719: field larger than field limit (131072)
+[06:55:03]   err cam=s511-PA-3720: field larger than field limit (131072)
+[06:55:05]   err cam=s511-PA-3721: field larger than field limit (131072)
+[06:55:07]   err cam=s511-PA-3722: field larger than field limit (131072)
+[06:55:08]   err cam=s511-PA-3723: field larger than field limit (131072)
+[06:55:10]   err cam=s511-PA-3724: field larger than field limit (131072)
+[06:55:13]   err cam=s511-PA-3725: field larger than field limit (131072)
+[06:55:15]   err cam=s511-PA-3726: field larger than field limit (131072)
+[06:55:17]   err cam=s511-PA-3727: field larger than field limit (131072)
+[06:55:19]   err cam=s511-PA-3728: field larger than field limit (131072)
+[06:55:22]   err cam=s511-PA-3729: field larger than field limit (131072)
+[06:55:24]   err cam=s511-PA-3730: field larger than field limit (131072)
+[06:55:26]   err cam=s511-PA-3731: field larger than field limit (131072)
+[06:55:29]   err cam=s511-PA-3732: field larger than field limit (131072)
+[06:55:31]   err cam=s511-PA-3734: field larger than field limit (131072)
+[06:55:33]   err cam=s511-PA-3735: field larger than field limit (131072)
+[06:55:35]   err cam=s511-PA-3736: field larger than field limit (131072)
+[06:55:37]   err cam=s511-PA-3737: field larger than field limit (131072)
+[06:55:39]   err cam=s511-PA-3738: field larger than field limit (131072)
+[06:55:41]   err cam=s511-PA-3739: field larger than field limit (131072)
+[06:55:42]   err cam=s511-PA-3740: field larger than field limit (131072)
+[06:55:44]   err cam=s511-PA-3741: field larger than field limit (131072)
+[06:55:46]   err cam=s511-PA-3742: field larger than field limit (131072)
+[06:55:48]   err cam=s511-PA-3743: field larger than field limit (131072)
+[06:55:50]   err cam=s511-PA-3744: field larger than field limit (131072)
+[06:55:52]   err cam=s511-PA-3745: field larger than field limit (131072)
+[06:55:54]   err cam=s511-PA-3746: field larger than field limit (131072)
+[06:55:56]   err cam=s511-PA-3747: field larger than field limit (131072)
+[06:55:58]   err cam=s511-PA-3748: field larger than field limit (131072)
+[06:56:00]   err cam=s511-PA-3749: field larger than field limit (131072)
+[06:56:01]   err cam=s511-PA-3750: field larger than field limit (131072)
+[06:56:03]   err cam=s511-PA-3751: field larger than field limit (131072)
+[06:56:05]   err cam=s511-PA-3752: field larger than field limit (131072)
+[06:56:07]   err cam=s511-PA-3753: field larger than field limit (131072)
+[06:56:08]   err cam=s511-PA-3754: field larger than field limit (131072)
+[06:56:11]   err cam=s511-PA-3755: field larger than field limit (131072)
+[06:56:14]   err cam=s511-PA-3756: field larger than field limit (131072)
+[06:56:15]   err cam=s511-PA-3757: field larger than field limit (131072)
+[06:56:17]   err cam=s511-PA-3758: field larger than field limit (131072)
+[06:56:19]   err cam=s511-PA-3759: field larger than field limit (131072)
+[06:56:20]   err cam=s511-PA-3761: field larger than field limit (131072)
+[06:56:22]   err cam=s511-PA-3762: field larger than field limit (131072)
+[06:56:24]   err cam=s511-PA-3763: field larger than field limit (131072)
+[06:56:26]   err cam=s511-PA-3764: field larger than field limit (131072)
+[06:56:27]   err cam=s511-PA-3765: field larger than field limit (131072)
+[06:56:29]   err cam=s511-PA-3766: field larger than field limit (131072)
+[06:56:31]   err cam=s511-PA-3767: field larger than field limit (131072)
+[06:56:33]   err cam=s511-PA-3769: field larger than field limit (131072)
+[06:56:35]   err cam=s511-PA-3770: field larger than field limit (131072)
+[06:56:36]   err cam=s511-PA-3771: field larger than field limit (131072)
+[06:56:39]   err cam=s511-PA-3772: field larger than field limit (131072)
+[06:56:40]   err cam=s511-PA-3773: field larger than field limit (131072)
+[06:56:42]   err cam=s511-PA-3774: field larger than field limit (131072)
+[06:56:44]   err cam=s511-PA-3775: field larger than field limit (131072)
+[06:56:45]   err cam=s511-PA-3776: field larger than field limit (131072)
+[06:56:48]   err cam=s511-PA-3777: field larger than field limit (131072)
+[06:56:49]   err cam=s511-PA-3778: field larger than field limit (131072)
+[06:56:51]   err cam=s511-PA-3779: field larger than field limit (131072)
+[06:56:53]   err cam=s511-PA-3780: field larger than field limit (131072)
+[06:56:54]   err cam=s511-PA-3781: field larger than field limit (131072)
+[06:56:56]   err cam=s511-PA-3784: field larger than field limit (131072)
+[06:56:58]   err cam=s511-PA-3785: field larger than field limit (131072)
+[06:56:59]   err cam=s511-PA-3786: field larger than field limit (131072)
+[06:57:02]   err cam=s511-PA-3787: field larger than field limit (131072)
+[06:57:04]   err cam=s511-PA-3788: field larger than field limit (131072)
+[06:57:07]   err cam=s511-PA-3789: field larger than field limit (131072)
+[06:57:09]   err cam=s511-PA-3790: field larger than field limit (131072)
+[06:57:11]   err cam=s511-PA-3792: field larger than field limit (131072)
+[06:57:12]   err cam=s511-PA-3793: field larger than field limit (131072)
+[06:57:14]   err cam=s511-PA-3794: field larger than field limit (131072)
+[06:57:15]   err cam=s511-PA-3795: field larger than field limit (131072)
+[06:57:17]   err cam=s511-PA-3796: field larger than field limit (131072)
+[06:57:19]   err cam=s511-PA-3797: field larger than field limit (131072)
+[06:57:21]   err cam=s511-PA-3798: field larger than field limit (131072)
+[06:57:23]   err cam=s511-PA-3799: field larger than field limit (131072)
+[06:57:24]   err cam=s511-PA-38: field larger than field limit (131072)
+[06:57:26]   err cam=s511-PA-3800: field larger than field limit (131072)
+[06:57:27]   err cam=s511-PA-3801: field larger than field limit (131072)
+[06:57:29]   err cam=s511-PA-3802: field larger than field limit (131072)
+[06:57:31]   err cam=s511-PA-3803: field larger than field limit (131072)
+[06:57:33]   err cam=s511-PA-3804: field larger than field limit (131072)
+[06:57:35]   err cam=s511-PA-3805: field larger than field limit (131072)
+[06:57:37]   err cam=s511-PA-3806: field larger than field limit (131072)
+[06:57:38]   err cam=s511-PA-3807: field larger than field limit (131072)
+[06:57:40]   err cam=s511-PA-3808: field larger than field limit (131072)
+[06:57:42]   err cam=s511-PA-3809: field larger than field limit (131072)
+[06:57:45]   err cam=s511-PA-3810: field larger than field limit (131072)
+[06:57:46]   err cam=s511-PA-3811: field larger than field limit (131072)
+[06:57:48]   err cam=s511-PA-3812: field larger than field limit (131072)
+[06:57:49]   err cam=s511-PA-3813: field larger than field limit (131072)
+[06:57:51]   err cam=s511-PA-3814: field larger than field limit (131072)
+[06:57:52]   err cam=s511-PA-3815: field larger than field limit (131072)
+[06:57:54]   err cam=s511-PA-3816: field larger than field limit (131072)
+[06:57:55]   err cam=s511-PA-3817: field larger than field limit (131072)
+[06:57:57]   err cam=s511-PA-3818: field larger than field limit (131072)
+[06:57:59]   err cam=s511-PA-3819: field larger than field limit (131072)
+[06:58:01]   err cam=s511-PA-3820: field larger than field limit (131072)
+[06:58:03]   err cam=s511-PA-3821: field larger than field limit (131072)
+[06:58:05]   err cam=s511-PA-3822: field larger than field limit (131072)
+[06:58:06]   err cam=s511-PA-3823: field larger than field limit (131072)
+[06:58:08]   err cam=s511-PA-3824: field larger than field limit (131072)
+[06:58:10]   err cam=s511-PA-3825: field larger than field limit (131072)
+[06:58:12]   err cam=s511-PA-3826: field larger than field limit (131072)
+[06:58:14]   err cam=s511-PA-3827: field larger than field limit (131072)
+[06:58:16]   err cam=s511-PA-3828: field larger than field limit (131072)
+[06:58:17]   err cam=s511-PA-3830: field larger than field limit (131072)
+[06:58:19]   err cam=s511-PA-3831: field larger than field limit (131072)
+[06:58:21]   err cam=s511-PA-3832: field larger than field limit (131072)
+[06:58:23]   err cam=s511-PA-3833: field larger than field limit (131072)
+[06:58:24]   err cam=s511-PA-3834: field larger than field limit (131072)
+[06:58:26]   err cam=s511-PA-3835: field larger than field limit (131072)
+[06:58:27]   err cam=s511-PA-3836: field larger than field limit (131072)
+[06:58:30]   err cam=s511-PA-3837: field larger than field limit (131072)
+[06:58:32]   err cam=s511-PA-3838: field larger than field limit (131072)
+[06:58:34]   err cam=s511-PA-3839: field larger than field limit (131072)
+[06:58:36]   err cam=s511-PA-3842: field larger than field limit (131072)
+[06:58:37]   err cam=s511-PA-3843: field larger than field limit (131072)
+[06:58:40]   err cam=s511-PA-3844: field larger than field limit (131072)
+[06:58:42]   err cam=s511-PA-3845: field larger than field limit (131072)
+[06:58:44]   err cam=s511-PA-3846: field larger than field limit (131072)
+[06:58:46]   err cam=s511-PA-3847: field larger than field limit (131072)
+[06:58:48]   err cam=s511-PA-3848: field larger than field limit (131072)
+[06:58:51]   err cam=s511-PA-3849: field larger than field limit (131072)
+[06:58:53]   err cam=s511-PA-3850: field larger than field limit (131072)
+[06:58:55]   err cam=s511-PA-3851: field larger than field limit (131072)
+[06:58:56]   err cam=s511-PA-3852: field larger than field limit (131072)
+[06:58:58]   err cam=s511-PA-3853: field larger than field limit (131072)
+[06:59:00]   err cam=s511-PA-3854: field larger than field limit (131072)
+[06:59:01]   err cam=s511-PA-3855: field larger than field limit (131072)
+[06:59:03]   err cam=s511-PA-3856: field larger than field limit (131072)
+[06:59:05]   err cam=s511-PA-3857: field larger than field limit (131072)
+[06:59:08]   err cam=s511-PA-3858: field larger than field limit (131072)
+[06:59:10]   err cam=s511-PA-3859: field larger than field limit (131072)
+[06:59:12]   err cam=s511-PA-3860: field larger than field limit (131072)
+[06:59:15]   err cam=s511-PA-3861: field larger than field limit (131072)
+[06:59:17]   err cam=s511-PA-3863: field larger than field limit (131072)
+[06:59:20]   err cam=s511-PA-3864: field larger than field limit (131072)
+[06:59:22]   err cam=s511-PA-3865: field larger than field limit (131072)
+[06:59:25]   err cam=s511-PA-3866: field larger than field limit (131072)
+[06:59:26]   err cam=s511-PA-3867: field larger than field limit (131072)
+[06:59:28]   err cam=s511-PA-3868: field larger than field limit (131072)
+[06:59:30]   err cam=s511-PA-3869: field larger than field limit (131072)
+[06:59:32]   err cam=s511-PA-3871: field larger than field limit (131072)
+[06:59:34]   err cam=s511-PA-3872: field larger than field limit (131072)
+[06:59:36]   err cam=s511-PA-3873: field larger than field limit (131072)
+[06:59:37]   err cam=s511-PA-3874: field larger than field limit (131072)
+[06:59:39]   err cam=s511-PA-3875: field larger than field limit (131072)
+[06:59:41]   err cam=s511-PA-3876: field larger than field limit (131072)
+[06:59:43]   err cam=s511-PA-3877: field larger than field limit (131072)
+[06:59:45]   err cam=s511-PA-3878: field larger than field limit (131072)
+[06:59:47]   err cam=s511-PA-3880: field larger than field limit (131072)
+[06:59:50]   err cam=s511-PA-3881: field larger than field limit (131072)
+[06:59:51]   err cam=s511-PA-3882: field larger than field limit (131072)
+[06:59:53]   err cam=s511-PA-3883: field larger than field limit (131072)
+[06:59:55]   err cam=s511-PA-3884: field larger than field limit (131072)
+[06:59:57]   err cam=s511-PA-3885: field larger than field limit (131072)
+[06:59:58]   err cam=s511-PA-3886: field larger than field limit (131072)
+[07:00:00]   err cam=s511-PA-3887: field larger than field limit (131072)
+[07:00:02]   err cam=s511-PA-3888: field larger than field limit (131072)
+[07:00:04]   err cam=s511-PA-3890: field larger than field limit (131072)
+[07:00:05]   err cam=s511-PA-3891: field larger than field limit (131072)
+[07:00:07]   err cam=s511-PA-3892: field larger than field limit (131072)
+[07:00:09]   err cam=s511-PA-3893: field larger than field limit (131072)
+[07:00:10]   err cam=s511-PA-3894: field larger than field limit (131072)
+[07:00:12]   err cam=s511-PA-3895: field larger than field limit (131072)
+[07:00:14]   err cam=s511-PA-3896: field larger than field limit (131072)
+[07:00:16]   err cam=s511-PA-3897: field larger than field limit (131072)
+[07:00:18]   err cam=s511-PA-3898: field larger than field limit (131072)
+[07:00:20]   err cam=s511-PA-3899: field larger than field limit (131072)
+[07:00:21]   err cam=s511-PA-39: field larger than field limit (131072)
+[07:00:23]   err cam=s511-PA-3900: field larger than field limit (131072)
+[07:00:25]   err cam=s511-PA-3901: field larger than field limit (131072)
+[07:00:26]   err cam=s511-PA-3902: field larger than field limit (131072)
+[07:00:28]   err cam=s511-PA-3903: field larger than field limit (131072)
+[07:00:30]   err cam=s511-PA-3904: field larger than field limit (131072)
+[07:00:33]   err cam=s511-PA-3905: field larger than field limit (131072)
+[07:00:35]   err cam=s511-PA-3906: field larger than field limit (131072)
+[07:00:37]   err cam=s511-PA-3907: field larger than field limit (131072)
+[07:00:38]   err cam=s511-PA-3908: field larger than field limit (131072)
+[07:00:40]   err cam=s511-PA-3909: field larger than field limit (131072)
+[07:00:42]   err cam=s511-PA-3910: field larger than field limit (131072)
+[07:00:44]   err cam=s511-PA-3911: field larger than field limit (131072)
+[07:00:46]   err cam=s511-PA-3912: field larger than field limit (131072)
+[07:00:48]   err cam=s511-PA-3913: field larger than field limit (131072)
+[07:00:50]   err cam=s511-PA-3915: field larger than field limit (131072)
+[07:00:51]   err cam=s511-PA-3916: field larger than field limit (131072)
+[07:00:54]   err cam=s511-PA-3917: field larger than field limit (131072)
+[07:00:56]   err cam=s511-PA-3918: field larger than field limit (131072)
+[07:00:58]   err cam=s511-PA-3921: field larger than field limit (131072)
+[07:01:01]   err cam=s511-PA-3922: field larger than field limit (131072)
+[07:01:02]   err cam=s511-PA-3923: field larger than field limit (131072)
+[07:01:04]   err cam=s511-PA-3924: field larger than field limit (131072)
+[07:01:06]   err cam=s511-PA-3925: field larger than field limit (131072)
+[07:01:08]   err cam=s511-PA-3926: field larger than field limit (131072)
+[07:01:10]   err cam=s511-PA-3927: field larger than field limit (131072)
+[07:01:12]   err cam=s511-PA-3928: field larger than field limit (131072)
+[07:01:15]   err cam=s511-PA-3930: field larger than field limit (131072)
+[07:01:17]   err cam=s511-PA-3931: field larger than field limit (131072)
+[07:01:20]   err cam=s511-PA-3932: field larger than field limit (131072)
+[07:01:22]   err cam=s511-PA-3933: field larger than field limit (131072)
+[07:01:24]   err cam=s511-PA-3934: field larger than field limit (131072)
+[07:01:26]   err cam=s511-PA-3937: field larger than field limit (131072)
+[07:01:28]   err cam=s511-PA-3938: field larger than field limit (131072)
+[07:01:30]   err cam=s511-PA-3939: field larger than field limit (131072)
+[07:01:32]   err cam=s511-PA-3941: field larger than field limit (131072)
+[07:01:33]   err cam=s511-PA-3942: field larger than field limit (131072)
+[07:01:35]   err cam=s511-PA-3943: field larger than field limit (131072)
+[07:01:37]   err cam=s511-PA-3945: field larger than field limit (131072)
+[07:01:39]   err cam=s511-PA-3946: field larger than field limit (131072)
+[07:01:41]   err cam=s511-PA-3947: field larger than field limit (131072)
+[07:01:43]   err cam=s511-PA-3948: field larger than field limit (131072)
+[07:01:44]   err cam=s511-PA-3949: field larger than field limit (131072)
+[07:01:46]   err cam=s511-PA-3950: field larger than field limit (131072)
+[07:01:48]   err cam=s511-PA-3951: field larger than field limit (131072)
+[07:01:50]   err cam=s511-PA-3952: field larger than field limit (131072)
+[07:01:52]   err cam=s511-PA-3953: field larger than field limit (131072)
+[07:01:54]   err cam=s511-PA-3956: field larger than field limit (131072)
+[07:01:56]   err cam=s511-PA-3957: field larger than field limit (131072)
+[07:01:57]   err cam=s511-PA-3958: field larger than field limit (131072)
+[07:01:59]   err cam=s511-PA-3959: field larger than field limit (131072)
+[07:02:00]   err cam=s511-PA-3963: field larger than field limit (131072)
+[07:02:02]   err cam=s511-PA-3964: field larger than field limit (131072)
+[07:02:04]   err cam=s511-PA-3965: field larger than field limit (131072)
+[07:02:06]   err cam=s511-PA-3969: field larger than field limit (131072)
+[07:02:08]   err cam=s511-PA-3970: field larger than field limit (131072)
+[07:02:10]   err cam=s511-PA-3971: field larger than field limit (131072)
+[07:02:12]   err cam=s511-PA-3972: field larger than field limit (131072)
+[07:02:14]   err cam=s511-PA-3973: field larger than field limit (131072)
+[07:02:16]   err cam=s511-PA-3974: field larger than field limit (131072)
+[07:02:18]   err cam=s511-PA-3976: field larger than field limit (131072)
+[07:02:20]   err cam=s511-PA-3977: field larger than field limit (131072)
+[07:02:21]   err cam=s511-PA-3978: field larger than field limit (131072)
+[07:02:23]   err cam=s511-PA-3979: field larger than field limit (131072)
+[07:02:24]   err cam=s511-PA-3980: field larger than field limit (131072)
+[07:02:27]   err cam=s511-PA-3983: field larger than field limit (131072)
+[07:02:29]   err cam=s511-PA-3984: field larger than field limit (131072)
+[07:02:32]   err cam=s511-PA-3985: field larger than field limit (131072)
+[07:02:34]   err cam=s511-PA-3986: field larger than field limit (131072)
+[07:02:35]   err cam=s511-PA-3987: field larger than field limit (131072)
+[07:02:37]   err cam=s511-PA-3988: field larger than field limit (131072)
+[07:02:39]   err cam=s511-PA-3989: field larger than field limit (131072)
+[07:02:40]   err cam=s511-PA-3990: field larger than field limit (131072)
+[07:02:42]   err cam=s511-PA-3991: field larger than field limit (131072)
+[07:02:44]   err cam=s511-PA-3992: field larger than field limit (131072)
+[07:02:46]   err cam=s511-PA-3993: field larger than field limit (131072)
+[07:02:48]   err cam=s511-PA-3995: field larger than field limit (131072)
+[07:02:50]   err cam=s511-PA-3996: field larger than field limit (131072)
+[07:02:52]   err cam=s511-PA-3997: field larger than field limit (131072)
+[07:02:53]   err cam=s511-PA-3998: field larger than field limit (131072)
+[07:02:55]   err cam=s511-PA-3999: field larger than field limit (131072)
+[07:02:57]   err cam=s511-PA-4: field larger than field limit (131072)
+[07:02:59]   err cam=s511-PA-40: field larger than field limit (131072)
+[07:03:01]   err cam=s511-PA-4000: field larger than field limit (131072)
+[07:03:02]   err cam=s511-PA-4001: field larger than field limit (131072)
+[07:03:04]   err cam=s511-PA-4002: field larger than field limit (131072)
+[07:03:06]   err cam=s511-PA-4003: field larger than field limit (131072)
+[07:03:07]   err cam=s511-PA-4005: field larger than field limit (131072)
+[07:03:09]   err cam=s511-PA-4007: field larger than field limit (131072)
+[07:03:10]   err cam=s511-PA-4008: field larger than field limit (131072)
+[07:03:12]   err cam=s511-PA-4009: field larger than field limit (131072)
+[07:03:13]   err cam=s511-PA-4010: field larger than field limit (131072)
+[07:03:15]   err cam=s511-PA-4011: field larger than field limit (131072)
+[07:03:18]   err cam=s511-PA-4012: field larger than field limit (131072)
+[07:03:20]   err cam=s511-PA-4013: field larger than field limit (131072)
+[07:03:22]   err cam=s511-PA-4014: field larger than field limit (131072)
+[07:03:25]   err cam=s511-PA-4015: field larger than field limit (131072)
+[07:03:26]   err cam=s511-PA-4016: field larger than field limit (131072)
+[07:03:28]   err cam=s511-PA-4017: field larger than field limit (131072)
+[07:03:30]   err cam=s511-PA-4018: field larger than field limit (131072)
+[07:03:32]   err cam=s511-PA-4019: field larger than field limit (131072)
+[07:03:34]   err cam=s511-PA-4026: field larger than field limit (131072)
+[07:03:36]   err cam=s511-PA-4027: field larger than field limit (131072)
+[07:03:37]   err cam=s511-PA-4028: field larger than field limit (131072)
+[07:03:39]   err cam=s511-PA-4029: field larger than field limit (131072)
+[07:03:40]   err cam=s511-PA-4030: field larger than field limit (131072)
+[07:03:42]   err cam=s511-PA-4031: field larger than field limit (131072)
+[07:03:44]   err cam=s511-PA-4032: field larger than field limit (131072)
+[07:03:45]   err cam=s511-PA-4033: field larger than field limit (131072)
+[07:03:47]   err cam=s511-PA-4034: field larger than field limit (131072)
+[07:03:48]   err cam=s511-PA-4037: field larger than field limit (131072)
+[07:03:50]   err cam=s511-PA-4038: field larger than field limit (131072)
+[07:03:52]   err cam=s511-PA-4039: field larger than field limit (131072)
+[07:03:54]   err cam=s511-PA-4041: field larger than field limit (131072)
+[07:03:56]   err cam=s511-PA-4042: field larger than field limit (131072)
+[07:03:59]   err cam=s511-PA-4043: field larger than field limit (131072)
+[07:04:00]   err cam=s511-PA-4045: field larger than field limit (131072)
+[07:04:03]   err cam=s511-PA-4047: field larger than field limit (131072)
+[07:04:05]   err cam=s511-PA-4048: field larger than field limit (131072)
+[07:04:06]   err cam=s511-PA-4050: field larger than field limit (131072)
+[07:04:09]   err cam=s511-PA-4051: field larger than field limit (131072)
+[07:04:11]   err cam=s511-PA-4052: field larger than field limit (131072)
+[07:04:12]   err cam=s511-PA-4053: field larger than field limit (131072)
+[07:04:14]   err cam=s511-PA-4054: field larger than field limit (131072)
+[07:04:16]   err cam=s511-PA-4062: field larger than field limit (131072)
+[07:04:17]   err cam=s511-PA-4063: field larger than field limit (131072)
+[07:04:19]   err cam=s511-PA-4064: field larger than field limit (131072)
+[07:04:21]   err cam=s511-PA-4065: field larger than field limit (131072)
+[07:04:23]   err cam=s511-PA-4066: field larger than field limit (131072)
+[07:04:25]   err cam=s511-PA-4068: field larger than field limit (131072)
+[07:04:26]   err cam=s511-PA-4070: field larger than field limit (131072)
+[07:04:28]   err cam=s511-PA-4071: field larger than field limit (131072)
+[07:04:30]   err cam=s511-PA-4072: field larger than field limit (131072)
+[07:04:32]   err cam=s511-PA-4073: field larger than field limit (131072)
+[07:04:33]   err cam=s511-PA-4074: field larger than field limit (131072)
+[07:04:35]   err cam=s511-PA-4075: field larger than field limit (131072)
+[07:04:37]   err cam=s511-PA-4076: field larger than field limit (131072)
+[07:04:39]   err cam=s511-PA-4077: field larger than field limit (131072)
+[07:04:40]   err cam=s511-PA-4078: field larger than field limit (131072)
+[07:04:42]   err cam=s511-PA-4079: field larger than field limit (131072)
+[07:04:44]   err cam=s511-PA-4080: field larger than field limit (131072)
+[07:04:45]   err cam=s511-PA-4081: field larger than field limit (131072)
+[07:04:47]   err cam=s511-PA-4082: field larger than field limit (131072)
+[07:04:49]   err cam=s511-PA-4083: field larger than field limit (131072)
+[07:04:51]   err cam=s511-PA-4084: field larger than field limit (131072)
+[07:04:53]   err cam=s511-PA-4085: field larger than field limit (131072)
+[07:04:56]   err cam=s511-PA-4087: field larger than field limit (131072)
+[07:04:57]   err cam=s511-PA-4088: field larger than field limit (131072)
+[07:04:59]   err cam=s511-PA-4089: field larger than field limit (131072)
+[07:05:01]   err cam=s511-PA-4090: field larger than field limit (131072)
+[07:05:02]   err cam=s511-PA-4091: field larger than field limit (131072)
+[07:05:33] [init] starting OpenCCTV ingestion
+[07:06:29] [init] starting OpenCCTV ingestion
+[07:07:39] [init] starting OpenCCTV ingestion
+[07:08:17] [init] starting OpenCCTV ingestion
+[07:15:36] [init] starting OpenCCTV ingestion
+[07:15:40] [init] 121784 existing live URLs, 2248 existing opencctv IDs
+[07:15:40] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[07:15:40] [markers] 158595 total cams
+[07:15:40] [chunks] 3172 batches of 50
+[07:15:58] [init] starting OpenCCTV ingestion
+[07:16:02] [init] 121786 existing live URLs, 2250 existing opencctv IDs
+[07:16:02] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[07:16:03] [markers] 158595 total cams
+[07:16:03] [chunks] 3172 batches of 50
+[09:19:14]   progress batch 1780/3172, added=24234, processed=87800
+[10:49:13]   progress batch 2120/3172, added=24245, processed=87850
+[11:15:33] [init] starting OpenCCTV ingestion
+[11:15:35] [init] 128021 existing live URLs, 2731 existing opencctv IDs
+[11:15:35] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[11:15:36] [markers] 158595 total cams
+[11:15:36] [chunks] 3172 batches of 50
+[12:31:33]   progress batch 2140/3172, added=25208, processed=88850
+[13:13:58]   progress batch 2160/3172, added=26208, processed=89850
+[13:47:23]   progress batch 2180/3172, added=27063, processed=90850
+[14:22:16]   progress batch 2200/3172, added=27961, processed=91850
+[15:00:56]   progress batch 2220/3172, added=28867, processed=92850
+[15:19:11]   progress batch 2240/3172, added=29265, processed=93850
+[15:57:34]   progress batch 2260/3172, added=30265, processed=94850
+[16:37:35]   progress batch 2280/3172, added=31265, processed=95850
+[17:14:38]   progress batch 2300/3172, added=32179, processed=96850
+[17:59:35]   progress batch 2320/3172, added=33133, processed=97850
+[18:29:22]   progress batch 2340/3172, added=33681, processed=98850
+[18:48:45]   progress batch 2360/3172, added=34140, processed=99850
+[19:41:32]   progress batch 2380/3172, added=35140, processed=100850
+[20:33:47]   progress batch 2400/3172, added=36140, processed=101850
+[21:17:56]   progress batch 2420/3172, added=37061, processed=102850
+[21:51:16]   err cam=trafikverket-SE_STA_CAMERA_Orion_2500040: 
+[21:51:27]   err cam=trafikverket-SE_STA_CAMERA_Orion_2500044: 
+[22:04:10]   err cam=trafikverket-SE_STA_CAMERA_Orion_554: 
+[22:04:11]   err cam=trafikverket-SE_STA_CAMERA_Orion_558: 
+[22:05:10]   err cam=trafikverket-SE_STA_CAMERA_Orion_574: 
+[22:11:16]   progress batch 2440/3172, added=38055, processed=103850
+[22:38:49]   err cam=twipcam-hsz-000100: 
+[22:40:21]   err cam=twipcam-hsz-000119: 
+[22:43:39]   err cam=twipcam-hsz-000160: 
+[22:44:17]   err cam=twipcam-hsz-000170: 
+[23:50:44] [init] starting OpenCCTV ingestion
+[23:50:47] [init] 168647 existing live URLs, 16083 existing opencctv IDs
+[23:50:47] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[23:50:47] [markers] 158595 total cams
+[23:50:47] [chunks] 3172 batches of 50
+[00:08:59]   progress batch 2460/3172, added=38271, processed=104850
+[00:09:27]   progress batch 2480/3172, added=38273, processed=105850
+[01:00:31]   progress batch 2500/3172, added=38961, processed=106850
+[01:52:21]   progress batch 2520/3172, added=39642, processed=107850
+[02:58:34]   progress batch 2540/3172, added=40530, processed=108850
+[04:13:28]   progress batch 2560/3172, added=41530, processed=109850
+[05:23:32]   progress batch 2580/3172, added=42530, processed=110850
+[06:31:49]   progress batch 2600/3172, added=43530, processed=111850
+[07:39:59]   progress batch 2620/3172, added=44530, processed=112850
+[08:48:20]   progress batch 2640/3172, added=45530, processed=113850
+[09:38:42]   progress batch 2660/3172, added=46289, processed=114850
+[10:08:02] [init] starting OpenCCTV ingestion
+[10:08:06] [init] 196521 existing live URLs, 17687 existing opencctv IDs
+[10:08:06] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[10:08:06] [markers] 158595 total cams
+[10:08:06] [chunks] 3172 batches of 50
+[10:39:46]   progress batch 2680/3172, added=46820, processed=115850
+[11:14:02]   progress batch 2700/3172, added=47416, processed=116850
+[11:44:04]   progress batch 2720/3172, added=47957, processed=117850
+[12:37:49]   progress batch 2740/3172, added=48904, processed=118850
+[12:49:27]   progress batch 2760/3172, added=49066, processed=119850
+[13:05:06]   progress batch 2780/3172, added=49480, processed=120850
+[15:46:12] [init] starting OpenCCTV ingestion
+[15:46:15] [init] 149472 existing live URLs, 2932 existing opencctv IDs
+[15:46:15] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[15:46:15] [markers] 158595 total cams
+[15:46:15] [chunks] 3172 batches of 50
+[16:37:07]   progress batch 2800/3172, added=50474, processed=121850
+[17:27:52]   progress batch 2820/3172, added=51472, processed=122850
+[18:18:42] [init] starting OpenCCTV ingestion
+[18:18:45] [init] 173844 existing live URLs, 5362 existing opencctv IDs
+[18:18:45] [markers] using cached C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\opencctv_markers.json
+[18:18:45] [markers] 158595 total cams
+[18:18:45] [chunks] 3172 batches of 50
+[18:53:13]   progress batch 2840/3172, added=52032, processed=123850
+[19:51:35]   progress batch 2860/3172, added=53030, processed=124850
+[20:47:35]   progress batch 2880/3172, added=54030, processed=125850
+[21:40:40]   progress batch 2900/3172, added=55027, processed=126850
+[22:32:55]   progress batch 2920/3172, added=56015, processed=127850
+[23:27:11]   progress batch 2940/3172, added=57005, processed=128850
+[00:19:20]   progress batch 2960/3172, added=57990, processed=129850
+[01:12:05]   progress batch 2980/3172, added=58955, processed=130850
+[02:05:24]   progress batch 3000/3172, added=59934, processed=131850
+[03:01:19]   progress batch 3020/3172, added=60911, processed=132850
+[03:55:27]   progress batch 3040/3172, added=61870, processed=133850
+[04:52:46]   progress batch 3060/3172, added=62853, processed=134850
+[05:51:53]   progress batch 3080/3172, added=63817, processed=135850
+[06:55:14]   progress batch 3100/3172, added=64803, processed=136850
+[07:24:50]   progress batch 3120/3172, added=65272, processed=137850
+[07:25:10]   progress batch 3140/3172, added=65273, processed=138850
+[08:15:51]   progress batch 3160/3172, added=66050, processed=139850
+[08:17:28] [cycle 1] done. Restarting from beginning in 30 min...
+[08:47:51]   progress batch 2840/3172, added=1, processed=141445
+[08:48:08]   progress batch 2860/3172, added=1, processed=142445
+[08:48:27]   progress batch 2880/3172, added=1, processed=143445
+[08:48:44]   progress batch 2900/3172, added=1, processed=144445
+[08:49:01]   progress batch 2920/3172, added=1, processed=145445
+[08:49:20]   progress batch 2940/3172, added=1, processed=146445
+[08:49:37]   progress batch 2960/3172, added=1, processed=147445
+[08:49:57]   progress batch 2980/3172, added=1, processed=148445
+[08:50:13]   progress batch 3000/3172, added=1, processed=149445
+[08:50:31]   progress batch 3020/3172, added=1, processed=150445
+[08:50:48]   progress batch 3040/3172, added=1, processed=151445
+[08:51:05]   progress batch 3060/3172, added=1, processed=152445
+[08:51:24]   progress batch 3080/3172, added=1, processed=153445
+[08:51:43]   progress batch 3100/3172, added=2, processed=154445
+[08:52:01]   progress batch 3120/3172, added=2, processed=155445
+[08:52:17]   progress batch 3140/3172, added=2, processed=156445
+[08:52:41]   progress batch 3160/3172, added=4, processed=157445
+[08:52:51] [cycle 2] done. Restarting from beginning in 30 min...
+[09:23:11]   progress batch 2840/3172, added=0, processed=159040
+[09:23:30]   progress batch 2860/3172, added=0, processed=160040
+[09:23:46]   progress batch 2880/3172, added=0, processed=161040
+[09:24:03]   progress batch 2900/3172, added=0, processed=162040
+[09:24:22]   progress batch 2920/3172, added=0, processed=163040
+[09:24:39]   progress batch 2940/3172, added=0, processed=164040
+[09:24:56]   progress batch 2960/3172, added=0, processed=165040
+[09:25:14]   progress batch 2980/3172, added=0, processed=166040
+[09:25:31]   progress batch 3000/3172, added=0, processed=167040
+[09:25:49]   progress batch 3020/3172, added=0, processed=168040
+[09:26:06]   progress batch 3040/3172, added=0, processed=169040
+[09:26:23]   progress batch 3060/3172, added=0, processed=170040
+[09:26:41]   progress batch 3080/3172, added=0, processed=171040
+[09:26:59]   progress batch 3100/3172, added=0, processed=172040
+[09:27:16]   progress batch 3120/3172, added=0, processed=173040
+[09:27:36]   progress batch 3140/3172, added=0, processed=174040
+[09:27:53]   progress batch 3160/3172, added=0, processed=175040
+[09:28:03] [cycle 3] done. Restarting from beginning in 30 min...
+[09:58:23]   progress batch 2840/3172, added=0, processed=176635
+[09:58:42]   progress batch 2860/3172, added=0, processed=177635
+[09:58:59]   progress batch 2880/3172, added=0, processed=178635
+[09:59:16]   progress batch 2900/3172, added=0, processed=179635
+[09:59:34]   progress batch 2920/3172, added=0, processed=180635
+[09:59:52]   progress batch 2940/3172, added=0, processed=181635
+[10:00:08]   progress batch 2960/3172, added=0, processed=182635
+[10:00:27]   progress batch 2980/3172, added=0, processed=183635
+[10:00:43]   progress batch 3000/3172, added=0, processed=184635
+[10:01:04]   progress batch 3020/3172, added=0, processed=185635
+[10:01:21]   progress batch 3040/3172, added=0, processed=186635
+[10:01:38]   progress batch 3060/3172, added=0, processed=187635
+[10:01:57]   progress batch 3080/3172, added=0, processed=188635
+[10:02:14]   progress batch 3100/3172, added=0, processed=189635
+[10:02:32]   progress batch 3120/3172, added=0, processed=190635
+[10:02:51]   progress batch 3140/3172, added=0, processed=191635
+[10:03:07]   progress batch 3160/3172, added=0, processed=192635
+[10:03:17] [cycle 4] done. Restarting from beginning in 30 min...
+[10:33:39]   progress batch 2840/3172, added=0, processed=194230
+[10:33:56]   progress batch 2860/3172, added=0, processed=195230
+[10:34:46]   progress batch 2880/3172, added=0, processed=196230
+[10:35:14]   progress batch 2900/3172, added=0, processed=197230
+[10:35:33]   progress batch 2920/3172, added=0, processed=198230
+[10:35:52]   progress batch 2940/3172, added=0, processed=199230
+[10:36:14]   progress batch 2960/3172, added=0, processed=200230
+[10:36:34]   progress batch 2980/3172, added=0, processed=201230
+[10:36:57]   progress batch 3000/3172, added=0, processed=202230
+[10:37:17]   progress batch 3020/3172, added=0, processed=203230
+[10:37:38]   progress batch 3040/3172, added=0, processed=204230
+[10:37:58]   progress batch 3060/3172, added=0, processed=205230
+[10:38:22]   progress batch 3080/3172, added=0, processed=206230
+[10:38:39]   progress batch 3100/3172, added=0, processed=207230
+[10:39:05]   progress batch 3120/3172, added=0, processed=208230
+[10:39:22]   progress batch 3140/3172, added=0, processed=209230
+[10:39:41]   progress batch 3160/3172, added=0, processed=210230
+[10:39:51] [cycle 5] done. Restarting from beginning in 30 min...
+[11:10:15]   progress batch 2840/3172, added=0, processed=211825
+[11:10:33]   progress batch 2860/3172, added=0, processed=212825
+[11:10:59]   progress batch 2880/3172, added=0, processed=213825
+[11:11:26]   progress batch 2900/3172, added=0, processed=214825
+[11:11:44]   progress batch 2920/3172, added=0, processed=215825
+[11:12:04]   progress batch 2940/3172, added=0, processed=216825
+[11:12:24]   progress batch 2960/3172, added=0, processed=217825
+[11:12:47]   progress batch 2980/3172, added=0, processed=218825
+[11:13:09]   progress batch 3000/3172, added=0, processed=219825
+[11:13:32]   progress batch 3020/3172, added=0, processed=220825
+[11:13:53]   progress batch 3040/3172, added=0, processed=221825
+[11:14:25]   progress batch 3060/3172, added=0, processed=222825
+[11:14:48]   progress batch 3080/3172, added=0, processed=223825
+[11:15:11]   progress batch 3100/3172, added=0, processed=224825
+[11:15:27]   progress batch 3120/3172, added=0, processed=225825
+[11:15:48]   progress batch 3140/3172, added=0, processed=226825
+[11:16:23]   progress batch 3160/3172, added=0, processed=227825
+[11:16:35] [cycle 6] done. Restarting from beginning in 30 min...
+[11:46:56]   progress batch 2840/3172, added=0, processed=229420
+[11:47:14]   progress batch 2860/3172, added=0, processed=230420
+[11:47:30]   progress batch 2880/3172, added=0, processed=231420
+[11:47:48]   progress batch 2900/3172, added=0, processed=232420
+[11:48:05]   progress batch 2920/3172, added=0, processed=233420
+[11:48:25]   progress batch 2940/3172, added=0, processed=234420
+[11:48:41]   progress batch 2960/3172, added=0, processed=235420
+[11:48:59]   progress batch 2980/3172, added=0, processed=236420
+[11:49:17]   progress batch 3000/3172, added=0, processed=237420
+[11:49:35]   progress batch 3020/3172, added=0, processed=238420
+[11:49:58]   progress batch 3040/3172, added=0, processed=239420
+[11:50:16]   progress batch 3060/3172, added=0, processed=240420
+[11:50:37]   progress batch 3080/3172, added=0, processed=241420
+[11:50:56]   progress batch 3100/3172, added=0, processed=242420
+[11:51:22]   progress batch 3120/3172, added=0, processed=243420
+[11:52:05]   progress batch 3140/3172, added=0, processed=244420
+[11:52:22]   progress batch 3160/3172, added=0, processed=245420
+[11:52:32] [cycle 7] done. Restarting from beginning in 30 min...
+[12:22:53]   progress batch 2840/3172, added=0, processed=247015
+[12:23:11]   progress batch 2860/3172, added=0, processed=248015
+[12:23:30]   progress batch 2880/3172, added=0, processed=249015
+[12:23:47]   progress batch 2900/3172, added=0, processed=250015
+[12:24:04]   progress batch 2920/3172, added=0, processed=251015
+[12:24:22]   progress batch 2940/3172, added=0, processed=252015
+[12:24:40]   progress batch 2960/3172, added=0, processed=253015
+[12:24:58]   progress batch 2980/3172, added=0, processed=254015
+[12:25:16]   progress batch 3000/3172, added=0, processed=255015
+[12:25:36]   progress batch 3020/3172, added=0, processed=256015
+[12:25:57]   progress batch 3040/3172, added=0, processed=257015
+[12:26:16]   progress batch 3060/3172, added=0, processed=258015
+[12:26:34]   progress batch 3080/3172, added=0, processed=259015
+[12:26:52]   progress batch 3100/3172, added=0, processed=260015
+[12:27:11]   progress batch 3120/3172, added=0, processed=261015
+[12:27:31]   progress batch 3140/3172, added=0, processed=262015
+[12:27:55]   progress batch 3160/3172, added=0, processed=263015
+[12:28:06] [cycle 8] done. Restarting from beginning in 30 min...
+[12:58:31]   progress batch 2840/3172, added=0, processed=264610
+[12:58:54]   progress batch 2860/3172, added=0, processed=265610
+[12:59:19]   progress batch 2880/3172, added=0, processed=266610
+[12:59:42]   progress batch 2900/3172, added=0, processed=267610
+[13:00:07]   progress batch 2920/3172, added=0, processed=268610
+[13:00:25]   progress batch 2940/3172, added=0, processed=269610
+[13:00:46]   progress batch 2960/3172, added=0, processed=270610
+[13:01:03]   progress batch 2980/3172, added=0, processed=271610
+[13:01:21]   progress batch 3000/3172, added=0, processed=272610
+[13:01:41]   progress batch 3020/3172, added=0, processed=273610
+[13:01:58]   progress batch 3040/3172, added=0, processed=274610
+[13:02:15]   progress batch 3060/3172, added=0, processed=275610
+[13:02:34]   progress batch 3080/3172, added=0, processed=276610
+[13:02:52]   progress batch 3100/3172, added=0, processed=277610
+[13:03:10]   progress batch 3120/3172, added=0, processed=278610
+[13:03:27]   progress batch 3140/3172, added=0, processed=279610
+[13:03:47]   progress batch 3160/3172, added=0, processed=280610
+[13:03:58] [cycle 9] done. Restarting from beginning in 30 min...
+[13:34:19]   progress batch 2840/3172, added=0, processed=282205
+[13:34:36]   progress batch 2860/3172, added=0, processed=283205
+[13:34:52]   progress batch 2880/3172, added=0, processed=284205
+[13:35:08]   progress batch 2900/3172, added=0, processed=285205
+[13:35:25]   progress batch 2920/3172, added=0, processed=286205
+[13:35:44]   progress batch 2940/3172, added=0, processed=287205
+[13:36:01]   progress batch 2960/3172, added=0, processed=288205
+[13:36:17]   progress batch 2980/3172, added=0, processed=289205
+[13:36:34]   progress batch 3000/3172, added=0, processed=290205
+[13:36:52]   progress batch 3020/3172, added=0, processed=291205
+[13:37:09]   progress batch 3040/3172, added=0, processed=292205
+[13:37:26]   progress batch 3060/3172, added=0, processed=293205
+[13:37:44]   progress batch 3080/3172, added=0, processed=294205
+[13:38:01]   progress batch 3100/3172, added=0, processed=295205
+[13:38:19]   progress batch 3120/3172, added=0, processed=296205
+[13:38:35]   progress batch 3140/3172, added=0, processed=297205
+[13:38:53]   progress batch 3160/3172, added=0, processed=298205
+[13:39:04] [cycle 10] done. Restarting from beginning in 30 min...
+[14:09:23]   progress batch 2840/3172, added=0, processed=299800
+[14:09:40]   progress batch 2860/3172, added=0, processed=300800
+[14:09:58]   progress batch 2880/3172, added=0, processed=301800
+[14:10:14]   progress batch 2900/3172, added=0, processed=302800
+[14:10:31]   progress batch 2920/3172, added=0, processed=303800
+[14:10:48]   progress batch 2940/3172, added=0, processed=304800
+[14:11:03]   progress batch 2960/3172, added=0, processed=305800
+[14:11:19]   progress batch 2980/3172, added=0, processed=306800
+[14:11:35]   progress batch 3000/3172, added=0, processed=307800
+[14:11:52]   progress batch 3020/3172, added=0, processed=308800
+[14:12:08]   progress batch 3040/3172, added=0, processed=309800
+[14:12:25]   progress batch 3060/3172, added=0, processed=310800
+[14:12:40]   progress batch 3080/3172, added=0, processed=311800
+[14:12:58]   progress batch 3100/3172, added=0, processed=312800
+[14:13:14]   progress batch 3120/3172, added=0, processed=313800
+[14:13:31]   progress batch 3140/3172, added=0, processed=314800
+[14:13:47]   progress batch 3160/3172, added=0, processed=315800
+[14:13:58] [cycle 11] done. Restarting from beginning in 30 min...
+[14:44:19]   progress batch 2840/3172, added=0, processed=317395
+[14:44:36]   progress batch 2860/3172, added=0, processed=318395
+[14:44:53]   progress batch 2880/3172, added=0, processed=319395
+[14:45:10]   progress batch 2900/3172, added=0, processed=320395
+[14:45:27]   progress batch 2920/3172, added=0, processed=321395
+[14:45:44]   progress batch 2940/3172, added=0, processed=322395
+[14:46:01]   progress batch 2960/3172, added=0, processed=323395
+[14:46:19]   progress batch 2980/3172, added=0, processed=324395
+[14:46:35]   progress batch 3000/3172, added=0, processed=325395
+[14:46:52]   progress batch 3020/3172, added=0, processed=326395
+[14:47:10]   progress batch 3040/3172, added=0, processed=327395
+[14:47:26]   progress batch 3060/3172, added=0, processed=328395
+[14:47:42]   progress batch 3080/3172, added=0, processed=329395
+[14:47:58]   progress batch 3100/3172, added=0, processed=330395
+[14:48:15]   progress batch 3120/3172, added=0, processed=331395
+[14:48:31]   progress batch 3140/3172, added=0, processed=332395
+[14:48:47]   progress batch 3160/3172, added=0, processed=333395
+[14:48:56] [cycle 12] done. Restarting from beginning in 30 min...

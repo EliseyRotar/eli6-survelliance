@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Expires" content="Tue, 12 May 1962 1:00:00 GMT" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Cache-Control" content="no-cache" />
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-language" content="en" />
+
+  <script>
+    var refreshUrl = "/view/view.shtml?id=1179";
+    var questMark = refreshUrl.indexOf('?') < 0 ? "?" : "&";
+      var imagepath = "/mjpg/video.mjpg";
+
+      var completePath = "imagepath=" + encodeURIComponent(imagepath) + "&size=1";
+
+    if (refreshUrl.indexOf("view.shtml") >= 0) {
+      window.location.href = refreshUrl + questMark + completePath;
+    }
+    else {
+      window.location.href = refreshUrl;
+    }
+  </script>
+  <title>Index page</title>
+  <noscript>
+    Your browser has JavaScript turned off.<br>For the user interface to work, you must enable JavaScript in your browser and reload/refresh this page.
+  </noscript>
+</head>
+<body>
+</body>
+</html>

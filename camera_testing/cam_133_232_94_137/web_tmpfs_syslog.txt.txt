@@ -1,0 +1,107 @@
+[2026_08_21 08:33:15] update time[ntp]: 2026-08-21 08:33:15
+[2026_08_21 08:33:15] ipc_server start.
+[2026_08_21 08:33:21] user() login for http stream.
+[2026_08_21 08:33:21] user() login for http stream.
+[2026_08_21 08:33:30] user() login for http stream.
+[2026_08_21 09:33:15] update time[ntp]: 2026-08-21 09:33:15
+[2026_08_21 10:33:14] update time[ntp]: 2026-08-21 10:33:14
+[2026_08_21 11:33:14] update time[ntp]: 2026-08-21 11:33:14
+[2026_08_21 12:33:13] update time[ntp]: 2026-08-21 12:33:13
+[2026_08_21 13:33:13] update time[ntp]: 2026-08-21 13:33:13
+[2026_08_21 14:33:14] update time[ntp]: 2026-08-21 14:33:14
+[2026_08_21 15:33:13] update time[ntp]: 2026-08-21 15:33:13
+[2026_08_21 15:56:33] user() login for rtsp stream.
+[2026_08_21 15:56:41] user() logout from rtsp stream.
+[2026_08_21 16:33:14] update time[ntp]: 2026-08-21 16:33:14
+[2026_08_21 17:33:14] update time[ntp]: 2026-08-21 17:33:14
+[2026_08_21 18:27:31] user() login for rtsp stream.
+[2026_08_21 18:27:41] user() logout from rtsp stream.
+[2026_08_21 18:33:13] update time[ntp]: 2026-08-21 18:33:13
+[2026_08_21 18:50:52] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:50:57] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:51:05] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:51:07] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:51:47] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:51:56] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:52:00] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:52:12] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:52:16] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:52:38] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:52:42] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:52:48] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:52:50] ircut: display switch(color -> blackwhite).
+[2026_08_21 18:53:13] ircut: display switch(blackwhite -> color).
+[2026_08_21 18:53:17] ircut: display switch(color -> blackwhite).
+[2026_08_21 19:33:14] update time[ntp]: 2026-08-21 19:33:14
+[2026_08_21 20:33:13] update time[ntp]: 2026-08-21 20:33:13
+[2026_08_21 21:33:13] update time[ntp]: 2026-08-21 21:33:13
+[2026_08_21 22:33:13] update time[ntp]: 2026-08-21 22:33:13
+[2026_08_21 22:34:34] remove 20260812 start
+[2026_08_21 22:34:34] remove 20260812 end
+[2026_08_21 22:37:13] user() login for rtsp stream.
+[2026_08_21 22:37:21] user() logout from rtsp stream.
+[2026_08_21 23:33:12] update time[ntp]: 2026-08-21 23:33:12
+[2026_08_22 00:33:12] update time[ntp]: 2026-08-22 00:33:12
+[2026_08_22 01:33:12] update time[ntp]: 2026-08-22 01:33:12
+[2026_08_22 01:43:22] user() login for rtsp stream.
+[2026_08_22 01:43:29] user() logout from rtsp stream.
+[2026_08_22 01:43:30] user() login for rtsp stream.
+[2026_08_22 01:43:38] user() logout from rtsp stream.
+[2026_08_22 01:43:41] user() login for rtsp stream.
+[2026_08_22 01:43:43] user() logout from rtsp stream.
+[2026_08_22 01:43:45] user() login for rtsp stream.
+[2026_08_22 01:43:47] user() logout from rtsp stream.
+[2026_08_22 01:43:49] user() login for rtsp stream.
+[2026_08_22 01:43:56] user() logout from rtsp stream.
+[2026_08_22 01:43:57] user() login for rtsp stream.
+[2026_08_22 01:44:04] user() logout from rtsp stream.
+[2026_08_22 01:44:06] user() login for rtsp stream.
+[2026_08_22 01:44:09] user() logout from rtsp stream.
+[2026_08_22 01:44:10] user() login for rtsp stream.
+[2026_08_22 01:44:13] user() logout from rtsp stream.
+[2026_08_22 02:33:12] update time[ntp]: 2026-08-22 02:33:12
+[2026_08_22 03:33:12] update time[ntp]: 2026-08-22 03:33:12
+[2026_08_22 04:25:21] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:25:30] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:25:43] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:25:52] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:25:58] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:26:12] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:26:20] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:26:25] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:26:27] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:26:36] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:26:47] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:27:00] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:27:03] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:27:18] ircut: display switch(color -> blackwhite).
+[2026_08_22 04:27:29] ircut: display switch(blackwhite -> color).
+[2026_08_22 04:33:12] update time[ntp]: 2026-08-22 04:33:12
+[2026_08_22 05:33:12] update time[ntp]: 2026-08-22 05:33:12
+[2026_08_22 05:45:09] user() login for http stream.
+[2026_08_22 05:45:48] user() logout from http stream.
+[2026_08_22 06:33:12] update time[ntp]: 2026-08-22 06:33:12
+[2026_08_22 06:38:28] user() login for rtsp stream.
+[2026_08_22 06:38:46] user() login for rtsp stream.
+[2026_08_22 06:38:48] user() logout from rtsp stream.
+[2026_08_22 06:38:56] user() logout from rtsp stream.
+[2026_08_22 06:39:07] user() login for rtsp stream.
+[2026_08_22 06:39:25] user() login for rtsp stream.
+[2026_08_22 06:39:33] user() logout from rtsp stream.
+[2026_08_22 06:39:34] user() logout from rtsp stream.
+[2026_08_22 06:39:45] user() login for rtsp stream.
+[2026_08_22 06:40:05] user() login for rtsp stream.
+[2026_08_22 06:40:12] user() logout from rtsp stream.
+[2026_08_22 06:40:21] user() logout from rtsp stream.
+[2026_08_22 06:40:24] user() login for rtsp stream.
+[2026_08_22 06:41:03] user() login for rtsp stream.
+[2026_08_22 06:41:10] user() logout from rtsp stream.
+[2026_08_22 06:41:18] user() logout from rtsp stream.
+[2026_08_22 06:41:27] user() login for rtsp stream.
+[2026_08_22 06:41:44] user() login for rtsp stream.
+[2026_08_22 06:41:52] user() logout from rtsp stream.
+[2026_08_22 06:41:54] user() login for rtsp stream.
+[2026_08_22 06:42:00] user() logout from rtsp stream.
+[2026_08_22 06:42:12] user() login for rtsp stream.
+[2026_08_22 06:42:20] user() logout from rtsp stream.
+[2026_08_22 06:42:27] user() logout from rtsp stream.

@@ -1,0 +1,8 @@
+{
+  "kind": "identitytoolkit#VerifyPasswordResponse",
+  "localId": "OtaMfcZTTBYdE2JxCksRQlue7EW2",
+  "email": "fohot18565@kolsea.com",
+  "idToken": "",
+  "refreshToken": "",
+  "expiresIn": "3600"
+}

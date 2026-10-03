@@ -1,0 +1,99 @@
+[02:52:58] [init] 200 existing IPs in CSV
+[02:52:58] [query] 500 new candidate IPs
+[02:53:24]   IP-MATCH 198.0.203.185: ports=[80, 443], tags=['self-signed']
+[02:54:55]   IP-MATCH 87.139.149.111: ports=[25, 80, 465], tags=['starttls']
+[02:55:22]   IP-MATCH 192.0.32.42: ports=[80, 443], tags=[]
+[02:55:24] [probe] probing 3 hits for live streams
+[02:56:36] [done] 3 IP hits; cams may have been added
+[02:58:06] [init] 201 existing IPs in CSV
+[02:58:06] [query] 500 new candidate IPs
+[02:58:08]   IP-MATCH 109.0.45.18: ports=[80], tags=[]
+[02:58:21]   IP-MATCH 23.108.37.111: ports=[53, 80, 111, 443, 587, 2079, 2082, 2086, 2087, 3306], tags=['self-signed', 'database', 'starttls']
+[02:58:27]   IP-MATCH 77.0.95.30: ports=[7170, 8089], tags=[]
+[02:58:33]   IP-MATCH 201.0.232.209: ports=[80, 443], tags=[]
+[02:58:40]   IP-MATCH 87.139.32.43: ports=[80], tags=[]
+[02:58:41]   IP-MATCH 87.139.73.143: ports=[443], tags=[]
+[02:58:55]   IP-MATCH 95.0.97.99: ports=[80], tags=[]
+[02:58:57]   IP-MATCH 89.0.92.60: ports=[8089], tags=[]
+[02:58:59]   IP-MATCH 77.0.199.202: ports=[8089], tags=[]
+[02:59:01]   IP-MATCH 87.139.30.219: ports=[443, 8443], tags=[]
+[02:59:11]   IP-MATCH 23.108.39.214: ports=[22, 80, 3000, 5901], tags=['eol-product']
+[02:59:20]   IP-MATCH 89.0.179.90: ports=[8089], tags=[]
+[02:59:29]   IP-MATCH 213.0.69.150: ports=[25, 80, 443, 587], tags=[]
+[02:59:31]   IP-MATCH 87.139.180.198: ports=[80, 443], tags=[]
+[02:59:34]   IP-MATCH 91.0.89.187: ports=[8089], tags=[]
+[02:59:43]   IP-MATCH 190.0.70.129: ports=[161, 443], tags=[]
+[03:00:19]   IP-MATCH 91.0.44.48: ports=[8089], tags=[]
+[03:00:24]   IP-MATCH 95.0.239.156: ports=[80, 443, 3478], tags=['eol-product']
+[03:00:30] [probe] probing 18 hits for live streams
+[03:05:41] [done] 18 IP hits; cams may have been added
+[03:08:44] [init] 201 existing IPs in CSV
+[03:08:44] [query] 500 new candidate IPs
+[03:08:46]   IP-MATCH 77.0.62.185: ports=[7170, 8089], tags=[]
+[03:08:47]   IP-MATCH 77.0.17.63: ports=[8089], tags=[]
+[03:08:53]   IP-MATCH 87.139.17.66: ports=[80, 443, 7547, 8080, 8081], tags=[]
+[03:08:54]   IP-MATCH 23.108.252.137: ports=[80, 4444, 7777, 55555], tags=['proxy']
+[03:08:56]   IP-MATCH 77.0.151.247: ports=[8089], tags=[]
+[03:08:57]   IP-MATCH 77.0.58.212: ports=[8089], tags=[]
+[03:09:20]   IP-MATCH 77.0.50.224: ports=[8089], tags=[]
+[03:09:35]   IP-MATCH 189.0.195.39: ports=[22, 80, 443, 3000, 3001, 3389, 5000, 7547, 9100], tags=[]
+[03:09:37]   IP-MATCH 89.0.172.72: ports=[443], tags=[]
+[03:09:40]   IP-MATCH 95.0.233.23: ports=[80], tags=[]
+[03:10:09]   IP-MATCH 77.0.18.95: ports=[8089], tags=[]
+[03:10:21]   IP-MATCH 91.0.31.137: ports=[8089], tags=[]
+[03:10:21]   IP-MATCH 77.0.7.133: ports=[8089], tags=[]
+[03:10:22]   IP-MATCH 77.0.146.135: ports=[443, 8089], tags=['self-signed']
+[03:10:34]   IP-MATCH 77.0.183.184: ports=[8089], tags=[]
+[03:10:35]   IP-MATCH 87.139.237.19: ports=[443], tags=['self-signed']
+[03:10:36]   IP-MATCH 91.0.56.99: ports=[8089], tags=[]
+[03:10:57]   IP-MATCH 201.0.232.77: ports=[80, 443], tags=[]
+[03:11:07]   IP-MATCH 94.0.21.90: ports=[80, 554], tags=[]
+[03:11:08]   IP-MATCH 84.0.26.113: ports=[80], tags=[]
+[03:11:08] [probe] probing 20 hits for live streams
+[03:16:45] [done] 20 IP hits; cams may have been added
+[10:56:16] [init] 203 existing IPs in CSV
+[10:56:16] [query] 500 new candidate IPs
+[10:56:49]   IP-MATCH 91.0.41.226: ports=[8089], tags=[]
+[10:56:51]   IP-MATCH 91.0.239.130: ports=[8089], tags=[]
+[10:56:54]   IP-MATCH 91.0.169.138: ports=[8089], tags=[]
+[10:56:57]   IP-MATCH 73.128.41.30: ports=[8080], tags=[]
+[10:57:05]   IP-MATCH 77.0.152.195: ports=[8089], tags=[]
+[10:57:07]   IP-MATCH 77.0.194.169: ports=[8089], tags=[]
+[10:57:07]   IP-MATCH 87.139.129.244: ports=[80], tags=[]
+[10:57:17]   IP-MATCH 23.108.86.9: ports=[80, 4444, 7777, 36505, 55555], tags=['proxy']
+[10:57:28]   IP-MATCH 77.0.71.124: ports=[8089], tags=[]
+[10:57:28]   IP-MATCH 77.0.213.167: ports=[8089], tags=[]
+[10:57:29]   IP-MATCH 77.0.166.100: ports=[8089], tags=[]
+[10:57:39]   IP-MATCH 190.0.176.35: ports=[80, 443], tags=[]
+[10:58:01] [probe] probing 12 hits for live streams
+[11:01:15] [done] 12 IP hits; cams may have been added
+[13:40:39] [init] 210 existing IPs in CSV
+[13:40:39] [query] 500 new candidate IPs
+[13:41:26] [probe] probing 0 hits for live streams
+[13:41:26] [done] 0 IP hits; cams may have been added
+[17:14:26] [init] 711 existing IPs in CSV
+[17:14:26] [query] 500 new candidate IPs
+[17:14:36]   IP-MATCH 77.0.170.81: ports=[8089], tags=[]
+[17:15:06]   IP-MATCH 23.108.47.161: ports=[80, 4444, 7777, 55555], tags=['proxy']
+[17:15:49]   IP-MATCH 23.108.44.244: ports=[80, 4444, 7777, 36505, 55555], tags=['proxy']
+[17:16:09]   IP-MATCH 87.139.185.199: ports=[161, 443, 6443, 7547], tags=[]
+[17:16:13]   IP-MATCH 87.139.226.46: ports=[443], tags=[]
+[17:16:21]   IP-MATCH 77.0.187.189: ports=[8089], tags=[]
+[17:16:21]    progress 150/500 hits=6
+[17:16:23]   IP-MATCH 78.0.88.22: ports=[80], tags=[]
+[17:16:29]   IP-MATCH 23.108.93.48: ports=[80, 4444, 7777], tags=[]
+[17:16:34]   IP-MATCH 87.139.64.53: ports=[80, 554], tags=[]
+[17:16:35]   IP-MATCH 77.0.14.110: ports=[8089], tags=[]
+[17:16:44]   IP-MATCH 77.0.141.44: ports=[8089], tags=[]
+[17:17:26]   IP-MATCH 77.0.227.174: ports=[8089], tags=[]
+[17:18:02]   IP-MATCH 23.108.217.112: ports=[22, 80], tags=[]
+[17:18:29]   IP-MATCH 77.0.34.224: ports=[7170, 8089], tags=[]
+[17:18:36]   IP-MATCH 77.0.57.79: ports=[8089], tags=[]
+[17:19:20]   IP-MATCH 77.0.64.51: ports=[8089], tags=[]
+[17:19:40]   IP-MATCH 87.139.163.75: ports=[22, 25, 80, 443, 587, 993, 5353], tags=['starttls', 'self-signed']
+[17:19:48]   IP-MATCH 77.0.37.57: ports=[8089], tags=[]
+[17:19:55]   IP-MATCH 77.0.248.37: ports=[8089], tags=[]
+[17:20:09]   IP-MATCH 78.0.190.236: ports=[8080], tags=[]
+[17:20:49]   IP-MATCH 89.0.36.92: ports=[8089], tags=[]
+[17:21:03] [probe] probing 21 hits for live streams
+[17:30:25] [done] 21 IP hits; cams may have been added

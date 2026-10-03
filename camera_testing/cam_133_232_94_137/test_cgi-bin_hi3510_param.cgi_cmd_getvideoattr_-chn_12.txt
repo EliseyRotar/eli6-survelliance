@@ -1,0 +1,5 @@
+var videomode="101";
+var vinorm="N";
+var profile="3";
+var maxchn="2";
+var wdrmode="0";

@@ -1,0 +1,12 @@
+=== Testing 212.25.48.117:8080 with various UAs and headers ===
+
+=== Try HTTPS ===
+  HTTPS /: status=None
+  HTTPS /axis-cgi/mjpg/video.cgi: status=None
+
+=== Direct TCP with various flags ===
+  Sent: b'\r\n': timed out
+  Sent: b'GET / HTTP/0.9\r\n\r\n': timed out
+  Sent: b'GET / HTTP/1.1\r\nHost: cam.ruse': timed out
+  Sent: b'OPTIONS / HTTP/1.1\r\nHost: 212.': timed out
+  Sent: b'CONNECT 212.25.48.117:80 HTTP/': timed out

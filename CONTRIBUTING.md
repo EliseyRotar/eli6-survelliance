@@ -7,8 +7,8 @@ Thank you for your interest in contributing! Here's how to get started.
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/your-username/eli6-survelliance.git
-   cd eli6-survelliance
+   git clone https://github.com/your-username/eli6-surveillance.git
+   cd eli6-surveillance
    ```
 3. Create a virtual environment and install dependencies:
    ```bash

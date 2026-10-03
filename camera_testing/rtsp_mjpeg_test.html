@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>RTSP-MJPEG Proxy Test</title>
+<style>
+body {
+    background: #1a1a1a;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2 { margin-top: 20px; }
+.cam-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+.cam {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 10px;
+}
+.cam img {
+    width: 100%;
+    height: auto;
+    display: block;
+    background: #000;
+    min-height: 240px;
+    object-fit: contain;
+}
+.cam-info {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #aaa;
+}
+.cam.active { border-color: #4caf50; }
+.cam.inactive { opacity: 0.5; }
+.status {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.status.live { background: #4caf50; }
+.status.dead { background: #f44336; }
+button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover { background: #45a049; }
+.controls { margin: 20px 0; }
+</style>
+</head>
+<body>
+<h1>RTSP-MJPEG Proxy Test</h1>
+<p>Tests transcode of RTSP H.264 streams to MJPEG for browser viewing.</p>
+
+<div class="controls">
+    <button onclick="loadStreams()">Refresh</button>
+    <button onclick="testHealth()">Health</button>
+    <span id="status">Loading...</span>
+</div>
+
+<div id="cams" class="cam-grid"></div>
+
+<script>
+async function loadStreams() {
+    const status = document.getElementById('status');
+    status.textContent = 'Loading streams...';
+    try {
+        const response = await fetch('http://localhost:8768/list');
+        const data = await response.json();
+        status.textContent = `${data.streams.length} streams, ${data.streams.filter(s => s.active).length} active`;
+        renderCams(data.streams);
+    } catch (e) {
+        status.textContent = 'Error: ' + e.message;
+    }
+}
+
+async function testHealth() {
+    const status = document.getElementById('status');
+    try {
+        const response = await fetch('http://localhost:8768/health');
+        const data = await response.json();
+        status.textContent = `OpenCV: ${data.opencv}, ${data.streams} streams, ${data.active} active`;
+    } catch (e) {
+        status.textContent = 'Error: ' + e.message;
+    }
+}
+
+function renderCams(streams) {
+    const container = document.getElementById('cams');
+    container.innerHTML = '';
+    for (const s of streams) {
+        const div = document.createElement('div');
+        div.className = 'cam ' + (s.active ? 'active' : 'inactive');
+        const statusClass = s.active ? 'live' : 'dead';
+        const statusText = s.active ? 'LIVE' : 'INACTIVE';
+        div.innerHTML = `
+            <span class="status ${statusClass}">${statusText}</span>
+            <strong>Stream ${s.id}</strong>
+            <img src="${s.active ? 'http://localhost:8768/stream/' + s.id : ''}"
+                 onerror="this.style.display='none'"
+                 onload="this.style.display='block'">
+            <div class="cam-info">
+                <div><strong>Host:</strong> ${s.host}</div>
+                <div><strong>RTSP:</strong> ${s.rtsp_url}</div>
+                <div><strong>Brand:</strong> ${s.brand || 'N/A'}</div>
+                <div><strong>Country:</strong> ${s.country || 'N/A'}</div>
+                <div><strong>Description:</strong> ${s.description || 'N/A'}</div>
+            </div>
+        `;
+        container.appendChild(div);
+    }
+}
+
+loadStreams();
+setInterval(loadStreams, 30000);
+</script>
+</body>
+</html>

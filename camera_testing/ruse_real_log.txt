@@ -1,0 +1,11 @@
+[Ruse IP Cam Scan] 1838 BG prefixes
+[Ruse IP Cam Scan] Sampled 2000 IPs
+
+[Phase 1] InternetDB lookups...
+  Found 1 IPs with cam-related ports via InternetDB
+
+[Phase 2] CVE-2017-7921 probing...
+
+[Phase 2] 0 valid Hikvision-like cams found
+
+[Ruse IP Cam Scan] Done

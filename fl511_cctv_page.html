@@ -1,0 +1,956 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="shortcut icon" href="/Content/FL/images/favicon/favicon.ico?v=2026.08.13">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/Content/FL/images/favicon/favicon.ico?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="196x196" href="/Content/FL/images/favicon/favicon-192.png?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="160x160" href="/Content/FL/images/favicon/favicon-160.png?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="96x96" href="/Content/FL/images/favicon/favicon-96.png?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="64x64" href="/Content/FL/images/favicon/favicon-64.png?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Content/FL/images/favicon/favicon-32.png?v=2026.08.13">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Content/FL/images/favicon/favicon-16.png?v=2026.08.13">
+    <link rel="apple-touch-icon" href="/Content/FL/images/favicon/favicon-57.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="114x114" href="/Content/FL/images/favicon/favicon-114.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="72x72" href="/Content/FL/images/favicon/favicon-72.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="144x144" href="/Content/FL/images/favicon/favicon-144.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="60x60" href="/Content/FL/images/favicon/favicon-60.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="120x120" href="/Content/FL/images/favicon/favicon-120.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="76x76" href="/Content/FL/images/favicon/favicon-76.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="152x152" href="/Content/FL/images/favicon/favicon-152.png?v=2026.08.13">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Content/FL/images/favicon/favicon-180.png?v=2026.08.13">
+
+    <link rel="preload" as="font" href="/Content/fontawesome/webfonts/fa-regular-400.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="/Content/fontawesome/webfonts/fa-brands-400.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="/Content/fontawesome/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin />
+
+<link href='/Content/introjs?v=n-nFf0hL6YIrZxKf0YgF7V8CsnEErO252JiVetjutQY1' type='text/css' rel='stylesheet'/>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/Content/FL/images/favicon/favicon-144.png?v=2026.08.13">
+    <meta name="msapplication-config" content="/Content/FL/images/favicon/browserconfig.xml">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="http://fl511.com/cctv" />
+
+        <meta name="description" content="List of traffic cameras and their live feeds">
+
+
+        <meta property="og:url" content="fl511.com" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:title" content="FL511" />
+        <meta property="og:description" content="List of traffic cameras and their live feeds" />
+        <meta property="og:image" content="https://fl511.com/Content/FL/images/favicon/favicon-310.png?v=2026.08.13" />
+
+        <meta name="twitter:card" content="summary">
+
+
+    <title>
+        Florida Traffic Cameras | View Live Florida Traffic Cameras | FL511
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;600&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;600&display=swap" media="print" onload="this.media='all'" />
+    <link href='/bundles/maincss?v=a3ybRhTdptL8a_WUZKE-FrTolVz7EzIH0Z7gpV1h0jk1' type='text/css' rel='stylesheet'/>
+
+
+
+
+    
+    <link href='/Content/dataTables/css/dataTablesJs?v=tte8Qj391-YVZsk3ea7ovSryN2ISsqWfTo5kJVQU4yo1' type='text/css' rel='stylesheet'/>
+
+    <link href='/Content/slick/css?v=IpslGeyTWfsWNK4m3SbkjQqbguT0niuDh1AG7iPnG041' type='text/css' rel='stylesheet'/>
+
+<link href='/Content/video.js/video-js?v=56UeYfgERoCjVHHXqOmguVwfKTgMtTbDP8-QQOZUrVQ1' type='text/css' rel='stylesheet'/>
+
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07ZPFGG911"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-07ZPFGG911');        
+    </script>
+
+<script>
+    // Track event in Google Analytics 4
+    // Custom Parameter needs to be unique when you add to the GA4 (website) > Property settings > Data display > Custom definitions
+    // Dev defined - map_type_changed with event_label; map_layer_enabled with layer_id
+    const gaEventType = {
+        mapTypeChanged: 'map_type_changed',
+        mapLayerEnabled: 'map_layer_enabled'
+    };
+
+    const gaEventConfig = {
+        [gaEventType.mapTypeChanged]: {
+            customPara: 'event_label',
+            eventCategory: 'Map Interaction'
+        },
+        [gaEventType.mapLayerEnabled]: {
+            customPara: 'layer_id',
+            eventCategory: 'Map Legend Layer'
+        }
+    };
+
+    function setGATracking(event, customParameterValue) {
+        const config = gaEventConfig[event];
+        if (!config) {
+            console.warn(`Unknown event: ${event}`);
+            return; // Exit early if event not found
+        }
+
+        if (typeof gtag === 'function') {
+            gtag('event', event, {
+                event_category: config.eventCategory,
+                [config.customPara]: customParameterValue
+            });
+        }
+    }
+</script>
+
+
+
+    
+
+</head>
+<body class="mobileFirst">
+    <div id="page">
+        <div class="modal fade modal-vertical-centered" tabindex="-1" role="dialog" id="imageModal">
+    <div class="modal-dialog img-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h4 id="fullscreen-img-title">Loading...</h4>   
+                <p id="fullscreen-img-extra" style="display:none;"></p>
+                <p id="fullscreen-img-desc"></p>
+                <div class="fullscreen-camera-slider-for">
+                </div>
+                <div class="fullscreen-img-div-single">
+                    <img id="fullScreenImg" class="fullScreenImg" src=""  alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="close" data-close="true" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">×</span>
+    </button>
+</div>
+        <div role="banner" class="topBanner">
+            <noscript>
+                <span class="label label-warning">JavaScript is disabled on your browser and this site won&#39;t work properly without JavaScript enabled!</span>
+            </noscript>
+            <a href="#content" class="sr-only sr-only-focusable" title="Content" style="color:#fff;" tabindex="1">Skip to main content</a>
+            <div class="printSiteHeader">FL511</div>
+
+            
+
+
+            
+<nav class="navbar navbar-inverse topBannerFixed" aria-label="menu">
+    <div class="container-fluid">
+        <div class="row navBar">
+            <div class="navbar-header">
+                
+                <div class="navbar-toggle collapsed menuLogin">
+                    <ul class="nav navbar-nav">
+    <li class="dropdown menu-login" role="none">
+            <a href="#" class="dropdown-toggle" target="_self" data-toggle="dropdown" data-hover="dropdown" role="menuitem" aria-expanded="false" id="userProfileIcon" data-testid="userProfileIcon" aria-label="User Account">
+                <i class="far fa-user-circle userIcon" aria-hidden="true"></i>
+            </a>
+            <ul class="dropdown-menu" role="menu">     
+
+                <li role="menuitem"><a href="/my511/register" id="mobileRegisterLink">Sign Up<span class='hideForAccessibility'> for an account.</span></a></li>
+                <li role="none"><a href="#" id="mobileLoginBtn" data-testid="mobileLoginBtn" role="menuitem" data-toggle="modal" data-target="#loginModalDialog">Log In</a></li>
+            </ul>
+    </li>
+</ul>
+                </div>
+
+                <a class="navbar-toggle collapsed" href="#menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+               
+                    <a href="/" class="site-logo"  aria-label="Traveler 511 Info FL logo - Back to Map page"></a>
+    <div class="headerText">
+        <span class="tagLine"><span>Connect.</span><span>Know.</span><span>Go.</span></span>
+        <span class="motto"> Florida's Official Source for<br/>Real-Time Traffic Information</span>
+    </div>
+
+
+
+            </div>
+            <div class="socialIcons notLoggedIn">
+                <a href="/App" target="_self" title="Mobile Apps">
+                    <span class="Text">Mobile Apps</span> <span class="IconImg1"></span><span class='hideForAccessibility'>Link to Mobile Apps page</span>
+                </a>
+                <a href="/PersonalizedServices" target="_self" title="Text Alerts">
+                    <span class="Text">Text Alerts</span> <span class="IconImg2"></span><span class='hideForAccessibility'>Link to Personalized Services</span>
+                </a>
+                <a href="/twitter" target="_self" title="X">
+                    <span class="Text">X</span> <span class="IconImg3"></span><span class='hideForAccessibility'>Link to X page</span>
+                </a>
+                <a href="https://www.facebook.com/FL511/" target="_blank" title="Facebook">
+                    <span class="Text">Facebook</span> <span class="IconImg4"></span><span class='hideForAccessibility'>Link to Facebook in new window.</span>
+                </a>
+                <a href="https://www.instagram.com/Florida_511/" target="_blank" title="Instagram">
+                    <span class="Text">Instagram</span> <span class="IconImg5"></span><span class='hideForAccessibility'>Link to Instagram in new window.</span>
+                </a>
+                <a href="https://www.youtube.com/channel/UCgwU8fjaTSvqJVAbr72lgdw" target="_blank" title="YouTube">
+                    <span class="Text">YouTube</span> <span class="IconImg6"></span><span class='hideForAccessibility'>Link to YouTube in new window.</span>
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                
+                <ul class="nav navbar-nav navbarTop-right">
+
+
+
+
+
+
+<li class="regionRight">
+    <div id="region-list-label" class="hidden">Open list of regions</div>
+    <a id="currentRegionDropdownText" data-testid="currentRegionDropdownText" href="#" class="dropdown-toggle toggleButtonMenu" data-toggle="dropdown" data-hover="dropdown" aria-expanded="false" aria-controls="regionList" aria-label="Statewide">
+        <span class="regionDisplayName" title="Statewide">Statewide</span><span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" role="menu" id="regionList" aria-labelledby="region-list-label">
+<li role="none">
+                        <a href="/region/Statewide" onclick="event.preventDefault(); submitRegionInfo('Statewide', 'ALL', ['28.52', '-81.38', '7']);" aria-label="Zoom in to Statewide" title="Statewide" role="menuitem">Statewide</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Central" onclick="event.preventDefault(); submitRegionInfo('Central', 'CEN', ['28.52', '-81.38', '8']);" aria-label="Zoom in to Central region" title="Central" role="menuitem">Central</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Northeast" onclick="event.preventDefault(); submitRegionInfo('Northeast', 'NE', ['30.33', '-81.67', '8']);" aria-label="Zoom in to Northeast region" title="Northeast" role="menuitem">Northeast</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Panhandle" onclick="event.preventDefault(); submitRegionInfo('Panhandle', 'NW', ['30.74', '-85.46', '8']);" aria-label="Zoom in to Panhandle region" title="Panhandle" role="menuitem">Panhandle</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Southeast" onclick="event.preventDefault(); submitRegionInfo('Southeast', 'SE', ['25.75', '-80.2', '8']);" aria-label="Zoom in to Southeast region" title="Southeast" role="menuitem">Southeast</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Southwest" onclick="event.preventDefault(); submitRegionInfo('Southwest', 'SW', ['26.62', '-81.68', '8']);" aria-label="Zoom in to Southwest region" title="Southwest" role="menuitem">Southwest</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Tampa%20Bay" onclick="event.preventDefault(); submitRegionInfo('Tampa Bay', 'TB', ['28.07', '-82.46', '8']);" aria-label="Zoom in to Tampa Bay region" title="Tampa Bay" role="menuitem">Tampa Bay</a>
+                    </li>
+    </ul>
+</li>        <li class="languageToggleContainer">
+            <ul id="languageToggle" aria-label="currentLanguageDropdownText">
+<li hreflang="en" class="isActive">
+                        <a href="javascript:submitLanguageInfo('en')" lang="en" hreflang="en" aria-label="English">English</a>
+                    </li>
+<li hreflang="es-US" class="">
+                        <a href="javascript:submitLanguageInfo('es-US')" lang="es-US" hreflang="es-US" aria-label="Español">Español</a>
+                    </li>
+            </ul>
+        </li>
+                    <li class="loginSection desktop">    <ul class="nav navbar-nav" role="menu">
+        <li role="none"><a href="#" id="login-button" data-testid="loginButton" role="menuitem" data-toggle="modal" data-target="#loginModalDialog" aria-label="Log In">Log In</a></li>
+        <li role="none"><a href="/my511/register" id="registerLink">Sign Up<span class='hideForAccessibility'> for an account.</span></a></li>
+    </ul>
+</li>
+                </ul>
+
+                
+
+
+
+<div class="menu-width">
+    <ul class="nav navbar-nav main-menu" role="menubar">
+                        <li class="only511" role="none">
+                            <a data-testid="menu-Map-Inde-Map" href="/map" target="_self" title="Map Menu" role="menuitem">Map</a>
+                        </li>
+                            <li class="dropdown " role="none">
+                                <a data-testid="menu-List-Traf" href="/" class="dropdown-toggle" target="_self" title="Traffic Menu" data-toggle="dropdown" data-hover="dropdown" role="menuitem" aria-expanded="false">
+                                    Traffic <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu" style="column-count: 1 ">
+                                                    <li role="none">
+                    <a data-testid="sub-List-ET-TL" class="" href="/list/events/traffic" target="_self" title="Traffic - Incidents List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Incidents List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="sub-List-Cctv-CL" class="" href="/cctv" target="_self" title="Traffic - Cameras List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Cameras List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="sub-List-MS-MSL" class="" href="/messagesigns" target="_self" title="Traffic - Message Signs List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Message Signs List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="sub-List-PP-TP" class="" href="/list/pois/parking" target="_self" title="Traffic - Truck Parking" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Truck Parking</a>
+                </li>
+                <li role="none">
+                    <a data-testid="sub-List-Brid-Brid" class="" href="/list/bridge" target="_self" title="Traffic - Drawbridge Crossings" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Drawbridge Crossings</a>
+                </li>
+                <li role="none">
+                    <a data-testid="sub-List-RC-RC" class="" href="/list/railcrossing" target="_self" title="Traffic - Rail Crossings" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Rail Crossings</a>
+                </li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown only511" role="none">
+                                <a data-testid="menu-My51-My51" href="/" class="dropdown-toggle" target="_self" title="My Florida 511 Menu" data-toggle="dropdown" data-hover="dropdown" role="menuitem" aria-expanded="false">
+                                    My Florida 511 <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu" role="menu" style="column-count: 1 ">
+                                                    <li role="none">
+                    <a data-testid="sub-My51-Inde-MRAA" class="" href="/my511" target="_self" title="My Florida 511 - My Routes &amp; Notifications" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">My Routes &amp; Notifications</a>
+                </li>
+
+                                </ul>
+                            </li>
+                        <li class="" role="none">
+                            <a data-testid="menu-CI" href="https://www.fdot.gov/agencyresources/projects.shtm" target="_blank" title="Construction Info Menu" role="menuitem">Construction Info</a>
+                        </li>
+                        <li class="" role="none">
+                            <a data-testid="menu-Home-EI-EI" href="/emergencyinfo" target="_self" title="Emergency Info Menu" role="menuitem">Emergency Info</a>
+                        </li>
+                        <li class="" role="none">
+                            <a data-testid="menu-Home-TA-TA" href="/transitairports" target="_self" title="Transit / Airports Menu" role="menuitem">Transit / Airports</a>
+                        </li>
+                        <li class="only511" role="none">
+                            <a data-testid="menu-Home-Link-Link" href="/links" target="_self" title="Links Menu" role="menuitem">Links</a>
+                        </li>
+                        <li class="" role="none">
+                            <a data-testid="menu-News" href="http://news.fl511.com" target="_blank" title="Newsroom Menu" role="menuitem">Newsroom</a>
+                        </li>
+    </ul>
+</div>
+
+
+                
+                <div class="nonDesktop">
+                    <nav id="menu">
+                        <ul>
+                            
+
+                    <li class="only511" role="none">
+                        <a href="/map" target="_self" title="Map Menu" role="menuitem">Map</a>
+                    </li>
+                        <li class="" role="none">
+                            
+                            <span role="menuitem">Traffic</span>
+                            <ul role="menu">
+                                                <li role="none">
+                    <a class="" href="/list/events/traffic" target="_self" title="Traffic - Incidents List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Incidents List</a>
+                </li>
+                <li role="none">
+                    <a class="" href="/cctv" target="_self" title="Traffic - Cameras List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Cameras List</a>
+                </li>
+                <li role="none">
+                    <a class="" href="/messagesigns" target="_self" title="Traffic - Message Signs List" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Message Signs List</a>
+                </li>
+                <li role="none">
+                    <a class="" href="/list/pois/parking" target="_self" title="Traffic - Truck Parking" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Truck Parking</a>
+                </li>
+                <li role="none">
+                    <a class="" href="/list/bridge" target="_self" title="Traffic - Drawbridge Crossings" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Drawbridge Crossings</a>
+                </li>
+                <li role="none">
+                    <a class="" href="/list/railcrossing" target="_self" title="Traffic - Rail Crossings" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">Rail Crossings</a>
+                </li>
+
+                            </ul>
+                        </li>
+                        <li class="only511" role="none">
+                            
+                            <span role="menuitem">My Florida 511</span>
+                            <ul role="menu">
+                                                <li role="none">
+                    <a class="" href="/my511" target="_self" title="My Florida 511 - My Routes &amp; Notifications" data-toggle="collapse" data-target=".navbar-collapse.in" role="menuitem">My Routes &amp; Notifications</a>
+                </li>
+
+                            </ul>
+                        </li>
+                    <li class="" role="none">
+                        <a href="https://www.fdot.gov/agencyresources/projects.shtm" target="_blank" title="Construction Info Menu" role="menuitem">Construction Info</a>
+                    </li>
+                    <li class="" role="none">
+                        <a href="/emergencyinfo" target="_self" title="Emergency Info Menu" role="menuitem">Emergency Info</a>
+                    </li>
+                    <li class="" role="none">
+                        <a href="/transitairports" target="_self" title="Transit / Airports Menu" role="menuitem">Transit / Airports</a>
+                    </li>
+                    <li class="only511" role="none">
+                        <a href="/links" target="_self" title="Links Menu" role="menuitem">Links</a>
+                    </li>
+                    <li class="" role="none">
+                        <a href="http://news.fl511.com" target="_blank" title="Newsroom Menu" role="menuitem">Newsroom</a>
+                    </li>
+
+
+
+                            
+<li>
+    <span>Statewide</span>
+    <ul id="mobileRegionsPanel" role="menu">
+<li role="none">
+                        <a href="/region/Statewide" onclick="submitRegionInfo('Statewide', 'ALL', ['28.52', '-81.38', '7'], true); " role="menuitem">Statewide</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Central" onclick="submitRegionInfo('Central', 'CEN', ['28.52', '-81.38', '8'], true); " role="menuitem">Central</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Northeast" onclick="submitRegionInfo('Northeast', 'NE', ['30.33', '-81.67', '8'], true); " role="menuitem">Northeast</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Panhandle" onclick="submitRegionInfo('Panhandle', 'NW', ['30.74', '-85.46', '8'], true); " role="menuitem">Panhandle</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Southeast" onclick="submitRegionInfo('Southeast', 'SE', ['25.75', '-80.2', '8'], true); " role="menuitem">Southeast</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Southwest" onclick="submitRegionInfo('Southwest', 'SW', ['26.62', '-81.68', '8'], true); " role="menuitem">Southwest</a>
+                    </li>
+<li role="none">
+                        <a href="/region/Tampa%20Bay" onclick="submitRegionInfo('Tampa Bay', 'TB', ['28.07', '-82.46', '8'], true); " role="menuitem">Tampa Bay</a>
+                    </li>
+    </ul>
+</li>        <li class="languageToggleContainer" >
+<a href="javascript:submitLanguageInfo('en')" class="isActive" lang="en" hreflang="en" aria-label="English">English</a>
+<a href="javascript:submitLanguageInfo('es-US')" class="" lang="es-US" hreflang="es-US" aria-label="Español">Español</a>
+        </li>
+                                                    </ul>
+                    </nav>
+                </div>
+<form action="/home/setculture" id="languageForm" method="post"><input id="culture" name="culture" type="hidden" value="" /><input id="returnUrl" name="returnUrl" type="hidden" value="/cctv" /></form>            </div>
+
+        </div>
+    </div>
+</nav>
+<div class="row scrollRow">
+    <a class="alertHeader" href="/List/Alerts" aria-label="Alerts" title="View alerts list"> <i class="fas fa-exclamation-triangle" aria-hidden="true"></i> Alerts<span class="sr-only">Alerts</span></a>
+    <div id="alertWrapper">
+        <div id="alertsBox" class="scroller siteWideAlerts">
+            <ul><li id="emptyAlertLi">&nbsp;</li></ul>
+            <span class="tempAlert" hidden></span>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="container-fluid mainContainer" role="main">
+            
+            <div class="messageContainer">
+                
+
+            </div>
+            <div id="content">
+
+
+
+<div class="row list-page cctvList  newCamDesign">
+    <div class="col-md-12">
+        <h1>Traffic Cameras</h1>
+        
+
+<div id="List_Cameras" data-atisParent="true">
+        <div id="virtual-121" data-atis="true" class=""><div class="pull-right">Video and images are neither stored nor recorded.</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+</div>
+
+
+        <div class="list-group listFilter"></div>
+        <div class="panel panel-default">
+                <div class="gridSort">
+                    <button id="sortOrder" data-testid="sortOrder" title="Ascending Order" aria-label="Sort">Sort <i class="fas fa-sort-amount-down-alt" aria-hidden="true"></i></button>
+                </div>
+            <!--Need style inline width 100% for dataTable to expand when you manually resize browser, css width 100% doesn't work-->
+            <table id="cctvTable" data-typeidfriendlyurl="Cameras" class="table table-striped" style="width: 100%;" role="presentation">
+                <caption>"Cameras"</caption>
+                <thead class="hidden">
+                </thead>
+                <tfoot class="hidden">
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+                <button data-testid="emergencyPopupNotificationBtn" class="btn emergencyPopupNotification" data-alert="" tabindex="0">
+                    <i style="padding-right: 5px;" class="far fa-exclamation-triangle"></i> <span class="hideEmergencyAlertText">EMERGENCY ALERT</span>
+                </button>
+            </div>
+            <footer class="row">
+    <div class="col-md-10">  
+        
+<ul class="nav navbar-nav" role="menu">
+                <li role="none">
+                    <a data-testid="f-Map-Inde-Map" href="/map" target="_self" title="Map Menu" role="menuitem">Map</a>
+                </li>
+                    <li class="" role="none">
+                        <button data-testid="f-btn-List-Traf" data-toggle="collapse" data-target="#Traffic-footer" aria-expanded="false" role="menuitem">
+                            Traffic
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="Traffic-footer" class="subMenu collapse" role="menu">
+                                            <li role="none">
+                    <a data-testid="fSub-List-ET-TL" href="/list/events/traffic" target="_self" title="Traffic - Incidents List" role="menuitem">Incidents List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-List-Cctv-CL" href="/cctv" target="_self" title="Traffic - Cameras List" role="menuitem">Cameras List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-List-MS-MSL" href="/messagesigns" target="_self" title="Traffic - Message Signs List" role="menuitem">Message Signs List</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-List-PP-TP" href="/list/pois/parking" target="_self" title="Traffic - Truck Parking" role="menuitem">Truck Parking</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-List-Brid-Brid" href="/list/bridge" target="_self" title="Traffic - Drawbridge Crossings" role="menuitem">Drawbridge Crossings</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-List-RC-RC" href="/list/railcrossing" target="_self" title="Traffic - Rail Crossings" role="menuitem">Rail Crossings</a>
+                </li>
+
+                        </ul>
+                    </li>
+                    <li class="" role="none">
+                        <button data-testid="f-btn-My51-My51" data-toggle="collapse" data-target="#MyFlorida511-footer" aria-expanded="false" role="menuitem">
+                            My Florida 511
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="MyFlorida511-footer" class="subMenu collapse" role="menu">
+                                            <li role="none">
+                    <a data-testid="fSub-My51-Inde-MRAA" href="/my511" target="_self" title="My Florida 511 - My Routes &amp; Notifications" role="menuitem">My Routes &amp; Notifications</a>
+                </li>
+
+                        </ul>
+                    </li>
+                <li role="none">
+                    <a data-testid="f-CI" href="https://www.fdot.gov/agencyresources/projects.shtm" target="_blank" title="Construction Info Menu" role="menuitem">Construction Info</a>
+                </li>
+                <li role="none">
+                    <a data-testid="f-Home-EI-EI" href="/emergencyinfo" target="_self" title="Emergency Info Menu" role="menuitem">Emergency Info</a>
+                </li>
+                <li role="none">
+                    <a data-testid="f-Home-TA-TA" href="/transitairports" target="_self" title="Transit / Airports Menu" role="menuitem">Transit / Airports</a>
+                </li>
+                <li role="none">
+                    <a data-testid="f-Home-Link-Link" href="/links" target="_self" title="Links Menu" role="menuitem">Links</a>
+                </li>
+                <li role="none">
+                    <a data-testid="f-News" href="http://news.fl511.com" target="_blank" title="Newsroom Menu" role="menuitem">Newsroom</a>
+                </li>
+                    <li class="" role="none">
+                        <button data-testid="f-btn-Abou" data-toggle="collapse" data-target="#About-footer" aria-expanded="false" role="menuitem">
+                            About
+                            <span class="caret"></span>
+                        </button>
+                        <ul id="About-footer" class="subMenu collapse" role="menu">
+                                            <li role="none">
+                    <a data-testid="fSub-Home-Abou-Abou" href="/about" target="_self" title="About - About" role="menuitem">About</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-Home-Faq-FAQ" href="/faq" target="_self" title="About - FAQ" role="menuitem">FAQ</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-Home-Priv-PP" href="/privacy" target="_self" title="About - Privacy Policy" role="menuitem">Privacy Policy</a>
+                </li>
+                <li role="none">
+                    <a data-testid="fSub-Home-Cont-CU" href="/contact" target="_self" title="About - Submit Feedback" role="menuitem">Submit Feedback</a>
+                </li>
+
+                        </ul>
+                    </li>
+</ul>
+    </div>
+    <div class="col-md-2 wazeText">
+        Some data contributed by Waze
+        <div class="footerLogo">
+            <a href="http://www.dot.state.fl.us/" target="_blank"><span class='hideForAccessibility'>Link to FDOT in new window</span></a>
+        </div>
+    </div>
+</footer>
+        </div>
+    </div>
+
+<div id="loginModalDialog" class="modal fade modal-vertical-centered" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                <span class="modal-title">Log In</span>
+            </div>
+            <div class="modal-body">
+                <form id="loginFormmodal" class="form-horizontal">
+                    <input name="__RequestVerificationToken" type="hidden" value="VEX6mrc3G9mwJ3ErtYJjPsXN4OE-fstgSVy7_QqlYuI4IUyaPXGzi52eS_AzDPHYiaKUE457a0tu5EPZSAn9L5lAa2k1" />
+                    <div id="validationSummarymodal" hidden="hidden" class="alert alert-danger">
+                        <ul><li></li></ul>
+                    </div>
+                    
+<div class="form-group">
+    <label class="col-md-12&#32;control-label" for="EmailOrPhonemodal">Email or phone</label>
+    <div class="col-md-12">
+        <input autocomplete="off" autofocus="autofocus" class="form-control" data-val="true" data-val-regex="Email&#32;or&#32;phone&#32;is&#32;required" data-val-regex-pattern="^(([^&lt;&gt;()[\]\\.,;:\s@&quot;]+(\.[^&lt;&gt;()[\]\\.,;:\s@&quot;]+)*)|(&quot;.+&quot;))@((\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$|(^\(?([0-9]{3})\)?[-.&#32;]?([0-9]{3})[-.&#32;]?([0-9]{4}))" data-val-required="Email&#32;or&#32;phone&#32;is&#32;required" id="EmailOrPhonemodal" name="EmailOrPhone" title="Email&#32;or&#32;phone" type="text" value="" />
+        <span aria-atomic="true" aria-live="assertive" class="field-validation-valid&#32;text-danger" data-valmsg-for="EmailOrPhone" data-valmsg-replace="true" role="alert"></span>
+    </div>
+</div>
+<div class="form-group">
+    <label class="col-md-12&#32;control-label" for="Passwordmodal">Password</label>
+    <div class="col-md-12">
+        <input autocomplete="off" class="form-control" data-val="true" data-val-required="Password&#32;is&#32;required" id="Passwordmodal" name="Password" title="Password" type="password" />
+        <span aria-atomic="true" aria-live="assertive" class="field-validation-valid&#32;text-danger" data-valmsg-for="Password" data-valmsg-replace="true" role="alert"></span>
+    </div>
+</div>
+<div class="form-group">
+    <div class="col-md-12">
+        <div class="checkbox">
+            <input class="checkBoxVAlign" data-val="true" data-val-required="The&#32;Remember&#32;me&#32;field&#32;is&#32;required." id="RememberMemodal" name="RememberMe" title="RememberMe" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+            <label class="rememberMePad" for="RememberMemodal">Remember me</label>
+        </div>
+    </div>
+</div>
+
+<input id="returnUrlmodal" name="returnUrl" type="hidden" value="/cctv" />
+
+
+<div class="form-group">
+    <div class="col-md-12">
+        <input type="submit" id="logInButtonmodal" data-testid="logInButtonmodal" value="Log in" class="btn btn-info" />
+        <input type="button" id="resendConfirmationEmailmodal" data-testid="resendConfirmationEmailmodal" style="display: none;" class="btn btn-info" value="Resend Confirmation" />
+    </div>
+</div>
+<div class="form-group lineHeight">
+    <div class="col-md-12">
+        <a href="/my511/register">Sign up as a new user</a>
+    </div>
+    <div class="col-md-12">
+        <a href="/my511/forgotpassword">Forgot password?</a>
+    </div>
+</div>
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>    
+
+    <script src="/bundles/jquery?v=XU1jbSWx9hrFOb1ucZIICKeDUk-n37FYGWpdiZtzbc41"></script>
+
+    <script src="/bundles/common?v=4I5ld4sYClh9GmDPuwSnBohazlOd8sYGkRHTSDVxD7U1"></script>
+
+    <script src="/bundles/bootstrap?v=APOw02wyVqp1P_s8bMjb5hZxqXyGzL7yLn4hojw2YjE1"></script>
+
+
+    <script>
+         window.user = {
+            id: '00000000-0000-0000-0000-000000000000'
+        }     
+    </script>
+
+    <script src="/scripts/jsresources/alerts?lang=en&v=2026.08.13"></script>
+<script>
+    //Fix for admin dropdown and date formating in spanish
+    $(function () {
+
+        var isFullScreen = false;
+
+        if (window.innerWidth <= bp767) {
+            initMobileMenu(); // do not put into window.resize
+        }
+
+        var isErs = $(".ersLogo").length > 0;
+        if (isErs) {
+
+           $(document).on("FailedToLocateArea", function () {
+               $(".gMapFullscreenMessage").empty();
+               if (isFullScreen) {
+                   var msgBox = '<div class="message" name="message"><div class="alert alert-danger alert-dismissible" role="alert">';
+                   msgBox += '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>';
+                   msgBox += '<div class="media"><div class="media-left"><span class="far fa-exclamation-circle"></span><span class="sr-only">Error</span></div>';
+                   msgBox += '<div class="media-body">Failed to locate area</div></div ></div></div>';
+                   $(".gMapFullscreenMessage").html(msgBox);
+               }
+           });
+
+        } else {
+            if ($("body").hasClass("ersMode")) {
+                $("body").removeClass("ersMode");
+            }
+        }
+
+        layout.reSizeLogo(bp1185);
+
+        $(document).bind('webkitfullscreenchange mozfullscreenchange fullscreenchange MSFullscreenChange', function () {
+            isFullScreen = document.fullScreen ||
+                document.mozFullScreen ||
+                document.webkitIsFullScreen ||
+                document.MSFullscreenChange;
+            var locationBox = $(".ersMode .locateLookupContainer");
+            if (!isFullScreen) {
+                $(".gMapFullscreenMessage").empty();
+                // remove old err msg
+                $(".form-group .message").remove();
+                if (locationBox.length > 0) {
+                    locationBox.css({ "left": "0" });
+                }
+            } else {
+                if (locationBox.length > 0) {
+                    locationBox.css({ "left": "40%" });
+                }
+            }
+        });
+
+        var cookiecheck = Cookies.get('_culture');
+        var culture = (cookiecheck != null) ? cookiecheck.toLowerCase() : 'en';
+        if (culture === 'es-us') {
+            $(".admin.dropdown").addClass("spanish");
+        } else {
+            $(".admin.dropdown").removeClass("spanish");
+        }
+
+        layout.setWindowResizeEvent(bp1185);
+    });
+
+    $(document).on("click", '#addCameraButton', function () {
+        window.AddMyCameraEvent();
+    });
+
+</script>
+    
+<script src="/bundles/newCamList?v=sMkWBJIhCxxaMYyZcDUrbamRJ-Y6huAxjbxNnuA0h8g1"></script>
+    <script src="/scripts/jsresources/List/listResources?lang=en&v=2026.08.13"></script>
+    <script src="/bundles/datatables?v=Aa7bfPxECcJIJhxG-ESEyWZfgJUuoJ6DstPJZZuRW7I1"></script>
+
+    <script src="/bundles/listCctv?v=SLb1blZZRd0lLFwwogM7Rjc01jC2kUaZTl2m7Cd9aoo1"></script>
+
+<script src="/bundles/videojs?v=-WkwCm5K4DcSHJ5yqhabGwuIF2u86QGcerrOgcrUw-U1"></script>
+<script>
+
+    
+
+function CreateCameraList(defaultColumns) {
+    var columns = [
+        { data: "region", className: "select-filter", title: "Region", name: "region", searchable: true, orderable: true, visible: false },
+        { data: "county", className: "select-filter", title: "County", name: "county", searchable: true, orderable: true, visible: false },
+        { data: "roadway", className: "select-filter", title: "Roadway",  name: "roadway", searchable: true, orderable: true, visible: false },
+        { data: "location", title: "Location", name: "location", searchable: false, orderable: false, visible: false },
+        { data: "direction", title: "Direction",  name: "direction", searchable: true, orderable: true, visible: false }
+        ];
+
+        defaultColumns.splice(1, 0, ...columns);
+        // sort by county
+        CamListConfig([[0, 'asc'],[1, 'asc']], "Cameras", false, false, defaultColumns);
+        }
+
+    //the dt column collection which is part of the dt config.
+    //If the column will be used in a filter, searchable must be set to true, otherwise searchable must be set to false.
+   var defaultColumns = [
+    { data: "sortOrder", name: "sortOrder", orderable: true, visible: false, className: 'never' },
+    {
+        title: "Image",
+        searchable: false, orderable: false, className: 'imgCol',
+        render: RenderCctvDataTableRow(false, false, "/map/Cctv/")
+    }
+];
+    CreateCameraList(defaultColumns);
+</script>
+
+    <script src="/bundles/jqueryval?v=7PLq779JpfcVbtY5yyhkZ6hW9pPOG_5Buet9Z7unJL01"></script>
+<script src="/scripts/jsresources/loadBlocker?lang=en&v=2026.08.13"></script>
+<script src="/Scripts/loadBlocker.js?v=2026.08.13"></script>
+<script src="/Scripts/isUserLoggedIn.js?v=2026.08.13"></script>
+<script>
+    var hashAttached = false;
+        $(function () {
+            var loginType = 'modal';
+            $("#loginForm" + loginType).submit(function (e) {
+                e.preventDefault();
+                loadBlockerApi.showSpinner('loginForm');
+                //Add # to return url if needed
+                if (window.location.hash && !hashAttached) {
+                    var returnVal = $('#returnUrlmodal').val();
+                    $('#returnUrlmodal').val(returnVal + window.location.hash);
+                    hashAttached = true;
+                }
+
+                $.ajax('/My511/Login', {
+                    data: $("#loginForm" + loginType).serialize(),
+                    type: 'POST',
+                    //we are doing this so that if we are already logged in and get redirected to My511/Index, instead of thinking we received json, the ajax call fails and reloads the page
+                    dataType: 'json',
+                    beforeSend: function (event, xhr, settings, thrownError) {
+                        if (window.isUserLoggedIn(event.responseText)) {
+                            xhr.abort();
+                        }
+                    }
+                }).done(function (data) {
+                    if (!data.success) {
+                        if (data.mfa) {
+                            $(location).attr('href', '/my511/sendcode?returnUrl=' + encodeURIComponent(data.returnUrl) + '&rememberMe=' + data.rememberMe);
+                        }
+                        else {
+                            loadBlockerApi.hideSpinner('loginForm');
+                            $("#validationSummary" + loginType + " > ul > li").text(data.errors);
+                            $("#validationSummary" + loginType).show();
+                            if (data.unconfirmed) {
+                                $("#resendConfirmationEmail" + loginType).show();
+                            }
+                        }
+                    } else {
+                        $("#validationSummary" + loginType).hide();
+                        if (data.returnUrl && data.returnUrl[0] != '#' && data.returnUrl != window.location.pathname + window.location.hash) {
+                            $(location).attr('href', data.returnUrl);
+                        } else {
+                            location.reload();
+                        }
+                    }
+                }).fail(function (event, xhr, settings, thrownError) {
+                    location.reload();
+                });
+            });
+
+            // if already on login page, don't display login modal when clicking on login link
+            $('#loginModalDialog').on('show.bs.modal', function () {
+                var url = document.location.pathname;
+                var name = url.substring(url.lastIndexOf('/') + 1);
+                if (name.toLowerCase() === 'login') {
+                    return false;
+                }
+                return true;
+            });
+
+            $('#loginModalDialog').on('shown.bs.modal', function () {
+                $('#Email').focus();
+            });
+
+            $('#resendConfirmationEmail' + loginType).on('click', function (e) {
+                //prevent default action.
+                e.preventDefault();
+                //our custom ajax error handler for confirmation emails.
+                var ajaxFailConfirmation = new AjaxFail(window.resources['SorryUnkownErrorConfirmationCouldNotBeResent'], bootbox.alert);
+
+                var emailOrPhone = $('#EmailOrPhone'+loginType).val();
+
+                //this should never happen but just in case.
+                if (emailOrPhone) {
+                    $.ajax('/My511/ResendUserConfirmation', { data: { emailOrPhone: emailOrPhone }, type: 'POST' }).done(function(data) {
+                        if (data.errors) bootbox.alert('<i class="fa fa-check-circle" aria-hidden="true"></i> ' + data.errors);
+                        else bootbox.alert('<i class="fa fa-check-circle" aria-hidden="true"></i> The confirmation has been re-sent to {0}.'.replace('{0}', emailOrPhone));
+                    }).fail(ajaxFailConfirmation.ajaxFailPossibleErrorMessageFromServer);
+                }
+
+
+            });
+
+            function iOSversion() {
+                if (/iP(hone|od|ad)/.test(navigator.platform)) {
+                    // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
+                    var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+                    if (v != null && v.length > 0) {
+                        return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+                    } else {
+                        return null;
+                    }
+                }
+            }
+
+            if (window.innerWidth <= bp767) {
+                var ver = iOSversion();
+                if (ver != null && ver[0] >= 11) {
+                    $("#loginModalDialog.modal").css("position", "absolute");
+                }
+            }
+        });
+</script>
+
+
+
+<script src="/bundles/alerts?v=ifoI0BQxBAAcwoTXODSmnfU_EUN9Z-ngzNxmLYjE8d41"></script>
+
+    <script src="/bundles/ajaxCms?v=Vv9CNbS7YfSDNIdqHfgIuI8auMK9uX7l33d_RN9LyNo1"></script>
+<script src="/bundles/regionContentFilter?v=seEoj0YnNFlr4-WKzIBqH-yynCbPxNmi57Iy2e53IHU1"></script>
+<script src="/bundles/helpPopup?v=88RlDZfnKPcaItCY8SIgbKy-NlAGu4Lvt2UqNw6hrK81"></script>
+
+    <script>
+    //Creating a global variable which will indicate whether the page is being unloaded or not.
+    var globalVars = { isBeingUnloaded: false, tickerInterval: 8000, dateFormat: 'M/D/YYYY h:mm A', timeFormat: 'h:mm A', canCreateEvents: '' };
+    //Attach the 'beforeunload' event handler on the window object.
+    $(window).bind('beforeunload', function() {
+        //Set the global variable to indicate that the page is being unloaded.
+        globalVars.isBeingUnloaded = true;
+    });
+
+    //For some reason we occasionally fail at parsing : decodeURIComponent(settings.data), return a blob if it doesn't work
+    function tryJsonParse(text) {
+        var result;
+        try {
+            result = JSON.parse('{"' +
+                text
+                .replace(/\+/g, ' ')
+                .replace(/"/g, '\\"')
+                .replace(/&/g, '","')
+                .replace(/=/g, '":"') +
+                '"}');
+        } catch (e) {
+            result = encodeURI(text);
+        }
+        return result;
+    }
+
+    //global ajax error handler.
+    $(document).ajaxError(function(event, xhr, settings, thrownError) {
+        //don't log an error if the page is being unloaded because a user closed the window or click another link.
+        if (globalVars.isBeingUnloaded || thrownError == 'timeout' || xhr.statusText === 'abort' || xhr.status == 0) {
+            return;
+        }
+        if (console) {
+            //sometimes these errors are swallowed and not seen on dev, make sure we show it
+            console.log(settings, thrownError);
+        }
+        var responseText = "html page not included";
+        if (!xhr.responseText) {
+            responseText = "no response";
+        }
+        if (xhr.responseText && xhr.responseText.substring(0, 15) != "<!DOCTYPE html>") responseText = xhr.responseText;
+    });
+
+    $(document).ready(function () {
+        // mobile first
+        var body = $("body");
+        if (window.innerWidth <= bp992 && true == true) {
+
+            if (!body.hasClass("mobileFirst")) {
+                body.addClass("mobileFirst")
+            }
+        } else {
+            if (body.hasClass("mobileFirst")) {
+                body.removeClass("mobileFirst")
+            }
+        }
+
+        // mapPage includes 511 and ERS map
+        var isMapPage = document.querySelector(".mapPage") != null;
+        if (isMapPage) {
+            // using onload so legend renders fully before we trigger normalLegendSet 
+            window.onload = () => {              
+                $(document).trigger("normalLegendSet");               
+            }
+        } else {
+            // needed for other help icon on RCR map, non map page
+            $(document).trigger("normalLegendSet");
+        }    
+    });
+    </script>
+    <script src="/scripts/jsresources/introJs/introJsGuide?lang=en&v=2026.08.13"></script>
+<script src="/bundles/introjs?v=9Yk3ow-vcAAwzXyL6gYcB0gClWF7mQ_ELwH1b1uCgoY1"></script>
+
+
+</body>
+</html>

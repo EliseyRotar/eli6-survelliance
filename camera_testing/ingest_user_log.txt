@@ -1,0 +1,582 @@
+[12:42:14] [init] starting user URL ingestion
+[12:42:14] [phase 1] HEAD-probing user URLs
+[12:42:15]   FAIL: http://67.166.43.228:50000/img/main.cgi?next_file=main.htm
+[12:42:16]   OK: http://67.166.43.228:50000/img/video.mjpeg
+[12:42:16]   FAIL: http://190.15.193.92:8085/img/main.cgi?next_file=main.htm
+[12:42:17]   OK: http://190.15.193.92:8085/img/video.mjpeg
+[12:42:23]   FAIL: http://192.183.2.223:8081/
+[12:42:29]   FAIL: http://210.62.196.80:8081/
+[12:42:36]   FAIL: http://38.147.226.28:8081/
+[12:42:42]   FAIL: http://73.170.30.215:8888/
+[12:42:48]   FAIL: http://73.170.30.215:8081/
+[12:42:49]   OK: http://201.188.88.64:8080/
+[12:42:52]   FAIL: http://201.188.88.64:8888/
+[12:42:58]   FAIL: http://86.143.65.63:8080/
+[12:43:04]   FAIL: http://217.211.95.232:8081/
+[12:43:11]   FAIL: http://187.110.127.220:8888/
+[12:43:17]   FAIL: http://24.78.151.146/
+[12:43:23]   FAIL: http://172.101.22.35:8888/
+[12:43:30]   FAIL: http://192.143.94.237:8081/
+[12:43:36]   FAIL: http://138.28.75.220:8081/
+[12:43:42]   FAIL: http://209.71.59.178:8081/
+[12:43:48]   FAIL: http://67.161.150.146:8081/
+[12:43:54]   FAIL: http://162.229.14.147:8081/
+[12:43:54]   OK: http://109.206.96.98:8080/
+[12:43:54]   OK: http://109.206.96.230:8080/
+[12:43:54]   OK: http://109.206.96.96:8080/
+[12:43:55]   OK: http://109.206.96.127:8080/
+[12:43:55]   OK: http://109.206.96.247:8080/
+[12:43:55]   OK: http://93.255.29.119:8080/
+[12:43:55]   FAIL: http://109.233.220.234:8080/
+[12:43:55]   working: 9/28
+[12:43:55] [phase 2] extracting sub-streams from multi-cam hosts
+[12:43:55]   sub-stream: http://109.206.96.98:8080/img/video.mjpeg
+[12:43:55]   sub-stream: http://109.206.96.98:8080/img/snapshot.jpg
+[12:43:55]   sub-stream: http://109.206.96.98:8080/img/main.cgi?next_file=main.htm
+[12:43:55]   sub-stream: http://109.206.96.98:8080/cgi-bin/snapshot.cgi?chn=0
+[12:43:55]   sub-stream: http://109.206.96.98:8080/Streaming/tracks/101
+[12:43:55]   sub-stream: http://109.206.96.98:8080/Streaming/tracks/102
+[12:43:55]   sub-stream: http://109.206.96.98:8080/axis-cgi/media.cgi
+[12:43:55]   sub-stream: http://109.206.96.98:8080/axis-media/media.amp
+[12:43:55]   sub-stream: http://109.206.96.98:8080/live/main
+[12:43:55]   sub-stream: http://109.206.96.98:8080/live/sub
+[12:43:56]   sub-stream: http://109.206.96.98:8080/live.sdp
+[12:43:56]   sub-stream: http://109.206.96.98:8080/av0_0
+[12:43:56]   sub-stream: http://109.206.96.98:8080/av0_1
+[12:43:56]   sub-stream: http://109.206.96.98:8080/video0
+[12:43:56]   sub-stream: http://109.206.96.98:8080/video1
+[12:43:56]   sub-stream: http://109.206.96.98:8080/cam_1.mjpg
+[12:43:56]   sub-stream: http://109.206.96.98:8080/cam_2.mjpg
+[12:43:56]   sub-stream: http://109.206.96.98:8080/cam_3.mjpg
+[12:43:56]   sub-stream: http://109.206.96.98:8080/cam_1.cgi
+[12:43:59]   sub-stream: http://109.206.96.98:8080/cam_3.cgi
+[12:44:02]   sub-stream: http://109.206.96.98:8080/mjpg/1/video.mjpg
+[12:44:02]   sub-stream: http://109.206.96.98:8080/mjpg/2/video.mjpg
+[12:44:02]   sub-stream: http://109.206.96.98:8080/videostream.cgi
+[12:44:02]   sub-stream: http://109.206.96.98:8080/video.cgi
+[12:44:02]   sub-stream: http://109.206.96.98:8080/image.jpg
+[12:44:03]   sub-stream: http://109.206.96.98:8080/image.jpeg
+[12:44:03]   sub-stream: http://109.206.96.98:8080/snapshot.cgi?chn=0
+[12:44:03]   sub-stream: http://109.206.96.98:8080/snapshot.cgi?chn=1
+[12:44:03]   sub-stream: http://109.206.96.98:8080/snapshot.cgi?channel=1
+[12:44:03]   sub-stream: http://109.206.96.98:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:03]   sub-stream: http://109.206.96.98:8080/streaming/channels/101
+[12:44:03]   sub-stream: http://109.206.96.98:8080/streaming/channels/1
+[12:44:03]   sub-stream: http://109.206.96.98:8080/ISAPI/Streaming/channels/101/picture
+[12:44:03]   sub-stream: http://109.206.96.98:8080/ISAPI/Streaming/channels/1/picture
+[12:44:03]   sub-stream: http://109.206.96.98:8080/web/tmpfs/snap.jpg
+[12:44:03]   sub-stream: http://109.206.96.98:8080/web/tmpfs/auto.jpg
+[12:44:03]   sub-stream: http://109.206.96.98:8080/cgi-bin/viewer/video.jpg
+[12:44:04]   sub-stream: http://109.206.96.98:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:04]   sub-stream: http://109.206.96.98:8080/tmpfs/auto.jpg
+[12:44:04]   sub-stream: http://109.206.96.98:8080/tmpfs/snap.jpg
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?0
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?1
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?2
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?3
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?4
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?5
+[12:44:04]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?6
+[12:44:05]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?7
+[12:44:05]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?8
+[12:44:05]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?9
+[12:44:05]   sub-stream: http://109.206.96.98:8080/img/snapshot.cgi?10
+[12:44:05]   sub-stream: http://109.206.96.98:8080/video1.mjpg
+[12:44:05]   sub-stream: http://109.206.96.98:8080/video2.mjpg
+[12:44:05]   sub-stream: http://109.206.96.98:8080/live/0
+[12:44:05]   sub-stream: http://109.206.96.98:8080/live/1
+[12:44:05]   sub-stream: http://109.206.96.98:8080/live/2
+[12:44:05]   sub-stream: http://109.206.96.98:8080/live/3
+[12:44:05]   sub-stream: http://109.206.96.98:8080/ch00_.sdp
+[12:44:05]   sub-stream: http://109.206.96.98:8080/ch01_.sdp
+[12:44:05]   sub-stream: http://109.206.96.98:8080/PSIA/Streaming/channels/101
+[12:44:06]   sub-stream: http://109.206.96.98:8080/onvif/device_service
+[12:44:06]   html-extracted: http://109.206.96.98:8080/loading.jpg
+[12:44:06]   html-extracted: http://109.206.96.98:8080/offline.jpg
+[12:44:06]   html-extracted: http://109.206.96.98:8080/cam_
+[12:44:06]   sub-stream: http://109.206.96.230:8080/img/video.mjpeg
+[12:44:06]   sub-stream: http://109.206.96.230:8080/img/snapshot.jpg
+[12:44:06]   sub-stream: http://109.206.96.230:8080/img/main.cgi?next_file=main.htm
+[12:44:06]   sub-stream: http://109.206.96.230:8080/cgi-bin/snapshot.cgi?chn=0
+[12:44:06]   sub-stream: http://109.206.96.230:8080/Streaming/tracks/101
+[12:44:06]   sub-stream: http://109.206.96.230:8080/Streaming/tracks/102
+[12:44:06]   sub-stream: http://109.206.96.230:8080/axis-cgi/media.cgi
+[12:44:06]   sub-stream: http://109.206.96.230:8080/axis-media/media.amp
+[12:44:06]   sub-stream: http://109.206.96.230:8080/live/main
+[12:44:06]   sub-stream: http://109.206.96.230:8080/live/sub
+[12:44:07]   sub-stream: http://109.206.96.230:8080/live.sdp
+[12:44:07]   sub-stream: http://109.206.96.230:8080/av0_0
+[12:44:07]   sub-stream: http://109.206.96.230:8080/av0_1
+[12:44:07]   sub-stream: http://109.206.96.230:8080/video0
+[12:44:07]   sub-stream: http://109.206.96.230:8080/video1
+[12:44:07]   sub-stream: http://109.206.96.230:8080/cam_1.mjpg
+[12:44:07]   sub-stream: http://109.206.96.230:8080/cam_2.mjpg
+[12:44:07]   sub-stream: http://109.206.96.230:8080/cam_3.mjpg
+[12:44:07]   sub-stream: http://109.206.96.230:8080/cam_1.cgi
+[12:44:10]   sub-stream: http://109.206.96.230:8080/cam_3.cgi
+[12:44:13]   sub-stream: http://109.206.96.230:8080/mjpg/1/video.mjpg
+[12:44:13]   sub-stream: http://109.206.96.230:8080/mjpg/2/video.mjpg
+[12:44:13]   sub-stream: http://109.206.96.230:8080/videostream.cgi
+[12:44:13]   sub-stream: http://109.206.96.230:8080/video.cgi
+[12:44:14]   sub-stream: http://109.206.96.230:8080/image.jpg
+[12:44:14]   sub-stream: http://109.206.96.230:8080/image.jpeg
+[12:44:14]   sub-stream: http://109.206.96.230:8080/snapshot.cgi?chn=0
+[12:44:14]   sub-stream: http://109.206.96.230:8080/snapshot.cgi?chn=1
+[12:44:14]   sub-stream: http://109.206.96.230:8080/snapshot.cgi?channel=1
+[12:44:14]   sub-stream: http://109.206.96.230:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:14]   sub-stream: http://109.206.96.230:8080/streaming/channels/101
+[12:44:14]   sub-stream: http://109.206.96.230:8080/streaming/channels/1
+[12:44:14]   sub-stream: http://109.206.96.230:8080/ISAPI/Streaming/channels/101/picture
+[12:44:14]   sub-stream: http://109.206.96.230:8080/ISAPI/Streaming/channels/1/picture
+[12:44:14]   sub-stream: http://109.206.96.230:8080/web/tmpfs/snap.jpg
+[12:44:14]   sub-stream: http://109.206.96.230:8080/web/tmpfs/auto.jpg
+[12:44:14]   sub-stream: http://109.206.96.230:8080/cgi-bin/viewer/video.jpg
+[12:44:15]   sub-stream: http://109.206.96.230:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:15]   sub-stream: http://109.206.96.230:8080/tmpfs/auto.jpg
+[12:44:15]   sub-stream: http://109.206.96.230:8080/tmpfs/snap.jpg
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?0
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?1
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?2
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?3
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?4
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?5
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?6
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?7
+[12:44:15]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?8
+[12:44:16]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?9
+[12:44:16]   sub-stream: http://109.206.96.230:8080/img/snapshot.cgi?10
+[12:44:16]   sub-stream: http://109.206.96.230:8080/video1.mjpg
+[12:44:16]   sub-stream: http://109.206.96.230:8080/video2.mjpg
+[12:44:16]   sub-stream: http://109.206.96.230:8080/live/0
+[12:44:16]   sub-stream: http://109.206.96.230:8080/live/1
+[12:44:16]   sub-stream: http://109.206.96.230:8080/live/2
+[12:44:16]   sub-stream: http://109.206.96.230:8080/live/3
+[12:44:16]   sub-stream: http://109.206.96.230:8080/ch00_.sdp
+[12:44:16]   sub-stream: http://109.206.96.230:8080/ch01_.sdp
+[12:44:16]   sub-stream: http://109.206.96.230:8080/PSIA/Streaming/channels/101
+[12:44:17]   sub-stream: http://109.206.96.230:8080/onvif/device_service
+[12:44:17]   html-extracted: http://109.206.96.230:8080/offline.jpg
+[12:44:17]   html-extracted: http://109.206.96.230:8080/cam_
+[12:44:17]   html-extracted: http://109.206.96.230:8080/loading.jpg
+[12:44:17]   sub-stream: http://109.206.96.96:8080/img/video.mjpeg
+[12:44:17]   sub-stream: http://109.206.96.96:8080/img/snapshot.jpg
+[12:44:17]   sub-stream: http://109.206.96.96:8080/img/main.cgi?next_file=main.htm
+[12:44:17]   sub-stream: http://109.206.96.96:8080/cgi-bin/snapshot.cgi?chn=0
+[12:44:17]   sub-stream: http://109.206.96.96:8080/Streaming/tracks/101
+[12:44:17]   sub-stream: http://109.206.96.96:8080/Streaming/tracks/102
+[12:44:17]   sub-stream: http://109.206.96.96:8080/axis-cgi/media.cgi
+[12:44:17]   sub-stream: http://109.206.96.96:8080/axis-media/media.amp
+[12:44:18]   sub-stream: http://109.206.96.96:8080/live/main
+[12:44:18]   sub-stream: http://109.206.96.96:8080/live/sub
+[12:44:18]   sub-stream: http://109.206.96.96:8080/live.sdp
+[12:44:18]   sub-stream: http://109.206.96.96:8080/av0_0
+[12:44:18]   sub-stream: http://109.206.96.96:8080/av0_1
+[12:44:18]   sub-stream: http://109.206.96.96:8080/video0
+[12:44:18]   sub-stream: http://109.206.96.96:8080/video1
+[12:44:18]   sub-stream: http://109.206.96.96:8080/cam_1.mjpg
+[12:44:18]   sub-stream: http://109.206.96.96:8080/cam_2.mjpg
+[12:44:18]   sub-stream: http://109.206.96.96:8080/cam_3.mjpg
+[12:44:18]   sub-stream: http://109.206.96.96:8080/cam_1.cgi
+[12:44:21]   sub-stream: http://109.206.96.96:8080/cam_3.cgi
+[12:44:24]   sub-stream: http://109.206.96.96:8080/mjpg/1/video.mjpg
+[12:44:25]   sub-stream: http://109.206.96.96:8080/mjpg/2/video.mjpg
+[12:44:25]   sub-stream: http://109.206.96.96:8080/videostream.cgi
+[12:44:25]   sub-stream: http://109.206.96.96:8080/video.cgi
+[12:44:25]   sub-stream: http://109.206.96.96:8080/image.jpg
+[12:44:25]   sub-stream: http://109.206.96.96:8080/image.jpeg
+[12:44:25]   sub-stream: http://109.206.96.96:8080/snapshot.cgi?chn=0
+[12:44:25]   sub-stream: http://109.206.96.96:8080/snapshot.cgi?chn=1
+[12:44:25]   sub-stream: http://109.206.96.96:8080/snapshot.cgi?channel=1
+[12:44:25]   sub-stream: http://109.206.96.96:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:25]   sub-stream: http://109.206.96.96:8080/streaming/channels/101
+[12:44:25]   sub-stream: http://109.206.96.96:8080/streaming/channels/1
+[12:44:25]   sub-stream: http://109.206.96.96:8080/ISAPI/Streaming/channels/101/picture
+[12:44:25]   sub-stream: http://109.206.96.96:8080/ISAPI/Streaming/channels/1/picture
+[12:44:25]   sub-stream: http://109.206.96.96:8080/web/tmpfs/snap.jpg
+[12:44:26]   sub-stream: http://109.206.96.96:8080/web/tmpfs/auto.jpg
+[12:44:26]   sub-stream: http://109.206.96.96:8080/cgi-bin/viewer/video.jpg
+[12:44:26]   sub-stream: http://109.206.96.96:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:26]   sub-stream: http://109.206.96.96:8080/tmpfs/auto.jpg
+[12:44:26]   sub-stream: http://109.206.96.96:8080/tmpfs/snap.jpg
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?0
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?1
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?2
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?3
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?4
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?5
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?6
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?7
+[12:44:26]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?8
+[12:44:27]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?9
+[12:44:27]   sub-stream: http://109.206.96.96:8080/img/snapshot.cgi?10
+[12:44:27]   sub-stream: http://109.206.96.96:8080/video1.mjpg
+[12:44:27]   sub-stream: http://109.206.96.96:8080/video2.mjpg
+[12:44:27]   sub-stream: http://109.206.96.96:8080/live/0
+[12:44:27]   sub-stream: http://109.206.96.96:8080/live/1
+[12:44:27]   sub-stream: http://109.206.96.96:8080/live/2
+[12:44:27]   sub-stream: http://109.206.96.96:8080/live/3
+[12:44:27]   sub-stream: http://109.206.96.96:8080/ch00_.sdp
+[12:44:27]   sub-stream: http://109.206.96.96:8080/ch01_.sdp
+[12:44:27]   sub-stream: http://109.206.96.96:8080/PSIA/Streaming/channels/101
+[12:44:27]   sub-stream: http://109.206.96.96:8080/onvif/device_service
+[12:44:27]   html-extracted: http://109.206.96.96:8080/offline.jpg
+[12:44:27]   html-extracted: http://109.206.96.96:8080/cam_
+[12:44:27]   html-extracted: http://109.206.96.96:8080/loading.jpg
+[12:44:27]   sub-stream: http://109.206.96.127:8080/img/video.mjpeg
+[12:44:28]   sub-stream: http://109.206.96.127:8080/img/snapshot.jpg
+[12:44:28]   sub-stream: http://109.206.96.127:8080/img/main.cgi?next_file=main.htm
+[12:44:28]   sub-stream: http://109.206.96.127:8080/cgi-bin/snapshot.cgi?chn=0
+[12:44:28]   sub-stream: http://109.206.96.127:8080/Streaming/tracks/101
+[12:44:28]   sub-stream: http://109.206.96.127:8080/Streaming/tracks/102
+[12:44:28]   sub-stream: http://109.206.96.127:8080/axis-cgi/media.cgi
+[12:44:28]   sub-stream: http://109.206.96.127:8080/axis-media/media.amp
+[12:44:28]   sub-stream: http://109.206.96.127:8080/live/main
+[12:44:28]   sub-stream: http://109.206.96.127:8080/live/sub
+[12:44:28]   sub-stream: http://109.206.96.127:8080/live.sdp
+[12:44:28]   sub-stream: http://109.206.96.127:8080/av0_0
+[12:44:28]   sub-stream: http://109.206.96.127:8080/av0_1
+[12:44:28]   sub-stream: http://109.206.96.127:8080/video0
+[12:44:28]   sub-stream: http://109.206.96.127:8080/video1
+[12:44:29]   sub-stream: http://109.206.96.127:8080/cam_1.mjpg
+[12:44:29]   sub-stream: http://109.206.96.127:8080/cam_2.mjpg
+[12:44:29]   sub-stream: http://109.206.96.127:8080/cam_3.mjpg
+[12:44:29]   sub-stream: http://109.206.96.127:8080/cam_1.cgi
+[12:44:32]   sub-stream: http://109.206.96.127:8080/cam_3.cgi
+[12:44:35]   sub-stream: http://109.206.96.127:8080/mjpg/1/video.mjpg
+[12:44:35]   sub-stream: http://109.206.96.127:8080/mjpg/2/video.mjpg
+[12:44:35]   sub-stream: http://109.206.96.127:8080/videostream.cgi
+[12:44:35]   sub-stream: http://109.206.96.127:8080/video.cgi
+[12:44:35]   sub-stream: http://109.206.96.127:8080/image.jpg
+[12:44:35]   sub-stream: http://109.206.96.127:8080/image.jpeg
+[12:44:36]   sub-stream: http://109.206.96.127:8080/snapshot.cgi?chn=0
+[12:44:36]   sub-stream: http://109.206.96.127:8080/snapshot.cgi?chn=1
+[12:44:36]   sub-stream: http://109.206.96.127:8080/snapshot.cgi?channel=1
+[12:44:36]   sub-stream: http://109.206.96.127:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:36]   sub-stream: http://109.206.96.127:8080/streaming/channels/101
+[12:44:36]   sub-stream: http://109.206.96.127:8080/streaming/channels/1
+[12:44:36]   sub-stream: http://109.206.96.127:8080/ISAPI/Streaming/channels/101/picture
+[12:44:36]   sub-stream: http://109.206.96.127:8080/ISAPI/Streaming/channels/1/picture
+[12:44:36]   sub-stream: http://109.206.96.127:8080/web/tmpfs/snap.jpg
+[12:44:36]   sub-stream: http://109.206.96.127:8080/web/tmpfs/auto.jpg
+[12:44:36]   sub-stream: http://109.206.96.127:8080/cgi-bin/viewer/video.jpg
+[12:44:36]   sub-stream: http://109.206.96.127:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:36]   sub-stream: http://109.206.96.127:8080/tmpfs/auto.jpg
+[12:44:36]   sub-stream: http://109.206.96.127:8080/tmpfs/snap.jpg
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?0
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?1
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?2
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?3
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?4
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?5
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?6
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?7
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?8
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?9
+[12:44:37]   sub-stream: http://109.206.96.127:8080/img/snapshot.cgi?10
+[12:44:37]   sub-stream: http://109.206.96.127:8080/video1.mjpg
+[12:44:37]   sub-stream: http://109.206.96.127:8080/video2.mjpg
+[12:44:37]   sub-stream: http://109.206.96.127:8080/live/0
+[12:44:37]   sub-stream: http://109.206.96.127:8080/live/1
+[12:44:38]   sub-stream: http://109.206.96.127:8080/live/2
+[12:44:38]   sub-stream: http://109.206.96.127:8080/live/3
+[12:44:38]   sub-stream: http://109.206.96.127:8080/ch00_.sdp
+[12:44:38]   sub-stream: http://109.206.96.127:8080/ch01_.sdp
+[12:44:38]   sub-stream: http://109.206.96.127:8080/PSIA/Streaming/channels/101
+[12:44:38]   sub-stream: http://109.206.96.127:8080/onvif/device_service
+[12:44:38]   html-extracted: http://109.206.96.127:8080/offline.jpg
+[12:44:38]   html-extracted: http://109.206.96.127:8080/loading.jpg
+[12:44:38]   html-extracted: http://109.206.96.127:8080/cam_
+[12:44:38]   sub-stream: http://109.206.96.247:8080/img/video.mjpeg
+[12:44:38]   sub-stream: http://109.206.96.247:8080/img/snapshot.jpg
+[12:44:38]   sub-stream: http://109.206.96.247:8080/img/main.cgi?next_file=main.htm
+[12:44:38]   sub-stream: http://109.206.96.247:8080/cgi-bin/snapshot.cgi?chn=0
+[12:44:39]   sub-stream: http://109.206.96.247:8080/Streaming/tracks/101
+[12:44:39]   sub-stream: http://109.206.96.247:8080/Streaming/tracks/102
+[12:44:39]   sub-stream: http://109.206.96.247:8080/axis-cgi/media.cgi
+[12:44:39]   sub-stream: http://109.206.96.247:8080/axis-media/media.amp
+[12:44:39]   sub-stream: http://109.206.96.247:8080/live/main
+[12:44:39]   sub-stream: http://109.206.96.247:8080/live/sub
+[12:44:39]   sub-stream: http://109.206.96.247:8080/live.sdp
+[12:44:39]   sub-stream: http://109.206.96.247:8080/av0_0
+[12:44:39]   sub-stream: http://109.206.96.247:8080/av0_1
+[12:44:39]   sub-stream: http://109.206.96.247:8080/video0
+[12:44:39]   sub-stream: http://109.206.96.247:8080/video1
+[12:44:39]   sub-stream: http://109.206.96.247:8080/cam_1.mjpg
+[12:44:39]   sub-stream: http://109.206.96.247:8080/cam_2.mjpg
+[12:44:40]   sub-stream: http://109.206.96.247:8080/cam_3.mjpg
+[12:44:40]   sub-stream: http://109.206.96.247:8080/cam_1.cgi
+[12:44:40]   sub-stream: http://109.206.96.247:8080/cam_3.cgi
+[12:44:43]   sub-stream: http://109.206.96.247:8080/mjpg/1/video.mjpg
+[12:44:43]   sub-stream: http://109.206.96.247:8080/mjpg/2/video.mjpg
+[12:44:43]   sub-stream: http://109.206.96.247:8080/videostream.cgi
+[12:44:43]   sub-stream: http://109.206.96.247:8080/video.cgi
+[12:44:43]   sub-stream: http://109.206.96.247:8080/image.jpg
+[12:44:43]   sub-stream: http://109.206.96.247:8080/image.jpeg
+[12:44:44]   sub-stream: http://109.206.96.247:8080/snapshot.cgi?chn=0
+[12:44:44]   sub-stream: http://109.206.96.247:8080/snapshot.cgi?chn=1
+[12:44:44]   sub-stream: http://109.206.96.247:8080/snapshot.cgi?channel=1
+[12:44:44]   sub-stream: http://109.206.96.247:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:44]   sub-stream: http://109.206.96.247:8080/streaming/channels/101
+[12:44:44]   sub-stream: http://109.206.96.247:8080/streaming/channels/1
+[12:44:44]   sub-stream: http://109.206.96.247:8080/ISAPI/Streaming/channels/101/picture
+[12:44:44]   sub-stream: http://109.206.96.247:8080/ISAPI/Streaming/channels/1/picture
+[12:44:44]   sub-stream: http://109.206.96.247:8080/web/tmpfs/snap.jpg
+[12:44:44]   sub-stream: http://109.206.96.247:8080/web/tmpfs/auto.jpg
+[12:44:44]   sub-stream: http://109.206.96.247:8080/cgi-bin/viewer/video.jpg
+[12:44:44]   sub-stream: http://109.206.96.247:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:45]   sub-stream: http://109.206.96.247:8080/tmpfs/auto.jpg
+[12:44:45]   sub-stream: http://109.206.96.247:8080/tmpfs/snap.jpg
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?0
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?1
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?2
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?3
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?4
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?5
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?6
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?7
+[12:44:45]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?8
+[12:44:46]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?9
+[12:44:46]   sub-stream: http://109.206.96.247:8080/img/snapshot.cgi?10
+[12:44:46]   sub-stream: http://109.206.96.247:8080/video1.mjpg
+[12:44:46]   sub-stream: http://109.206.96.247:8080/video2.mjpg
+[12:44:46]   sub-stream: http://109.206.96.247:8080/live/0
+[12:44:46]   sub-stream: http://109.206.96.247:8080/live/1
+[12:44:46]   sub-stream: http://109.206.96.247:8080/live/2
+[12:44:46]   sub-stream: http://109.206.96.247:8080/live/3
+[12:44:46]   sub-stream: http://109.206.96.247:8080/ch00_.sdp
+[12:44:46]   sub-stream: http://109.206.96.247:8080/ch01_.sdp
+[12:44:46]   sub-stream: http://109.206.96.247:8080/PSIA/Streaming/channels/101
+[12:44:46]   sub-stream: http://109.206.96.247:8080/onvif/device_service
+[12:44:46]   html-extracted: http://109.206.96.247:8080/cam_
+[12:44:46]   html-extracted: http://109.206.96.247:8080/offline.jpg
+[12:44:46]   html-extracted: http://109.206.96.247:8080/loading.jpg
+[12:44:47]   sub-stream: http://93.255.29.119:8080/img/video.mjpeg
+[12:44:47]   sub-stream: http://93.255.29.119:8080/img/snapshot.jpg
+[12:44:47]   sub-stream: http://93.255.29.119:8080/img/main.cgi?next_file=main.htm
+[12:44:47]   sub-stream: http://93.255.29.119:8080/cgi-bin/snapshot.cgi?chn=0
+[12:44:47]   sub-stream: http://93.255.29.119:8080/Streaming/tracks/101
+[12:44:47]   sub-stream: http://93.255.29.119:8080/Streaming/tracks/102
+[12:44:48]   sub-stream: http://93.255.29.119:8080/axis-cgi/media.cgi
+[12:44:48]   sub-stream: http://93.255.29.119:8080/axis-media/media.amp
+[12:44:48]   sub-stream: http://93.255.29.119:8080/live/main
+[12:44:49]   sub-stream: http://93.255.29.119:8080/live/sub
+[12:44:49]   sub-stream: http://93.255.29.119:8080/live.sdp
+[12:44:49]   sub-stream: http://93.255.29.119:8080/av0_0
+[12:44:49]   sub-stream: http://93.255.29.119:8080/av0_1
+[12:44:49]   sub-stream: http://93.255.29.119:8080/video0
+[12:44:50]   sub-stream: http://93.255.29.119:8080/video1
+[12:44:50]   sub-stream: http://93.255.29.119:8080/cam_1.mjpg
+[12:44:50]   sub-stream: http://93.255.29.119:8080/cam_3.mjpg
+[12:44:50]   sub-stream: http://93.255.29.119:8080/cam_1.cgi
+[12:44:50]   sub-stream: http://93.255.29.119:8080/cam_2.cgi
+[12:44:50]   sub-stream: http://93.255.29.119:8080/mjpg/video.mjpg
+[12:44:51]   sub-stream: http://93.255.29.119:8080/mjpg/1/video.mjpg
+[12:44:51]   sub-stream: http://93.255.29.119:8080/mjpg/2/video.mjpg
+[12:44:51]   sub-stream: http://93.255.29.119:8080/videostream.cgi
+[12:44:51]   sub-stream: http://93.255.29.119:8080/video.cgi
+[12:44:51]   sub-stream: http://93.255.29.119:8080/image.jpg
+[12:44:51]   sub-stream: http://93.255.29.119:8080/image.jpeg
+[12:44:51]   sub-stream: http://93.255.29.119:8080/snapshot.cgi?chn=0
+[12:44:52]   sub-stream: http://93.255.29.119:8080/snapshot.cgi?chn=1
+[12:44:52]   sub-stream: http://93.255.29.119:8080/snapshot.cgi?channel=1
+[12:44:52]   sub-stream: http://93.255.29.119:8080/cam/realmonitor?channel=1&subtype=0
+[12:44:52]   sub-stream: http://93.255.29.119:8080/streaming/channels/101
+[12:44:52]   sub-stream: http://93.255.29.119:8080/streaming/channels/1
+[12:44:52]   sub-stream: http://93.255.29.119:8080/ISAPI/Streaming/channels/101/picture
+[12:44:52]   sub-stream: http://93.255.29.119:8080/ISAPI/Streaming/channels/1/picture
+[12:44:53]   sub-stream: http://93.255.29.119:8080/web/tmpfs/snap.jpg
+[12:44:53]   sub-stream: http://93.255.29.119:8080/web/tmpfs/auto.jpg
+[12:44:53]   sub-stream: http://93.255.29.119:8080/cgi-bin/viewer/video.jpg
+[12:44:53]   sub-stream: http://93.255.29.119:8080/cgi-bin/magicBox.cgi?action=getSystemInfo
+[12:44:53]   sub-stream: http://93.255.29.119:8080/tmpfs/auto.jpg
+[12:44:54]   sub-stream: http://93.255.29.119:8080/tmpfs/snap.jpg
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?0
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?1
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?2
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?3
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?4
+[12:44:54]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?5
+[12:44:55]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?6
+[12:44:55]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?7
+[12:44:55]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?8
+[12:44:55]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?9
+[12:44:55]   sub-stream: http://93.255.29.119:8080/img/snapshot.cgi?10
+[12:44:55]   sub-stream: http://93.255.29.119:8080/video1.mjpg
+[12:44:55]   sub-stream: http://93.255.29.119:8080/video2.mjpg
+[12:44:56]   sub-stream: http://93.255.29.119:8080/live/0
+[12:44:56]   sub-stream: http://93.255.29.119:8080/live/1
+[12:44:56]   sub-stream: http://93.255.29.119:8080/live/2
+[12:44:56]   sub-stream: http://93.255.29.119:8080/live/3
+[12:44:56]   sub-stream: http://93.255.29.119:8080/ch00_.sdp
+[12:44:57]   sub-stream: http://93.255.29.119:8080/ch01_.sdp
+[12:44:57]   sub-stream: http://93.255.29.119:8080/PSIA/Streaming/channels/101
+[12:44:57]   sub-stream: http://93.255.29.119:8080/onvif/device_service
+[12:44:57]   html-extracted: http://93.255.29.119:8080/loading.jpg
+[12:44:57]   html-extracted: http://93.255.29.119:8080/cam_
+[12:44:57]   html-extracted: http://93.255.29.119:8080/offline.jpg
+[12:44:58]   sub-stream: http://190.15.193.92:8085/img/video.mjpeg
+[12:53:29] [init] starting user URL ingestion (v2)
+[12:53:29] [phase 1] HEAD-probing user URLs
+[12:53:29]   FAIL [501]: http://67.166.43.228:50000/img/main.cgi?next_file=main.htm
+[12:53:30]   OK [200 multipart/x-mixed-re]: http://67.166.43.228:50000/img/video.mjpeg
+[12:53:30]   FAIL [501]: http://190.15.193.92:8085/img/main.cgi?next_file=main.htm
+[12:53:31]   OK [200 multipart/x-mixed-re]: http://190.15.193.92:8085/img/video.mjpeg
+[12:53:36]   FAIL [0]: http://192.183.2.223:8081/
+[12:53:42]   FAIL [0]: http://210.62.196.80:8081/
+[12:53:47]   FAIL [0]: http://38.147.226.28:8081/
+[12:53:52]   FAIL [0]: http://73.170.30.215:8888/
+[12:53:57]   FAIL [0]: http://73.170.30.215:8081/
+[12:53:59]   FAIL [200]: http://201.188.88.64:8080/
+[12:54:02]   FAIL [0]: http://201.188.88.64:8888/
+[12:54:07]   FAIL [0]: http://86.143.65.63:8080/
+[12:54:12]   FAIL [0]: http://217.211.95.232:8081/
+[12:54:17]   FAIL [0]: http://187.110.127.220:8888/
+[12:54:23]   FAIL [0]: http://24.78.151.146/
+[12:54:28]   FAIL [0]: http://172.101.22.35:8888/
+[12:54:33]   FAIL [0]: http://192.143.94.237:8081/
+[12:54:38]   FAIL [0]: http://138.28.75.220:8081/
+[12:54:43]   FAIL [0]: http://209.71.59.178:8081/
+[12:54:49]   FAIL [0]: http://67.161.150.146:8081/
+[12:54:54]   FAIL [0]: http://162.229.14.147:8081/
+[12:54:54]   FAIL [200]: http://109.206.96.98:8080/
+[12:54:54]   FAIL [200]: http://109.206.96.230:8080/
+[12:54:56]   FAIL [0]: http://109.206.96.96:8080/
+[12:54:56]   FAIL [200]: http://109.206.96.127:8080/
+[12:54:56]   FAIL [200]: http://109.206.96.247:8080/
+[12:54:56]   FAIL [200]: http://93.255.29.119:8080/
+[12:54:56]   FAIL [0]: http://109.233.220.234:8080/
+[12:54:56]   working: 2/28
+[12:54:56] [phase 2] extracting sub-streams from multi-cam hosts
+[12:54:56]   109.206.96.98: no working base URL, skip
+[12:54:56]   109.206.96.230: no working base URL, skip
+[12:54:56]   109.206.96.96: no working base URL, skip
+[12:54:56]   109.206.96.127: no working base URL, skip
+[12:54:56]   109.206.96.247: no working base URL, skip
+[12:54:56]   93.255.29.119: no working base URL, skip
+[12:54:57]   sub OK: http://190.15.193.92:8085/img/video.mjpeg
+[12:55:22]   html-extracted: http://190.15.193.92:8085/bottom_bar.jpg
+[12:55:22]   html-extracted: http://190.15.193.92:8085/welcome.jpg
+[12:55:23]   html-extracted: http://190.15.193.92:8085/top_bar.jpg
+[12:55:24]   sub OK: http://67.166.43.228:50000/img/video.mjpeg
+[12:56:01]   html-extracted: http://67.166.43.228:50000/top_bar.jpg
+[12:56:48] [init] starting user URL ingestion (v3 - permissive)
+[12:56:48] [phase 1] testing user URLs
+[12:56:49]   OK: http://67.166.43.228:50000/img/video.mjpeg
+[12:56:50]   OK: http://190.15.193.92:8085/img/video.mjpeg
+[12:56:54]   OK: http://192.183.2.223:8081/
+[12:57:00]   OK: http://210.62.196.80:8081/
+[12:57:04]   OK: http://38.147.226.28:8081/
+[12:57:09]   OK: http://73.170.30.215:8888/
+[12:57:14]   OK: http://73.170.30.215:8081/
+[12:57:15]   OK: http://201.188.88.64:8080/
+[12:57:21]   FAIL: http://201.188.88.64:8888/
+[12:57:25]   OK: http://86.143.65.63:8080/
+[12:57:30]   OK: http://217.211.95.232:8081/
+[12:57:34]   OK: http://187.110.127.220:8888/
+[12:57:39]   OK: http://24.78.151.146/
+[12:57:43]   OK: http://172.101.22.35:8888/
+[12:57:48]   OK: http://192.143.94.237:8081/
+[12:57:56]   FAIL: http://138.28.75.220:8081/
+[12:58:01]   OK: http://209.71.59.178:8081/
+[12:58:06]   OK: http://67.161.150.146:8081/
+[12:58:10]   OK: http://162.229.14.147:8081/
+[12:58:10]   OK: http://109.206.96.98:8080/
+[12:58:10]   OK: http://109.206.96.230:8080/
+[12:58:11]   OK: http://109.206.96.96:8080/
+[12:58:11]   OK: http://109.206.96.127:8080/
+[12:58:11]   OK: http://109.206.96.247:8080/
+[12:58:11]   OK: http://93.255.29.119:8080/
+[12:58:11]   OK: http://109.233.220.234:8080/
+[12:58:11]   working: 24/26
+[12:58:11] [phase 2] extracting sub-streams
+[12:58:13]   sub OK: http://93.255.29.119:8080/cam_1.mjpg
+[12:58:13]   sub OK: http://93.255.29.119:8080/cam_3.mjpg
+[12:58:16]   sub OK: http://109.206.96.247:8080/cam_1.mjpg
+[12:58:16]   sub OK: http://109.206.96.247:8080/cam_3.mjpg
+[12:58:18]   sub OK: http://109.206.96.127:8080/cam_1.mjpg
+[12:58:18]   sub OK: http://109.206.96.127:8080/cam_2.mjpg
+[12:58:18]   sub OK: http://109.206.96.127:8080/cam_3.mjpg
+[13:00:01] [init] starting user URL ingestion (v3 - permissive)
+[13:00:01] [phase 1] testing user URLs
+[13:00:02]   OK: http://67.166.43.228:50000/img/video.mjpeg
+[13:00:02]   OK: http://190.15.193.92:8085/img/video.mjpeg
+[13:00:07]   OK: http://192.183.2.223:8081/
+[13:00:12]   OK: http://210.62.196.80:8081/
+[13:00:17]   OK: http://38.147.226.28:8081/
+[13:00:19]   sub OK: http://109.206.96.230:8080/cam_1.mjpg
+[13:00:19]   sub OK: http://109.206.96.230:8080/cam_2.mjpg
+[13:00:19]   sub OK: http://109.206.96.230:8080/cam_3.mjpg
+[13:00:21]   sub OK: http://190.15.193.92:8085/img/video.mjpeg
+[13:00:22]   OK: http://73.170.30.215:8888/
+[13:00:26]   OK: http://73.170.30.215:8081/
+[13:00:28]   OK: http://201.188.88.64:8080/
+[13:00:35]   FAIL: http://201.188.88.64:8888/
+[13:00:39]   OK: http://86.143.65.63:8080/
+[13:00:43]   OK: http://217.211.95.232:8081/
+[13:00:48]   OK: http://187.110.127.220:8888/
+[13:00:53]   OK: http://24.78.151.146/
+[13:00:57]   OK: http://172.101.22.35:8888/
+[13:01:02]   OK: http://192.143.94.237:8081/
+[13:01:11]   FAIL: http://138.28.75.220:8081/
+[13:01:16]   OK: http://209.71.59.178:8081/
+[13:01:20]   OK: http://67.161.150.146:8081/
+[13:01:25]   OK: http://162.229.14.147:8081/
+[13:01:25]   OK: http://109.206.96.98:8080/
+[13:01:25]   OK: http://109.206.96.230:8080/
+[13:01:25]   OK: http://109.206.96.96:8080/
+[13:01:25]   OK: http://109.206.96.127:8080/
+[13:01:25]   OK: http://109.206.96.247:8080/
+[13:01:25]   OK: http://93.255.29.119:8080/
+[13:01:25]   OK: http://109.233.220.234:8080/
+[13:01:25]   working: 24/26
+[13:01:25] [phase 2] extracting sub-streams
+[13:03:42]   sub OK: http://109.206.96.96:8080/cam_1.mjpg
+[13:03:42]   sub OK: http://109.206.96.96:8080/cam_2.mjpg
+[13:03:42]   sub OK: http://109.206.96.96:8080/cam_3.mjpg
+[13:04:24]   sub OK: http://109.206.96.127:8080/cam_1.mjpg
+[13:04:24]   sub OK: http://109.206.96.127:8080/cam_2.mjpg
+[13:04:24]   sub OK: http://109.206.96.127:8080/cam_3.mjpg
+[13:04:26]   sub OK: http://67.166.43.228:50000/img/video.mjpeg
+[13:04:49]   sub OK: http://190.15.193.92:8085/img/video.mjpeg
+[13:07:46] [init] adding user URLs (minimal)
+[13:07:46] [phase 1] adding 24 user URLs
+[13:07:47]   added: http://67.166.43.228:50000/img/video.mjpeg
+[13:07:48]   added: http://190.15.193.92:8085/img/video.mjpeg
+[13:07:49]   added: http://192.183.2.223:8081/
+[13:07:51]   added: http://210.62.196.80:8081/
+[13:07:52]   added: http://38.147.226.28:8081/
+[13:07:53]   added: http://73.170.30.215:8888/
+[13:07:54]   added: http://73.170.30.215:8081/
+[13:07:55]   added: http://201.188.88.64:8080/
+[13:07:56]   added: http://86.143.65.63:8080/
+[13:07:58]   added: http://217.211.95.232:8081/
+[13:07:59]   added: http://187.110.127.220:8888/
+[13:08:00]   added: http://24.78.151.146/
+[13:08:01]   added: http://172.101.22.35:8888/
+[13:08:02]   added: http://192.143.94.237:8081/
+[13:08:03]   added: http://209.71.59.178:8081/
+[13:08:04]   added: http://67.161.150.146:8081/
+[13:08:05]   added: http://162.229.14.147:8081/
+[13:08:06]   added: http://109.206.96.98:8080/
+[13:08:08]   added: http://109.206.96.230:8080/
+[13:08:09]   added: http://109.206.96.96:8080/
+[13:08:10]   added: http://109.206.96.127:8080/
+[13:08:11]   added: http://109.206.96.247:8080/
+[13:08:12]   added: http://93.255.29.119:8080/
+[13:08:13]   added: http://109.233.220.234:8080/
+[13:08:13] [phase 2] adding 13 confirmed sub-streams
+[13:08:15]   added sub: http://93.255.29.119:8080/cam_1.mjpg
+[13:08:16]   added sub: http://93.255.29.119:8080/cam_3.mjpg
+[13:08:17]   added sub: http://109.206.96.247:8080/cam_1.mjpg
+[13:08:19]   added sub: http://109.206.96.247:8080/cam_3.mjpg
+[13:08:20]   added sub: http://109.206.96.127:8080/cam_1.mjpg
+[13:08:21]   added sub: http://109.206.96.127:8080/cam_2.mjpg
+[13:08:22]   added sub: http://109.206.96.127:8080/cam_3.mjpg
+[13:08:23]   added sub: http://109.206.96.230:8080/cam_1.mjpg
+[13:08:25]   added sub: http://109.206.96.230:8080/cam_2.mjpg
+[13:08:26]   added sub: http://109.206.96.230:8080/cam_3.mjpg
+[13:08:27]   added sub: http://109.206.96.96:8080/cam_1.mjpg
+[13:08:28]   added sub: http://109.206.96.96:8080/cam_2.mjpg
+[13:08:30]   added sub: http://109.206.96.96:8080/cam_3.mjpg
+[13:08:30] [phase 3] probing /img/ paths on 6 multi-cam hosts
+[13:08:34] [done] added 37 new cams from user URLs

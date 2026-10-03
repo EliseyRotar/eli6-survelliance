@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Date: Fri, 21 Aug 2026 16:34:39 GMT
+Server: Apache/2.4.62 (Unix) OpenSSL/3.0.16
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; frame-ancestors 'self'; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.axis.com mediastream: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com https://*.axis.com; style-src 'self' 'unsafe-inline'; img-src 'self' https://*.google-analytics.com https://*.googletagmanager.com https://*.axis.com data: blob:; media-src 'self' mediastream: blob:; object-src 'none'
+Upgrade: h2
+Connection: close
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: Thu, 01 Dec 1994 16:00:00 GMT
+Content-Type: video/x-matroska; codecs="avc1.640029"
+Video-Metadata-Transform: 0.750000,0.000000,0.000000;0.000000,1.000000,0.000000;0.000000,0.000000,1.000000
+Video-Sensor-Transform: -0.750000,0.000000,0.000000;0.000000,-1.000000,0.000000;0.000000,0.000000,1.000000
+Transfer-Encoding: chunked
+

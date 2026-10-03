@@ -1,0 +1,5 @@
+[18:29:16] [init] TV ingest v4 - filling missing cams
+[18:29:16]   loaded 2,848 missing cams
+[18:29:18]   existing: 181,002 URLs, 108,185 TV IDs
+[18:29:25] 
+[done] added 29, skipped 2819, in 7.0s (4/s)

@@ -1,0 +1,1437 @@
+[
+  {
+    "id": "1010746",
+    "url": "https://www.insecam.org/en/view/1010746/",
+    "country": "NL",
+    "direct": "http://84.35.147.6:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Rotterdam "
+  },
+  {
+    "id": "974008",
+    "url": "https://www.insecam.org/en/view/974008/",
+    "country": "NL",
+    "direct": "http://213.233.251.55:8080/GetData.cgi?CH=1",
+    "title": "View ChannelVision camera in Netherlands, Dronten "
+  },
+  {
+    "id": "748998",
+    "url": "https://www.insecam.org/en/view/748998/",
+    "country": "NL",
+    "direct": "http://87.195.83.76:90/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Markelo "
+  },
+  {
+    "id": "1005018",
+    "url": "https://www.insecam.org/en/view/1005018/",
+    "country": "NL",
+    "direct": "http://77.250.189.154:82/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Netherlands, Amsterdam "
+  },
+  {
+    "id": "930804",
+    "url": "https://www.insecam.org/en/view/930804/",
+    "country": "NL",
+    "direct": "http://62.133.72.183:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Netherlands, The Hague "
+  },
+  {
+    "id": "891134",
+    "url": "https://www.insecam.org/en/view/891134/",
+    "country": "NL",
+    "direct": "http://80.61.63.103:81/cam_1.cgi",
+    "title": "View WebcamXP camera in Netherlands, Bodegraven "
+  },
+  {
+    "id": "720182",
+    "url": "https://www.insecam.org/en/view/720182/",
+    "country": "NL",
+    "direct": "http://185.64.122.250:8081/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Poeldijk "
+  },
+  {
+    "id": "635958",
+    "url": "https://www.insecam.org/en/view/635958/",
+    "country": "NL",
+    "direct": "http://95.97.10.38:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Netherlands, Purmerend "
+  },
+  {
+    "id": "706434",
+    "url": "https://www.insecam.org/en/view/706434/",
+    "country": "NL",
+    "direct": "http://185.64.121.186:8081/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Poeldijk "
+  },
+  {
+    "id": "638568",
+    "url": "https://www.insecam.org/en/view/638568/",
+    "country": "NL",
+    "direct": "http://213.154.234.197:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Netherlands, Ede "
+  },
+  {
+    "id": "921083",
+    "url": "https://www.insecam.org/en/view/921083/",
+    "country": "NL",
+    "direct": "http://91.201.127.150:8081/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Netherlands, Hengelo "
+  },
+  {
+    "id": "937828",
+    "url": "https://www.insecam.org/en/view/937828/",
+    "country": "NL",
+    "direct": "http://77.162.93.116:80/img/video.mjpeg",
+    "title": "View Linksys camera in Netherlands, Rijswijk "
+  },
+  {
+    "id": "873843",
+    "url": "https://www.insecam.org/en/view/873843/",
+    "country": "NL",
+    "direct": "http://91.201.127.150:8080/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Netherlands, Hengelo "
+  },
+  {
+    "id": "167104",
+    "url": "https://www.insecam.org/en/view/167104/",
+    "country": "NL",
+    "direct": "http://213.124.95.98:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Heiloo "
+  },
+  {
+    "id": "814589",
+    "url": "https://www.insecam.org/en/view/814589/",
+    "country": "NL",
+    "direct": "http://213.124.95.98:8082/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Heiloo "
+  },
+  {
+    "id": "368532",
+    "url": "https://www.insecam.org/en/view/368532/",
+    "country": "NL",
+    "direct": "http://217.63.79.153:8081/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Netherlands, Renesse "
+  },
+  {
+    "id": "241480",
+    "url": "https://www.insecam.org/en/view/241480/",
+    "country": "NL",
+    "direct": "http://86.92.91.44:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Amersfoort "
+  },
+  {
+    "id": "717837",
+    "url": "https://www.insecam.org/en/view/717837/",
+    "country": "NL",
+    "direct": "http://185.64.122.242:8082/mjpg/video.mjpg",
+    "title": "View Axis camera in Netherlands, Poeldijk "
+  },
+  {
+    "id": "812476",
+    "url": "https://www.insecam.org/en/view/812476/",
+    "country": "RS",
+    "direct": "http://109.206.96.75:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "968747",
+    "url": "https://www.insecam.org/en/view/968747/",
+    "country": "RS",
+    "direct": "http://109.206.96.127:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "759172",
+    "url": "https://www.insecam.org/en/view/759172/",
+    "country": "RS",
+    "direct": "http://109.233.191.130:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Novi Pazar "
+  },
+  {
+    "id": "440906",
+    "url": "https://www.insecam.org/en/view/440906/",
+    "country": "RS",
+    "direct": "http://109.206.96.249:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "570197",
+    "url": "https://www.insecam.org/en/view/570197/",
+    "country": "RS",
+    "direct": "http://109.206.96.58:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "435700",
+    "url": "https://www.insecam.org/en/view/435700/",
+    "country": "RS",
+    "direct": "http://109.206.96.230:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "371852",
+    "url": "https://www.insecam.org/en/view/371852/",
+    "country": "RS",
+    "direct": "http://109.206.96.96:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "387084",
+    "url": "https://www.insecam.org/en/view/387084/",
+    "country": "RS",
+    "direct": "http://91.102.231.82:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Serbia, Becej "
+  },
+  {
+    "id": "324950",
+    "url": "https://www.insecam.org/en/view/324950/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8084/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Bela Crkva "
+  },
+  {
+    "id": "371859",
+    "url": "https://www.insecam.org/en/view/371859/",
+    "country": "RS",
+    "direct": "http://109.206.96.98:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "167618",
+    "url": "https://www.insecam.org/en/view/167618/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8082/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Novi Pazar "
+  },
+  {
+    "id": "371859",
+    "url": "https://www.insecam.org/en/view/371859/",
+    "country": "RS",
+    "direct": "http://109.206.96.98:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "387084",
+    "url": "https://www.insecam.org/en/view/387084/",
+    "country": "RS",
+    "direct": "http://91.102.231.82:8000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Serbia, Becej "
+  },
+  {
+    "id": "212604",
+    "url": "https://www.insecam.org/en/view/212604/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8090/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Novi Pazar "
+  },
+  {
+    "id": "371852",
+    "url": "https://www.insecam.org/en/view/371852/",
+    "country": "RS",
+    "direct": "http://109.206.96.96:8080/cam_1.cgi",
+    "title": "View WebcamXP camera in Serbia, Belgrade "
+  },
+  {
+    "id": "324950",
+    "url": "https://www.insecam.org/en/view/324950/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8084/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Bela Crkva "
+  },
+  {
+    "id": "212604",
+    "url": "https://www.insecam.org/en/view/212604/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8090/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Novi Pazar "
+  },
+  {
+    "id": "167618",
+    "url": "https://www.insecam.org/en/view/167618/",
+    "country": "RS",
+    "direct": "http://93.87.72.254:8082/mjpg/video.mjpg",
+    "title": "View Axis camera in Serbia, Novi Pazar "
+  },
+  {
+    "id": "1010778",
+    "url": "https://www.insecam.org/en/view/1010778/",
+    "country": "EE",
+    "direct": "http://80.235.76.111:18081/mjpg/video.mjpg",
+    "title": "View Axis camera in Estonia, Tallinn "
+  },
+  {
+    "id": "1010778",
+    "url": "https://www.insecam.org/en/view/1010778/",
+    "country": "EE",
+    "direct": "http://80.235.76.111:18081/mjpg/video.mjpg",
+    "title": "View Axis camera in Estonia, Tallinn "
+  },
+  {
+    "id": "824673",
+    "url": "https://www.insecam.org/en/view/824673/",
+    "country": "EE",
+    "direct": "http://185.193.62.156:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Estonia, Aseri "
+  },
+  {
+    "id": "218983",
+    "url": "https://www.insecam.org/en/view/218983/",
+    "country": "EE",
+    "direct": "http://194.204.15.53:80/axis-cgi/mjpg/video.cgi?camera=&resolution=640x480",
+    "title": "View Axis2 camera in Estonia, Tallinn "
+  },
+  {
+    "id": "824673",
+    "url": "https://www.insecam.org/en/view/824673/",
+    "country": "EE",
+    "direct": "http://185.193.62.156:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Estonia, Aseri "
+  },
+  {
+    "id": "1010778",
+    "url": "https://www.insecam.org/en/view/1010778/",
+    "country": "EE",
+    "direct": "http://80.235.76.111:18081/mjpg/video.mjpg",
+    "title": "View Axis camera in Estonia, Tallinn "
+  },
+  {
+    "id": "824673",
+    "url": "https://www.insecam.org/en/view/824673/",
+    "country": "EE",
+    "direct": "http://185.193.62.156:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Estonia, Aseri "
+  },
+  {
+    "id": "218983",
+    "url": "https://www.insecam.org/en/view/218983/",
+    "country": "EE",
+    "direct": "http://194.204.15.53:80/axis-cgi/mjpg/video.cgi?camera=&resolution=640x480",
+    "title": "View Axis2 camera in Estonia, Tallinn "
+  },
+  {
+    "id": "218983",
+    "url": "https://www.insecam.org/en/view/218983/",
+    "country": "EE",
+    "direct": "http://194.204.15.53:80/axis-cgi/mjpg/video.cgi?camera=&resolution=640x480",
+    "title": "View Axis2 camera in Estonia, Tallinn "
+  },
+  {
+    "id": "1003435",
+    "url": "https://www.insecam.org/en/view/1003435/",
+    "country": "AT",
+    "direct": "http://185.199.81.198:8082/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Austria, Serfaus "
+  },
+  {
+    "id": "983751",
+    "url": "https://www.insecam.org/en/view/983751/",
+    "country": "AT",
+    "direct": "http://212.67.232.2:10000/snap.jpg?JpegSize=M&JpegCam=1&r=COUNTER",
+    "title": "View Bosch camera in Austria, Vienna "
+  },
+  {
+    "id": "994920",
+    "url": "https://www.insecam.org/en/view/994920/",
+    "country": "AT",
+    "direct": "http://80.66.36.54:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Linz "
+  },
+  {
+    "id": "978292",
+    "url": "https://www.insecam.org/en/view/978292/",
+    "country": "AT",
+    "direct": "http://178.115.233.211:8080/?action=stream",
+    "title": "View Streamer camera in Austria, Ried Im Innkreis "
+  },
+  {
+    "id": "951239",
+    "url": "https://www.insecam.org/en/view/951239/",
+    "country": "AT",
+    "direct": "http://80.121.219.220:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Linz "
+  },
+  {
+    "id": "941520",
+    "url": "https://www.insecam.org/en/view/941520/",
+    "country": "AT",
+    "direct": "http://80.123.202.34:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Vienna "
+  },
+  {
+    "id": "958360",
+    "url": "https://www.insecam.org/en/view/958360/",
+    "country": "AT",
+    "direct": "http://194.127.196.88:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Walding "
+  },
+  {
+    "id": "925272",
+    "url": "https://www.insecam.org/en/view/925272/",
+    "country": "AT",
+    "direct": "http://77.119.231.156:8080/?action=stream",
+    "title": "View Streamer camera in Austria, Andelsbuch "
+  },
+  {
+    "id": "973521",
+    "url": "https://www.insecam.org/en/view/973521/",
+    "country": "AT",
+    "direct": "http://91.112.119.34:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Vienna "
+  },
+  {
+    "id": "905809",
+    "url": "https://www.insecam.org/en/view/905809/",
+    "country": "AT",
+    "direct": "http://89.26.16.109:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Salzburg "
+  },
+  {
+    "id": "882828",
+    "url": "https://www.insecam.org/en/view/882828/",
+    "country": "AT",
+    "direct": "http://185.196.176.86:8080/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Umhausen "
+  },
+  {
+    "id": "881274",
+    "url": "https://www.insecam.org/en/view/881274/",
+    "country": "AT",
+    "direct": "http://212.67.236.62:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Vienna "
+  },
+  {
+    "id": "853340",
+    "url": "https://www.insecam.org/en/view/853340/",
+    "country": "AT",
+    "direct": "http://178.251.69.28:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Vienna "
+  },
+  {
+    "id": "847863",
+    "url": "https://www.insecam.org/en/view/847863/",
+    "country": "AT",
+    "direct": "http://90.152.145.176:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Graz "
+  },
+  {
+    "id": "439140",
+    "url": "https://www.insecam.org/en/view/439140/",
+    "country": "MX",
+    "direct": "http://201.174.12.243:1024/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Juarez "
+  },
+  {
+    "id": "832919",
+    "url": "https://www.insecam.org/en/view/832919/",
+    "country": "AT",
+    "direct": "http://5.206.203.6:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Semriach "
+  },
+  {
+    "id": "845529",
+    "url": "https://www.insecam.org/en/view/845529/",
+    "country": "AT",
+    "direct": "http://217.76.163.150:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Vienna "
+  },
+  {
+    "id": "813100",
+    "url": "https://www.insecam.org/en/view/813100/",
+    "country": "AT",
+    "direct": "http://5.206.200.82:8081/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Austria, Semriach "
+  },
+  {
+    "id": "811510",
+    "url": "https://www.insecam.org/en/view/811510/",
+    "country": "AT",
+    "direct": "http://212.67.236.61:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Austria, Vienna "
+  },
+  {
+    "id": "742713",
+    "url": "https://www.insecam.org/en/view/742713/",
+    "country": "MX",
+    "direct": "http://187.237.116.40:82/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Isla Mujeres "
+  },
+  {
+    "id": "742713",
+    "url": "https://www.insecam.org/en/view/742713/",
+    "country": "MX",
+    "direct": "http://187.237.116.40:82/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Isla Mujeres "
+  },
+  {
+    "id": "439140",
+    "url": "https://www.insecam.org/en/view/439140/",
+    "country": "MX",
+    "direct": "http://201.174.12.243:1024/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Juarez "
+  },
+  {
+    "id": "742713",
+    "url": "https://www.insecam.org/en/view/742713/",
+    "country": "MX",
+    "direct": "http://187.237.116.40:82/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Isla Mujeres "
+  },
+  {
+    "id": "439140",
+    "url": "https://www.insecam.org/en/view/439140/",
+    "country": "MX",
+    "direct": "http://201.174.12.243:1024/mjpg/video.mjpg",
+    "title": "View Axis camera in Mexico, Juarez "
+  },
+  {
+    "id": "166838",
+    "url": "https://www.insecam.org/en/view/166838/",
+    "country": "KZ",
+    "direct": "http://212.154.245.179:80/jpg/image.jpg?COUNTER",
+    "title": "View TPLink camera in Kazakhstan, Ust&#39;-Kamenogorsk "
+  },
+  {
+    "id": "166838",
+    "url": "https://www.insecam.org/en/view/166838/",
+    "country": "KZ",
+    "direct": "http://212.154.245.179:80/jpg/image.jpg?COUNTER",
+    "title": "View TPLink camera in Kazakhstan, Ust&#39;-Kamenogorsk "
+  },
+  {
+    "id": "166838",
+    "url": "https://www.insecam.org/en/view/166838/",
+    "country": "KZ",
+    "direct": "http://212.154.245.179:80/jpg/image.jpg?COUNTER",
+    "title": "View TPLink camera in Kazakhstan, Ust&#39;-Kamenogorsk "
+  },
+  {
+    "id": "888717",
+    "url": "https://www.insecam.org/en/view/888717/",
+    "country": "EG",
+    "direct": "http://196.221.38.54:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "890314",
+    "url": "https://www.insecam.org/en/view/890314/",
+    "country": "EG",
+    "direct": "http://196.221.38.55:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Khankah "
+  },
+  {
+    "id": "890314",
+    "url": "https://www.insecam.org/en/view/890314/",
+    "country": "EG",
+    "direct": "http://196.221.38.55:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Khankah "
+  },
+  {
+    "id": "888717",
+    "url": "https://www.insecam.org/en/view/888717/",
+    "country": "EG",
+    "direct": "http://196.221.38.54:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888698",
+    "url": "https://www.insecam.org/en/view/888698/",
+    "country": "EG",
+    "direct": "http://196.221.38.53:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888697",
+    "url": "https://www.insecam.org/en/view/888697/",
+    "country": "EG",
+    "direct": "http://196.221.38.52:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888698",
+    "url": "https://www.insecam.org/en/view/888698/",
+    "country": "EG",
+    "direct": "http://196.221.38.53:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888697",
+    "url": "https://www.insecam.org/en/view/888697/",
+    "country": "EG",
+    "direct": "http://196.221.38.52:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "890314",
+    "url": "https://www.insecam.org/en/view/890314/",
+    "country": "EG",
+    "direct": "http://196.221.38.55:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Khankah "
+  },
+  {
+    "id": "888698",
+    "url": "https://www.insecam.org/en/view/888698/",
+    "country": "EG",
+    "direct": "http://196.221.38.53:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888717",
+    "url": "https://www.insecam.org/en/view/888717/",
+    "country": "EG",
+    "direct": "http://196.221.38.54:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "888697",
+    "url": "https://www.insecam.org/en/view/888697/",
+    "country": "EG",
+    "direct": "http://196.221.38.52:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Egypt, Al Jizah "
+  },
+  {
+    "id": "1010766",
+    "url": "https://www.insecam.org/en/view/1010766/",
+    "country": "US",
+    "direct": "http://174.141.163.166:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Boca Raton "
+  },
+  {
+    "id": "1010704",
+    "url": "https://www.insecam.org/en/view/1010704/",
+    "country": "US",
+    "direct": "http://216.107.197.101:8086/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Albany "
+  },
+  {
+    "id": "1010755",
+    "url": "https://www.insecam.org/en/view/1010755/",
+    "country": "US",
+    "direct": "http://204.93.117.45:80/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Signal Mountain "
+  },
+  {
+    "id": "1010690",
+    "url": "https://www.insecam.org/en/view/1010690/",
+    "country": "US",
+    "direct": "http://217.180.234.228:80/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Evansville "
+  },
+  {
+    "id": "1010684",
+    "url": "https://www.insecam.org/en/view/1010684/",
+    "country": "US",
+    "direct": "http://184.177.43.105:80/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Providence "
+  },
+  {
+    "id": "1010601",
+    "url": "https://www.insecam.org/en/view/1010601/",
+    "country": "US",
+    "direct": "http://128.146.135.226:80/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Grandview Heights "
+  },
+  {
+    "id": "1010367",
+    "url": "https://www.insecam.org/en/view/1010367/",
+    "country": "US",
+    "direct": "http://65.76.100.63:85/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in United States, Nashville "
+  },
+  {
+    "id": "1009329",
+    "url": "https://www.insecam.org/en/view/1009329/",
+    "country": "US",
+    "direct": "http://162.191.81.11:81/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in United States, Bellevue "
+  },
+  {
+    "id": "1004494",
+    "url": "https://www.insecam.org/en/view/1004494/",
+    "country": "US",
+    "direct": "http://166.141.93.41:8081/oneshotimage1?COUNTER",
+    "title": "View Sony camera in United States, New York City "
+  },
+  {
+    "id": "1006215",
+    "url": "https://www.insecam.org/en/view/1006215/",
+    "country": "US",
+    "direct": "http://173.164.213.201:8083/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in United States, San Francisco "
+  },
+  {
+    "id": "1008388",
+    "url": "https://www.insecam.org/en/view/1008388/",
+    "country": "US",
+    "direct": "http://162.191.11.144:8000/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000",
+    "title": "View Canon camera in United States, Bellevue "
+  },
+  {
+    "id": "1004678",
+    "url": "https://www.insecam.org/en/view/1004678/",
+    "country": "US",
+    "direct": "http://216.99.126.110:80/mjpg/video.mjpg",
+    "title": "View Axis camera in United States, Wilmington "
+  },
+  {
+    "id": "1004220",
+    "url": "https://www.insecam.org/en/view/1004220/",
+    "country": "US",
+    "direct": "http://71.249.87.61:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in United States, New York City "
+  },
+  {
+    "id": "1003130",
+    "url": "https://www.insecam.org/en/view/1003130/",
+    "country": "US",
+    "direct": "http://23.114.74.201:8001/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in United States, Fresno "
+  },
+  {
+    "id": "999808",
+    "url": "https://www.insecam.org/en/view/999808/",
+    "country": "US",
+    "direct": "http://96.72.166.84:8000/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000",
+    "title": "View Canon camera in United States, Petaluma "
+  },
+  {
+    "id": "1001484",
+    "url": "https://www.insecam.org/en/view/1001484/",
+    "country": "US",
+    "direct": "http://24.43.198.26:8001/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in United States, Los Angeles "
+  },
+  {
+    "id": "999332",
+    "url": "https://www.insecam.org/en/view/999332/",
+    "country": "US",
+    "direct": "http://63.40.250.5:80/jpg/image.jpg?COUNTER",
+    "title": "View AxisMkII camera in United States, Philadelphia "
+  },
+  {
+    "id": "794646",
+    "url": "https://www.insecam.org/en/view/794646/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:86/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "872400",
+    "url": "https://www.insecam.org/en/view/872400/",
+    "country": "ZA",
+    "direct": "http://196.6.116.126:89/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in South Africa, Tzaneen "
+  },
+  {
+    "id": "999322",
+    "url": "https://www.insecam.org/en/view/999322/",
+    "country": "US",
+    "direct": "http://70.98.52.54:8090/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in United States, Mammoth Lakes "
+  },
+  {
+    "id": "996024",
+    "url": "https://www.insecam.org/en/view/996024/",
+    "country": "ZA",
+    "direct": "http://165.255.251.102:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in South Africa, Pretoria "
+  },
+  {
+    "id": "794646",
+    "url": "https://www.insecam.org/en/view/794646/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:86/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "872400",
+    "url": "https://www.insecam.org/en/view/872400/",
+    "country": "ZA",
+    "direct": "http://196.6.116.126:89/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in South Africa, Tzaneen "
+  },
+  {
+    "id": "250641",
+    "url": "https://www.insecam.org/en/view/250641/",
+    "country": "ZA",
+    "direct": "http://196.21.92.209:80/mjpg/video.mjpg",
+    "title": "View Axis camera in South Africa, Cape Town "
+  },
+  {
+    "id": "444003",
+    "url": "https://www.insecam.org/en/view/444003/",
+    "country": "ZA",
+    "direct": "http://196.21.94.4:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in South Africa, Cape Town "
+  },
+  {
+    "id": "794644",
+    "url": "https://www.insecam.org/en/view/794644/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:82/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "794644",
+    "url": "https://www.insecam.org/en/view/794644/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:82/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "444003",
+    "url": "https://www.insecam.org/en/view/444003/",
+    "country": "ZA",
+    "direct": "http://196.21.94.4:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in South Africa, Cape Town "
+  },
+  {
+    "id": "250641",
+    "url": "https://www.insecam.org/en/view/250641/",
+    "country": "ZA",
+    "direct": "http://196.21.92.209:80/mjpg/video.mjpg",
+    "title": "View Axis camera in South Africa, Cape Town "
+  },
+  {
+    "id": "996024",
+    "url": "https://www.insecam.org/en/view/996024/",
+    "country": "ZA",
+    "direct": "http://165.255.251.102:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in South Africa, Pretoria "
+  },
+  {
+    "id": "872400",
+    "url": "https://www.insecam.org/en/view/872400/",
+    "country": "ZA",
+    "direct": "http://196.6.116.126:89/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in South Africa, Tzaneen "
+  },
+  {
+    "id": "794644",
+    "url": "https://www.insecam.org/en/view/794644/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:82/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "794646",
+    "url": "https://www.insecam.org/en/view/794646/",
+    "country": "ZA",
+    "direct": "http://41.217.194.50:86/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in South Africa, Johannesburg "
+  },
+  {
+    "id": "444003",
+    "url": "https://www.insecam.org/en/view/444003/",
+    "country": "ZA",
+    "direct": "http://196.21.94.4:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in South Africa, Cape Town "
+  },
+  {
+    "id": "250641",
+    "url": "https://www.insecam.org/en/view/250641/",
+    "country": "ZA",
+    "direct": "http://196.21.92.209:80/mjpg/video.mjpg",
+    "title": "View Axis camera in South Africa, Cape Town "
+  },
+  {
+    "id": "220163",
+    "url": "https://www.insecam.org/en/view/220163/",
+    "country": "CO",
+    "direct": "http://190.85.112.10:8001/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Colombia, Cota "
+  },
+  {
+    "id": "220163",
+    "url": "https://www.insecam.org/en/view/220163/",
+    "country": "CO",
+    "direct": "http://190.85.112.10:8001/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Colombia, Cota "
+  },
+  {
+    "id": "996024",
+    "url": "https://www.insecam.org/en/view/996024/",
+    "country": "ZA",
+    "direct": "http://165.255.251.102:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in South Africa, Pretoria "
+  },
+  {
+    "id": "986197",
+    "url": "https://www.insecam.org/en/view/986197/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:90/jpg/image.jpg?COUNTER",
+    "title": "View AxisMkII camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "986197",
+    "url": "https://www.insecam.org/en/view/986197/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:90/jpg/image.jpg?COUNTER",
+    "title": "View AxisMkII camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "985979",
+    "url": "https://www.insecam.org/en/view/985979/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:89/mjpg/video.mjpg",
+    "title": "View Axis camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "900695",
+    "url": "https://www.insecam.org/en/view/900695/",
+    "country": "ID",
+    "direct": "http://103.129.95.162:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Indonesia, Bandung "
+  },
+  {
+    "id": "985979",
+    "url": "https://www.insecam.org/en/view/985979/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:89/mjpg/video.mjpg",
+    "title": "View Axis camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "986197",
+    "url": "https://www.insecam.org/en/view/986197/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:90/jpg/image.jpg?COUNTER",
+    "title": "View AxisMkII camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "900695",
+    "url": "https://www.insecam.org/en/view/900695/",
+    "country": "ID",
+    "direct": "http://103.129.95.162:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Indonesia, Bandung "
+  },
+  {
+    "id": "1010398",
+    "url": "https://www.insecam.org/en/view/1010398/",
+    "country": "LT",
+    "direct": "http://82.135.236.222:88/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "893882",
+    "url": "https://www.insecam.org/en/view/893882/",
+    "country": "LT",
+    "direct": "http://88.119.137.171:9000/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Klaipeda "
+  },
+  {
+    "id": "1010398",
+    "url": "https://www.insecam.org/en/view/1010398/",
+    "country": "LT",
+    "direct": "http://82.135.236.222:88/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "750685",
+    "url": "https://www.insecam.org/en/view/750685/",
+    "country": "LT",
+    "direct": "http://85.206.177.87:8083/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "506352",
+    "url": "https://www.insecam.org/en/view/506352/",
+    "country": "LT",
+    "direct": "http://188.69.250.254:60001/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "893882",
+    "url": "https://www.insecam.org/en/view/893882/",
+    "country": "LT",
+    "direct": "http://88.119.137.171:9000/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Klaipeda "
+  },
+  {
+    "id": "750685",
+    "url": "https://www.insecam.org/en/view/750685/",
+    "country": "LT",
+    "direct": "http://85.206.177.87:8083/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "506352",
+    "url": "https://www.insecam.org/en/view/506352/",
+    "country": "LT",
+    "direct": "http://188.69.250.254:60001/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "220163",
+    "url": "https://www.insecam.org/en/view/220163/",
+    "country": "CO",
+    "direct": "http://190.85.112.10:8001/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Colombia, Cota "
+  },
+  {
+    "id": "1010398",
+    "url": "https://www.insecam.org/en/view/1010398/",
+    "country": "LT",
+    "direct": "http://82.135.236.222:88/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "750685",
+    "url": "https://www.insecam.org/en/view/750685/",
+    "country": "LT",
+    "direct": "http://85.206.177.87:8083/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "893882",
+    "url": "https://www.insecam.org/en/view/893882/",
+    "country": "LT",
+    "direct": "http://88.119.137.171:9000/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Klaipeda "
+  },
+  {
+    "id": "985979",
+    "url": "https://www.insecam.org/en/view/985979/",
+    "country": "ID",
+    "direct": "http://103.151.177.124:89/mjpg/video.mjpg",
+    "title": "View Axis camera in Indonesia, Jakarta "
+  },
+  {
+    "id": "506352",
+    "url": "https://www.insecam.org/en/view/506352/",
+    "country": "LT",
+    "direct": "http://188.69.250.254:60001/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Lithuania, Vilnius "
+  },
+  {
+    "id": "1010276",
+    "url": "https://www.insecam.org/en/view/1010276/",
+    "country": "JP",
+    "direct": "http://202.216.1.24:83/jpgmulreq/1/image.jpg?key=1516975535684&lq=1&COUNTER",
+    "title": "View Megapixel camera in Japan, Tokyo "
+  },
+  {
+    "id": "1009617",
+    "url": "https://www.insecam.org/en/view/1009617/",
+    "country": "JP",
+    "direct": "http://218.219.228.113:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Asahi "
+  },
+  {
+    "id": "900695",
+    "url": "https://www.insecam.org/en/view/900695/",
+    "country": "ID",
+    "direct": "http://103.129.95.162:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0&COUNTER",
+    "title": "View Defeway camera in Indonesia, Bandung "
+  },
+  {
+    "id": "1010735",
+    "url": "https://www.insecam.org/en/view/1010735/",
+    "country": "JP",
+    "direct": "http://114.179.127.11:8002/mjpg/video.mjpg",
+    "title": "View Axis camera in Japan, Saga "
+  },
+  {
+    "id": "1010637",
+    "url": "https://www.insecam.org/en/view/1010637/",
+    "country": "JP",
+    "direct": "http://153.156.20.243:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Japan, Mito "
+  },
+  {
+    "id": "1003951",
+    "url": "https://www.insecam.org/en/view/1003951/",
+    "country": "JP",
+    "direct": "http://153.142.244.177:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Sapporo "
+  },
+  {
+    "id": "1006399",
+    "url": "https://www.insecam.org/en/view/1006399/",
+    "country": "JP",
+    "direct": "http://219.100.189.123:8081/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000",
+    "title": "View Canon camera in Japan, Minamata "
+  },
+  {
+    "id": "1003349",
+    "url": "https://www.insecam.org/en/view/1003349/",
+    "country": "JP",
+    "direct": "http://220.254.72.199:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Tokyo "
+  },
+  {
+    "id": "1001278",
+    "url": "https://www.insecam.org/en/view/1001278/",
+    "country": "JP",
+    "direct": "http://133.232.88.184:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Tokyo "
+  },
+  {
+    "id": "1002598",
+    "url": "https://www.insecam.org/en/view/1002598/",
+    "country": "JP",
+    "direct": "http://124.247.184.30:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Tokyo "
+  },
+  {
+    "id": "996723",
+    "url": "https://www.insecam.org/en/view/996723/",
+    "country": "JP",
+    "direct": "http://153.142.220.112:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Japan, Hakone "
+  },
+  {
+    "id": "996756",
+    "url": "https://www.insecam.org/en/view/996756/",
+    "country": "JP",
+    "direct": "http://219.127.113.137:80/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Tokyo "
+  },
+  {
+    "id": "997594",
+    "url": "https://www.insecam.org/en/view/997594/",
+    "country": "JP",
+    "direct": "http://153.142.244.176:80/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Japan, Sapporo "
+  },
+  {
+    "id": "983626",
+    "url": "https://www.insecam.org/en/view/983626/",
+    "country": "JP",
+    "direct": "http://120.143.50.10:8081/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Tokyo "
+  },
+  {
+    "id": "986736",
+    "url": "https://www.insecam.org/en/view/986736/",
+    "country": "JP",
+    "direct": "http://219.127.113.139:80/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Tokyo "
+  },
+  {
+    "id": "983622",
+    "url": "https://www.insecam.org/en/view/983622/",
+    "country": "JP",
+    "direct": "http://14.14.95.219:80/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Saitama "
+  },
+  {
+    "id": "983248",
+    "url": "https://www.insecam.org/en/view/983248/",
+    "country": "JP",
+    "direct": "http://203.181.31.164:86/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Osaka "
+  },
+  {
+    "id": "983043",
+    "url": "https://www.insecam.org/en/view/983043/",
+    "country": "JP",
+    "direct": "http://219.127.113.138:80/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Tokyo "
+  },
+  {
+    "id": "456110",
+    "url": "https://www.insecam.org/en/view/456110/",
+    "country": "HU",
+    "direct": "http://78.131.88.37:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Miskolc "
+  },
+  {
+    "id": "983026",
+    "url": "https://www.insecam.org/en/view/983026/",
+    "country": "JP",
+    "direct": "http://210.161.174.118:80/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER",
+    "title": "View Panasonic camera in Japan, Tokyo "
+  },
+  {
+    "id": "245924",
+    "url": "https://www.insecam.org/en/view/245924/",
+    "country": "HU",
+    "direct": "http://193.224.128.90:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Gyor "
+  },
+  {
+    "id": "456110",
+    "url": "https://www.insecam.org/en/view/456110/",
+    "country": "HU",
+    "direct": "http://78.131.88.37:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Miskolc "
+  },
+  {
+    "id": "1010705",
+    "url": "https://www.insecam.org/en/view/1010705/",
+    "country": "HU",
+    "direct": "http://88.209.215.194:8801/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Nyiregyhaza "
+  },
+  {
+    "id": "245924",
+    "url": "https://www.insecam.org/en/view/245924/",
+    "country": "HU",
+    "direct": "http://193.224.128.90:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Gyor "
+  },
+  {
+    "id": "1010705",
+    "url": "https://www.insecam.org/en/view/1010705/",
+    "country": "HU",
+    "direct": "http://88.209.215.194:8801/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Nyiregyhaza "
+  },
+  {
+    "id": "239091",
+    "url": "https://www.insecam.org/en/view/239091/",
+    "country": "HU",
+    "direct": "http://195.228.161.126:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Budapest "
+  },
+  {
+    "id": "239091",
+    "url": "https://www.insecam.org/en/view/239091/",
+    "country": "HU",
+    "direct": "http://195.228.161.126:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Budapest "
+  },
+  {
+    "id": "435149",
+    "url": "https://www.insecam.org/en/view/435149/",
+    "country": "HU",
+    "direct": "http://79.120.134.227:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Budaors "
+  },
+  {
+    "id": "245924",
+    "url": "https://www.insecam.org/en/view/245924/",
+    "country": "HU",
+    "direct": "http://193.224.128.90:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Gyor "
+  },
+  {
+    "id": "435149",
+    "url": "https://www.insecam.org/en/view/435149/",
+    "country": "HU",
+    "direct": "http://79.120.134.227:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Budaors "
+  },
+  {
+    "id": "456110",
+    "url": "https://www.insecam.org/en/view/456110/",
+    "country": "HU",
+    "direct": "http://78.131.88.37:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Miskolc "
+  },
+  {
+    "id": "239091",
+    "url": "https://www.insecam.org/en/view/239091/",
+    "country": "HU",
+    "direct": "http://195.228.161.126:8080/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Budapest "
+  },
+  {
+    "id": "1010705",
+    "url": "https://www.insecam.org/en/view/1010705/",
+    "country": "HU",
+    "direct": "http://88.209.215.194:8801/mjpg/video.mjpg",
+    "title": "View Axis camera in Hungary, Nyiregyhaza "
+  },
+  {
+    "id": "1009368",
+    "url": "https://www.insecam.org/en/view/1009368/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:1024/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "1009365",
+    "url": "https://www.insecam.org/en/view/1009365/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:91/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "1009360",
+    "url": "https://www.insecam.org/en/view/1009360/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:5000/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "997280",
+    "url": "https://www.insecam.org/en/view/997280/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:8001/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "435149",
+    "url": "https://www.insecam.org/en/view/435149/",
+    "country": "HU",
+    "direct": "http://79.120.134.227:80/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Hungary, Budaors "
+  },
+  {
+    "id": "1008403",
+    "url": "https://www.insecam.org/en/view/1008403/",
+    "country": "RU",
+    "direct": "http://91.108.45.201:80/onvif/snapshot/1/11",
+    "title": "View SunellSecurity camera in Russian Federation, Saint Petersburg "
+  },
+  {
+    "id": "1006999",
+    "url": "https://www.insecam.org/en/view/1006999/",
+    "country": "RU",
+    "direct": "http://46.146.208.178:81/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Perm "
+  },
+  {
+    "id": "1006415",
+    "url": "https://www.insecam.org/en/view/1006415/",
+    "country": "RU",
+    "direct": "http://91.247.124.105:8081/cgi-bin/snapshot.cgi?COUNTER",
+    "title": "View Fullhan camera in Russian Federation, Glazov "
+  },
+  {
+    "id": "1003214",
+    "url": "https://www.insecam.org/en/view/1003214/",
+    "country": "RU",
+    "direct": "http://176.119.241.11:8001/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Krasnokamensk "
+  },
+  {
+    "id": "1005236",
+    "url": "https://www.insecam.org/en/view/1005236/",
+    "country": "RU",
+    "direct": "http://91.203.177.39:85/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Smolensk "
+  },
+  {
+    "id": "990721",
+    "url": "https://www.insecam.org/en/view/990721/",
+    "country": "RU",
+    "direct": "http://78.36.19.87:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Russian Federation, Severomorsk "
+  },
+  {
+    "id": "997513",
+    "url": "https://www.insecam.org/en/view/997513/",
+    "country": "RU",
+    "direct": "http://91.244.114.179:81/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Biysk "
+  },
+  {
+    "id": "982660",
+    "url": "https://www.insecam.org/en/view/982660/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:6004/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "982681",
+    "url": "https://www.insecam.org/en/view/982681/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:8081/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "980237",
+    "url": "https://www.insecam.org/en/view/980237/",
+    "country": "RU",
+    "direct": "http://77.40.58.64:80/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Yoshkar-Ola "
+  },
+  {
+    "id": "982638",
+    "url": "https://www.insecam.org/en/view/982638/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:3000/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "973969",
+    "url": "https://www.insecam.org/en/view/973969/",
+    "country": "RU",
+    "direct": "http://84.204.143.58:8888/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Kaliningrad "
+  },
+  {
+    "id": "982656",
+    "url": "https://www.insecam.org/en/view/982656/",
+    "country": "RU",
+    "direct": "http://78.110.157.166:8200/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Vladikavkaz "
+  },
+  {
+    "id": "972603",
+    "url": "https://www.insecam.org/en/view/972603/",
+    "country": "RU",
+    "direct": "http://178.255.125.4:8084/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Russian Federation, Ryazan&#39; "
+  },
+  {
+    "id": "1004557",
+    "url": "https://www.insecam.org/en/view/1004557/",
+    "country": "BE",
+    "direct": "http://81.82.251.41:8082/cgi-bin/viewer/video.jpg?r=COUNTER",
+    "title": "View Vivotek camera in Belgium, Gent "
+  },
+  {
+    "id": "1010610",
+    "url": "https://www.insecam.org/en/view/1010610/",
+    "country": "BE",
+    "direct": "http://81.247.199.120:8060/mjpg/video.mjpg",
+    "title": "View Axis camera in Belgium, Sint-Niklaas "
+  },
+  {
+    "id": "994409",
+    "url": "https://www.insecam.org/en/view/994409/",
+    "country": "BE",
+    "direct": "http://94.110.74.26:80/webcapture.jpg?command=snap&channel=1?COUNTER",
+    "title": "View Hi3516 camera in Belgium, Hasselt "
+  },
+  {
+    "id": "900949",
+    "url": "https://www.insecam.org/en/view/900949/",
+    "country": "BE",
+    "direct": "http://87.66.9.180:3000/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER",
+    "title": "View Mobotix camera in Belgium, Brussels "
+  },
+  {
+    "id": "941795",
+    "url": "https://www.insecam.org/en/view/941795/",
+    "country": "BE",
+    "direct": "http://81.83.82.38:8080/?action=stream",
+    "title": "View Streamer camera in Belgium, Mechelen "
+  },
+  {
+    "id": "575652",
+    "url": "https://www.insecam.org/en/view/575652/",
+    "country": "BE",
+    "direct": "http://81.82.193.69:10001/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Belgium, Ternat "
+  },
+  {
+    "id": "575652",
+    "url": "https://www.insecam.org/en/view/575652/",
+    "country": "BE",
+    "direct": "http://81.82.193.69:10001/cgi-bin/camera?resolution=640&amp;quality=1&amp;Language=0&amp;COUNTER",
+    "title": "View PanasonicHD camera in Belgium, Ternat "
+  },
+  {
+    "id": "759450",
+    "url": "https://www.insecam.org/en/view/759450/",
+    "country": "BE",
+    "direct": "http://84.195.88.137:8080/?action=stream",
+    "title": "View Streamer camera in Belgium, Hasselt "
+  },
+  {
+    "id": "274539",
+    "url": "https://www.insecam.org/en/view/274539/",
+    "country": "BE",
+    "direct": "http://193.190.230.96:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Belgium, Brussels "
+  },
+  {
+    "id": "274539",
+    "url": "https://www.insecam.org/en/view/274539/",
+    "country": "BE",
+    "direct": "http://193.190.230.96:80/mjpg/video.mjpg",
+    "title": "View Axis camera in Belgium, Brussels "
+  }
+]

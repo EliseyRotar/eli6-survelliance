@@ -1,0 +1,80 @@
+[23:19:43] [init] starting live_env2 ingest
+[23:19:43] [init] 5726 existing live URLs
+[23:19:44] [plan] 5997 features
+[23:19:44] [plan] 5997 features to process
+[23:20:07]   +100
+[23:20:25]   +200
+[23:20:49]   +300
+[23:21:04]   +400
+[23:26:54]   +500
+[23:30:07] [init] starting live_env2 ingest
+[23:30:07] [init] 6273 existing live URLs
+[23:30:07] [plan] 5997 features
+[23:30:07] [plan] 5997 features to process
+[23:32:23]   +100
+[23:32:51]   +200
+[23:33:24]   +300
+[23:33:59]   +400
+[23:34:30]   +500
+[23:34:58]   +600
+[23:35:41]   +700
+[23:36:08]   +800
+[23:43:36]   +900
+[23:44:49]   +1000
+[23:45:19]   +1100
+[23:45:45]   +1200
+[23:46:11]   +1300
+[23:46:43]   +1400
+[23:47:14]   +1500
+[23:47:56]   +1600
+[23:58:46] [init] starting live_env2 ingest
+[23:58:46] [init] 7759 existing live URLs
+[23:58:46] [plan] 5997 features
+[23:58:46] [plan] 5997 features to process
+[00:01:09]   +100
+[00:01:43]   +200
+[00:02:09]   +300
+[00:02:34]   +400
+[00:03:01]   +500
+[00:03:27]   +600
+[00:03:53]   +700
+[00:04:17]   +800
+[00:04:43]   +900
+[00:05:10] [done] live_env2 +993
+[11:05:45] [init] starting live_env2 ingest
+[11:05:46] [init] 62787 existing live URLs
+[11:05:46] [plan] 5997 features
+[11:05:46] [plan] 5997 features to process
+[11:07:31]   +100
+[11:08:12] [done] live_env2 +168
+[11:43:38] [init] starting live_env2 ingest
+[11:43:39] [init] 63058 existing live URLs
+[11:43:39] [plan] 5997 features
+[11:43:39] [plan] 5997 features to process
+[11:45:27]   +100
+[11:45:32] [done] live_env2 +107
+[12:31:16] [init] starting live_env2 ingest
+[12:31:17] [init] 63309 existing live URLs
+[12:31:17] [plan] 5997 features
+[12:31:17] [plan] 5997 features to process
+[12:32:51] [done] live_env2 +64
+[13:11:59] [init] starting live_env2 ingest
+[13:12:00] [init] 63474 existing live URLs
+[13:12:00] [plan] 5997 features
+[13:12:00] [plan] 5997 features to process
+[13:13:26] [done] live_env2 +46
+[13:47:55] [init] starting live_env2 ingest
+[13:47:56] [init] 63709 existing live URLs
+[13:47:56] [plan] 5997 features
+[13:47:56] [plan] 5997 features to process
+[13:49:15] [done] live_env2 +29
+[14:24:23] [init] starting live_env2 ingest
+[14:24:24] [init] 63837 existing live URLs
+[14:24:24] [plan] 5997 features
+[14:24:24] [plan] 5997 features to process
+[14:25:28] [done] live_env2 +4
+[14:29:23] [init] starting live_env2 ingest
+[14:29:24] [init] 63854 existing live URLs
+[14:29:24] [plan] 5997 features
+[14:29:24] [plan] 5997 features to process
+[14:30:27] [done] live_env2 +8

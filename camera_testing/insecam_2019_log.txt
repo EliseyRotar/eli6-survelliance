@@ -1,0 +1,105 @@
+[15:19:44] [init] 649 existing hosts
+[15:19:44] [load] 17398 urls from 2019 dump
+[15:19:44] [targets] 16896
+[15:20:11]   progress 1000/16896, found=0
+[15:20:27]   HIT http://185.67.188.120:80/mjpg/video.mjpg w=60 (Czech Republic Jesenik)
+[15:20:27]     ADDED idx=865
+[15:20:44]   progress 2000/16896, found=1
+[15:20:52]   HIT http://88.81.82.239:8888/mjpg/video.mjpg w=60 (Czech Republic Baska)
+[15:20:52]     ADDED idx=866
+[15:21:22]   progress 3000/16896, found=2
+[15:23:07]   progress 4000/16896, found=2
+[15:24:52]   HIT http://80.75.241.227:80/mjpg/video.mjpg w=60 (Austria Felixdorf)
+[15:24:52]     ADDED idx=867
+[15:25:51]   progress 5000/16896, found=3
+[15:29:55]   HIT http://80.75.240.35:80/mjpg/video.mjpg w=60 (Austria Felixdorf)
+[15:30:02]     ADDED idx=868
+[15:35:23]   progress 6000/16896, found=4
+[15:36:41]   HIT http://80.73.112.172:80/mjpg/video.mjpg w=60 (Germany Deggendorf)
+[15:36:42]     ADDED idx=869
+[16:09:09]   HIT http://193.224.128.90:80/mjpg/video.mjpg w=60 (Hungary Gyor)
+[17:14:26] [init] 1034 existing hosts
+[17:14:26] [load] 17398 urls from 2019 dump
+[17:14:26] [targets] 16855
+[17:14:53]   progress 1000/16855, found=0
+[17:15:24]   progress 2000/16855, found=0
+[17:15:58]   progress 3000/16855, found=0
+[17:17:01]   progress 4000/16855, found=0
+[17:18:22]   progress 5000/16855, found=0
+[17:20:37]   progress 6000/16855, found=0
+[17:23:23]   progress 7000/16855, found=0
+[17:24:11]   progress 8000/16855, found=0
+[17:24:35]   progress 9000/16855, found=0
+[17:25:07]   progress 10000/16855, found=0
+[17:25:48]   HIT http://196.21.92.209:80/mjpg/video.mjpg w=60 (South Africa Cape Town)
+[17:25:49]     ADDED idx=1111
+[17:25:50]   progress 11000/16855, found=1
+[17:26:36]   HIT http://85.172.126.26:82/mjpg/video.mjpg w=60 (Russian Federation Sochi)
+[17:26:37]     ADDED idx=1112
+[17:26:38]   HIT http://85.172.126.26:81/mjpg/video.mjpg w=60 (Russian Federation Volgograd)
+[17:26:39]     ADDED idx=1113
+[17:26:40]   progress 12000/16855, found=3
+[17:28:11]   progress 13000/16855, found=3
+[17:31:12]   progress 14000/16855, found=3
+[17:31:48]   HIT http://129.170.117.10:80/mjpg/video.mjpg w=60 (United States Hanover)
+[17:31:49]     ADDED idx=1115
+[17:42:25]   progress 15000/16855, found=4
+[17:46:42]   HIT http://128.174.7.150:80/mjpg/video.mjpg w=60 (United States Urbana)
+[17:46:43]     ADDED idx=1118
+[17:48:57]   HIT http://66.118.200.190:80/mjpg/video.mjpg w=60 (United States Durango)
+[17:48:59]     ADDED idx=1119
+[17:50:48]   HIT http://192.33.141.123:80/mjpg/video.mjpg w=60 (United States Tucson)
+[17:50:50]     ADDED idx=1120
+[17:59:04]   HIT http://150.131.206.15:80/mjpg/video.mjpg w=60 (United States Newport)
+[17:59:05]     ADDED idx=1121
+[18:02:10]   progress 16000/16855, found=8
+[18:08:39]   HIT http://166.248.235.160:8080/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=10000000 w=60 (United States San Francisco)
+[18:08:46]     ADDED idx=1122
+[18:11:38]   HIT http://24.121.221.19:80/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000 w=60 (United States Mammoth Lakes)
+[19:13:09] [init] 1079 existing hosts
+[19:13:09] [load] 17398 urls from 2019 dump
+[19:13:09] [targets] 16837
+[19:13:36]   progress 1000/16837, found=0
+[19:14:06]   progress 2000/16837, found=0
+[19:14:40]   progress 3000/16837, found=0
+[19:15:41]   progress 4000/16837, found=0
+[19:16:49]   progress 5000/16837, found=0
+[19:18:15]   progress 6000/16837, found=0
+[19:19:16]   HIT http://61.213.89.122:8084/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000 w=60 (Japan Oyama)
+[19:19:17]     ADDED idx=1131
+[19:20:06]   progress 7000/16837, found=1
+[19:21:39]   progress 8000/16837, found=1
+[19:24:19]   progress 9000/16837, found=1
+[19:26:33]   progress 10000/16837, found=1
+[19:26:59]   progress 11000/16837, found=1
+[19:27:28]   progress 12000/16837, found=1
+[19:28:08]   progress 13000/16837, found=1
+[19:28:58]   progress 14000/16837, found=1
+[19:30:35]   progress 15000/16837, found=1
+[19:31:59]   progress 16000/16837, found=1
+[19:33:11]   HIT http://166.241.21.80:80/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000 w=60 (United States Doylestown)
+[19:33:12]     ADDED idx=1164
+[19:37:57]   HIT http://129.65.82.21:80/-wvhttp-01-/GetOneShot?image_size=640x480&frame_count=1000000000 w=60 (United States Arroyo Grande)
+[19:37:58]     ADDED idx=1166
+[20:16:39]   HIT http://206.158.4.15:8080/mjpg/video.mjpg w=60 (United States Reno)
+[21:12:12] [init] 1114 existing hosts
+[21:12:12] [load] 17398 urls from 2019 dump
+[21:12:12] [targets] 16825
+[21:12:38]   progress 1000/16825, found=0
+[21:13:08]   progress 2000/16825, found=0
+[21:13:43]   progress 3000/16825, found=0
+[21:14:46]   progress 4000/16825, found=0
+[21:15:57]   progress 5000/16825, found=0
+[21:16:02]   HIT http://94.101.60.90:80/cgi-bin/faststream.jpg?stream=half&fps=15&rand=COUNTER w=60 (Italy Lecco)
+[21:16:03]     ADDED idx=1182
+[21:17:30]   progress 6000/16825, found=1
+[21:19:25]   progress 7000/16825, found=1
+[21:21:01]   progress 8000/16825, found=1
+[21:23:21]   progress 9000/16825, found=1
+[21:28:43]   progress 10000/16825, found=1
+[21:33:11]   progress 11000/16825, found=1
+[21:35:03]   progress 12000/16825, found=1
+[21:36:21]   progress 13000/16825, found=1
+[21:38:13]   progress 14000/16825, found=1
+[21:43:09]   progress 15000/16825, found=1
+[21:46:39]   progress 16000/16825, found=1

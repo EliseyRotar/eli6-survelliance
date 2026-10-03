@@ -1,0 +1,492 @@
+[
+  {
+    "ip": "202.174.60.121",
+    "url": "http://202.174.60.121/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "板柳町"
+  },
+  {
+    "ip": "218.42.253.97",
+    "url": "http://218.42.253.97/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "eonet.ne.jp ISP"
+  },
+  {
+    "ip": "219.111.32.218",
+    "url": "http://219.111.32.218/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "板柳町 - may be dead"
+  },
+  {
+    "ip": "183.77.125.199",
+    "url": "http://183.77.125.199/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "asahi-net.or.jp"
+  },
+  {
+    "ip": "109.90.49.50",
+    "url": "http://109.90.49.50/live/live",
+    "model": "Canon VB",
+    "location": "Feldberg, Germany",
+    "notes": "Spielplatz/Wassertretstelle - WALD AUTH"
+  },
+  {
+    "ip": "206.72.28.209",
+    "url": "http://206.72.28.209/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "dsl.netins.net"
+  },
+  {
+    "ip": "180.43.97.69",
+    "url": "http://180.43.97.69/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "may be dead"
+  },
+  {
+    "ip": "v-itcam3.uhd.edu",
+    "url": "http://v-itcam3.uhd.edu/live",
+    "model": "Canon VB",
+    "location": "University of Houston-Downtown, TX, USA",
+    "notes": ""
+  },
+  {
+    "ip": "121.117.163.103",
+    "url": "http://121.117.163.103/live",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "板柳町"
+  },
+  {
+    "ip": "camera.town.itayanagi.aomori.jp",
+    "url": "http://camera.town.itayanagi.aomori.jp",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": "板柳町"
+  },
+  {
+    "ip": "61.122.58.10",
+    "url": "http://61.122.58.10/live/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "68.66.157.38",
+    "url": "http://68.66.157.38/live",
+    "model": "Canon VB",
+    "location": "USA",
+    "notes": ""
+  },
+  {
+    "ip": "camera.town.owani.lg.jp",
+    "url": "http://camera.town.owani.lg.jp",
+    "model": "Canon VB",
+    "location": "Owani, Japan",
+    "notes": "wanicome, eki-niji, hirakawa, daienji"
+  },
+  {
+    "ip": "122.249.124.12",
+    "url": "http://122.249.124.12/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "24.142.194.118",
+    "url": "http://24.142.194.118/live/live",
+    "model": "Canon VB",
+    "location": "Bessemer City Park, AL, USA",
+    "notes": "Bessemer, AL - City Hall"
+  },
+  {
+    "ip": "110.4.179.61",
+    "url": "http://110.4.179.61/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "webcam.syc.com.au:8080",
+    "url": "http://webcam.syc.com.au/live",
+    "model": "Canon VB-C60",
+    "location": "Sandringham Yacht Club, Australia",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "skigod.us",
+    "url": "https://skigod.us/viewer/live",
+    "model": "Canon VB",
+    "location": "USA",
+    "notes": ""
+  },
+  {
+    "ip": "mitaracam.city.muroran.lg.jp",
+    "url": "https://mitaracam.city.muroran.lg.jp",
+    "model": "Canon VB",
+    "location": "Muroran, Hokkaido, Japan",
+    "notes": "Hakucho Bridge"
+  },
+  {
+    "ip": "172.18.1.201",
+    "url": "http://monzen.city.wajima.ishikawa.jp",
+    "model": "Canon VB-M40",
+    "location": "Wajima, Ishikawa, Japan",
+    "notes": "輪島市 - AUTH required"
+  },
+  {
+    "ip": "118.21.134.31",
+    "url": "http://118.21.134.31/live/live",
+    "model": "Canon VB-M600D",
+    "location": "Japan",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "202.208.150.241",
+    "url": "http://202.208.150.241/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "110.143.252.162:4000",
+    "url": "http://boatcam.sscbc.com.au/live",
+    "model": "Canon VB-M40",
+    "location": "Sorrento Sailing Couta Boat Club, Australia",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "64.251.74.45",
+    "url": "http://64.251.74.45/live/live",
+    "model": "Canon VB-C60",
+    "location": "Iwade, Wakayama, Japan",
+    "notes": "岩出市 - AUTH"
+  },
+  {
+    "ip": "cam13.kaifu-intra.jp",
+    "url": "http://cam13.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": "kaifu-intra.jp network"
+  },
+  {
+    "ip": "50.78.59.229",
+    "url": "http://50.78.59.229/live/live",
+    "model": "Canon VB-C60",
+    "location": "USA",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "68.185.24.173",
+    "url": "http://68.185.24.173/live/live",
+    "model": "Canon VB-C60",
+    "location": "USA",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "livecamera01.town.fujikawaguchiko.lg.jp",
+    "url": "http://livecamera01.town.fujikawaguchiko.lg.jp",
+    "model": "Canon VB-C60",
+    "location": "Fujikawaguchiko, Japan",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "162.191.11.144",
+    "url": "http://162.191.11.144/live/live",
+    "model": "Canon VB-C60",
+    "location": "USA",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "80.32.216.45",
+    "url": "http://80.32.216.45/live/live",
+    "model": "Canon VB-C500",
+    "location": "Spain",
+    "notes": "AUTH required - port 65533"
+  },
+  {
+    "ip": "218.219.195.166",
+    "url": "http://218.219.195.166/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": "Spanish lang cam"
+  },
+  {
+    "ip": "v-itcam4.uhd.edu",
+    "url": "http://v-itcam4.uhd.edu/live",
+    "model": "Canon VB",
+    "location": "University of Houston-Downtown, TX, USA",
+    "notes": "Connection closed"
+  },
+  {
+    "ip": "cam04.kaifu-intra.jp",
+    "url": "http://cam04.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "www2.city.bungotakada.oita.jp",
+    "url": "http://www2.city.bungotakada.oita.jp",
+    "model": "Canon VB",
+    "location": "Bungotakada, Oita, Japan",
+    "notes": "豊後高田市"
+  },
+  {
+    "ip": "183.76.92.22:8080",
+    "url": "http://183.76.92.22/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH required - port 8080"
+  },
+  {
+    "ip": "218.224.118.87",
+    "url": "http://218.224.118.87/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH - カメラとの接続が切れました"
+  },
+  {
+    "ip": "kairyu-marina.aa0.netvolante.jp",
+    "url": "http://kairyu-marina.aa0.netvolante.jp",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "onizaki-yc.com:8080",
+    "url": "http://www.onizaki-yc.com/live",
+    "model": "Canon VB-C60",
+    "location": "Onizaki Yacht Club, Japan",
+    "notes": "鬼崎ヨットクラブ - AUTH"
+  },
+  {
+    "ip": "camera.town.owani.lg.jp (es)",
+    "url": "http://camera.town.owani.lg.jp",
+    "model": "Canon VB",
+    "location": "Owani, Japan",
+    "notes": "Spanish lang"
+  },
+  {
+    "ip": "121.117.161.159",
+    "url": "http://121.117.161.159/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "camera6.town.minabe.lg.jp",
+    "url": "http://camera6.town.minabe.lg.jp",
+    "model": "Canon VB-M40",
+    "location": "Minabe, Wakayama, Japan",
+    "notes": "南部町 - ポンプ場"
+  },
+  {
+    "ip": "82.130.141.93",
+    "url": "http://82.130.141.93",
+    "model": "Canon VB-M40",
+    "location": "Spain",
+    "notes": ""
+  },
+  {
+    "ip": "livecamera.tcs.tokogrp.co.jp",
+    "url": "http://livecamera.tcs.tokogrp.co.jp",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "大館橋, 大文字"
+  },
+  {
+    "ip": "www3.boatnerd.com",
+    "url": "http://www3.boatnerd.com/live",
+    "model": "Canon VB-M40",
+    "location": "Detroit, MI, USA",
+    "notes": "Ambassador Bridge, Lake St. Clair"
+  },
+  {
+    "ip": "webcam.bakio.eus",
+    "url": "http://webcam.bakio.eus/live",
+    "model": "Canon VB-M40",
+    "location": "Bakio, Spain",
+    "notes": "Bakioko Udala"
+  },
+  {
+    "ip": "218.223.38.14",
+    "url": "http://218.223.38.14/live/live",
+    "model": "Canon VB-C60",
+    "location": "Sado Island, Japan",
+    "notes": "佐渡汽船, 弥彦山"
+  },
+  {
+    "ip": "122.250.5.56",
+    "url": "http://122.250.5.56/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH - 接続切れ"
+  },
+  {
+    "ip": "cam06.kaifu-intra.jp",
+    "url": "http://cam06.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "219.111.32.223",
+    "url": "http://219.111.32.223/live/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": "タンネの森 - スキー場"
+  },
+  {
+    "ip": "camera.town.owani.lg.jp (fr)",
+    "url": "http://camera.town.owani.lg.jp",
+    "model": "Canon VB",
+    "location": "Owani, Japan",
+    "notes": "French lang"
+  },
+  {
+    "ip": "heart-land.aa0.netvolante.jp",
+    "url": "http://heart-land.aa0.netvolante.jp",
+    "model": "Canon VB-M40",
+    "location": "Japan",
+    "notes": "富士山ズーム - port 8060"
+  },
+  {
+    "ip": "118.243.56.46",
+    "url": "http://118.243.56.46/live/live",
+    "model": "Canon VB-M700F",
+    "location": "Japan",
+    "notes": "AUTH required"
+  },
+  {
+    "ip": "153.125.104.78",
+    "url": "http://153.125.104.78",
+    "model": "Canon VB-M600",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "www2.city.bungotakada.oita.jp (jp)",
+    "url": "http://www2.city.bungotakada.oita.jp",
+    "model": "Canon VB",
+    "location": "Bungotakada, Oita, Japan",
+    "notes": "豊後高田市"
+  },
+  {
+    "ip": "cam09.kaifu-intra.jp",
+    "url": "http://cam09.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "cam11.kaifu-intra.jp",
+    "url": "http://cam11.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "cam04.kaifu-intra.jp",
+    "url": "http://cam04.kaifu-intra.jp/live",
+    "model": "Canon VB",
+    "location": "Japan",
+    "notes": ""
+  },
+  {
+    "ip": "camera5.city.satsumasendai.lg.jp",
+    "url": "http://camera5.city.satsumasendai.lg.jp",
+    "model": "Canon VB",
+    "location": "Satsumasendai, Kagoshima, Japan",
+    "notes": "甑大橋"
+  },
+  {
+    "ip": "camera.town.itayanagi.aomori.jp",
+    "url": "http://camera.town.itayanagi.aomori.jp",
+    "model": "Canon VB",
+    "location": "Itayanagi, Aomori, Japan",
+    "notes": ""
+  },
+  {
+    "ip": "nywebcam05.city.nayoro.hokkaido.jp",
+    "url": "http://nywebcam05.city.nayoro.hokkaido.jp",
+    "model": "Canon VB",
+    "location": "Nayoro, Hokkaido, Japan",
+    "notes": ""
+  },
+  {
+    "ip": "220.98.7.158",
+    "url": "http://220.98.7.158/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH"
+  },
+  {
+    "ip": "124.155.113.18",
+    "url": "http://124.155.113.18/live/live",
+    "model": "Canon VB-M40",
+    "location": "Japan",
+    "notes": "渋谷駅 - AUTH"
+  },
+  {
+    "ip": "yurari1.town.yuza.yamagata.jp",
+    "url": "http://yurari1.town.yuza.yamagata.jp",
+    "model": "Canon VB-C60",
+    "location": "Yuza, Yamagata, Japan",
+    "notes": "AUTH"
+  },
+  {
+    "ip": "ooyama.town.oe.yamagata.jp",
+    "url": "http://ooyama.town.oe.yamagata.jp",
+    "model": "Canon VB-C60",
+    "location": "Oe, Yamagata, Japan",
+    "notes": "大江町 - AUTH"
+  },
+  {
+    "ip": "live4.hi-it.jp",
+    "url": "http://live4.hi-it.jp",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH - hi-it.jp"
+  },
+  {
+    "ip": "v075190.ppp.asahi-net.or.jp",
+    "url": "http://v075190.ppp.asahi-net.or.jp",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH - asahi-net ISP"
+  },
+  {
+    "ip": "webcamtalge.southern.edu",
+    "url": "https://webcamtalge.southern.edu",
+    "model": "Canon VB-C60",
+    "location": "Southern Adventist University, TN, USA",
+    "notes": "AUTH - Talge Hall"
+  },
+  {
+    "ip": "210.166.46.180",
+    "url": "http://210.166.46.180/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH"
+  },
+  {
+    "ip": "220.157.181.27",
+    "url": "http://220.157.181.27/live/live",
+    "model": "Canon VB-M40",
+    "location": "Miyajima, Japan",
+    "notes": ""
+  },
+  {
+    "ip": "223.223.162.78",
+    "url": "http://223.223.162.78/live/live",
+    "model": "Canon VB-C60",
+    "location": "Japan",
+    "notes": "AUTH"
+  }
+]

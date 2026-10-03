@@ -1,0 +1,10 @@
+[22:46:31] [init] 1130 existing hosts
+[22:46:31] [gen] 276 /24 blocks selected
+[22:46:31] [cands] 2208 host candidates
+[22:46:31] [targets] 15141 (host,port) pairs to probe
+[22:46:42] [init] 1130 existing hosts
+[22:46:42] [gen] 276 /24 blocks selected
+[22:46:42] [cands] 2208 host candidates
+[22:46:42] [targets] 15176 (host,port) pairs to probe
+[22:49:42] [probe1] 28 open ports in 190.8s
+[22:51:38] [done] 0 cams added in 116.6s

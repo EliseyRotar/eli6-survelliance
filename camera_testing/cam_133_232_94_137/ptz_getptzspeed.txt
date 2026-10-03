@@ -1,0 +1,2 @@
+var panspeed="0";
+var tiltspeed="0";

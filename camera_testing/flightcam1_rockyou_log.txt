@@ -1,0 +1,13 @@
+[+] AXIS Rockyou Brute Forcer
+[+] Host: http://flightcam1.pr.erau.edu
+[+] Wordlist: C:\Users\eli6-admin\Documents\eli6-surveillance\camera_testing\rockyou_top1k.txt
+[+] Endpoints: ['/axis-cgi/serverreport.cgi', '/admin-bin/']
+[+] Usernames: ['root', 'admin']
+----------------------------------------------------------------------
+[+] Loaded 1000 passwords
+[*] /axis-cgi/serverreport.cgi                         -> 401
+[*] /admin-bin/                                        -> 401
+
+======================================================================
+[+] Total attempts: 4000
+[+] Hits: 0

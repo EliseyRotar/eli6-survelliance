@@ -1,0 +1,11 @@
+[12:12:09] [init] 321 hosts already in CSV
+[12:12:09] [step1] GET /en/jsoncountries/ ...
+[12:12:10] [step1] got index for 62 countries. Top 5:
+[12:12:10]     US  United States                  count=447
+[12:12:10]     JP  Japan                          count=304
+[12:12:10]     IT  Italy                          count=103
+[12:12:10]     DE  Germany                        count=93
+[12:12:10]     AT  Austria                        count=58
+[12:12:20]   LIVE US idx=419 128.252.163.102:80 mobotix
+[12:13:25]   LIVE US idx=420 75.146.47.253:80 mobotix
+[12:14:30]   LIVE US idx=421 75.146.47.252:80 mobotix

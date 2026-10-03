@@ -1,0 +1,16 @@
+{
+  "HiSilicon Hi3510/Hi3518 (Hipcam)": "rtsp://<user>:<pass>@<host>:<rtsp_port>/11 (main) or /12 (sub)",
+  "AXIS Communications": "rtsp://<user>:<pass>@<host>/axis-media/media.amp or /onvif/streaming/channels/101",
+  "Dahua/Hikvision (ISAPI)": "rtsp://<user>:<pass>@<host>:<rtsp_port>/Streaming/Channels/101 (main) or /102 (sub)",
+  "ACTi IP cameras": "rtsp://<user>:<pass>@<host>/cam0_0 or /av0_0",
+  "WebcamXP 5": "http://<host>:<port>/cam_1.cgi (MJPEG, no auth or admin/<empty>)",
+  "HiSilicon Hi3510/Hi3518 (Hipcam) HTTP MJPEG": "http://<user>:<pass>@<host>/web/tmpfs/video.mjpg",
+  "VLC/RTSP/IP Camera (PSIA)": "rtsp://<user>:<pass>@<host>/PSIA/Streaming/channels/1",
+  "ONVIF (generic)": "rtsp://<user>:<pass>@<host>/onvif/streaming/channels/101",
+  "Hikvision H.264 RTSP": "rtsp://<user>:<pass>@<host>/h264/ch1/main/av_stream",
+  "Hikvision MJPEG RTSP": "rtsp://<user>:<pass>@<host>/mpeg4/ch1/main/av_stream",
+  "Most IP cams (no auth)": "http://<host>/web/tmpfs/snap.jpg",
+  "Most IP cams (no auth) mjpg": "http://<host>/mjpg/video.mjpg",
+  "D-Link MJPEG": "http://<host>/video.cgi",
+  "Generic Foscam": "http://<host>/cgi-bin/CGIStream.cgi"
+}

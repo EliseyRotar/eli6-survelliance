@@ -1,0 +1,130 @@
+[15:41:23] [init] starting Argus v3 ingestion
+[15:41:24] [init] 63949 existing live URLs, 56718 existing argus IDs
+[15:41:24] [core] 229308 cams in Argus core
+[15:41:24] [progress] resuming from chunk 0, 0 chunks done previously
+[15:42:47]   progress chunk 5/229, added=20, seen=63969, existing_ids=56738
+[15:43:45] [init] starting Argus v3 ingestion
+[15:43:46] [init] 63969 existing live URLs, 56738 existing argus IDs
+[15:43:46] [core] 229308 cams in Argus core
+[15:43:46] [progress] resuming from chunk 8, 8 chunks done previously
+[15:47:09]   progress chunk 10/229, added=20, seen=63969, existing_ids=56738
+[15:48:16]   progress chunk 15/229, added=30, seen=63979, existing_ids=56748
+[15:51:20]   progress chunk 20/229, added=33, seen=63982, existing_ids=56751
+[15:53:50] [init] starting Argus v3 ingestion
+[15:53:51] [init] 64213 existing live URLs, 56751 existing argus IDs
+[15:53:51] [core] 229308 cams in Argus core
+[15:53:51] [progress] resuming from chunk 20, 20 chunks done previously
+[16:04:36]   progress chunk 25/229, added=1, seen=64214, existing_ids=56752
+[16:13:31] [init] starting Argus v3 ingestion
+[16:13:32] [init] 65184 existing live URLs, 56796 existing argus IDs
+[16:13:32] [core] 229308 cams in Argus core
+[16:13:32] [progress] resuming from chunk 29, 29 chunks done previously
+[16:15:03]   progress chunk 30/229, added=12, seen=65196, existing_ids=56808
+[16:15:30]   progress chunk 35/229, added=13, seen=65197, existing_ids=56809
+[16:16:41]   progress chunk 40/229, added=20, seen=65204, existing_ids=56816
+[16:54:02]   progress chunk 45/229, added=288, seen=65472, existing_ids=57084
+[16:56:39]   progress chunk 50/229, added=309, seen=65493, existing_ids=57105
+[17:01:51]   progress chunk 55/229, added=353, seen=65537, existing_ids=57149
+[17:08:37]   progress chunk 60/229, added=434, seen=65618, existing_ids=57230
+[17:09:55]   progress chunk 65/229, added=446, seen=65630, existing_ids=57242
+[17:09:57]   progress chunk 70/229, added=446, seen=65630, existing_ids=57242
+[17:10:17]   progress chunk 75/229, added=446, seen=65630, existing_ids=57242
+[17:15:16]   progress chunk 80/229, added=481, seen=65665, existing_ids=57277
+[19:11:26] [init] starting Argus v3 ingestion
+[19:12:30] [init] starting Argus v3 ingestion
+[19:12:56] [init] starting Argus v3 ingestion
+[19:14:11] [init] starting Argus v3 ingestion
+[19:14:13] [init] 66983 existing live URLs, 56167 existing argus IDs
+[19:14:13] [core] 229308 cams in Argus core
+[19:14:13] [progress] resuming from chunk 81, 81 chunks done previously
+[19:16:20] [init] starting Argus v3 ingestion
+[19:16:22] [init] 66983 existing live URLs, 56167 existing argus IDs
+[19:16:22] [core] 229308 cams in Argus core
+[19:16:22] [progress] resuming from chunk 81, 81 chunks done previously
+[19:18:27] [init] starting Argus v3 ingestion
+[19:18:28] [init] 66983 existing live URLs, 56167 existing argus IDs
+[19:18:29] [core] 229308 cams in Argus core
+[19:18:29] [progress] resuming from chunk 81, 81 chunks done previously
+[19:36:31] [init] starting Argus v3 ingestion
+[19:36:32] [init] 66983 existing live URLs, 56167 existing argus IDs
+[19:36:32] [core] 229308 cams in Argus core
+[19:36:32] [progress] resuming from chunk 81, 81 chunks done previously
+[20:57:11] [init] starting Argus v3 ingestion
+[20:57:13] [init] 174654 existing live URLs, 56802 existing argus IDs
+[20:57:13] [core] 229308 cams in Argus core
+[20:57:13] [progress] resuming from chunk 81, 81 chunks done previously
+[21:02:31] [init] starting Argus v3 ingestion
+[21:02:36] [init] 174767 existing live URLs, 56845 existing argus IDs
+[21:02:36] [core] 229308 cams in Argus core
+[21:02:36] [progress] resuming from chunk 81, 81 chunks done previously
+[21:17:08] [init] starting Argus v3 ingestion
+[21:17:11] [init] 174970 existing live URLs, 56967 existing argus IDs
+[21:17:12] [core] 229308 cams in Argus core
+[21:17:12] [progress] resuming from chunk 82, 82 chunks done previously
+[00:05:11] [init] starting Argus v3 ingestion
+[00:05:15] [init] 178837 existing live URLs, 57765 existing argus IDs
+[00:05:15] [core] 229308 cams in Argus core
+[00:05:15] [progress] resuming from chunk 82, 82 chunks done previously
+[03:49:49]   progress chunk 85/229, added=2131, seen=180968, existing_ids=59896
+[12:24:50] [init] starting Argus v3 ingestion
+[12:24:54] [init] 194492 existing live URLs, 64449 existing argus IDs
+[12:24:55] [core] 229308 cams in Argus core
+[12:24:55] [progress] resuming from chunk 89, 89 chunks done previously
+[13:25:04]   progress chunk 90/229, added=351, seen=194843, existing_ids=64800
+[16:53:54] [init] starting Argus v3 ingestion
+[16:53:58] [init] 197324 existing live URLs, 65620 existing argus IDs
+[16:53:58] [core] 229308 cams in Argus core
+[16:53:58] [progress] resuming from chunk 90, 90 chunks done previously
+[19:01:11] [init] starting Argus v3 ingestion
+[19:01:16] [init] 200280 existing live URLs, 66405 existing argus IDs
+[19:01:16] [core] 229308 cams in Argus core
+[19:01:16] [progress] resuming from chunk 91, 91 chunks done previously
+[20:26:21] [init] starting Argus v3 ingestion
+[20:27:31] [init] starting Argus v3 ingestion
+[20:27:33] [init] 112057 existing live URLs, 55375 existing argus IDs
+[20:27:33] [core] 229308 cams in Argus core
+[20:27:33] [progress] resuming from chunk 92, 92 chunks done previously
+[20:28:40] [init] starting Argus v3 ingestion
+[20:28:43] [init] 120058 existing live URLs, 55376 existing argus IDs
+[20:28:43] [core] 229308 cams in Argus core
+[20:28:43] [progress] resuming from chunk 92, 92 chunks done previously
+[15:05:30] [init] starting Argus v3 ingestion
+[15:05:33] [init] 175056 existing live URLs, 56987 existing argus IDs
+[15:05:33] [core] 229308 cams in Argus core
+[15:05:33] [progress] resuming from chunk 92, 92 chunks done previously
+[00:51:44] [init] starting Argus v3 ingestion
+[00:51:54] [init] 153373 existing live URLs, 55314 existing argus IDs
+[00:51:54] [core] 229308 cams in Argus core
+[00:51:54] [progress] resuming from chunk 94, 94 chunks done previously
+[01:52:19]   progress chunk 95/229, added=154, seen=153527, existing_ids=55468
+[07:09:02] [init] starting Argus v3 ingestion
+[11:15:33] [init] starting Argus v3 ingestion
+[11:15:36] [init] 128021 existing live URLs, 44448 existing argus IDs
+[11:15:36] [core] 229308 cams in Argus core
+[11:15:36] [progress] resuming from chunk 95, 95 chunks done previously
+[21:23:59]   progress chunk 100/229, added=4157, seen=132178, existing_ids=48605
+[23:50:44] [init] starting Argus v3 ingestion
+[23:50:47] [init] 168647 existing live URLs, 48563 existing argus IDs
+[23:50:47] [core] 229308 cams in Argus core
+[23:50:47] [progress] resuming from chunk 100, 100 chunks done previously
+[00:10:24]   progress chunk 105/229, added=188, seen=168835, existing_ids=48751
+[00:17:43]   progress chunk 110/229, added=250, seen=168897, existing_ids=48813
+[01:18:31]   progress chunk 115/229, added=793, seen=169440, existing_ids=49356
+[03:59:45]   progress chunk 120/229, added=2312, seen=170959, existing_ids=50875
+[08:39:47]   progress chunk 125/229, added=4664, seen=173311, existing_ids=53227
+[10:08:03] [init] starting Argus v3 ingestion
+[10:08:06] [init] 196521 existing live URLs, 52915 existing argus IDs
+[10:08:07] [core] 229308 cams in Argus core
+[10:08:07] [progress] resuming from chunk 127, 127 chunks done previously
+[13:04:25]   progress chunk 130/229, added=1242, seen=197763, existing_ids=54157
+[15:46:12] [init] starting Argus v3 ingestion
+[15:46:15] [init] 149472 existing live URLs, 44575 existing argus IDs
+[15:46:15] [core] 229308 cams in Argus core
+[15:46:15] [progress] resuming from chunk 130, 130 chunks done previously
+[18:18:42] [init] starting Argus v3 ingestion
+[18:18:45] [init] 173844 existing live URLs, 45513 existing argus IDs
+[18:18:45] [core] 229308 cams in Argus core
+[18:18:45] [progress] resuming from chunk 132, 132 chunks done previously
+[22:06:15]   progress chunk 135/229, added=1755, seen=175599, existing_ids=47268
+[08:32:26]   progress chunk 140/229, added=6740, seen=180584, existing_ids=52253
+[13:17:04]   progress chunk 145/229, added=11657, seen=185501, existing_ids=57170

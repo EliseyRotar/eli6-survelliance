@@ -1,0 +1,45 @@
+[23:08:14] [init] starting Argus v2 ingestion
+[23:08:14] [init] 2589 existing live URLs
+[23:08:15] [core] 229308 cams in Argus core
+[23:30:07] [init] starting Argus v2 ingestion
+[23:30:07] [init] 6273 existing live URLs
+[23:30:07] [core] 229308 cams in Argus core
+[23:58:46] [init] starting Argus v2 ingestion
+[23:58:46] [init] 7759 existing live URLs
+[23:58:46] [core] 229308 cams in Argus core
+[00:32:22]   progress chunk 10/229, added=2582, seen=10341
+[01:30:24]   progress chunk 20/229, added=9452, seen=17211
+[02:39:48]   progress chunk 30/229, added=14791, seen=22550
+[03:22:00]   progress chunk 40/229, added=21245, seen=29004
+[04:35:26]   progress chunk 50/229, added=28165, seen=35924
+[05:57:40]   progress chunk 60/229, added=36426, seen=44185
+[07:51:30]   progress chunk 70/229, added=45919, seen=53678
+[11:05:45] [init] starting Argus v2 ingestion
+[11:05:46] [init] 62787 existing live URLs
+[11:05:46] [core] 229308 cams in Argus core
+[11:43:38] [init] starting Argus v2 ingestion
+[11:43:38] [init] 63058 existing live URLs
+[11:43:38] [core] 229308 cams in Argus core
+[12:10:21]   progress chunk 10/229, added=166, seen=63224
+[12:31:16] [init] starting Argus v2 ingestion
+[12:31:17] [init] 63309 existing live URLs
+[12:31:17] [core] 229308 cams in Argus core
+[13:11:59] [init] starting Argus v2 ingestion
+[13:11:59] [init] 63474 existing live URLs
+[13:12:00] [core] 229308 cams in Argus core
+[13:37:14]   progress chunk 10/229, added=142, seen=63616
+[13:47:55] [init] starting Argus v2 ingestion
+[13:47:56] [init] 63709 existing live URLs
+[13:47:56] [core] 229308 cams in Argus core
+[14:13:10]   progress chunk 10/229, added=136, seen=63845
+[14:24:23] [init] starting Argus v2 ingestion
+[14:24:24] [init] 63837 existing live URLs
+[14:24:24] [core] 229308 cams in Argus core
+[14:25:25] [init] starting Argus v2 ingestion
+[14:25:25] [init] 63843 existing live URLs
+[14:25:25] [core] 229308 cams in Argus core
+[14:29:23] [init] starting Argus v2 ingestion
+[14:29:23] [init] 63854 existing live URLs
+[14:29:24] [core] 229308 cams in Argus core
+[14:57:46]   progress chunk 10/229, added=133, seen=63987
+[15:09:26]   progress chunk 20/229, added=137, seen=63991

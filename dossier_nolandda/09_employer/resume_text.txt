@@ -1,0 +1,96 @@
+Last Updated on 19th April 2016
+Dan Noland
+http://nolandda.org/
+nolandda@gmail.com | 765.532.7327
+EDUCATION
+PURDUE UNIVERSITY
+MS COMPUTER SCIENCE
+Dec 2004 | West Lafayette, IN
+BS COMPUTER SCIENCE
+May 2001 | West Lafayette, IN
+SKILLS
+PROGRAMMING
+Strongest
+C • C++ • Perl
+Strong
+Java • Python • x86 Assembly
+Familiar
+Pascal • PPC Assembly • SQL
+OTHER SKILLS
+Reverse Engineering • Cryptography
+Anti-T amper• Vulnerability Assessment
+Scrum Master • Continuous Integration
+Agile Development • Unit T esting
+gdb • IDA Pro • WinDbg
+Systems Programming • TCP/IP
+XML • CGI • Linux • Windows
+Linkers & Loaders • COFF • ELF
+Network Security • tcpdump • DNS
+Firewalls • SSH • SSL
+CLEARANCE
+TS/SCI
+COURSEWORK
+GRADUATE
+Information Assurance & Security
+Cryptography
+Operating Systems
+Algorithm Design & Analysis
+Network System Design
+Compiler Design
+UNDERGRADUATE
+Computer Architecture
+Data Structures
+Operating Systems
+Software Engineering
+Computer Networking
+Security
+Artiﬁcial Intelligence
+EXPERIENCE
+STAR LAB | SENIOR SECURITY ARCHITECT
+Feb. 2015 – Present | Washington, DC
+• Served as Anti-tamper subject mater expert for a large Navy program. Created
+white papers and briefed leadership.
+• Implemented custom security algorithms to ensure that the system was
+running on authorized hardware using a custom SYSLINUX bootloader and
+standard cryptographic algorithms.
+• Conducted research and development into novel applications of Intel SGX
+technologies.
+MICROSEMI | SOFTWARE LEAD / SR. SOFTWARE ENGINEER
+Sept. 2010 – Jan 2015 | West Lafayette, IN
+• Led software team of 8+ to develop the company’s new ﬂagship software
+protection engine with the ability to obfuscate and protect x86 and PPC code.
+• Implemented “whitebox” versions of many standard cryptographic algorithms
+including RSA, AES, and ECC to mitigate key lifting attacks on hostile targets by
+mathematically decomposing keys.
+• Served on the Design and Architecture Committee with ﬁnal oversight of
+software architecture for the division.
+• Spread technical knowledge by acting as technical expert at sales calls,
+providing training, and helping customers resolve issues.
+ARXAN DEFENSE SYSTEMS | SOFTWARE LEAD / SR. SOFTWARE
+ENGINEER
+Dec. 2004 – Sept. 2010 | West Lafayette, IN
+• Worked on a team that successfully reverse engineered (Red T eam)and
+defeated a major DRM system.
+• Fortiﬁed customer code against tampering and reverse engineering with
+custom-developed software protection mechanisms.
+• Designed and implemented an evolutionary algorithm to automatically
+generate software protections.
+• Designed and implemented a software protection web portal allowing
+customers to remotely protect their software.
+• Added new features and ﬁxed defects in the core software protection engine.
+• Contributed to a number of DoD SBIR proposals resulting in total awards in
+excess of $500,000. Personally authored a proposal resulting in an award of
+$200,000.
+PURDUE UNIVERSITY RESEARCH COMPUTING | PROGRAMMER
+Jun. 2003 – Dec. 2004 | West Lafayette, IN
+• Worked with professors in engineering, statistics, and mathematics to help
+them optimize and improve their research code.
+• Administered grid computing tools, certiﬁcates, and accounts.
+PUBLICATIONS
+• K. Simonsen, D. Noland, and C. Le: An Efﬁcient Algorithm for Simulating
+Coalescence with Recombination. Computing Science and Statistics Volume 36
+• P .Meunier, S. Nystrom, S. Kamara, S. Yost, K. Alexander,D. Noland, and J. Crane:
+ActiveSync, TCP/IPand 802.11b Wireless Vulnerabilities of WinCE-Based
+PDAs. Proceedings of Eleventh IEEE International Workshops on Enabling
+T echnologies
+1

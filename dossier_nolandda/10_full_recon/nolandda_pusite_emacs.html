@@ -1,0 +1,371 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=iso-8859-1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Emacs Talk</title>
+  </head>
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000000">
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="90%" height="50" bgcolor="#00ff00"></td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000">hidden text</td>
+    </tr>
+    <tr>
+      <td>
+      <br><br><br>
+	<div align="center">
+	<table border="0" width="60%">
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Start and Stop</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Emacs is located in <tt>/usr/bin</tt> or
+	  <tt>/usr/local/bin</tt> on any sane system. This of course
+	  means that it is located in <tt>/usr/local/gnu</tt> on the
+	  CS network.
+	  <li> To start emacs:<br>
+	  <tt>romulus: [~] emacs</tt><br>
+	  or<br>
+	  <tt>romulus: [~] emacs filename1 filename2 ... </tt><br>
+	  or<br>
+	  <tt>romulus: [~] emacs -nw </tt><br>
+	  or<br>
+	  <tt>romulus: [~] emacs -nw filename1 filename2 ...</tt><br>
+          <li> To stop emacs:<br>
+	  <tt>ctrl-x ctrl-c</tt><br>
+          <li> To cancel whatever you are doing:<br>
+	  <tt>ctrl-g</tt>
+	  </ul>
+	  <br><br>
+	  </td>
+        </tr>
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Files</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> To open a file within emacs:<br>
+	  <tt>ctrl-x ctrl-f</tt><br>
+          <li> To save the current file:<br>
+	  <tt>ctrl-x ctrl-s</tt><br>
+          <li> To save the current file with a new name (Windows: Save As...):<br>
+	  <tt>ctrl-x ctrl-w</tt><br>
+          <li> To save ALL open files:<br>
+	  <tt>ctrl-x s</tt><br>
+<br> 
+          </ul>
+	  </td>
+        </tr>
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Buffers</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Don't quit! If you learn how to read in multiple files
+	  into buffers in Emacs, you should never have to quit Emacs
+	  anymore, except at logout.
+	  <li> Switching to the next buffer is faster than starting a
+	  fresh Emacs session, and you still have your files around,
+	  cursor positioned at the point where you left off, et
+	  cetera. 
+	  <li> To switch buffers using a buffer list:<br>
+	  <tt>ctrl-x ctrl-b</tt><br>
+	  <li> To switch buffers by name:<br>
+	  <tt>ctrl-x b</tt><br>
+          <li> To kill a buffer:<br>
+	  <tt>ctrl-x k</tt><br><br>
+	  </ul>
+	  </td>
+        </tr>
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Help</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul> 
+	  <li> A tutorial for beginners featuring hands-on learning:<br>
+	  <tt>ctrl-h t</tt><br>
+          <li> The info system (hypertext man pages):<br>
+	  <tt>ctrl-h i</tt><br>
+	  On an info menu screen use:<br>
+	  <ul>
+	  <li> m - select the current option/link
+	  <li> p - go back to the previous page
+	  <li> n - go forward to the next page
+	  <li> t - go to the top of the page
+	  <li> q - quit (or just kill the info buffer)
+	  </ul>
+          <li> For an overview of the predefined key bindings (commands):<br>
+	  <tt>ctrl-h b</tt><br><br>
+	  </ul>
+	  </td>
+        </tr>
+
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Moving Around</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> For normal movement use the arrow keys. There is no
+	  beep mode.
+          <li> Go to the beginning of a line:<br>
+	  <tt>ctrl-a</tt><br>
+          <li> Go to the end of a line:<br>
+	  <tt>ctrl-e</tt><br>
+          <li> Go to the beginning of a function:<br>
+	  <tt>ctrl-meta-a</tt><br>
+          <li> Go to the end of a function:<br>
+	  <tt>ctrl-meta-e</tt><br>
+          <li> Go to the beginning of the buffer:<br>
+	  <tt>meta-&lt;</tt><br>
+          <li> Go to the end of the buffer:<br>
+	  <tt>meta-&gt;</tt><br>
+          <li> To go directly to a specific line number:<br>
+	  <tt>ESC-g</tt><br><br>
+	  </ul>
+	  </td>
+        </tr>
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Editing Text</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Emacs has two text editing modes: insert mode and
+	  overwrite mode. Use the insert key to switch between them.
+	  <li> Emacs doesn't believe in the delete key use:<br>
+	  <tt>ctrl-d</tt><br>
+          <li> To kill a line (from the cursor to the end of line):<br>
+	  <tt>ctrl-k</tt><br>
+          <li> To paste a recently killed block (emacs calls paste yank):<br>
+	  <tt>ctrl-y</tt><br>
+          <li> Undo!<br>
+	  <tt>ctrl-x u</tt><br><br>
+	  </ul>
+	  </td>
+        </tr>
+
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Searching</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> To search:<br>
+	  <tt>ctrl-s</tt><br>
+	  <li> To repeat search (find next...):<br>
+	  <tt>ctrl-s</tt><br>
+          <li> To search and replace:<br>
+	  <tt>meta-shift-5</tt><br>
+	  or<br>
+	  <tt>meta-%</tt><br>
+	  When you do a search and replace you will be prompted for
+	  each match. Proper responses are:
+	  <ul>
+	  <li>y - yes replace this match
+	  <li>n - no do not replace this match
+	  <li>! - I am insane, replace all remaining matches
+	  </ul>	  
+	  </ul>
+	  </td>
+        </tr>
+
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Splitting The Screen</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Horizontal split :<br>
+	  <tt>ctrl-x 2</tt><br>
+          <li> Vertical split:<br>
+	  <tt>ctrl-x 3</tt><br>
+          <li> Jump to the other window:<br>
+	  <tt>ctrl-x o</tt><br>
+          <li> Scroll the other window:<br>
+	  <tt>ctrl-meta-v</tt><br>
+          <li> Revert to single window:<br>
+	  <tt>ctrl-x 1</tt><br>
+	  <br>
+	  </ul>
+	  </td>
+        </tr>
+
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Marking Regions</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Marking allows you to select a region just as though
+	  you highlighted it with the mouse. You can then perform
+	  various operations on the region <font color="red">between
+	  the mark and the current cursor position</font>.
+	  <li> Set Mark Here:<br>
+	  <tt>ctrl-space</tt><br>
+	  <li> Mark Paragraph:<br>
+	  <tt>meta-h</tt><br>
+	  <li> Mark Function:<br>
+	  <tt>ctrl-meta-h</tt><br>
+	  <li> Mark Whole Buffer (Select All...):<br>
+	  <tt>ctrl-x h</tt><br>
+	  <li> Cut region:<br>
+	  <tt>ctrl-w</tt><br>
+	  <li> Copy region:<br>
+	  <tt>meta-w</tt><br>
+	  <br>
+	  </ul>
+	  </td>
+        </tr>
+
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Emacs as an IDE</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Fancy file headers:<br>
+	  <tt> meta-x make-header</tt><br>
+	  <li> Version Control:<br>
+	  <li> Register a file for version control<br>
+	  <tt> C-x v i</tt><br>
+	  <li> Commits a modified file that's already been registered
+        for version control<br>
+	  <tt> C-x v v</tt><br>
+	  <li> Save the revision comment and commit the change<br>
+	  <tt> C-c C-c</tt><br>		  
+	  <li> Revert a buffer to the last revision<br>
+	   <tt> C-x v u</tt><br>
+	   <li> See differences between buffer and last revision<br>
+	   <tt> C-x v =</tt><br>
+	   <li> Retreive a given revision in another window<br>
+	  <tt> C-x v ~</tt><br>
+          <li> Compile:<br>
+	  <tt>meta-x compile</tt><br>
+	  <li> Next Compiler Error:<br>
+	  <tt> C-x `</tt> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+(a backtick)<br>
+          <li> Debug:<br>
+	  <tt>meta-x gdb</tt>
+          <li> Hex Editor:<br>
+	  <tt>meta-x hexel-mode</tt><br><br>
+	  </ul>
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Stupid Emacs Tricks</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> Spell checker:<br>
+	  <tt>meta-x ispell-buffer</tt><br>
+	  <li> Execute any shell command:<br>
+	  <tt>meta-!</tt><br>
+	  <li> Start a new shell within emacs:<br>
+	  <tt>meta-x shell</tt><br>
+          <li> Send and Read email:<br>
+	  <tt>meta-x rmail</tt><br>
+          <li> Send and Read news posts:<br>
+	  <tt>meta-x gnus</tt><br>
+          <li>Using ftp is as simple as reading in a file <tt>(ctrl-x
+          ctrl-f)</tt> and using a filename consisting of a username,
+          site, and file in the following syntax:<br>
+	  <tt>/(username)@(site):(file)<br>
+	    (e.g. /anonymous@ftp.cerias.purdue.edu:/pub)</tt><br>
+	    Ange may then prompt you for a password. If the file
+	    opened was a regular file, it will be sucked into a buffer
+	    without copying it into your directory. You can also specify
+	    directories as as in the above example. Ange then uses the
+	    directory editor.<br>
+          <li> Recover lost file after a crash:<br>
+	  <tt>meta-x recover-file</tt><br>
+          <li> Restore a buffer to its original contents:<br>
+	  <tt>meta-x revert-buffer</tt><br>
+          <li> Seek professional help:<br>
+	  <tt>meta-x doctor</tt><br>
+	  <br>
+	  </ul>
+	  </td>
+        </tr>
+
+	<tr>
+	  <td bgcolor="#00ff00">
+	    <div align="center"><font size="+2"><b>Links and Stuff</b></font></div>
+        </td>
+	</tr>
+	<tr>
+	  <td align="left">
+	  <ul>
+	  <li> My .emacs file of ultimate power (put it in your home directory):<br>
+	  <a href="./unixrc/dot.emacs">.emacs</a><br>
+	  <li> Loading header2.el allows you make lovely headers:<br>
+	  <a href="./unixrc/header2.el">header2.el</a><br>
+          <li> GNU Emacs Reference Card (seven pages):<br>
+	  <a href="http://www.geek-girl.com/emacs/refcard.html">http://www.geek-girl.com/emacs/refcard.html</a><br>
+	  <li> Gnu Emacs Manual (good for insomnia):<br>
+	  <a href="http://www.gnu.org/manual/emacs-21.2/html_chapter/emacs_toc.html">http://www.gnu.org/manual/emacs-21.2/html_chapter/emacs_toc.html</a><br>
+	  <br>
+	  </ul>
+	  </td>
+        </tr>
+
+
+	</table>
+      </div>
+      <br><br><br>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#000000">hidden text</td>
+    </tr>
+    <tr>
+      <td width="800" height="50" bgcolor="#00ff00"></td>
+    </tr>
+  </table>
+  </center>
+</div>
+ 
+</body>
+</html>
+
+
+

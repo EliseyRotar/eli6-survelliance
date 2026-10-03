@@ -1,0 +1,28 @@
+[11:33:16] [init] starting IP-API freshener (Tier 4)
+[11:33:16] [init] 63309 rows
+[11:33:16] [plan] 689 unique IPs
+[11:33:17] [cache] 0 cached entries
+[11:33:17] [plan] 689 IPs to query
+[11:33:17]   batch 1/7, got 100 results
+[11:33:20]   batch 2/7, got 100 results
+[11:33:24]   batch 3/7, got 100 results
+[11:33:27]   batch 4/7, got 100 results
+[11:33:30]   batch 5/7, got 100 results
+[11:33:34]   batch 6/7, got 100 results
+[11:33:37]   batch 7/7, got 89 results
+[11:33:40] [apply] updating CSV with cached IP info
+[11:33:40] [done] updated 669 rows
+[11:37:47] [init] starting IP-API freshener (Tier 4)
+[11:37:47] [init] 63309 rows
+[11:37:47] [plan] 689 unique IPs
+[11:37:47] [cache] 689 cached entries
+[11:37:47] [plan] 0 IPs to query
+[11:37:47] [apply] updating CSV with cached IP info
+[11:37:47] [done] updated 669 rows
+[12:45:01] [init] starting IP-API freshener (Tier 4)
+[12:45:01] [init] 63819 rows
+[12:45:01] [plan] 689 unique IPs
+[12:45:01] [cache] 689 cached entries
+[12:45:01] [plan] 0 IPs to query
+[12:45:01] [apply] updating CSV with cached IP info
+[12:45:01] [done] updated 623 rows

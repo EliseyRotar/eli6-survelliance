@@ -1,0 +1,66 @@
+[10:56:16] [creds] loaded 281 credential pairs
+[10:56:16] [init] 321 existing hosts
+[10:56:16] [probe] trying 143 hosts for auth-required cam endpoints
+[10:56:20]   AUTH-REQ 133.232.94.137:80 axis 401  -> brute forcing...
+[10:57:00]   AUTH-REQ 50.197.223.170:80 hikvision 401  -> brute forcing...
+[10:57:32]   AUTH-REQ 74.88.252.233:80 axis 401  -> brute forcing...
+[13:40:39] [creds] loaded 281 credential pairs
+[13:40:39] [init] 328 existing hosts
+[13:40:39] [probe] trying 147 hosts for auth-required cam endpoints
+[13:40:39]   AUTH-REQ 87.139.9.247:80 axis 401  -> brute forcing...
+[13:40:41]   AUTH-REQ 50.197.223.170:80 hikvision 401  -> brute forcing...
+[13:41:16]   AUTH-REQ 162.204.123.101:80 axis 401  -> brute forcing...
+[13:51:02]   AUTH-REQ 133.232.94.137:80 axis 401  -> brute forcing...
+[14:27:08]   AUTH-REQ 188.10.94.195:9000 axis 401  -> brute forcing...
+[17:14:26] [creds] loaded 281 credential pairs
+[17:14:26] [init] 1034 existing hosts
+[17:14:26] [probe] trying 145 hosts for auth-required cam endpoints
+[17:14:46]   AUTH-REQ 133.232.94.137:80 axis 401  -> brute forcing...
+[17:16:20]   AUTH-REQ 162.204.123.101:80 axis 401  -> brute forcing...
+[17:21:05]   AUTH-REQ 104.8.232.105:8081 hikvision 401  -> brute forcing...
+[19:13:09] [creds] loaded 281 credential pairs
+[19:13:09] [init] 1079 existing hosts
+[19:13:09] [probe] trying 144 hosts for auth-required cam endpoints
+[19:13:12]   AUTH-REQ 162.204.123.101:80 axis 401  -> brute forcing...
+[19:14:30]   AUTH-REQ 104.8.232.105:8081 hikvision 401  -> brute forcing...
+[19:16:18]   AUTH-REQ 74.88.252.233:80 axis 401  -> brute forcing...
+[21:12:12] [creds] loaded 281 credential pairs
+[21:12:12] [init] 1114 existing hosts
+[21:12:12] [probe] trying 153 hosts for auth-required cam endpoints
+[21:12:48]   AUTH-REQ 104.8.232.105:8081 hikvision 401  -> brute forcing...
+[21:14:14]   AUTH-REQ 188.10.94.195:9000 axis 401  -> brute forcing...
+[21:56:42] [done] found 0 cred-cracked cams
+[23:10:18] [creds] loaded 281 credential pairs
+[23:10:18] [init] 1806 existing hosts
+[23:10:18] [probe] trying 107 hosts for auth-required cam endpoints
+[23:14:52] [done] found 0 cred-cracked cams
+[23:30:07] [creds] loaded 281 credential pairs
+[23:30:07] [init] 2044 existing hosts
+[23:30:07] [probe] trying 87 hosts for auth-required cam endpoints
+[23:58:46] [creds] loaded 281 credential pairs
+[23:58:46] [init] 1906 existing hosts
+[23:58:46] [probe] trying 74 hosts for auth-required cam endpoints
+[00:02:17] [done] found 0 cred-cracked cams
+[11:05:45] [creds] loaded 281 credential pairs
+[11:05:47] [init] 3584 existing hosts
+[11:05:47] [probe] trying 42 hosts for auth-required cam endpoints
+[11:43:38] [creds] loaded 281 credential pairs
+[11:43:39] [init] 3597 existing hosts
+[11:43:39] [probe] trying 42 hosts for auth-required cam endpoints
+[12:31:16] [creds] loaded 281 credential pairs
+[12:31:18] [init] 3612 existing hosts
+[12:31:18] [probe] trying 38 hosts for auth-required cam endpoints
+[13:11:59] [creds] loaded 281 credential pairs
+[13:12:01] [init] 3656 existing hosts
+[13:12:01] [probe] trying 52 hosts for auth-required cam endpoints
+[13:47:55] [creds] loaded 281 credential pairs
+[13:47:57] [init] 3664 existing hosts
+[13:47:57] [probe] trying 43 hosts for auth-required cam endpoints
+[14:24:24] [creds] loaded 281 credential pairs
+[14:24:26] [init] 3669 existing hosts
+[14:24:26] [probe] trying 50 hosts for auth-required cam endpoints
+[14:29:23] [creds] loaded 281 credential pairs
+[14:29:25] [init] 3672 existing hosts
+[14:29:25] [probe] trying 63 hosts for auth-required cam endpoints
+[14:29:29]   AUTH-REQ 109.233.220.234:8080 axis 401  -> brute forcing...
+[14:39:09] [done] found 0 cred-cracked cams

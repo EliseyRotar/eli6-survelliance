@@ -1,0 +1,9 @@
+var dhcpflag="on";
+var ip="192.168.100.121";
+var netmask="255.255.255.0";
+var gateway="192.168.100.1";
+var dnsstat="1";
+var fdnsip="192.168.100.1";
+var sdnsip="";
+var macaddress="00:89:CE:26:24:EC";
+var networktype="LAN";

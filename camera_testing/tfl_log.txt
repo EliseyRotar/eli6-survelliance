@@ -1,0 +1,102 @@
+[16:06:32] [init] starting TfL JamCam ingestion
+[16:06:33] [init] 64823 existing live URLs, 0 existing tfl IDs
+[16:06:33] [fetch] 890 cams from TfL
+[16:13:31] [init] starting TfL JamCam ingestion
+[16:13:32] [init] 65184 existing live URLs, 75 existing tfl IDs
+[16:13:32] [fetch] 890 cams from TfL
+[16:45:09] [cycle done] added=805 cams. Re-running in 6 hours...
+[19:11:26] [init] starting TfL JamCam ingestion
+[19:12:30] [init] starting TfL JamCam ingestion
+[19:12:56] [init] starting TfL JamCam ingestion
+[19:14:11] [init] starting TfL JamCam ingestion
+[19:14:12] [init] 66983 existing live URLs, 880 existing tfl IDs
+[19:14:13] [fetch] 890 cams from TfL
+[19:14:30] [cycle done] added=10 cams. Re-running in 6 hours...
+[19:16:20] [init] starting TfL JamCam ingestion
+[19:16:22] [init] 66983 existing live URLs, 880 existing tfl IDs
+[19:16:22] [fetch] 890 cams from TfL
+[19:17:29] [cycle done] added=9 cams. Re-running in 6 hours...
+[19:18:27] [init] starting TfL JamCam ingestion
+[19:18:28] [init] 66983 existing live URLs, 880 existing tfl IDs
+[19:18:29] [fetch] 890 cams from TfL
+[19:19:54] [cycle done] added=6 cams. Re-running in 6 hours...
+[19:36:31] [init] starting TfL JamCam ingestion
+[19:36:32] [init] 66983 existing live URLs, 880 existing tfl IDs
+[19:36:32] [fetch] 890 cams from TfL
+[19:37:16] [cycle done] added=9 cams. Re-running in 6 hours...
+[21:02:31] [init] starting TfL JamCam ingestion
+[21:02:36] [init] 174767 existing live URLs, 880 existing tfl IDs
+[21:02:36] [fetch] 890 cams from TfL
+[21:02:36] [cycle done] added=0 cams. Re-running in 6 hours...
+[21:17:08] [init] starting TfL JamCam ingestion
+[21:17:12] [init] 174970 existing live URLs, 880 existing tfl IDs
+[21:17:12] [fetch] 890 cams from TfL
+[21:17:12] [cycle done] added=0 cams. Re-running in 6 hours...
+[00:05:11] [init] starting TfL JamCam ingestion
+[00:05:15] [init] 178837 existing live URLs, 880 existing tfl IDs
+[00:05:15] [fetch] 890 cams from TfL
+[00:05:15] [cycle done] added=0 cams. Re-running in 6 hours...
+[06:05:19] [fetch] 890 cams from TfL
+[06:05:19] [cycle done] added=0 cams. Re-running in 6 hours...
+[12:05:23] [fetch] 890 cams from TfL
+[12:05:23] [cycle done] added=0 cams. Re-running in 6 hours...
+[12:24:50] [init] starting TfL JamCam ingestion
+[12:24:55] [init] 194492 existing live URLs, 880 existing tfl IDs
+[12:24:55] [fetch] 890 cams from TfL
+[12:24:55] [cycle done] added=0 cams. Re-running in 6 hours...
+[16:53:54] [init] starting TfL JamCam ingestion
+[16:53:58] [init] 197324 existing live URLs, 880 existing tfl IDs
+[16:53:59] [fetch] 890 cams from TfL
+[16:53:59] [cycle done] added=0 cams. Re-running in 6 hours...
+[19:01:11] [init] starting TfL JamCam ingestion
+[19:01:16] [init] 200280 existing live URLs, 880 existing tfl IDs
+[19:01:16] [fetch] 890 cams from TfL
+[19:01:16] [cycle done] added=0 cams. Re-running in 6 hours...
+[20:26:21] [init] starting TfL JamCam ingestion
+[20:28:40] [init] starting TfL JamCam ingestion
+[20:28:43] [init] 120058 existing live URLs, 880 existing tfl IDs
+[20:28:43] [fetch] 890 cams from TfL
+[20:28:43] [cycle done] added=0 cams. Re-running in 6 hours...
+[15:05:30] [init] starting TfL JamCam ingestion
+[15:05:33] [init] 175056 existing live URLs, 880 existing tfl IDs
+[15:05:34] [fetch] 890 cams from TfL
+[15:05:34] [cycle done] added=0 cams. Re-running in 6 hours...
+[21:05:38] [fetch] 890 cams from TfL
+[21:05:38] [cycle done] added=0 cams. Re-running in 6 hours...
+[00:51:38] [init] starting TfL JamCam ingestion
+[00:51:48] [init] 153373 existing live URLs, 880 existing tfl IDs
+[00:51:48] [fetch] 890 cams from TfL
+[00:51:48] [cycle done] added=0 cams. Re-running in 6 hours...
+[06:51:57] [fetch] 890 cams from TfL
+[06:51:57] [cycle done] added=0 cams. Re-running in 6 hours...
+[07:09:02] [init] starting TfL JamCam ingestion
+[11:15:33] [init] starting TfL JamCam ingestion
+[11:15:35] [init] 128021 existing live URLs, 0 existing tfl IDs
+[11:15:36] [fetch] 890 cams from TfL
+[12:25:13] [cycle done] added=849 cams. Re-running in 6 hours...
+[18:25:15] [fetch] 890 cams from TfL
+[18:25:15] [cycle done] added=0 cams. Re-running in 6 hours...
+[23:50:44] [init] starting TfL JamCam ingestion
+[23:50:47] [init] 168647 existing live URLs, 8 existing tfl IDs
+[23:50:48] [fetch] 890 cams from TfL
+[23:50:48] [cycle done] added=0 cams. Re-running in 6 hours...
+[05:50:51] [fetch] 890 cams from TfL
+[05:50:51] [cycle done] added=0 cams. Re-running in 6 hours...
+[10:08:03] [init] starting TfL JamCam ingestion
+[10:08:06] [init] 196521 existing live URLs, 8 existing tfl IDs
+[10:08:07] [fetch] 890 cams from TfL
+[10:08:07] [cycle done] added=0 cams. Re-running in 6 hours...
+[15:46:12] [init] starting TfL JamCam ingestion
+[15:46:15] [init] 149472 existing live URLs, 0 existing tfl IDs
+[15:46:15] [fetch] 890 cams from TfL
+[15:46:56] [cycle done] added=8 cams. Re-running in 6 hours...
+[18:18:42] [init] starting TfL JamCam ingestion
+[18:18:45] [init] 173844 existing live URLs, 8 existing tfl IDs
+[18:18:46] [fetch] 890 cams from TfL
+[18:18:46] [cycle done] added=0 cams. Re-running in 6 hours...
+[00:18:46] [fetch] 890 cams from TfL
+[00:18:46] [cycle done] added=0 cams. Re-running in 6 hours...
+[06:18:48] [fetch] 890 cams from TfL
+[06:18:48] [cycle done] added=0 cams. Re-running in 6 hours...
+[12:18:50] [fetch] 890 cams from TfL
+[12:18:50] [cycle done] added=0 cams. Re-running in 6 hours...

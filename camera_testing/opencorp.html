@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+#captcha_frame{
+position: relative;
+background-color: white;
+margin: 2em;
+width: 35%;
+height: 20%;
+top: 35%;
+left: 32%;
+}
+</style>
+<title>HAProxy Challenge</title>
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<script type="text/javascript">
+function captcha_done(h_captcha_response)
+{
+var captcha_resp_body = "h-captcha-response=" + h_captcha_response + "&location=" + encodeURIComponent(document.URL);
+var makereport = new XMLHttpRequest();
+makereport.open("POST", "/.well-known/haproxy/captcha_callback/hcaptcha", true);
+makereport.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+makereport.setRequestHeader("Content-length", captcha_resp_body.length);
+makereport.setRequestHeader("Connection", "close");
+makereport.onreadystatechange = function () {
+if(makereport.readyState == 4 && makereport.status == 200 ) {
+document.cookie = "solved_captcha="+makereport.responseText+"; Path=/; Secure";
+location.reload();
+}
+}
+makereport.send(captcha_resp_body);
+}
+</script>
+</head>
+<body>
+<div id="captcha_frame">
+<p>We need to verify you are human before you can continue.  Please solve this Captcha and we will get you to your requested site.  Sorry for the inconvenience.</p>
+<form name="captcha_form" action="/.well-known/haproxy/captcha_callback/hcaptcha" method="POST">
+<input type="hidden" name="h-captcha-response" value="">
+<div class="h-captcha" data-sitekey="5ddae562-c25e-4910-85ae-e758f8841672" data-callback="captcha_done"></div>
+</form>
+</div>
+</body>
+</html>

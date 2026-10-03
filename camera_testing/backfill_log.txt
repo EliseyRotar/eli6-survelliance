@@ -1,0 +1,3 @@
+[Brand Backfill] Reading C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv
+[Brand Backfill] 173,844 rows
+[Brand Backfill] Updated 0 rows

@@ -1,0 +1,35 @@
+=== Method 1: X-Forwarded-For / X-Real-IP with Ruse/BG IPs ===
+  XFF=212.25.0.1: status=None loc=<urlopen error timed out>
+  XFF=212.25.48.1: status=None loc=<urlopen error timed out>
+  XFF=85.130.0.1: status=None loc=<urlopen error timed out>
+  XFF=79.100.0.1: status=None loc=<urlopen error timed out>
+  XFF=95.43.0.1: status=None loc=<urlopen error timed out>
+  XFF=127.0.0.1: status=None loc=<urlopen error timed out>
+  XFF=85.130.10.10: status=None loc=<urlopen error timed out>
+  XFF=212.5.0.1: status=None loc=<urlopen error timed out>
+
+=== Method 2: Host header variations ===
+
+=== Method 3: Other ports ===
+  Port 80: blocked (timed out)
+  Port 443: blocked (timed out)
+  Port 8081: blocked (timed out)
+  Port 8000: blocked (timed out)
+  Port 8443: blocked (timed out)
+  Port 9000: blocked (timed out)
+  Port 9090: blocked (timed out)
+  Port 8001: blocked (timed out)
+  Port 8020: blocked (timed out)
+  Port 8010: blocked (timed out)
+  Port 8082: blocked (timed out)
+  Port 22: blocked (timed out)
+  Port 25: blocked (timed out)
+
+=== Method 4: HTTPS bypass ===
+  HTTPS 8443: <urlopen error timed out>
+
+=== Method 5: Direct TCP stream ===
+  TCP direct: timed out
+
+=== All bypass methods tried ===
+Found 0 successful bypasses

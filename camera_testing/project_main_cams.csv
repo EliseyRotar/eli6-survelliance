@@ -1,0 +1,278 @@
+idx,name,url,type,username,password,enabled,location_hint
+1,Camera 1 - Brazil,http://187.140.117.185/web/tmpfs/snap.jpg,image,admin,admin,True,Brazil
+2,Camera 2 - Canada,http://162.204.123.101/web/tmpfs/snap.jpg,image,admin,admin,True,Canada
+3,Camera 3 - Colombia,http://190.20.231.202/web/tmpfs/snap.jpg,image,admin,admin,True,Colombia
+4,Camera 4 - Japan,http://133.232.94.137/web/tmpfs/snap.jpg,image,admin,admin,True,Japan
+5,Camera 5 - Brazil,http://187.37.20.35/tmpfs/snap.jpg,image,guest,guest,True,Brazil
+6,Camera 6 - South Korea,http://121.116.26.50/tmpfs/snap.jpg,image,admin,admin,True,South Korea
+7,Camera 7 - Turkey,http://83.87.104.50:1029/web/tmpfs/snap.jpg,image,admin,admin,True,Turkey
+8,Camera 8 - Russia,http://185.73.190.212/web/tmpfs/snap.jpg,image,user,user,True,Russia
+9,Camera 9 - USA,http://75.82.132.7/web/tmpfs/snap.jpg,image,user,user,True,USA
+10,Camera 10 - Netherlands,http://85.165.118.60/web/tmpfs/snap.jpg,image,admin,admin,True,Netherlands
+11,Camera 11 - USA,http://66.74.41.152/tmpfs/snap.jpg,image,admin,admin,True,USA
+12,Camera 12 - South Korea,http://222.10.11.86/tmpfs/snap.jpg,image,user,user,True,South Korea
+13,Camera 13 (Video) - Russia,http://213.144.145.239:8090/cam_1.cgi,video,,,True,Russia
+14,Camera 14 (Video) - Russia,http://195.223.180.50/cam_1.cgi,video,,,True,Russia
+15,Camera 15 (No Auth) - South Korea,http://119.224.56.57:8081/out.jpg,image,,,True,South Korea
+16,Camera 16 (No Auth) - South Korea,http://116.82.9.82:5001/out.jpg,image,,,True,South Korea
+17,Camera 17 (Video) - South Korea,http://61.78.164.58:8089/cam_1.cgi,video,,,True,South Korea
+18,Camera 18 (Video) - Private - USA,http://72.199.200.5:8080/cam_1.cgi,video,,,True,Private - USA
+19,Camera 19 (Video) - Same House - USA,http://72.199.200.5:8080/cam_2.cgi,video,,,True,Same House - USA
+20,Camera 20 (Video) - Russia,http://95.255.183.164:8080/cam_2.cgi,video,,,True,Russia
+21,Camera 21 (Video) - USA,http://75.149.26.30:1024/cam_1.cgi,video,,,True,USA
+22,Camera 22 (Video) - USA,http://74.105.120.201:444/cam_1.cgi,video,,,True,USA
+23,Camera 23 (No Auth) - Brazil,http://191.113.29.26:8082/cam_1.jpg,image,,,True,Brazil
+24,Camera 24 (No Auth) - Turkey,http://188.6.81.94:8080/cam_1.jpg,image,,,True,Turkey
+25,Camera 25 (No Auth) - Turkey,http://188.6.81.94:8080/cam_3.jpg,image,,,True,Turkey
+26,Camera 26 (No Auth) - Netherlands,http://37.123.131.43:97/image.jpg,image,,,True,Netherlands
+27,Camera 27 (No Auth) - USA,http://96.3.20.210:81/image.jpg,image,,,True,USA
+28,Camera 28 (Video) - France,http://2.85.145.112:8080/cam_1.cgi,video,,,True,France
+29,Camera 29 (Video) - USA,http://69.140.27.58:10001/cam_1.cgi,video,,,True,USA
+30,Camera 30 (No Auth) - Italy,http://151.75.126.105/image.jpg,image,,,True,Italy
+31,Camera 31 (No Auth) - Netherlands,http://82.65.168.85:8005/image.jpg,image,,,True,Netherlands
+32,Camera 32 (No Auth) - Netherlands,http://82.65.168.85:8001/image.jpg,image,,,True,Netherlands
+33,Camera 33 (Video) - USA,http://96.236.138.17:8888/cam_1.cgi,video,,,True,USA
+34,Camera 34 (Video) - Netherlands,http://80.61.63.103:81/cam_1.cgi,video,,,True,Netherlands
+35,Camera 35 (No Auth) - Netherlands,http://82.64.212.123:4444/out.jpg,image,,,True,Netherlands
+36,Camera 36 (Video) - Turkey,http://79.136.47.231:8083/video.cgi,video,,,True,Turkey
+37,Camera 37 (Video) - Russia,http://91.158.41.198/video.cgi,video,,,True,Russia
+38,Camera 38 (Video) - Netherlands,http://62.20.188.15:89/video.cgi,video,,,True,Netherlands
+39,Camera 39 (Video) - Netherlands,http://62.92.246.134:1024/video.cgi,video,,,True,Netherlands
+40,Camera 40 (Video) - USA,http://71.115.155.24:93/cam_1.cgi,video,,,True,USA
+41,Camera 41 (Company A) - China,http://111.68.118.121:11082/video.cgi,video,,,True,China
+42,Camera 42 (Company A) - China,http://111.68.118.121:12412/video.cgi,video,,,True,China
+43,Camera 43 (Company A) - China,http://111.68.118.121:12410/video.cgi,video,,,True,China
+44,Camera 44 (Company A) - China,http://111.68.118.121:12406/video.cgi,video,,,True,China
+45,Camera 45 (Company A) - China,http://111.68.118.121:12404/video.cgi,video,,,True,China
+46,Camera 46 (Company A) - China,http://111.68.118.121:12203/video.cgi,video,,,True,China
+47,Camera 47 (Company A) - China,http://111.68.118.121:11434/video.cgi,video,,,True,China
+48,Camera 48 (Company A) - China,http://111.68.118.121:11210/video.cgi,video,,,True,China
+49,Camera 49 (Company A) - China,http://111.68.118.121:10106/video.cgi,video,,,True,China
+50,Camera 50 (Company A) - China,http://111.68.118.121:9113/video.cgi,video,,,True,China
+51,Camera 51 (Company A) - China,http://111.68.118.121:9112/video.cgi,video,,,True,China
+52,Camera 52 (Company A) - China,http://111.68.118.121:9103/video.cgi,video,,,True,China
+53,Camera 53 (Axis) - USA,http://72.142.24.116:10001/axis-cgi/jpg/image.cgi,image,,,True,USA
+54,Camera 54 (Axis) - USA,http://72.142.24.116:10005/axis-cgi/jpg/image.cgi,image,,,True,USA
+55,Camera 55 (Axis) - USA,http://72.142.24.116:10013/axis-cgi/jpg/image.cgi,image,,,True,USA
+56,Camera 56 - Germany,http://84.59.205.112:10000/GetImage.cgi?CH=0,image,,,True,Germany
+57,Camera 57 - South Korea,http://117.102.180.203:50000/GetImage.cgi?CH=0,image,,,True,South Korea
+58,Camera 58 - USA,http://67.82.213.63:8081/GetImage.cgi?CH=0,image,,,True,USA
+59,Camera 59 - Taiwan,http://220.128.115.31:8085/GetImage.cgi?CH=0,image,,,True,Taiwan
+60,Camera 60 - Germany,http://87.139.62.155:81/IMAGE.JPG,image,,,True,Germany
+61,Camera 61 (Video) - Japan,http://153.222.169.170:8081/-wvhttp-01-/video.cgi,video,,,True,Japan
+62,Camera 62 (Video) - South Korea,http://180.57.60.5:8081/-wvhttp-01-/video.cgi,video,,,True,South Korea
+63,Camera 63 - South Korea,http://61.44.165.156:8040/IMAGE.JPG,image,,,True,South Korea
+64,Camera 64 - South Korea,http://110.3.32.93:83/IMAGE.JPG,image,,,True,South Korea
+65,Camera 65 (Video) - South Korea,http://110.4.178.160:5986/-wvhttp-01-/video.cgi,video,,,True,South Korea
+66,Camera 66 - South Korea,http://119.242.104.211:82/IMAGE.JPG,image,,,True,South Korea
+67,Camera 67 - South Korea,http://125.199.56.127:81/IMAGE.JPG,image,,,True,South Korea
+68,Camera 68 - South Korea,http://117.102.180.203:50000/GetImage.cgi,image,,,True,South Korea
+69,Camera 69 (Video) - Netherlands,http://62.2.85.226:8051/mjpg/video.mjpg,video,,,True,Netherlands
+70,Camera 70 (Video) - Netherlands,http://62.2.85.226:8052/mjpg/video.mjpg,video,,,True,Netherlands
+71,Camera 71 (Video) - Turkey,http://79.52.47.7:3791/eng/liveView.cgi,video,,,True,Turkey
+72,Camera 72 (Video) - Turkey,http://79.52.47.7:9200/eng/liveView.cgi,video,,,True,Turkey
+73,Camera 73 - Russia,http://188.193.201.244:84/web/ptz.html,image,,,True,Russia
+74,Camera 74 (Video) - Turkey,http://79.0.95.68:85/video.cgi,video,,,True,Turkey
+75,Camera 75 (Video) - Turkey,http://79.52.47.7:11211/eng/liveView.cgi,video,,,True,Turkey
+76,Camera 76 (Video) - Turkey,http://79.52.47.7:4321/eng/liveView.cgi,video,,,True,Turkey
+77,Camera 77 (Video) - China,http://36.55.48.9:5001/-wvhttp-01-/video.cgi,video,,,True,China
+78,Camera 78 (Video) - South Korea,http://110.4.178.160:5001/-wvhttp-01-/video.cgi,video,,,True,South Korea
+79,Camera 79 (Video) - South Korea,http://61.196.233.106:5001/-wvhttp-01-/video.cgi,video,,,True,South Korea
+80,Camera 80 (Video) - South Korea,http://115.65.166.141:5001/cgi-bin/camera,video,,,True,South Korea
+81,Camera 81 (Video) - South Korea,http://114.162.235.129:8089/cgi-bin/camera,video,,,True,South Korea
+82,Camera 82 (Video) - Netherlands,http://37.123.131.43:96/video.cgi,video,,,True,Netherlands
+83,Camera 83 (Video) - USA,http://104.158.1.86:9002/video.cgi,video,,,True,USA
+84,Camera 84 - Netherlands,http://82.64.32.236/,image,,,True,Netherlands
+85,Camera 85 - USA,http://74.88.252.233/web/tmpfs/snap.jpg,image,user,user,True,USA
+86,Camera 86 - Europe,http://91.51.187.49/web/tmpfs/snap.jpg,image,user,user,True,Europe
+87,Camera 87 - Europe,http://82.72.192.154/tmpfs/snap.jpg,image,user,user,True,Europe
+88,Camera 88 - Europe,http://91.14.88.219/tmpfs/auto.jpg,image,admin,admin,True,Europe
+89,Camera 89 - Unknown,http://62.215.52.101:80,image,,,True,Unknown
+90,Camera 90 - Asia,http://118.243.218.106:81/portal/js_pane/131?action=controls.Restore,image,,,True,Asia
+91,Camera 91 - Europe,http://85.229.58.96/,image,,,True,Europe
+92,Camera 92 - Europe,http://94.125.55.139/,image,,,True,Europe
+93,Camera 93 - Asia,http://121.123.62.177/image,image,,,True,Asia
+94,Camera 94 - Unknown,http://176.139.112.250/,image,,,True,Unknown
+95,Camera 95 - Europe,http://93.38.57.20:8080/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full,image,,,True,Europe
+96,Camera 96 - Europe,http://194.32.174.72:80,image,,,True,Europe
+97,Camera 97 - Europe,http://2.115.171.20/mjpg/video.mjpg,video,,,True,Europe
+98,Camera 98 - Europe,http://2.47.47.117/cgi-bin/faststream.jpg?stream=full&fps=15,video,,,True,Europe
+99,Camera 99 (Europe Surveillance) - Europe,http://2.35.32.6:82/record/current.jpg?stream=full&fps=25,video,,,True,Europe
+100,Camera 100 (Europe Surveillance) - Europe,http://188.12.181.140:82/control/faststream.jpg?stream=full&fps=25,video,,,True,Europe
+101,Camera 101 - Europe,http://93.64.78.83:80,image,,,True,Europe
+102,Camera 102 - Europe,http://46.234.223.63:8200/video.mp4?line=1&inst=1&rec=0&buffer_ms=0,video,,,True,Europe
+103,Camera 103 (Europe Multi-Port) - Europe,http://77.108.0.46:8083/control/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+104,Camera 104 - Europe,http://79.7.31.219:8090/cgi-bin/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+105,Camera 105 - Europe,http://213.137.36.178/jpg/image.jpg,image,,,True,Europe
+106,Camera 106 - Europe,http://79.7.75.166/cgi-bin/mjpeg?resolution=1280x960&quality=5,image,,,True,Europe
+107,Camera 107 - Europe,http://77.89.39.134:1024/cgi-bin/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+108,Camera 108 - Europe,http://88.149.182.79:8080/control/faststream.jpg?stream=full&fps=4,video,,,True,Europe
+109,Camera 109 - Europe,http://84.33.89.170:85,image,,,True,Europe
+110,Camera 110 - Europe,http://194.116.34.4/mjpg/video.mjpg,video,,,True,Europe
+111,Camera 111 (Live Stream Systems) - Europe,http://94.94.93.50:50000/live/oneshot.html,image,,,True,Europe
+112,Camera 112 - Europe,http://94.177.176.113:8080/?action=stream,video,,,True,Europe
+113,Camera 113 - Europe,http://37.116.21.2:8083/mjpg/video.mjpg,video,,,True,Europe
+114,Camera 114 - Europe,http://79.3.196.235/cgi-bin/mjpeg,image,,,True,Europe
+115,Camera 115 (Europe Multi-Port) - Europe,http://77.242.135.139:8082/control/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+116,Camera 116 - Europe,http://2.234.120.231:91/control/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+117,Camera 117 - Europe,http://185.5.196.54:90/control/faststream.jpg?stream=full&fps=12,video,,,True,Europe
+118,Camera 118 - Europe,http://213.182.91.27:8082/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full,image,,,True,Europe
+119,Camera 119 - Europe,http://91.143.192.75/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full,image,,,True,Europe
+120,Camera 120 - Europe,http://128.116.187.241:81,image,admin,admin,True,Europe
+121,Camera 121 - Europe,http://94.32.86.58:8090,image,admin,12345678,True,Europe
+122,Camera 122 (Dual Camera Setup) - Europe,http://91.231.166.180:86/mjpg/video.mjpg,video,,,True,Europe
+123,Camera 123 - Europe,http://185.94.82.113/cgi-bin/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+124,Camera 124 - Europe,http://185.97.122.32:8080/cgi-bin/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+125,Camera 125 - Europe,http://185.124.182.119:80,image,,,True,Europe
+126,Camera 126 (Multi-Channel Security) - Europe,http://185.87.69.220:8001/snap.jpg?JpegCam=1,image,,,True,Europe
+127,Camera 127 - Europe,http://188.10.94.195:9000/mjpg/video.mjpg,video,,,True,Europe
+128,Camera 128 - Europe,http://91.214.60.215/cgi-bin/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+129,Camera 129 - Asia,http://218.219.214.248:50000/nphMotionJpeg?Resolution=640x480,video,,,True,Asia
+130,Camera 130 - Asia,http://218.219.195.24/nphMotionJpeg?Resolution=640x480,video,,,True,Asia
+131,Camera 131 - Asia,http://221.189.116.218:60001/nphMotionJpeg?Resolution=640x480,video,,,True,Asia
+132,Camera 132 (Axis Communications) - Europe,http://86.63.39.58:8080/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+133,Camera 133 (Axis Communications) - Europe,http://83.48.75.113:8320/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+134,Camera 134 (Axis Communications) - Europe,http://213.3.30.80:6001/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+135,Camera 135 (Axis Communications) - Europe,http://213.123.122.163:1087/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+136,Camera 136 (Axis Communications) - USA,http://24.134.3.9:80/axis-cgi/mjpg/video.cgi,video,,,True,USA
+137,Camera 137 (Axis Communications) - Europe,http://80.75.114.18:80/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+138,Camera 138 (Axis Communications) - Europe,http://82.127.206.236:80/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+139,Camera 139 (Axis Communications) - Europe,http://80.254.191.189:8008/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+140,Camera 140 (Axis Communications) - Europe,http://77.110.245.165:80/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+141,Camera 141 (Axis Communications) - Europe,http://85.196.146.82:3337/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+142,Camera 142 (Axis Communications) - Europe,http://79.161.6.126:9092/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+143,Camera 143 (Axis Communications) - Europe,http://185.108.19.197:10800/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+144,Camera 144 (Axis Communications) - Europe,http://142.0.109.159:80/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+145,Camera 145 (Axis Communications) - USA,http://74.95.172.65:8100/axis-cgi/mjpg/video.cgi,video,,,True,USA
+146,Camera 146 - Europe,http://77.60.226.189:8012/control/userimage.html,image,,,True,Europe
+147,Camera 147 (Axis Communications) - Europe,http://212.26.235.210:80/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+148,Camera 148 (Axis Communications) - Europe,http://185.74.192.88:85/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+149,Camera 149 - Europe,http://194.94.76.134:80/control/userimage.html,image,,,True,Europe
+150,Camera 150 - Europe,http://80.245.224.153:80/control/userimage.html,image,,,True,Europe
+151,Camera 151 - Europe,http://213.5.145.4:80/control/userimage.html,image,,,True,Europe
+152,Camera 152 - Europe,http://109.247.15.178:6001/mjpg/video.mjpg,video,,,True,Europe
+153,Camera 153 (Axis Communications) - USA,http://208.124.240.178:80/axis-cgi/mjpg/video.cgi,video,,,True,USA
+154,Camera 154 - Europe,http://82.77.203.219:8080/control/userimage.html,image,,,True,Europe
+155,Camera 155 - Asia,http://61.115.78.205:80/control/userimage.html,image,,,True,Asia
+156,Camera 156 (Axis Communications) - Europe,http://185.226.233.55:8001/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+157,Camera 157 (Axis Communications) - USA,http://74.113.182.246:9600/axis-cgi/mjpg/video.cgi,video,,,True,USA
+158,Camera 158 (Axis Communications) - USA,http://187.141.142.149:8010/axis-cgi/mjpg/video.cgi,video,,,True,USA
+159,Camera 159 (Axis Communications) - USA,http://63.42.216.178:8088/axis-cgi/mjpg/video.cgi,video,,,True,USA
+160,Camera 160 - Europe,http://194.44.38.196:8083/view/viewer_index.shtml?id=493,image,,,True,Europe
+161,Camera 161 - Europe,http://77.89.48.20:8003/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Europe
+162,Camera 162 - Europe,http://89.97.231.70:8083/control/userimage.html,image,,,True,Europe
+163,Camera 163 - Europe,http://195.32.24.180:1024/mjpg/video.mjpg,video,,,True,Europe
+164,Camera 164 (Axis Communications) - Europe,http://173.165.152.129:8011/axis-cgi/mjpg/video.cgi,video,,,True,Europe
+165,Camera 165 - Europe,http://77.106.164.66:80/#view,image,,,True,Europe
+166,Camera 166 - USA,http://72.253.153.216:81/view/index.shtml,image,,,True,USA
+167,Camera 167 - Asia,http://115.179.100.76:8080/CgiStart?page=Single&Language=0,image,,,True,Asia
+168,Camera 168 - Europe,http://185.80.208.125:80/#view,image,,,True,Europe
+169,Camera 169 - Asia,http://14.160.87.118:82/live/index.html?Language=0,image,,,True,Asia
+170,Camera 170 - Asia,http://58.94.98.44:80/CgiStart?page=Single&Language=0,image,,,True,Asia
+171,Camera 171 - Europe,http://212.67.236.61:80/mjpg/video.mjpg,video,,,True,Europe
+172,Camera 172 - Asia,http://210.248.127.20:80/CgiStart?page=Single&Language=0,image,,,True,Asia
+173,Camera 173 - Europe,http://213.98.123.127:8050/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Europe
+174,Camera 174 - Europe,http://153.156.235.87:80/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Europe
+175,Camera 175 - Asia,http://218.45.173.232:8000/live/index.html?Language=1&ViewMode=pull,image,,,True,Asia
+176,Camera 176 - Europe,http://91.214.62.226:80/control/userimage.html,image,,,True,Europe
+177,Camera 177 - Europe,http://193.90.139.222:33445/mjpg/video.mjpg,video,,,True,Europe
+178,Camera 178 - Europe,http://193.214.75.118:80/mjpg/video.mjpg,video,,,True,Europe
+179,Camera 179 - USA,http://63.41.124.38:80/control/userimage.html,image,,,True,USA
+180,Camera 180 - Europe,http://91.133.105.85:50050/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Europe
+181,Camera 181 - Europe,http://87.224.70.147:1884/mjpg/video.mjpg,video,,,True,Europe
+182,Camera 182 - Europe,http://77.110.203.114:82/mjpg/video.mjpg,video,,,True,Europe
+183,Camera 183 - Europe,http://85.8.92.1:80/control/userimage.html,image,,,True,Europe
+184,Camera 184 - Europe,http://87.139.9.247:80/#view,image,,,True,Europe
+185,Camera 185 - USA,http://50.197.223.169:80/#view,image,,,True,USA
+186,Camera 186 - Europe,http://109.236.111.203:80/mjpg/video.mjpg,video,,,True,Europe
+187,Camera 187 - USA,http://166.151.98.221:7001/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,USA
+188,Camera 188 - Asia,http://221.189.0.181:80/cgi-bin/guestimage.html,image,,,True,Asia
+189,Camera 189 - USA,http://50.197.223.170:80/#view,image,,,True,USA
+190,Camera 190 - USA,http://97.68.104.34:80/aca/index.html#view,image,,,True,USA
+191,Camera 191 - Europe,http://194.106.254.98:1080/control/userimage.html,image,,,True,Europe
+192,Camera 192 - Europe,http://77.222.181.11:8080/mjpg/video.mjpg,video,,,True,Europe
+193,Camera 193 - Asia,http://220.233.144.165:8888/mjpg/video.mjpg,video,,,True,Asia
+194,Camera 194 - USA,http://204.106.237.68:88/mjpg/1/video.mjpg,video,,,True,USA
+195,Camera 195 - USA,http://63.142.190.238:6120/mjpg/video.mjpg,video,,,True,USA
+196,Camera 196 - USA,http://166.149.155.73:7001/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,USA
+197,Camera 197 - Europe,http://213.236.250.78:80/mjpg/video.mjpg,video,,,True,Europe
+198,Camera 198 - Europe,http://80.14.201.251:8010/mjpg/video.mjpg,video,,,True,Europe
+199,Camera 199 - Europe,http://83.136.176.101:10013/mjpg/video.mjpg,video,,,True,Europe
+200,Camera 200 - Europe,http://153.156.82.99:80/nphMotionJpeg,video,,,True,Europe
+201,Camera 201 - Europe,http://89.106.109.144:12060/mjpg/video.mjpg,video,,,True,Europe
+202,Camera 202 - Europe,http://212.67.231.233:80/mjpg/video.mjpg,video,,,True,Europe
+203,Camera 203 - Europe,http://78.31.82.246:80/mjpg/video.mjpg,video,,,True,Europe
+204,Camera 204 - USA,http://67.53.46.161:65123/mjpg/video.mjpg,video,,,True,USA
+205,Camera 205 - Europe,http://159.130.70.206:80/mjpg/video.mjpg,video,,,True,Europe
+206,Camera 206 - USA,http://104.243.223.162:8082/mjpg/video.mjpg,video,,,True,USA
+207,Camera 207 - Europe,http://212.170.100.189:80/mjpg/video.mjpg,video,,,True,Europe
+208,Camera 208 - USA,http://70.63.123.20:80/mjpg/1/video.mjpg,video,,,True,USA
+209,Camera 209 - Europe,http://109.109.87.147:80/mjpg/video.mjpg,video,,,True,Europe
+210,Camera 210 - Unknown,http://62.214.4.38:80/mjpg/video.mjpg,video,,,True,Unknown
+211,Camera 211 (Multi-Camera Array) - Europe,http://212.41.248.38:80/cgi-bin/hugesize.jpg?camera=4&motion=0,video,,,True,Europe
+212,Camera 212 (Multi-Camera Array) - Europe,http://31.132.43.196:81/cgi-bin/fullsize.jpg?camera=2&motion=0,video,,,True,Europe
+213,Camera 213 - Asia,http://61.211.241.239:80/nphMotionJpeg?Resolution=640x480,video,,,True,Asia
+214,Camera 214 - Europe,http://37.128.212.84:80/mjpg/video.mjpg,video,,,True,Europe
+215,Camera 215 - Europe,http://46.14.58.189:80/mjpg/video.mjpg,video,,,True,Europe
+216,Camera 216 - Europe,http://82.134.72.194:80/mjpg/video.mjpg,video,,,True,Europe
+217,Camera 217 - Europe,http://78.186.26.188:80/mjpg/1/video.mjpg,video,,,True,Europe
+218,Camera 218 - Europe,http://81.167.114.67:84/mjpg/video.mjpg,video,,,True,Europe
+219,Camera 219 - Asia,http://202.174.60.121:80/-wvhttp-01-/image.cgi,image,,,True,Asia
+220,Camera 220 - USA,http://199.104.253.4:80/mjpg/video.mjpg,video,,,True,USA
+221,Camera 221 (Dynamic DNS Cameras) - Unknown,http://barbadillodeherreros.dyndns.org:9001/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+222,Camera 222 - USA,http://207.194.15.97:80/mjpg/video.mjpg,video,,,True,USA
+223,Camera 223 (Axis Communications) - Unknown,http://webcam.anklam.de:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+224,Camera 224 - Europe,http://185.49.169.66:1024/control/faststream.jpg?stream=full&fps=16,video,,,True,Europe
+225,Camera 225 - Europe,http://85.220.149.7:80/cgi-bin/guestimage.html,image,,,True,Europe
+226,Camera 226 (Axis Communications) - Unknown,http://minigolf-paderborn.spdns.de:86/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+227,Camera 227 (Axis Communications) - Unknown,http://cam-mckeldin-eastview.umd.edu:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+228,Camera 228 (Axis Communications) - Unknown,http://live1.tusten.no:8080/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+229,Camera 229 - Unknown,http://webcam.fairharbormarina.com:80/nphMotionJpeg?Resolution=640x480,video,,,True,Unknown
+230,Camera 230 (Axis Communications) - Unknown,http://chalet-chuenis.internet-box.ch:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+231,Camera 231 - USA,http://96.91.10.219:80/mjpg/1/video.mjpg,video,,,True,USA
+232,Camera 232 (Dynamic DNS Cameras) - Unknown,http://montfarlagne.tacticddns.com:8081/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+233,Camera 233 (Dynamic DNS Cameras) - Unknown,http://shimamaki-camera.aa0.netvolante.jp:8001/nphMotionJpeg?Resolution=320x240,video,,,True,Unknown
+234,Camera 234 (Dynamic DNS Cameras) - Unknown,http://oceanmist.ddns.net:8084/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+235,Camera 235 (Vilhelmina Municipality) - Unknown,http://webcam2.vilhelmina.se:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+236,Camera 236 (Dynamic DNS Cameras) - Unknown,http://renzo.dyndns.tv:80/mjpg/video.mjpg,video,,,True,Unknown
+237,Camera 237 (Dynamic DNS Cameras) - Unknown,http://museumhallevik2.ddns.net:9501/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+238,Camera 238 (Vilhelmina Municipality) - Unknown,http://webcam1.vilhelmina.se:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+239,Camera 239 (Vilhelmina Municipality) - Unknown,http://webcam4.vilhelmina.se:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+240,Camera 240 - Unknown,http://captainsbounty.dnsalias.com:80/mjpg/video.mjpg,video,,,True,Unknown
+241,Camera 241 (Axis Communications) - Unknown,http://webcam2.minden-wlan.de:10000/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+242,Camera 242 (Vilhelmina Municipality) - Unknown,http://webcam3.vilhelmina.se:80/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+243,Camera 243 (Dynamic DNS Cameras) - Unknown,http://nasukashi.aa0.netvolante.jp:8192/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+244,Camera 244 - Unknown,http://mittaghorn.mine.nu:80/mjpg/video.mjpg,video,,,True,Unknown
+245,Camera 245 - Unknown,http://lafarge.sarl2e.fr:3100/mjpg/video.mjpg,video,,,True,Unknown
+246,Camera 246 - Unknown,http://eyc.synology.me:10001/mjpg/video.mjpg,video,,,True,Unknown
+247,Camera 247 - Unknown,http://camera.sissiboo.com:86/mjpg/video.mjpg,video,,,True,Unknown
+248,Camera 248 - Unknown,http://holmen.tplinkdns.com:80/mjpg/video.mjpg,video,,,True,Unknown
+249,Camera 249 (Axis Communications) - Unknown,https://webcam.vliegveldzeeland.nl:7171/axis-cgi/mjpg/video.cgi,video,,,True,Unknown
+250,Camera 250 - Unknown,https://webcamrm.loodswezen.nl:443/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Unknown
+251,Camera 251 (Dynamic DNS Cameras) - Unknown,http://yakumo-fishing-circle.aa0.netvolante.jp:80/nphMotionJpeg?Resolution=640x480,video,,,True,Unknown
+252,Camera 252 - Unknown,http://kamera.mikulov.cz:8888/mjpg/video.mjpg,video,,,True,Unknown
+253,Camera 253 - Unknown,http://webcam.agf-bw.info:8092/mjpg/video.mjpg,video,,,True,Unknown
+254,Camera 254 (Dynamic DNS Cameras) - Unknown,http://cam0819917993.ddns.komatsuelec.co.jp:80/nphMotionJpeg?Resolution=640x480,video,,,True,Unknown
+255,Camera 255 - Unknown,http://camera6.city.satsumasendai.lg.jp:80/-wvhttp-01-/image.cgi,image,,,True,Unknown
+256,Camera 256 - Unknown,http://cam6284208.miemasu.net:80/nphMotionJpeg,video,,,True,Unknown
+257,Camera 257 - Unknown,http://yukijinjya.st.wakwak.ne.jp:80/control/userimage.html,image,,,True,Unknown
+258,Camera 258 (Dynamic DNS Cameras) - Unknown,http://hoybakken.dyndns.org:9876/mjpg/video.mjpg,video,,,True,Unknown
+259,Camera 259 - Unknown,http://honjin1.miemasu.net:80/nphMotionJpeg,video,,,True,Unknown
+260,Camera 260 (Dynamic DNS Cameras) - Unknown,http://casamellow.dyndns.org:80/mjpg/video.mjpg,video,,,True,Unknown
+261,Camera 261 (Dynamic DNS Cameras) - Unknown,http://abcmaingate.dyndns.info:8081/mjpg/video.mjpg,video,,,True,Unknown
+262,Camera 262 (Dynamic DNS Cameras) - Unknown,http://plassenburg-blick.iyxdveyshavdrmjx.myfritz.net:80/cgi-bin/faststream.jpg?stream=full&fps=25,video,,,True,Unknown
+263,Camera 263 - Unknown,http://skycam.sebewainggigvillage.com:80/mjpg/video.mjpg,video,,,True,Unknown
+264,Camera 264 (Dynamic DNS Cameras) - Unknown,http://mbr-cam.dyndns.org:8088/mjpg/video.mjpg,video,,,True,Unknown
+265,Camera 265 - Unknown,http://koupaliste.velkeopatovice.cz:80/mjpg/video.mjpg,video,,,True,Unknown
+266,Camera 266 (Dynamic DNS Cameras) - Unknown,http://alatsaeroclub.ddns.net:85/mjpg/video.mjpg,video,,,True,Unknown
+267,Camera 267 - Unknown,http://myrafjell.sodvin.no:80/mjpg/video.mjpg,video,,,True,Unknown
+268,Camera 268 - Unknown,http://ferienpenthouse34.spdns.de:4601/control/userimage.html,image,,,True,Unknown
+269,Camera 269 - Unknown,https://ipcam-1.byrd.osu.edu:443/mjpg/video.mjpg,video,,,True,Unknown
+270,Camera 270 (Dynamic DNS Cameras) - Unknown,http://mmb.aa1.netvolante.jp:1025/mjpg/video.mjpg?resolution=640x360&compression=50,video,,,True,Unknown
+271,Camera 271 - Unknown,http://adlerschanze.selfhost.eu:80/control/userimage.html,image,,,True,Unknown
+272,Camera 272 - Unknown,http://amrescam1.homeip.net:88/control/userimage.html,image,,,True,Unknown
+273,Camera 273 - Unknown,http://view.dikemes.edu.gr:80/mjpg/video.mjpg,video,,,True,Unknown
+274,Camera 274 - Unknown,http://iyashi-webcam.st.wakwak.ne.jp:80/nphMotionJpeg?Resolution=320x240,video,,,True,Unknown
+275,Camera 275 - Unknown,http://e1480d3b88f7.sn.mynetname.net:91/mjpg/video.mjpg,video,,,True,Unknown
+276,Camera 276 - Unknown,http://www.groto.dy.fi:80/mjpg/video.mjpg,video,,,True,Unknown
+277,Camera 277 - Unknown,http://flightcam3.pr.erau.edu:80/view/view.shtml,image,,,True,Unknown

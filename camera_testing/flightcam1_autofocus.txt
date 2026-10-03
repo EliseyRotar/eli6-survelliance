@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FocusWindowResponse SchemaVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.axis.com/vapix/http_cgi/FocusWindow1.xsd"><GeneralError><ErrorCode>20</ErrorCode><ErrorDescription>No focus window set.</ErrorDescription></GeneralError></FocusWindowResponse>

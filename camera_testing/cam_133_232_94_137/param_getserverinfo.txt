@@ -1,0 +1,15 @@
+var model="C6F0SoZ3N0PcL2";
+var hardVersion="V1.0.0.1";
+var softVersion="V19.1.64.16.65-20210304";
+var webVersion="V3.0.7.1";
+var rs485Version="V0.0";
+var name="IPCAM";
+var startdate="2026-08-21 08:32:57";
+var upnpstatus="off";
+var facddnsstatus="off";
+var th3ddnsstatus="off";
+var platformstatus="0";
+var sdshow="0";
+var sdstatus="Ready";
+var sdfreespace="4773440";
+var sdtotalspace="62352448";

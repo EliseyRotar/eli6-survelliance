@@ -49,3 +49,30 @@ camera_config_65.json
 camera_config_corrected.json
 camera_testing/__pycache__/
 camera_testing/camera_test_results_*.json
+
+# Backups (39 GB of CSV/DB snapshots — local only)
+backups/
+!backups/.gitkeep
+
+# Master camera data (151 MB, exceeds GitHub 100 MB file limit)
+controllable_Webcams.csv*
+controllable_Webcams_*
+
+# Databases (SQLite + WAL, up to 4.5 GB)
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+*.db.backup_*
+*.backup_*
+
+# Runtime state / progress artifacts
+*.pid
+*.err
+reap_results.json
+
+# Large reference data (password lists, catalogs)
+camera_testing/rockyou.txt
+camera_testing/tv_catalog*.json
+camera_testing/csv_chunks/
+data/cams.db

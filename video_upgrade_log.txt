@@ -1,0 +1,25 @@
+[Auto-detected] CSV at C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv
+[Video Upgrader] Reading C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv
+  60204 image rows to probe
+  [50/60204] upgraded=0
+  [100/60204] upgraded=0
+  [150/60204] upgraded=0
+  [200/60204] upgraded=0
+  [250/60204] upgraded=0
+  [300/60204] upgraded=0
+  [350/60204] upgraded=0
+  [400/60204] upgraded=0
+  [450/60204] upgraded=0
+  [500/60204] upgraded=0
+  [550/60204] upgraded=0
+  [600/60204] upgraded=0
+  [650/60204] upgraded=0
+  [700/60204] upgraded=0
+  [750/60204] upgraded=0
+  [800/60204] upgraded=0
+  [850/60204] upgraded=0
+  [900/60204] upgraded=0
+  [950/60204] upgraded=0
+  [1000/60204] upgraded=0
+
+[Video Upgrader] Found 0 cams with video streams

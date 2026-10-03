@@ -1,0 +1,134 @@
+[
+  {
+    "name": "_ga",
+    "value": "GA1.1.262173978.1787503589",
+    "domain": ".trafficvision.live",
+    "path": "/",
+    "expires": 1823779738.144552,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FCCDCF",
+    "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%220a73c55a-c489-48c4-9400-ed1c57701fa0%5C%22%2C%5B1787503589%2C601000000%5D%5D%22%5D%5D%5D",
+    "domain": ".trafficvision.live",
+    "path": "/",
+    "expires": 1821199589,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "YSC",
+    "value": "PW3GS1HRHyA",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "yWPaxFLgBr8",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1804760935.617024,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_PRIVACY_METADATA",
+    "value": "CgJJVBIiEh4SHAsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJicgNQ%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1804760935.617068,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-YNID",
+    "value": "21.YT=Qd0lsvWrRkT2OhT0Vg_foZBA3KlRm0BU0-HQFkHB6t81lCqlvniM5PMMzERsHoP0Ao6-234S00zwSwWDTpaJCQDh9tO9swxIF_5MthcR3dX5yWt6pC70Xq6EXUE3A9i4cGV3lKtck6lvahOoAlctWdtoOe9jj1Qru6adc5fe87A6KxLalHQhnWidLkoc4CXstSDizLP-NqvCd1DQ37CHXM7Zseh1Wqo5N9qOgIili_oIcxQSlxNLkEPB3EB36Ppv0kWAedW9k-jvbLVdB8Ny5KnH9UXUZNF71Y6K9dQDgz98Bu6oKisrjSRRg19f9F6TDDaE2lxYFA4sCCVOjmSsPw",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1803055594.12189,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-ROLLOUT_TOKEN",
+    "value": "COzmgtm-kOu3NxCDs6LmmbeWAxjriI7Y6uiWAw%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1804760935.616843,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "cf_clearance",
+    "value": "Zqyas2i3rPDr8Y.xRsDDJkD0EqLM_q5XTgy2M4i9Zu0-1789219728-1.2.1.1-d3SRcRjfBVyqzLuGZYtWHXWKL1fvf3jUDxBhS7Dsd6x2oJ_5TAz5Tv5oMdEhfvkxeZNO1Ccy3sylRtJrrb3mCtpuucJd37Y1cGvDwYNRfUj7if5fSAE_6Ei_7oeytRwSB9mSqXimrULmVAgQb0SSLw5JL3Db8HbeTG51d_DoybP7TLmaJgFaIH3vkwVxP3a1CIIWXveot4_v5jaYlv_G8wiUz.qbKzgttgWcxkwgXsL6uNYh1vaHkhWsBf4BrEh7Qt4NrJsr3h.Av8RGge8u2uNdbH1BIR.HDpKltc147pxSf6whwr.UarJ9UBBUHnmOJuxQn8Vd511bkjAj._RxnqhgRS0UL7ME6Ni00h.5zyI",
+    "domain": ".trafficvision.live",
+    "path": "/",
+    "expires": 1820755729.160028,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://trafficvision.live",
+    "_crHasCrossSiteAncestor": false
+  },
+  {
+    "name": "__eoi",
+    "value": "ID=5f16dadc219f737a:T=1789219729:RT=1789219729:S=AA-AfjbOcfPXxm3b8oYUbPOshqrl",
+    "domain": ".trafficvision.live",
+    "path": "/",
+    "expires": 1804771729,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__cf_bm",
+    "value": "3Zk6IoF5s4o.Oyb.s_TL3XgLodetenYAgGXJJbyXQSI-1789219734.3805573-1.0.1.1-JiECQqvxGM9gFBhzMDexm.dCAO63f_jhhMKoYw3o.tkrRMuLMjvcC6f1Y3A0lRlLVDxUkA60uWV.8pELLv8kcvfVCieHBw9OLTnFlj66UMJ.4UURTbhqWLmt3n_Uc29H",
+    "domain": ".quebec511.info",
+    "path": "/",
+    "expires": 1789221534.612952,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_WV7T0H9620",
+    "value": "GS2.1.s1789219729$o3$g1$t1789219738$j51$l0$h216560016",
+    "domain": ".trafficvision.live",
+    "path": "/",
+    "expires": 1823779738.151881,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__cf_bm",
+    "value": "s.08lC7d2SNQOrP0oA98zYGL.OqE0DuqqB0G1JOzFcs-1789219743.063674-1.0.1.1-1X_.pRQpFIpP7XeEiQkQQOyuml8PwyTEi1bA8C2Jyc5wcAFHdkbGjohCC8dJ7NrRHwF3T_VH12z7vrP6OJrTGHQT3352LA8JGA1bWAwnNTRC.iPTj6f_bc7FFaa88.N5",
+    "domain": ".vancouver.ca",
+    "path": "/",
+    "expires": 1789221543.614325,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  }
+]

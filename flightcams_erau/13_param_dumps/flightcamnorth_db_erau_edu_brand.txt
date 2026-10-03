@@ -1,0 +1,7 @@
+root.Brand.Brand=AXIS
+root.Brand.ProdFullName=AXIS M2025-LE Network Camera
+root.Brand.ProdNbr=M2025-LE
+root.Brand.ProdShortName=AXIS M2025-LE
+root.Brand.ProdType=Network Camera
+root.Brand.ProdVariant=
+root.Brand.WebURL=http://www.axis.com

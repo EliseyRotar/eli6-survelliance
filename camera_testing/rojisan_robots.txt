@@ -1,0 +1,14 @@
+User-agent: AboutUsBot
+Disallow: /
+
+User-agent: *
+Disallow: /photo/proofs/
+Disallow: /roj/pm/
+Disallow: /roj/music/
+Disallow: /roj/photo/
+Disallow: /roj/travel/
+Disallow: /pd/
+Disallow: /cgi-bin/mt/
+
+
+

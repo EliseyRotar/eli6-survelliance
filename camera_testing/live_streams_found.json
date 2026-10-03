@@ -1,0 +1,4479 @@
+[
+  {
+    "idx": "1",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "2",
+    "original_url": "http://162.204.123.101/web/tmpfs/snap.jpg",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "idx=2 skip-listed"
+  },
+  {
+    "idx": "3",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "4",
+    "original_url": "http://133.232.94.137/web/tmpfs/snap.jpg FIND LIVE STREAM",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "idx=4 skip-listed"
+  },
+  {
+    "idx": "5",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "6",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "7",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "8",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "9",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "10",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "11",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "12",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "15",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "16",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "23",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "24",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "25",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "26",
+    "original_url": "http://37.123.131.43:97/image.jpg FIND LIVE STREAM",
+    "found_live_url": "http://37.123.131.43:97/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=video boundary--",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 6,
+    "tried_sample": [
+      {
+        "url": "http://37.123.131.43:97/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://37.123.131.43:97/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://37.123.131.43:97/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://37.123.131.43:97/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://37.123.131.43:97/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://37.123.131.43:97/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=video boundary--",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "27",
+    "original_url": "http://96.3.20.210:81/image.jpg FIND LIVE STREAM",
+    "found_live_url": "http://96.3.20.210:81/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=video boundary--",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 6,
+    "tried_sample": [
+      {
+        "url": "http://96.3.20.210:81/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://96.3.20.210:81/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://96.3.20.210:81/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://96.3.20.210:81/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://96.3.20.210:81/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 84
+      },
+      {
+        "url": "http://96.3.20.210:81/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=video boundary--",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "30",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "31",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "32",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "35",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "53",
+    "original_url": "http://72.142.24.116:10001/axis-cgi/jpg/image.cgi FIND LIVE STREAM VERSION",
+    "found_live_url": "http://72.142.24.116:10001/axis-cgi/mjpg/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 1,
+    "tried_sample": [
+      {
+        "url": "http://72.142.24.116:10001/axis-cgi/mjpg/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "54",
+    "original_url": "http://72.142.24.116:10005/axis-cgi/jpg/image.cgi",
+    "found_live_url": "http://72.142.24.116:10005/axis-cgi/mjpg/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 1,
+    "tried_sample": [
+      {
+        "url": "http://72.142.24.116:10005/axis-cgi/mjpg/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "55",
+    "original_url": "http://72.142.24.116:10013/axis-cgi/jpg/image.cgi",
+    "found_live_url": "http://72.142.24.116:10013/axis-cgi/mjpg/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 1,
+    "tried_sample": [
+      {
+        "url": "http://72.142.24.116:10013/axis-cgi/mjpg/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "56",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "57",
+    "original_url": "http://117.102.180.203:50000/GetImage.cgi?CH=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://117.102.180.203:50000/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      }
+    ]
+  },
+  {
+    "idx": "58",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "59",
+    "original_url": "http://220.128.115.31:8085/GetImage.cgi?CH=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://220.128.115.31:8085/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/cam_2.mjpg",
+        "ok": false,
+        "error": "TimeoutError('timed out')",
+        "auth_used": false
+      },
+      {
+        "url": "http://220.128.115.31:8085/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      },
+      {
+        "url": "http://220.128.115.31:8085/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 145
+      }
+    ]
+  },
+  {
+    "idx": "60",
+    "original_url": "http://87.139.62.155:81/IMAGE.JPG",
+    "found_live_url": "http://87.139.62.155:81/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 6,
+    "tried_sample": [
+      {
+        "url": "http://87.139.62.155:81/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://87.139.62.155:81/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://87.139.62.155:81/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://87.139.62.155:81/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://87.139.62.155:81/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://87.139.62.155:81/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "63",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "64",
+    "original_url": "http://110.3.32.93:83/IMAGE.JPG",
+    "found_live_url": "http://110.3.32.93:83/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 6,
+    "tried_sample": [
+      {
+        "url": "http://110.3.32.93:83/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://110.3.32.93:83/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://110.3.32.93:83/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://110.3.32.93:83/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://110.3.32.93:83/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://110.3.32.93:83/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "66",
+    "original_url": "http://119.242.104.211:82/IMAGE.JPG",
+    "found_live_url": "http://119.242.104.211:82/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 6,
+    "tried_sample": [
+      {
+        "url": "http://119.242.104.211:82/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://119.242.104.211:82/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://119.242.104.211:82/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://119.242.104.211:82/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://119.242.104.211:82/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "",
+        "auth_used": false,
+        "body_len": 18
+      },
+      {
+        "url": "http://119.242.104.211:82/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=--video boundary--",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "67",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "68",
+    "original_url": "http://117.102.180.203:50000/GetImage.cgi",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://117.102.180.203:50000/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      },
+      {
+        "url": "http://117.102.180.203:50000/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 126
+      }
+    ]
+  },
+  {
+    "idx": "73",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "84",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "85",
+    "original_url": "http://74.88.252.233/web/tmpfs/snap.jpg",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 66,
+    "tried_sample": [
+      {
+        "url": "http://74.88.252.233/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "auth_used": false,
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "auth_used": false,
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/control/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "auth_used": false,
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/mjpg/video.mjpg",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "body_len": 35
+      },
+      {
+        "url": "http://74.88.252.233/video.cgi",
+        "ok": false,
+        "status": 401,
+        "reason": "Unauthorized",
+        "content_type": null,
+        "auth_used": false,
+        "body_len": 436
+      },
+      {
+        "url": "http://74.88.252.233/video.cgi",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/plain",
+        "body_len": 36
+      }
+    ]
+  },
+  {
+    "idx": "86",
+    "original_url": "",
+    "found_live_url": null,
+    "stream_type": null,
+    "skipped": "no-url"
+  },
+  {
+    "idx": "87",
+    "original_url": "http://82.72.192.154/tmpfs/snap.jpg INVESTIGATE AND FIND OTHER CAMERAS",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 47,
+    "tried_sample": [
+      {
+        "url": "http://82.72.192.154/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/control/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/mjpg/video.mjpg",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 162
+      },
+      {
+        "url": "http://82.72.192.154/video.cgi",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "body_len": 162
+      }
+    ]
+  },
+  {
+    "idx": "88",
+    "original_url": "http://91.14.88.219/tmpfs/auto.jpg",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 47,
+    "tried_sample": [
+      {
+        "url": "http://91.14.88.219/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://91.14.88.219/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://91.14.88.219/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://91.14.88.219/control/faststream.jpg?stream=full&fps=16",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://91.14.88.219/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://91.14.88.219/mjpg/video.mjpg",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://91.14.88.219/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://91.14.88.219/video.cgi",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      }
+    ]
+  },
+  {
+    "idx": "89",
+    "original_url": "http://62.215.52.101:80",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://62.215.52.101:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      },
+      {
+        "url": "http://62.215.52.101:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 1245
+      }
+    ]
+  },
+  {
+    "idx": "90",
+    "original_url": "http://118.243.218.106:81/portal/js_pane/131?action=controls.Restore",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 30,
+    "tried_sample": [
+      {
+        "url": "http://118.243.218.106:81/cam0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/av0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/axis-cgi/mjpg/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://118.243.218.106:81/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "91",
+    "original_url": "http://85.229.58.96/",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://85.229.58.96/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://85.229.58.96/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "92",
+    "original_url": "http://94.125.55.139/",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://94.125.55.139/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://94.125.55.139/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "93",
+    "original_url": "http://121.123.62.177/image",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://121.123.62.177/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://121.123.62.177/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "94",
+    "original_url": "http://176.139.112.250/",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://176.139.112.250/cam_1.cgi",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/cam_1.mjpg",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/cam_1.mjpeg",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/cam_2.cgi",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/cam_2.mjpg",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/video.cgi",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/video.mjpg",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      },
+      {
+        "url": "http://176.139.112.250/mjpg/video.mjpg",
+        "ok": false,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "95",
+    "original_url": "http://93.38.57.20:8080/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://93.38.57.20:8080/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://93.38.57.20:8080/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "96",
+    "original_url": "http://194.32.174.72:80",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://194.32.174.72:80/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://194.32.174.72:80/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "101",
+    "original_url": "http://93.64.78.83:80",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://93.64.78.83:80/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://93.64.78.83:80/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "105",
+    "original_url": "http://213.137.36.178/jpg/image.jpg",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 31,
+    "tried_sample": [
+      {
+        "url": "http://213.137.36.178/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 151
+      },
+      {
+        "url": "http://213.137.36.178/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 152
+      },
+      {
+        "url": "http://213.137.36.178/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 153
+      },
+      {
+        "url": "http://213.137.36.178/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 151
+      },
+      {
+        "url": "http://213.137.36.178/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 152
+      },
+      {
+        "url": "http://213.137.36.178/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 151
+      },
+      {
+        "url": "http://213.137.36.178/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "application/x-rtsp-tunnelled",
+        "auth_used": false,
+        "body_len": 0
+      },
+      {
+        "url": "http://213.137.36.178/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=ISO-8859-1",
+        "auth_used": false,
+        "body_len": 157
+      }
+    ]
+  },
+  {
+    "idx": "106",
+    "original_url": "http://79.7.75.166/cgi-bin/mjpeg?resolution=1280x960&quality=5",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 35,
+    "tried_sample": [
+      {
+        "url": "http://79.7.75.166/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": null,
+        "auth_used": false,
+        "body_len": 85
+      },
+      {
+        "url": "http://79.7.75.166/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.7.75.166/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "109",
+    "original_url": "http://84.33.89.170:85",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 31,
+    "tried_sample": [
+      {
+        "url": "http://84.33.89.170:85/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://84.33.89.170:85/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      }
+    ]
+  },
+  {
+    "idx": "111",
+    "original_url": "http://94.94.93.50:50000/live/oneshot.html",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 27,
+    "tried_sample": [
+      {
+        "url": "http://94.94.93.50:50000/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://94.94.93.50:50000/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "114",
+    "original_url": "http://79.3.196.235/cgi-bin/mjpeg",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 26,
+    "tried_sample": [
+      {
+        "url": "http://79.3.196.235/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": null,
+        "auth_used": false,
+        "body_len": 85
+      },
+      {
+        "url": "http://79.3.196.235/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://79.3.196.235/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "118",
+    "original_url": "http://213.182.91.27:8082/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://213.182.91.27:8082/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://213.182.91.27:8082/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "119",
+    "original_url": "http://91.143.192.75/ViewerFrame?Resolution=640x480&Size=STD&Language=5&Sound=Enable&Mode=JPEG&RPeriod=3&SendMethod=1&View=Full",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://91.143.192.75/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://91.143.192.75/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "120",
+    "original_url": "http://128.116.187.241:81",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 43,
+    "tried_sample": [
+      {
+        "url": "http://128.116.187.241:81/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_1.cgi",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_1.mjpg",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_1.mjpeg",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://128.116.187.241:81/cam_2.cgi",
+        "auth_used": true,
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))"
+      }
+    ]
+  },
+  {
+    "idx": "121",
+    "original_url": "http://94.32.86.58:8090",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 43,
+    "tried_sample": [
+      {
+        "url": "http://94.32.86.58:8090/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_1.cgi",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_1.mjpg",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_1.mjpeg",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 171
+      },
+      {
+        "url": "http://94.32.86.58:8090/cam_2.cgi",
+        "auth_used": true,
+        "ok": false,
+        "status": 404,
+        "reason": "Site or Page Not Found",
+        "content_type": "text/html",
+        "body_len": 171
+      }
+    ]
+  },
+  {
+    "idx": "125",
+    "original_url": "http://185.124.182.119:80",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://185.124.182.119:80/cam_1.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/cam_1.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/cam_1.mjpeg",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/cam_2.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/cam_2.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      },
+      {
+        "url": "http://185.124.182.119:80/mjpg/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 120
+      }
+    ]
+  },
+  {
+    "idx": "126",
+    "original_url": "http://185.87.69.220:8001/snap.jpg?JpegCam=1",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://185.87.69.220:8001/cam_1.cgi",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/cam_1.mjpg",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/cam_1.mjpeg",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/cam_2.cgi",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/cam_2.mjpg",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/video.cgi",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/video.mjpg",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      },
+      {
+        "url": "http://185.87.69.220:8001/mjpg/video.mjpg",
+        "ok": false,
+        "status": 400,
+        "reason": "Bad Request",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 46
+      }
+    ]
+  },
+  {
+    "idx": "146",
+    "original_url": "http://77.60.226.189:8012/control/userimage.html",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 24,
+    "tried_sample": [
+      {
+        "url": "http://77.60.226.189:8012/cam0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/av0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://77.60.226.189:8012/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "149",
+    "original_url": "http://194.94.76.134:80/control/userimage.html",
+    "found_live_url": "http://194.94.76.134:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=----mobotix_fast_serverpush----",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 4,
+    "tried_sample": [
+      {
+        "url": "http://194.94.76.134:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5081
+      },
+      {
+        "url": "http://194.94.76.134:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5081
+      },
+      {
+        "url": "http://194.94.76.134:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5081
+      },
+      {
+        "url": "http://194.94.76.134:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=----MOBOTIX_Fast_Serverpush----",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "150",
+    "original_url": "http://80.245.224.153:80/control/userimage.html",
+    "found_live_url": "http://80.245.224.153:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://80.245.224.153:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://80.245.224.153:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://80.245.224.153:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "151",
+    "original_url": "http://213.5.145.4:80/control/userimage.html",
+    "found_live_url": "http://213.5.145.4:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://213.5.145.4:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6649
+      },
+      {
+        "url": "http://213.5.145.4:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6649
+      },
+      {
+        "url": "http://213.5.145.4:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "154",
+    "original_url": "http://82.77.203.219:8080/control/userimage.html",
+    "found_live_url": "http://82.77.203.219:8080/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://82.77.203.219:8080/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://82.77.203.219:8080/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://82.77.203.219:8080/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "155",
+    "original_url": "http://61.115.78.205:80/control/userimage.html",
+    "found_live_url": "http://61.115.78.205:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=----mobotix_fast_serverpush----",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 4,
+    "tried_sample": [
+      {
+        "url": "http://61.115.78.205:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://61.115.78.205:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://61.115.78.205:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://61.115.78.205:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=----MOBOTIX_Fast_Serverpush----",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "160",
+    "original_url": "http://194.44.38.196:8083/view/viewer_index.shtml?id=493",
+    "found_live_url": "http://194.44.38.196:8083/axis-cgi/mjpg/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 1,
+    "tried_sample": [
+      {
+        "url": "http://194.44.38.196:8083/axis-cgi/mjpg/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "162",
+    "original_url": "http://89.97.231.70:8083/control/userimage.html",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 24,
+    "tried_sample": [
+      {
+        "url": "http://89.97.231.70:8083/cam0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/av0_0",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://89.97.231.70:8083/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "165",
+    "original_url": "http://77.106.164.66:80/#view",
+    "found_live_url": "http://77.106.164.66:80/mjpg/video.mjpg",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 8,
+    "tried_sample": [
+      {
+        "url": "http://77.106.164.66:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://77.106.164.66:80/mjpg/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "166",
+    "original_url": "http://72.253.153.216:81/view/index.shtml",
+    "found_live_url": "http://72.253.153.216:81/axis-cgi/mjpg/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 1,
+    "tried_sample": [
+      {
+        "url": "http://72.253.153.216:81/axis-cgi/mjpg/video.cgi",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=--myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "167",
+    "original_url": "http://115.179.100.76:8080/CgiStart?page=Single&Language=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 28,
+    "tried_sample": [
+      {
+        "url": "http://115.179.100.76:8080/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://115.179.100.76:8080/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "168",
+    "original_url": "http://185.80.208.125:80/#view",
+    "found_live_url": "http://185.80.208.125:80/mjpg/video.mjpg",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 8,
+    "tried_sample": [
+      {
+        "url": "http://185.80.208.125:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://185.80.208.125:80/mjpg/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "169",
+    "original_url": "http://14.160.87.118:82/live/index.html?Language=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 26,
+    "tried_sample": [
+      {
+        "url": "http://14.160.87.118:82/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": null,
+        "auth_used": false,
+        "body_len": 85
+      },
+      {
+        "url": "http://14.160.87.118:82/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://14.160.87.118:82/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "170",
+    "original_url": "http://58.94.98.44:80/CgiStart?page=Single&Language=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 28,
+    "tried_sample": [
+      {
+        "url": "http://58.94.98.44:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 176
+      },
+      {
+        "url": "http://58.94.98.44:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 177
+      },
+      {
+        "url": "http://58.94.98.44:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 178
+      },
+      {
+        "url": "http://58.94.98.44:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 176
+      },
+      {
+        "url": "http://58.94.98.44:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 177
+      },
+      {
+        "url": "http://58.94.98.44:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 176
+      },
+      {
+        "url": "http://58.94.98.44:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 177
+      },
+      {
+        "url": "http://58.94.98.44:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 182
+      }
+    ]
+  },
+  {
+    "idx": "172",
+    "original_url": "http://210.248.127.20:80/CgiStart?page=Single&Language=0",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 28,
+    "tried_sample": [
+      {
+        "url": "http://210.248.127.20:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      },
+      {
+        "url": "http://210.248.127.20:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 163
+      }
+    ]
+  },
+  {
+    "idx": "175",
+    "original_url": "http://218.45.173.232:8000/live/index.html?Language=1&ViewMode=pull",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 26,
+    "tried_sample": [
+      {
+        "url": "http://218.45.173.232:8000/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/mjpg/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://218.45.173.232:8000/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  },
+  {
+    "idx": "176",
+    "original_url": "http://91.214.62.226:80/control/userimage.html",
+    "found_live_url": "http://91.214.62.226:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://91.214.62.226:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://91.214.62.226:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://91.214.62.226:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "179",
+    "original_url": "http://63.41.124.38:80/control/userimage.html",
+    "found_live_url": "http://63.41.124.38:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://63.41.124.38:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6649
+      },
+      {
+        "url": "http://63.41.124.38:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6649
+      },
+      {
+        "url": "http://63.41.124.38:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "183",
+    "original_url": "http://85.8.92.1:80/control/userimage.html",
+    "found_live_url": "http://85.8.92.1:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://85.8.92.1:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5278
+      },
+      {
+        "url": "http://85.8.92.1:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5278
+      },
+      {
+        "url": "http://85.8.92.1:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "184",
+    "original_url": "http://87.139.9.247:80/#view",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://87.139.9.247:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 207
+      },
+      {
+        "url": "http://87.139.9.247:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 208
+      },
+      {
+        "url": "http://87.139.9.247:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 209
+      },
+      {
+        "url": "http://87.139.9.247:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 207
+      },
+      {
+        "url": "http://87.139.9.247:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 208
+      },
+      {
+        "url": "http://87.139.9.247:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 207
+      },
+      {
+        "url": "http://87.139.9.247:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 208
+      },
+      {
+        "url": "http://87.139.9.247:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 401,
+        "reason": "Unauthorized",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 381
+      }
+    ]
+  },
+  {
+    "idx": "185",
+    "original_url": "http://50.197.223.169:80/#view",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 31,
+    "tried_sample": [
+      {
+        "url": "http://50.197.223.169:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.169:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      }
+    ]
+  },
+  {
+    "idx": "188",
+    "original_url": "http://221.189.0.181:80/cgi-bin/guestimage.html",
+    "found_live_url": "http://221.189.0.181:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 4,
+    "tried_sample": [
+      {
+        "url": "http://221.189.0.181:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7560
+      },
+      {
+        "url": "http://221.189.0.181:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7560
+      },
+      {
+        "url": "http://221.189.0.181:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 401,
+        "reason": "Unauthorized",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7557
+      },
+      {
+        "url": "http://221.189.0.181:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "189",
+    "original_url": "http://50.197.223.170:80/#view",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 31,
+    "tried_sample": [
+      {
+        "url": "http://50.197.223.170:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      },
+      {
+        "url": "http://50.197.223.170:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 341
+      }
+    ]
+  },
+  {
+    "idx": "190",
+    "original_url": "http://97.68.104.34:80/aca/index.html#view",
+    "found_live_url": "http://97.68.104.34:80/mjpg/video.mjpg",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 5,
+    "tried_sample": [
+      {
+        "url": "http://97.68.104.34:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://97.68.104.34:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://97.68.104.34:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://97.68.104.34:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html; charset=iso-8859-1",
+        "auth_used": false,
+        "body_len": 196
+      },
+      {
+        "url": "http://97.68.104.34:80/mjpg/video.mjpg",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=myboundary",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "191",
+    "original_url": "http://194.106.254.98:1080/control/userimage.html",
+    "found_live_url": "http://194.106.254.98:1080/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://194.106.254.98:1080/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://194.106.254.98:1080/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://194.106.254.98:1080/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "219",
+    "original_url": "http://202.174.60.121:80/-wvhttp-01-/image.cgi",
+    "found_live_url": "http://202.174.60.121:80/-wvhttp-01-/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=boundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://202.174.60.121:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      },
+      {
+        "url": "http://202.174.60.121:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 345
+      }
+    ]
+  },
+  {
+    "idx": "225",
+    "original_url": "http://85.220.149.7:80/cgi-bin/guestimage.html",
+    "found_live_url": "http://85.220.149.7:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 4,
+    "tried_sample": [
+      {
+        "url": "http://85.220.149.7:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://85.220.149.7:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://85.220.149.7:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 401,
+        "reason": "Unauthorized",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7564
+      },
+      {
+        "url": "http://85.220.149.7:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "255",
+    "original_url": "http://camera6.city.satsumasendai.lg.jp:80/-wvhttp-01-/image.cgi",
+    "found_live_url": "http://camera6.city.satsumasendai.lg.jp:80/-wvhttp-01-/video.cgi",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=boundary",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/cam_1.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/cam_1.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/cam_1.mjpeg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/cam_2.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/cam_2.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/video.cgi",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      },
+      {
+        "url": "http://camera6.city.satsumasendai.lg.jp:80/mjpg/video.mjpg",
+        "ok": false,
+        "status": 404,
+        "reason": "File Not Found",
+        "content_type": "text/plain; charset=utf-8",
+        "auth_used": false,
+        "body_len": 9
+      }
+    ]
+  },
+  {
+    "idx": "257",
+    "original_url": "http://yukijinjya.st.wakwak.ne.jp:80/control/userimage.html",
+    "found_live_url": "http://yukijinjya.st.wakwak.ne.jp:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace;boundary=----mobotix_fast_serverpush----",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 4,
+    "tried_sample": [
+      {
+        "url": "http://yukijinjya.st.wakwak.ne.jp:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://yukijinjya.st.wakwak.ne.jp:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://yukijinjya.st.wakwak.ne.jp:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 5191
+      },
+      {
+        "url": "http://yukijinjya.st.wakwak.ne.jp:80/cgi-bin/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace;boundary=----MOBOTIX_Fast_Serverpush----",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "268",
+    "original_url": "http://ferienpenthouse34.spdns.de:4601/control/userimage.html",
+    "found_live_url": "http://ferienpenthouse34.spdns.de:4601/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://ferienpenthouse34.spdns.de:4601/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6948
+      },
+      {
+        "url": "http://ferienpenthouse34.spdns.de:4601/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 6948
+      },
+      {
+        "url": "http://ferienpenthouse34.spdns.de:4601/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "271",
+    "original_url": "http://adlerschanze.selfhost.eu:80/control/userimage.html",
+    "found_live_url": "http://adlerschanze.selfhost.eu:80/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://adlerschanze.selfhost.eu:80/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://adlerschanze.selfhost.eu:80/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 7567
+      },
+      {
+        "url": "http://adlerschanze.selfhost.eu:80/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "272",
+    "original_url": "http://amrescam1.homeip.net:88/control/userimage.html",
+    "found_live_url": "http://amrescam1.homeip.net:88/control/faststream.jpg?stream=full&fps=16",
+    "stream_type": "mjpeg",
+    "content_type": "multipart/x-mixed-replace; boundary=\"mobotix_fast_serverpush\"",
+    "auth_used": false,
+    "evidence_status": 200,
+    "evidence_body_len": 2048,
+    "candidates_tried": 3,
+    "tried_sample": [
+      {
+        "url": "http://amrescam1.homeip.net:88/cam0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://amrescam1.homeip.net:88/av0_0",
+        "ok": false,
+        "status": 404,
+        "reason": "Not Found",
+        "content_type": "text/html",
+        "auth_used": false,
+        "body_len": 8257
+      },
+      {
+        "url": "http://amrescam1.homeip.net:88/control/faststream.jpg?stream=full&fps=16",
+        "ok": true,
+        "status": 200,
+        "content_type": "multipart/x-mixed-replace; boundary=\"MOBOTIX_Fast_Serverpush\"",
+        "auth_used": false,
+        "body_len": 2048
+      }
+    ]
+  },
+  {
+    "idx": "277",
+    "original_url": "http://flightcam3.pr.erau.edu:80/view/view.shtml",
+    "found_live_url": null,
+    "stream_type": null,
+    "content_type": null,
+    "auth_used": null,
+    "evidence_status": null,
+    "evidence_body_len": null,
+    "candidates_tried": 22,
+    "tried_sample": [
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/axis-cgi/mjpg/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/cam_1.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/cam_1.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/cam_1.mjpeg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/cam_2.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/cam_2.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/video.cgi",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      },
+      {
+        "url": "http://flightcam3.pr.erau.edu:80/video.mjpg",
+        "ok": false,
+        "error": "URLError(TimeoutError('timed out'))",
+        "auth_used": false
+      }
+    ]
+  }
+]

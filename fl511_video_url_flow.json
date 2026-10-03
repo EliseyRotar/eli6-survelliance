@@ -1,0 +1,163 @@
+[
+  {
+    "url": "https://fl511.com/Camera/GetVideoUrl?imageId=615&_=1787765548673",
+    "status": 200,
+    "request_headers": {
+      ":authority": "fl511.com",
+      ":method": "GET",
+      ":path": "/Camera/GetVideoUrl?imageId=615&_=1787765548673",
+      ":scheme": "https",
+      "__requestverificationtoken": "nN-yp72DKvFwlegOxLi9glJDMWu9vMQJuDdMryEUR92x64pfCHMYAO65X1cDn_PWlkuuygGHUgGubxDCr-alned_D0I1",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "cookie": "session-id=6699839F1F8BCFB8104DFFA516C9210E2030C6B68DCE43AAD6761603B86DFC1C251E2ECB89ED84F0EBEBD25A8F953D645CA4789FC6F7E7902E24940DD6FAB9E95DF7086878B94DF2E1928EBA204DB087D3E58A1401040B9A4B490227CC9244DE39AA6E24DCBFD41F881776675DAF0D96366705EFFD10345C62104F4ED5D0F166; _culture=en; session=session; __RequestVerificationToken=-X-OGGiVF_6Y1Hrp3wyU_9iazJkQzGnAFvQtnAPJmy62KZYymCPSQTbISi_2bwatupByyuaIm9QfR4XJ_ODwEXn7no01; _ga=GA1.1.7575492.1787765517; _ga_07ZPFGG911=GS2.1.s1787765517$o1$g1$t1787765548$j29$l0$h0",
+      "priority": "u=1, i",
+      "referer": "https://fl511.com/cctv?start=0&length=10&order%5Bi%5D=1&order%5Bdir%5D=asc",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "same-origin",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36",
+      "x-requested-with": "XMLHttpRequest"
+    },
+    "response_headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "private",
+      "via": "1.1 61bbb65ddfb7a23272f71c61d393f8ee.cloudfront.net (CloudFront)",
+      "x-cache": "Miss from cloudfront",
+      "content-length": "95",
+      "x-amz-cf-id": "h65a-i1NoIXbnnZJN4v_wgsyXfpYcbp_nUN2Pg5MZP5zgIdKliBPTg==",
+      "date": "Wed, 26 Aug 2026 17:32:48 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "ASP.NET",
+      "x-amz-cf-pop": "MXP63-P4"
+    },
+    "body": "{\"token\":\"CB8B3E38-7A0B-45D3-9893-99D20ACE33D8\",\"sourceId\":\"659\",\"systemSourceId\":\"District 5\"}"
+  },
+  {
+    "url": "https://divas.cloud/VDS-API/SecureTokenUri/GetSecureTokenUriBySourceId",
+    "status": 200,
+    "request_headers": {
+      ":authority": "divas.cloud",
+      ":method": "POST",
+      ":path": "/VDS-API/SecureTokenUri/GetSecureTokenUriBySourceId",
+      ":scheme": "https",
+      "__requestverificationtoken": "nN-yp72DKvFwlegOxLi9glJDMWu9vMQJuDdMryEUR92x64pfCHMYAO65X1cDn_PWlkuuygGHUgGubxDCr-alned_D0I1",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "content-length": "95",
+      "content-type": "application/json",
+      "origin": "https://fl511.com",
+      "priority": "u=1, i",
+      "referer": "https://fl511.com/",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36"
+    },
+    "response_headers": {
+      "strict-transport-security": "max-age=0",
+      "cache-control": "no-cache",
+      "x-aspnet-version": "4.0.30319",
+      "pragma": "no-cache",
+      "access-control-allow-credentials": "true",
+      "expires": "-1",
+      "access-control-allow-origin": "https://fl511.com",
+      "content-length": "73",
+      "date": "Wed, 26 Aug 2026 17:32:49 GMT",
+      "content-type": "application/json; charset=utf-8",
+      "x-powered-by": "ASP.NET",
+      "server": "Microsoft-IIS/10.0"
+    },
+    "body": "\"?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\""
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/index.m3u8?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "status": 200,
+    "request_headers": {
+      ":authority": "dis-se10.divas.cloud:8200",
+      ":method": "GET",
+      ":path": "/chan-454_h/index.m3u8?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "origin": "https://fl511.com",
+      "priority": "u=1, i",
+      "referer": "https://fl511.com/",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36"
+    },
+    "response_headers": {
+      "cache-control": "max-age=30",
+      "access-control-allow-origin": "*",
+      "content-length": "236",
+      "date": "Wed, 26 Aug 2026 17:32:51 GMT",
+      "content-type": "application/vnd.apple.mpegurl",
+      "server": "XEngine",
+      "access-control-allow-credentials": "true"
+    },
+    "body": "#EXTM3U\n#EXT-X-VERSION:9\n#EXT-X-INDEPENDENT-SEGMENTS\n\n#EXT-X-STREAM-INF:BANDWIDTH=489021,AVERAGE-BANDWIDTH=435300,CODECS=\"avc1.4d401e\",RESOLUTION=512x288\nxflow.m3u8?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\n"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/xflow.m3u8?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "status": 200,
+    "request_headers": {
+      ":authority": "dis-se10.divas.cloud:8200",
+      ":method": "GET",
+      ":path": "/chan-454_h/xflow.m3u8?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "origin": "https://fl511.com",
+      "priority": "u=1, i",
+      "referer": "https://fl511.com/",
+      "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"HeadlessChrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/151.0.7922.34 Safari/537.36"
+    },
+    "response_headers": {
+      "cache-control": "no-cache",
+      "access-control-allow-origin": "*",
+      "content-length": "754",
+      "date": "Wed, 26 Aug 2026 17:32:52 GMT",
+      "content-type": "application/vnd.apple.mpegurl",
+      "server": "XEngine",
+      "access-control-allow-credentials": "true"
+    },
+    "body": "#EXTM3U\n#EXT-X-VERSION:10\n#EXT-X-TARGETDURATION:13\n#EXT-X-MEDIA-SEQUENCE:1089\n#EXT-X-MAP:URI=\"d0a5e5aa8f2f_init.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\"\n#EXTINF:12.81187,\nd0a5e5aa8f2f_seg1089.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\n#EXTINF:12.81187,\nd0a5e5aa8f2f_seg1090.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\n#EXT-X-PROGRAM-DATE-TIME:2026-08-26T13:32:24.384-04:00\n#EXTINF:12.71179,\nd0a5e5aa8f2f_seg1091.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\n#EXT-X-PROGRAM-DATE-TIME:2026-08-26T13:32:37.098-04:00\n#EXTINF:12.71177,\nd0a5e5aa8f2f_seg1092.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d\n"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/d0a5e5aa8f2f_init.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "err": "'utf-8' codec can't decode byte 0xe8 in position 63: invalid continuation byte"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/d0a5e5aa8f2f_seg1089.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "err": "'utf-8' codec can't decode byte 0xc5 in position 65: invalid continuation byte"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/d0a5e5aa8f2f_seg1090.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "err": "'utf-8' codec can't decode byte 0x80 in position 83: invalid start byte"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/d0a5e5aa8f2f_seg1091.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "err": "'utf-8' codec can't decode byte 0xe9 in position 65: invalid continuation byte"
+  },
+  {
+    "url": "https://dis-se10.divas.cloud:8200/chan-454_h/d0a5e5aa8f2f_seg1092.mp4?token=67487680b43448352ee077b06cbfd39e92e8e10d401aad567bfd42df3aaf4f7d",
+    "err": "'utf-8' codec can't decode byte 0xfa in position 65: invalid start byte"
+  }
+]

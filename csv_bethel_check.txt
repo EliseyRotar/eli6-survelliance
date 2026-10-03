@@ -1,0 +1,5 @@
+﻿  [2945] virginianewslink webcam (argus) | Bethel, Alaska, United States | (62.65, -160.19)
+  [2979] esfc webcam (argus) | Bethel, Alaska, United States | (60.78, -161.84)
+  [2997] images webcam (argus) | Bethel, Maine, United States | (44.42, -70.81)
+  [3088] weathercams webcam (argus) | Bethel, Alaska, United States | (60.21, -162.04)
+Bethel total: 800

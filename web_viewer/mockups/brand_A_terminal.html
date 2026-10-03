@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--
+  ELI6 ▸ SURVEILLANCE — Brand Mockup A: "Terminal"
+  Pure terminal aesthetic. JetBrains Mono throughout.
+  Cyan #00d9ff on near-black. Typewriter intro.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ELI6 ▸ SURVEILLANCE — Mockup A (Terminal)</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0e14;
+  --bg-2: #0f1419;
+  --bg-3: #151c24;
+  --border: #1e2630;
+  --border-h: #2c3640;
+  --text: #b8c5d0;
+  --text-dim: #5a6878;
+  --cyan: #00d9ff;
+  --cyan-dim: #0099bb;
+  --green: #4ade80;
+  --red: #ff5555;
+  --yellow: #f1fa8c;
+  --magenta: #ff79c6;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  background: var(--bg);
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 217, 255, 0.015) 2px, rgba(0, 217, 255, 0.015) 4px);
+  color: var(--text);
+  font-family: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+.cursor {
+  display: inline-block; width: 0.6em; height: 1em;
+  background: var(--cyan); vertical-align: text-bottom;
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+
+/* INTRO */
+#intro {
+  position: fixed; inset: 0; z-index: 1000;
+  background: var(--bg);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 4px; font-size: 18px; letter-spacing: 0.1em;
+}
+#intro .line { opacity: 0; transition: opacity 0.3s; }
+#intro .line.show { opacity: 1; }
+#intro .cyan { color: var(--cyan); }
+#intro .dim { color: var(--text-dim); font-size: 14px; }
+#intro .green { color: var(--green); }
+#intro .yellow { color: var(--yellow); }
+
+/* HEADER */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 16px 24px;
+  display: flex; align-items: center; gap: 16px;
+}
+.logo {
+  color: var(--cyan); font-weight: 700; font-size: 16px;
+  text-shadow: 0 0 12px rgba(0, 217, 255, 0.4);
+  letter-spacing: 0.05em;
+}
+.logo .sep { color: var(--cyan-dim); margin: 0 6px; }
+.search-box {
+  flex: 1; display: flex; gap: 8px; align-items: center;
+}
+.search-box .prompt { color: var(--cyan); }
+.search-box input {
+  flex: 1; background: transparent; border: none;
+  color: var(--text); font-family: inherit; font-size: 13px;
+  padding: 4px 0; outline: none;
+}
+.search-box input::placeholder { color: var(--text-dim); }
+.stats-line { display: flex; gap: 12px; font-size: 11px; color: var(--text-dim); }
+.stats-line .stat strong { color: var(--cyan); margin-left: 4px; font-weight: 500; }
+
+/* TABS */
+.tabs {
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px; display: flex; gap: 0;
+}
+.tab {
+  padding: 10px 16px; color: var(--text-dim);
+  cursor: pointer; border-bottom: 2px solid transparent;
+  font-size: 12px; letter-spacing: 0.05em;
+  user-select: none;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--cyan); border-bottom-color: var(--cyan); }
+.tab .num { color: var(--text-dim); margin-left: 6px; font-size: 11px; }
+
+/* FILTERS */
+.filters {
+  padding: 8px 24px; display: flex; gap: 6px; flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+}
+.chip {
+  padding: 3px 10px; border: 1px solid var(--border);
+  border-radius: 0; color: var(--text-dim);
+  cursor: pointer; font-size: 11px; user-select: none;
+}
+.chip:hover { border-color: var(--border-h); color: var(--text); }
+.chip.active { background: var(--cyan-dim); border-color: var(--cyan); color: var(--bg); }
+.chip .count { color: var(--text-dim); margin-left: 6px; }
+.chip.active .count { color: var(--bg); opacity: 0.7; }
+
+/* GRID */
+.grid {
+  padding: 16px 24px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px;
+}
+.cam {
+  background: var(--bg-2); border: 1px solid var(--border); position: relative;
+}
+.cam:hover { border-color: var(--cyan-dim); }
+.cam-vid {
+  aspect-ratio: 16/9; background: #000; position: relative;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
+}
+.cam-vid img { width: 100%; height: 100%; object-fit: cover; filter: contrast(1.1) saturate(0.9); }
+.cam-meta {
+  padding: 6px 10px; font-size: 11px;
+  border-top: 1px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center;
+}
+.cam-name { color: var(--text); }
+.cam-loc { color: var(--text-dim); font-size: 10px; }
+.cam-tag {
+  position: absolute; top: 4px; left: 4px;
+  padding: 2px 6px; background: rgba(10, 14, 20, 0.85);
+  border: 1px solid var(--cyan-dim); color: var(--cyan);
+  font-size: 9px; letter-spacing: 0.1em; z-index: 2;
+}
+.cam-tag.live { border-color: var(--green); color: var(--green); }
+.cam-tag.rec { border-color: var(--magenta); color: var(--magenta); }
+.cam-flag {
+  position: absolute; top: 4px; right: 4px;
+  font-size: 14px; z-index: 2;
+  background: rgba(10, 14, 20, 0.7); padding: 2px 4px;
+}
+.cam-dist {
+  position: absolute; bottom: 4px; right: 4px;
+  background: rgba(10, 14, 20, 0.85);
+  border: 1px solid var(--border-h);
+  padding: 1px 6px; font-size: 9px; color: var(--yellow); z-index: 2;
+}
+.cmd-line {
+  padding: 8px 24px; border-top: 1px solid var(--border);
+  display: flex; gap: 8px; font-size: 12px; color: var(--text-dim);
+}
+.cmd-line .p { color: var(--cyan); }
+.cmd-line .blink { color: var(--cyan); animation: blink 1s steps(1) infinite; }
+
+@media (max-width: 800px) {
+  header { flex-wrap: wrap; }
+  .stats-line { width: 100%; flex-wrap: wrap; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); padding: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div id="intro">
+  <div class="line dim">$ init eli6-surveillance --v1</div>
+  <div class="line cyan">ELI6 ▸ SURVEILLANCE</div>
+  <div class="line dim">[ surveillance for the people ]</div>
+  <div class="line green">✓ 173,882 cams indexed</div>
+  <div class="line green">✓ 4,265 fl511 streams live</div>
+  <div class="line green">✓ 117 skyline streams live</div>
+  <div class="line yellow">□ ready<span class="cursor"></span></div>
+</div>
+
+<header>
+  <div class="logo">ELI6<span class="sep">▸</span>SURVEILLANCE<span class="cursor"></span></div>
+  <div class="search-box">
+    <span class="prompt">$</span>
+    <input type="text" placeholder="grep 'italy|florence|rome' --type=hls">
+  </div>
+  <div class="stats-line">
+    <div class="stat">cams<strong>173,882</strong></div>
+    <div class="stat">live<strong>4,382</strong></div>
+    <div class="stat">err<strong>0</strong></div>
+  </div>
+</header>
+
+<div class="tabs">
+  <div class="tab active">grid<span class="num">[1]</span></div>
+  <div class="tab">map<span class="num">[2]</span></div>
+  <div class="tab">globe<span class="num">[3]</span></div>
+  <div class="tab">stats<span class="num">[4]</span></div>
+</div>
+
+<div class="filters">
+  <div class="chip active">all<span class="count">173,882</span></div>
+  <div class="chip">hls<span class="count">2,847</span></div>
+  <div class="chip">youtube<span class="count">1,294</span></div>
+  <div class="chip">mjpeg<span class="count">169,420</span></div>
+  <div class="chip">mp4<span class="count">321</span></div>
+  <div class="chip">live<span class="count">4,382</span></div>
+  <div class="chip">auth<span class="count">812</span></div>
+</div>
+
+<div class="grid">
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇮🇹</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=400" alt="florence"></div>
+    <div class="cam-dist">12 km</div>
+    <div class="cam-meta"><div class="cam-name">Florence · Ponte Vecchio</div><div class="cam-loc">Tuscany, IT</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇮🇹</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1525874684015-58379d421a52?w=400" alt="venice"></div>
+    <div class="cam-dist">412 km</div>
+    <div class="cam-meta"><div class="cam-name">Venice · St. Mark's Basin</div><div class="cam-loc">Veneto, IT</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇺🇸</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?w=400" alt="nyc"></div>
+    <div class="cam-dist">6,841 km</div>
+    <div class="cam-meta"><div class="cam-name">NYC · Times Square</div><div class="cam-loc">NY, US</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇯🇵</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400" alt="tokyo"></div>
+    <div class="cam-dist">9,724 km</div>
+    <div class="cam-meta"><div class="cam-name">Tokyo · Shibuya Crossing</div><div class="cam-loc">Tokyo, JP</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag rec">HLS</div>
+    <div class="cam-flag">🇮🇹</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400" alt="rome"></div>
+    <div class="cam-dist">228 km</div>
+    <div class="cam-meta"><div class="cam-name">Rome · Trevi Fountain</div><div class="cam-loc">Lazio, IT</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇫🇷</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400" alt="paris"></div>
+    <div class="cam-dist">1,107 km</div>
+    <div class="cam-meta"><div class="cam-name">Paris · Eiffel Tower</div><div class="cam-loc">Île-de-France, FR</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇬🇧</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=400" alt="london"></div>
+    <div class="cam-dist">1,659 km</div>
+    <div class="cam-meta"><div class="cam-name">London · Abbey Road</div><div class="cam-loc">England, GB</div></div>
+  </div>
+  <div class="cam">
+    <div class="cam-tag live">LIVE</div>
+    <div class="cam-flag">🇦🇺</div>
+    <div class="cam-vid"><img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400" alt="sydney"></div>
+    <div class="cam-dist">16,512 km</div>
+    <div class="cam-meta"><div class="cam-name">Sydney · Opera House</div><div class="cam-loc">NSW, AU</div></div>
+  </div>
+</div>
+
+<div class="cmd-line">
+  <span class="p">$</span>
+  <span>grep <span style="color:var(--yellow)">'italy'</span> --type=hls --live --autoplay</span>
+  <span class="blink">_</span>
+</div>
+
+<script>
+const lines = document.querySelectorAll('#intro .line');
+lines.forEach((l, i) => setTimeout(() => l.classList.add('show'), i * 180));
+setTimeout(() => {
+  const intro = document.getElementById('intro');
+  intro.style.transition = 'opacity 0.5s';
+  intro.style.opacity = '0';
+  setTimeout(() => intro.remove(), 500);
+}, lines.length * 180 + 1200);
+</script>
+
+</body>
+</html>

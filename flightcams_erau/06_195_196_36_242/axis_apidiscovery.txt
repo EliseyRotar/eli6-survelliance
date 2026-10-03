@@ -1,0 +1,1 @@
+{"apiVersion": "1.1", "error": {"code": 2002, "message": "HTTP request type 'GET' not supported, only POST supported"}}

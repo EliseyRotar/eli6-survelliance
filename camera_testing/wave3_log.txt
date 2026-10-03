@@ -1,0 +1,9 @@
+[23:18:53] [init] starting Wave-3 super pivot
+[23:18:53] [init] 5564 existing live URLs
+[23:18:53] [pass-1] alertcalifornia
+[23:18:54] [alertcalifornia] +0
+[23:18:54] [pass-2] webcam.travel
+[23:18:55] [webcamtravel] +0
+[23:18:55] [pass-3] windy-r2
+[23:18:58] [windy-r2] +0
+[23:18:58] [done] Wave-3 complete

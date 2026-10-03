@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text-html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>qblog entry 18:47:46 Tuesday May 31 2005</title>
+<link rel="stylesheet" type="text/css" title="QBlog Style" href="qblog.css" />
+</head>
+<body>
+<table border="0" style="width:70%; margin-left:15%; margin-right:15%;"><tr><td style="text-align: left;">
+<!-- ** qblog entry start ** -->
+<b><a class="dark" href="./qblog_2005.05.31.18.47.46.html">18:47:46 Tuesday May 31 2005</a></b><br />
+<img src="./images/vcpp.jpg" alt="image not found" class="lf" />
+<p>
+<br /><br />
+Why can't people obey the standards? It isn't hard. No one has any
+respect for standards. As I shall demonstrate, unwashed open source 
+hippies who talk a lot about respecting standards are as guilty as
+everyone else.<br /><br />
+
+<b>case 1:</b><br />
+Visual C++ does not understand scoping at all. Paste this into your
+compiler. Go on this will still be here when you return.<br /><br />
+
+int x = 77;<br />
+for(int x=0; x&lt;10; x++)<br />
+{}<br />
+printf("the value of x is %d\n", x);<br /><br />
+
+What should the value of x be? It should be 77 because the x declared
+in the for loop only exists inside the for loop. Moreover there should
+be a warning about overriding a previous x. Does VC++ do either of
+these things? No.<br /><br />
+
+<b>case 2:</b><br />
+Both VC++ and gcc treat the result of the trinary conditional operator
+as an lvalue. If you check your copy of ISO 9899 section 6.5.15 you
+will find that it says EXPLICITLY that the conditional operator DOES
+NOT yield an lvalue. However feel free to try something like this. It is
+almost guaranteed to work on any given compiler:<br /><br />
+int a=0, b=0;<br />
+(rand()%2) ? a : b = 42;<br /><br />
+
+<b>case 3:</b><br />
+gcc absolutely abuses the standard by allowing the second operand to
+the conditional operator to be omitted. Yep, try it out.<br /><br />
+
+int alpha = 0;<br />
+int beta = 13;<br />
+alpha = (rand()%2) ? : beta;<br /><br />
+
+This is exactly equivalent to:<br /><br />
+alpha = (tmp=(rand()%2)) ? tmp : beta;<br /><br />
+
+which, as it happens, is actually legal C.<br /><br />
+
+<b>case 4:</b><br />
+Today I discovered that Visual C++ disables certain language features
+by default. While attempting to use the dynamic_cast operator I
+discovered that <a
+href="http://www.ictp.trieste.it/~manuals/programming/sun/c-plusplus/c++_ug/RTTI.doc.html">RTTI</a>
+was missing. This piece of information came to me by way of the
+mysterious compiler warning:<br /><br />
+main.cpp(51): warning C4541: 'dynamic_cast' used on polymorphic type
+'Foo' with /GR-; unpredictable behavior may result<br /><br />
+What VC++ means to say is : "I am a crippled non-standard
+compiler. You need to explicitly enable RTTI by doing Project -&gt;
+Properties -&gt; C/C++ -&gt; Language -&gt; Enable Run-Time Type Info
+and then fiddling around with the drop box that will allow me to fully
+implement the C++ language." 
+
+</p>
+<!-- ** qblog entry end ** -->
+</td></tr></table>
+</body>
+</html>
