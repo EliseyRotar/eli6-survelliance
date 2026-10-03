@@ -3,6 +3,12 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 41 update (2026-10-03) - VISIBILITY CLASSIFICATION:
+REM   - CSV `visibility` column: public 229,919 / private 113 / unknown 1
+REM   - Dashboard: VISIBILITY chips (all/public/private/unknown) + PRIVATE
+REM     tile badge; /api/cams?visibility=..., /api/stats by_visibility
+REM   - After CSV changes: GET http://127.0.0.1:8773/api/refresh (no restart)
+REM
 REM Session 40 update (2026-10-03) - PROJECT REORGANIZATION:
 REM   - Root decluttered: 495 files -> 24 (by-function layout)
 REM   - Services moved to services\ (hls_proxy, skyline, digitraffic,

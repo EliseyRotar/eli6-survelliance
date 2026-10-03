@@ -19,7 +19,7 @@ const DEFAULT_SETTINGS = {
 };
 const state = {
   view: 'grid',
-  filter: { q: '', type: '', country: '', region: '', city: '', sort: 'idx' },  // type=''=all, 'hls','mjpeg','youtube','mp4'
+  filter: { q: '', type: '', vis: '', country: '', region: '', city: '', sort: 'idx' },  // type=''=all, 'hls','mjpeg','youtube','mp4'; vis=''=all,'public','private','unknown'
   cams: [],
   visible: [],
   countries: [],
@@ -53,11 +53,11 @@ function loadState() {
     const s = JSON.parse(localStorage.getItem(STATE_KEY) || '{}');
     return {
       view: s.view || 'grid',
-      filter: { q: s.q || '', type: s.type || '', country: s.country || '', region: s.region || '', city: s.city || '', sort: s.sort || 'idx' },
+      filter: { q: s.q || '', type: s.type || '', vis: s.vis || '', country: s.country || '', region: s.region || '', city: s.city || '', sort: s.sort || 'idx' },
       gridSize: s.gridSize || 'compact',
     };
   } catch {
-    return { view: 'grid', filter: { q:'', type:'', country:'', region:'', city:'', sort:'idx' }, gridSize: 'compact' };
+    return { view: 'grid', filter: { q:'', type:'', vis:'', country:'', region:'', city:'', sort:'idx' }, gridSize: 'compact' };
   }
 }
 
@@ -66,6 +66,7 @@ function saveState() {
     view: state.view,
     q: state.filter.q,
     type: state.filter.type,
+    vis: state.filter.vis,
     country: state.filter.country,
     region: state.filter.region,
     city: state.filter.city,
@@ -81,6 +82,7 @@ window.addEventListener('storage', (e) => {
     Object.assign(state.filter, s.filter);
     document.getElementById('searchInput').value = state.filter.q;
     document.querySelectorAll('.chip[data-type]').forEach(c => c.classList.toggle('active', (c.dataset.type || '') === state.filter.type));
+    document.querySelectorAll('.chip[data-vis]').forEach(c => c.classList.toggle('active', (c.dataset.vis || '') === state.filter.vis));
     document.getElementById('countryFilter').value = state.filter.country;
     document.getElementById('regionFilter').value = state.filter.region;
     document.getElementById('cityFilter').value = state.filter.city;
@@ -93,7 +95,7 @@ window.addEventListener('storage', (e) => {
 });
 
 // ==================== URL ROUTING ====================
-const URL_KEYS = { view: 'view', q: 'q', type: 'type', country: 'country', region: 'region', city: 'city', cam: 'cam', sort: 'sort' };
+const URL_KEYS = { view: 'view', q: 'q', type: 'type', vis: 'visibility', country: 'country', region: 'region', city: 'city', cam: 'cam', sort: 'sort' };
 
 function readUrlParams() {
   const p = new URLSearchParams(location.search);
@@ -105,6 +107,7 @@ function writeUrlParams() {
   if (state.view !== 'grid') p.set(URL_KEYS.view, state.view);
   if (state.filter.q) p.set(URL_KEYS.q, state.filter.q);
   if (state.filter.type) p.set(URL_KEYS.type, state.filter.type);
+  if (state.filter.vis) p.set(URL_KEYS.vis, state.filter.vis);
   if (state.filter.country) p.set(URL_KEYS.country, state.filter.country);
   if (state.filter.region) p.set(URL_KEYS.region, state.filter.region);
   if (state.filter.city) p.set(URL_KEYS.city, state.filter.city);
@@ -118,7 +121,7 @@ const _url = readUrlParams();
 const _persisted = loadState();
 state.view = _url.view || _persisted.view || 'grid';
 state.filter = { ..._persisted.filter };
-for (const k of ['q', 'type', 'country', 'region', 'city', 'sort']) {
+for (const k of ['q', 'type', 'vis', 'country', 'region', 'city', 'sort']) {
   if (_url[k]) state.filter[k] = _url[k];
 }
 state.gridSize = _persisted.gridSize;
@@ -282,6 +285,14 @@ function renderTile(cam, index) {
   typeBadge.className = `tile-type ${typeClass}`;
   typeBadge.textContent = typeLabel;
   media.appendChild(typeBadge);
+
+  if (cam.visibility === 'private') {
+    const visBadge = document.createElement('div');
+    visBadge.className = 'tile-vis';
+    visBadge.textContent = 'private';
+    visBadge.title = 'Visibility: private (not intended as a public camera)';
+    media.appendChild(visBadge);
+  }
 
   const flag = document.createElement('div');
   flag.className = 'tile-flag';
@@ -499,12 +510,23 @@ function applyFilter() {
   }
 }
 
-function setStats(types, total) {
+function setStats(types, total, byVis, byVisLive) {
   document.getElementById('countAll').textContent = fmt(total != null ? total : state.cams.length);
   document.getElementById('countHls').textContent = fmt(types.hls || 0);
   document.getElementById('countYt').textContent = fmt(types.youtube || 0);
   document.getElementById('countMjpeg').textContent = fmt(types.mjpeg || 0);
   document.getElementById('countMp4').textContent = fmt(types.mp4 || 0);
+  if (byVis) {
+    // Counts must match what each chip displays:
+    //   all / public -> live-scoped (default dashboard view)
+    //   private / unknown -> full bucket (no live filter on server)
+    const set = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = fmt(v || 0); };
+    const visLive = byVisLive || {};
+    set('countVisAll', total != null ? total : 0);
+    set('countVisPublic', visLive.public != null ? visLive.public : byVis.public);
+    set('countVisPrivate', byVis.private);
+    set('countVisUnknown', byVis.unknown);
+  }
 }
 
 // ==================== VIEW SWITCHING ====================
@@ -1085,6 +1107,7 @@ async function openDetail(cam) {
       <div class="ai-section-title">stream</div>
       <div class="drawer-row"><span class="k">type</span><span class="v">${escapeHtml(f.type || '—')}</span></div>
       <div class="drawer-row"><span class="k">category</span><span class="v">${escapeHtml(f.category || '—')}</span></div>
+      <div class="drawer-row"><span class="k">visibility</span><span class="v ${f.visibility === 'private' ? 'bad' : ''}">${escapeHtml(f.visibility || 'unknown')}</span></div>
       <div class="drawer-row"><span class="k">brand</span><span class="v">${escapeHtml(f.brand || '—')}</span></div>
       <div class="drawer-row"><span class="k">model</span><span class="v">${escapeHtml(f.model || '—')}</span></div>
       <div class="drawer-row"><span class="k">live url</span><span class="v mono" style="word-break:break-all;font-size:10px">${escapeHtml((f.live || '').slice(0, 200))}</span></div>
@@ -1352,6 +1375,18 @@ function setupFilters() {
     });
   });
 
+  // Visibility chips (public / private / unknown — exact match server-side)
+  document.querySelectorAll('.chip[data-vis]').forEach(c => {
+    c.addEventListener('click', async () => {
+      document.querySelectorAll('.chip[data-vis]').forEach(x => x.classList.remove('active'));
+      c.classList.add('active');
+      state.filter.vis = c.dataset.vis;
+      await reloadCams();
+      saveState();
+      writeUrlParams();
+    });
+  });
+
   // Country dropdown
   document.getElementById('countryFilter').addEventListener('change', async (e) => {
     state.filter.country = e.target.value;
@@ -1549,12 +1584,13 @@ async function reloadCams() {
     // First, fetch authoritative counts from /api/stats
     try {
       const stats = await Api.stats();
-      setStats(stats.by_type || {}, stats.live);
+      setStats(stats.by_type || {}, stats.live, stats.by_visibility || {}, stats.by_visibility_live || {});
     } catch {}
 
     // Load cams matching current filters (server-side)
     const params = {
       type: state.filter.type,
+      visibility: state.filter.vis,
       country: state.filter.country,
       region: state.filter.region,
       city: state.filter.city,
@@ -1648,6 +1684,7 @@ async function boot() {
   // Apply persisted state to UI
   document.getElementById('searchInput').value = state.filter.q;
   document.querySelectorAll('.chip[data-type]').forEach(c => c.classList.toggle('active', (c.dataset.type || '') === state.filter.type));
+  document.querySelectorAll('.chip[data-vis]').forEach(c => c.classList.toggle('active', (c.dataset.vis || '') === state.filter.vis));
   document.getElementById('sortFilter').value = state.filter.sort || 'idx';
 
   // Init virtual grid

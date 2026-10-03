@@ -1503,3 +1503,67 @@ The slug is `{abbrev}-{N}` format, NOT `pp-{abbrev}-{N}`!
 - Then `POST http://127.0.0.1:8773/api/refresh` to rebuild the DB index
 - Extract posters with ffmpeg into `web_viewer/static/posters/{idx}.jpg`
 - Restart services only if code changed: `stop_all.bat` then `start_all.bat`
+
+## ✅ Session 41 (2026-10-03) — Public/private visibility classification + dashboard filter
+
+### Goal
+- Classify every cam as public / private / unknown; "private" = not intended
+  as a public camera (indoor scenes AND exposed no-auth/creds endpoints)
+- Filter chip on the dashboard to isolate the private bucket
+- `PRIVATE` badge on private tiles
+
+### Decisions (user-confirmed)
+- Definition: BOTH signals in one bucket (indoor/not-public-intent + exposed cams)
+- 3 states `public|private|unknown`; Private filter = exact match, confirmed
+  private only (unknown gets its own chip)
+- Depth: rule classifier + poster scene analysis
+- UI: filter chip + tile badge
+
+### Research (Shodan/Insecam/OSINT)
+- Public = deliberately published (511/DOT/tourism/wildlife/weather cams)
+- Private = non-public environment (home/bedroom/office/shop) reachable only
+  via misconfiguration — nobody intended it public
+
+### Classification — `scripts/fix/classify_visibility.py`
+- Rule order: P1 creds → P4 exposed-IP → P3 NVR → U1 subject-declares-public →
+  P7 ipcam-name → P2a category=private → U2 csv_id provenance → U3 content
+  markers → U5 host → soft P2/P5/P6 keywords (provenance-guarded) → U4 → unknown
+- Provenance guard fixed keyword FPs: ski "baby lift", public "Living Room"
+  cams, radio streams with junk `indoor` category, `dvr=false` URL params
+- Result: **public 229,919 / private 113 / unknown 1** (230,033 rows)
+- Backup: `backups/session_v41_20261003/controllable_Webcams.csv` (151.3 MB)
+- Report: `docs/VISIBILITY_REPORT.md`
+
+### Poster scene analysis
+- 83 U4+unknown rows with posters (Istanbul IBB traffic cams) montaged +
+  visually reviewed → 83/83 outdoor street scenes → public, 0 flips
+- 113 private rows live-fetch attempted → 10 alive → montage confirmed
+  indoor hallways, home interior, night-vision property cam
+
+### Backend (`api/app.py`)
+- `visibility TEXT` column + `idx_visibility` (schema + migration for both DB paths)
+- `/api/cams?visibility=public|private|unknown` exact-match filter
+- private/unknown bypass the default live-only filter (full audit bucket;
+  9 still_image + 8 null-status + 5 auth private rows no longer hide)
+- `/api/stats`: `by_visibility`, `by_visibility_live`, `private` count
+- `GET /api/refresh` re-ran → 230,033 rows indexed with visibility
+
+### Frontend (`web_viewer`)
+- `VISIBILITY › all | public | private | unknown` chip group with live counts
+  (all/public = live-scoped, private/unknown = full bucket, counts always
+  match displayed rows)
+- Red `PRIVATE` badge top-center on private tiles (`.tile-vis`)
+- Detail modal: `visibility` row (private rendered red)
+- Persisted in `localStorage` (`eli6-state.vis`) + shareable `?visibility=private`
+
+### Verification
+- API: private=113 (0 non-private rows), unknown=1, public=208,235,
+  default view unchanged at 208,321
+- Browser: chip counts 208k/208k/113/1; private → 113 visible, 12/12 badges;
+  public/all → 0 badge leakage; direct URL + localStorage restore verified
+- Dashboard reloaded via `run_dashboard.py` supervisor (one child restart;
+  supervisor survived, all 8 services still up)
+
+### Git
+- `feat: public/private/unknown visibility classification + dashboard filter`
+- pushed to `github.com/EliseyRotar/eli6-survelliance.git` (main)

@@ -189,7 +189,8 @@ def _ensure_db(force_reload=False):
         # Must run BEFORE executescript() that creates indices on new columns
         try:
             cur_cols = [r[1] for r in _DB_CONN.execute("PRAGMA table_info(cams)").fetchall()]
-            for col, typedef in (('road', 'TEXT'), ('location_precision', 'TEXT')):
+            for col, typedef in (('road', 'TEXT'), ('location_precision', 'TEXT'),
+                                 ('visibility', 'TEXT')):
                 if cur_cols and col not in cur_cols:
                     try:
                         _DB_CONN.execute(f"ALTER TABLE cams ADD COLUMN {col} {typedef}")
@@ -218,6 +219,7 @@ def _ensure_db(force_reload=False):
           page_title TEXT,
           description TEXT,
           category TEXT,
+          visibility TEXT,
           likely_subject TEXT,
           brand TEXT,
           model TEXT,
@@ -251,6 +253,7 @@ def _ensure_db(force_reload=False):
         CREATE INDEX IF NOT EXISTS idx_geo      ON cams(lat, lon);
         CREATE INDEX IF NOT EXISTS idx_isp      ON cams(isp);
         CREATE INDEX IF NOT EXISTS idx_category ON cams(category);
+        CREATE INDEX IF NOT EXISTS idx_visibility ON cams(visibility);
         CREATE INDEX IF NOT EXISTS idx_idx      ON cams(idx);
         CREATE INDEX IF NOT EXISTS idx_road     ON cams(road);
         CREATE INDEX IF NOT EXISTS idx_precision ON cams(location_precision);
@@ -284,7 +287,8 @@ def _ensure_db(force_reload=False):
         # (avoids dropping and recreating the 500MB+ DB)
         try:
             cur_cols = [r[1] for r in _DB_CONN.execute("PRAGMA table_info(cams)").fetchall()]
-            for col, typedef in (('road', 'TEXT'), ('location_precision', 'TEXT')):
+            for col, typedef in (('road', 'TEXT'), ('location_precision', 'TEXT'),
+                                 ('visibility', 'TEXT')):
                 if col not in cur_cols:
                     try:
                         _DB_CONN.execute(f"ALTER TABLE cams ADD COLUMN {col} {typedef}")
@@ -295,6 +299,7 @@ def _ensure_db(force_reload=False):
             try:
                 _DB_CONN.execute("CREATE INDEX IF NOT EXISTS idx_road ON cams(road)")
                 _DB_CONN.execute("CREATE INDEX IF NOT EXISTS idx_precision ON cams(location_precision)")
+                _DB_CONN.execute("CREATE INDEX IF NOT EXISTS idx_visibility ON cams(visibility)")
             except Exception:
                 pass
         except Exception:
@@ -359,6 +364,7 @@ def _ensure_db(force_reload=False):
                     'page_title': s(row.get('page_title'))[:300],
                     'description': s(row.get('description'))[:300],
                     'category': s(row.get('category')),
+                    'visibility': s(row.get('visibility')) or 'unknown',
                     'likely_subject': s(row.get('likely_subject')),
                     'brand': s(row.get('brand')),
                     'model': s(row.get('model')),
@@ -458,6 +464,7 @@ def _cam_to_dict(row, lite=False):
             'host': row['host'] or '',
             'road': row['road'] or '',
             'location_precision': row['location_precision'] or '',
+            'visibility': (row['visibility'] if 'visibility' in row.keys() else '') or 'unknown',
         }
         # fl511 cams: include fl511_id so player can pass to /stream_url
         idx = row['idx']
@@ -474,6 +481,7 @@ def _cam_to_dict(row, lite=False):
         'live_status': row['live_status'] or '',
         'http_status': row['http_status'],
         'category': row['category'] or '',
+        'visibility': (row['visibility'] if 'visibility' in row.keys() else '') or 'unknown',
         'brand': row['brand'] or '',
         'model': row['model'] or '',
         'country': row['country'] or '',
@@ -520,6 +528,7 @@ def api_cams():
     region = (request.args.get('region') or '').strip()
     city = (request.args.get('city') or '').strip()
     status = (request.args.get('status') or '').strip()
+    visibility = (request.args.get('visibility') or '').strip().lower()
     has_geo = request.args.get('has_geo') in ('1', 'true', 'yes')
     sort_by = (request.args.get('sort') or 'idx').strip()
     sort_dir = (request.args.get('dir') or 'asc').strip()
@@ -541,9 +550,13 @@ def api_cams():
         where.append('city = ?'); params.append(city)
     if status:
         where.append('live_status = ?'); params.append(status)
+    if visibility in ('public', 'private', 'unknown'):
+        where.append('visibility = ?'); params.append(visibility)
     if has_geo:
         where.append('lat IS NOT NULL AND lon IS NOT NULL')
-    if not status:
+    # Default live-only view — but private/unknown are small audit buckets:
+    # show them in full (incl. still_image / auth / dead) so no classified cam hides.
+    if not status and visibility not in ('private', 'unknown'):
         where.append("live_status = 'live'")
     where_sql = ('WHERE ' + ' AND '.join(where)) if where else ''
 
@@ -746,6 +759,15 @@ def api_stats():
     cur.execute("SELECT category, COUNT(*) AS n FROM cams WHERE category IS NOT NULL AND category != '' GROUP BY category ORDER BY n DESC LIMIT 20")
     by_category = dict(cur.fetchall())
 
+    try:
+        cur.execute("SELECT COALESCE(NULLIF(visibility, ''), 'unknown'), COUNT(*) AS n FROM cams GROUP BY 1")
+        by_visibility = dict(cur.fetchall())
+        cur.execute("SELECT COALESCE(NULLIF(visibility, ''), 'unknown'), COUNT(*) AS n FROM cams WHERE live_status = 'live' GROUP BY 1")
+        by_visibility_live = dict(cur.fetchall())
+    except sqlite3.Error:
+        by_visibility = {}
+        by_visibility_live = {}
+
     cur.execute("SELECT isp, COUNT(*) AS n FROM cams WHERE isp IS NOT NULL AND isp != '' GROUP BY isp ORDER BY n DESC LIMIT 20")
     by_isp = dict(cur.fetchall())
 
@@ -777,6 +799,9 @@ def api_stats():
         'by_city': by_city,
         'by_category': by_category,
         'by_isp': by_isp,
+        'by_visibility': by_visibility,
+        'by_visibility_live': by_visibility_live,
+        'private': by_visibility.get('private', 0),
         'csv_mtime': _CSV_MTIME,
         'loaded_at': _LAST_LOAD_TS,
     })
