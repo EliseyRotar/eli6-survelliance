@@ -206,7 +206,10 @@ def append_one(entry):
                 row = [str(next_idx)]  # idx
                 for col_name in header[1:]:
                     if col_name == 'csv_id':
-                        row.append(f'disc_{next_idx:04d}')
+                        # callers may set csv_id_prefix (e.g. 'nls', 'shd') so
+                        # provenance stays truthful; legacy default is 'disc'
+                        pref = str(entry.get('csv_id_prefix') or 'disc')
+                        row.append(f'{pref}_{next_idx:04d}')
                     else:
                         v = entry.get(col_name, '')
                         try:

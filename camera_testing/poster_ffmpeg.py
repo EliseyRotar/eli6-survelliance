@@ -41,7 +41,7 @@ except ImportError:
     print('WARNING: pywin32 not installed, falling back to taskkill timeout (less reliable)')
 
 
-def log(msg):
+def log(msg, **kwargs):
     line = f'[{time.strftime("%H:%M:%S")}] {msg}'
     print(line, flush=True)
     try:

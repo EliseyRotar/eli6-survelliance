@@ -1567,3 +1567,43 @@ The slug is `{abbrev}-{N}` format, NOT `pp-{abbrev}-{N}`!
 ### Git
 - `feat: public/private/unknown visibility classification + dashboard filter`
 - pushed to `github.com/EliseyRotar/eli6-survelliance.git` (main)
+
+
+---
+
+## ✅ Session 42 (2026-10-05) — Keyless sources + CSV repair + visibility reclass
+
+### Goal
+Grow the dataset from keyless sources (Shodan guest scrape, Netlas), test
+alternatives, repair data-quality issues, re-classify, verify dashboard.
+
+### Yield
+- Shodan via Playwright: 19 chunks / 309 results / ~25 queries → **+38 rows**
+  (shd_* provenance; ISAPI snapshots + webcamXP cam_1.cgi)
+- Netlas v2.1 (IP-only host:port dedupe): Q0→Q30/1540 → **+21 rows** (nls_*)
+- Net: 230,033 → **230,091 rows**
+- Phase 3 negative result: ZoomEye (521/down), Hunter.how (login), FOFA/Censys
+  (login) — **all alternative engines require accounts**; Shodan API key or
+  free FOFA/ZoomEye account is the next yield step
+
+### Repair (scripts/fix/repair_session42.py, backup backups/session42_20261005_221123)
+- 1,699 junk live_stream_url values replaced from valid url
+- 86 invalid-scheme urls cleared (+ their live_url), 6 JSON-escaped fields fixed
+- 1 junk row removed (nls_238611 QR-code PNG / TP-Link modem page)
+- Verified: cross-host live_urls (cdn.skylinewebcams.com pattern) are legit
+
+### Classification (docs/VISIBILITY_REPORT.md regenerated)
+- public 229,919→**229,950** · private 113→**136** · unknown 1→**5**
+
+### API + dashboard
+- Found stale SQLite index (106,505 rows; auto-reload intentionally disabled)
+  → GET /api/refresh → 230,091 rows; stats/buckets match classifier exactly
+- Dashboard chips verified in browser: private 136 / unknown 5
+
+### Bug fixes
+- poster_ffmpeg.py: log() TypeError on flush kwarg → fixed, batch re-ran
+- JUNK_IMG_RE: qrcode/qr/watermark/overlay patterns added
+- csv_writer.py: csv_id_prefix for truthful provenance (shd_/nls_)
+
+### Full report
+docs/SESSION_REPORT_20261005.md

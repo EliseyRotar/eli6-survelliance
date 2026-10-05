@@ -1,7 +1,7 @@
 # Visibility classification report (Session 41)
 
-- Rows: **230,033**
-- Column: `visibility` — **public** 229,919, **private** 113, **unknown** 1
+- Rows: **230,091**
+- Column: `visibility` — **public** 229,950, **private** 136, **unknown** 5
 - Source: `controllable_Webcams.csv` (backup: `backups/session_v41_20261003/`)
 
 ## Counts per rule
@@ -9,14 +9,14 @@
 | rule | visibility | rows |
 |---|---|---|
 | U1-subject | public | 139,899 |
-| U2-csv_id | public | 87,849 |
+| U2-csv_id | public | 87,909 |
 | U4-category | public | 1,144 |
 | U5-host | public | 975 |
-| P7-ipcam-name | private | 80 |
-| U3-family | public | 52 |
-| P1-creds | private | 21 |
+| P7-ipcam-name | private | 119 |
+| U3-family | public | 23 |
 | P4-exposed-ip | private | 12 |
-| no-rule | unknown | 1 |
+| P1-creds | private | 5 |
+| no-rule | unknown | 5 |
 
 ## Rule detail (samples)
 
@@ -37,7 +37,7 @@
 18 | traffic | weathercam.digitraffic.fi | public | Road 9 Muurame | https://weathercam.digitraffic.fi/C0950301.jpg
 ```
 
-### U2-csv_id — 87,849 rows
+### U2-csv_id — 87,909 rows
 
 ```
 1 | public | cameras.alertcalifornia.or | public | United States · ALERTCalifornia · #Axis-HerdPeak2 | https://cameras.alertcalifornia.org:443
@@ -88,7 +88,7 @@
 237215 |  | cameras.alertcalifornia.or | public | #Axis-Akupu2 | 
 ```
 
-### P7-ipcam-name — 80 rows
+### P7-ipcam-name — 119 rows
 
 ```
 10979 | public | 186.96.0.253 | private | Mexico City IP cam (mjpg-streamer) | http://186.96.0.253:80
@@ -105,38 +105,21 @@
 28499 | public | 203.181.31.164 | private | Higashimuk?jima IP cam (mjpeg-cgi) | http://203.181.31.164:83
 ```
 
-### U3-family — 52 rows
+### U3-family — 23 rows
 
 ```
-5317 | public | Family=argus-public, kind= | public | Deltana, Alaska · #VilniusTirgus | https://balticlivecam.com:443
-53219 | public | Family=argus-public, kind= | public | Alice Springs, Northern Territory · #53219 | http://www.bom.gov.au:80
-55655 | public | Family=argus-public, kind= | public | Bartholoma, Baden-Wuerttemberg · #55655 | https://www.fg-heubach.de:443
-58829 | public | Family=argus-public, kind= | public | Aichach, Bavaria · #58829 | http://www.lsvaichach.de:80
-61162 | public | Family=argus-public, kind= | public | Radlett, England · #61162 | https://flyelstree.co.uk:443
-61268 | public | Family=argus-public, kind= | public | Haina, Thuringia · #61268 | https://flugschule-kindel.de:443
-61506 | public | Family=argus-public, kind= | public | Millwood, Washington · #61506 | http://www.northwestvoiceover.com:80
-61617 | public | Family=argus-public, kind= | public | Greiling, Bavaria · #61617 | https://lsv-webcam.matrix-werbestudio.de:443
-63208 | public | Family=argus-public, kind= | public | Gol, Buskerud · #2 | http://webcam.digital.as:80
-63341 | public | Family=argus-public, kind= | public | Hawkesbury, Ontario · #63341 | https://montrealsoaring.ca:443
-65148 | public | Family=argus-public, kind= | public | Takehara, Hiroshima · #65148 | https://webcam.wni.co.jp:443
-65193 | public | Family=argus-public, kind= | public | Northeast Ithaca, New York · #65193 | https://flyeasthill.org:443
-```
-
-### P1-creds — 21 rows
-
-```
-28490 | public | 65.19.231.17 | private | Culbertson IP cam (mjpeg-wvhttp) | http://65.19.231.17:80
-65592 | Building, park | medium | private | (Samut Prakan Province) Bangna-Bangpakong Road, km. 6, direc | https://camerai1.iticfoundation.org/pass/180.180.242.207:193
-72704 | public | 124.247.180.32 | private | Hy?ga Shi IP cam (mjpeg-cgi) | http://124.247.180.32:80
-73431 | public | 12.32.111.165 | private | Torrance IP cam (axis-mjpeg) | http://12.32.111.165:80
-73616 | public | 82.198.194.150 | private | Bremen IP cam (axis-mjpeg) | http://82.198.194.150:80
-84770 | public | 80.75.241.227 | private | Seebenstein IP cam (axis-mjpeg) | http://80.75.241.227:80
-100983 | Building, park | medium | private | College Park, Georgia · #12711 | https://511ga.org/map/Cctv/12711
-101373 | Caltrans (Cali |  | private |  stream kind `hls-multipart`." | public
-101716 | -83.980115 |  | private |  family TBD) (single-frame JPEG; refresh-rate image viewer)  |  Georgia
-102489 |  |  | private |  Rheinland-Pfalz |  Germany - Hosted by **Argus Public Cams** (ISP / org). Dire
-102506 | OpenCCTV (stat |  | private |  stream kind `jpeg-frame`." | traffic
-102855 |  |  | private |  kind=jpeg-frame |  weight=8
+125271 |  |  | public | 1773N_75_S/O_Toledo_Blade_Blvd_M177 | https://dis-se4.divas.cloud:8200/chan-10734_h/index.m3u8
+125272 |  | **cam view** IP camera (FL | public | 1711N_75_N/O_Kings_Hwy_M171 | https://dis-se4.divas.cloud:8200/chan-10662_h/inde125300
+125273 |  |  | public | SA Beneva Rd @ Webber St | https://dis-se19.divas.cloud:8200/chan-11543_h/index.m3u8
+125274 | 1578S_75_At_Tu |  | public | 1510N_75_S/O_Tuckers_Grd_M151 | https://dis-se16.divas.cloud:8200/chan-10722_h/index.m3u8
+238576 |  | 159.138.252.45 | public | XAMPP cam | http://159.138.252.45:80
+238577 |  | 182.160.16.234 | public | Network Camera ?? cam | http://182.160.16.234:80
+238579 |  | 172.237.41.51 | public | ?? - ????????????? cam | http://172.237.41.51:80
+238580 |  | 149.129.226.9 | public | NAME="OldPwd" cam | http://149.129.226.9:80
+238581 |  | 149.129.213.200 | public | DD-WRT (build 44715) - Info cam | http://149.129.213.200:80
+238582 |  | 219.89.192.95 | public | Compu Print cam | http://219.89.192.95:80
+238583 |  | 195.70.35.209 | public | NEON Multimedia Kft. -TerraMaster, Synology, Dune HD, A cam | https://195.70.35.209:80
+238584 |  | 216.105.84.163 | public | Toronto Colocation Data Center, Cloud Hosting, Backup,  cam | https://216.105.84.163:80
 ```
 
 ### P4-exposed-ip — 12 rows
@@ -156,53 +139,22 @@
 238575 | surveillance |  | private | IP Camera 103.30.71.181 Channel 9 | http://103.30.71.181/webcapture.jpg?command=snap&channel=9
 ```
 
-### no-rule — 1 rows
+### P1-creds — 5 rows
 
 ```
-145460 | trafficvision. |  | unknown | high, hoktastream4.webcamera.pl · #145460 | 
+28490 | public | 65.19.231.17 | private | Culbertson IP cam (mjpeg-wvhttp) | http://65.19.231.17:80
+72704 | public | 124.247.180.32 | private | Hy?ga Shi IP cam (mjpeg-cgi) | http://124.247.180.32:80
+73431 | public | 12.32.111.165 | private | Torrance IP cam (axis-mjpeg) | http://12.32.111.165:80
+73616 | public | 82.198.194.150 | private | Bremen IP cam (axis-mjpeg) | http://82.198.194.150:80
+84770 | public | 80.75.241.227 | private | Seebenstein IP cam (axis-mjpeg) | http://80.75.241.227:80
 ```
 
+### no-rule — 5 rows
 
-## Poster scene analysis (Phase 3)
-
-### Audit of public-by-category rows (U4 + unknown, rows with posters)
-- Target set: 83 rows (all Istanbul IBB municipal traffic cams, category=traffic)
-- Method: labeled contact-sheet montages reviewed visually
-- Result: **83/83 confirmed outdoor street/traffic scenes -> public. 0 flips.**
-
-### Visual confirmation of private rows
-- Private rows: 113 (no posters exist for them) -> live snapshot fetch attempted
-- Reachable: 10/113 (rest dead/timeout/not-image: typical exposed-cam churn)
-- Confirmed scenes: indoor apartment hallways, home interior (bike/wood floor),
-  night-vision exterior of private property, dark NVR channels
-- Result: **private classification visually confirmed for all reachable rows.**
-
-### Remaining unknown: 1 row (kept as unknown)
-
-## Dashboard integration (Phase 5)
-
-### Backend (api/app.py)
-- `visibility` column added to `cams` table (+ migration for existing DBs),
-  index `idx_visibility`
-- `/api/cams?visibility=public|private|unknown` — exact-match filter
-- private/unknown buckets bypass the default `live_status='live'` filter so
-  the full classified bucket is auditable (incl. still_image / auth / dead):
-  113 private rows are all reachable via the filter, none hide
-- `/api/stats` — `by_visibility` (global), `by_visibility_live` (live-scoped),
-  top-level `private` count
-- `GET /api/refresh` reloads the CSV into the DB (run once after classification)
-
-### Frontend (web_viewer)
-- Filter chip group `VISIBILITY › all | public | private | unknown` with counts
-  (counts match what each chip displays: all/public live-scoped,
-  private/unknown full bucket)
-- Red `PRIVATE` badge (top-center) on every private tile
-- Detail modal shows a `visibility` row (`private` highlighted red)
-- State persisted in `localStorage` (`eli6-state.vis`) and shareable via
-  `?visibility=private` URL param
-
-### Verified
-- API: `visibility=private` → count=113, 0 non-private rows;
-  `unknown` → 1; `public` → 208,235 (live); default view unchanged (208,321)
-- Browser: private chip → 113 visible, 12/12 mounted tiles badged;
-  public/all → 0 badge leakage; direct URL load + persistence work
+```
+127004 |  |  | unknown |  content-type=image/jpeg | 
+127025 |  |  | unknown | medium | 
+127163 |  |  | unknown | medium | 
+127228 |  |  | unknown | medium | 
+149454 |  |  | unknown | high | 
+```

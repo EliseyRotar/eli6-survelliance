@@ -4,7 +4,8 @@ Classify every cam row into visibility: public | private | unknown
 Evaluation order (first match wins):
 
 HARD private (exposure evidence - wins even over public provenance):
-  P1 creds       - credentials present AND (bare-IP host OR no public provenance)
+  P1 creds       - BOTH creds present, sane (not column-shift fragments), real
+                   stream URL, AND (bare-IP host OR no public provenance)
   P4 exposed-IP  - bare-IP host + cam exposure evidence (rtsp/cam ports/paths)
                    + category not in public set
   P3 nvr         - NVR/DVR signature in title/name + exposure + no provenance
@@ -61,7 +62,18 @@ PUBLIC_CONTENT_MARKERS = (
     'family=', 'trafficvision_id=', 'opencctv_id=', 'fl511; systemsourceid',
     'source=argus', 'source=opencctv', 'source=live_env', 'source=caltrans',
     'argus_public', 'feratel:', 'webcamtaxi-',
+    # Phase 4 FP fixes: provenance that sits in shifted/odd columns
+    'divas.cloud', 'trafficvision.live',
+    'hosted by **opencctv', 'hosted by **argus public',
 )
+
+# source-id patterns (disc_166841, tv_1234, ...) found in ANY column —
+# column-shifted legacy rows park their csv_id in notes/auth fields
+PROV_ANY_RE = re.compile(r'\b(?:disc|tv|occtv|fl|transtar|az|africam)_[0-9]{3,}\b')
+
+# real credential strings are short and contain no path/separator junk;
+# shifted rows park fragments ('US', 'California', URLs, 'True') in auth cols
+CRED_RE = re.compile(r'^[A-Za-z0-9._@!$%#+^-]{1,40}$')
 
 PUBLIC_CATEGORIES = {
     'traffic', 'public', 'scenic', 'water-gauge', 'mountain', 'nature',
@@ -132,9 +144,12 @@ def classify(row):
     notes = (row.get('notes') or '')
 
     # all-fields blob: content markers survive column-shifted legacy rows
-    all_blob = ' '.join([title, proj, desc, notes, host, url]).lower()
+    all_blob = ' '.join([title, proj, desc, notes, host, url, subj,
+                         user, pw, cat, ctype]).lower()
     # text blob: name/title/desc/notes only - for NVR + keyword matching
     text_blob = ' '.join([title, proj, desc, notes]).lower()
+    # every field value - for source-id provenance (disc_1234 anywhere)
+    full_blob = ' '.join((v or '') for v in row.values()).lower()
 
     is_ip = bool(BARE_IP_RE.match(host)) or bool(BARE_IP_RE.match(
         re.sub(r'^https?://', '', url).split('/')[0].split(':')[0] if url else ''))
@@ -145,6 +160,8 @@ def classify(row):
         prov = 'U1-subject'
     elif pref in PUBLIC_CSV_PREFIXES or PUBLIC_CSV_RE.match(cid or ''):
         prov = 'U2-csv_id'
+    elif PROV_ANY_RE.search(full_blob):
+        prov = 'U2-csv_id'
     elif any(m in all_blob for m in PUBLIC_CONTENT_MARKERS):
         prov = 'U3-family'
     elif host:
@@ -154,8 +171,11 @@ def classify(row):
             prov = 'U5-host'
 
     # ---- HARD private ----
-    # P1: creds on bare IP = always private; creds on domain = only w/o provenance
-    if (user or pw) and (is_ip or not prov):
+    # P1: BOTH creds present, sane-looking (not column-shift fragments),
+    # on a real stream URL; bare IP = always private, domain = w/o provenance
+    if user and pw and CRED_RE.match(user) and CRED_RE.match(pw) and \
+            url.lower().startswith(('http://', 'https://', 'rtsp://')) and \
+            (is_ip or not prov):
         return 'private', 'P1-creds'
 
     # P4: bare IP + exposure evidence + non-public category

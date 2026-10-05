@@ -1252,6 +1252,13 @@ async function refreshStats() {
       </div>
 
       <div class="drawer-section">
+        <div class="drawer-section-title">visibility</div>
+        ${Object.entries(stats.by_visibility || {}).sort((a,b) => b[1] - a[1]).map(([k,v]) =>
+          `<div class="drawer-row"><span class="k">${escapeHtml(k)}</span><span class="v ${k === 'private' ? 'bad' : ''}">${fmt(v)}</span></div>`
+        ).join('')}
+      </div>
+
+      <div class="drawer-section">
         <div class="drawer-section-title">top countries</div>
         ${Object.entries(stats.by_country).slice(0, 15).map(([k,v]) =>
           `<div class="drawer-row"><span class="k">${escapeHtml(k)}</span><span class="v">${fmt(v)}</span></div>`

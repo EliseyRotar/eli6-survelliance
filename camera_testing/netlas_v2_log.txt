@@ -1,0 +1,8 @@
+[22:16:01] [init] netlas ingest v2.1, 1540 queries (78 bases x 20 ports)
+[22:16:03] [init] 234995 urls, 4053 host:ports, 62 netlas ids
+[22:16:03] [Q30/1540] http.title:"Everfocus" AND port:80 added=21 pages=30
+[22:16:03]   429 -> sleep 120s
+[22:18:03]   429 -> sleep 240s
+1 pages=30
+[22:16:03]   429 -> sleep 120s
+[22:18:03]   429 -> sleep 240s
