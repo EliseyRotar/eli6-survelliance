@@ -1,0 +1,531 @@
+{
+  "277902943f73": {
+    "id": "277902943f73",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/277902943f73",
+    "embed_url": "https://www.psb.li/embed/277902943f73",
+    "thumb_url": "https://www.psb.li/thumb/277902943f73",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/277902943f73/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 277902943f73",
+    "ld_description": "Watch Broadcast 277902943f73 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/277902943f73"
+    ],
+    "ld_broadcast_name": "Broadcast 277902943f73",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "2592x1944"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  },
+  "2ebcf3b72882": {
+    "id": "2ebcf3b72882",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/2ebcf3b72882",
+    "embed_url": "https://www.psb.li/embed/2ebcf3b72882",
+    "thumb_url": "https://www.psb.li/thumb/2ebcf3b72882",
+    "streaming": {
+      "status": 404
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 2ebcf3b72882",
+    "ld_description": "Watch Broadcast 2ebcf3b72882 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/2ebcf3b72882"
+    ],
+    "ld_broadcast_name": "Broadcast 2ebcf3b72882",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 404,
+      "content_type": "image/vnd.microsoft.icon"
+    },
+    "done": true
+  },
+  "3be2c56a50c1": {
+    "id": "3be2c56a50c1",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/3be2c56a50c1",
+    "embed_url": "https://www.psb.li/embed/3be2c56a50c1",
+    "thumb_url": "https://www.psb.li/thumb/3be2c56a50c1",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/3be2c56a50c1/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 3be2c56a50c1",
+    "ld_description": "Watch Broadcast 3be2c56a50c1 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/3be2c56a50c1"
+    ],
+    "ld_broadcast_name": "Broadcast 3be2c56a50c1",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "640x360"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  },
+  "45a90e606a65": {
+    "id": "45a90e606a65",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/45a90e606a65",
+    "embed_url": "https://www.psb.li/embed/45a90e606a65",
+    "thumb_url": "https://www.psb.li/thumb/45a90e606a65",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/45a90e606a65/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 45a90e606a65",
+    "ld_description": "Watch Broadcast 45a90e606a65 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/45a90e606a65"
+    ],
+    "ld_broadcast_name": "Broadcast 45a90e606a65",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "640x360"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  },
+  "4f01c8bdf26f": {
+    "id": "4f01c8bdf26f",
+    "title": "Manhattan Skyline · New York, New York",
+    "description": "Step into the heartbeat of the city that never sleeps. From the first golden rays of sunrise glinting off glass towers to the fiery glow of sunset painting the skyline, this view captures New York in all its moods—raw, radiant, and endlessly alive.\n\nWhether you’re here to relax, to dream, or to feel connected to the pulse of New York, this is your window into its ever-changing story. Let the rhythm of the city inspire you, wherever you are in the world.",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/4f01c8bdf26f",
+    "embed_url": "https://www.psb.li/embed/4f01c8bdf26f",
+    "thumb_url": "https://www.psb.li/thumb/4f01c8bdf26f",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/4f01c8bdf26f/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Manhattan Skyline · New York, New York",
+    "ld_description": "Step into the heartbeat of the city that never sleeps. From the first golden rays of sunrise glinting off glass towers to the fiery glow of sunset painting the skyline, this view captures New York in all its moods—raw, radiant, and endlessly alive. Whether you’re here to relax, to dream, or to feel connected to the pulse of New York, this is your window into its ever-changing story. Let the rhythm of the city inspire you, wherever you are in the world.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/4f01c8bdf26f"
+    ],
+    "ld_broadcast_name": "Manhattan Skyline · New York, New York",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "DataLen": "00178421",
+      "CamTim": "2026-10-15 Thu 16:29:16",
+      "FrmRate": "30",
+      "TimStamp": "2758268048",
+      "CamPos": "111000000000064S",
+      "AlmEvent": "0000000000000000",
+      "AutoFlip": "0",
+      "size": "1280x720"
+    },
+    "stream_probe": {
+      "status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "variants": [
+        {
+          "bandwidth": 5044,
+          "resolution": "852x480",
+          "uri": "4f01c8bdf26f.m3u8"
+        }
+      ],
+      "is_master": true,
+      "variant1": {
+        "url": "https://delivery1.psb.li/public/4f01c8bdf26f/hls/live/4f01c8bdf26f.m3u8",
+        "status": 200,
+        "has_media": true
+      },
+      "segment": {
+        "status": 200
+      }
+    },
+    "done": true
+  },
+  "5baa6155aaa6": {
+    "id": "5baa6155aaa6",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/5baa6155aaa6",
+    "embed_url": "https://www.psb.li/embed/5baa6155aaa6",
+    "thumb_url": "https://www.psb.li/thumb/5baa6155aaa6",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/5baa6155aaa6/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 5baa6155aaa6",
+    "ld_description": "Watch Broadcast 5baa6155aaa6 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/5baa6155aaa6"
+    ],
+    "ld_broadcast_name": "Broadcast 5baa6155aaa6",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "2592x1944"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  },
+  "6629174af8cd": {
+    "id": "6629174af8cd",
+    "title": "Schermata multiview di una trasmissione televisiva in studio",
+    "description": "Schermata di monitoraggio multiview con quattro riquadri di una trasmissione televisiva. Tre riquadri mostrano un presentatore dietro un leggio su un palco illuminato con sfondo blu, inclusa una ripresa panoramica dello studio con ospiti o opinionisti ai lati. Un riquadro è nero e rappresenta un segnale inattivo. Ai lati sono visibili i misuratori dei livelli audio e in sovrimpressione compaiono etichette che identificano le diverse uscite di trasmissione.",
+    "tags": [
+      "televisione",
+      "trasmissione TV",
+      "multiview",
+      "monitor broadcast",
+      "regia televisiva",
+      "studio televisivo",
+      "presentatore",
+      "leggio",
+      "palco",
+      "produzione televisiva",
+      "diretta",
+      "monitoraggio video",
+      "regia",
+      "livelli audio",
+      "mixer video",
+      "sfondo blu",
+      "dibattito televisivo",
+      "talk show",
+      "telecamere",
+      "controllo broadcast",
+      "Telecupole",
+      "programma televisivo",
+      "schermo di monitoraggio",
+      "feed video",
+      "broadcasting"
+    ],
+    "watch_url": "https://www.psb.li/watch/6629174af8cd",
+    "embed_url": "https://www.psb.li/embed/6629174af8cd",
+    "thumb_url": "https://www.psb.li/thumb/6629174af8cd",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/6629174af8cd/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Schermata multiview di una trasmissione televisiva in studio",
+    "ld_description": "Schermata di monitoraggio multiview con quattro riquadri di una trasmissione televisiva. Tre riquadri mostrano un presentatore dietro un leggio su un palco illuminato con sfondo blu, inclusa una ripresa panoramica dello studio con ospiti o opinionisti ai lati. Un riquadro è nero e rappresenta un segnale inattivo. Ai lati sono visibili i misuratori dei livelli audio e in sovrimpressione compaiono etichette che identificano le diverse uscite di trasmissione.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/6629174af8cd"
+    ],
+    "ld_broadcast_name": "Schermata multiview di una trasmissione televisiva in studio",
+    "page_tags": [
+      "televisione",
+      "trasmissione TV",
+      "multiview",
+      "monitor broadcast",
+      "regia televisiva",
+      "studio televisivo",
+      "presentatore",
+      "leggio",
+      "palco",
+      "produzione televisiva",
+      "diretta",
+      "monitoraggio video",
+      "regia",
+      "livelli audio",
+      "mixer video",
+      "sfondo blu",
+      "dibattito televisivo",
+      "talk show",
+      "telecamere",
+      "controllo broadcast",
+      "Telecupole",
+      "programma televisivo",
+      "schermo di monitoraggio",
+      "feed video",
+      "broadcasting"
+    ],
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "1280x720"
+    },
+    "stream_probe": {
+      "status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "variants": [
+        {
+          "bandwidth": 143660,
+          "resolution": "852x480",
+          "uri": "6629174af8cd.m3u8"
+        }
+      ],
+      "is_master": true,
+      "variant1": {
+        "url": "https://delivery1.psb.li/public/6629174af8cd/hls/live/6629174af8cd.m3u8",
+        "status": 200,
+        "has_media": true
+      },
+      "segment": {
+        "status": 200
+      }
+    },
+    "done": true
+  },
+  "769b0f59f519": {
+    "id": "769b0f59f519",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/769b0f59f519",
+    "embed_url": "https://www.psb.li/embed/769b0f59f519",
+    "thumb_url": "https://www.psb.li/thumb/769b0f59f519",
+    "streaming": {
+      "status": 502
+    },
+    "watch_status": 502,
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "2592x1944"
+    },
+    "done": true
+  },
+  "8977da5458c4": {
+    "id": "8977da5458c4",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/8977da5458c4",
+    "embed_url": "https://www.psb.li/embed/8977da5458c4",
+    "thumb_url": "https://www.psb.li/thumb/8977da5458c4",
+    "streaming": {
+      "status": 404
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast 8977da5458c4",
+    "ld_description": "Watch Broadcast 8977da5458c4 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/8977da5458c4"
+    ],
+    "ld_broadcast_name": "Broadcast 8977da5458c4",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 404,
+      "content_type": "image/vnd.microsoft.icon"
+    },
+    "done": true
+  },
+  "bac4bf7d560f": {
+    "id": "bac4bf7d560f",
+    "title": "Manpuku-ji Temple",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/bac4bf7d560f",
+    "embed_url": "https://www.psb.li/embed/bac4bf7d560f",
+    "thumb_url": "https://www.psb.li/thumb/bac4bf7d560f",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/bac4bf7d560f/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Manpuku-ji Temple",
+    "ld_description": "Watch Manpuku-ji Temple live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/bac4bf7d560f"
+    ],
+    "ld_broadcast_name": "Manpuku-ji Temple",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "640x480"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  },
+  "bbde8fb2d630": {
+    "id": "bbde8fb2d630",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/bbde8fb2d630",
+    "embed_url": "https://www.psb.li/embed/bbde8fb2d630",
+    "thumb_url": "https://www.psb.li/thumb/bbde8fb2d630",
+    "streaming": {
+      "status": 0
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast bbde8fb2d630",
+    "ld_description": "Watch Broadcast bbde8fb2d630 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/bbde8fb2d630"
+    ],
+    "ld_broadcast_name": "Broadcast bbde8fb2d630",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "1280x960"
+    },
+    "done": true
+  },
+  "bd92f7edfeab": {
+    "id": "bd92f7edfeab",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/bd92f7edfeab",
+    "embed_url": "https://www.psb.li/embed/bd92f7edfeab",
+    "thumb_url": "https://www.psb.li/thumb/bd92f7edfeab",
+    "streaming": {
+      "status": 0
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast bd92f7edfeab",
+    "ld_description": "Watch Broadcast bd92f7edfeab live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/bd92f7edfeab"
+    ],
+    "ld_broadcast_name": "Broadcast bd92f7edfeab",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "1280x960"
+    },
+    "done": true
+  },
+  "d6fdab854429": {
+    "id": "d6fdab854429",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/d6fdab854429",
+    "embed_url": "https://www.psb.li/embed/d6fdab854429",
+    "thumb_url": "https://www.psb.li/thumb/d6fdab854429",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/d6fdab854429/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast d6fdab854429",
+    "ld_description": "Watch Broadcast d6fdab854429 live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/d6fdab854429"
+    ],
+    "ld_broadcast_name": "Broadcast d6fdab854429",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "exif_0x10f": "AXIS",
+      "exif_0x110": "P12-MkII",
+      "exif_0x131": "9.80.132",
+      "size": "1280x720"
+    },
+    "stream_probe": {
+      "status": 200,
+      "content_type": "application/vnd.apple.mpegurl",
+      "variants": [
+        {
+          "bandwidth": 5020,
+          "resolution": "852x480",
+          "uri": "d6fdab854429.m3u8"
+        }
+      ],
+      "is_master": true,
+      "variant1": {
+        "url": "https://delivery1.psb.li/public/d6fdab854429/hls/live/d6fdab854429.m3u8",
+        "status": 200,
+        "has_media": true
+      },
+      "segment": {
+        "status": 200
+      }
+    },
+    "done": true
+  },
+  "f076a05cebbb": {
+    "id": "f076a05cebbb",
+    "title": "",
+    "description": "",
+    "tags": [],
+    "watch_url": "https://www.psb.li/watch/f076a05cebbb",
+    "embed_url": "https://www.psb.li/embed/f076a05cebbb",
+    "thumb_url": "https://www.psb.li/thumb/f076a05cebbb",
+    "streaming": {
+      "status": 200,
+      "main": "https://delivery1.psb.li/public/f076a05cebbb/hls/live/master.m3u8",
+      "timelapse": [],
+      "playback_hls": []
+    },
+    "watch_status": 200,
+    "ld_name": "Broadcast f076a05cebbb",
+    "ld_description": "Watch Broadcast f076a05cebbb live on Public Service Broadcasting. View the broadcast and available stream information.",
+    "ld_thumbnail": [
+      "https://www.psb.li/thumb/f076a05cebbb"
+    ],
+    "ld_broadcast_name": "Broadcast f076a05cebbb",
+    "weather_ctx": "api/weather\", { location: \"New York\" } ); el.textContent = weather.summary || \"Weather data loaded.\"; } catch (e) { el.textContent = \"Unable to load weather.\"; } })(); </script> </body> </html> ",
+    "thumb": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "size": "720x576"
+    },
+    "stream_probe": {
+      "status": 404,
+      "content_type": "application/json"
+    },
+    "done": true
+  }
+}

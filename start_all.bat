@@ -3,6 +3,12 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 43 update (2026-10-16) - PSB.LI INGEST:
+REM   - All 14 psb.li broadcasts ingested (psb_238635..psb_238648)
+REM   - csv_id_prefix 'psb' added to PUBLIC_CSV_PREFIXES
+REM   - CSV 230,105 rows: public 229,964 / private 136 / unknown 5
+REM   - delivery1.psb.li is elastic: m3u8 404s while stream idle
+REM
 REM Session 41 update (2026-10-03) - VISIBILITY CLASSIFICATION:
 REM   - CSV `visibility` column: public 229,919 / private 113 / unknown 1
 REM   - Dashboard: VISIBILITY chips (all/public/private/unknown) + PRIVATE

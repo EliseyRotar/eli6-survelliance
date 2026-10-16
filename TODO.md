@@ -1,5 +1,27 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
+## ✅ Session 43 (2026-10-16) — psb.li full enumeration + ingest (14/14)
+
+### Done
+- Enumerated ALL psb.li broadcasts: hex-sweep `POST /api/search` (0-9a-f × pages)
+  ∪ sitemap → exactly **14**, cross-verified
+- Cracked stream config: `GET /streaming/<id>` → `mainStreamUrl` =
+  `https://delivery1.psb.li/public/<id>/hls/live/master.m3u8`
+- Full-detail dump (`scripts/ingest/psb_dump.py`) + montage scene analysis of 12 thumbs
+- Ingested all 14 → `psb_238635..psb_238648` (`psb_ingest.py`, +12 posters from thumbs)
+- Geo from on-image/on-page evidence: Manhattan→NYC, Telecupole→Turin,
+  PI6ZDM card→Wormer NL, "Intrare" overlay→Romania (3 same-cam broadcasts!),
+  Manpuku-ji→Japan
+- Classifier: `'psb'` added to `PUBLIC_CSV_PREFIXES` → all 14 public/U2-csv_id
+- Elastic delivery finding: master.m3u8 404s while stream idle (flaps
+  200→404→200); true removal = `/streaming/` 404 (2 placeholders only)
+- 230,105 rows; public **229,964** / private 136 / unknown 5; API refreshed + verified
+
+### Next
+- Re-probe 769b0f59f519 / bbde8fb2d630 / bd92f7edfeab (stream config never
+  observed: timeouts + 401s — possibly auth-gated; 769b's same-cam siblings are live)
+- Optional: deeper geocode for Romanian gate cams + night cams (country-only now)
+
 ## ✅ Session 24 (2026-09-11) — CSS fix + slideshow improvements + HLS deep scan
 
 ### Goal
