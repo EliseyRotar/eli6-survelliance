@@ -1,0 +1,2676 @@
+{
+ "written": [
+  [
+   "238649",
+   "https://www.richmond.ca/trafficcam/100598ffbf5fde2d_00.jpg",
+   "No. 1 Road at Moncton Street  view 2  Richmond, BC"
+  ],
+  [
+   "238650",
+   "https://www.richmond.ca/trafficcam/100598ffe664de2d_00.jpg",
+   "No. 1 Road at Moncton Street  view 3  Richmond, BC"
+  ],
+  [
+   "238651",
+   "https://www.richmond.ca/trafficcam/100599FFAD4DDE2D_00.jpg",
+   "No. 1 Road at Moncton Street  view 4  Richmond, BC"
+  ],
+  [
+   "238652",
+   "https://www.richmond.ca/trafficcam/100599ffc74bde2d_00.jpg",
+   "No. 1 Road at Moncton Street  view 5  Richmond, BC"
+  ],
+  [
+   "238653",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_nb.jpg",
+   "No. 1 Road at Chatham Street NB  Richmond, BC"
+  ],
+  [
+   "238654",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_sb.jpg",
+   "No. 1 Road at Chatham Street SB  Richmond, BC"
+  ],
+  [
+   "238655",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_wb.jpg",
+   "No. 1 Road at Chatham Street WB  Richmond, BC"
+  ],
+  [
+   "238656",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_garry_nb.jpg",
+   "No. 1 Road at Garry Street NB  Richmond, BC"
+  ],
+  [
+   "238657",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_garry_sb.jpg",
+   "No. 1 Road at Garry Street SB  Richmond, BC"
+  ],
+  [
+   "238658",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_garry_wb.jpg",
+   "No. 1 Road at Garry Street WB  Richmond, BC"
+  ],
+  [
+   "238659",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_nb.jpg",
+   "No. 1 Road at Osmond Avenue NB  Richmond, BC"
+  ],
+  [
+   "238660",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_sb.jpg",
+   "No. 1 Road at Osmond Avenue SB  Richmond, BC"
+  ],
+  [
+   "238661",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_wb.jpg",
+   "No. 1 Road at Osmond Avenue WB  Richmond, BC"
+  ],
+  [
+   "238662",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_francis_nb.jpg",
+   "No. 1 Road at Francis Road NB  Richmond, BC"
+  ],
+  [
+   "238663",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_francis_sb.jpg",
+   "No. 1 Road at Francis Road SB  Richmond, BC"
+  ],
+  [
+   "238664",
+   "https://www.richmond.ca/trafficcam/vdd_no_1_francis_wb.jpg",
+   "No. 1 Road at Francis Road WB  Richmond, BC"
+  ],
+  [
+   "238665",
+   "https://www.richmond.ca/trafficcam/vdd_railway_moncton_nb.jpg",
+   "Railway Avenue at Moncton Street NB  Richmond, BC"
+  ],
+  [
+   "238666",
+   "https://www.richmond.ca/trafficcam/vdd_railway_moncton_sb.jpg",
+   "Railway Avenue at Moncton Street SB  Richmond, BC"
+  ],
+  [
+   "238667",
+   "https://www.richmond.ca/trafficcam/vdd_railway_moncton_wb.jpg",
+   "Railway Avenue at Moncton Street WB  Richmond, BC"
+  ],
+  [
+   "238668",
+   "https://www.richmond.ca/trafficcam/vdd_railway_garry_nb.jpg",
+   "Railway Avenue at Garry Street NB  Richmond, BC"
+  ],
+  [
+   "238669",
+   "https://www.richmond.ca/trafficcam/vdd_railway_garry_sb.jpg",
+   "Railway Avenue at Garry Street SB  Richmond, BC"
+  ],
+  [
+   "238670",
+   "https://www.richmond.ca/trafficcam/vdd_railway_steveston_nb.jpg",
+   "Railway Avenue at Steveston Highway NB  Richmond, BC"
+  ],
+  [
+   "238671",
+   "https://www.richmond.ca/trafficcam/vdd_railway_steveston_sb.jpg",
+   "Railway Avenue at Steveston Highway SB  Richmond, BC"
+  ],
+  [
+   "238672",
+   "https://www.richmond.ca/trafficcam/vdd_railway_steveston_wb.jpg",
+   "Railway Avenue at Steveston Highway WB  Richmond, BC"
+  ],
+  [
+   "238673",
+   "https://www.richmond.ca/trafficcam/vdd_railway_francis_nb.jpg",
+   "Railway Avenue at Francis Road NB  Richmond, BC"
+  ],
+  [
+   "238674",
+   "https://www.richmond.ca/trafficcam/vdd_railway_francis_sb.jpg",
+   "Railway Avenue at Francis Road SB  Richmond, BC"
+  ],
+  [
+   "238675",
+   "https://www.richmond.ca/trafficcam/vdd_railway_francis_wb.jpg",
+   "Railway Avenue at Francis Road WB  Richmond, BC"
+  ],
+  [
+   "238676",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_granville_nb.jpg",
+   "Lynas Lane at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "238677",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_granville_sb.jpg",
+   "Lynas Lane at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238678",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_granville_wb.jpg",
+   "Lynas Lane at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238679",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_nb.jpg",
+   "Lynas Lane at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "238680",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_sb.jpg",
+   "Lynas Lane at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238681",
+   "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_wb.jpg",
+   "Lynas Lane at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238682",
+   "https://www.richmond.ca/trafficcam/10053AFFA44D6235_00.jpg",
+   "Aviation Avenue at Miller Road  view 2  Richmond, BC"
+  ],
+  [
+   "238683",
+   "https://www.richmond.ca/trafficcam/100549FF05846E3A_00.jpg",
+   "Aviation Avenue at Miller Road  view 3  Richmond, BC"
+  ],
+  [
+   "238684",
+   "https://www.richmond.ca/trafficcam/100585FF76D4D438_00.jpg",
+   "Aviation Avenue at Miller Road  view 4  Richmond, BC"
+  ],
+  [
+   "238685",
+   "https://www.richmond.ca/trafficcam/10053AFF9C496432_00.jpg",
+   "Aviation Avenue at Grant McConachie Way  view 2  Richmond, BC"
+  ],
+  [
+   "238686",
+   "https://www.richmond.ca/trafficcam/10053AFFF64E4A32_00.jpg",
+   "Aviation Avenue at Grant McConachie Way  view 3  Richmond, BC"
+  ],
+  [
+   "238687",
+   "https://www.richmond.ca/trafficcam/10054AFF10695E32_00.jpg",
+   "Aviation Avenue at Grant McConachie Way  view 4  Richmond, BC"
+  ],
+  [
+   "238688",
+   "https://www.richmond.ca/trafficcam/vdd_no_2_moncton_nb.jpg",
+   "No. 2 Road at Moncton Street NB  Richmond, BC"
+  ],
+  [
+   "238689",
+   "https://www.richmond.ca/trafficcam/vdd_no_2_moncton_sb.jpg",
+   "No. 2 Road at Moncton Street SB  Richmond, BC"
+  ],
+  [
+   "238690",
+   "https://www.richmond.ca/trafficcam/10053AFF56447231_00.jpg",
+   "No. 2 Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238691",
+   "https://www.richmond.ca/trafficcam/100549FFC01F7231_00.jpg",
+   "No. 2 Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238692",
+   "https://www.richmond.ca/trafficcam/100549FFEC296B31_00.jpg",
+   "No. 2 Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238693",
+   "https://www.richmond.ca/trafficcam/100546FFB07A6C3E_00.jpg",
+   "No. 2 Road at Wallace Road  view 2  Richmond, BC"
+  ],
+  [
+   "238694",
+   "https://www.richmond.ca/trafficcam/100547FFFB876C3E_00.jpg",
+   "No. 2 Road at Wallace Road  view 3  Richmond, BC"
+  ],
+  [
+   "238695",
+   "https://www.richmond.ca/trafficcam/100548FF5D4A2541_00.jpg",
+   "No. 2 Road at Wallace Road  view 4  Richmond, BC"
+  ],
+  [
+   "238696",
+   "https://www.richmond.ca/trafficcam/100538FF7F189A31_00.jpg",
+   "No. 2 Road at Williams Road  view 2  Richmond, BC"
+  ],
+  [
+   "238697",
+   "https://www.richmond.ca/trafficcam/10053AFF531B9A31_00.jpg",
+   "No. 2 Road at Williams Road  view 3  Richmond, BC"
+  ],
+  [
+   "238698",
+   "https://www.richmond.ca/trafficcam/100548FF82579831_00.jpg",
+   "No. 2 Road at Williams Road  view 4  Richmond, BC"
+  ],
+  [
+   "238699",
+   "https://www.richmond.ca/trafficcam/100537FFB85C6235_00.jpg",
+   "No. 2 Road at Woodwards Road  view 2  Richmond, BC"
+  ],
+  [
+   "238700",
+   "https://www.richmond.ca/trafficcam/10053AFFCA4D6335_00.jpg",
+   "No. 2 Road at Woodwards Road  view 3  Richmond, BC"
+  ],
+  [
+   "238701",
+   "https://www.richmond.ca/trafficcam/10054BFF1680F635_00.jpg",
+   "No. 2 Road at Woodwards Road  view 4  Richmond, BC"
+  ],
+  [
+   "238702",
+   "https://www.richmond.ca/trafficcam/10053AFF25095438_00.jpg",
+   "No. 2 Road at Maple Road  view 2  Richmond, BC"
+  ],
+  [
+   "238703",
+   "https://www.richmond.ca/trafficcam/10053AFF2A595E38_00.jpg",
+   "No. 2 Road at Maple Road  view 3  Richmond, BC"
+  ],
+  [
+   "238704",
+   "https://www.richmond.ca/trafficcam/100549FFAE275238_00.jpg",
+   "No. 2 Road at Maple Road  view 4  Richmond, BC"
+  ],
+  [
+   "238705",
+   "https://www.richmond.ca/trafficcam/100538FF454E3231_00.jpg",
+   "No. 2 Road at Francis Road  view 2  Richmond, BC"
+  ],
+  [
+   "238706",
+   "https://www.richmond.ca/trafficcam/100538FFE769C430_00.jpg",
+   "No. 2 Road at Francis Road  view 3  Richmond, BC"
+  ],
+  [
+   "238707",
+   "https://www.richmond.ca/trafficcam/10053AFF3B2BD030_00.jpg",
+   "No. 2 Road at Francis Road  view 4  Richmond, BC"
+  ],
+  [
+   "238708",
+   "https://www.richmond.ca/trafficcam/10053AFF5935E431_00.jpg",
+   "No. 2 Road at 8100 block  view 2  Richmond, BC"
+  ],
+  [
+   "238709",
+   "https://www.richmond.ca/trafficcam/10054AFF2C11E431_00.jpg",
+   "No. 2 Road at 8100 block  view 3  Richmond, BC"
+  ],
+  [
+   "238710",
+   "https://www.richmond.ca/trafficcam/100548FFB066C430_00.jpg",
+   "No. 2 Road at Blundell Road  view 2  Richmond, BC"
+  ],
+  [
+   "238711",
+   "https://www.richmond.ca/trafficcam/10054BFF386CC430_00.jpg",
+   "No. 2 Road at Blundell Road  view 3  Richmond, BC"
+  ],
+  [
+   "238712",
+   "https://www.richmond.ca/trafficcam/100582FF1A68A230_00.jpg",
+   "No. 2 Road at Blundell Road  view 4  Richmond, BC"
+  ],
+  [
+   "238713",
+   "https://www.richmond.ca/trafficcam/10053AFF7EC83231_00.jpg",
+   "No. 2 Road at Granville Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238714",
+   "https://www.richmond.ca/trafficcam/100582FF76483231_00.jpg",
+   "No. 2 Road at Granville Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238715",
+   "https://www.richmond.ca/trafficcam/100582FF88473231_00.jpg",
+   "No. 2 Road at Granville Avenue  view 4  Richmond, BC"
+  ],
+  [
+   "238716",
+   "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_nb.jpg",
+   "No. 2 Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "238717",
+   "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_sb.jpg",
+   "No. 2 Road at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238718",
+   "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_wb.jpg",
+   "No. 2 Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238719",
+   "https://www.richmond.ca/trafficcam/vdd_elmbridge_westminster_sb.jpg",
+   "Elmbridge Way at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238720",
+   "https://www.richmond.ca/trafficcam/vdd_elmbridge_westminster_wb.jpg",
+   "Elmbridge Way at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238721",
+   "https://www.richmond.ca/trafficcam/vdd_hollybridge_elmbridge_sb.jpg",
+   "Hollybridge Way at Elmbridge Way SB  Richmond, BC"
+  ],
+  [
+   "238722",
+   "https://www.richmond.ca/trafficcam/vdd_hollybridge_elmbridge_wb.jpg",
+   "Hollybridge Way at Elmbridge Way WB  Richmond, BC"
+  ],
+  [
+   "238723",
+   "https://www.richmond.ca/trafficcam/100548FF12D11E41_00.jpg",
+   "Hollybridge Way / Lansdowne Road at Pearson Way  view 2  Richmond, BC"
+  ],
+  [
+   "238724",
+   "https://www.richmond.ca/trafficcam/100548FF274A2541_00.jpg",
+   "Hollybridge Way / Lansdowne Road at Pearson Way  view 3  Richmond, BC"
+  ],
+  [
+   "238725",
+   "https://www.richmond.ca/trafficcam/10054BFF0EA51E41_00.jpg",
+   "Hollybridge Way / Lansdowne Road at Pearson Way  view 4  Richmond, BC"
+  ],
+  [
+   "238726",
+   "https://www.richmond.ca/trafficcam/vdd_oval_river_sb.jpg",
+   "Oval Way at River Road SB  Richmond, BC"
+  ],
+  [
+   "238727",
+   "https://www.richmond.ca/trafficcam/vdd_oval_river_wb.jpg",
+   "Oval Way at River Road WB  Richmond, BC"
+  ],
+  [
+   "238728",
+   "https://www.richmond.ca/trafficcam/100539FF07C7FA35_00.jpg",
+   "Hollybridge Way at River Road  view 2  Richmond, BC"
+  ],
+  [
+   "238729",
+   "https://www.richmond.ca/trafficcam/100547FF1041F635_00.jpg",
+   "Hollybridge Way at River Road  view 3  Richmond, BC"
+  ],
+  [
+   "238730",
+   "https://www.richmond.ca/trafficcam/100585FF4C49F635_00.jpg",
+   "Hollybridge Way at River Road  view 4  Richmond, BC"
+  ],
+  [
+   "238731",
+   "https://www.richmond.ca/trafficcam/100547FFFF61AC3E_00.jpg",
+   "Pearson Way at River Road  view 2  Richmond, BC"
+  ],
+  [
+   "238732",
+   "https://www.richmond.ca/trafficcam/10054AFF0159AC3E_00.jpg",
+   "Pearson Way at River Road  view 3  Richmond, BC"
+  ],
+  [
+   "238733",
+   "https://www.richmond.ca/trafficcam/10054AFF9C75AC3E_00.jpg",
+   "Pearson Way at River Road  view 4  Richmond, BC"
+  ],
+  [
+   "238734",
+   "https://www.richmond.ca/trafficcam/100585FF3F43F635_00.jpg",
+   "Gilbert Road at River Road  view 2  Richmond, BC"
+  ],
+  [
+   "238735",
+   "https://www.richmond.ca/trafficcam/100585FFF64BF635_00.jpg",
+   "Gilbert Road at River Road  view 3  Richmond, BC"
+  ],
+  [
+   "238736",
+   "https://www.richmond.ca/trafficcam/1005DEFF8E4FF635_00.jpg",
+   "Gilbert Road at River Road  view 4  Richmond, BC"
+  ],
+  [
+   "238737",
+   "https://www.richmond.ca/trafficcam/100538FFA25C6235_00.jpg",
+   "Russ Baker Way at Inglis Way  view 2  Richmond, BC"
+  ],
+  [
+   "238738",
+   "https://www.richmond.ca/trafficcam/100539FF474C6235_00.jpg",
+   "Russ Baker Way at Inglis Way  view 3  Richmond, BC"
+  ],
+  [
+   "238739",
+   "https://www.richmond.ca/trafficcam/100539FF8220A635_00.jpg",
+   "Russ Baker Way at Inglis Way  view 4  Richmond, BC"
+  ],
+  [
+   "238740",
+   "https://www.richmond.ca/trafficcam/0C054BFFFB5AB42A_00.jpg",
+   "Russ Baker Way at Gilbert Road  view 2  Richmond, BC"
+  ],
+  [
+   "238741",
+   "https://www.richmond.ca/trafficcam/0C0582FF3C59B42A_00.jpg",
+   "Russ Baker Way at Gilbert Road  view 3  Richmond, BC"
+  ],
+  [
+   "238742",
+   "https://www.richmond.ca/trafficcam/vdd_aylmer_miller_nb.jpg",
+   "Aylmer Road at Miller Road NB  Richmond, BC"
+  ],
+  [
+   "238743",
+   "https://www.richmond.ca/trafficcam/vdd_aylmer_miller_wb.jpg",
+   "Aylmer Road at Miller Road WB  Richmond, BC"
+  ],
+  [
+   "238744",
+   "https://www.richmond.ca/trafficcam/100546FF8537A03D_00.jpg",
+   "Aurora Connector at Miller Road  view 2  Richmond, BC"
+  ],
+  [
+   "238745",
+   "https://www.richmond.ca/trafficcam/10054BFF4B53D635_00.jpg",
+   "Aurora Connector at Miller Road  view 3  Richmond, BC"
+  ],
+  [
+   "238746",
+   "https://www.richmond.ca/trafficcam/100539FFEC1A6032_00.jpg",
+   "Aurora Connector at Grant McConachie Way  view 2  Richmond, BC"
+  ],
+  [
+   "238747",
+   "https://www.richmond.ca/trafficcam/10053AFF3C465832_00.jpg",
+   "Aurora Connector at Grant McConachie Way  view 3  Richmond, BC"
+  ],
+  [
+   "238748",
+   "https://www.richmond.ca/trafficcam/10053AFF914C6432_00.jpg",
+   "Aurora Connector at Grant McConachie Way  view 4  Richmond, BC"
+  ],
+  [
+   "238749",
+   "https://www.richmond.ca/trafficcam/10053AFF2B504A32_00.jpg",
+   "Templeton Street at Miller Road  view 2  Richmond, BC"
+  ],
+  [
+   "238750",
+   "https://www.richmond.ca/trafficcam/10053AFF7F665E32_00.jpg",
+   "Templeton Street at Miller Road  view 3  Richmond, BC"
+  ],
+  [
+   "238751",
+   "https://www.richmond.ca/trafficcam/100585FF421F6032_00.jpg",
+   "Templeton Street at Miller Road  view 4  Richmond, BC"
+  ],
+  [
+   "238752",
+   "https://www.richmond.ca/trafficcam/100539FFDE340632_00.jpg",
+   "Templeton Street at Grant McConachie Way  view 2  Richmond, BC"
+  ],
+  [
+   "238753",
+   "https://www.richmond.ca/trafficcam/10053AFFEC340632_00.jpg",
+   "Templeton Street at Grant McConachie Way  view 3  Richmond, BC"
+  ],
+  [
+   "238754",
+   "https://www.richmond.ca/trafficcam/100548FFB9485631_00.jpg",
+   "Templeton Street at Grant McConachie Way  view 4  Richmond, BC"
+  ],
+  [
+   "238755",
+   "https://www.richmond.ca/trafficcam/100539FFFC3DD236_00.jpg",
+   "Templeton Street at North Service Road  view 2  Richmond, BC"
+  ],
+  [
+   "238756",
+   "https://www.richmond.ca/trafficcam/10053AFF7343B036_00.jpg",
+   "Templeton Street at North Service Road  view 3  Richmond, BC"
+  ],
+  [
+   "238757",
+   "https://www.richmond.ca/trafficcam/10053AFFE3500C37_00.jpg",
+   "Templeton Street at North Service Road  view 4  Richmond, BC"
+  ],
+  [
+   "238758",
+   "https://www.richmond.ca/trafficcam/100539FF2055DE36_00.jpg",
+   "Templeton Street at Grauer Road  view 2  Richmond, BC"
+  ],
+  [
+   "238759",
+   "https://www.richmond.ca/trafficcam/10053AFF9557CA36_00.jpg",
+   "Templeton Street at Grauer Road  view 3  Richmond, BC"
+  ],
+  [
+   "238760",
+   "https://www.richmond.ca/trafficcam/100549FFDB570E37_00.jpg",
+   "Templeton Street at Grauer Road  view 4  Richmond, BC"
+  ],
+  [
+   "238761",
+   "https://www.richmond.ca/trafficcam/100538FF2DE1E436_00.jpg",
+   "Gilbert Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238762",
+   "https://www.richmond.ca/trafficcam/10053AFFFB520C37_00.jpg",
+   "Gilbert Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238763",
+   "https://www.richmond.ca/trafficcam/100585FFC6D3D836_00.jpg",
+   "Gilbert Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238764",
+   "https://www.richmond.ca/trafficcam/vdd_granville_7100_nb.jpg",
+   "7100 block at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "238765",
+   "https://www.richmond.ca/trafficcam/vdd_granville_7100_wb.jpg",
+   "7100 block at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238766",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_gate_granville_eb.jpg",
+   "Minoru Gate at Granville Avenue EB  Richmond, BC"
+  ],
+  [
+   "238767",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_gate_granville_sb.jpg",
+   "Minoru Gate at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238768",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_gate_granville_wb.jpg",
+   "Minoru Gate at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238769",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_granville_nb.jpg",
+   "Minoru Boulevard at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "238770",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_granville_sb.jpg",
+   "Minoru Boulevard at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238771",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_granville_wb.jpg",
+   "Minoru Boulevard at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238772",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_library_nb.jpg",
+   "Minoru Boulevard at Minoru Gate NB  Richmond, BC"
+  ],
+  [
+   "238773",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_library_sb.jpg",
+   "Minoru Boulevard at Minoru Gate SB  Richmond, BC"
+  ],
+  [
+   "238774",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_library_wb.jpg",
+   "Minoru Boulevard at Minoru Gate WB  Richmond, BC"
+  ],
+  [
+   "238775",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_nb.jpg",
+   "Minoru Boulevard at Mah Bing Street NB  Richmond, BC"
+  ],
+  [
+   "238776",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_sb.jpg",
+   "Minoru Boulevard at Mah Bing Street SB  Richmond, BC"
+  ],
+  [
+   "238777",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_wb.jpg",
+   "Minoru Boulevard at Mah Bing Street WB  Richmond, BC"
+  ],
+  [
+   "238778",
+   "https://www.richmond.ca/trafficcam/100538FF1E555238_00.jpg",
+   "Minoru Boulevard at Murdoch Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238779",
+   "https://www.richmond.ca/trafficcam/100538FF66414638_00.jpg",
+   "Minoru Boulevard at Murdoch Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238780",
+   "https://www.richmond.ca/trafficcam/10053AFFA4565238_00.jpg",
+   "Minoru Boulevard at Murdoch Avenue  view 4  Richmond, BC"
+  ],
+  [
+   "238781",
+   "https://www.richmond.ca/trafficcam/10054AFF4892A03D_00.jpg",
+   "Minoru Boulevard at Gollner Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238782",
+   "https://www.richmond.ca/trafficcam/10054BFF13265238_00.jpg",
+   "Minoru Boulevard at Gollner Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238783",
+   "https://www.richmond.ca/trafficcam/100585FF526F5238_00.jpg",
+   "Minoru Boulevard at Gollner Avenue  view 4  Richmond, BC"
+  ],
+  [
+   "238784",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_nb.jpg",
+   "Gilbert Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "238785",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_sb.jpg",
+   "Gilbert Road at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238786",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_wb.jpg",
+   "Gilbert Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238787",
+   "https://www.richmond.ca/trafficcam/vdd_alderbridge_westminster_sb.jpg",
+   "Alderbridge Way at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238788",
+   "https://www.richmond.ca/trafficcam/vdd_alderbridge_westminster_wb.jpg",
+   "Alderbridge Way at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238789",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_nb.jpg",
+   "Minoru Boulevard at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "238790",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_sb.jpg",
+   "Minoru Boulevard at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238791",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_wb.jpg",
+   "Minoru Boulevard at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238792",
+   "https://www.richmond.ca/trafficcam/0C0547FFA154AE2A_00.jpg",
+   "Gilbert Road at Elmbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238793",
+   "https://www.richmond.ca/trafficcam/0C0548FF495AAE2A_00.jpg",
+   "Gilbert Road at Elmbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238794",
+   "https://www.richmond.ca/trafficcam/0C054BFFBA95722A_00.jpg",
+   "Gilbert Road at Elmbridge Way  view 4  Richmond, BC"
+  ],
+  [
+   "238795",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_nb.jpg",
+   "Minoru Boulevard at Elmbridge Way / Ackroyd Road NB  Richmond, BC"
+  ],
+  [
+   "238796",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_sb.jpg",
+   "Minoru Boulevard at Elmbridge Way / Ackroyd Road SB  Richmond, BC"
+  ],
+  [
+   "238797",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_wb.jpg",
+   "Minoru Boulevard at Elmbridge Way / Ackroyd Road WB  Richmond, BC"
+  ],
+  [
+   "238798",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_nb.jpg",
+   "Gilbert Road at Lansdowne Road NB  Richmond, BC"
+  ],
+  [
+   "238799",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_sb.jpg",
+   "Gilbert Road at Lansdowne Road SB  Richmond, BC"
+  ],
+  [
+   "238800",
+   "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_wb.jpg",
+   "Gilbert Road at Lansdowne Road WB  Richmond, BC"
+  ],
+  [
+   "238801",
+   "https://www.richmond.ca/trafficcam/100547FF8578EC3D_00.jpg",
+   "Alderbridge Way at Lansdowne Road  view 2  Richmond, BC"
+  ],
+  [
+   "238802",
+   "https://www.richmond.ca/trafficcam/100548FF993EED3D_00.jpg",
+   "Alderbridge Way at Lansdowne Road  view 3  Richmond, BC"
+  ],
+  [
+   "238803",
+   "https://www.richmond.ca/trafficcam/10054AFFF718E23D_00.jpg",
+   "Alderbridge Way at Lansdowne Road  view 4  Richmond, BC"
+  ],
+  [
+   "238804",
+   "https://www.richmond.ca/trafficcam/100548FF7526A440_00.jpg",
+   "Cedarbridge Way at Lansdowne Road  view 2  Richmond, BC"
+  ],
+  [
+   "238805",
+   "https://www.richmond.ca/trafficcam/100548FF9226A440_00.jpg",
+   "Cedarbridge Way at Lansdowne Road  view 3  Richmond, BC"
+  ],
+  [
+   "238806",
+   "https://www.richmond.ca/trafficcam/10054BFFFFB71E41_00.jpg",
+   "Cedarbridge Way at Lansdowne Road  view 4  Richmond, BC"
+  ],
+  [
+   "238807",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_nb.jpg",
+   "Minoru Boulevard at Lansdowne Road NB  Richmond, BC"
+  ],
+  [
+   "238808",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_sb.jpg",
+   "Minoru Boulevard at Lansdowne Road SB  Richmond, BC"
+  ],
+  [
+   "238809",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_wb.jpg",
+   "Minoru Boulevard at Lansdowne Road WB  Richmond, BC"
+  ],
+  [
+   "238810",
+   "https://www.richmond.ca/trafficcam/100549FF8C509F3D_00.jpg",
+   "Cedarbridge Way at Alderbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238811",
+   "https://www.richmond.ca/trafficcam/10054AFF6994A03D_00.jpg",
+   "Cedarbridge Way at Alderbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238812",
+   "https://www.richmond.ca/trafficcam/1005DEFFD15B5238_00.jpg",
+   "Cedarbridge Way at Alderbridge Way  view 4  Richmond, BC"
+  ],
+  [
+   "238813",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_alderbridge_nb.jpg",
+   "Minoru Boulevard at Alderbridge Way NB  Richmond, BC"
+  ],
+  [
+   "238814",
+   "https://www.richmond.ca/trafficcam/vdd_minoru_alderbridge_wb.jpg",
+   "Minoru Boulevard at Alderbridge Way WB  Richmond, BC"
+  ],
+  [
+   "238815",
+   "https://www.richmond.ca/trafficcam/vdd_river_7200_sb.jpg",
+   "River Parkway at 7200 block SB  Richmond, BC"
+  ],
+  [
+   "238816",
+   "https://www.richmond.ca/trafficcam/vdd_river_leslie_sb.jpg",
+   "River Parkway at Leslie Road SB  Richmond, BC"
+  ],
+  [
+   "238817",
+   "https://www.richmond.ca/trafficcam/vdd_river_leslie_wb.jpg",
+   "River Parkway at Leslie Road WB  Richmond, BC"
+  ],
+  [
+   "238818",
+   "https://www.richmond.ca/trafficcam/10053AFF9D469832_00.jpg",
+   "Russ Baker Way at Cessna Drive  view 2  Richmond, BC"
+  ],
+  [
+   "238819",
+   "https://www.richmond.ca/trafficcam/10053AFFAD399832_00.jpg",
+   "Russ Baker Way at Cessna Drive  view 3  Richmond, BC"
+  ],
+  [
+   "238820",
+   "https://www.richmond.ca/trafficcam/100537FFA7589232_00.jpg",
+   "Russ Baker Way at Cessna Drive  view 4  Richmond, BC"
+  ],
+  [
+   "238821",
+   "https://www.richmond.ca/trafficcam/100538FF803A0632_00.jpg",
+   "Russ Baker Way at Hudson Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238822",
+   "https://www.richmond.ca/trafficcam/100599FF8D56DE2D_00.jpg",
+   "Russ Baker Way at Hudson Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238823",
+   "https://www.richmond.ca/trafficcam/vdd_river_cambie_nb.jpg",
+   "River Parkway at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238824",
+   "https://www.richmond.ca/trafficcam/vdd_river_cambie_wb.jpg",
+   "River Parkway at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238825",
+   "https://www.richmond.ca/trafficcam/0C0547FFB055AE2A_00.jpg",
+   "Russ Baker Way at Miller Road  view 2  Richmond, BC"
+  ],
+  [
+   "238826",
+   "https://www.richmond.ca/trafficcam/0C0548FF184FB42A_00.jpg",
+   "Russ Baker Way at Miller Road  view 3  Richmond, BC"
+  ],
+  [
+   "238827",
+   "https://www.richmond.ca/trafficcam/0C054BFFAA43AE2A_00.jpg",
+   "Russ Baker Way at Miller Road  view 4  Richmond, BC"
+  ],
+  [
+   "238828",
+   "https://www.richmond.ca/trafficcam/100549FFE7D30C37_00.jpg",
+   "No. 3 Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238829",
+   "https://www.richmond.ca/trafficcam/100585FFF8D60C37_00.jpg",
+   "No. 3 Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238830",
+   "https://www.richmond.ca/trafficcam/1005DEFF8A660C37_00.jpg",
+   "No. 3 Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238831",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_williams_nb.jpg",
+   "No. 3 Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "238832",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_williams_sb.jpg",
+   "No. 3 Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "238833",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_williams_wb.jpg",
+   "No. 3 Road at Williams Road WB  Richmond, BC"
+  ],
+  [
+   "238834",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_granville_nb.jpg",
+   "No. 3 Road at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "238835",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_granville_sb.jpg",
+   "No. 3 Road at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238836",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_granville_wb.jpg",
+   "No. 3 Road at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238837",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_granville_sb.jpg",
+   "Buswell Street at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238838",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_granville_wb.jpg",
+   "Buswell Street at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238839",
+   "https://www.richmond.ca/trafficcam/0C0546FFF13DAE2A_00.jpg",
+   "St Albans Road / Cooney Road at Granville Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238840",
+   "https://www.richmond.ca/trafficcam/0C0547ff9651b42a_00.jpg",
+   "St Albans Road / Cooney Road at Granville Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238841",
+   "https://www.richmond.ca/trafficcam/0C0548fffb59b42a_00.jpg",
+   "St Albans Road / Cooney Road at Granville Avenue  view 4  Richmond, BC"
+  ],
+  [
+   "238842",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_park_nb.jpg",
+   "No. 3 Road at Park Road NB  Richmond, BC"
+  ],
+  [
+   "238843",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_park_sb.jpg",
+   "No. 3 Road at Park Road SB  Richmond, BC"
+  ],
+  [
+   "238844",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_park_wb.jpg",
+   "No. 3 Road at Park Road WB  Richmond, BC"
+  ],
+  [
+   "238845",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_park_nb.jpg",
+   "Buswell Street at Park Road NB  Richmond, BC"
+  ],
+  [
+   "238846",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_park_sb.jpg",
+   "Buswell Street at Park Road SB  Richmond, BC"
+  ],
+  [
+   "238847",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_park_wb.jpg",
+   "Buswell Street at Park Road WB  Richmond, BC"
+  ],
+  [
+   "238848",
+   "https://www.richmond.ca/trafficcam/vdd_cooney_park_nb.jpg",
+   "Cooney Road at Park Road NB  Richmond, BC"
+  ],
+  [
+   "238849",
+   "https://www.richmond.ca/trafficcam/vdd_cooney_park_sb.jpg",
+   "Cooney Road at Park Road SB  Richmond, BC"
+  ],
+  [
+   "238850",
+   "https://www.richmond.ca/trafficcam/vdd_cooney_park_wb.jpg",
+   "Cooney Road at Park Road WB  Richmond, BC"
+  ],
+  [
+   "238851",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cook_nb.jpg",
+   "No. 3 Road at Cook Road NB  Richmond, BC"
+  ],
+  [
+   "238852",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cook_sb.jpg",
+   "No. 3 Road at Cook Road SB  Richmond, BC"
+  ],
+  [
+   "238853",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cook_wb.jpg",
+   "No. 3 Road at Cook Road WB  Richmond, BC"
+  ],
+  [
+   "238854",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_cook_nb.jpg",
+   "Buswell Street at Cook Road NB  Richmond, BC"
+  ],
+  [
+   "238855",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_cook_sb.jpg",
+   "Buswell Street at Cook Road SB  Richmond, BC"
+  ],
+  [
+   "238856",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_cook_wb.jpg",
+   "Buswell Street at Cook Road WB  Richmond, BC"
+  ],
+  [
+   "238857",
+   "https://www.richmond.ca/trafficcam/vdd_cook_8100_sb.jpg",
+   "8100 block at Cook Road SB  Richmond, BC"
+  ],
+  [
+   "238858",
+   "https://www.richmond.ca/trafficcam/vdd_cook_8100_sb2.jpg",
+   "8100 block at Cook Road  view 3  Richmond, BC"
+  ],
+  [
+   "238859",
+   "https://www.richmond.ca/trafficcam/vdd_cook_8100_wb.jpg",
+   "8100 block at Cook Road WB  Richmond, BC"
+  ],
+  [
+   "238860",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_saba_nb.jpg",
+   "No. 3 Road at Saba Road NB  Richmond, BC"
+  ],
+  [
+   "238861",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_saba_sb.jpg",
+   "No. 3 Road at Saba Road SB  Richmond, BC"
+  ],
+  [
+   "238862",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_saba_wb.jpg",
+   "No. 3 Road at Saba Road WB  Richmond, BC"
+  ],
+  [
+   "238863",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_brighouse_sb.jpg",
+   "No. 3 Road at Bus Mall SB  Richmond, BC"
+  ],
+  [
+   "238864",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_brighouse_wb.jpg",
+   "No. 3 Road at Bus Mall WB  Richmond, BC"
+  ],
+  [
+   "238865",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_saba_nb.jpg",
+   "Buswell Road at Saba Road NB  Richmond, BC"
+  ],
+  [
+   "238866",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_saba_sb.jpg",
+   "Buswell Road at Saba Road SB  Richmond, BC"
+  ],
+  [
+   "238867",
+   "https://www.richmond.ca/trafficcam/vdd_buswell_saba_wb.jpg",
+   "Buswell Road at Saba Road WB  Richmond, BC"
+  ],
+  [
+   "238868",
+   "https://www.richmond.ca/trafficcam/10054AFF4E6B5E32_00.jpg",
+   "No. 3 Road at Westminster Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238869",
+   "https://www.richmond.ca/trafficcam/100585FFD0236032_00.jpg",
+   "No. 3 Road at Westminster Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238870",
+   "https://www.richmond.ca/trafficcam/100598FFB15FDE2D_00.jpg",
+   "No. 3 Road at Westminster Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238871",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_nb.jpg",
+   "No. 3 Road at Ackroyd Road NB  Richmond, BC"
+  ],
+  [
+   "238872",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_sb.jpg",
+   "No. 3 Road at Ackroyd Road SB  Richmond, BC"
+  ],
+  [
+   "238873",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_wb.jpg",
+   "No. 3 Road at Ackroyd Road WB  Richmond, BC"
+  ],
+  [
+   "238874",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_lansdowne_sb.jpg",
+   "No. 3 Road at Lansdowne Road SB  Richmond, BC"
+  ],
+  [
+   "238875",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_lansdowne_wb.jpg",
+   "No. 3 Road at Lansdowne Road WB  Richmond, BC"
+  ],
+  [
+   "238876",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_5300_sb.jpg",
+   "No. 3 Road at 5300 block SB  Richmond, BC"
+  ],
+  [
+   "238877",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_5300_wb.jpg",
+   "No. 3 Road at 5300 block WB  Richmond, BC"
+  ],
+  [
+   "238878",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_nb.jpg",
+   "No. 3 Road at Alderbridge Way NB  Richmond, BC"
+  ],
+  [
+   "238879",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_sb.jpg",
+   "No. 3 Road at Alderbridge Way SB  Richmond, BC"
+  ],
+  [
+   "238880",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_wb.jpg",
+   "No. 3 Road at Alderbridge Way WB  Richmond, BC"
+  ],
+  [
+   "238881",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_nb.jpg",
+   "No. 3 Road at Leslie Road NB  Richmond, BC"
+  ],
+  [
+   "238882",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_sb.jpg",
+   "No. 3 Road at Leslie Road SB  Richmond, BC"
+  ],
+  [
+   "238883",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_wb.jpg",
+   "No. 3 Road at Leslie Road WB  Richmond, BC"
+  ],
+  [
+   "238884",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_browngate_sb.jpg",
+   "No. 3 Road at Browngate Road SB  Richmond, BC"
+  ],
+  [
+   "238885",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_browngate_wb.jpg",
+   "No. 3 Road at Browngate Road WB  Richmond, BC"
+  ],
+  [
+   "238886",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_nb.jpg",
+   "No. 3 Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238887",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_sb.jpg",
+   "No. 3 Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "238888",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_wb.jpg",
+   "No. 3 Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238889",
+   "https://www.richmond.ca/trafficcam/vdd_aberdeen_cambie_nb.jpg",
+   "8100 block at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238890",
+   "https://www.richmond.ca/trafficcam/vdd_aberdeen_cambie_wb.jpg",
+   "8100 block at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238891",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_nb.jpg",
+   "Hazelbridge Way at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238892",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_sb.jpg",
+   "Hazelbridge Way at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "238893",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_wb.jpg",
+   "Hazelbridge Way at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238894",
+   "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_nb.jpg",
+   "Sexsmith Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238895",
+   "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_sb.jpg",
+   "Sexsmith Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "238896",
+   "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_wb.jpg",
+   "Sexsmith Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238897",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_3700_sb.jpg",
+   "No. 3 Road at 3700 block SB  Richmond, BC"
+  ],
+  [
+   "238898",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_3700_wb.jpg",
+   "No. 3 Road at 3700 block WB  Richmond, BC"
+  ],
+  [
+   "238899",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_3600_nb.jpg",
+   "No. 3 Road at 3600 block NB  Richmond, BC"
+  ],
+  [
+   "238900",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_3600_sb.jpg",
+   "No. 3 Road at 3600 block SB  Richmond, BC"
+  ],
+  [
+   "238901",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_3600_wb.jpg",
+   "No. 3 Road at 3600 block WB  Richmond, BC"
+  ],
+  [
+   "238902",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_nb.jpg",
+   "No. 3 Road at Capstan Way NB  Richmond, BC"
+  ],
+  [
+   "238903",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_sb.jpg",
+   "No. 3 Road at Capstan Way SB  Richmond, BC"
+  ],
+  [
+   "238904",
+   "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_wb.jpg",
+   "No. 3 Road at Capstan Way WB  Richmond, BC"
+  ],
+  [
+   "238905",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_nb.jpg",
+   "Hazelbridge Way at Capstan Way NB  Richmond, BC"
+  ],
+  [
+   "238906",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_sb.jpg",
+   "Hazelbridge Way at Capstan Way SB  Richmond, BC"
+  ],
+  [
+   "238907",
+   "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_wb.jpg",
+   "Hazelbridge Way at Capstan Way WB  Richmond, BC"
+  ],
+  [
+   "238908",
+   "https://www.richmond.ca/trafficcam/100546FF8559A03D_00.jpg",
+   "Sexsmith Road at Capstan Way  view 2  Richmond, BC"
+  ],
+  [
+   "238909",
+   "https://www.richmond.ca/trafficcam/100546FFED55A03D_00.jpg",
+   "Sexsmith Road at Capstan Way  view 3  Richmond, BC"
+  ],
+  [
+   "238910",
+   "https://www.richmond.ca/trafficcam/10057DFF1332D248_00.jpg",
+   "Sexsmith Road at Capstan Way  view 4  Richmond, BC"
+  ],
+  [
+   "238911",
+   "https://www.richmond.ca/trafficcam/vdd_no._3_mcmyn_nb.jpg",
+   "No. 3 Road at McMyn Way NB  Richmond, BC"
+  ],
+  [
+   "238912",
+   "https://www.richmond.ca/trafficcam/vdd_no._3_mcmyn_sb.jpg",
+   "No. 3 Road at McMyn Way SB  Richmond, BC"
+  ],
+  [
+   "238913",
+   "https://www.richmond.ca/trafficcam/100501FF9AAD1E41_00.jpg",
+   "Sexsmith Road at Hazelbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238914",
+   "https://www.richmond.ca/trafficcam/100548FF0A502541_00.jpg",
+   "Sexsmith Road at Hazelbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238915",
+   "https://www.richmond.ca/trafficcam/100578FF9C291A49_00.jpg",
+   "Sexsmith Road at Hazelbridge Way  view 4  Richmond, BC"
+  ],
+  [
+   "238916",
+   "https://www.richmond.ca/trafficcam/vdd_mortfield_steveston_sb.jpg",
+   "Mortfield Gate at Steveston Highway SB  Richmond, BC"
+  ],
+  [
+   "238917",
+   "https://www.richmond.ca/trafficcam/vdd_mortfield_steveston_wb.jpg",
+   "Mortfield Gate at Steveston Highway WB  Richmond, BC"
+  ],
+  [
+   "238918",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_nb.jpg",
+   "Garden City Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "238919",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_sb.jpg",
+   "Garden City Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "238920",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_wb.jpg",
+   "Garden City Road at Williams Road WB  Richmond, BC"
+  ],
+  [
+   "238921",
+   "https://www.richmond.ca/trafficcam/100538FFB15D4830_00.jpg",
+   "Garden City Road at Granville Avenue  view 2  Richmond, BC"
+  ],
+  [
+   "238922",
+   "https://www.richmond.ca/trafficcam/10053AFF77538C32_00.jpg",
+   "Garden City Road at Granville Avenue  view 3  Richmond, BC"
+  ],
+  [
+   "238923",
+   "https://www.richmond.ca/trafficcam/100546FF3A4F8C32_00.jpg",
+   "Garden City Road at Granville Avenue  view 4  Richmond, BC"
+  ],
+  [
+   "238924",
+   "https://www.richmond.ca/trafficcam/100548FF0A5C6C32_00.jpg",
+   "Garden City Road at Granville Avenue  view 5  Richmond, BC"
+  ],
+  [
+   "238925",
+   "https://www.richmond.ca/trafficcam/100548FF5D5C6C32_00.jpg",
+   "Garden City Road at Granville Avenue  view 6  Richmond, BC"
+  ],
+  [
+   "238926",
+   "https://www.richmond.ca/trafficcam/10053AFF99595E38_00.jpg",
+   "Garden City Road at Alderbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238927",
+   "https://www.richmond.ca/trafficcam/10053AFFDB535E38_00.jpg",
+   "Garden City Road at Alderbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238928",
+   "https://www.richmond.ca/trafficcam/1005DEFF3F665238_00.jpg",
+   "Garden City Road at Alderbridge Way  view 4  Richmond, BC"
+  ],
+  [
+   "238929",
+   "https://www.richmond.ca/trafficcam/100545FF2B7DE440_00.jpg",
+   "McClelland Road at Alderbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238930",
+   "https://www.richmond.ca/trafficcam/10054BFFABA41E41_00.jpg",
+   "McClelland Road at Alderbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238931",
+   "https://www.richmond.ca/trafficcam/100548FF604F2541_00.jpg",
+   "May Drive at Alderbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "238932",
+   "https://www.richmond.ca/trafficcam/100548FFE4B81E41_00.jpg",
+   "May Drive at Alderbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "238933",
+   "https://www.richmond.ca/trafficcam/100547FFA9D66A40_00.jpg",
+   "Garden City Road at Cambie Road  view 2  Richmond, BC"
+  ],
+  [
+   "238934",
+   "https://www.richmond.ca/trafficcam/100548FF54219640_00.jpg",
+   "Garden City Road at Cambie Road  view 3  Richmond, BC"
+  ],
+  [
+   "238935",
+   "https://www.richmond.ca/trafficcam/100548FF66189640_00.jpg",
+   "Garden City Road at Cambie Road  view 4  Richmond, BC"
+  ],
+  [
+   "238936",
+   "https://www.richmond.ca/trafficcam/100545FFFA5F4638_00.jpg",
+   "Stolberg Street at Cambie Road  view 2  Richmond, BC"
+  ],
+  [
+   "238937",
+   "https://www.richmond.ca/trafficcam/100546FF1BE04638_00.jpg",
+   "Stolberg Street at Cambie Road  view 3  Richmond, BC"
+  ],
+  [
+   "238938",
+   "https://www.richmond.ca/trafficcam/100546FF30624638_00.jpg",
+   "Stolberg Street at Cambie Road  view 4  Richmond, BC"
+  ],
+  [
+   "238939",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_nb.jpg",
+   "Garden City Road at Capstan Way NB  Richmond, BC"
+  ],
+  [
+   "238940",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_sb.jpg",
+   "Garden City Road at Capstan Way SB  Richmond, BC"
+  ],
+  [
+   "238941",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_wb.jpg",
+   "Garden City Road at Capstan Way WB  Richmond, BC"
+  ],
+  [
+   "238942",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_nb.jpg",
+   "Great Canadian Way / Garden City Road at Sea Island Way NB  Richmond, BC"
+  ],
+  [
+   "238943",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_sb.jpg",
+   "Great Canadian Way / Garden City Road at Sea Island Way SB  Richmond, BC"
+  ],
+  [
+   "238944",
+   "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_wb.jpg",
+   "Great Canadian Way / Garden City Road at Sea Island Way WB  Richmond, BC"
+  ],
+  [
+   "238945",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_nb.jpg",
+   "Great Canadian Way at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "238946",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_sb.jpg",
+   "Great Canadian Way at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "238947",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_wb.jpg",
+   "Great Canadian Way at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "238948",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_nb.jpg",
+   "Great Canadian Way at Van Horne Way NB  Richmond, BC"
+  ],
+  [
+   "238949",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_sb.jpg",
+   "Great Canadian Way at Van Horne Way SB  Richmond, BC"
+  ],
+  [
+   "238950",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_wb.jpg",
+   "Great Canadian Way at Van Horne Way WB  Richmond, BC"
+  ],
+  [
+   "238951",
+   "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_bus_mall_sb.jpg",
+   "Great Canadian Way at Bridgeport Bus Mall SB  Richmond, BC"
+  ],
+  [
+   "238952",
+   "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_nb.jpg",
+   "Great Canadian Way at River Road NB  Richmond, BC"
+  ],
+  [
+   "238953",
+   "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_sb.jpg",
+   "Great Canadian Way at River Road SB  Richmond, BC"
+  ],
+  [
+   "238954",
+   "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_wb.jpg",
+   "Great Canadian Way at River Road WB  Richmond, BC"
+  ],
+  [
+   "238955",
+   "https://www.richmond.ca/trafficcam/100549FF195B0E37_00.jpg",
+   "No. 4 Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238956",
+   "https://www.richmond.ca/trafficcam/100585FF0F5CD236_00.jpg",
+   "No. 4 Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238957",
+   "https://www.richmond.ca/trafficcam/1005DEFF865ED236_00.jpg",
+   "No. 4 Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238958",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_williams_nb.jpg",
+   "No. 4 Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "238959",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_williams_sb.jpg",
+   "No. 4 Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "238960",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_williams_wb.jpg",
+   "No. 4 Road at Williams Road WB  Richmond, BC"
+  ],
+  [
+   "238961",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_francis_nb.jpg",
+   "No. 4 Road at Francis Road NB  Richmond, BC"
+  ],
+  [
+   "238962",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_francis_sb.jpg",
+   "No. 4 Road at Francis Road SB  Richmond, BC"
+  ],
+  [
+   "238963",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_francis_wb.jpg",
+   "No. 4 Road at Francis Road WB  Richmond, BC"
+  ],
+  [
+   "238964",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_nb.jpg",
+   "No. 4 Road at Blundell Road NB  Richmond, BC"
+  ],
+  [
+   "238965",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_sb.jpg",
+   "No. 4 Road at Blundell Road SB  Richmond, BC"
+  ],
+  [
+   "238966",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_wb.jpg",
+   "No. 4 Road at Blundell Road WB  Richmond, BC"
+  ],
+  [
+   "238967",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_edgington_nb.jpg",
+   "No. 4 Road at Edgington Avenue NB  Richmond, BC"
+  ],
+  [
+   "238968",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_edgington_sb.jpg",
+   "No. 4 Road at Edgington Avenue SB  Richmond, BC"
+  ],
+  [
+   "238969",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_granville_nb.jpg",
+   "No. 4 Road at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "238970",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_granville_sb.jpg",
+   "No. 4 Road at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "238971",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_granville_wb.jpg",
+   "No. 4 Road at Granville Avenue WB  Richmond, BC"
+  ],
+  [
+   "238972",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_nb.jpg",
+   "No. 4 Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "238973",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_sb.jpg",
+   "No. 4 Road at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "238974",
+   "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_wb.jpg",
+   "No. 4 Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "238975",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_nb.jpg",
+   "No. 4 Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238976",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_sb.jpg",
+   "No. 4 Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "238977",
+   "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_wb.jpg",
+   "No. 4 Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238978",
+   "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_nb.jpg",
+   "St. Edwards Drive at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "238979",
+   "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_sb.jpg",
+   "St. Edwards Drive at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "238980",
+   "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_wb.jpg",
+   "St. Edwards Drive at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "238981",
+   "https://www.richmond.ca/trafficcam/vdd_edwards_bridgeport_nb.jpg",
+   "St. Edwards Drive at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "238982",
+   "https://www.richmond.ca/trafficcam/vdd_edwards_bridgeport_wb.jpg",
+   "St. Edwards Drive at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "238983",
+   "https://www.richmond.ca/trafficcam/vdd_mclennan_bridgeport_sb.jpg",
+   "McLennan Avenue at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "238984",
+   "https://www.richmond.ca/trafficcam/vdd_mclennan_bridgeport_wb.jpg",
+   "McLennan Avenue at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "238985",
+   "https://www.richmond.ca/trafficcam/100585FFBED80C37_00.jpg",
+   "Shell Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238986",
+   "https://www.richmond.ca/trafficcam/1005DEFF1852D236_00.jpg",
+   "Shell Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238987",
+   "https://www.richmond.ca/trafficcam/1005DEFF9E660C37_00.jpg",
+   "Shell Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "238988",
+   "https://www.richmond.ca/trafficcam/10053AFF7946D236_00.jpg",
+   "Seaward Gate at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238989",
+   "https://www.richmond.ca/trafficcam/10053AFFA7419236_00.jpg",
+   "Seaward Gate at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238990",
+   "https://www.richmond.ca/trafficcam/100546FFB365E83A_00.jpg",
+   "Coppersmith Place at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "238991",
+   "https://www.richmond.ca/trafficcam/100585FFB2DE0C37_00.jpg",
+   "Coppersmith Place at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "238992",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_nb.jpg",
+   "Shell Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "238993",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_sb.jpg",
+   "Shell Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "238994",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_wb.jpg",
+   "Shell Road at Williams Road WB  Richmond, BC"
+  ],
+  [
+   "238995",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_eb.jpg",
+   "Shell Road at Williams Road EB  Richmond, BC"
+  ],
+  [
+   "238996",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_nb.jpg",
+   "Shell Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "238997",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_sb.jpg",
+   "Shell Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "238998",
+   "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_wb.jpg",
+   "Shell Road at Williams Road WB  Richmond, BC"
+  ],
+  [
+   "238999",
+   "https://www.richmond.ca/trafficcam/100539FFF633F635_00.jpg",
+   "Shell Road at Alderbridge Way  view 2  Richmond, BC"
+  ],
+  [
+   "239000",
+   "https://www.richmond.ca/trafficcam/100598FF955FDE2D_00.jpg",
+   "Shell Road at Alderbridge Way  view 3  Richmond, BC"
+  ],
+  [
+   "239001",
+   "https://www.richmond.ca/trafficcam/100598FFD447DF2D_00.jpg",
+   "Shell Road at Alderbridge Way  view 4  Richmond, BC"
+  ],
+  [
+   "239002",
+   "https://www.richmond.ca/trafficcam/vdd_shell_cambie_nb.jpg",
+   "Shell Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "239003",
+   "https://www.richmond.ca/trafficcam/vdd_shell_cambie_sb.jpg",
+   "Shell Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "239004",
+   "https://www.richmond.ca/trafficcam/vdd_shell_cambie_wb.jpg",
+   "Shell Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "239005",
+   "https://www.richmond.ca/trafficcam/vdd_simpson_bport_nb.jpg",
+   "Simpson Road at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "239006",
+   "https://www.richmond.ca/trafficcam/vdd_simpson_bport_sb.jpg",
+   "Simpson Road at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "239007",
+   "https://www.richmond.ca/trafficcam/vdd_simpson_bport_wb.jpg",
+   "Simpson Road at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "239008",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_horseshoe_nb.jpg",
+   "No. 5 Road at Horseshoe Way NB  Richmond, BC"
+  ],
+  [
+   "239009",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_horseshoe_sb.jpg",
+   "No. 5 Road at Horseshoe Way SB  Richmond, BC"
+  ],
+  [
+   "239010",
+   "https://www.richmond.ca/trafficcam/100597FF445CDE2D_00.jpg",
+   "No. 5 Road at Steveston Highway  view 2  Richmond, BC"
+  ],
+  [
+   "239011",
+   "https://www.richmond.ca/trafficcam/100597FF7C5FDE2D_00.jpg",
+   "No. 5 Road at Steveston Highway  view 3  Richmond, BC"
+  ],
+  [
+   "239012",
+   "https://www.richmond.ca/trafficcam/100598FF144BDE2D_00.jpg",
+   "No. 5 Road at Steveston Highway  view 4  Richmond, BC"
+  ],
+  [
+   "239013",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_thegardens_sb.jpg",
+   "No. 5 Road at 10700 block SB  Richmond, BC"
+  ],
+  [
+   "239014",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_thegardens_wb.jpg",
+   "No. 5 Road at 10700 block WB  Richmond, BC"
+  ],
+  [
+   "239015",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_williams_nb.jpg",
+   "No. 5 Road at Williams Road NB  Richmond, BC"
+  ],
+  [
+   "239016",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_williams_sb.jpg",
+   "No. 5 Road at Williams Road SB  Richmond, BC"
+  ],
+  [
+   "239017",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_king_nb.jpg",
+   "No. 5 Road at King Road NB  Richmond, BC"
+  ],
+  [
+   "239018",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_king_sb.jpg",
+   "No. 5 Road at King Road SB  Richmond, BC"
+  ],
+  [
+   "239019",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_nb.jpg",
+   "No. 5 Road at Blundell Road NB  Richmond, BC"
+  ],
+  [
+   "239020",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_sb.jpg",
+   "No. 5 Road at Blundell Road SB  Richmond, BC"
+  ],
+  [
+   "239021",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_wb.jpg",
+   "No. 5 Road at Blundell Road WB  Richmond, BC"
+  ],
+  [
+   "239022",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_granville_nb.jpg",
+   "No. 5 Road at Granville Avenue NB  Richmond, BC"
+  ],
+  [
+   "239023",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_granville_sb.jpg",
+   "No. 5 Road at Granville Avenue SB  Richmond, BC"
+  ],
+  [
+   "239024",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_nb.jpg",
+   "No. 5 Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "239025",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_sb.jpg",
+   "No. 5 Road at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "239026",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_wb.jpg",
+   "No. 5 Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239027",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_eb.jpg",
+   "No. 5 Road at Cambie Road EB  Richmond, BC"
+  ],
+  [
+   "239028",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_nb.jpg",
+   "No. 5 Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "239029",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_sb.jpg",
+   "No. 5 Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "239030",
+   "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_wb.jpg",
+   "No. 5 Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "239031",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_eb.jpg",
+   "No. 5 Road at Bridgeport Road EB  Richmond, BC"
+  ],
+  [
+   "239032",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_nb.jpg",
+   "No. 5 Road at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "239033",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_sb.jpg",
+   "No. 5 Road at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "239034",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_wb.jpg",
+   "No. 5 Road at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "239035",
+   "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_eb.jpg",
+   "Sweden Way at Bridgeport Road EB  Richmond, BC"
+  ],
+  [
+   "239036",
+   "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_nb.jpg",
+   "Sweden Way at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "239037",
+   "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_sb.jpg",
+   "Sweden Way at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "239038",
+   "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_wb.jpg",
+   "Sweden Way at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "239039",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_vulcan_sb.jpg",
+   "No. 5 Road at Vulcan Way SB  Richmond, BC"
+  ],
+  [
+   "239040",
+   "https://www.richmond.ca/trafficcam/vdd_no_5_vulcan_wb.jpg",
+   "No. 5 Road at Vulcan Way WB  Richmond, BC"
+  ],
+  [
+   "239041",
+   "https://www.richmond.ca/trafficcam/100547FF8A998840_00.jpg",
+   "Jacombs Road / Sidaway Road at Westminster Highway  view 2  Richmond, BC"
+  ],
+  [
+   "239042",
+   "https://www.richmond.ca/trafficcam/100548FFEE329440_00.jpg",
+   "Jacombs Road / Sidaway Road at Westminster Highway  view 3  Richmond, BC"
+  ],
+  [
+   "239043",
+   "https://www.richmond.ca/trafficcam/10054BFF41706840_00.jpg",
+   "Jacombs Road / Sidaway Road at Westminster Highway  view 4  Richmond, BC"
+  ],
+  [
+   "239044",
+   "https://www.richmond.ca/trafficcam/vdd_knight_westminster_sb.jpg",
+   "Knight Street at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "239045",
+   "https://www.richmond.ca/trafficcam/vdd_knight_westminster_wb.jpg",
+   "Knight Street at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239046",
+   "https://www.richmond.ca/trafficcam/100547FF3827A440_00.jpg",
+   "Jacombs Road at Smallwood Place  view 2  Richmond, BC"
+  ],
+  [
+   "239047",
+   "https://www.richmond.ca/trafficcam/100548FFB926A440_00.jpg",
+   "Jacombs Road at Smallwood Place  view 3  Richmond, BC"
+  ],
+  [
+   "239048",
+   "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_eb.jpg",
+   "Jacombs Road at Cambie Road EB  Richmond, BC"
+  ],
+  [
+   "239049",
+   "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_nb.jpg",
+   "Jacombs Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "239050",
+   "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_sb.jpg",
+   "Jacombs Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "239051",
+   "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_wb.jpg",
+   "Jacombs Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "239052",
+   "https://www.richmond.ca/trafficcam/vdd_viking_cambie_nb.jpg",
+   "Viking Way at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "239053",
+   "https://www.richmond.ca/trafficcam/vdd_viking_cambie_sb.jpg",
+   "Viking Way at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "239054",
+   "https://www.richmond.ca/trafficcam/vdd_viking_cambie_wb.jpg",
+   "Viking Way at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "239055",
+   "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_eb.jpg",
+   "Viking Way at Bridgeport Road EB  Richmond, BC"
+  ],
+  [
+   "239056",
+   "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_nb.jpg",
+   "Viking Way at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "239057",
+   "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_sb.jpg",
+   "Viking Way at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "239058",
+   "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_wb.jpg",
+   "Viking Way at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "239059",
+   "https://www.richmond.ca/trafficcam/100545FF49216A40_00.jpg",
+   "No. 6 Road at Westminster Highway  view 2  Richmond, BC"
+  ],
+  [
+   "239060",
+   "https://www.richmond.ca/trafficcam/100547FFFB978840_00.jpg",
+   "No. 6 Road at Westminster Highway  view 3  Richmond, BC"
+  ],
+  [
+   "239061",
+   "https://www.richmond.ca/trafficcam/100548FFB0329440_00.jpg",
+   "No. 6 Road at Westminster Highway  view 4  Richmond, BC"
+  ],
+  [
+   "239062",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_commerce_nb.jpg",
+   "No. 6 Road at Commerce Parkway NB  Richmond, BC"
+  ],
+  [
+   "239063",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_commerce_sb.jpg",
+   "No. 6 Road at Commerce Parkway SB  Richmond, BC"
+  ],
+  [
+   "239064",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_mayfield_nb.jpg",
+   "No. 6 Road at Mayfield Place NB  Richmond, BC"
+  ],
+  [
+   "239065",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_mayfield_sb.jpg",
+   "No. 6 Road at Mayfield Place SB  Richmond, BC"
+  ],
+  [
+   "239066",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_nb.jpg",
+   "No. 6 Road at Cambie Road NB  Richmond, BC"
+  ],
+  [
+   "239067",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_sb.jpg",
+   "No. 6 Road at Cambie Road SB  Richmond, BC"
+  ],
+  [
+   "239068",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_wb.jpg",
+   "No. 6 Road at Cambie Road WB  Richmond, BC"
+  ],
+  [
+   "239069",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_nb.jpg",
+   "No. 6 Road at Bridgeport Road NB  Richmond, BC"
+  ],
+  [
+   "239070",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_sb.jpg",
+   "No. 6 Road at Bridgeport Road SB  Richmond, BC"
+  ],
+  [
+   "239071",
+   "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_wb.jpg",
+   "No. 6 Road at Bridgeport Road WB  Richmond, BC"
+  ],
+  [
+   "239072",
+   "https://www.richmond.ca/trafficcam/0C054AFF8A40AE2A_00.jpg",
+   "No. 8 Road at Blundell Road  view 2  Richmond, BC"
+  ],
+  [
+   "239073",
+   "https://www.richmond.ca/trafficcam/0C0582FF4664AE2A_00.jpg",
+   "No. 8 Road at Blundell Road  view 3  Richmond, BC"
+  ],
+  [
+   "239074",
+   "https://www.richmond.ca/trafficcam/0C0585FF0150B42A_00.jpg",
+   "No. 8 Road at Blundell Road  view 4  Richmond, BC"
+  ],
+  [
+   "239075",
+   "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_nb.jpg",
+   "No. 8 Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "239076",
+   "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_sb.jpg",
+   "No. 8 Road at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "239077",
+   "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_wb.jpg",
+   "No. 8 Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239078",
+   "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_nb.jpg",
+   "Nelson Road at Blundell Road NB  Richmond, BC"
+  ],
+  [
+   "239079",
+   "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_sb.jpg",
+   "Nelson Road at Blundell Road SB  Richmond, BC"
+  ],
+  [
+   "239080",
+   "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_wb.jpg",
+   "Nelson Road at Blundell Road WB  Richmond, BC"
+  ],
+  [
+   "239081",
+   "https://www.richmond.ca/trafficcam/vdd_old_west_westminster_sb.jpg",
+   "Old Westminster Highway at Westminster Highway SB  Richmond, BC"
+  ],
+  [
+   "239082",
+   "https://www.richmond.ca/trafficcam/vdd_old_west_westminster_wb.jpg",
+   "Old Westminster Highway at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239083",
+   "https://www.richmond.ca/trafficcam/100548FFA730A03D_00.jpg",
+   "McMillan Way at Westminster Highway  view 2  Richmond, BC"
+  ],
+  [
+   "239084",
+   "https://www.richmond.ca/trafficcam/10054AFF2497A03D_00.jpg",
+   "McMillan Way at Westminster Highway  view 3  Richmond, BC"
+  ],
+  [
+   "239085",
+   "https://www.richmond.ca/trafficcam/vdd_graybar_westminster_nb.jpg",
+   "Graybar Road at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "239086",
+   "https://www.richmond.ca/trafficcam/vdd_graybar_westminster_wb.jpg",
+   "Graybar Road at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239087",
+   "https://www.richmond.ca/trafficcam/vdd_fraserwood_westminster_nb.jpg",
+   "Fraserwood Place at Westminster Highway NB  Richmond, BC"
+  ],
+  [
+   "239088",
+   "https://www.richmond.ca/trafficcam/vdd_fraserwood_westminster_wb.jpg",
+   "Fraserwood Place at Westminster Highway WB  Richmond, BC"
+  ],
+  [
+   "239089",
+   "https://www.richmond.ca/trafficcam/vdd_westminster_west_north_nb.jpg",
+   "Westminster Highway at Westminster Highway North NB  Richmond, BC"
+  ],
+  [
+   "239090",
+   "https://www.richmond.ca/trafficcam/vdd_westminster_west_north_sb.jpg",
+   "Westminster Highway at Westminster Highway North SB  Richmond, BC"
+  ],
+  [
+   "239091",
+   "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_nb.jpg",
+   "Westminster Highway at McLean Avenue NB  Richmond, BC"
+  ],
+  [
+   "239092",
+   "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_sb.jpg",
+   "Westminster Highway at McLean Avenue SB  Richmond, BC"
+  ],
+  [
+   "239093",
+   "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_wb.jpg",
+   "Westminster Highway at McLean Avenue WB  Richmond, BC"
+  ]
+ ],
+ "posters": {
+  "238651": "ok",
+  "238652": "ok",
+  "238650": "ok",
+  "238649": "ok",
+  "238658": "ok",
+  "238656": "ok",
+  "238664": "ok",
+  "238660": "ok",
+  "238653": "ok",
+  "238655": "ok",
+  "238662": "ok",
+  "238659": "ok",
+  "238663": "ok",
+  "238654": "ok",
+  "238661": "ok",
+  "238657": "ok",
+  "238665": "ok",
+  "238666": "ok",
+  "238667": "ok",
+  "238668": "ok",
+  "238669": "ok",
+  "238672": "ok",
+  "238673": "ok",
+  "238670": "ok",
+  "238674": "ok",
+  "238671": "ok",
+  "238676": "ok",
+  "238675": "ok",
+  "238677": "ok",
+  "238679": "ok",
+  "238680": "ok",
+  "238678": "ok",
+  "238682": "ok",
+  "238683": "ok",
+  "238684": "ok",
+  "238681": "ok",
+  "238694": "ok",
+  "238686": "ok",
+  "238687": "ok",
+  "238691": "ok",
+  "238690": "ok",
+  "238693": "ok",
+  "238696": "ok",
+  "238692": "ok",
+  "238685": "ok",
+  "238695": "ok",
+  "238688": "ok",
+  "238689": "ok",
+  "238697": "ok",
+  "238698": "ok",
+  "238699": "ok",
+  "238700": "ok",
+  "238701": "ok",
+  "238702": "ok",
+  "238703": "ok",
+  "238704": "ok",
+  "238705": "ok",
+  "238706": "ok",
+  "238708": "ok",
+  "238709": "ok",
+  "238707": "ok",
+  "238710": "ok",
+  "238711": "ok",
+  "238712": "ok",
+  "238714": "ok",
+  "238713": "ok",
+  "238715": "ok",
+  "238723": "ok",
+  "238724": "ok",
+  "238725": "ok",
+  "238718": "ok",
+  "238716": "ok",
+  "238717": "ok",
+  "238719": "ok",
+  "238720": "ok",
+  "238722": "ok",
+  "238721": "ok",
+  "238728": "ok",
+  "238726": "ok",
+  "238727": "ok",
+  "238729": "ok",
+  "238730": "ok",
+  "238732": "ok",
+  "238731": "ok",
+  "238736": "ok",
+  "238737": "ok",
+  "238733": "ok",
+  "238739": "ok",
+  "238740": "ok",
+  "238738": "ok",
+  "238741": "ok",
+  "238734": "ok",
+  "238735": "ok",
+  "238744": "ok",
+  "238742": "ok",
+  "238745": "ok",
+  "238746": "ok",
+  "238743": "ok",
+  "238747": "ok",
+  "238748": "ok",
+  "238750": "ok",
+  "238749": "ok",
+  "238751": "ok",
+  "238755": "ok",
+  "238754": "ok",
+  "238756": "ok",
+  "238757": "ok",
+  "238753": "ok",
+  "238752": "ok",
+  "238758": "ok",
+  "238759": "ok",
+  "238760": "ok",
+  "238762": "ok",
+  "238761": "ok",
+  "238763": "ok",
+  "238764": "ok",
+  "238766": "ok",
+  "238767": "ok",
+  "238765": "ok",
+  "238769": "ok",
+  "238768": "ok",
+  "238770": "ok",
+  "238772": "ok",
+  "238771": "ok",
+  "238773": "ok",
+  "238778": "ok",
+  "238779": "ok",
+  "238775": "ok",
+  "238776": "ok",
+  "238774": "ok",
+  "238777": "ok",
+  "238780": "ok",
+  "238781": "ok",
+  "238782": "ok",
+  "238783": "ok",
+  "238784": "ok",
+  "238785": "ok",
+  "238792": "ok",
+  "238786": "ok",
+  "238793": "ok",
+  "238787": "ok",
+  "238788": "ok",
+  "238794": "ok",
+  "238789": "ok",
+  "238791": "ok",
+  "238790": "ok",
+  "238795": "ok",
+  "238798": "ok",
+  "238797": "ok",
+  "238796": "ok",
+  "238799": "ok",
+  "238802": "ok",
+  "238801": "ok",
+  "238803": "ok",
+  "238804": "ok",
+  "238805": "ok",
+  "238806": "ok",
+  "238810": "ok",
+  "238800": "ok",
+  "238807": "ok",
+  "238811": "ok",
+  "238808": "ok",
+  "238809": "ok",
+  "238812": "ok",
+  "238818": "ok",
+  "238820": "ok",
+  "238819": "ok",
+  "238821": "ok",
+  "238813": "ok",
+  "238814": "ok",
+  "238815": "ok",
+  "238816": "ok",
+  "238825": "ok",
+  "238817": "ok",
+  "238822": "ok",
+  "238826": "ok",
+  "238828": "ok",
+  "238827": "ok",
+  "238823": "ok",
+  "238824": "ok",
+  "238830": "ok",
+  "238839": "ok",
+  "238829": "ok",
+  "238833": "ok",
+  "238831": "ok",
+  "238832": "ok",
+  "238834": "ok",
+  "238837": "ok",
+  "238840": "ok",
+  "238835": "ok",
+  "238836": "ok",
+  "238841": "ok",
+  "238838": "ok",
+  "238842": "ok",
+  "238843": "ok",
+  "238844": "ok",
+  "238845": "ok",
+  "238847": "ok",
+  "238846": "ok",
+  "238853": "ok",
+  "238849": "ok",
+  "238848": "ok",
+  "238850": "ok",
+  "238851": "ok",
+  "238854": "ok",
+  "238855": "ok",
+  "238852": "ok",
+  "238856": "ok",
+  "238857": "ok",
+  "238858": "ok",
+  "238859": "ok",
+  "238860": "ok",
+  "238867": "ok",
+  "238861": "ok",
+  "238866": "ok",
+  "238865": "ok",
+  "238862": "ok",
+  "238868": "ok",
+  "238863": "ok",
+  "238870": "ok",
+  "238869": "ok",
+  "238864": "ok",
+  "238871": "ok",
+  "238873": "ok",
+  "238872": "ok",
+  "238874": "ok",
+  "238875": "ok",
+  "238877": "ok",
+  "238876": "ok",
+  "238881": "ok",
+  "238882": "ok",
+  "238878": "ok",
+  "238879": "ok",
+  "238883": "ok",
+  "238880": "ok",
+  "238885": "ok",
+  "238884": "ok",
+  "238886": "ok",
+  "238888": "ok",
+  "238887": "ok",
+  "238889": "ok",
+  "238890": "ok",
+  "238891": "ok",
+  "238892": "ok",
+  "238898": "ok",
+  "238894": "ok",
+  "238893": "ok",
+  "238895": "ok",
+  "238896": "ok",
+  "238899": "ok",
+  "238897": "ok",
+  "238900": "ok",
+  "238901": "ok",
+  "238902": "ok",
+  "238904": "ok",
+  "238903": "ok",
+  "238905": "ok",
+  "238906": "ok",
+  "238908": "ok",
+  "238909": "ok",
+  "238912": "ok",
+  "238911": "ok",
+  "238910": "ok",
+  "238913": "ok",
+  "238907": "ok",
+  "238914": "ok",
+  "238915": "ok",
+  "238916": "ok",
+  "238921": "ok",
+  "238917": "ok",
+  "238922": "ok",
+  "238918": "ok",
+  "238920": "ok",
+  "238919": "ok",
+  "238926": "ok",
+  "238928": "ok",
+  "238931": "ok",
+  "238930": "ok",
+  "238925": "ok",
+  "238927": "ok",
+  "238923": "ok",
+  "238929": "ok",
+  "238924": "ok",
+  "238933": "ok",
+  "238934": "ok",
+  "238935": "ok",
+  "238932": "ok",
+  "238936": "ok",
+  "238937": "ok",
+  "238938": "ok",
+  "238943": "ok",
+  "238942": "ok",
+  "238944": "ok",
+  "238947": "ok",
+  "238946": "ok",
+  "238945": "ok",
+  "238939": "ok",
+  "238941": "ok",
+  "238940": "ok",
+  "238950": "ok",
+  "238957": "ok",
+  "238948": "ok",
+  "238949": "ok",
+  "238952": "ok",
+  "238955": "ok",
+  "238956": "ok",
+  "238951": "ok",
+  "238953": "ok",
+  "238954": "ok",
+  "238959": "ok",
+  "238958": "ok",
+  "238960": "ok",
+  "238961": "ok",
+  "238962": "ok",
+  "238963": "ok",
+  "238964": "ok",
+  "238965": "ok",
+  "238966": "ok",
+  "238967": "ok",
+  "238968": "ok",
+  "238969": "ok",
+  "238971": "ok",
+  "238970": "ok",
+  "238972": "ok",
+  "238974": "ok",
+  "238973": "ok",
+  "238975": "ok",
+  "238977": "ok",
+  "238976": "ok",
+  "238978": "ok",
+  "238979": "ok",
+  "238985": "ok",
+  "238987": "ok",
+  "238986": "ok",
+  "238982": "ok",
+  "238989": "ok",
+  "238980": "ok",
+  "238981": "ok",
+  "238983": "ok",
+  "238990": "ok",
+  "238988": "ok",
+  "238984": "ok",
+  "238991": "ok",
+  "238992": "ok",
+  "238993": "ok",
+  "239000": "ok",
+  "238994": "ok",
+  "238999": "ok",
+  "239001": "ok",
+  "238995": "ok",
+  "238996": "ok",
+  "238997": "ok",
+  "239005": "ok",
+  "238998": "ok",
+  "239006": "ok",
+  "239007": "ok",
+  "239002": "ok",
+  "239003": "ok",
+  "239004": "ok",
+  "239010": "ok",
+  "239012": "ok",
+  "239011": "ok",
+  "239008": "ok",
+  "239009": "ok",
+  "239015": "ok",
+  "239013": "ok",
+  "239014": "ok",
+  "239016": "ok",
+  "239017": "ok",
+  "239019": "ok",
+  "239018": "ok",
+  "239020": "ok",
+  "239021": "ok",
+  "239022": "ok",
+  "239023": "ok",
+  "239024": "ok",
+  "239025": "ok",
+  "239026": "ok",
+  "239027": "ok",
+  "239028": "ok",
+  "239029": "ok",
+  "239030": "ok",
+  "239031": "ok",
+  "239032": "ok",
+  "239033": "ok",
+  "239034": "ok",
+  "239036": "ok",
+  "239035": "ok",
+  "239041": "ok",
+  "239038": "ok",
+  "239042": "ok",
+  "239037": "ok",
+  "239039": "ok",
+  "239043": "ok",
+  "239040": "ok",
+  "239046": "ok",
+  "239047": "ok",
+  "239044": "ok",
+  "239045": "ok",
+  "239048": "ok",
+  "239051": "ok",
+  "239049": "ok",
+  "239050": "ok",
+  "239059": "ok",
+  "239056": "ok",
+  "239052": "ok",
+  "239053": "ok",
+  "239054": "ok",
+  "239055": "ok",
+  "239058": "ok",
+  "239057": "ok",
+  "239060": "ok",
+  "239061": "ok",
+  "239062": "ok",
+  "239064": "ok",
+  "239063": "ok",
+  "239074": "ok",
+  "239072": "ok",
+  "239073": "ok",
+  "239065": "ok",
+  "239066": "ok",
+  "239071": "ok",
+  "239067": "ok",
+  "239069": "ok",
+  "239068": "ok",
+  "239070": "ok",
+  "239075": "ok",
+  "239076": "ok",
+  "239077": "ok",
+  "239083": "ok",
+  "239084": "ok",
+  "239078": "ok",
+  "239080": "ok",
+  "239082": "ok",
+  "239079": "ok",
+  "239081": "ok",
+  "239087": "ok",
+  "239086": "ok",
+  "239085": "ok",
+  "239088": "ok",
+  "239089": "ok",
+  "239090": "ok",
+  "239091": "ok",
+  "239093": "ok",
+  "239092": "ok"
+ }
+}

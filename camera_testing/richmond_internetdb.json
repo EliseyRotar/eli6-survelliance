@@ -1,0 +1,388 @@
+{
+ "199.175.128.5": {
+  "ports": [
+   80,
+   161,
+   443
+  ],
+  "hostnames": [
+   "consultantvpn.richmond.ca",
+   "richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/o:paloaltonetworks:pan-os:-"
+  ],
+  "vulns": [
+   "CVE-2013-5663",
+   "CVE-2019-1565",
+   "CVE-2012-6592",
+   "CVE-2026-0258",
+   "CVE-2020-2035",
+   "CVE-2018-18065",
+   "CVE-2017-7409",
+   "CVE-2014-3764",
+   "CVE-2024-2433",
+   "CVE-2017-7945",
+   "CVE-2017-5583",
+   "CVE-2012-6605",
+   "CVE-2026-0261",
+   "CVE-2017-16878",
+   "CVE-2016-8610",
+   "CVE-2020-1979",
+   "CVE-2012-6604",
+   "CVE-2026-0262",
+   "CVE-2012-6601",
+   "CVE-2026-0256",
+   "CVE-2017-15943",
+   "CVE-2017-15944",
+   "CVE-2019-1580",
+   "CVE-2012-6597",
+   "CVE-2017-15940",
+   "CVE-2017-8390",
+   "CVE-2018-10139",
+   "CVE-2017-7216",
+   "CVE-2017-7217",
+   "CVE-2012-6594",
+   "CVE-2017-7644",
+   "CVE-2017-9458",
+   "CVE-2017-7218",
+   "CVE-2024-8687",
+   "CVE-2019-1579",
+   "CVE-2019-1581",
+   "CVE-2017-9467",
+   "CVE-2019-1575",
+   "CVE-2026-0257",
+   "CVE-2015-4162",
+   "CVE-2012-6602",
+   "CVE-2018-10141",
+   "CVE-2017-15942",
+   "CVE-2012-6603",
+   "CVE-2017-9459",
+   "CVE-2026-0259",
+   "CVE-2017-12416",
+   "CVE-2017-15941",
+   "CVE-2012-6593",
+   "CVE-2015-6531",
+   "CVE-2026-0264",
+   "CVE-2012-6591",
+   "CVE-2026-0265"
+  ]
+ },
+ "199.175.129.105": {
+  "ports": [
+   443
+  ],
+  "hostnames": [
+   "awuagfe.richmond.ca"
+  ],
+  "cpes": [],
+  "vulns": []
+ },
+ "199.175.129.118": {
+  "ports": [
+   80,
+   443,
+   8443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "eplansdev.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:f5:big-ip"
+  ],
+  "vulns": []
+ },
+ "199.175.129.142": {
+  "ports": [
+   443
+  ],
+  "hostnames": [
+   "corcsa2.richmond.ca",
+   "corcsa.richmond.ca"
+  ],
+  "cpes": [],
+  "vulns": []
+ },
+ "199.175.129.171": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "firerescue1tst.richmond.ca",
+   "mpaa1tst.richmond.ca",
+   "stafflogin7tst.richmond.ca",
+   "richmond.ca",
+   "staffiam7tst.richmond.ca",
+   "staffsso7tst.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:f5:big-ip_local_traffic_manager"
+  ],
+  "vulns": []
+ },
+ "199.175.129.174": {
+  "ports": [
+   443
+  ],
+  "hostnames": [
+   "employee.richmond.ca",
+   "sso.richmond.ca",
+   "luluislandenergy.ca",
+   "mpaa.richmond.ca",
+   "richmond.ca",
+   "stafflogin.richmond.ca",
+   "www.chooserichmond.ca",
+   "staffsso.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:f5:big-ip_local_traffic_manager"
+  ],
+  "vulns": []
+ },
+ "199.175.129.179": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "cms.richmond.ca",
+   "richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:microsoft:internet_information_services:10.0",
+   "cpe:/o:microsoft:windows",
+   "cpe:/a:f5:big-ip_local_traffic_manager",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:microsoft:internet_information_services"
+  ],
+  "vulns": []
+ },
+ "199.175.129.18": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "csgeotst.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:f5:big-ip_local_traffic_manager",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:jquery:jquery",
+   "cpe:/a:apache:http_server",
+   "cpe:/a:getbootstrap:bootstrap"
+  ],
+  "vulns": []
+ },
+ "199.175.129.186": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "eoctest.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/o:microsoft:windows",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:microsoft:internet_information_services",
+   "cpe:/a:microsoft:asp.net",
+   "cpe:/a:microsoft:internet_information_services:10.0"
+  ],
+  "vulns": []
+ },
+ "199.175.129.52": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "apimpaa1tst.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:f5:big-ip"
+  ],
+  "vulns": []
+ },
+ "199.175.129.66": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "www.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:microsoft:internet_information_services:10.0",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:microsoft:internet_information_services",
+   "cpe:/o:microsoft:windows"
+  ],
+  "vulns": []
+ },
+ "199.175.130.134": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "corportal1.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/o:microsoft:windows",
+   "cpe:/a:microsoft:asp.net:4.0.30319",
+   "cpe:/a:microsoft:internet_information_services",
+   "cpe:/a:microsoft:asp.net",
+   "cpe:/a:microsoft:internet_information_services:10.0"
+  ],
+  "vulns": []
+ },
+ "199.175.130.166": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "archives.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:microsoft:internet_information_services:10.0",
+   "cpe:/o:microsoft:windows",
+   "cpe:/a:f5:big-ip_local_traffic_manager",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:microsoft:internet_information_services"
+  ],
+  "vulns": []
+ },
+ "199.175.130.167": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "richmond.ca",
+   "citycouncil.richmond.ca"
+  ],
+  "cpes": [
+   "cpe:/a:microsoft:internet_information_services:10.0",
+   "cpe:/o:microsoft:windows",
+   "cpe:/a:f5:big-ip_local_traffic_manager",
+   "cpe:/a:f5:big-ip",
+   "cpe:/a:microsoft:internet_information_services"
+  ],
+  "vulns": []
+ },
+ "199.175.130.194": {
+  "ports": [
+   8443
+  ],
+  "hostnames": [
+   "gatewaytheatre.com",
+   "yourlibrary.ca",
+   "cexwe01.richmond.ca",
+   "xprsswy.richmond.ca",
+   "richmondoval.ca",
+   "richmond.ca",
+   "city.richmond.bc.ca",
+   "cexwe02.richmond.ca"
+  ],
+  "cpes": [],
+  "vulns": []
+ },
+ "199.175.130.195": {
+  "ports": [
+   8443
+  ],
+  "hostnames": [
+   "yourlibrary.ca",
+   "cexwe02.richmond.ca",
+   "gatewaytheatre.com",
+   "city.richmond.bc.ca",
+   "richmondoval.ca",
+   "xprsswy.richmond.ca",
+   "richmond.ca",
+   "cexwe01.richmond.ca"
+  ],
+  "cpes": [],
+  "vulns": []
+ },
+ "20.48.202.163": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "waws-prod-yt1-045.sip-v4andv6.azurewebsites.windows.net"
+  ],
+  "cpes": [],
+  "vulns": []
+ },
+ "3.99.97.213": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "smapply-ca-prod-705aa62f40cd8737.elb.ca-central-1.amazonaws.com",
+   "smapply.io",
+   "ec2-3-99-97-213.ca-central-1.compute.amazonaws.com"
+  ],
+  "cpes": [
+   "cpe:/a:f5:nginx"
+  ],
+  "vulns": []
+ },
+ "35.182.20.127": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "ec2-35-182-20-127.ca-central-1.compute.amazonaws.com",
+   "smapply.io",
+   "smapply-ca-prod-705aa62f40cd8737.elb.ca-central-1.amazonaws.com"
+  ],
+  "cpes": [
+   "cpe:/a:f5:nginx"
+  ],
+  "vulns": []
+ },
+ "72.2.50.59": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "5072.sydneyplus.com"
+  ],
+  "cpes": [
+   "cpe:/a:microsoft:internet_information_services:10.0",
+   "cpe:/a:microsoft:asp.net",
+   "cpe:/a:microsoft:internet_information_services",
+   "cpe:/o:microsoft:windows"
+  ],
+  "vulns": []
+ },
+ "99.79.153.200": {
+  "ports": [
+   80,
+   443
+  ],
+  "hostnames": [
+   "smapply.io",
+   "ec2-99-79-153-200.ca-central-1.compute.amazonaws.com"
+  ],
+  "cpes": [
+   "cpe:/a:f5:nginx"
+  ],
+  "vulns": []
+ }
+}

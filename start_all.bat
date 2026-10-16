@@ -3,6 +3,12 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 44 update (2026-10-16) - RICHMOND BC INGEST:
+REM   - 597 cameras enumerated (161 intersections, exact lat/lon)
+REM   - 445 new rows ric_238649..ric_239093 (155 already existed as tv_*)
+REM   - No internet-exposed live video: TICS is internal; JPGs refresh ~2min
+REM   - CSV 230,549 rows: public 230,408 / private 136 / unknown 5
+REM
 REM Session 43 update (2026-10-16) - PSB.LI INGEST:
 REM   - All 14 psb.li broadcasts ingested (psb_238635..psb_238648)
 REM   - csv_id_prefix 'psb' added to PUBLIC_CSV_PREFIXES

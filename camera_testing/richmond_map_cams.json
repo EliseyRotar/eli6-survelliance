@@ -1,0 +1,1290 @@
+{
+ "2753": {
+  "id": "2753",
+  "lat": 49.162741,
+  "lon": -123.145126,
+  "alt": "7100 block at granville avenue",
+  "icon": "VideoIcon",
+  "name": "7100 block at Granville Avenue"
+ },
+ "3402": {
+  "id": "3402",
+  "lat": 49.18469968,
+  "lon": -123.1344496,
+  "alt": "8100 block at cambie road",
+  "icon": "VideoIcon",
+  "name": "8100 block at Cambie Road"
+ },
+ "3283": {
+  "id": "3283",
+  "lat": 49.16651892,
+  "lon": -123.13521834,
+  "alt": "8100 block at cook road",
+  "icon": "VideoIcon",
+  "name": "8100 block at Cook Road"
+ },
+ "2833": {
+  "id": "2833",
+  "lat": 49.173862,
+  "lon": -123.144142,
+  "alt": "alderbridge way at lansdowne road",
+  "icon": "VideoIcon",
+  "name": "Alderbridge Way at Lansdowne Road"
+ },
+ "2803": {
+  "id": "2803",
+  "lat": 49.17020448,
+  "lon": -123.1446088,
+  "alt": "alderbridge way at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Alderbridge Way at Westminster Highway"
+ },
+ "2453": {
+  "id": "2453",
+  "lat": 49.19276,
+  "lon": -123.15702,
+  "alt": "aurora connector at grant mcconachie way",
+  "icon": "StaticCameraIcon",
+  "name": "Aurora Connector at Grant McConachie Way"
+ },
+ "2452": {
+  "id": "2452",
+  "lat": 49.192123,
+  "lon": -123.156998,
+  "alt": "aurora connector at miller road",
+  "icon": "StaticCameraIcon",
+  "name": "Aurora Connector at Miller Road"
+ },
+ "1905": {
+  "id": "1905",
+  "lat": 49.19283,
+  "lon": -123.166866,
+  "alt": "aviation avenue at grant mcconachie way",
+  "icon": "StaticCameraIcon",
+  "name": "Aviation Avenue at Grant McConachie Way"
+ },
+ "1904": {
+  "id": "1904",
+  "lat": 49.192207,
+  "lon": -123.16713,
+  "alt": "aviation avenue at miller road",
+  "icon": "StaticCameraIcon",
+  "name": "Aviation Avenue at Miller Road"
+ },
+ "2448": {
+  "id": "2448",
+  "lat": 49.192112,
+  "lon": -123.154088,
+  "alt": "aylmer road at miller road",
+  "icon": "StaticCameraIcon",
+  "name": "Aylmer Road at Miller Road"
+ },
+ "3293": {
+  "id": "3293",
+  "lat": 49.16885074,
+  "lon": -123.1336858,
+  "alt": "buswell road at saba road",
+  "icon": "VideoIcon",
+  "name": "Buswell Road at Saba Road"
+ },
+ "3281": {
+  "id": "3281",
+  "lat": 49.16654527,
+  "lon": -123.13368791,
+  "alt": "buswell street at cook road",
+  "icon": "VideoIcon",
+  "name": "Buswell Street at Cook Road"
+ },
+ "3253": {
+  "id": "3253",
+  "lat": 49.16272202,
+  "lon": -123.1337397,
+  "alt": "buswell street at granville avenue",
+  "icon": "VideoIcon",
+  "name": "Buswell Street at Granville Avenue"
+ },
+ "3273": {
+  "id": "3273",
+  "lat": 49.164693,
+  "lon": -123.133721,
+  "alt": "buswell street at park road",
+  "icon": "VideoIcon",
+  "name": "Buswell Street at Park Road"
+ },
+ "2844": {
+  "id": "2844",
+  "lat": 49.175243,
+  "lon": -123.142761,
+  "alt": "cedarbridge way at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "Cedarbridge Way at Alderbridge Way"
+ },
+ "2835": {
+  "id": "2835",
+  "lat": 49.173904,
+  "lon": -123.14225,
+  "alt": "cedarbridge way at lansdowne road",
+  "icon": "VideoIcon",
+  "name": "Cedarbridge Way at Lansdowne Road"
+ },
+ "3275": {
+  "id": "3275",
+  "lat": 49.164684,
+  "lon": -123.131566,
+  "alt": "cooney road at park road",
+  "icon": "VideoIcon",
+  "name": "Cooney Road at Park Road"
+ },
+ "4556": {
+  "id": "4556",
+  "lat": 49.133366,
+  "lon": -123.096886,
+  "alt": "coppersmith place at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Coppersmith Place at Steveston Highway"
+ },
+ "2305": {
+  "id": "2305",
+  "lat": 49.17016406,
+  "lon": -123.1525298,
+  "alt": "elmbridge way at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Elmbridge Way at Westminster Highway"
+ },
+ "9805": {
+  "id": "9805",
+  "lat": 49.16928,
+  "lon": -122.9837232,
+  "alt": "fraserwood place at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Fraserwood Place at Westminster Highway"
+ },
+ "3850": {
+  "id": "3850",
+  "lat": 49.17728,
+  "lon": -123.124565,
+  "alt": "garden city road at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "Garden City Road at Alderbridge Way"
+ },
+ "3900": {
+  "id": "3900",
+  "lat": 49.184666,
+  "lon": -123.124542,
+  "alt": "garden city road at cambie road",
+  "icon": "VideoIcon",
+  "name": "Garden City Road at Cambie Road"
+ },
+ "3920": {
+  "id": "3920",
+  "lat": 49.18779514,
+  "lon": -123.12476497,
+  "alt": "garden city road at capstan way",
+  "icon": "VideoIcon",
+  "name": "Garden City Road at Capstan Way"
+ },
+ "3750": {
+  "id": "3750",
+  "lat": 49.162914,
+  "lon": -123.125626,
+  "alt": "garden city road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "Garden City Road at Granville Avenue"
+ },
+ "3600": {
+  "id": "3600",
+  "lat": 49.14086573,
+  "lon": -123.12527,
+  "alt": "garden city road at williams road",
+  "icon": "VideoIcon",
+  "name": "Garden City Road at Williams Road"
+ },
+ "2821": {
+  "id": "2821",
+  "lat": 49.172556,
+  "lon": -123.146664,
+  "alt": "gilbert road at elmbridge way",
+  "icon": "VideoIcon",
+  "name": "Gilbert Road at Elmbridge Way"
+ },
+ "2831": {
+  "id": "2831",
+  "lat": 49.17385607,
+  "lon": -123.1455452,
+  "alt": "gilbert road at lansdowne road",
+  "icon": "VideoIcon",
+  "name": "Gilbert Road at Lansdowne Road"
+ },
+ "2337": {
+  "id": "2337",
+  "lat": 49.176087,
+  "lon": -123.14579,
+  "alt": "gilbert road at river road",
+  "icon": "VideoIcon",
+  "name": "Gilbert Road at River Road"
+ },
+ "2550": {
+  "id": "2550",
+  "lat": 49.133495,
+  "lon": -123.147804,
+  "alt": "gilbert road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Gilbert Road at Steveston Highway"
+ },
+ "2800": {
+  "id": "2800",
+  "lat": 49.170184,
+  "lon": -123.147701,
+  "alt": "gilbert road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Gilbert Road at Westminster Highway"
+ },
+ "9800": {
+  "id": "9800",
+  "lat": 49.16943976,
+  "lon": -122.98978141,
+  "alt": "graybar road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Graybar Road at Westminster Highway"
+ },
+ "3940": {
+  "id": "3940",
+  "lat": 49.19105631,
+  "lon": -123.1244877,
+  "alt": "great canadian way / garden city road at sea island way",
+  "icon": "VideoIcon",
+  "name": "Great Canadian Way / Garden City Road at Sea Island Way"
+ },
+ "3980": {
+  "id": "3980",
+  "lat": 49.19572308,
+  "lon": -123.12533275,
+  "alt": "great canadian way at bridgeport bus mall",
+  "icon": "VideoIcon",
+  "name": "Great Canadian Way at Bridgeport Bus Mall"
+ },
+ "3950": {
+  "id": "3950",
+  "lat": 49.192055,
+  "lon": -123.1244025,
+  "alt": "great canadian way at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "Great Canadian Way at Bridgeport Road"
+ },
+ "3990": {
+  "id": "3990",
+  "lat": 49.19663982,
+  "lon": -123.1261491,
+  "alt": "great canadian way at river road",
+  "icon": "VideoIcon",
+  "name": "Great Canadian Way at River Road"
+ },
+ "3960": {
+  "id": "3960",
+  "lat": 49.19481803,
+  "lon": -123.12487585,
+  "alt": "great canadian way at van horne way",
+  "icon": "VideoIcon",
+  "name": "Great Canadian Way at Van Horne Way"
+ },
+ "3403": {
+  "id": "3403",
+  "lat": 49.18470601,
+  "lon": -123.1324426,
+  "alt": "hazelbridge way at cambie road",
+  "icon": "VideoIcon",
+  "name": "Hazelbridge Way at Cambie Road"
+ },
+ "3425": {
+  "id": "3425",
+  "lat": 49.188291,
+  "lon": -123.131163,
+  "alt": "hazelbridge way at capstan way",
+  "icon": "VideoIcon",
+  "name": "Hazelbridge Way at Capstan Way"
+ },
+ "2326": {
+  "id": "2326",
+  "lat": 49.173921,
+  "lon": -123.147581,
+  "alt": "hollybridge way / lansdowne road at pearson way",
+  "icon": "VideoIcon",
+  "name": "Hollybridge Way / Lansdowne Road at Pearson Way"
+ },
+ "2325": {
+  "id": "2325",
+  "lat": 49.17297683,
+  "lon": -123.147857,
+  "alt": "hollybridge way at elmbridge way",
+  "icon": "VideoIcon",
+  "name": "Hollybridge Way at Elmbridge Way"
+ },
+ "2335": {
+  "id": "2335",
+  "lat": 49.174666,
+  "lon": -123.148736,
+  "alt": "hollybridge way at river road",
+  "icon": "VideoIcon",
+  "name": "Hollybridge Way at River Road"
+ },
+ "5800": {
+  "id": "5800",
+  "lat": 49.170273,
+  "lon": -123.080391,
+  "alt": "jacombs road / sidaway road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Jacombs Road / Sidaway Road at Westminster Highway"
+ },
+ "5900": {
+  "id": "5900",
+  "lat": 49.18455139,
+  "lon": -123.0803182,
+  "alt": "jacombs road at cambie road",
+  "icon": "VideoIcon",
+  "name": "Jacombs Road at Cambie Road"
+ },
+ "5810": {
+  "id": "5810",
+  "lat": 49.171902,
+  "lon": -123.080276,
+  "alt": "jacombs road at smallwood place",
+  "icon": "VideoIcon",
+  "name": "Jacombs Road at Smallwood Place"
+ },
+ "5805": {
+  "id": "5805",
+  "lat": 49.170273,
+  "lon": -123.074425,
+  "alt": "knight street at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Knight Street at Westminster Highway"
+ },
+ "1755": {
+  "id": "1755",
+  "lat": 49.16273336,
+  "lon": -123.1645912,
+  "alt": "lynas lane at granville avenue",
+  "icon": "VideoIcon",
+  "name": "Lynas Lane at Granville Avenue"
+ },
+ "1805": {
+  "id": "1805",
+  "lat": 49.17010964,
+  "lon": -123.1645239,
+  "alt": "lynas lane at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Lynas Lane at Westminster Highway"
+ },
+ "3856": {
+  "id": "3856",
+  "lat": 49.17728,
+  "lon": -123.118393,
+  "alt": "may drive at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "May Drive at Alderbridge Way"
+ },
+ "3854": {
+  "id": "3854",
+  "lat": 49.17728,
+  "lon": -123.121361,
+  "alt": "mcclelland road at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "McClelland Road at Alderbridge Way"
+ },
+ "4456": {
+  "id": "4456",
+  "lat": 49.192021,
+  "lon": -123.107826,
+  "alt": "mclennan avenue at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "McLennan Avenue at Bridgeport Road"
+ },
+ "9306": {
+  "id": "9306",
+  "lat": 49.169235,
+  "lon": -122.993973,
+  "alt": "mcmillan way at westminster highway",
+  "icon": "VideoIcon",
+  "name": "McMillan Way at Westminster Highway"
+ },
+ "2896": {
+  "id": "2896",
+  "lat": 49.17626655,
+  "lon": -123.1405097,
+  "alt": "minoru boulevard at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Alderbridge Way"
+ },
+ "2826": {
+  "id": "2826",
+  "lat": 49.17202092,
+  "lon": -123.1402096,
+  "alt": "minoru boulevard at elmbridge way / ackroyd road",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Elmbridge Way / Ackroyd Road"
+ },
+ "2796": {
+  "id": "2796",
+  "lat": 49.168716,
+  "lon": -123.140244,
+  "alt": "minoru boulevard at gollner avenue",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Gollner Avenue"
+ },
+ "2756": {
+  "id": "2756",
+  "lat": 49.162743,
+  "lon": -123.140251,
+  "alt": "minoru boulevard at granville avenue",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Granville Avenue"
+ },
+ "2836": {
+  "id": "2836",
+  "lat": 49.17386148,
+  "lon": -123.1401825,
+  "alt": "minoru boulevard at lansdowne road",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Lansdowne Road"
+ },
+ "2775": {
+  "id": "2775",
+  "lat": 49.165879,
+  "lon": -123.141169,
+  "alt": "minoru boulevard at mah bing street",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Mah Bing Street"
+ },
+ "2766": {
+  "id": "2766",
+  "lat": 49.16378788,
+  "lon": -123.1402368,
+  "alt": "minoru boulevard at minoru gate",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Minoru Gate"
+ },
+ "2776": {
+  "id": "2776",
+  "lat": 49.167091,
+  "lon": -123.140472,
+  "alt": "minoru boulevard at murdoch avenue",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Murdoch Avenue"
+ },
+ "2806": {
+  "id": "2806",
+  "lat": 49.170205,
+  "lon": -123.140219,
+  "alt": "minoru boulevard at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Minoru Boulevard at Westminster Highway"
+ },
+ "2754": {
+  "id": "2754",
+  "lat": 49.162799,
+  "lon": -123.143046,
+  "alt": "minoru gate at granville avenue",
+  "icon": "VideoIcon",
+  "name": "Minoru Gate at Granville Avenue"
+ },
+ "3553": {
+  "id": "3553",
+  "lat": 49.1334961,
+  "lon": -123.121871,
+  "alt": "mortfield gate at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Mortfield Gate at Steveston Highway"
+ },
+ "8700": {
+  "id": "8700",
+  "lat": 49.159476,
+  "lon": -123.012889,
+  "alt": "nelson road at blundell road",
+  "icon": "VideoIcon",
+  "name": "Nelson Road at Blundell Road"
+ },
+ "1010": {
+  "id": "1010",
+  "lat": 49.12645514,
+  "lon": -123.1812098,
+  "alt": "no. 1 road at chatham street",
+  "icon": "VideoIcon",
+  "name": "No. 1 Road at Chatham Street"
+ },
+ "1150": {
+  "id": "1150",
+  "lat": 49.14833,
+  "lon": -123.18136,
+  "alt": "no. 1 road at francis road",
+  "icon": "VideoIcon",
+  "name": "No. 1 Road at Francis Road"
+ },
+ "1020": {
+  "id": "1020",
+  "lat": 49.12929,
+  "lon": -123.18125,
+  "alt": "no. 1 road at garry street",
+  "icon": "VideoIcon",
+  "name": "No. 1 Road at Garry Street"
+ },
+ "1000": {
+  "id": "1000",
+  "lat": 49.125199,
+  "lon": -123.181187,
+  "alt": "no. 1 road at moncton street",
+  "icon": "VideoIcon",
+  "name": "No. 1 Road at Moncton Street"
+ },
+ "1130": {
+  "id": "1130",
+  "lat": 49.145908,
+  "lon": -123.181328,
+  "alt": "no. 1 road at osmond avenue",
+  "icon": "VideoIcon",
+  "name": "No. 1 Road at Osmond Avenue"
+ },
+ "2190": {
+  "id": "2190",
+  "lat": 49.154188,
+  "lon": -123.158939,
+  "alt": "no. 2 road at 8100 block",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at 8100 block"
+ },
+ "2200": {
+  "id": "2200",
+  "lat": 49.155586,
+  "lon": -123.15894,
+  "alt": "no. 2 road at blundell road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Blundell Road"
+ },
+ "2150": {
+  "id": "2150",
+  "lat": 49.148357,
+  "lon": -123.158968,
+  "alt": "no. 2 road at francis road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Francis Road"
+ },
+ "2250": {
+  "id": "2250",
+  "lat": 49.162754,
+  "lon": -123.158836,
+  "alt": "no. 2 road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Granville Avenue"
+ },
+ "2140": {
+  "id": "2140",
+  "lat": 49.146809,
+  "lon": -123.158974,
+  "alt": "no. 2 road at maple road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Maple Road"
+ },
+ "2000": {
+  "id": "2000",
+  "lat": 49.12497872,
+  "lon": -123.1588661,
+  "alt": "no. 2 road at moncton street",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Moncton Street"
+ },
+ "2050": {
+  "id": "2050",
+  "lat": 49.133515,
+  "lon": -123.158869,
+  "alt": "no. 2 road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Steveston Highway"
+ },
+ "2070": {
+  "id": "2070",
+  "lat": 49.137474,
+  "lon": -123.15892,
+  "alt": "no. 2 road at wallace road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Wallace Road"
+ },
+ "2300": {
+  "id": "2300",
+  "lat": 49.17018,
+  "lon": -123.158801,
+  "alt": "no. 2 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Westminster Highway"
+ },
+ "2100": {
+  "id": "2100",
+  "lat": 49.141024,
+  "lon": -123.158977,
+  "alt": "no. 2 road at williams road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Williams Road"
+ },
+ "2120": {
+  "id": "2120",
+  "lat": 49.143911,
+  "lon": -123.158974,
+  "alt": "no. 2 road at woodwards road",
+  "icon": "VideoIcon",
+  "name": "No. 2 Road at Woodwards Road"
+ },
+ "3420": {
+  "id": "3420",
+  "lat": 49.18742681,
+  "lon": -123.1339072,
+  "alt": "no. 3 road at 3600 block",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at 3600 block"
+ },
+ "3410": {
+  "id": "3410",
+  "lat": 49.18650276,
+  "lon": -123.1347987,
+  "alt": "no. 3 road at 3700 block",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at 3700 block"
+ },
+ "3340": {
+  "id": "3340",
+  "lat": 49.17541941,
+  "lon": -123.1367588,
+  "alt": "no. 3 road at 5300 block",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at 5300 block"
+ },
+ "3320": {
+  "id": "3320",
+  "lat": 49.17201301,
+  "lon": -123.1366282,
+  "alt": "no. 3 road at ackroyd road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Ackroyd Road"
+ },
+ "3350": {
+  "id": "3350",
+  "lat": 49.17735216,
+  "lon": -123.1366372,
+  "alt": "no. 3 road at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Alderbridge Way"
+ },
+ "3390": {
+  "id": "3390",
+  "lat": 49.1828708,
+  "lon": -123.1366669,
+  "alt": "no. 3 road at browngate road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Browngate Road"
+ },
+ "3291": {
+  "id": "3291",
+  "lat": 49.1681381,
+  "lon": -123.1365442,
+  "alt": "no. 3 road at bus mall",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Bus Mall"
+ },
+ "3400": {
+  "id": "3400",
+  "lat": 49.18466541,
+  "lon": -123.1365017,
+  "alt": "no. 3 road at cambie road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Cambie Road"
+ },
+ "3423": {
+  "id": "3423",
+  "lat": 49.18887012,
+  "lon": -123.1324839,
+  "alt": "no. 3 road at capstan way",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Capstan Way"
+ },
+ "3280": {
+  "id": "3280",
+  "lat": 49.16652065,
+  "lon": -123.1365475,
+  "alt": "no. 3 road at cook road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Cook Road"
+ },
+ "3250": {
+  "id": "3250",
+  "lat": 49.16272603,
+  "lon": -123.1365735,
+  "alt": "no. 3 road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Granville Avenue"
+ },
+ "3330": {
+  "id": "3330",
+  "lat": 49.17385958,
+  "lon": -123.136739,
+  "alt": "no. 3 road at lansdowne road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Lansdowne Road"
+ },
+ "3370": {
+  "id": "3370",
+  "lat": 49.17974625,
+  "lon": -123.1366523,
+  "alt": "no. 3 road at leslie road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Leslie Road"
+ },
+ "3434": {
+  "id": "3434",
+  "lat": 49.189852,
+  "lon": -123.131667,
+  "alt": "no. 3 road at mcmyn way",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at McMyn Way"
+ },
+ "3270": {
+  "id": "3270",
+  "lat": 49.16471593,
+  "lon": -123.1365822,
+  "alt": "no. 3 road at park road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Park Road"
+ },
+ "3290": {
+  "id": "3290",
+  "lat": 49.16882179,
+  "lon": -123.1365395,
+  "alt": "no. 3 road at saba road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Saba Road"
+ },
+ "3050": {
+  "id": "3050",
+  "lat": 49.133514,
+  "lon": -123.136612,
+  "alt": "no. 3 road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Steveston Highway"
+ },
+ "3300": {
+  "id": "3300",
+  "lat": 49.170236,
+  "lon": -123.136521,
+  "alt": "no. 3 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Westminster Highway"
+ },
+ "3100": {
+  "id": "3100",
+  "lat": 49.14089147,
+  "lon": -123.1366964,
+  "alt": "no. 3 road at williams road",
+  "icon": "VideoIcon",
+  "name": "No. 3 Road at Williams Road"
+ },
+ "4200": {
+  "id": "4200",
+  "lat": 49.15549827,
+  "lon": -123.11409933,
+  "alt": "no. 4 road at blundell road",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Blundell Road"
+ },
+ "4400": {
+  "id": "4400",
+  "lat": 49.18464,
+  "lon": -123.113978,
+  "alt": "no. 4 road at cambie road",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Cambie Road"
+ },
+ "4230": {
+  "id": "4230",
+  "lat": 49.160924,
+  "lon": -123.114069,
+  "alt": "no. 4 road at edgington avenue",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Edgington Avenue"
+ },
+ "4150": {
+  "id": "4150",
+  "lat": 49.147998,
+  "lon": -123.114216,
+  "alt": "no. 4 road at francis road",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Francis Road"
+ },
+ "4250": {
+  "id": "4250",
+  "lat": 49.162822,
+  "lon": -123.114064,
+  "alt": "no. 4 road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Granville Avenue"
+ },
+ "4050": {
+  "id": "4050",
+  "lat": 49.133434,
+  "lon": -123.114281,
+  "alt": "no. 4 road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Steveston Highway"
+ },
+ "4300": {
+  "id": "4300",
+  "lat": 49.170155,
+  "lon": -123.113995,
+  "alt": "no. 4 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Westminster Highway"
+ },
+ "4100": {
+  "id": "4100",
+  "lat": 49.14074727,
+  "lon": -123.1141297,
+  "alt": "no. 4 road at williams road",
+  "icon": "VideoIcon",
+  "name": "No. 4 Road at Williams Road"
+ },
+ "5060": {
+  "id": "5060",
+  "lat": 49.134796,
+  "lon": -123.092036,
+  "alt": "no. 5 road at 10700 block",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at 10700 block"
+ },
+ "5200": {
+  "id": "5200",
+  "lat": 49.15543655,
+  "lon": -123.0917479,
+  "alt": "no. 5 road at blundell road",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Blundell Road"
+ },
+ "5450": {
+  "id": "5450",
+  "lat": 49.19193962,
+  "lon": -123.09150849,
+  "alt": "no. 5 road at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Bridgeport Road"
+ },
+ "5400": {
+  "id": "5400",
+  "lat": 49.18457273,
+  "lon": -123.09152846,
+  "alt": "no. 5 road at cambie road",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Cambie Road"
+ },
+ "5250": {
+  "id": "5250",
+  "lat": 49.162736,
+  "lon": -123.091678,
+  "alt": "no. 5 road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Granville Avenue"
+ },
+ "5020": {
+  "id": "5020",
+  "lat": 49.1310335,
+  "lon": -123.0921037,
+  "alt": "no. 5 road at horseshoe way",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Horseshoe Way"
+ },
+ "5130": {
+  "id": "5130",
+  "lat": 49.14430144,
+  "lon": -123.0918025,
+  "alt": "no. 5 road at king road",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at King Road"
+ },
+ "5050": {
+  "id": "5050",
+  "lat": 49.13338,
+  "lon": -123.092169,
+  "alt": "no. 5 road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Steveston Highway"
+ },
+ "5460": {
+  "id": "5460",
+  "lat": 49.19385336,
+  "lon": -123.09145663,
+  "alt": "no. 5 road at vulcan way",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Vulcan Way"
+ },
+ "5300": {
+  "id": "5300",
+  "lat": 49.1702861,
+  "lon": -123.09163137,
+  "alt": "no. 5 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Westminster Highway"
+ },
+ "5100": {
+  "id": "5100",
+  "lat": 49.1406944,
+  "lon": -123.0917229,
+  "alt": "no. 5 road at williams road",
+  "icon": "VideoIcon",
+  "name": "No. 5 Road at Williams Road"
+ },
+ "6450": {
+  "id": "6450",
+  "lat": 49.19197653,
+  "lon": -123.0692087,
+  "alt": "no. 6 road at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "No. 6 Road at Bridgeport Road"
+ },
+ "6400": {
+  "id": "6400",
+  "lat": 49.1847226,
+  "lon": -123.069128,
+  "alt": "no. 6 road at cambie road",
+  "icon": "VideoIcon",
+  "name": "No. 6 Road at Cambie Road"
+ },
+ "6340": {
+  "id": "6340",
+  "lat": 49.17635087,
+  "lon": -123.0692554,
+  "alt": "no. 6 road at commerce parkway",
+  "icon": "VideoIcon",
+  "name": "No. 6 Road at Commerce Parkway"
+ },
+ "6370": {
+  "id": "6370",
+  "lat": 49.1816546,
+  "lon": -123.0691436,
+  "alt": "no. 6 road at mayfield place",
+  "icon": "VideoIcon",
+  "name": "No. 6 Road at Mayfield Place"
+ },
+ "6300": {
+  "id": "6300",
+  "lat": 49.170193,
+  "lon": -123.069176,
+  "alt": "no. 6 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 6 Road at Westminster Highway"
+ },
+ "8200": {
+  "id": "8200",
+  "lat": 49.158192,
+  "lon": -123.024254,
+  "alt": "no. 8 road at blundell road",
+  "icon": "VideoIcon",
+  "name": "No. 8 Road at Blundell Road"
+ },
+ "8300": {
+  "id": "8300",
+  "lat": 49.16989421,
+  "lon": -123.0242497,
+  "alt": "no. 8 road at westminster highway",
+  "icon": "VideoIcon",
+  "name": "No. 8 Road at Westminster Highway"
+ },
+ "9302": {
+  "id": "9302",
+  "lat": 49.16917503,
+  "lon": -122.99873263,
+  "alt": "old westminster highway at westminster highway",
+  "icon": "VideoIcon",
+  "name": "Old Westminster Highway at Westminster Highway"
+ },
+ "2334": {
+  "id": "2334",
+  "lat": 49.1732869,
+  "lon": -123.1527994,
+  "alt": "oval way at river road",
+  "icon": "VideoIcon",
+  "name": "Oval Way at River Road"
+ },
+ "2336": {
+  "id": "2336",
+  "lat": 49.175499,
+  "lon": -123.147049,
+  "alt": "pearson way at river road",
+  "icon": "VideoIcon",
+  "name": "Pearson Way at River Road"
+ },
+ "1650": {
+  "id": "1650",
+  "lat": 49.14838,
+  "lon": -123.16984,
+  "alt": "railway avenue at francis road",
+  "icon": "VideoIcon",
+  "name": "Railway Avenue at Francis Road"
+ },
+ "1520": {
+  "id": "1520",
+  "lat": 49.12933,
+  "lon": -123.169835,
+  "alt": "railway avenue at garry street",
+  "icon": "VideoIcon",
+  "name": "Railway Avenue at Garry Street"
+ },
+ "1500": {
+  "id": "1500",
+  "lat": 49.12513378,
+  "lon": -123.1698422,
+  "alt": "railway avenue at moncton street",
+  "icon": "VideoIcon",
+  "name": "Railway Avenue at Moncton Street"
+ },
+ "1550": {
+  "id": "1550",
+  "lat": 49.13373,
+  "lon": -123.16982,
+  "alt": "railway avenue at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Railway Avenue at Steveston Highway"
+ },
+ "2899": {
+  "id": "2899",
+  "lat": 49.178096,
+  "lon": -123.141589,
+  "alt": "river parkway at 7200 block",
+  "icon": "VideoIcon",
+  "name": "River Parkway at 7200 block"
+ },
+ "2950": {
+  "id": "2950",
+  "lat": 49.18461389,
+  "lon": -123.1376073,
+  "alt": "river parkway at cambie road",
+  "icon": "VideoIcon",
+  "name": "River Parkway at Cambie Road"
+ },
+ "2900": {
+  "id": "2900",
+  "lat": 49.17988152,
+  "lon": -123.1401212,
+  "alt": "river parkway at leslie road",
+  "icon": "VideoIcon",
+  "name": "River Parkway at Leslie Road"
+ },
+ "2922": {
+  "id": "2922",
+  "lat": 49.186364,
+  "lon": -123.145013,
+  "alt": "russ baker way at cessna drive",
+  "icon": "StaticCameraIcon",
+  "name": "Russ Baker Way at Cessna Drive"
+ },
+ "2386": {
+  "id": "2386",
+  "lat": 49.181225,
+  "lon": -123.15164,
+  "alt": "russ baker way at gilbert road",
+  "icon": "StaticCameraIcon",
+  "name": "Russ Baker Way at Gilbert Road"
+ },
+ "2933": {
+  "id": "2933",
+  "lat": 49.189183,
+  "lon": -123.143459,
+  "alt": "russ baker way at hudson avenue",
+  "icon": "StaticCameraIcon",
+  "name": "Russ Baker Way at Hudson Avenue"
+ },
+ "2374": {
+  "id": "2374",
+  "lat": 49.179789,
+  "lon": -123.153509,
+  "alt": "russ baker way at inglis way",
+  "icon": "StaticCameraIcon",
+  "name": "Russ Baker Way at Inglis Way"
+ },
+ "2954": {
+  "id": "2954",
+  "lat": 49.192115,
+  "lon": -123.142318,
+  "alt": "russ baker way at miller road",
+  "icon": "StaticCameraIcon",
+  "name": "Russ Baker Way at Miller Road"
+ },
+ "4553": {
+  "id": "4553",
+  "lat": 49.133411,
+  "lon": -123.099617,
+  "alt": "seaward gate at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Seaward Gate at Steveston Highway"
+ },
+ "3408": {
+  "id": "3408",
+  "lat": 49.18467706,
+  "lon": -123.128144,
+  "alt": "sexsmith road at cambie road",
+  "icon": "VideoIcon",
+  "name": "Sexsmith Road at Cambie Road"
+ },
+ "3428": {
+  "id": "3428",
+  "lat": 49.18779629,
+  "lon": -123.12813444,
+  "alt": "sexsmith road at capstan way",
+  "icon": "VideoIcon",
+  "name": "Sexsmith Road at Capstan Way"
+ },
+ "3438": {
+  "id": "3438",
+  "lat": 49.18916642,
+  "lon": -123.1281121,
+  "alt": "sexsmith road at hazelbridge way",
+  "icon": "VideoIcon",
+  "name": "Sexsmith Road at Hazelbridge Way"
+ },
+ "4850": {
+  "id": "4850",
+  "lat": 49.177124,
+  "lon": -123.102928,
+  "alt": "shell road at alderbridge way",
+  "icon": "VideoIcon",
+  "name": "Shell Road at Alderbridge Way"
+ },
+ "4900": {
+  "id": "4900",
+  "lat": 49.184581,
+  "lon": -123.102736,
+  "alt": "shell road at cambie road",
+  "icon": "VideoIcon",
+  "name": "Shell Road at Cambie Road"
+ },
+ "4550": {
+  "id": "4550",
+  "lat": 49.1334,
+  "lon": -123.103264,
+  "alt": "shell road at steveston highway",
+  "icon": "VideoIcon",
+  "name": "Shell Road at Steveston Highway"
+ },
+ "4600": {
+  "id": "4600",
+  "lat": 49.140739,
+  "lon": -123.102599,
+  "alt": "shell road at williams road",
+  "icon": "VideoIcon",
+  "name": "Shell Road at Williams Road"
+ },
+ "4953": {
+  "id": "4953",
+  "lat": 49.192007,
+  "lon": -123.098993,
+  "alt": "simpson road at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "Simpson Road at Bridgeport Road"
+ },
+ "3255": {
+  "id": "3255",
+  "lat": 49.162743,
+  "lon": -123.131001,
+  "alt": "st albans road / cooney road at granville avenue",
+  "icon": "VideoIcon",
+  "name": "St Albans Road / Cooney Road at Granville Avenue"
+ },
+ "4450": {
+  "id": "4450",
+  "lat": 49.19195,
+  "lon": -123.112306,
+  "alt": "st. edwards drive at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "St. Edwards Drive at Bridgeport Road"
+ },
+ "4407": {
+  "id": "4407",
+  "lat": 49.184601,
+  "lon": -123.104671,
+  "alt": "st. edwards drive at cambie road",
+  "icon": "VideoIcon",
+  "name": "St. Edwards Drive at Cambie Road"
+ },
+ "3905": {
+  "id": "3905",
+  "lat": 49.184669,
+  "lon": -123.119751,
+  "alt": "stolberg street at cambie road",
+  "icon": "VideoIcon",
+  "name": "Stolberg Street at Cambie Road"
+ },
+ "5458": {
+  "id": "5458",
+  "lat": 49.19194492,
+  "lon": -123.08247556,
+  "alt": "sweden way at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "Sweden Way at Bridgeport Road"
+ },
+ "2455": {
+  "id": "2455",
+  "lat": 49.193215,
+  "lon": -123.150688,
+  "alt": "templeton street at grant mcconachie way",
+  "icon": "StaticCameraIcon",
+  "name": "Templeton Street at Grant McConachie Way"
+ },
+ "2458": {
+  "id": "2458",
+  "lat": 49.199356,
+  "lon": -123.149101,
+  "alt": "templeton street at grauer road",
+  "icon": "StaticCameraIcon",
+  "name": "Templeton Street at Grauer Road"
+ },
+ "2454": {
+  "id": "2454",
+  "lat": 49.19215,
+  "lon": -123.150694,
+  "alt": "templeton street at miller road",
+  "icon": "StaticCameraIcon",
+  "name": "Templeton Street at Miller Road"
+ },
+ "2457": {
+  "id": "2457",
+  "lat": 49.196903,
+  "lon": -123.150149,
+  "alt": "templeton street at north service road",
+  "icon": "StaticCameraIcon",
+  "name": "Templeton Street at North Service Road"
+ },
+ "5959": {
+  "id": "5959",
+  "lat": 49.19199884,
+  "lon": -123.0733317,
+  "alt": "viking way at bridgeport road",
+  "icon": "VideoIcon",
+  "name": "Viking Way at Bridgeport Road"
+ },
+ "5909": {
+  "id": "5909",
+  "lat": 49.18465264,
+  "lon": -123.0732685,
+  "alt": "viking way at cambie road",
+  "icon": "VideoIcon",
+  "name": "Viking Way at Cambie Road"
+ },
+ "9845": {
+  "id": "9845",
+  "lat": 49.17398009,
+  "lon": -122.970365,
+  "alt": "westminster highway at mclean avenue",
+  "icon": "VideoIcon",
+  "name": "Westminster Highway at McLean Avenue"
+ },
+ "9835": {
+  "id": "9835",
+  "lat": 49.171576,
+  "lon": -122.971835,
+  "alt": "westminster highway at westminster highway north",
+  "icon": "VideoIcon",
+  "name": "Westminster Highway at Westminster Highway North"
+ }
+}

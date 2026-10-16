@@ -1,5 +1,40 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
+## ✅ Session 44 (2026-10-16) — Richmond BC traffic cameras: full enumeration + ingest (597)
+
+### Done
+- Closed Session 43 leftovers: `769b0f59f519` + `bbde8fb2d630` stream configs
+  found on `node0.surveillance-map.com` → rows set `type=hls` /
+  `live_status=live` / `delivery_node=node0.surveillance-map.com`
+  (`bd92f7edfeab` still unobserved)
+- Enumerated ALL Richmond BC traffic cameras from the official map page:
+  161 intersections (exact lat/lon + `IntersectionDetails.aspx?id=N`),
+  **597 cameras** (217 hex-ID + 380 VDD-named, mixed-case filenames)
+  → `camera_testing/richmond_map_cams.json` + `richmond_dump.json`
+- Cadence measured: JPGs refresh ~every 2 min with real content changes
+  (Last-Modified + md5 advance); even "offline"-flagged cams serve fresh 200s
+- Live-feed hunt (verdict: NONE internet-exposed):
+  - `.mjpg/.m3u8/.ts` variants 404 on www.richmond.ca/trafficcam/ (dir 403)
+  - Site search: no other camera pages (only `videorequest.htm`)
+  - hackertarget: 51 hosts, none camera-related
+  - Shodan InternetDB sweep of 199.175.128.0/22: no 554/8000/ONVIF;
+    8443s = Cisco Expressway (CE_E) + broken VPN-style portal;
+    consultantvpn SNMP + CVEs (not a camera system)
+  - Vendor intel: public cams = TICS (capability for live video, recording
+    added later, footage-by-request); PSCS law-enforcement net (Genetec +
+    Axis, OIPC 3073) is segregated → not reachable from internet
+- Ingested 445 new cams `ric_238649..ric_239093` (155 already existed as
+  `tv_*` from the TrafficVision pass; 1 case-variant dupe removed; 2 stale
+  tv cams re-verified live) + 445 posters
+- Classifier: `'ric'` added to `PUBLIC_CSV_PREFIXES` → all public/U2
+- 230,549 rows; public **230,408** / private 136 / unknown 5; API refreshed
+  + verified (q=richmond-tics = 444, posters 200)
+
+### Next
+- Re-probe `bd92f7edfeab` (last open psb item)
+- Optional: monitor TICS refresh interval variance; re-enumerate map quarterly
+  (VDD filenames change when cams move)
+
 ## ✅ Session 43 (2026-10-16) — psb.li full enumeration + ingest (14/14)
 
 ### Done
