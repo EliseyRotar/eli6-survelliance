@@ -1,5 +1,37 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
+## ✅ Session 45 (2026-10-17) — DriveBC: 1,068-cam enumeration + live-feed hunt + ingest
+
+### Done
+- Closed last psb item: `bd92f7edfeab` = auth-walled broadcast
+  (`/streaming/` → 429 "Login to continue watching", thumb live) →
+  row set `auth_required`; all 14 psb cams accounted for
+- Enumerated ALL DriveBC cams via public API (`/api/webcams/`):
+  **1,067** with exact GeoJSON coords + captions/orientation/cadence,
+  plus orphan ferry cam **481** (serves via proxy, absent from listing)
+  → **1,068 total**
+- Found + verified the 24h recordings system: `/api/webcams/<id>/replayTheDay/`
+  → `/images/replaytheday/<id>/<YYYYMMDDHHMMSS>.jpg` (~15-min stills)
+- `.env` publicly served → full runtime config (REPLAY_THE_DAY host,
+  LEGACY_URL, geocoder keys); OpenAPI spec at `/api/schema/`
+- Live-feed hunt verdict: **no public video** — `originalImage`/
+  `timelapse` nginx-403, `admin-*` DRF-auth; Axis cameras POST stills
+  into MOTI ingestion (bcgov/DriveBC.ca-Images); TMCBC's 200+ live
+  feeds internal-only; no RTSP/MJPEG on any of 32 drivebc hosts;
+  images.drivebc.ca dead publicly; wayback shows always-proxied
+- Ferries API carries `webcam_url_1..5` (29 URLs, 28 overlap)
+- Ingested **1,068 rows `dbc_239094..dbc_240161`** + 1,068 posters
+  (batch single-lock write); classifier `'dbc'` prefix → all public
+- 231,617 rows; public **231,476** / private 136 / unknown 5;
+  API refreshed + verified (q=drivebc-api = 1,043 live)
+
+### Next
+- Optional: full Shodan sweep of BC gov net for Axis/RTSP if login
+  becomes available (field cams likely carrier-NAT'd, keyless proof
+  incomplete for 142.34.0.0/16)
+- Optional: BC Ferries marine cams (bcferries.com) as separate session
+- Periodic re-pull of `/api/webcams/` (new cams added yearly)
+
 ## ✅ Session 44 (2026-10-16) — Richmond BC traffic cameras: full enumeration + ingest (597)
 
 ### Done

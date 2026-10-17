@@ -1,0 +1,638 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "DriveBC Timelapse API",
+        "version": "1.0.0",
+        "description": "DriveBC Timelapse API"
+    },
+    "paths": {
+        "/api/webcams/{id}/admin-originalImage/": {
+            "get": {
+                "operationId": "api_webcams_admin_originalImage_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/admin-timelapse/": {
+            "get": {
+                "operationId": "api_webcams_admin_timelapse_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/admin-timelapse/{filename}/": {
+            "get": {
+                "operationId": "api_webcams_admin_timelapse_retrieve_2",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "filename",
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^[0-9]{14}$"
+                        },
+                        "required": true
+                    },
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/admin-timelapse/download/": {
+            "get": {
+                "operationId": "api_webcams_admin_timelapse_download_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/originalImage/": {
+            "get": {
+                "operationId": "api_webcams_originalImage_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/replayTheDay/": {
+            "get": {
+                "operationId": "api_webcams_replayTheDay_retrieve",
+                "description": "Get replay the day timestamps with caching.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/timelapse/": {
+            "get": {
+                "operationId": "api_webcams_timelapse_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/timelapse/{filename}/": {
+            "get": {
+                "operationId": "api_webcams_timelapse_retrieve_2",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "filename",
+                        "schema": {
+                            "type": "string",
+                            "pattern": "^[0-9]{14}$"
+                        },
+                        "required": true
+                    },
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/{id}/timelapse/download/": {
+            "get": {
+                "operationId": "api_webcams_timelapse_download_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "parameters": [
+                    {
+                        "in": "path",
+                        "name": "id",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "description": "A unique integer value identifying this webcam.",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        },
+        "/api/webcams/staleAndDelayed/": {
+            "get": {
+                "operationId": "api_webcams_staleAndDelayed_retrieve",
+                "description": "List a queryset. Result is fetched from cache or updates it if it doesn't exist.",
+                "tags": [
+                    "api"
+                ],
+                "security": [
+                    {
+                        "cookieAuth": []
+                    },
+                    {
+                        "tokenAuth": []
+                    },
+                    {}
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Webcam"
+                                }
+                            }
+                        },
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Webcam": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "readOnly": true
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "caption": {
+                        "type": "string"
+                    },
+                    "links": {
+                        "type": "string",
+                        "readOnly": true
+                    },
+                    "highway_display": {
+                        "type": "string",
+                        "readOnly": true
+                    },
+                    "marked_stale": {
+                        "type": "string",
+                        "readOnly": true
+                    },
+                    "marked_delayed": {
+                        "type": "string",
+                        "readOnly": true
+                    },
+                    "credit": {
+                        "type": "string",
+                        "readOnly": true
+                    },
+                    "local_weather_station_code": {
+                        "type": "string",
+                        "readOnly": true,
+                        "nullable": true
+                    },
+                    "name_override": {
+                        "type": "string",
+                        "maxLength": 128
+                    },
+                    "caption_override": {
+                        "type": "string",
+                        "maxLength": 256
+                    },
+                    "dbc_mark": {
+                        "type": "string",
+                        "maxLength": 256
+                    },
+                    "region": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0
+                    },
+                    "region_name": {
+                        "type": "string",
+                        "maxLength": 128
+                    },
+                    "highway": {
+                        "type": "string",
+                        "maxLength": 32
+                    },
+                    "highway_description": {
+                        "type": "string",
+                        "maxLength": 128
+                    },
+                    "highway_group": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0
+                    },
+                    "highway_cam_order": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0
+                    },
+                    "location": {
+                        "type": "object",
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "enum": [
+                                    "Point"
+                                ]
+                            },
+                            "coordinates": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number",
+                                    "format": "float"
+                                },
+                                "example": [
+                                    12.9721,
+                                    77.5933
+                                ],
+                                "minItems": 2,
+                                "maxItems": 3
+                            }
+                        }
+                    },
+                    "orientation": {
+                        "type": "string",
+                        "maxLength": 32
+                    },
+                    "elevation": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0
+                    },
+                    "update_weather_stations": {
+                        "type": "boolean"
+                    },
+                    "nearby_objs": {},
+                    "is_on": {
+                        "type": "boolean"
+                    },
+                    "should_appear": {
+                        "type": "boolean"
+                    },
+                    "is_new": {
+                        "type": "boolean"
+                    },
+                    "is_on_demand": {
+                        "type": "boolean"
+                    },
+                    "route_order": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0,
+                        "nullable": true
+                    },
+                    "last_update_attempt": {
+                        "type": "string",
+                        "format": "date-time",
+                        "nullable": true
+                    },
+                    "last_update_modified": {
+                        "type": "string",
+                        "format": "date-time",
+                        "nullable": true
+                    },
+                    "update_period_mean": {
+                        "type": "integer",
+                        "maximum": 2147483647,
+                        "minimum": 0
+                    },
+                    "update_period_stddev": {
+                        "type": "integer",
+                        "maximum": 2147483647,
+                        "minimum": 0
+                    },
+                    "https_cam": {
+                        "type": "boolean"
+                    },
+                    "area": {
+                        "type": "integer",
+                        "maximum": 32767,
+                        "minimum": 0,
+                        "nullable": true
+                    },
+                    "regional_weather_station": {
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "local_weather_station": {
+                        "type": "integer",
+                        "nullable": true
+                    },
+                    "hev_station": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "group": {
+                        "type": "integer",
+                        "nullable": true
+                    }
+                },
+                "required": [
+                    "credit",
+                    "elevation",
+                    "highway",
+                    "highway_cam_order",
+                    "highway_display",
+                    "highway_group",
+                    "id",
+                    "links",
+                    "local_weather_station_code",
+                    "location",
+                    "marked_delayed",
+                    "marked_stale",
+                    "region",
+                    "region_name",
+                    "update_period_mean",
+                    "update_period_stddev"
+                ]
+            }
+        },
+        "securitySchemes": {
+            "cookieAuth": {
+                "type": "apiKey",
+                "in": "cookie",
+                "name": "sessionid"
+            },
+            "tokenAuth": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "Authorization",
+                "description": "Token-based authentication with required prefix \"Token\""
+            }
+        }
+    }
+}

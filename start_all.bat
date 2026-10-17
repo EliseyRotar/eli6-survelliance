@@ -3,6 +3,12 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 45 update (2026-10-17) - DRIVEBC INGEST:
+REM   - 1,068 cams enumerated via /api/webcams/ (exact GPS + replay API)
+REM   - 1,068 rows dbc_239094..dbc_240161; no public live video (Axis POST
+REM     ingestion; TMCBC live feeds internal); replay = 24h stills
+REM   - CSV 231,617 rows: public 231,476 / private 136 / unknown 5
+REM
 REM Session 44 update (2026-10-16) - RICHMOND BC INGEST:
 REM   - 597 cameras enumerated (161 intersections, exact lat/lon)
 REM   - 445 new rows ric_238649..ric_239093 (155 already existed as tv_*)

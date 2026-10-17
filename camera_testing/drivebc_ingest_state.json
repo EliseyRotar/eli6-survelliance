@@ -1,0 +1,6414 @@
+{
+ "written": [
+  [
+   "239094",
+   2,
+   "Coquihalla Great Bear Snowshed - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239095",
+   5,
+   "Kootenay Pass \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239096",
+   6,
+   "Smithers - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239097",
+   7,
+   "Cole Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239098",
+   8,
+   "Malahat Drive - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239099",
+   9,
+   "Nanaimo Parkway \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239100",
+   10,
+   "South Taylor Hill - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239101",
+   11,
+   "Revelstoke \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239102",
+   12,
+   "Three Valley Gap - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239103",
+   13,
+   "Douglas (Peace Arch) Border Crossing \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239104",
+   14,
+   "Beach Road - N \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239105",
+   15,
+   "Pacific Highway (Truck Crossing) Border Crossing \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239106",
+   16,
+   "Second Avenue - N \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239107",
+   17,
+   "Causeway \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239108",
+   18,
+   "LGB North End 1 \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239109",
+   19,
+   "Georgia Street \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239110",
+   20,
+   "LGB North End 2 \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239111",
+   21,
+   "Taylor Way \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239112",
+   22,
+   "Marine Drive \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239113",
+   29,
+   "Steveston \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239114",
+   30,
+   "Deas \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239115",
+   31,
+   "South Approach \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239116",
+   32,
+   "Blundell - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239117",
+   33,
+   "Hwy 17A Overpass \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239118",
+   34,
+   "Works Yard \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239119",
+   36,
+   "Cassiar Tunnel \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239120",
+   41,
+   "Elkhart - W \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239121",
+   48,
+   "South Cowichan Lake \u00b7 Hwy Cowichan Lake \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239122",
+   53,
+   "Begbie Summit \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239123",
+   55,
+   "Dragon Lake - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239124",
+   56,
+   "Helmer Lake \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239125",
+   57,
+   "Kalamalka Lookout \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239126",
+   58,
+   "Larson Hill - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239127",
+   59,
+   "Sicamous - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239128",
+   60,
+   "Morrissey \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239129",
+   61,
+   "Walloper \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239130",
+   64,
+   "Anarchist \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239131",
+   65,
+   "Allison Pass - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239132",
+   66,
+   "Hwy 99 at Shell Road \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239133",
+   67,
+   "Oak Street at 70 Avenue - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239134",
+   70,
+   "Oak Street at 70 Avenue - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239135",
+   71,
+   "Ironworkers South westbound \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239136",
+   72,
+   "Ironworkers midspan \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239137",
+   73,
+   "Ironworkers North - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239138",
+   77,
+   "Hungry Hill - SE \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239139",
+   78,
+   "Enterprise - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239140",
+   79,
+   "Hwy 10 at 152 Street - N \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239141",
+   80,
+   "Hwy 10 at 152 Street - E \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239142",
+   81,
+   "Hwy 10 at 152 Street - S \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239143",
+   82,
+   "Hwy 10 at 152 Street - W \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239144",
+   83,
+   "Hwy 15 at Hwy 10 - N \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239145",
+   84,
+   "Hwy 15 at Hwy 10 - E \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239146",
+   85,
+   "Hwy 15 at Hwy 10 - S \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239147",
+   86,
+   "Hwy 15 at Fraser Highway - N \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239148",
+   87,
+   "Hwy 91A at Queensborough Bridge - E \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239149",
+   88,
+   "Hwy 91A at Queensborough Bridge - S \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239150",
+   89,
+   "Hwy 91A at Boundary Road - E \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239151",
+   90,
+   "Hwy 91A at Boundary Road - W \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239152",
+   91,
+   "Alex Fraser Bridge - N \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239153",
+   92,
+   "Alex Fraser Bridge - S \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239154",
+   93,
+   "Hwy 15 at Fraser Highway - SE \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239155",
+   94,
+   "Hwy 15 at Fraser Highway - S \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239156",
+   95,
+   "Hwy 15 at Fraser Highway - NW \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239157",
+   96,
+   "Brenda Mine - E \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239158",
+   97,
+   "Bednesti Lake - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239159",
+   98,
+   "Peden Hill at Davis Road \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239160",
+   99,
+   "Peden Hill at Vance Road \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239161",
+   100,
+   "Summit Lake Road - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239162",
+   101,
+   "Rogers Pass \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239163",
+   102,
+   "Port Alberni Summit \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239164",
+   103,
+   "Hwy 10 at King George Boulevard - E \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239165",
+   104,
+   "Hwy 10 at King George Boulevard - W \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239166",
+   109,
+   "Boston Bar - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239167",
+   110,
+   "Kitimat \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239168",
+   111,
+   "Terrace - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239169",
+   112,
+   "Douglas Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239170",
+   113,
+   "Douglas Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239171",
+   114,
+   "Kensington Avenue - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239172",
+   115,
+   "Kensington Avenue - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239173",
+   120,
+   "Cook Creek Road \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239174",
+   121,
+   "Black Creek \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239175",
+   122,
+   "Savory Rest Area - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239176",
+   123,
+   "Tumbler Ridge \u00b7 Hwy 52 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239177",
+   124,
+   "Fort Nelson \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239178",
+   125,
+   "Mile 73 - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239179",
+   126,
+   "Tupper - E \u00b7 Hwy 2 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239180",
+   127,
+   "Kelowna - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239181",
+   128,
+   "Evans Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239182",
+   129,
+   "Yahk \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239183",
+   130,
+   "Kimberley \u00b7 Hwy 95A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239184",
+   131,
+   "Sparwood \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239185",
+   132,
+   "Radium Hot Springs northbound \u00b7 Hwy 93 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239186",
+   133,
+   "Canal Flats \u00b7 Hwy 93 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239187",
+   134,
+   "Port Edward - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239188",
+   135,
+   "Golden northbound \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239189",
+   137,
+   "Bamberton - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239190",
+   139,
+   "Anahim Lake \u00b7 Hwy 20 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239191",
+   140,
+   "Francois Lake Southbank Ferry Landing \u00b7 Hwy 35 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239192",
+   141,
+   "Red Pass \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239193",
+   142,
+   "Field - NE \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239194",
+   143,
+   "Kitwanga - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239195",
+   144,
+   "Onion Lake \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239196",
+   146,
+   "Kasiks \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239197",
+   147,
+   "WR Bennett Bridge 02 \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239198",
+   148,
+   "WR Bennett Bridge 04 \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239199",
+   149,
+   "WR Bennett Bridge 07 \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239200",
+   150,
+   "WR Bennett Bridge 11 \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239201",
+   151,
+   "Dease Lake \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239202",
+   152,
+   "Wedge \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239203",
+   155,
+   "Cache Creek \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239204",
+   156,
+   "Wire Cache - N \u00b7 Hwy 5 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239205",
+   157,
+   "Christina Lake - NW \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239206",
+   158,
+   "Salmo \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239207",
+   159,
+   "Jack McDonald Snowshed - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239208",
+   160,
+   "Rossland southound \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239209",
+   161,
+   "Coquihalla Lakes - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239210",
+   162,
+   "Castlegar - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239211",
+   164,
+   "Sheridan Lake - W \u00b7 Hwy 24 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239212",
+   165,
+   "Pine Pass \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239213",
+   166,
+   "Chetwynd - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239214",
+   168,
+   "Aldergrove Border Crossing - N \u00b7 Hwy 13 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239215",
+   169,
+   "Aldergrove Border Crossing - S \u00b7 Hwy 13 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239216",
+   170,
+   "Abbotsford-Huntingdon Border Crossing - S \u00b7 Hwy 11 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239217",
+   171,
+   "Abbotsford-Huntingdon Border Crossing - N \u00b7 Hwy 11 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239218",
+   172,
+   "Tlell \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239219",
+   173,
+   "New Denver \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239220",
+   174,
+   "Paulson Summit \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239221",
+   175,
+   "Hosmer \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239222",
+   176,
+   "Brisco \u00b7 Hwy 95 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239223",
+   177,
+   "Wasa \u00b7 Hwy 93 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239224",
+   178,
+   "Function Junction - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239225",
+   179,
+   "Alice Lake - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239226",
+   180,
+   "Furry Creek \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239227",
+   182,
+   "Duffey Lake Road \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239228",
+   183,
+   "Line Creek Mine Road \u00b7 Hwy 43 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239229",
+   188,
+   "Shelter Bay - Lineup \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239230",
+   189,
+   "Field - SW \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239231",
+   190,
+   "Skutz Falls \u00b7 Hwy 18 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239232",
+   192,
+   "Lougheed Highway \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239233",
+   193,
+   "Lougheed at Kennedy Road \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239234",
+   194,
+   "Elkhart - E \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239235",
+   195,
+   "Pitt Meadows \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239236",
+   196,
+   "Roosville \u00b7 Hwy 93 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239237",
+   197,
+   "Skidegate \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239238",
+   198,
+   "Masset \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239239",
+   199,
+   "Mary Hill Bypass - W \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239240",
+   200,
+   "Laxgalts'ap \u00b7 Hwy 113 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239241",
+   202,
+   "Roberts Lake \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239242",
+   204,
+   "McCallum Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239243",
+   205,
+   "Peace View Rest Area - SW \u00b7 Hwy 29 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239244",
+   206,
+   "Lillooet-Fountain Valley \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239245",
+   208,
+   "Hwy 91 at Fraserwood Way - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239246",
+   209,
+   "Hwy 91 at Fraserwood Way - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239247",
+   210,
+   "Hwy 91 at No.8 Road - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239248",
+   211,
+   "Hwy 91 at No.8 Road - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239249",
+   212,
+   "Hwy 99 at 8 Avenue - N \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239250",
+   213,
+   "Cranbrook \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239251",
+   214,
+   "Kicking Horse Canyon \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239252",
+   215,
+   "Spallumcheen \u00b7 Hwy 97A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239253",
+   216,
+   "Crescent Spur \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239254",
+   217,
+   "Bowron River \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239255",
+   218,
+   "Lake Louise - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239256",
+   219,
+   "Lake Louise - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239257",
+   220,
+   "Banff - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239258",
+   221,
+   "Banff - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239259",
+   223,
+   "McCallum Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239260",
+   224,
+   "McCallum Road Roundabout Northbound \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239261",
+   225,
+   "McCallum Road Roundabout Southbound \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239262",
+   226,
+   "Stuart Lake Highway - N \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239263",
+   227,
+   "Sooke - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239264",
+   228,
+   "Horseshoe Bay - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239265",
+   229,
+   "Nakusp - S \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239266",
+   230,
+   "Falkland \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239267",
+   231,
+   "Hunter Creek \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239268",
+   232,
+   "Mission - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239269",
+   234,
+   "Coffee Creek \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239270",
+   235,
+   "Keremeos - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239271",
+   236,
+   "Augier Road - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239272",
+   238,
+   "Sayward Road - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239273",
+   239,
+   "Kamloops - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239274",
+   240,
+   "Bridal Falls - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239275",
+   241,
+   "Hope \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239276",
+   242,
+   "Agassiz \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239277",
+   243,
+   "Halfmoon Bay \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239278",
+   244,
+   "Earls Cove \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239279",
+   245,
+   "Powell River \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239280",
+   246,
+   "Sunday Summit - N \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239281",
+   247,
+   "Eholt Summit \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239282",
+   248,
+   "50-Mile \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239283",
+   249,
+   "McCulloch - N \u00b7 Hwy 33 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239284",
+   250,
+   "Monashee Pass \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239285",
+   251,
+   "Pennask Summit - W \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239286",
+   252,
+   "Hixon \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239287",
+   253,
+   "John Hart Highway \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239288",
+   254,
+   "Blue River \u00b7 Hwy 5 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239289",
+   255,
+   "Stewart \u00b7 Hwy 37A \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239290",
+   256,
+   "Meziadin Junction - E \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239291",
+   257,
+   "Woss \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239292",
+   258,
+   "Bridge Approach \u00b7 Hwy 99A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239293",
+   259,
+   "Hwy 11 at Farmer Road - N \u00b7 Hwy 11 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239294",
+   260,
+   "Hwy 11 at Farmer Road - S \u00b7 Hwy 11 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239295",
+   261,
+   "Hwy 13 at 264 Street Diversion - S \u00b7 Hwy 13 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239296",
+   262,
+   "Gold River Highway \u00b7 Hwy 28 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239297",
+   263,
+   "McTavish Road - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239298",
+   264,
+   "McTavish Road - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239299",
+   265,
+   "Midway - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239300",
+   266,
+   "Midway - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239301",
+   267,
+   "Sayward Road - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239302",
+   268,
+   "Clearbrook - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239303",
+   269,
+   "Clearbrook - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239304",
+   270,
+   "Clearbrook - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239305",
+   271,
+   "Clearbrook - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239306",
+   272,
+   "South Shawnigan Lake Road - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239307",
+   273,
+   "Malahat Drive - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239308",
+   275,
+   "Port Mann Bridge - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239309",
+   277,
+   "Hwy 1 at 232 Street - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239310",
+   278,
+   "Hwy 1 at 232 Street - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239311",
+   279,
+   "Hwy 1 at 232 Street - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239312",
+   280,
+   "Hwy 1 at 232 Street - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239313",
+   284,
+   "Hwy 99 - 32 Avenue Diversion - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239314",
+   285,
+   "Hwy 99 - 32 Avenue Diversion - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239315",
+   286,
+   "Chimdemash \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239316",
+   287,
+   "Comstock - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239317",
+   288,
+   "Big Bam Road \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239318",
+   289,
+   "Wells \u00b7 Hwy 26 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239319",
+   291,
+   "Hwy 99 at Westminster Highway - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239320",
+   292,
+   "Port Mann Bridge - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239321",
+   293,
+   "Hwy 13 at 264 Street Diversion - N \u00b7 Hwy 13 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239322",
+   294,
+   "Miners Bluff - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239323",
+   295,
+   "Miners Bluff - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239324",
+   296,
+   "Clanwilliam Railway Overpass - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239325",
+   297,
+   "Hells Gate - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239326",
+   298,
+   "Hells Gate - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239327",
+   299,
+   "Hwy 11 at Harris Road - E \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239328",
+   300,
+   "Hwy 11 at Harris Road - W \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239329",
+   301,
+   "Hwy 11 at Harris Road - N \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239330",
+   302,
+   "Hwy 11 at Harris Road - S \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239331",
+   303,
+   "Balfour Ferry Terminal \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239332",
+   304,
+   "Kootenay Bay Ferry Landing \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239333",
+   305,
+   "Nelson - S \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239334",
+   306,
+   "Creston - S \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239335",
+   307,
+   "Trail - E \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239336",
+   308,
+   "Hwy 99 at Westminster Highway - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239337",
+   309,
+   "Hwy 99 at Cambie - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239338",
+   310,
+   "Hwy 99 at Cambie - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239339",
+   311,
+   "Delta - N \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239340",
+   312,
+   "Delta - S \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239341",
+   313,
+   "Hwy 99 at Mud Bay - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239342",
+   314,
+   "Hwy 99 at Mud Bay - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239343",
+   315,
+   "Hwy 91 at 72 Avenue - N \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239344",
+   316,
+   "Hwy 91 at 72 Avenue - S \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239345",
+   317,
+   "Hwy 91 at 72 Avenue - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239346",
+   318,
+   "Howes Street - E \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239347",
+   319,
+   "Howes Street - W \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239348",
+   322,
+   "Hwy 91 at No.6 Road - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239349",
+   323,
+   "Hwy 91 at No.6 Road - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239350",
+   324,
+   "Annis Road - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239351",
+   325,
+   "Annis Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239352",
+   326,
+   "Annis Road - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239353",
+   327,
+   "Annis Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239354",
+   328,
+   "Granisle Highway \u00b7 Hwy 118 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239355",
+   329,
+   "Agassiz-Rosedale Bridge - S \u00b7 Hwy 9 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239356",
+   330,
+   "Prest Road - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239357",
+   331,
+   "Prest Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239358",
+   332,
+   "Prest Road - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239359",
+   333,
+   "Prest Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239360",
+   334,
+   "Bombi Pass \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239361",
+   335,
+   "Gitwinksihlkw \u00b7 Hwy 113 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239362",
+   336,
+   "Trout Creek \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239363",
+   337,
+   "Sorrento - Blind Bay \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239364",
+   338,
+   "Barriere \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239365",
+   339,
+   "Dunster Station Road \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239366",
+   340,
+   "McLeese Lake - SE \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239367",
+   341,
+   "Jackass Mountain - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239368",
+   342,
+   "Hwy 14 at Trailhead Drive \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239369",
+   343,
+   "Cobble Hill Road \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239370",
+   344,
+   "Helmcken - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239371",
+   345,
+   "Helmcken - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239372",
+   346,
+   "Helmcken - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239373",
+   347,
+   "Helmcken - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239374",
+   348,
+   "Qualicum Interchange - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239375",
+   349,
+   "Admirals-McKenzie - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239376",
+   350,
+   "Admirals-McKenzie - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239377",
+   351,
+   "Admirals-McKenzie - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239378",
+   352,
+   "Admirals-McKenzie - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239379",
+   353,
+   "BC-Yukon Border \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239380",
+   355,
+   "McDonald Summit \u00b7 Hwy 24 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239381",
+   357,
+   "Mary Hill Bypass at Shaughnessy - E \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239382",
+   358,
+   "Mary Hill Bypass at Shaughnessy - W \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239383",
+   359,
+   "Lougheed at Harris Road - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239384",
+   360,
+   "Lougheed at Harris Road - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239385",
+   361,
+   "Lougheed at Harris Road - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239386",
+   362,
+   "Lougheed at Harris Road - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239387",
+   363,
+   "Lougheed at Maple Meadows Way - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239388",
+   364,
+   "Lougheed at Dewdney Trunk Road - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239389",
+   365,
+   "Lougheed at Dewdney Trunk Rd - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239390",
+   366,
+   "Lougheed at Dewdney Trunk Road - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239391",
+   367,
+   "Six Mile Hill \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239392",
+   368,
+   "Big Bar \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239393",
+   369,
+   "Callan Road \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239394",
+   370,
+   "Aspen Grove - S \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239395",
+   371,
+   "Hwy 99 at Hwy 17A - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239396",
+   372,
+   "Hwy 99 at Hwy 17A - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239397",
+   373,
+   "Hwy 99 at Hwy 17A - NE \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239398",
+   374,
+   "Hwy 99 at Hwy 17A - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239399",
+   375,
+   "Kennedy Lake \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239400",
+   376,
+   "Mackenzie Junction \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239401",
+   377,
+   "Boston Bar - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239402",
+   378,
+   "New Hazelton \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239403",
+   379,
+   "Zopkios Southbound - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239404",
+   380,
+   "Zopkios Southbound - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239405",
+   381,
+   "Ucluelet-Tofino Highway - N \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239406",
+   382,
+   "Grizzly Hill \u00b7 Hwy 113 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239407",
+   383,
+   "Hwy 3 at Highway 3/5 Junction \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239408",
+   385,
+   "Donald Bridge - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239409",
+   386,
+   "Donald Bridge - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239410",
+   390,
+   "Hwy 99 at King George Boulevard - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239411",
+   391,
+   "Hwy 99 at King George Boulevard - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239412",
+   392,
+   "Hwy 99 at King George Boulevard - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239413",
+   393,
+   "Hwy 99 at King George Boulevard - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239414",
+   395,
+   "Mill Bay - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239415",
+   396,
+   "Mill Bay - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239416",
+   397,
+   "Mill Bay - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239417",
+   398,
+   "Duncan - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239418",
+   399,
+   "Duncan - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239419",
+   400,
+   "Duncan - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239420",
+   402,
+   "Hwy 19 at Port Alice Road \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239421",
+   403,
+   "Sumas Way - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239422",
+   404,
+   "Sumas Way - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239423",
+   423,
+   "Colwood - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239424",
+   424,
+   "Malahat Summit - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239425",
+   425,
+   "Butterfield Road - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239426",
+   426,
+   "Tsitika \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239427",
+   427,
+   "Malahat Summit - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239428",
+   428,
+   "Butterfield Road - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239429",
+   429,
+   "Colwood - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239430",
+   430,
+   "Ladysmith \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239431",
+   431,
+   "Sicamous - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239432",
+   432,
+   "Spencer Road - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239433",
+   433,
+   "Spencer Road - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239434",
+   434,
+   "Hwy 10 at Fraser Highway - NW \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239435",
+   435,
+   "Hwy 10 at Fraser Highway - NE \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239436",
+   436,
+   "Hwy 10 at Fraser Highway - SW \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239437",
+   437,
+   "Hwy 10 at Fraser Highway - SE \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239438",
+   438,
+   "Hwy 10 at 200 Street - N \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239439",
+   439,
+   "Hwy 10 at 200 Street - W \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239440",
+   440,
+   "Hwy 10 at 200 Street - E \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239441",
+   441,
+   "Hwy 10 at 200 Street - S \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239442",
+   442,
+   "Needles Ferry Front - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239443",
+   443,
+   "Fauquier Ferry - E \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239444",
+   444,
+   "Hwy 99 at 8 Avenue - S \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239445",
+   445,
+   "Beach Road - S \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239446",
+   446,
+   "Rock Creek \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239447",
+   447,
+   "Hwy 15 at 8 Avenue - S \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239448",
+   448,
+   "Silverdale - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239449",
+   449,
+   "Silverdale - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239450",
+   450,
+   "Silverdale - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239451",
+   451,
+   "Savona \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239452",
+   452,
+   "Princeton \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239453",
+   453,
+   "Little Fort \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239454",
+   454,
+   "Highland Valley Road - N \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239455",
+   455,
+   "Hagensborg \u00b7 Hwy 20 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239456",
+   456,
+   "Albion - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239457",
+   457,
+   "Albion - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239458",
+   458,
+   "Albion - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239459",
+   459,
+   "Albion - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239460",
+   460,
+   "Silverdale - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239461",
+   461,
+   "Mount Lehman - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239462",
+   462,
+   "Mount Lehman - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239463",
+   463,
+   "Mount Lehman - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239464",
+   464,
+   "Mount Lehman - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239465",
+   465,
+   "Highlands Boulevard - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239466",
+   466,
+   "Yale - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239467",
+   467,
+   "Hope Slide \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239468",
+   468,
+   "Chilliwack Lake \u00b7 Hwy Chilliwack Lake Road \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239469",
+   469,
+   "Heckman Summit \u00b7 Hwy 20 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239470",
+   470,
+   "Strawberry Pass - NW \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239471",
+   471,
+   "Dawson Creek - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239472",
+   472,
+   "Dawson Creek - W \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239473",
+   473,
+   "Dawson Creek - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239474",
+   475,
+   "Dawson Creek - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239475",
+   476,
+   "Nanaimo Airport - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239476",
+   477,
+   "Hwy 15 at 8 Avenue - N \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239477",
+   478,
+   "Lempriere \u00b7 Hwy 5 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239478",
+   479,
+   "Nanaimo Airport - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239479",
+   480,
+   "Chemainus \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239480",
+   481,
+   "Upper Arrow Lake Ferry (unlisted) \u00b7 Highway \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239481",
+   482,
+   "Galena Bay Landing - End \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239482",
+   483,
+   "Tete Jaune Cache \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239483",
+   484,
+   "Steamboat Hill \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239484",
+   485,
+   "Liard Highway Junction \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239485",
+   486,
+   "Albert Canyon \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239486",
+   487,
+   "Quartz Creek - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239487",
+   488,
+   "East Pine Hill \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239488",
+   489,
+   "Good Hope Lake - N \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239489",
+   491,
+   "Rosswood \u00b7 Hwy 113 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239490",
+   492,
+   "Deroche - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239491",
+   493,
+   "Deroche - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239492",
+   494,
+   "Lemon Creek \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239493",
+   495,
+   "Messiter Summit \u00b7 Hwy 5 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239494",
+   496,
+   "Priestly Hill \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239495",
+   497,
+   "Brenda Mine - W \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239496",
+   498,
+   "Hwy 17 at Cloverdale Avenue - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239497",
+   499,
+   "Hwy 17 at Cloverdale Avenue - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239498",
+   500,
+   "Hungry Hill - NW \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239499",
+   501,
+   "Clearwater - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239500",
+   502,
+   "Clearwater - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239501",
+   503,
+   "Mission - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239502",
+   504,
+   "Mission - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239503",
+   505,
+   "Mission - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239504",
+   506,
+   "Mica Dam - S \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239505",
+   507,
+   "Hwy 17 at Saanich Road 1 - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239506",
+   508,
+   "Hwy 17 at Saanich Road 1 - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239507",
+   509,
+   "Hwy 17 at Saanich Road 1 - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239508",
+   510,
+   "Hwy 17 at Saanich Road 1 - W \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239509",
+   511,
+   "Hwy 17 at Saanich Road 2 - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239510",
+   512,
+   "Hwy 17 at Saanich Road 2 - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239511",
+   513,
+   "Hwy 17 at Saanich Road 2 - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239512",
+   514,
+   "Hwy 17 at Saanich Road 2 - W \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239513",
+   515,
+   "Deltaport Way - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239514",
+   516,
+   "Enterprise - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239515",
+   517,
+   "Clanwilliam Railway Overpass - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239516",
+   518,
+   "Shelter Bay - End \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239517",
+   519,
+   "Whistler Village Gate - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239518",
+   520,
+   "Britannia - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239519",
+   521,
+   "Britannia - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239520",
+   522,
+   "Whistler Village Gate - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239521",
+   524,
+   "Castle Mountain - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239522",
+   525,
+   "Deltaport Way - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239523",
+   526,
+   "Tannery Road - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239524",
+   527,
+   "Tannery Road - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239525",
+   528,
+   "Whistler Village Gate - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239526",
+   529,
+   "Hwy 17 at 56 Street - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239527",
+   531,
+   "Cowichan \u00b7 Hwy 18 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239528",
+   532,
+   "Lake Country - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239529",
+   533,
+   "Lake Country - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239530",
+   534,
+   "Hwy 17 at 56 Street - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239531",
+   535,
+   "Hwy 1 at 264 Street - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239532",
+   536,
+   "Hwy 1 at 264 Street - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239533",
+   537,
+   "Hwy 1 at 264 Street - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239534",
+   538,
+   "Hwy 1 at 264 Street - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239535",
+   539,
+   "Hwy 99 at 8 Avenue - W \u00b7 Hwy 99 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239536",
+   541,
+   "Campbell River - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239537",
+   542,
+   "Campbell River - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239538",
+   543,
+   "Campbell River - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239539",
+   544,
+   "Campbell River - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239540",
+   545,
+   "Nanoose Bay - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239541",
+   546,
+   "Nanoose Bay - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239542",
+   547,
+   "Nanoose Bay - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239543",
+   548,
+   "Veteran's Memorial Parkway - N \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239544",
+   549,
+   "Veteran's Memorial Parkway - S \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239545",
+   550,
+   "Veteran's Memorial Parkway - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239546",
+   551,
+   "Veteran's Memorial Parkway - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239547",
+   552,
+   "Mt Newton Cross Road - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239548",
+   553,
+   "Mt Newton Cross Road - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239549",
+   554,
+   "Mt Newton Cross Road - W \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239550",
+   555,
+   "Mt Newton Cross Road - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239551",
+   556,
+   "Evans Road - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239552",
+   557,
+   "Castle Mountain - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239553",
+   558,
+   "Castle Mountain - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239554",
+   559,
+   "Evans Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239555",
+   560,
+   "BC-Alberta Border \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239556",
+   561,
+   "Highbridge - N \u00b7 Hwy 33 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239557",
+   562,
+   "Hwy 15 at 8 Avenue - W \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239558",
+   563,
+   "Hwy 15 at 8 Avenue - E \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239559",
+   564,
+   "Second Avenue - S \u00b7 Hwy 15 \u00b7 Border Cams \u00b7 BC"
+  ],
+  [
+   "239560",
+   565,
+   "Chamulak Road \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239561",
+   566,
+   "Rainbow Summit Chain-Up Area \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239562",
+   567,
+   "Harrop Ferry Landing North View \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239563",
+   568,
+   "Suyer Road \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239564",
+   569,
+   "Harrop Ferry Landing northbound \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239565",
+   570,
+   "Harrop Ferry North Landing \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239566",
+   571,
+   "Hwy 17 at 80 Street - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239567",
+   572,
+   "Hwy 17 at 80 Street - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239568",
+   573,
+   "Hwy 17 at Hwy 91 Connector - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239569",
+   574,
+   "Hwy 17 at Hwy 91 Connector - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239570",
+   575,
+   "Hwy 17 at Hwy 91 Connector - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239571",
+   576,
+   "Hwy 17 at Hwy 91 Connector - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239572",
+   577,
+   "Hwy 91 Connector at Nordel Way - N \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239573",
+   578,
+   "Hwy 91 Connector at Nordel Way - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239574",
+   579,
+   "Hwy 91 Connector at Nordel Way - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239575",
+   580,
+   "Bridgeview Drive - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239576",
+   581,
+   "Bridgeview Drive - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239577",
+   582,
+   "Bridgeview Drive - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239578",
+   583,
+   "Retallack \u00b7 Hwy 31A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239579",
+   584,
+   "Hwy 1 at Hwy 23 - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239580",
+   585,
+   "Hwy 1 at Hwy 23 - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239581",
+   586,
+   "Hwy 1 at Hwy 23 - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239582",
+   587,
+   "Hwy 1 at Hwy 23 - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239583",
+   588,
+   "Spences Bridge \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239584",
+   589,
+   "Fort St. John - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239585",
+   590,
+   "Fort St. John - NW \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239586",
+   591,
+   "Fort St. John - SE \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239587",
+   592,
+   "Fort St. John - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239588",
+   593,
+   "Kwinitsa \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239589",
+   594,
+   "Dufferin - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239590",
+   595,
+   "Dufferin - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239591",
+   596,
+   "Pemberton - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239592",
+   597,
+   "Pemberton - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239593",
+   598,
+   "Pemberton - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239594",
+   599,
+   "Pemberton - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239595",
+   600,
+   "Crest Lake \u00b7 Hwy 28 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239596",
+   601,
+   "Port Edward - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239597",
+   602,
+   "Port Edward - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239598",
+   603,
+   "Perry River - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239599",
+   604,
+   "Perry River - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239600",
+   605,
+   "Halston Avenue / Paul Lake Road - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239601",
+   606,
+   "Halston Avenue / Paul Lake Road - W \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239602",
+   607,
+   "Halston Avenue / Paul Lake Road - E \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239603",
+   608,
+   "Halston Avenue / Paul Lake Road - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239604",
+   609,
+   "Tannery Road - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239605",
+   610,
+   "Tannery Road - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239606",
+   611,
+   "Hwy 14 at Kangaroo Road - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239607",
+   612,
+   "Sikanni Chief \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239608",
+   613,
+   "Hwy 17 at 80 Street - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239609",
+   614,
+   "Lonsdale - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239610",
+   615,
+   "Lonsdale - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239611",
+   616,
+   "Lonsdale - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239612",
+   617,
+   "Lonsdale - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239613",
+   618,
+   "Westview - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239614",
+   619,
+   "Westview - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239615",
+   620,
+   "Westview - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239616",
+   621,
+   "Westview - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239617",
+   622,
+   "Capilano - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239618",
+   623,
+   "Capilano - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239619",
+   624,
+   "Capilano - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239620",
+   625,
+   "Capilano - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239621",
+   626,
+   "Ymir \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239622",
+   627,
+   "Playmor Junction - N \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239623",
+   628,
+   "Playmor Junction - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239624",
+   629,
+   "Evans Road - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239625",
+   630,
+   "Playmor Junction - S \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239626",
+   631,
+   "Moyie Lake \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239627",
+   632,
+   "Sanca Creek \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239628",
+   633,
+   "Cooper Creek \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239629",
+   634,
+   "Kaleden - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239630",
+   635,
+   "Kaleden - W \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239631",
+   636,
+   "Kaleden - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239632",
+   637,
+   "Highway 97 at Highway 97C - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239633",
+   638,
+   "Highway 97 at Highway 97C - W \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239634",
+   639,
+   "Highway 97 at Highway 97C - E \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239635",
+   640,
+   "Highway 97 at Highway 97C - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239636",
+   641,
+   "Aulds Road - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239637",
+   642,
+   "Aulds Road - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239638",
+   643,
+   "Aulds Road - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239639",
+   644,
+   "Aulds Road - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239640",
+   645,
+   "Northfield Road - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239641",
+   646,
+   "Northfield Road - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239642",
+   647,
+   "Northfield Road - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239643",
+   648,
+   "Northfield Road - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239644",
+   649,
+   "Highway 4 at Alberni Highway - N \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239645",
+   650,
+   "Highway 4 at Alberni Highway - W \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239646",
+   651,
+   "Highway 4 at Alberni Highway - E \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239647",
+   652,
+   "Royal Oak - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239648",
+   653,
+   "Royal Oak - W \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239649",
+   654,
+   "Royal Oak - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239650",
+   655,
+   "Royal Oak - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239651",
+   656,
+   "Cole Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239652",
+   657,
+   "Mine Creek \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239653",
+   658,
+   "Hwy 17 at 104 Avenue eastbound \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239654",
+   659,
+   "104 Avenue at Hwy 17 westbound \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239655",
+   660,
+   "104 Avenue at Hwy 17 eastbound \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239656",
+   661,
+   "Hwy 17 at 104 Avenue southbound \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239657",
+   662,
+   "Hwy 1 at Hadden Drive Ramp - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239658",
+   663,
+   "Hwy 1 at Hadden Drive Ramp - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239659",
+   664,
+   "Bamberton - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239660",
+   665,
+   "Alice Lake - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239661",
+   666,
+   "Portia - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239662",
+   667,
+   "Portia - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239663",
+   668,
+   "One-Mile Hill - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239664",
+   669,
+   "One-Mile Hill - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239665",
+   670,
+   "Griffin Lake - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239666",
+   671,
+   "Griffin Lake - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239667",
+   672,
+   "Eagle River - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239668",
+   673,
+   "Eagle River - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239669",
+   674,
+   "Box Canyon - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239670",
+   675,
+   "Box Canyon - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239671",
+   676,
+   "Zopkios Northbound - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239672",
+   677,
+   "Zopkios Northbound - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239673",
+   682,
+   "Deltaport Way - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239674",
+   683,
+   "Brunette \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239675",
+   684,
+   "Coquitlam \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239676",
+   685,
+   "Coquihalla Summit - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239677",
+   686,
+   "Coquihalla Summit - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239678",
+   687,
+   "Britton Creek - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239679",
+   688,
+   "Britton Creek - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239680",
+   689,
+   "Culliton - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239681",
+   690,
+   "Culliton - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239682",
+   691,
+   "Daisy Lake - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239683",
+   692,
+   "Daisy Lake - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239684",
+   693,
+   "Brew Creek - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239685",
+   694,
+   "Brew Creek - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239686",
+   695,
+   "Knight Street Bridge southend - S \u00b7 Hwy Knight Street \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239687",
+   696,
+   "Knight Street Bridge southend - N \u00b7 Hwy Knight Street \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239688",
+   697,
+   "Boulder Hill - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239689",
+   698,
+   "Boulder Hill - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239690",
+   699,
+   "Hwy 17 at 56 Street - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239691",
+   700,
+   "Hwy 17 at 56 Street - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239692",
+   701,
+   "Smithers - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239693",
+   702,
+   "Smithers - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239694",
+   703,
+   "Smithers - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239695",
+   704,
+   "Function Junction - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239696",
+   705,
+   "Function Junction - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239697",
+   706,
+   "Function Junction - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239698",
+   707,
+   "Cross Creek - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239699",
+   708,
+   "Hwy 10 at 192 Street - N \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239700",
+   709,
+   "Hwy 10 at 192 Street - W \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239701",
+   710,
+   "Hwy 10 at 192 Street - E \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239702",
+   711,
+   "Hwy 10 at 192 Street - S \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239703",
+   712,
+   "Salish Sea Drive - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239704",
+   713,
+   "Salish Sea Drive - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239705",
+   714,
+   "Salish Sea Drive - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239706",
+   715,
+   "Hwy 17 at 52 Street - N \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239707",
+   716,
+   "Hwy 17 at 52 Street - W \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239708",
+   717,
+   "Hwy 17 at 52 Street - E \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239709",
+   718,
+   "Hwy 17 at 52 Street - S \u00b7 Hwy 17 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239710",
+   719,
+   "Golden Ears Way at Lougheed \u00b7 Hwy Golden Ears Way \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239711",
+   720,
+   "Golden Ears Way at Wharf Street \u00b7 Hwy Golden Ears Way \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239712",
+   721,
+   "Pitt River Road - N \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239713",
+   722,
+   "Pitt River Road - W \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239714",
+   723,
+   "Pitt River Road - E \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239715",
+   724,
+   "Pitt River Road - S \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239716",
+   725,
+   "Devil Lake - NE \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239717",
+   726,
+   "Devil Lake - SW \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239718",
+   727,
+   "Ladner - N \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239719",
+   728,
+   "Ladner - W \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239720",
+   729,
+   "Ladner - E \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239721",
+   730,
+   "Ladner - S \u00b7 Hwy 17A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239722",
+   731,
+   "Alex Fraser Bridge Southbound \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239723",
+   732,
+   "Queensborough Connector \u00b7 Hwy 91A \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239724",
+   733,
+   "Hwy 91 East-West Connector - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239725",
+   734,
+   "Coquihalla Great Bear Snowshed - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239726",
+   735,
+   "Annacis Channel Bridge Approach \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239727",
+   736,
+   "Three Valley Gap - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239728",
+   737,
+   "Comox Road - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239729",
+   738,
+   "Comox Road - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239730",
+   739,
+   "Comox Road - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239731",
+   740,
+   "Comox Road - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239732",
+   741,
+   "Departure Bay northbound \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239733",
+   742,
+   "Departure Bay southbound \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239734",
+   743,
+   "Departure Bay Ferry \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239735",
+   744,
+   "Departure Bay - Zorkin Road \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239736",
+   745,
+   "Ryan Road - N \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239737",
+   746,
+   "Ryan Road - W \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239738",
+   747,
+   "Ryan Road - E \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239739",
+   748,
+   "Ryan Road - S \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239740",
+   749,
+   "Herd Road - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239741",
+   750,
+   "Herd Road - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239742",
+   751,
+   "Herd Road - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239743",
+   752,
+   "Herd Road - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239744",
+   753,
+   "Buckley Bay Road \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239745",
+   754,
+   "Leadville Road \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239746",
+   755,
+   "Burton Main Road \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239747",
+   756,
+   "Hwy 1 at West Shore Parkway northbound \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239748",
+   757,
+   "Hwy 14 at Kangaroo Road - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239749",
+   758,
+   "Hwy 14 at Kangaroo Road - S \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239750",
+   759,
+   "Whitewater \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239751",
+   760,
+   "Kaslo - N \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239752",
+   761,
+   "Kaslo - W \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239753",
+   762,
+   "Kaslo - S \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239754",
+   763,
+   "Ironworkers North - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239755",
+   764,
+   "Hwy 15 at Hwy 10 - W \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239756",
+   765,
+   "Lions Bay - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239757",
+   766,
+   "Lions Bay - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239758",
+   767,
+   "Annacis Island - W \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239759",
+   768,
+   "Annacis Island - E \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239760",
+   769,
+   "Dragon Lake - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239761",
+   770,
+   "Dragon Lake - W \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239762",
+   771,
+   "Dragon Lake - E \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239763",
+   772,
+   "Nautley Road - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239764",
+   773,
+   "Nautley Road - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239765",
+   774,
+   "Nautley Road - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239766",
+   775,
+   "Witset - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239767",
+   776,
+   "Witset - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239768",
+   777,
+   "Annis Pit - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239769",
+   778,
+   "Witset - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239770",
+   779,
+   "Telkwa - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239771",
+   780,
+   "Annacis Island - N \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239772",
+   781,
+   "Telkwa - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239773",
+   782,
+   "Telkwa - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239774",
+   783,
+   "Midway - S \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239775",
+   784,
+   "Burns Lake - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239776",
+   785,
+   "Burns Lake - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239777",
+   786,
+   "Burns Lake - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239778",
+   787,
+   "Hwy 16 at Hwy 27 - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239779",
+   788,
+   "Hwy 16 at Hwy 27 - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239780",
+   789,
+   "Hwy 16 at Hwy 27 - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239781",
+   790,
+   "West Shore Parkway \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239782",
+   791,
+   "Annacis Island - S \u00b7 Hwy 91 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239783",
+   792,
+   "Hwy 1 at West Shore Parkway southbound \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239784",
+   793,
+   "Meadows Junction \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239785",
+   794,
+   "Kitwanga - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239786",
+   795,
+   "Kitwanga - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239787",
+   796,
+   "Knight Street Bridge northend - N \u00b7 Hwy Knight Street \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239788",
+   797,
+   "Knight Street Bridge northend - S \u00b7 Hwy Knight Street \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239789",
+   798,
+   "Coquihalla Lakes - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239790",
+   799,
+   "Hwy 16 at Toronto Street - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239791",
+   800,
+   "Hwy 16 at Toronto Street - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239792",
+   801,
+   "Stella Road - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239793",
+   802,
+   "Stella Road - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239794",
+   803,
+   "Stella Road - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239795",
+   804,
+   "Fort St. James - N \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239796",
+   805,
+   "Stuart Lake Highway - S \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239797",
+   806,
+   "Bridal Falls - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239798",
+   807,
+   "Fort St. James - S \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239799",
+   808,
+   "Sob Lake - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239800",
+   809,
+   "Sob Lake - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239801",
+   810,
+   "Keremeos - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239802",
+   811,
+   "Hwy 15 at 16 Avenue - N \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239803",
+   812,
+   "Butler - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239804",
+   813,
+   "Butler - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239805",
+   814,
+   "Hwy 15 at 16 Avenue - S \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239806",
+   815,
+   "Nadina - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239807",
+   816,
+   "Nadina - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239808",
+   817,
+   "Nadina - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239809",
+   818,
+   "Larson Hill - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239810",
+   819,
+   "Taylor - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239811",
+   820,
+   "Taylor - W \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239812",
+   821,
+   "Taylor - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239813",
+   822,
+   "Taylor - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239814",
+   823,
+   "Hwy 16 at Toronto Street - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239815",
+   824,
+   "Hwy 99 at Hwy 17 - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239816",
+   825,
+   "Hwy 99 at Hwy 17 - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239817",
+   826,
+   "Golden Ears Way at 96 Avenue \u00b7 Hwy Golden Ears Way \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239818",
+   827,
+   "Golden Ears Way at 199A Avenue and 200 Street \u00b7 Hwy Golden Ears Way \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239819",
+   828,
+   "Savory Rest Area - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239820",
+   829,
+   "Lake Placid - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239821",
+   830,
+   "Lake Placid - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239822",
+   831,
+   "Lake Placid - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239823",
+   832,
+   "Lake Placid - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239824",
+   833,
+   "Lorimer Road - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239825",
+   834,
+   "Lorimer Road - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239826",
+   835,
+   "Lorimer Road - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239827",
+   836,
+   "Hwy 99 at 16 Avenue - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239828",
+   837,
+   "Hwy 99 at 16 Avenue - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239829",
+   838,
+   "Hwy 99 at 16 Avenue - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239830",
+   839,
+   "Hwy 99 at 16 Avenue - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239831",
+   840,
+   "Yale - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239832",
+   841,
+   "Agassiz-Rosedale Bridge - N \u00b7 Hwy 9 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239833",
+   842,
+   "Annis Pit - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239834",
+   843,
+   "Hwy 11 at Clayburn Road - N \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239835",
+   844,
+   "Hwy 11 at Clayburn Road - W \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239836",
+   845,
+   "Hwy 11 at Clayburn Road - E \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239837",
+   846,
+   "Hwy 11 at Clayburn Road - S \u00b7 Hwy 11 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239838",
+   847,
+   "Lorimer Road - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239839",
+   848,
+   "Hwy 15 at 16 Avenue - W \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239840",
+   849,
+   "Hwy 15 at 16 Avenue - E \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239841",
+   850,
+   "Martin Road - N \u00b7 Hwy 35 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239842",
+   851,
+   "Ironworkers North approach - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239843",
+   852,
+   "Ironworkers North approach - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239844",
+   853,
+   "Mountain Highway - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239845",
+   854,
+   "Mountain Highway - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239846",
+   855,
+   "Ravine Way - N \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239847",
+   856,
+   "Ravine Way - W \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239848",
+   857,
+   "Ravine Way - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239849",
+   858,
+   "Ravine Way - S \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239850",
+   859,
+   "Hwy 16 at Toronto Street - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239851",
+   860,
+   "Needles Ferry Front - E \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239852",
+   861,
+   "Fauquier Ferry - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239853",
+   862,
+   "Bromley Rock - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239854",
+   863,
+   "Bromley Rock - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239855",
+   864,
+   "West Twin - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239856",
+   865,
+   "West Twin - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239857",
+   866,
+   "Hush Lake Road - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239858",
+   867,
+   "Pothole Lake - W \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239859",
+   868,
+   "Pothole Lake - E \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239860",
+   869,
+   "Qualicum Interchange - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239861",
+   870,
+   "Summit Lake Road - W \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239862",
+   871,
+   "Summit Lake Road - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239863",
+   872,
+   "McLeese Lake - W \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239864",
+   873,
+   "McLeese Lake - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239865",
+   874,
+   "Wire Cache - S \u00b7 Hwy 5 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239866",
+   875,
+   "Blaeberry - NW \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239867",
+   876,
+   "Blaeberry - SE \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239868",
+   877,
+   "Squilax - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239869",
+   878,
+   "Squilax - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239870",
+   879,
+   "Nelson - N \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239871",
+   880,
+   "Link Creek \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239872",
+   881,
+   "Irishman - N \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239873",
+   882,
+   "Irishman - S \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239874",
+   883,
+   "Panorama - W \u00b7 Hwy Toby Creek Road \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239875",
+   884,
+   "Panorama - E \u00b7 Hwy Toby Creek Road \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239876",
+   885,
+   "Whiskers Point - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239877",
+   886,
+   "Chetwynd - W \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239878",
+   887,
+   "Peace View Rest Area - NE \u00b7 Hwy 29 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239879",
+   888,
+   "Braden Road - W \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239880",
+   889,
+   "Braden Road - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239881",
+   890,
+   "Sheridan Lake - E \u00b7 Hwy 24 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239882",
+   891,
+   "Aspen Grove - N \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239883",
+   892,
+   "Terrace - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239884",
+   893,
+   "Tupper - W \u00b7 Hwy 2 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239885",
+   894,
+   "Alpine Way - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239886",
+   895,
+   "Alpine Way - W \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239887",
+   896,
+   "Alpine Way - E \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239888",
+   897,
+   "Alpine Way - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239889",
+   898,
+   "Herrling Island - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239890",
+   899,
+   "Herrling Island - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239891",
+   900,
+   "Whiskers Point - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239892",
+   901,
+   "Golden eastbound \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239893",
+   902,
+   "Golden southbound \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239894",
+   903,
+   "Hwy 1 at 176 Street - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239895",
+   904,
+   "Hwy 1 at 176 Street - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239896",
+   905,
+   "Hwy 1 at 176 Street - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239897",
+   906,
+   "Hwy 1 at 176 Street - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239898",
+   907,
+   "Gibsons Bypass - NE \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239899",
+   908,
+   "Gibsons Bypass - S \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239900",
+   909,
+   "Okotoks - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239901",
+   910,
+   "Okotoks - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239902",
+   911,
+   "Nanoose Rest Area - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239903",
+   912,
+   "Alexandra Bridge - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239904",
+   913,
+   "Alexandra Bridge - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239905",
+   914,
+   "Elkford - N \u00b7 Hwy 43 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239906",
+   915,
+   "Sooke - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239907",
+   916,
+   "Rosedale Overhead - N \u00b7 Hwy 9 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239908",
+   917,
+   "Rosedale Overhead - S \u00b7 Hwy 9 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239909",
+   918,
+   "Herrling Island Overpass - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239910",
+   919,
+   "Herrling Island Overpass - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239911",
+   920,
+   "Herrling Island Overpass - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239912",
+   921,
+   "Herrling Island Overpass - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239913",
+   922,
+   "Monte Creek Brake Check - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239914",
+   923,
+   "Monte Creek Brake Check - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239915",
+   924,
+   "Salmon Valley Road - N \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239916",
+   925,
+   "Salmon Valley Road - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239917",
+   926,
+   "Tunnel Hill - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239918",
+   927,
+   "Tunnel Hill - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239919",
+   928,
+   "Elko - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239920",
+   929,
+   "Elko - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239921",
+   930,
+   "Elko - S \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239922",
+   931,
+   "Tillicum - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239923",
+   932,
+   "Tillicum - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239924",
+   933,
+   "Tillicum - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239925",
+   934,
+   "Tillicum - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239926",
+   935,
+   "Yellow Lake - W \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239927",
+   936,
+   "Fort Fraser Hills \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239928",
+   937,
+   "Elkford - W \u00b7 Hwy 43 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239929",
+   938,
+   "Elkford - E \u00b7 Hwy 43 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239930",
+   939,
+   "Elkford - S \u00b7 Hwy 43 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239931",
+   940,
+   "Salmon Valley Road - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239932",
+   941,
+   "Mount Kobau - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239933",
+   942,
+   "Mount Kobau - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239934",
+   943,
+   "Martin Road - S \u00b7 Hwy 35 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239935",
+   944,
+   "Gibsons Bypass - N \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239936",
+   945,
+   "Cecil Lake Road \u00b7 Hwy Cecil Lake Rd \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239937",
+   946,
+   "Nanoose Rest Area - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239938",
+   947,
+   "Horne Lake Road - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239939",
+   948,
+   "Horne Lake Road - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239940",
+   949,
+   "Horne Lake Road - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239941",
+   950,
+   "Horne Lake Road - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239942",
+   951,
+   "Piercy Road - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239943",
+   952,
+   "Alexis Creek \u00b7 Hwy 20 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239944",
+   953,
+   "Piercy Road - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239945",
+   954,
+   "Nelson Street - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239946",
+   955,
+   "Port McNeill - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239947",
+   956,
+   "Port McNeill - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239948",
+   957,
+   "Prince George eastbound \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239949",
+   958,
+   "Prince George northbound \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239950",
+   959,
+   "Prince George southbound \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239951",
+   960,
+   "Prince George westbound \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239952",
+   961,
+   "Nelson Street - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239953",
+   965,
+   "Yellow Lake - E \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239954",
+   966,
+   "Tamarack \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239955",
+   967,
+   "Slim Creek - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239956",
+   968,
+   "Slim Creek - W \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239957",
+   969,
+   "Galena Bay Landing - Front \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239958",
+   970,
+   "Trutch \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239959",
+   971,
+   "Shuswap Hill - E \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239960",
+   972,
+   "Shuswap Hill - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239961",
+   973,
+   "Mary Hill Bypass - E \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239962",
+   974,
+   "Goldstream - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239963",
+   975,
+   "Goldstream - S \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239964",
+   976,
+   "Millstream Road - N \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239965",
+   977,
+   "Millstream Road - W \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239966",
+   978,
+   "Millstream Road - E \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239967",
+   979,
+   "South Taylor Hill - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239968",
+   980,
+   "Mile 73 - S \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239969",
+   981,
+   "Carey Road - NW \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239970",
+   982,
+   "Carey Road - SE \u00b7 Hwy 1 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "239971",
+   983,
+   "Barnston Island - N \u00b7 Hwy Barnston \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239972",
+   984,
+   "Barnston Island - W \u00b7 Hwy Barnston \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239973",
+   985,
+   "Port Kells - W \u00b7 Hwy Barnston \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239974",
+   986,
+   "Port Kells - E \u00b7 Hwy Barnston \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239975",
+   987,
+   "Hudson's Hope - NE \u00b7 Hwy 29 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239976",
+   988,
+   "Hudson's Hope - SW \u00b7 Hwy 29 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239977",
+   989,
+   "Spencer Pit - N \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239978",
+   990,
+   "Spencer Pit - S \u00b7 Hwy 27 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "239979",
+   991,
+   "Hwy 15 at 24 Avenue - N \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239980",
+   992,
+   "Hwy 15 at 24 Avenue - W \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239981",
+   993,
+   "Hwy 15 at 24 Avenue - E \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239982",
+   994,
+   "Hwy 15 at 24 Avenue - S \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239983",
+   995,
+   "Mary Hill Bypass at Broadway - N \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239984",
+   996,
+   "Mary Hill Bypass at Broadway - W \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239985",
+   997,
+   "Mary Hill Bypass at Broadway - E \u00b7 Hwy 7B \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239986",
+   998,
+   "Haney Bypass - NW \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239987",
+   999,
+   "Haney Bypass - SE \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239988",
+   1000,
+   "Lund - N \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239989",
+   1001,
+   "Lund - S \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239990",
+   1002,
+   "Quinn Creek - N \u00b7 Hwy 95 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239991",
+   1003,
+   "Quinn Creek - S \u00b7 Hwy 95 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239992",
+   1004,
+   "Goatfell - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239993",
+   1005,
+   "Goatfell - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "239994",
+   1006,
+   "Lynn Valley Road - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239995",
+   1007,
+   "Lynn Valley Road - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239996",
+   1008,
+   "Kanaka Way at Lougheed - northbound \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239997",
+   1009,
+   "Kanaka Way at Lougheed - westbound \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239998",
+   1010,
+   "Haney Bypass at Lougheed \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "239999",
+   1011,
+   "Kanaka Way at Lougheed - eastbound \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240000",
+   1012,
+   "Lougheed at Haney Bypass - N \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240001",
+   1013,
+   "Lougheed at Haney Bypass - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240002",
+   1014,
+   "Lougheed at Haney Bypass - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240003",
+   1015,
+   "Lougheed at Haney Bypass - S \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240004",
+   1016,
+   "Field - SE \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240005",
+   1017,
+   "Bednesti Lake - E \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240006",
+   1018,
+   "Bayshore Drive southbound \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240007",
+   1019,
+   "Bayshore Drive \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240008",
+   1020,
+   "Bayshore Drive northbound \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240009",
+   1021,
+   "Radium Hot Springs eastbound \u00b7 Hwy 93 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240010",
+   1022,
+   "Radium Hot Springs southbound \u00b7 Hwy 93 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240011",
+   1023,
+   "Blanket Creek - N \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240012",
+   1024,
+   "Blanket Creek - S \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240013",
+   1025,
+   "Rossland northbound \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240014",
+   1026,
+   "Rossland eastbound \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240015",
+   1027,
+   "Needles Ferry Rest Area \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240016",
+   1028,
+   "Needles Ferry Bend End \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240017",
+   1029,
+   "Ironworkers South eastbound \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240018",
+   1030,
+   "Balfour Ferry Ramp \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240019",
+   1031,
+   "Kootenay Bay Ferry Ramp \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240020",
+   1032,
+   "Hwy 19A at 17 Street Bridge - S \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240021",
+   1033,
+   "Hwy 19A at 17 Street Bridge - N \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240022",
+   1034,
+   "Hwy 19A at Ryan Road - N \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240023",
+   1035,
+   "Hwy 19A at Ryan Road - S \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240024",
+   1036,
+   "Hwy 19A at Ryan Road - W \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240025",
+   1037,
+   "Hwy 19A at Ryan Road - E \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240026",
+   1038,
+   "Hwy 19A at 17 Street Bridge - W \u00b7 Hwy 19A \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240027",
+   1039,
+   "Terrace - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240028",
+   1040,
+   "Gitanyow - N \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240029",
+   1041,
+   "Gitanyow - S \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240030",
+   1042,
+   "Sayward Road - E \u00b7 Hwy 17 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240031",
+   1043,
+   "Needles Ferry Bend Middle \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240032",
+   1044,
+   "Mad River - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240033",
+   1045,
+   "Mad River - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240034",
+   1046,
+   "Menzies Hill - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240035",
+   1047,
+   "Menzies Hill - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240036",
+   1048,
+   "Arrow Park Ferry South Terminal - N \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240037",
+   1049,
+   "Arrow Park Ferry North Terminal \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240038",
+   1050,
+   "Arrow Park Ferry South Terminal - S \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240039",
+   1051,
+   "Bull Mountain - N \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240040",
+   1052,
+   "Bull Mountain - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240041",
+   1053,
+   "Fauquier at Starlite Road - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240042",
+   1054,
+   "Fauquier at Starlite Road - E \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240043",
+   1055,
+   "Hwy 97D at Hwy 5 - SW \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240044",
+   1056,
+   "Hwy 5 at Hwy 97D northbound \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240045",
+   1057,
+   "Hwy 97D at Hwy 5 - NE \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240046",
+   1058,
+   "Hwy 5 at Hwy 97D southbound \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240047",
+   1059,
+   "Kamloops - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240048",
+   1062,
+   "Valley Drive - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240049",
+   1063,
+   "Valley Drive - S \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240050",
+   1064,
+   "Similkameen Falls - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240051",
+   1065,
+   "Similkameen Falls - E \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240052",
+   1066,
+   "Taylor River - W \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240053",
+   1067,
+   "Taylor River - E \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240054",
+   1068,
+   "Mountain Highway - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240055",
+   1069,
+   "Mountain Highway - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240056",
+   1070,
+   "Horseshoe Bay - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240057",
+   1071,
+   "Balfour Ferry Approach - SW \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240058",
+   1072,
+   "Balfour Ferry Approach - NE \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240059",
+   1074,
+   "Balfour Ferry Busk Road Parking \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240060",
+   1076,
+   "Hush Lake Road - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240061",
+   1077,
+   "Hyde Creek Road - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240062",
+   1078,
+   "Hyde Creek Road - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240063",
+   1079,
+   "Duncan Bay - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240064",
+   1080,
+   "Duncan Bay - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240065",
+   1081,
+   "Lantzville - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240066",
+   1082,
+   "Lantzville - S \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240067",
+   1083,
+   "Francois Lake Northbank Ferry Landing \u00b7 Hwy 35 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240068",
+   1084,
+   "Ucluelet-Tofino Highway - E \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240069",
+   1085,
+   "Ucluelet-Tofino Highway - S \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240070",
+   1087,
+   "Glinz Lake Road - N \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240071",
+   1088,
+   "Glinz Lake Road - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240072",
+   1089,
+   "Glinz Lake Road - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240073",
+   1090,
+   "Steamboat- NW \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240074",
+   1091,
+   "Steamboat - SE \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240075",
+   1092,
+   "Gillespie Road - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240076",
+   1093,
+   "Gillespie Road - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240077",
+   1094,
+   "Adams Lake East Ferry Landing \u00b7 Hwy Adams Lake \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240078",
+   1095,
+   "Adams Lake West Ferry Landing \u00b7 Hwy Adams Lake \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240079",
+   1096,
+   "Vedder Canal Bridge - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240080",
+   1097,
+   "Vedder Canal Bridge - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240081",
+   1098,
+   "Salmon Arm - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240082",
+   1099,
+   "Salmon Arm - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240083",
+   1100,
+   "Salmon Arm - S \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240084",
+   1101,
+   "Salmon Arm - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240085",
+   1102,
+   "Adams Lake West Ferry Lineup \u00b7 Hwy Adams Lake \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240086",
+   1103,
+   "Gladwin - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240087",
+   1104,
+   "Gladwin - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240088",
+   1105,
+   "Jackass Mountain - N \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240089",
+   1106,
+   "Hwy 15 at 88 Avenue - N \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240090",
+   1107,
+   "Hwy 15 at 88 Avenue - W \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240091",
+   1108,
+   "Hwy 15 at 88 Avenue - E \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240092",
+   1109,
+   "Hwy 15 at 88 Avenue - S \u00b7 Hwy 15 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240093",
+   1110,
+   "Little Fort north - N \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240094",
+   1111,
+   "Little Fort north - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240095",
+   1112,
+   "Allison Pass - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240096",
+   1113,
+   "Trout Lake - W \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240097",
+   1114,
+   "Trout Lake - E \u00b7 Hwy 101 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240098",
+   1115,
+   "Blundell - N \u00b7 Hwy 99 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240099",
+   1116,
+   "Glade Ferry Terminal - N \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240100",
+   1117,
+   "Glade Ferry Terminal - W \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240101",
+   1118,
+   "Glade Ferry Terminal - E \u00b7 Hwy 3A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240102",
+   1119,
+   "Hwy 14 at West Shore Parkway - N \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240103",
+   1120,
+   "Hwy 14 at West Shore Parkway - W \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240104",
+   1121,
+   "Hwy 14 at West Shore Parkway - E \u00b7 Hwy 14 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240105",
+   1122,
+   "Lumby - W \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240106",
+   1123,
+   "Hwy 1 at 216 Street - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240107",
+   1124,
+   "Hwy 1 at 216 Street - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240108",
+   1125,
+   "Lumby - E \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240109",
+   1126,
+   "Hwy 1 at 200 Street - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240110",
+   1127,
+   "Hwy 1 at 200 Street - W \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240111",
+   1128,
+   "Hwy 1 at 200 Street - E \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240112",
+   1129,
+   "Hwy 1 at 200 Street - S \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240113",
+   1130,
+   "McCulloch - S \u00b7 Hwy 33 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240114",
+   1132,
+   "Highland Valley Road - S \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240115",
+   1133,
+   "Augier Road - N \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240116",
+   1134,
+   "Augier Road - S \u00b7 Hwy 16 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240117",
+   1135,
+   "Highlands Boulevard - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240118",
+   1136,
+   "Mica Dam - N \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240119",
+   1137,
+   "Galena Road - W \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240120",
+   1138,
+   "Galena Road - E \u00b7 Hwy 31 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240121",
+   1139,
+   "Castlegar - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240122",
+   1140,
+   "Christina Lake - SE \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240123",
+   1141,
+   "Racetrack - N \u00b7 Hwy 5A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240124",
+   1142,
+   "Racetrack - S \u00b7 Hwy 5A \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240125",
+   1143,
+   "Highbridge - S \u00b7 Hwy 33 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240126",
+   1144,
+   "Comstock - S \u00b7 Hwy 5 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240127",
+   1145,
+   "Port Hardy - W \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240128",
+   1146,
+   "Port Hardy - N \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240129",
+   1147,
+   "Port Hardy - E \u00b7 Hwy 19 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240130",
+   1148,
+   "Shelter Bay - Ferry Ramp \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240131",
+   1149,
+   "Galena Bay Landing - Lineup \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240132",
+   1150,
+   "Galena Bay Landing - Ferry Ramp \u00b7 Hwy 23 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240133",
+   1151,
+   "Creston - N \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240134",
+   1152,
+   "Creston - W \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240135",
+   1153,
+   "Trail - W \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240136",
+   1154,
+   "Nakusp - N \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240137",
+   1155,
+   "Sunday Summit - S \u00b7 Hwy 3 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240138",
+   1156,
+   "Pennask Summit - E \u00b7 Hwy 97C \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240139",
+   1157,
+   "Quartz Creek - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240140",
+   1158,
+   "Good Hope Lake - S \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240141",
+   1159,
+   "Strawberry Pass - SE \u00b7 Hwy 3B \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240142",
+   1160,
+   "Kelowna - S \u00b7 Hwy 97 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240143",
+   1161,
+   "Jack McDonald Snowshed - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240144",
+   1162,
+   "Cross Creek - N \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240145",
+   1163,
+   "Slocan Lake - N \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240146",
+   1164,
+   "Hwy 10 at King George Boulevard - N \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240147",
+   1165,
+   "Hwy 10 at King George Boulevard - S \u00b7 Hwy 10 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240148",
+   1166,
+   "Slocan Lake - S \u00b7 Hwy 6 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240149",
+   1167,
+   "Mile 73 - E \u00b7 Hwy 97 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240150",
+   1168,
+   "Francois Lake Northbank Ferry Landing - S \u00b7 Hwy 35 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240151",
+   1169,
+   "Meziadin Junction - S \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240152",
+   1170,
+   "Tank Hill - W \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240153",
+   1171,
+   "Tank Hill - E \u00b7 Hwy 1 \u00b7 Southern Interior \u00b7 BC"
+  ],
+  [
+   "240154",
+   1172,
+   "Tsuma-as Drive - E \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240155",
+   1173,
+   "Tsuma-as Drive - W \u00b7 Hwy 4 \u00b7 Vancouver Island \u00b7 BC"
+  ],
+  [
+   "240156",
+   1174,
+   "Lougheed at 272 Street - SW \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240157",
+   1175,
+   "Lougheed at 272 Street - NE \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240158",
+   1176,
+   "Lougheed at 287 Street - W \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240159",
+   1177,
+   "Lougheed at 287 Street - E \u00b7 Hwy 7 \u00b7 Lower Mainland \u00b7 BC"
+  ],
+  [
+   "240160",
+   1180,
+   "Meziadin Junction - W \u00b7 Hwy 37 \u00b7 Northern \u00b7 BC"
+  ],
+  [
+   "240161",
+   1183,
+   "Cassiar Tunnel northbound \u00b7 Hwy 1 \u00b7 Lower Mainland \u00b7 BC"
+  ]
+ ],
+ "posters": {
+  "239100": "ok",
+  "239095": "ok",
+  "239097": "ok",
+  "239109": "ok",
+  "239104": "ok",
+  "239096": "ok",
+  "239107": "ok",
+  "239108": "ok",
+  "239102": "ok",
+  "239103": "ok",
+  "239101": "ok",
+  "239099": "ok",
+  "239105": "ok",
+  "239098": "ok",
+  "239106": "ok",
+  "239094": "ok",
+  "239110": "ok",
+  "239111": "ok",
+  "239112": "ok",
+  "239119": "ok",
+  "239120": "ok",
+  "239121": "ok",
+  "239122": "ok",
+  "239113": "ok",
+  "239115": "ok",
+  "239117": "ok",
+  "239118": "ok",
+  "239125": "ok",
+  "239114": "ok",
+  "239116": "ok",
+  "239123": "ok",
+  "239124": "ok",
+  "239126": "ok",
+  "239128": "ok",
+  "239129": "ok",
+  "239132": "ok",
+  "239137": "ok",
+  "239127": "ok",
+  "239138": "ok",
+  "239131": "ok",
+  "239130": "ok",
+  "239135": "ok",
+  "239133": "ok",
+  "239136": "ok",
+  "239134": "ok",
+  "239139": "ok",
+  "239140": "ok",
+  "239141": "ok",
+  "239142": "ok",
+  "239143": "ok",
+  "239144": "ok",
+  "239145": "ok",
+  "239147": "ok",
+  "239146": "ok",
+  "239153": "ok",
+  "239148": "ok",
+  "239157": "ok",
+  "239149": "ok",
+  "239156": "ok",
+  "239150": "ok",
+  "239151": "ok",
+  "239154": "ok",
+  "239152": "ok",
+  "239155": "ok",
+  "239159": "ok",
+  "239160": "ok",
+  "239158": "ok",
+  "239162": "ok",
+  "239163": "ok",
+  "239165": "ok",
+  "239166": "ok",
+  "239164": "ok",
+  "239167": "ok",
+  "239168": "ok",
+  "239170": "ok",
+  "239169": "ok",
+  "239161": "ok",
+  "239172": "ok",
+  "239171": "ok",
+  "239173": "ok",
+  "239177": "ok",
+  "239174": "ok",
+  "239175": "ok",
+  "239176": "ok",
+  "239182": "ok",
+  "239178": "ok",
+  "239179": "ok",
+  "239186": "ok",
+  "239181": "ok",
+  "239180": "ok",
+  "239188": "ok",
+  "239184": "ok",
+  "239183": "ok",
+  "239187": "ok",
+  "239185": "ok",
+  "239189": "ok",
+  "239193": "ok",
+  "239192": "ok",
+  "239190": "ok",
+  "239191": "ok",
+  "239199": "ok",
+  "239200": "ok",
+  "239194": "ok",
+  "239201": "ok",
+  "239196": "ok",
+  "239198": "ok",
+  "239195": "ok",
+  "239203": "ok",
+  "239197": "ok",
+  "239202": "ok",
+  "239204": "ok",
+  "239205": "ok",
+  "239206": "ok",
+  "239211": "ok",
+  "239208": "ok",
+  "239207": "ok",
+  "239209": "ok",
+  "239210": "ok",
+  "239212": "ok",
+  "239213": "ok",
+  "239214": "ok",
+  "239217": "ok",
+  "239220": "ok",
+  "239216": "ok",
+  "239218": "ok",
+  "239215": "ok",
+  "239221": "ok",
+  "239219": "ok",
+  "239222": "ok",
+  "239223": "ok",
+  "239228": "ok",
+  "239224": "ok",
+  "239231": "ok",
+  "239225": "ok",
+  "239234": "ok",
+  "239236": "ok",
+  "239226": "ok",
+  "239227": "ok",
+  "239230": "ok",
+  "239235": "ok",
+  "239232": "ok",
+  "239233": "ok",
+  "239238": "ok",
+  "239237": "ok",
+  "239239": "ok",
+  "239240": "ok",
+  "239241": "ok",
+  "239243": "ok",
+  "239244": "ok",
+  "239251": "ok",
+  "239252": "ok",
+  "239246": "ok",
+  "239242": "ok",
+  "239245": "ok",
+  "239247": "ok",
+  "239253": "ok",
+  "239248": "ok",
+  "239250": "ok",
+  "239249": "ok",
+  "239229": "ok",
+  "239254": "ok",
+  "239256": "ok",
+  "239258": "ok",
+  "239257": "ok",
+  "239255": "ok",
+  "239266": "ok",
+  "239259": "ok",
+  "239260": "ok",
+  "239267": "ok",
+  "239261": "ok",
+  "239262": "ok",
+  "239263": "ok",
+  "239264": "ok",
+  "239265": "ok",
+  "239268": "ok",
+  "239269": "ok",
+  "239270": "ok",
+  "239274": "ok",
+  "239271": "ok",
+  "239272": "ok",
+  "239273": "ok",
+  "239282": "ok",
+  "239275": "ok",
+  "239277": "ok",
+  "239280": "ok",
+  "239279": "ok",
+  "239278": "ok",
+  "239281": "ok",
+  "239283": "ok",
+  "239276": "ok",
+  "239284": "ok",
+  "239285": "ok",
+  "239286": "ok",
+  "239287": "ok",
+  "239288": "ok",
+  "239290": "ok",
+  "239289": "ok",
+  "239292": "ok",
+  "239296": "ok",
+  "239291": "ok",
+  "239293": "ok",
+  "239294": "ok",
+  "239295": "ok",
+  "239297": "ok",
+  "239298": "ok",
+  "239299": "ok",
+  "239300": "ok",
+  "239301": "ok",
+  "239302": "ok",
+  "239305": "ok",
+  "239309": "ok",
+  "239303": "ok",
+  "239304": "ok",
+  "239310": "ok",
+  "239312": "ok",
+  "239311": "ok",
+  "239306": "ok",
+  "239308": "ok",
+  "239307": "ok",
+  "239315": "ok",
+  "239313": "ok",
+  "239318": "ok",
+  "239314": "ok",
+  "239316": "ok",
+  "239324": "ok",
+  "239317": "ok",
+  "239319": "ok",
+  "239325": "ok",
+  "239320": "ok",
+  "239321": "ok",
+  "239322": "ok",
+  "239326": "ok",
+  "239323": "ok",
+  "239327": "ok",
+  "239328": "ok",
+  "239329": "ok",
+  "239330": "ok",
+  "239331": "ok",
+  "239332": "ok",
+  "239334": "ok",
+  "239335": "ok",
+  "239333": "ok",
+  "239336": "ok",
+  "239343": "ok",
+  "239344": "ok",
+  "239337": "ok",
+  "239338": "ok",
+  "239339": "ok",
+  "239340": "ok",
+  "239341": "ok",
+  "239345": "ok",
+  "239342": "ok",
+  "239346": "ok",
+  "239347": "ok",
+  "239348": "ok",
+  "239350": "ok",
+  "239351": "ok",
+  "239352": "ok",
+  "239349": "ok",
+  "239357": "ok",
+  "239360": "ok",
+  "239353": "ok",
+  "239354": "ok",
+  "239355": "ok",
+  "239356": "ok",
+  "239358": "ok",
+  "239359": "ok",
+  "239361": "ok",
+  "239363": "ok",
+  "239364": "ok",
+  "239365": "ok",
+  "239366": "ok",
+  "239362": "ok",
+  "239369": "ok",
+  "239368": "ok",
+  "239367": "ok",
+  "239370": "ok",
+  "239371": "ok",
+  "239373": "ok",
+  "239372": "ok",
+  "239374": "ok",
+  "239375": "ok",
+  "239376": "ok",
+  "239377": "ok",
+  "239379": "ok",
+  "239380": "ok",
+  "239378": "ok",
+  "239381": "ok",
+  "239382": "ok",
+  "239383": "ok",
+  "239384": "ok",
+  "239385": "ok",
+  "239386": "ok",
+  "239387": "ok",
+  "239393": "ok",
+  "239388": "ok",
+  "239389": "ok",
+  "239390": "ok",
+  "239392": "ok",
+  "239391": "ok",
+  "239395": "ok",
+  "239394": "ok",
+  "239396": "ok",
+  "239397": "ok",
+  "239398": "ok",
+  "239399": "ok",
+  "239400": "ok",
+  "239406": "ok",
+  "239401": "ok",
+  "239408": "ok",
+  "239402": "ok",
+  "239404": "ok",
+  "239403": "ok",
+  "239405": "ok",
+  "239407": "ok",
+  "239409": "ok",
+  "239410": "ok",
+  "239411": "ok",
+  "239412": "ok",
+  "239413": "ok",
+  "239414": "ok",
+  "239415": "ok",
+  "239416": "ok",
+  "239417": "ok",
+  "239418": "ok",
+  "239419": "ok",
+  "239420": "ok",
+  "239426": "ok",
+  "239421": "ok",
+  "239422": "ok",
+  "239423": "ok",
+  "239424": "ok",
+  "239425": "ok",
+  "239427": "ok",
+  "239428": "ok",
+  "239430": "ok",
+  "239432": "ok",
+  "239429": "ok",
+  "239431": "ok",
+  "239433": "ok",
+  "239434": "ok",
+  "239435": "ok",
+  "239437": "ok",
+  "239436": "ok",
+  "239438": "ok",
+  "239439": "ok",
+  "239442": "ok",
+  "239441": "ok",
+  "239444": "ok",
+  "239446": "ok",
+  "239443": "ok",
+  "239445": "ok",
+  "239447": "ok",
+  "239450": "ok",
+  "239440": "ok",
+  "239451": "ok",
+  "239448": "ok",
+  "239453": "ok",
+  "239452": "ok",
+  "239449": "ok",
+  "239455": "ok",
+  "239454": "ok",
+  "239456": "ok",
+  "239457": "ok",
+  "239458": "ok",
+  "239459": "ok",
+  "239460": "ok",
+  "239470": "ok",
+  "239461": "ok",
+  "239466": "ok",
+  "239467": "ok",
+  "239463": "ok",
+  "239462": "ok",
+  "239465": "ok",
+  "239464": "ok",
+  "239468": "ok",
+  "239469": "ok",
+  "239471": "ok",
+  "239472": "ok",
+  "239473": "ok",
+  "239480": "ok",
+  "239474": "ok",
+  "239477": "ok",
+  "239479": "ok",
+  "239475": "ok",
+  "239476": "ok",
+  "239482": "ok",
+  "239483": "ok",
+  "239478": "ok",
+  "239486": "ok",
+  "239485": "ok",
+  "239481": "ok",
+  "239484": "ok",
+  "239487": "ok",
+  "239489": "ok",
+  "239495": "ok",
+  "239490": "ok",
+  "239492": "ok",
+  "239488": "ok",
+  "239491": "ok",
+  "239493": "ok",
+  "239494": "ok",
+  "239496": "ok",
+  "239498": "ok",
+  "239497": "ok",
+  "239499": "ok",
+  "239500": "ok",
+  "239501": "ok",
+  "239502": "ok",
+  "239505": "ok",
+  "239503": "ok",
+  "239504": "ok",
+  "239506": "ok",
+  "239507": "ok",
+  "239508": "ok",
+  "239515": "ok",
+  "239509": "ok",
+  "239513": "ok",
+  "239510": "ok",
+  "239511": "ok",
+  "239512": "ok",
+  "239514": "ok",
+  "239516": "ok",
+  "239517": "ok",
+  "239518": "ok",
+  "239521": "ok",
+  "239520": "ok",
+  "239519": "ok",
+  "239527": "ok",
+  "239522": "ok",
+  "239523": "ok",
+  "239524": "ok",
+  "239525": "ok",
+  "239526": "ok",
+  "239529": "ok",
+  "239528": "ok",
+  "239530": "ok",
+  "239535": "ok",
+  "239532": "ok",
+  "239533": "ok",
+  "239531": "ok",
+  "239534": "ok",
+  "239536": "ok",
+  "239537": "ok",
+  "239538": "ok",
+  "239539": "ok",
+  "239540": "ok",
+  "239541": "ok",
+  "239542": "ok",
+  "239543": "ok",
+  "239545": "ok",
+  "239544": "ok",
+  "239546": "ok",
+  "239547": "ok",
+  "239548": "ok",
+  "239549": "ok",
+  "239550": "ok",
+  "239551": "ok",
+  "239553": "ok",
+  "239552": "ok",
+  "239554": "ok",
+  "239560": "ok",
+  "239563": "ok",
+  "239561": "ok",
+  "239562": "ok",
+  "239559": "ok",
+  "239556": "ok",
+  "239558": "ok",
+  "239567": "ok",
+  "239555": "ok",
+  "239566": "ok",
+  "239565": "ok",
+  "239569": "ok",
+  "239568": "ok",
+  "239564": "ok",
+  "239557": "ok",
+  "239570": "ok",
+  "239571": "ok",
+  "239578": "ok",
+  "239572": "ok",
+  "239575": "ok",
+  "239585": "ok",
+  "239573": "ok",
+  "239583": "ok",
+  "239574": "ok",
+  "239586": "ok",
+  "239576": "ok",
+  "239577": "ok",
+  "239579": "ok",
+  "239581": "ok",
+  "239580": "ok",
+  "239584": "ok",
+  "239582": "ok",
+  "239587": "ok",
+  "239588": "ok",
+  "239595": "ok",
+  "239589": "ok",
+  "239592": "ok",
+  "239590": "ok",
+  "239591": "ok",
+  "239594": "ok",
+  "239593": "ok",
+  "239597": "ok",
+  "239596": "ok",
+  "239599": "ok",
+  "239598": "ok",
+  "239601": "ok",
+  "239600": "ok",
+  "239602": "ok",
+  "239604": "ok",
+  "239607": "ok",
+  "239603": "ok",
+  "239605": "ok",
+  "239606": "ok",
+  "239608": "ok",
+  "239609": "ok",
+  "239610": "ok",
+  "239611": "ok",
+  "239613": "ok",
+  "239612": "ok",
+  "239615": "ok",
+  "239614": "ok",
+  "239616": "ok",
+  "239618": "ok",
+  "239617": "ok",
+  "239621": "ok",
+  "239620": "ok",
+  "239626": "ok",
+  "239619": "ok",
+  "239622": "ok",
+  "239628": "ok",
+  "239623": "ok",
+  "239625": "ok",
+  "239624": "ok",
+  "239627": "ok",
+  "239630": "ok",
+  "239629": "ok",
+  "239631": "ok",
+  "239632": "ok",
+  "239634": "ok",
+  "239633": "ok",
+  "239635": "ok",
+  "239636": "ok",
+  "239637": "ok",
+  "239638": "ok",
+  "239639": "ok",
+  "239640": "ok",
+  "239641": "ok",
+  "239642": "ok",
+  "239644": "ok",
+  "239643": "ok",
+  "239645": "ok",
+  "239647": "ok",
+  "239648": "ok",
+  "239646": "ok",
+  "239650": "ok",
+  "239649": "ok",
+  "239651": "ok",
+  "239652": "ok",
+  "239653": "ok",
+  "239654": "ok",
+  "239655": "ok",
+  "239656": "ok",
+  "239657": "ok",
+  "239658": "ok",
+  "239660": "ok",
+  "239659": "ok",
+  "239661": "ok",
+  "239662": "ok",
+  "239663": "ok",
+  "239664": "ok",
+  "239665": "ok",
+  "239666": "ok",
+  "239667": "ok",
+  "239668": "ok",
+  "239669": "ok",
+  "239670": "ok",
+  "239671": "ok",
+  "239672": "ok",
+  "239673": "ok",
+  "239674": "ok",
+  "239675": "ok",
+  "239682": "ok",
+  "239676": "ok",
+  "239678": "ok",
+  "239677": "ok",
+  "239679": "ok",
+  "239680": "ok",
+  "239681": "ok",
+  "239683": "ok",
+  "239684": "ok",
+  "239686": "ok",
+  "239685": "ok",
+  "239687": "ok",
+  "239688": "ok",
+  "239689": "ok",
+  "239694": "ok",
+  "239691": "ok",
+  "239692": "ok",
+  "239690": "ok",
+  "239693": "ok",
+  "239695": "ok",
+  "239697": "ok",
+  "239696": "ok",
+  "239698": "ok",
+  "239699": "ok",
+  "239700": "ok",
+  "239701": "ok",
+  "239711": "ok",
+  "239702": "ok",
+  "239703": "ok",
+  "239704": "ok",
+  "239706": "ok",
+  "239705": "ok",
+  "239708": "ok",
+  "239709": "ok",
+  "239707": "ok",
+  "239710": "ok",
+  "239713": "ok",
+  "239712": "ok",
+  "239715": "ok",
+  "239714": "ok",
+  "239716": "ok",
+  "239717": "ok",
+  "239718": "ok",
+  "239719": "ok",
+  "239720": "ok",
+  "239721": "ok",
+  "239723": "ok",
+  "239722": "ok",
+  "239725": "ok",
+  "239726": "ok",
+  "239724": "ok",
+  "239727": "ok",
+  "239728": "ok",
+  "239729": "ok",
+  "239731": "ok",
+  "239730": "ok",
+  "239732": "ok",
+  "239733": "ok",
+  "239734": "ok",
+  "239735": "ok",
+  "239736": "ok",
+  "239737": "ok",
+  "239739": "ok",
+  "239738": "ok",
+  "239741": "ok",
+  "239740": "ok",
+  "239743": "ok",
+  "239742": "ok",
+  "239744": "ok",
+  "239745": "ok",
+  "239747": "ok",
+  "239746": "ok",
+  "239748": "ok",
+  "239749": "ok",
+  "239750": "ok",
+  "239754": "ok",
+  "239751": "ok",
+  "239756": "ok",
+  "239757": "ok",
+  "239752": "ok",
+  "239753": "ok",
+  "239755": "ok",
+  "239758": "ok",
+  "239759": "ok",
+  "239761": "ok",
+  "239760": "ok",
+  "239762": "ok",
+  "239763": "ok",
+  "239764": "ok",
+  "239768": "ok",
+  "239765": "ok",
+  "239767": "ok",
+  "239766": "ok",
+  "239769": "ok",
+  "239771": "ok",
+  "239770": "ok",
+  "239772": "ok",
+  "239773": "ok",
+  "239774": "ok",
+  "239775": "ok",
+  "239776": "ok",
+  "239777": "ok",
+  "239778": "ok",
+  "239779": "ok",
+  "239780": "ok",
+  "239781": "ok",
+  "239782": "ok",
+  "239783": "ok",
+  "239784": "ok",
+  "239785": "ok",
+  "239786": "ok",
+  "239787": "ok",
+  "239788": "ok",
+  "239789": "ok",
+  "239790": "ok",
+  "239792": "ok",
+  "239791": "ok",
+  "239793": "ok",
+  "239794": "ok",
+  "239795": "ok",
+  "239800": "ok",
+  "239797": "ok",
+  "239796": "ok",
+  "239801": "ok",
+  "239798": "ok",
+  "239799": "ok",
+  "239803": "ok",
+  "239802": "ok",
+  "239804": "ok",
+  "239805": "ok",
+  "239809": "ok",
+  "239806": "ok",
+  "239807": "ok",
+  "239808": "ok",
+  "239810": "ok",
+  "239817": "ok",
+  "239812": "ok",
+  "239811": "ok",
+  "239814": "ok",
+  "239813": "ok",
+  "239815": "ok",
+  "239816": "ok",
+  "239819": "ok",
+  "239818": "ok",
+  "239820": "ok",
+  "239822": "ok",
+  "239821": "ok",
+  "239823": "ok",
+  "239825": "ok",
+  "239824": "ok",
+  "239826": "ok",
+  "239827": "ok",
+  "239831": "ok",
+  "239833": "ok",
+  "239828": "ok",
+  "239829": "ok",
+  "239830": "ok",
+  "239832": "ok",
+  "239838": "ok",
+  "239834": "ok",
+  "239835": "ok",
+  "239836": "ok",
+  "239837": "ok",
+  "239839": "ok",
+  "239840": "ok",
+  "239841": "ok",
+  "239842": "ok",
+  "239843": "ok",
+  "239844": "ok",
+  "239845": "ok",
+  "239846": "ok",
+  "239847": "ok",
+  "239848": "ok",
+  "239853": "ok",
+  "239850": "ok",
+  "239855": "ok",
+  "239854": "ok",
+  "239856": "ok",
+  "239857": "ok",
+  "239851": "ok",
+  "239852": "ok",
+  "239858": "ok",
+  "239859": "ok",
+  "239867": "ok",
+  "239866": "ok",
+  "239863": "ok",
+  "239864": "ok",
+  "239871": "ok",
+  "239865": "ok",
+  "239868": "ok",
+  "239869": "ok",
+  "239860": "ok",
+  "239861": "ok",
+  "239849": "ok",
+  "239872": "ok",
+  "239862": "ok",
+  "239870": "ok",
+  "239873": "ok",
+  "239874": "ok",
+  "239876": "ok",
+  "239875": "ok",
+  "239878": "ok",
+  "239879": "ok",
+  "239880": "ok",
+  "239881": "ok",
+  "239877": "ok",
+  "239882": "ok",
+  "239883": "ok",
+  "239884": "ok",
+  "239885": "ok",
+  "239886": "ok",
+  "239887": "ok",
+  "239888": "ok",
+  "239889": "ok",
+  "239891": "ok",
+  "239890": "ok",
+  "239892": "ok",
+  "239893": "ok",
+  "239895": "ok",
+  "239896": "ok",
+  "239897": "ok",
+  "239894": "ok",
+  "239898": "ok",
+  "239899": "ok",
+  "239900": "ok",
+  "239901": "ok",
+  "239902": "ok",
+  "239903": "ok",
+  "239904": "ok",
+  "239909": "ok",
+  "239905": "ok",
+  "239906": "ok",
+  "239910": "ok",
+  "239911": "ok",
+  "239908": "ok",
+  "239912": "ok",
+  "239907": "ok",
+  "239913": "ok",
+  "239914": "ok",
+  "239920": "ok",
+  "239919": "ok",
+  "239927": "ok",
+  "239921": "ok",
+  "239916": "ok",
+  "239915": "ok",
+  "239918": "ok",
+  "239917": "ok",
+  "239926": "ok",
+  "239929": "ok",
+  "239922": "ok",
+  "239924": "ok",
+  "239923": "ok",
+  "239925": "ok",
+  "239928": "ok",
+  "239930": "ok",
+  "239931": "ok",
+  "239936": "ok",
+  "239933": "ok",
+  "239932": "ok",
+  "239934": "ok",
+  "239935": "ok",
+  "239937": "ok",
+  "239938": "ok",
+  "239943": "ok",
+  "239939": "ok",
+  "239941": "ok",
+  "239940": "ok",
+  "239942": "ok",
+  "239945": "ok",
+  "239944": "ok",
+  "239946": "ok",
+  "239954": "ok",
+  "239947": "ok",
+  "239950": "ok",
+  "239951": "ok",
+  "239949": "ok",
+  "239948": "ok",
+  "239953": "ok",
+  "239955": "ok",
+  "239956": "ok",
+  "239952": "ok",
+  "239958": "ok",
+  "239957": "ok",
+  "239960": "ok",
+  "239959": "ok",
+  "239961": "ok",
+  "239967": "ok",
+  "239962": "ok",
+  "239973": "ok",
+  "239974": "ok",
+  "239963": "ok",
+  "239964": "ok",
+  "239965": "ok",
+  "239966": "ok",
+  "239968": "ok",
+  "239969": "ok",
+  "239970": "ok",
+  "239975": "ok",
+  "239971": "ok",
+  "239972": "ok",
+  "239976": "ok",
+  "239977": "ok",
+  "239978": "ok",
+  "239979": "ok",
+  "239980": "ok",
+  "239981": "ok",
+  "239983": "ok",
+  "239982": "ok",
+  "239990": "ok",
+  "239985": "ok",
+  "239986": "ok",
+  "239984": "ok",
+  "239991": "ok",
+  "239987": "ok",
+  "239992": "ok",
+  "239988": "ok",
+  "239989": "ok",
+  "239993": "ok",
+  "240001": "ok",
+  "240002": "ok",
+  "240000": "ok",
+  "240003": "ok",
+  "239994": "ok",
+  "239995": "ok",
+  "239996": "ok",
+  "239997": "ok",
+  "239998": "ok",
+  "239999": "ok",
+  "240004": "ok",
+  "240005": "ok",
+  "240006": "ok",
+  "240008": "ok",
+  "240009": "ok",
+  "240007": "ok",
+  "240012": "ok",
+  "240011": "ok",
+  "240010": "ok",
+  "240013": "ok",
+  "240014": "ok",
+  "240020": "ok",
+  "240015": "ok",
+  "240016": "ok",
+  "240017": "ok",
+  "240018": "ok",
+  "240019": "ok",
+  "240022": "ok",
+  "240021": "ok",
+  "240023": "ok",
+  "240024": "ok",
+  "240025": "ok",
+  "240028": "ok",
+  "240026": "ok",
+  "240027": "ok",
+  "240029": "ok",
+  "240032": "ok",
+  "240030": "ok",
+  "240034": "ok",
+  "240033": "ok",
+  "240035": "ok",
+  "240036": "ok",
+  "240031": "ok",
+  "240037": "ok",
+  "240039": "ok",
+  "240040": "ok",
+  "240038": "ok",
+  "240041": "ok",
+  "240042": "ok",
+  "240043": "ok",
+  "240044": "ok",
+  "240045": "ok",
+  "240050": "ok",
+  "240051": "ok",
+  "240052": "ok",
+  "240046": "ok",
+  "240047": "ok",
+  "240048": "ok",
+  "240049": "ok",
+  "240053": "ok",
+  "240054": "ok",
+  "240055": "ok",
+  "240056": "ok",
+  "240060": "ok",
+  "240058": "ok",
+  "240057": "ok",
+  "240059": "ok",
+  "240065": "ok",
+  "240064": "ok",
+  "240061": "ok",
+  "240066": "ok",
+  "240062": "ok",
+  "240063": "ok",
+  "240069": "ok",
+  "240067": "ok",
+  "240068": "ok",
+  "240070": "ok",
+  "240073": "ok",
+  "240071": "ok",
+  "240072": "ok",
+  "240074": "ok",
+  "240077": "ok",
+  "240079": "ok",
+  "240075": "ok",
+  "240076": "ok",
+  "240078": "ok",
+  "240080": "ok",
+  "240081": "ok",
+  "240082": "ok",
+  "240083": "ok",
+  "240084": "ok",
+  "240085": "ok",
+  "240086": "ok",
+  "240087": "ok",
+  "240091": "ok",
+  "240088": "ok",
+  "240089": "ok",
+  "240090": "ok",
+  "240092": "ok",
+  "240096": "ok",
+  "240097": "ok",
+  "240093": "ok",
+  "240094": "ok",
+  "240095": "ok",
+  "240100": "ok",
+  "240101": "ok",
+  "240098": "ok",
+  "240099": "ok",
+  "240102": "ok",
+  "240103": "ok",
+  "240104": "ok",
+  "240105": "ok",
+  "240106": "ok",
+  "240107": "ok",
+  "240113": "ok",
+  "240108": "ok",
+  "240109": "ok",
+  "240110": "ok",
+  "240111": "ok",
+  "240112": "ok",
+  "240114": "ok",
+  "240115": "ok",
+  "240119": "ok",
+  "240116": "ok",
+  "240117": "ok",
+  "240118": "ok",
+  "240120": "ok",
+  "240123": "ok",
+  "240121": "ok",
+  "240124": "ok",
+  "240125": "ok",
+  "240122": "ok",
+  "240126": "ok",
+  "240127": "ok",
+  "240128": "ok",
+  "240129": "ok",
+  "240131": "ok",
+  "240132": "ok",
+  "240133": "ok",
+  "240134": "ok",
+  "240130": "ok",
+  "240137": "ok",
+  "240135": "ok",
+  "240136": "ok",
+  "240139": "ok",
+  "240138": "ok",
+  "240141": "ok",
+  "240140": "ok",
+  "240145": "ok",
+  "240142": "ok",
+  "240143": "ok",
+  "240144": "ok",
+  "240148": "ok",
+  "240151": "ok",
+  "240146": "ok",
+  "240147": "ok",
+  "240152": "ok",
+  "240153": "ok",
+  "240154": "ok",
+  "240150": "ok",
+  "240155": "ok",
+  "240149": "ok",
+  "240156": "ok",
+  "240157": "ok",
+  "240158": "ok",
+  "240159": "ok",
+  "240160": "ok",
+  "240161": "ok"
+ }
+}
