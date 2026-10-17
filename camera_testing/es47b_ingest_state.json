@@ -1,0 +1,34 @@
+{
+ "written": [
+  [
+   "240278",
+   "vdc-valdezcaray-debutantes",
+   "vdc",
+   "https://www.valdezcaray.es/webcam/Debutantes/debutantes.jpg"
+  ],
+  [
+   "240279",
+   "vdq-valdesqui-parking",
+   "vdq",
+   "https://valdesqui.es/~cam/parkingnew.jpg?version=6572"
+  ],
+  [
+   "240280",
+   "cnt-alto-campoo-valle",
+   "cnt",
+   "https://cantur.com/camaras/VALLE/VALLE.jpg"
+  ],
+  [
+   "240281",
+   "esp-portalet-frontera",
+   "esp",
+   "https://www.espalet.eu/webcams/Frontera_18008/000M.jpg"
+  ]
+ ],
+ "posters": {
+  "240280": "ok-fetch",
+  "240281": "ok-fetch",
+  "240278": "ok-fetch",
+  "240279": "ok-fetch"
+ }
+}

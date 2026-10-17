@@ -1,0 +1,30 @@
+{
+ "vdc": {
+  "lat": "42.2525462",
+  "lon": "-2.9693047",
+  "display": "Estaci\u00f3n de esqu\u00ed de Valdezcaray, Rehoyo, Ezcaray, La Rioja, Espa\u00f1a",
+  "cls": "leisure",
+  "type": "sports_centre"
+ },
+ "cnt": {
+  "lat": "43.0368534",
+  "lon": "-4.3868739",
+  "display": "Estaci\u00f3n de Esqu\u00ed y Monta\u00f1a Alto Campoo, Senda al pico Tres Mares, Hermandad de Campoo de ",
+  "cls": "leisure",
+  "type": "pitch"
+ },
+ "vdq": {
+  "lat": "40.8047834",
+  "lon": "-3.9698332",
+  "display": "Valdesqu\u00ed, Sexmo de Lozoya, Comunidad de Ciudad y Tierra de Segovia, Rascafr\u00eda, Comunidad ",
+  "cls": "place",
+  "type": "locality"
+ },
+ "esp": {
+  "lat": "42.8058922",
+  "lon": "-0.4184723",
+  "display": "Col du Pourtalet, Laruns, Oloron-Sainte-Marie, Pyr\u00e9n\u00e9es-Atlantiques, Nouvelle-Aquitaine, F",
+  "cls": "mountain_pass",
+  "type": "yes"
+ }
+}
