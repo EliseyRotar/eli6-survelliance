@@ -1,0 +1,1839 @@
+jsonCallback({
+  "type" : "FeatureCollection",
+  "name" : "Cámaras de tráfico de Euskadi",
+  "features" : [ {
+    "id" : 1,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.673754, 43.18725 ]
+    },
+    "properties" : {
+      "index" : "1",
+      "title" : "Iurreta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/819.jpg",
+      "road" : "A-8",
+      "pk" : "91.000"
+    }
+  }, {
+    "id" : 2,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.719359, 43.21167 ]
+    },
+    "properties" : {
+      "index" : "2",
+      "title" : "Montorra",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/820.jpg",
+      "road" : "A-8",
+      "pk" : "96.000"
+    }
+  }, {
+    "id" : 3,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.768933, 43.23135 ]
+    },
+    "properties" : {
+      "index" : "3",
+      "title" : "Boroa 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/821.jpg",
+      "road" : "A-8",
+      "pk" : "101.000"
+    }
+  }, {
+    "id" : 4,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.968328, 43.305725 ]
+    },
+    "properties" : {
+      "index" : "4",
+      "title" : "Loiola",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/806.jpg",
+      "road" : "GI-20",
+      "pk" : "8.500"
+    }
+  }, {
+    "id" : 5,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.986157, 43.29769 ]
+    },
+    "properties" : {
+      "index" : "5",
+      "title" : "Amara",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/807.jpg",
+      "road" : "GI-20",
+      "pk" : "11.000"
+    }
+  }, {
+    "id" : 6,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.009245, 43.29824 ]
+    },
+    "properties" : {
+      "index" : "6",
+      "title" : "Ondarreta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/809.jpg",
+      "road" : "GI-20",
+      "pk" : "13.000"
+    }
+  }, {
+    "id" : 7,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.402644, 43.23597 ]
+    },
+    "properties" : {
+      "index" : "7",
+      "title" : "Elgoibar 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/816.jpg",
+      "road" : "A-8",
+      "pk" : "64.500"
+    }
+  }, {
+    "id" : 8,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.40303, 43.22909 ]
+    },
+    "properties" : {
+      "index" : "8",
+      "title" : "Elgoibar 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/815.jpg",
+      "road" : "A-8",
+      "pk" : "64.500"
+    }
+  }, {
+    "id" : 9,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.067865, 43.29204 ]
+    },
+    "properties" : {
+      "index" : "9",
+      "title" : "Orio 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/812.jpg",
+      "road" : "A-8",
+      "pk" : "30.500"
+    }
+  }, {
+    "id" : 10,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.067674, 43.29223 ]
+    },
+    "properties" : {
+      "index" : "10",
+      "title" : "Orio 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/811.jpg",
+      "road" : "A-8",
+      "pk" : "30.500"
+    }
+  }, {
+    "id" : 11,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.982466, 43.245742 ]
+    },
+    "properties" : {
+      "index" : "11",
+      "title" : "Arbuio",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3601.jpg",
+      "road" : "BI-636",
+      "pk" : "7.000"
+    }
+  }, {
+    "id" : 12,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.939664, 43.24759 ]
+    },
+    "properties" : {
+      "index" : "12",
+      "title" : "Rekalde",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/830.jpg",
+      "road" : "A-8",
+      "pk" : "116.000"
+    }
+  }, {
+    "id" : 13,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.05021, 43.32347 ]
+    },
+    "properties" : {
+      "index" : "13",
+      "title" : "Puerto Santurtzi",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/4402.jpg",
+      "road" : "N-644",
+      "pk" : "130.100"
+    }
+  }, {
+    "id" : 14,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.87084, 43.23717 ]
+    },
+    "properties" : {
+      "index" : "14",
+      "title" : "Basauri",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3403.jpg",
+      "road" : "N-634",
+      "pk" : "104.000"
+    }
+  }, {
+    "id" : 15,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.784901, 42.94593 ]
+    },
+    "properties" : {
+      "index" : "15",
+      "title" : "Aiurdin",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2202.jpg",
+      "road" : "N-622",
+      "pk" : "16.000"
+    }
+  }, {
+    "id" : 17,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.985413, 43.28106 ]
+    },
+    "properties" : {
+      "index" : "17",
+      "title" : "Curvas de Ansio",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/839.jpg",
+      "road" : "A-8",
+      "pk" : "122.300"
+    }
+  }, {
+    "id" : 16,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.6407, 42.940551 ]
+    },
+    "properties" : {
+      "index" : "16",
+      "title" : "Urbina",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/4001.jpg",
+      "road" : "N-240",
+      "pk" : "11.000"
+    }
+  }, {
+    "id" : 19,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.913094, 42.742679 ]
+    },
+    "properties" : {
+      "index" : "19",
+      "title" : "Igay",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6817.jpg",
+      "road" : "AP-68",
+      "pk" : "63.000"
+    }
+  }, {
+    "id" : 18,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.23223, 43.04865 ]
+    },
+    "properties" : {
+      "index" : "18",
+      "title" : "Ormaiztegi",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3201.jpg",
+      "road" : "GI-632",
+      "pk" : "1.500"
+    }
+  }, {
+    "id" : 21,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.927433, 42.704243 ]
+    },
+    "properties" : {
+      "index" : "21",
+      "title" : "Rivabellosa",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/1101.jpg",
+      "road" : "AP-1",
+      "pk" : "77.000"
+    }
+  }, {
+    "id" : 20,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.009818, 43.29091 ]
+    },
+    "properties" : {
+      "index" : "20",
+      "title" : "Max Center",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/842.jpg",
+      "road" : "A-8",
+      "pk" : "124.500"
+    }
+  }, {
+    "id" : 23,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.896245, 43.198194 ]
+    },
+    "properties" : {
+      "index" : "23",
+      "title" : "Arrigorriaga",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6802.jpg",
+      "road" : "AP-68",
+      "pk" : "5.000"
+    }
+  }, {
+    "id" : 22,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.91636, 43.23369 ]
+    },
+    "properties" : {
+      "index" : "22",
+      "title" : "Buia",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6801.jpg",
+      "road" : "AP-68",
+      "pk" : "0.000"
+    }
+  }, {
+    "id" : 25,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.931477, 43.156604 ]
+    },
+    "properties" : {
+      "index" : "25",
+      "title" : "Arakaldo",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6804.jpg",
+      "road" : "AP-68",
+      "pk" : "11.000"
+    }
+  }, {
+    "id" : 24,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.897279, 43.181753 ]
+    },
+    "properties" : {
+      "index" : "24",
+      "title" : "Ugao-Miraballes",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6803.jpg",
+      "road" : "AP-68",
+      "pk" : "7.300"
+    }
+  }, {
+    "id" : 27,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.917975, 43.091045 ]
+    },
+    "properties" : {
+      "index" : "27",
+      "title" : "Orozko-San Isidro",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6806.jpg",
+      "road" : "AP-68",
+      "pk" : "21.400"
+    }
+  }, {
+    "id" : 26,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.922996, 43.128034 ]
+    },
+    "properties" : {
+      "index" : "26",
+      "title" : "Orozko-Murueta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6805.jpg",
+      "road" : "AP-68",
+      "pk" : "15.000"
+    }
+  }, {
+    "id" : 29,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.871997, 42.989691 ]
+    },
+    "properties" : {
+      "index" : "29",
+      "title" : "Altube 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6808.jpg",
+      "road" : "AP-68",
+      "pk" : "33.000"
+    }
+  }, {
+    "id" : 28,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.902257, 43.010371 ]
+    },
+    "properties" : {
+      "index" : "28",
+      "title" : "Ziorraga",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6807.jpg",
+      "road" : "AP-68",
+      "pk" : "29.500"
+    }
+  }, {
+    "id" : 31,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.875634, 42.96763 ]
+    },
+    "properties" : {
+      "index" : "31",
+      "title" : "Zuia",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6810.jpg",
+      "road" : "AP-68",
+      "pk" : "36.000"
+    }
+  }, {
+    "id" : 30,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.873574, 42.990468 ]
+    },
+    "properties" : {
+      "index" : "30",
+      "title" : "Altube",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6809.jpg",
+      "road" : "AP-68",
+      "pk" : "33.000"
+    }
+  }, {
+    "id" : 34,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.893553, 42.852294 ]
+    },
+    "properties" : {
+      "index" : "34",
+      "title" : "Subijana",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6813.jpg",
+      "road" : "AP-68",
+      "pk" : "50.000"
+    }
+  }, {
+    "id" : 35,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.893884, 42.842331 ]
+    },
+    "properties" : {
+      "index" : "35",
+      "title" : "Subijana 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6814.jpg",
+      "road" : "AP-68",
+      "pk" : "51.000"
+    }
+  }, {
+    "id" : 32,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.893873, 42.938258 ]
+    },
+    "properties" : {
+      "index" : "32",
+      "title" : "Abornikano",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6811.jpg",
+      "road" : "AP-68",
+      "pk" : "40.000"
+    }
+  }, {
+    "id" : 33,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.896367, 42.906007 ]
+    },
+    "properties" : {
+      "index" : "33",
+      "title" : "Kuartango",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6812.jpg",
+      "road" : "AP-68",
+      "pk" : "44.000"
+    }
+  }, {
+    "id" : 38,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.902783, 42.708733 ]
+    },
+    "properties" : {
+      "index" : "38",
+      "title" : "Ribera Baja",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6818.jpg",
+      "road" : "AP-68",
+      "pk" : "68.000"
+    }
+  }, {
+    "id" : 39,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.889404, 42.68238 ]
+    },
+    "properties" : {
+      "index" : "39",
+      "title" : "Armiñon",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6819.jpg",
+      "road" : "AP-68",
+      "pk" : "71.500"
+    }
+  }, {
+    "id" : 36,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.893696, 42.819888 ]
+    },
+    "properties" : {
+      "index" : "36",
+      "title" : "Pobes",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6815.jpg",
+      "road" : "AP-68",
+      "pk" : "54.000"
+    }
+  }, {
+    "id" : 37,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.904328, 42.781457 ]
+    },
+    "properties" : {
+      "index" : "37",
+      "title" : "Hereña",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6816.jpg",
+      "road" : "AP-68",
+      "pk" : "58.000"
+    }
+  }, {
+    "id" : 42,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.934152, 43.3105 ]
+    },
+    "properties" : {
+      "index" : "42",
+      "title" : "Pasaia 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/805.jpg",
+      "road" : "GI-20",
+      "pk" : "4.500"
+    }
+  }, {
+    "id" : 43,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.937903, 43.310689 ]
+    },
+    "properties" : {
+      "index" : "43",
+      "title" : "Pasaia 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/804.jpg",
+      "road" : "GI-20",
+      "pk" : "5.000"
+    }
+  }, {
+    "id" : 40,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.889577, 42.66271 ]
+    },
+    "properties" : {
+      "index" : "40",
+      "title" : "Zambrana",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6820.jpg",
+      "road" : "AP-68",
+      "pk" : "74.000"
+    }
+  }, {
+    "id" : 41,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.84323, 43.33148 ]
+    },
+    "properties" : {
+      "index" : "41",
+      "title" : "Irun - Ventas",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/123.jpg",
+      "road" : "GI-636",
+      "pk" : "9.000"
+    }
+  }, {
+    "id" : 46,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.389978, 43.25398 ]
+    },
+    "properties" : {
+      "index" : "46",
+      "title" : "Mendaro 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/813.jpg",
+      "road" : "A-8",
+      "pk" : "62.000"
+    }
+  }, {
+    "id" : 47,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.562775, 43.16774 ]
+    },
+    "properties" : {
+      "index" : "47",
+      "title" : "Berriz 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/817.jpg",
+      "road" : "A-8",
+      "pk" : "82.000"
+    }
+  }, {
+    "id" : 44,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.032599, 43.286418 ]
+    },
+    "properties" : {
+      "index" : "44",
+      "title" : "Aritzeta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/810.jpg",
+      "road" : "GI-20",
+      "pk" : "15.000"
+    }
+  }, {
+    "id" : 45,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.388769, 43.25636 ]
+    },
+    "properties" : {
+      "index" : "45",
+      "title" : "Mendaro 4",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/814.jpg",
+      "road" : "A-8",
+      "pk" : "62.000"
+    }
+  }, {
+    "id" : 51,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.391828, 43.250278 ]
+    },
+    "properties" : {
+      "index" : "51",
+      "title" : "Mendaro 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3401.jpg",
+      "road" : "N-634",
+      "pk" : "52.000"
+    }
+  }, {
+    "id" : 50,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.941026, 43.153575 ]
+    },
+    "properties" : {
+      "index" : "50",
+      "title" : "Arrankudiaga",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2501.jpg",
+      "road" : "BI-625",
+      "pk" : "373.000"
+    }
+  }, {
+    "id" : 49,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.836321, 43.23054 ]
+    },
+    "properties" : {
+      "index" : "49",
+      "title" : "Galdakao",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/823.jpg",
+      "road" : "A-8",
+      "pk" : "106.600"
+    }
+  }, {
+    "id" : 48,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.568193, 43.1685 ]
+    },
+    "properties" : {
+      "index" : "48",
+      "title" : "Berriz 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/818.jpg",
+      "road" : "A-8",
+      "pk" : "82.000"
+    }
+  }, {
+    "id" : 55,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.93735, 43.24796 ]
+    },
+    "properties" : {
+      "index" : "55",
+      "title" : "Zabalburu",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/829.jpg",
+      "road" : "A-8",
+      "pk" : "115.800"
+    }
+  }, {
+    "id" : 54,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.021093, 43.30492 ]
+    },
+    "properties" : {
+      "index" : "54",
+      "title" : "Sestao",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/9020.jpg",
+      "road" : "A-8",
+      "pk" : "126.000"
+    }
+  }, {
+    "id" : 53,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.842195, 43.233856 ]
+    },
+    "properties" : {
+      "index" : "53",
+      "title" : "Rotonda Galdakao",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/824.jpg",
+      "road" : "A-8",
+      "pk" : "107.400"
+    }
+  }, {
+    "id" : 52,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.391704, 43.25038 ]
+    },
+    "properties" : {
+      "index" : "52",
+      "title" : "Mendaro 3",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3402.jpg",
+      "road" : "N-634",
+      "pk" : "52.000"
+    }
+  }, {
+    "id" : 59,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.75347, 43.33959 ]
+    },
+    "properties" : {
+      "index" : "59",
+      "title" : "Irun",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/801.jpg",
+      "road" : "A-8",
+      "pk" : "0.000"
+    }
+  }, {
+    "id" : 58,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.8736, 43.31079 ]
+    },
+    "properties" : {
+      "index" : "58",
+      "title" : "Oiartzun 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/802.jpg",
+      "road" : "A-8",
+      "pk" : "11.000"
+    }
+  }, {
+    "id" : 57,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.873746, 43.31099 ]
+    },
+    "properties" : {
+      "index" : "57",
+      "title" : "Oiartzun 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/803.jpg",
+      "road" : "A-8",
+      "pk" : "11.000"
+    }
+  }, {
+    "id" : 56,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.140078, 43.34299 ]
+    },
+    "properties" : {
+      "index" : "56",
+      "title" : "El Haya",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/845.jpg",
+      "road" : "A-8",
+      "pk" : "138.500"
+    }
+  }, {
+    "id" : 63,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.655757, 42.88074 ]
+    },
+    "properties" : {
+      "index" : "63",
+      "title" : "Gamarra 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/107.jpg",
+      "road" : "A-1",
+      "pk" : "354.000"
+    }
+  }, {
+    "id" : 62,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.677502, 42.88005 ]
+    },
+    "properties" : {
+      "index" : "62",
+      "title" : "Abetxuko ",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/105.jpg",
+      "road" : "A-1",
+      "pk" : "353.500"
+    }
+  }, {
+    "id" : 61,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.781124, 42.81848 ]
+    },
+    "properties" : {
+      "index" : "61",
+      "title" : "Nanclares 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/103.jpg",
+      "road" : "A-1",
+      "pk" : "341.500"
+    }
+  }, {
+    "id" : 60,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.781171, 42.81815 ]
+    },
+    "properties" : {
+      "index" : "60",
+      "title" : "Nanclares 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/102.jpg",
+      "road" : "A-1",
+      "pk" : "341.500"
+    }
+  }, {
+    "id" : 68,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.22604, 42.93622 ]
+    },
+    "properties" : {
+      "index" : "68",
+      "title" : "Etzegarate",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/113.jpg",
+      "road" : "N-I",
+      "pk" : "405.800"
+    }
+  }, {
+    "id" : 69,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.218649, 43.03315 ]
+    },
+    "properties" : {
+      "index" : "69",
+      "title" : "Olaberria 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/114.jpg",
+      "road" : "N-I",
+      "pk" : "416.500"
+    }
+  }, {
+    "id" : 70,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.218617, 43.03362 ]
+    },
+    "properties" : {
+      "index" : "70",
+      "title" : "Olaberria 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/115.jpg",
+      "road" : "N-I",
+      "pk" : "416.500"
+    }
+  }, {
+    "id" : 71,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.179263, 43.051054 ]
+    },
+    "properties" : {
+      "index" : "71",
+      "title" : "Ordizia 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/116.jpg",
+      "road" : "N-I",
+      "pk" : "421.000"
+    }
+  }, {
+    "id" : 64,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.517056, 42.879 ]
+    },
+    "properties" : {
+      "index" : "64",
+      "title" : "Argomaniz (Ola-Ona) 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/110.jpg",
+      "road" : "A-1",
+      "pk" : "366.000"
+    }
+  }, {
+    "id" : 65,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.516182, 42.87919 ]
+    },
+    "properties" : {
+      "index" : "65",
+      "title" : "Argomaniz (Ola-Ona) 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/109.jpg",
+      "road" : "A-1",
+      "pk" : "366.000"
+    }
+  }, {
+    "id" : 66,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.253074, 42.864838 ]
+    },
+    "properties" : {
+      "index" : "66",
+      "title" : "Egino 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/112.jpg",
+      "road" : "A-1",
+      "pk" : "390.750"
+    }
+  }, {
+    "id" : 67,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.251983, 42.865227 ]
+    },
+    "properties" : {
+      "index" : "67",
+      "title" : "Egino 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/111.jpg",
+      "road" : "A-1",
+      "pk" : "390.750"
+    }
+  }, {
+    "id" : 76,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.023495, 43.24495 ]
+    },
+    "properties" : {
+      "index" : "76",
+      "title" : "Lasarte",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/122.jpg",
+      "road" : "N-I",
+      "pk" : "451.000"
+    }
+  }, {
+    "id" : 77,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.774745, 43.17916 ]
+    },
+    "properties" : {
+      "index" : "77",
+      "title" : "Lemoa",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/4002.jpg",
+      "road" : "N-240",
+      "pk" : "47.000"
+    }
+  }, {
+    "id" : 78,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.692619, 42.875506 ]
+    },
+    "properties" : {
+      "index" : "78",
+      "title" : "Foronda",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2201.jpg",
+      "road" : "N-622",
+      "pk" : "4.000"
+    }
+  }, {
+    "id" : 79,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.827091, 42.961275 ]
+    },
+    "properties" : {
+      "index" : "79",
+      "title" : "Sarria 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2203.jpg",
+      "road" : "N-622",
+      "pk" : "20.000"
+    }
+  }, {
+    "id" : 72,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.178045, 43.051678 ]
+    },
+    "properties" : {
+      "index" : "72",
+      "title" : "Ordizia 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/117.jpg",
+      "road" : "N-I",
+      "pk" : "421.000"
+    }
+  }, {
+    "id" : 73,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.058955, 43.17421 ]
+    },
+    "properties" : {
+      "index" : "73",
+      "title" : "Irura 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/118.jpg",
+      "road" : "N-I",
+      "pk" : "440.500"
+    }
+  }, {
+    "id" : 74,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.058853, 43.17447 ]
+    },
+    "properties" : {
+      "index" : "74",
+      "title" : "Irura 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/119.jpg",
+      "road" : "N-I",
+      "pk" : "440.500"
+    }
+  }, {
+    "id" : 75,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.02851, 43.213238 ]
+    },
+    "properties" : {
+      "index" : "75",
+      "title" : "Andoain 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/121.jpg",
+      "road" : "N-I",
+      "pk" : "446.000"
+    }
+  }, {
+    "id" : 85,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.910234, 43.23365 ]
+    },
+    "properties" : {
+      "index" : "85",
+      "title" : "Malmasín Norte",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/826.jpg",
+      "road" : "A-8",
+      "pk" : "113.000"
+    }
+  }, {
+    "id" : 84,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.888571, 43.23114 ]
+    },
+    "properties" : {
+      "index" : "84",
+      "title" : "Malmasín Sur",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/825.jpg",
+      "road" : "A-8",
+      "pk" : "111.100"
+    }
+  }, {
+    "id" : 87,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.975969, 43.29512 ]
+    },
+    "properties" : {
+      "index" : "87",
+      "title" : "Rontegi",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6006.jpg",
+      "road" : "N-637",
+      "pk" : "9.700"
+    }
+  }, {
+    "id" : 86,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.996275, 43.33018 ]
+    },
+    "properties" : {
+      "index" : "86",
+      "title" : "Bomberos Artaza",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3724.jpg",
+      "road" : "BI-637",
+      "pk" : "12.900"
+    }
+  }, {
+    "id" : 81,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.656894, 42.87785 ]
+    },
+    "properties" : {
+      "index" : "81",
+      "title" : "Gamarra 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/108.jpg",
+      "road" : "N-240",
+      "pk" : "4.500"
+    }
+  }, {
+    "id" : 80,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.829012, 42.960937 ]
+    },
+    "properties" : {
+      "index" : "80",
+      "title" : "Sarria 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2204.jpg",
+      "road" : "N-622",
+      "pk" : "20.000"
+    }
+  }, {
+    "id" : 83,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.001937, 43.3331 ]
+    },
+    "properties" : {
+      "index" : "83",
+      "title" : "Rotonda Romo",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3723.jpg",
+      "road" : "BI-637",
+      "pk" : "13.500"
+    }
+  }, {
+    "id" : 82,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.769212, 43.23126 ]
+    },
+    "properties" : {
+      "index" : "82",
+      "title" : "Boroa 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/822.jpg",
+      "road" : "A-8",
+      "pk" : "101.000"
+    }
+  }, {
+    "id" : 93,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.943746, 43.24989 ]
+    },
+    "properties" : {
+      "index" : "93",
+      "title" : "Rekalde (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/831.jpg",
+      "road" : "A-8",
+      "pk" : "116.500"
+    }
+  }, {
+    "id" : 92,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.985133, 43.28064 ]
+    },
+    "properties" : {
+      "index" : "92",
+      "title" : "Cruces",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/837.jpg",
+      "road" : "A-8",
+      "pk" : "122.000"
+    }
+  }, {
+    "id" : 95,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.044056, 43.31453 ]
+    },
+    "properties" : {
+      "index" : "95",
+      "title" : "Urioste",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/843.jpg",
+      "road" : "A-8",
+      "pk" : "128.500"
+    }
+  }, {
+    "id" : 94,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.047059, 43.31728 ]
+    },
+    "properties" : {
+      "index" : "94",
+      "title" : "Entrada de Santurce",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/4401.jpg",
+      "road" : "A-8",
+      "pk" : "129.000"
+    }
+  }, {
+    "id" : 89,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.062233, 43.32481 ]
+    },
+    "properties" : {
+      "index" : "89",
+      "title" : "Ugaldebieta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/844.jpg",
+      "road" : "A-8",
+      "pk" : "130.500"
+    }
+  }, {
+    "id" : 88,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.996849, 43.28522 ]
+    },
+    "properties" : {
+      "index" : "88",
+      "title" : "Max Center (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/841.jpg",
+      "road" : "A-8",
+      "pk" : "123.300"
+    }
+  }, {
+    "id" : 91,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.974299, 43.27411 ]
+    },
+    "properties" : {
+      "index" : "91",
+      "title" : "Zorroza",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/836.jpg",
+      "road" : "A-8",
+      "pk" : "120.400"
+    }
+  }, {
+    "id" : 90,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.964835, 43.26804 ]
+    },
+    "properties" : {
+      "index" : "90",
+      "title" : "Salida de Balmaseda",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/835.jpg",
+      "road" : "A-8",
+      "pk" : "119.100"
+    }
+  }, {
+    "id" : 102,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.020573, 43.2972 ]
+    },
+    "properties" : {
+      "index" : "102",
+      "title" : "Trapaga",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/849.jpg",
+      "road" : "A-8",
+      "pk" : "125.500"
+    }
+  }, {
+    "id" : 103,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.019722, 43.29646 ]
+    },
+    "properties" : {
+      "index" : "103",
+      "title" : "Trapaga 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/850.jpg",
+      "road" : "A-8",
+      "pk" : "125.500"
+    }
+  }, {
+    "id" : 100,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.92554, 43.23911 ]
+    },
+    "properties" : {
+      "index" : "100",
+      "title" : "Irusta",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/846.jpg",
+      "road" : "A-8",
+      "pk" : "114.500"
+    }
+  }, {
+    "id" : 101,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.050342, 43.31848 ]
+    },
+    "properties" : {
+      "index" : "101",
+      "title" : "Nocedal",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/847.jpg",
+      "road" : "A-8",
+      "pk" : "129.500"
+    }
+  }, {
+    "id" : 98,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.926873, 43.24066 ]
+    },
+    "properties" : {
+      "index" : "98",
+      "title" : "Salida Miraflores",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/828.jpg",
+      "road" : "A-8",
+      "pk" : "114.700"
+    }
+  }, {
+    "id" : 99,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.926371, 43.248083 ]
+    },
+    "properties" : {
+      "index" : "99",
+      "title" : "Miribilla Salida",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3101.jpg",
+      "road" : "BI-631",
+      "pk" : "0.300"
+    }
+  }, {
+    "id" : 96,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.935795, 43.24768 ]
+    },
+    "properties" : {
+      "index" : "96",
+      "title" : "Larraskitu",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/8115.jpg",
+      "road" : "A-8",
+      "pk" : "115.500"
+    }
+  }, {
+    "id" : 97,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.035826, 43.31218 ]
+    },
+    "properties" : {
+      "index" : "97",
+      "title" : "Urioste (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/9001.jpg",
+      "road" : "A-8",
+      "pk" : "128.000"
+    }
+  }, {
+    "id" : 110,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.964104, 43.3009 ]
+    },
+    "properties" : {
+      "index" : "110",
+      "title" : "Kukularra",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6009.jpg",
+      "road" : "N-637",
+      "pk" : "11.100"
+    }
+  }, {
+    "id" : 111,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.968442, 43.3159 ]
+    },
+    "properties" : {
+      "index" : "111",
+      "title" : "Incorporación Astrabudua",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6010.jpg",
+      "road" : "BI-637",
+      "pk" : "10.000"
+    }
+  }, {
+    "id" : 108,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.615571, 43.17411 ]
+    },
+    "properties" : {
+      "index" : "108",
+      "title" : "Gerediaga",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/851.jpg",
+      "road" : "A-8",
+      "pk" : "87.000"
+    }
+  }, {
+    "id" : 109,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.985772, 43.28938 ]
+    },
+    "properties" : {
+      "index" : "109",
+      "title" : "Barakaldo",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6008.jpg",
+      "road" : "N-637",
+      "pk" : "8.900"
+    }
+  }, {
+    "id" : 106,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.96085, 43.28985 ]
+    },
+    "properties" : {
+      "index" : "106",
+      "title" : "Enekuri",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6001.jpg",
+      "road" : "BI-604",
+      "pk" : "5.300"
+    }
+  }, {
+    "id" : 107,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.953727, 43.29874 ]
+    },
+    "properties" : {
+      "index" : "107",
+      "title" : "Asua",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6003.jpg",
+      "road" : "BI-604",
+      "pk" : "6.500"
+    }
+  }, {
+    "id" : 104,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.02781, 43.30792 ]
+    },
+    "properties" : {
+      "index" : "104",
+      "title" : "Entrada Portugalete",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/848.jpg",
+      "road" : "A-8",
+      "pk" : "127.000"
+    }
+  }, {
+    "id" : 105,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.958599, 43.28569 ]
+    },
+    "properties" : {
+      "index" : "105",
+      "title" : "Ibarrekolanda",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6002.jpg",
+      "road" : "BI-604",
+      "pk" : "4.700"
+    }
+  }, {
+    "id" : 119,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.985974, 43.325103 ]
+    },
+    "properties" : {
+      "index" : "119",
+      "title" : "Leioa túnel 1",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3728.jpg",
+      "road" : "BI-637",
+      "pk" : "11.800"
+    }
+  }, {
+    "id" : 118,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.418701, 42.846541 ]
+    },
+    "properties" : {
+      "index" : "118",
+      "title" : "Agurain",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/125.jpg",
+      "road" : "A-1",
+      "pk" : "376.200"
+    }
+  }, {
+    "id" : 117,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.69813, 42.889243 ]
+    },
+    "properties" : {
+      "index" : "117",
+      "title" : "Arangiz",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2206.jpg",
+      "road" : "N-622",
+      "pk" : "5.850"
+    }
+  }, {
+    "id" : 116,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.752356, 42.836502 ]
+    },
+    "properties" : {
+      "index" : "116",
+      "title" : "Jundiz",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/126.jpg",
+      "road" : "A-1",
+      "pk" : "345.450"
+    }
+  }, {
+    "id" : 115,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.739926, 42.828445 ]
+    },
+    "properties" : {
+      "index" : "115",
+      "title" : "Jundiz",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/1021.jpg",
+      "road" : "N-102",
+      "pk" : "344.800"
+    }
+  }, {
+    "id" : 114,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.643958, 42.926571 ]
+    },
+    "properties" : {
+      "index" : "114",
+      "title" : "Luko",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/4003.jpg",
+      "road" : "N-240",
+      "pk" : "10.100"
+    }
+  }, {
+    "id" : 113,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.634242, 42.881957 ]
+    },
+    "properties" : {
+      "index" : "113",
+      "title" : "Durana Arkaute",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/124.jpg",
+      "road" : "A-1",
+      "pk" : "356.900"
+    }
+  }, {
+    "id" : 112,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.985478, 43.324831 ]
+    },
+    "properties" : {
+      "index" : "112",
+      "title" : "Leioa",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/6005.jpg",
+      "road" : "BI-637",
+      "pk" : "11.700"
+    }
+  }, {
+    "id" : 127,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.710822, 42.905311 ]
+    },
+    "properties" : {
+      "index" : "127",
+      "title" : "Etxabarri Ibiña (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2207.jpg",
+      "road" : "N-622",
+      "pk" : "8.000"
+    }
+  }, {
+    "id" : 126,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.707395, 42.8801 ]
+    },
+    "properties" : {
+      "index" : "126",
+      "title" : "Lopidana (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/127 .jpg",
+      "road" : "A-1",
+      "pk" : "350.000"
+    }
+  }, {
+    "id" : 125,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.930473, 43.24372 ]
+    },
+    "properties" : {
+      "index" : "125",
+      "title" : "Salida Miraflores 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/827.jpg",
+      "road" : "A-8",
+      "pk" : "115.200"
+    }
+  }, {
+    "id" : 124,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.00173, 43.33283 ]
+    },
+    "properties" : {
+      "index" : "124",
+      "title" : "Salida túnel Romo",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3721.jpg",
+      "road" : "BI-637",
+      "pk" : "13.450"
+    }
+  }, {
+    "id" : 123,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -3.001458, 43.33358 ]
+    },
+    "properties" : {
+      "index" : "123",
+      "title" : "Entrada túnel Romo",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3722.jpg",
+      "road" : "BI-637",
+      "pk" : "13.550"
+    }
+  }, {
+    "id" : 122,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.994179, 43.329212 ]
+    },
+    "properties" : {
+      "index" : "122",
+      "title" : "Leioa túnel 4",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3725.jpg",
+      "road" : "BI-637",
+      "pk" : "12.000"
+    }
+  }, {
+    "id" : 121,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.991566, 43.327905 ]
+    },
+    "properties" : {
+      "index" : "121",
+      "title" : "Leioa túnel 3",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3726.jpg",
+      "road" : "BI-637",
+      "pk" : "11.950"
+    }
+  }, {
+    "id" : 120,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.990669, 43.327398 ]
+    },
+    "properties" : {
+      "index" : "120",
+      "title" : "Leioa túnel 2",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3727.jpg",
+      "road" : "BI-637",
+      "pk" : "11.900"
+    }
+  }, {
+    "id" : 129,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.962614, 43.31036 ]
+    },
+    "properties" : {
+      "index" : "129",
+      "title" : "Campa Erandio (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/3729.jpg",
+      "road" : "BI-637",
+      "pk" : "8.900"
+    }
+  }, {
+    "id" : 128,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -2.677959, 48.87984 ]
+    },
+    "properties" : {
+      "index" : "128",
+      "title" : "Abetxuko-Irun (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/128.jpg",
+      "road" : "A-1",
+      "pk" : "353.500"
+    }
+  }, {
+    "id" : 131,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.75347, 43.33959 ]
+    },
+    "properties" : {
+      "index" : "131",
+      "title" : "Irun-Muga FHD ",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/852.jpg",
+      "road" : "A-8",
+      "pk" : "0.000"
+    }
+  }, {
+    "id" : 130,
+    "type" : "Feature",
+    "geometry" : {
+      "type" : "Point",
+      "coordinates" : [ -1.997044, 43.295609 ]
+    },
+    "properties" : {
+      "index" : "130",
+      "title" : "Añorga (2)",
+      "url cam" : "https://www.trafikoa.eus/static/files/tr/camaras/2001.jpg",
+      "road" : "GI-20",
+      "pk" : "11.000"
+    }
+  } ]
+});

@@ -1,0 +1,38 @@
+{
+ "abra-de-pas": {
+  "imgs": [
+   "https://cantur.com/camaras/home/cantucom/public_html/camaras/abra000.jpg"
+  ],
+  "title": "Celia Barqu\u00edn Abra de Pas - Cantur"
+ },
+ "calgosa": {
+  "imgs": [
+   "https://cantur.com/camaras/multi/calgosa_vista_calgosa.jpg"
+  ],
+  "title": "Calgosa - Cantur"
+ },
+ "el-chivo2": {
+  "imgs": [
+   "https://cantur.com/camaras/chivo/chivo_vista_valle.jpg"
+  ],
+  "title": "El Chivo - Cantur"
+ },
+ "fuente-de": {
+  "imgs": [
+   "https://cantur.com/camaras/home/cantucom/public.html/camaras/fuentede.jpg"
+  ],
+  "title": "Fuente D\u00e9 - Cantur"
+ },
+ "sierra-del-hijar": {
+  "imgs": [
+   "https://cantur.com/camaras/multi/calgosa_cuchillon_superior.jpg"
+  ],
+  "title": "Sierra del Hijar - Cantur"
+ },
+ "tres-mares": {
+  "imgs": [
+   "https://cantur.com/camaras/3mares/3mares_vista_cornon.jpg"
+  ],
+  "title": "Tres mares - Cantur"
+ }
+}

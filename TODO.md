@@ -1,5 +1,52 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
+
+## ✅ Session 47 (2026-10-17) — Spain/Andorra: eTraffic gap-close + 5-source enum + 2,086-row rectification
+
+### Done
+- Live-feed hunt verdict (eTraffic): **stills-only** — image host
+  serves only `{id}.jpg` (all video variants 404), `/api/*` + infocar
+  legacy paths are Akamai SPA fallbacks, origin blocked (port 8020 =
+  web-filter interstitial), dgt.es viewer taken down 09-oct-2026,
+  community tools stills-only. Only real live video found: YouTube
+  embeds on camarasdgt.es webcam pages
+- eTraffic API decoded (XOR 0x66): 1,960 cams; + pre-env `993` +
+  10 alive legacy-only + 3 CDX-only (`18`,`103`,`1040`) = **1,974
+  DGT inventory**; CSV had 1,933 → 41 missing
+- DATEX2 v3.7 (3.7 MB, 1,960 devices) = province/road/lastUpdate
+  enrichment; getPMVs 2,517 signs / getFilteredData 987 incidents
+  = not cams
+- New sources enumerated: Euskadi GV 131, Vitoria 40, Catalunya SCT
+  WFS 164, Andorra Mobilitat API 68, Cantur 6, camarasdgt YT webcams
+  (IP firewalled → Wayback: 2 alive embeds, 1 already in CSV)
+- Id-space dedupe vs CSV (http/https + subdomain tolerant): ando/vit
+  fully present, eusk 122/131, gencat 98/159 (+29 dead legacy
+  Andorra-border URLs already covered by `tv_` rows) → **58 new rows**
+- Ingested `idx 240220..240277` (dgt 41 / eusk 9 / cnt 6 / cat 1 /
+  web 1) + 48 posters; all `visibility=public` after prefix add
+  (`dgt,eusk,cnt,web,cat` in PUBLIC_CSV_PREFIXES)
+- Census: all 1,933 existing DGT rows live-checked → 1,912 live,
+  **21 dead (404)** marked `image-404@2026-10-17`
+- **Rectified 2,086 disc_ rows**: argus-v2 mirror had DGT cams in
+  Belgium ("Grimbergen, Spain" lat 50.95), Euskadi cams in Alaska,
+  Catalonia cams in Germany, all `category=public` → official
+  names/coords/region/road/category from eTraffic API + DATEX2 +
+  opendata.euskadi.eus + gencat WFS + mobilitat.ad
+- 8 Nominatim geocodes (6 Cantur + Benidorm beach; Altea pre-had)
+- 231,733 rows; public **231,592** / private 136 / unknown 5;
+  API refreshed + verified (q=Cantur → 7)
+
+### Next
+- Retry camarasdgt.es once firewall ban lifts: `_es_arch4.py` resume
+  (255 Wayback listing pages) + full 324-page `/webcam/` subtree →
+  more YouTube live embeds
+- Retry `trafikoa.eus` from another network (9 eusk rows lack
+  live_status/posters)
+- Catalog gaps: Madrid + Barcelona city cams, Donostia/Bilbao
+  (403 WAF), Sant Boi ArcGIS, 32 gencat ids retired from current WFS
+- Periodic DGT re-census (21 cams died since last ingest)
+
+
 ## ✅ Session 46 (2026-10-17) — BC Ferries terminal webcams: 58-cam enumeration + live-feed hunt + ingest
 
 ### Done

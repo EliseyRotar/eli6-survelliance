@@ -1,0 +1,52 @@
+[
+    {
+        "sourceId": "GV",
+        "sourceEs": "Gobierno Vasco",
+        "sourceEu": "Eusko Jaurlaritza",
+        "datasetTitleEs": "Cámaras de tráfico de Euskadi",
+        "datasetTitleEu": "Euskadiko trafiko-kamerak",
+        "datasetUrlEs": "https://opendata.euskadi.eus/catalogo/-/camaras-de-trafico-de-euskadi/",
+        "datasetUrlEu": "https://opendata.euskadi.eus/katalogoa/-/euskadiko-trafiko-kamerak/",
+        "fileUrl": "https://opendata.euskadi.eus/contenidos/ds_localizaciones/camaras_trafico/opendata/camaras-trafico.geojson"
+    },
+    {
+        "sourceId": "AVG",
+        "sourceEs": "Ayuntamiento de Vitoria-Gasteiz",
+        "sourceEu": "Gasteizko Udala",
+        "datasetTitleEs": "Cámaras de tráfico en tiempo real",
+        "datasetTitleEu": "Trafiko-kamerak denbora errealean",
+        "datasetUrlEs": "https://opendata.euskadi.eus/catalogo/-/camaras-trafico-tiempo-real/",
+        "datasetUrlEu": "https://opendata.euskadi.eus/katalogoa/-/trafiko-kamerak-denbora-errealean/",
+        "fileUrl": "https://www.vitoria-gasteiz.org/c11-01w/cameras?action=list&format=GEOJSON"
+    },
+    {
+        "sourceId": "ADS",
+        "sourceEs": "Ayuntamiento de Donostia-San Sebastián",
+        "sourceEu": "Donostiko Udala",
+        "datasetTitleEs": "Cámaras de tráfico",
+        "datasetTitleEu": "Trafiko kamarak",
+        "datasetUrlEs": "https://opendata.euskadi.eus/catalogo/-/camaras-de-trafico/",
+        "datasetUrlEu": "https://opendata.euskadi.eus/katalogoa/-/trafiko-kamarak/",
+        "fileUrl": "https://www.donostia.eus/datosabiertos/recursos/camaras-trafico/camarastraficocas.json"
+    },
+    {
+        "sourceId": "AB",
+        "sourceEs": "Ayuntamiento de Bilbao",
+        "sourceEu": "Bilboko Udala",
+        "datasetTitleEs": "Cámaras de tráfico de Bilbao en tiempo real",
+        "datasetTitleEu": "Bilboko trafiko kamerak, denbora errealean",
+        "datasetUrlEs": "https://opendata.euskadi.eus/catalogo/-/camaras-de-trafico-de-bilbao-en-tiempo-real/",
+        "datasetUrlEu": "https://opendata.euskadi.eus/katalogoa/contenidos/ds_general/aaa113u97aaaaaab118117aag/eu_def/index.shtml",
+        "fileUrl": "https://www.bilbao.eus/aytoonline/srvDatasetCamaras?formato=geojson"
+    },
+    {
+        "sourceId": "DFB",
+        "sourceEs": "Diputación Foral de Bizkaia",
+        "sourceEu": "Bizkaiko Foru Aldundia",
+        "datasetTitleEs": "Tráfico",
+        "datasetTitleEu": "Trafikoa",
+        "datasetUrlEs": "https://opendata.euskadi.eus/catalogo/-/trafico/",
+        "datasetUrlEu": "https://opendata.euskadi.eus/katalogoa/-/trafikoa/",
+        "fileUrl": "https://www.opendatabizkaia.eus/es/datastore/dump/893256e6-3906-4740-a20c-4a874bf33f24/camaras-trafico-2020?format=json"
+    }
+]

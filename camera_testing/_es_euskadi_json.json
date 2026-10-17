@@ -1,0 +1,1049 @@
+jsonCallback([ {
+  "INDEX" : "1",
+  "TITLE" : "Iurreta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/819.jpg",
+  "LATWGS84" : "43.18725",
+  "LONWGS84" : "-2.673754",
+  "ROAD" : "A-8",
+  "PK" : "91.000"
+}, {
+  "INDEX" : "2",
+  "TITLE" : "Montorra",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/820.jpg",
+  "LATWGS84" : "43.21167",
+  "LONWGS84" : "-2.719359",
+  "ROAD" : "A-8",
+  "PK" : "96.000"
+}, {
+  "INDEX" : "3",
+  "TITLE" : "Boroa 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/821.jpg",
+  "LATWGS84" : "43.23135",
+  "LONWGS84" : "-2.768933",
+  "ROAD" : "A-8",
+  "PK" : "101.000"
+}, {
+  "INDEX" : "4",
+  "TITLE" : "Loiola",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/806.jpg",
+  "LATWGS84" : "43.305725",
+  "LONWGS84" : "-1.968328",
+  "ROAD" : "GI-20",
+  "PK" : "8.500"
+}, {
+  "INDEX" : "5",
+  "TITLE" : "Amara",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/807.jpg",
+  "LATWGS84" : "43.29769",
+  "LONWGS84" : "-1.986157",
+  "ROAD" : "GI-20",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "6",
+  "TITLE" : "Ondarreta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/809.jpg",
+  "LATWGS84" : "43.29824",
+  "LONWGS84" : "-2.009245",
+  "ROAD" : "GI-20",
+  "PK" : "13.000"
+}, {
+  "INDEX" : "7",
+  "TITLE" : "Elgoibar 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/816.jpg",
+  "LATWGS84" : "43.23597",
+  "LONWGS84" : "-2.402644",
+  "ROAD" : "A-8",
+  "PK" : "64.500"
+}, {
+  "INDEX" : "8",
+  "TITLE" : "Elgoibar 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/815.jpg",
+  "LATWGS84" : "43.22909",
+  "LONWGS84" : "-2.40303",
+  "ROAD" : "A-8",
+  "PK" : "64.500"
+}, {
+  "INDEX" : "9",
+  "TITLE" : "Orio 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/812.jpg",
+  "LATWGS84" : "43.29204",
+  "LONWGS84" : "-2.067865",
+  "ROAD" : "A-8",
+  "PK" : "30.500"
+}, {
+  "INDEX" : "10",
+  "TITLE" : "Orio 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/811.jpg",
+  "LATWGS84" : "43.29223",
+  "LONWGS84" : "-2.067674",
+  "ROAD" : "A-8",
+  "PK" : "30.500"
+}, {
+  "INDEX" : "11",
+  "TITLE" : "Arbuio",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3601.jpg",
+  "LATWGS84" : "43.245742",
+  "LONWGS84" : "-2.982466",
+  "ROAD" : "BI-636",
+  "PK" : "7.000"
+}, {
+  "INDEX" : "12",
+  "TITLE" : "Rekalde",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/830.jpg",
+  "LATWGS84" : "43.24759",
+  "LONWGS84" : "-2.939664",
+  "ROAD" : "A-8",
+  "PK" : "116.000"
+}, {
+  "INDEX" : "13",
+  "TITLE" : "Puerto Santurtzi",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/4402.jpg",
+  "LATWGS84" : "43.32347",
+  "LONWGS84" : "-3.05021",
+  "ROAD" : "N-644",
+  "PK" : "130.100"
+}, {
+  "INDEX" : "14",
+  "TITLE" : "Basauri",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3403.jpg",
+  "LATWGS84" : "43.23717",
+  "LONWGS84" : "-2.87084",
+  "ROAD" : "N-634",
+  "PK" : "104.000"
+}, {
+  "INDEX" : "15",
+  "TITLE" : "Aiurdin",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2202.jpg",
+  "LATWGS84" : "42.94593",
+  "LONWGS84" : "-2.784901",
+  "ROAD" : "N-622",
+  "PK" : "16.000"
+}, {
+  "INDEX" : "16",
+  "TITLE" : "Urbina",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/4001.jpg",
+  "LATWGS84" : "42.940551",
+  "LONWGS84" : "-2.6407",
+  "ROAD" : "N-240",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "17",
+  "TITLE" : "Curvas de Ansio",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/839.jpg",
+  "LATWGS84" : "43.28106",
+  "LONWGS84" : "-2.985413",
+  "ROAD" : "A-8",
+  "PK" : "122.300"
+}, {
+  "INDEX" : "18",
+  "TITLE" : "Ormaiztegi",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3201.jpg",
+  "LATWGS84" : "43.04865",
+  "LONWGS84" : "-2.23223",
+  "ROAD" : "GI-632",
+  "PK" : "1.500"
+}, {
+  "INDEX" : "19",
+  "TITLE" : "Igay",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6817.jpg",
+  "LATWGS84" : "42.742679",
+  "LONWGS84" : "-2.913094",
+  "ROAD" : "AP-68",
+  "PK" : "63.000"
+}, {
+  "INDEX" : "20",
+  "TITLE" : "Max Center",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/842.jpg",
+  "LATWGS84" : "43.29091",
+  "LONWGS84" : "-3.009818",
+  "ROAD" : "A-8",
+  "PK" : "124.500"
+}, {
+  "INDEX" : "21",
+  "TITLE" : "Rivabellosa",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/1101.jpg",
+  "LATWGS84" : "42.704243",
+  "LONWGS84" : "-2.927433",
+  "ROAD" : "AP-1",
+  "PK" : "77.000"
+}, {
+  "INDEX" : "22",
+  "TITLE" : "Buia",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6801.jpg",
+  "LATWGS84" : "43.23369",
+  "LONWGS84" : "-2.91636",
+  "ROAD" : "AP-68",
+  "PK" : "0.000"
+}, {
+  "INDEX" : "23",
+  "TITLE" : "Arrigorriaga",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6802.jpg",
+  "LATWGS84" : "43.198194",
+  "LONWGS84" : "-2.896245",
+  "ROAD" : "AP-68",
+  "PK" : "5.000"
+}, {
+  "INDEX" : "24",
+  "TITLE" : "Ugao-Miraballes",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6803.jpg",
+  "LATWGS84" : "43.181753",
+  "LONWGS84" : "-2.897279",
+  "ROAD" : "AP-68",
+  "PK" : "7.300"
+}, {
+  "INDEX" : "25",
+  "TITLE" : "Arakaldo",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6804.jpg",
+  "LATWGS84" : "43.156604",
+  "LONWGS84" : "-2.931477",
+  "ROAD" : "AP-68",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "26",
+  "TITLE" : "Orozko-Murueta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6805.jpg",
+  "LATWGS84" : "43.128034",
+  "LONWGS84" : "-2.922996",
+  "ROAD" : "AP-68",
+  "PK" : "15.000"
+}, {
+  "INDEX" : "27",
+  "TITLE" : "Orozko-San Isidro",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6806.jpg",
+  "LATWGS84" : "43.091045",
+  "LONWGS84" : "-2.917975",
+  "ROAD" : "AP-68",
+  "PK" : "21.400"
+}, {
+  "INDEX" : "28",
+  "TITLE" : "Ziorraga",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6807.jpg",
+  "LATWGS84" : "43.010371",
+  "LONWGS84" : "-2.902257",
+  "ROAD" : "AP-68",
+  "PK" : "29.500"
+}, {
+  "INDEX" : "29",
+  "TITLE" : "Altube 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6808.jpg",
+  "LATWGS84" : "42.989691",
+  "LONWGS84" : "-2.871997",
+  "ROAD" : "AP-68",
+  "PK" : "33.000"
+}, {
+  "INDEX" : "30",
+  "TITLE" : "Altube",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6809.jpg",
+  "LATWGS84" : "42.990468",
+  "LONWGS84" : "-2.873574",
+  "ROAD" : "AP-68",
+  "PK" : "33.000"
+}, {
+  "INDEX" : "31",
+  "TITLE" : "Zuia",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6810.jpg",
+  "LATWGS84" : "42.96763",
+  "LONWGS84" : "-2.875634",
+  "ROAD" : "AP-68",
+  "PK" : "36.000"
+}, {
+  "INDEX" : "32",
+  "TITLE" : "Abornikano",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6811.jpg",
+  "LATWGS84" : "42.938258",
+  "LONWGS84" : "-2.893873",
+  "ROAD" : "AP-68",
+  "PK" : "40.000"
+}, {
+  "INDEX" : "33",
+  "TITLE" : "Kuartango",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6812.jpg",
+  "LATWGS84" : "42.906007",
+  "LONWGS84" : "-2.896367",
+  "ROAD" : "AP-68",
+  "PK" : "44.000"
+}, {
+  "INDEX" : "34",
+  "TITLE" : "Subijana",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6813.jpg",
+  "LATWGS84" : "42.852294",
+  "LONWGS84" : "-2.893553",
+  "ROAD" : "AP-68",
+  "PK" : "50.000"
+}, {
+  "INDEX" : "35",
+  "TITLE" : "Subijana 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6814.jpg",
+  "LATWGS84" : "42.842331",
+  "LONWGS84" : "-2.893884",
+  "ROAD" : "AP-68",
+  "PK" : "51.000"
+}, {
+  "INDEX" : "36",
+  "TITLE" : "Pobes",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6815.jpg",
+  "LATWGS84" : "42.819888",
+  "LONWGS84" : "-2.893696",
+  "ROAD" : "AP-68",
+  "PK" : "54.000"
+}, {
+  "INDEX" : "37",
+  "TITLE" : "Hereña",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6816.jpg",
+  "LATWGS84" : "42.781457",
+  "LONWGS84" : "-2.904328",
+  "ROAD" : "AP-68",
+  "PK" : "58.000"
+}, {
+  "INDEX" : "38",
+  "TITLE" : "Ribera Baja",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6818.jpg",
+  "LATWGS84" : "42.708733",
+  "LONWGS84" : "-2.902783",
+  "ROAD" : "AP-68",
+  "PK" : "68.000"
+}, {
+  "INDEX" : "39",
+  "TITLE" : "Armiñon",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6819.jpg",
+  "LATWGS84" : "42.68238",
+  "LONWGS84" : "-2.889404",
+  "ROAD" : "AP-68",
+  "PK" : "71.500"
+}, {
+  "INDEX" : "40",
+  "TITLE" : "Zambrana",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6820.jpg",
+  "LATWGS84" : "42.66271",
+  "LONWGS84" : "-2.889577",
+  "ROAD" : "AP-68",
+  "PK" : "74.000"
+}, {
+  "INDEX" : "41",
+  "TITLE" : "Irun - Ventas",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/123.jpg",
+  "LATWGS84" : "43.33148",
+  "LONWGS84" : "-1.84323",
+  "ROAD" : "GI-636",
+  "PK" : "9.000"
+}, {
+  "INDEX" : "42",
+  "TITLE" : "Pasaia 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/805.jpg",
+  "LATWGS84" : "43.3105",
+  "LONWGS84" : "-1.934152",
+  "ROAD" : "GI-20",
+  "PK" : "4.500"
+}, {
+  "INDEX" : "43",
+  "TITLE" : "Pasaia 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/804.jpg",
+  "LATWGS84" : "43.310689",
+  "LONWGS84" : "-1.937903",
+  "ROAD" : "GI-20",
+  "PK" : "5.000"
+}, {
+  "INDEX" : "44",
+  "TITLE" : "Aritzeta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/810.jpg",
+  "LATWGS84" : "43.286418",
+  "LONWGS84" : "-2.032599",
+  "ROAD" : "GI-20",
+  "PK" : "15.000"
+}, {
+  "INDEX" : "45",
+  "TITLE" : "Mendaro 4",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/814.jpg",
+  "LATWGS84" : "43.25636",
+  "LONWGS84" : "-2.388769",
+  "ROAD" : "A-8",
+  "PK" : "62.000"
+}, {
+  "INDEX" : "46",
+  "TITLE" : "Mendaro 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/813.jpg",
+  "LATWGS84" : "43.25398",
+  "LONWGS84" : "-2.389978",
+  "ROAD" : "A-8",
+  "PK" : "62.000"
+}, {
+  "INDEX" : "47",
+  "TITLE" : "Berriz 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/817.jpg",
+  "LATWGS84" : "43.16774",
+  "LONWGS84" : "-2.562775",
+  "ROAD" : "A-8",
+  "PK" : "82.000"
+}, {
+  "INDEX" : "48",
+  "TITLE" : "Berriz 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/818.jpg",
+  "LATWGS84" : "43.1685",
+  "LONWGS84" : "-2.568193",
+  "ROAD" : "A-8",
+  "PK" : "82.000"
+}, {
+  "INDEX" : "49",
+  "TITLE" : "Galdakao",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/823.jpg",
+  "LATWGS84" : "43.23054",
+  "LONWGS84" : "-2.836321",
+  "ROAD" : "A-8",
+  "PK" : "106.600"
+}, {
+  "INDEX" : "50",
+  "TITLE" : "Arrankudiaga",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2501.jpg",
+  "LATWGS84" : "43.153575",
+  "LONWGS84" : "-2.941026",
+  "ROAD" : "BI-625",
+  "PK" : "373.000"
+}, {
+  "INDEX" : "51",
+  "TITLE" : "Mendaro 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3401.jpg",
+  "LATWGS84" : "43.250278",
+  "LONWGS84" : "-2.391828",
+  "ROAD" : "N-634",
+  "PK" : "52.000"
+}, {
+  "INDEX" : "52",
+  "TITLE" : "Mendaro 3",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3402.jpg",
+  "LATWGS84" : "43.25038",
+  "LONWGS84" : "-2.391704",
+  "ROAD" : "N-634",
+  "PK" : "52.000"
+}, {
+  "INDEX" : "53",
+  "TITLE" : "Rotonda Galdakao",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/824.jpg",
+  "LATWGS84" : "43.233856",
+  "LONWGS84" : "-2.842195",
+  "ROAD" : "A-8",
+  "PK" : "107.400"
+}, {
+  "INDEX" : "54",
+  "TITLE" : "Sestao",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/9020.jpg",
+  "LATWGS84" : "43.30492",
+  "LONWGS84" : "-3.021093",
+  "ROAD" : "A-8",
+  "PK" : "126.000"
+}, {
+  "INDEX" : "55",
+  "TITLE" : "Zabalburu",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/829.jpg",
+  "LATWGS84" : "43.24796",
+  "LONWGS84" : "-2.93735",
+  "ROAD" : "A-8",
+  "PK" : "115.800"
+}, {
+  "INDEX" : "56",
+  "TITLE" : "El Haya",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/845.jpg",
+  "LATWGS84" : "43.34299",
+  "LONWGS84" : "-3.140078",
+  "ROAD" : "A-8",
+  "PK" : "138.500"
+}, {
+  "INDEX" : "57",
+  "TITLE" : "Oiartzun 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/803.jpg",
+  "LATWGS84" : "43.31099",
+  "LONWGS84" : "-1.873746",
+  "ROAD" : "A-8",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "58",
+  "TITLE" : "Oiartzun 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/802.jpg",
+  "LATWGS84" : "43.31079",
+  "LONWGS84" : "-1.8736",
+  "ROAD" : "A-8",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "59",
+  "TITLE" : "Irun",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/801.jpg",
+  "LATWGS84" : "43.33959",
+  "LONWGS84" : "-1.75347",
+  "ROAD" : "A-8",
+  "PK" : "0.000"
+}, {
+  "INDEX" : "60",
+  "TITLE" : "Nanclares 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/102.jpg",
+  "LATWGS84" : "42.81815",
+  "LONWGS84" : "-2.781171",
+  "ROAD" : "A-1",
+  "PK" : "341.500"
+}, {
+  "INDEX" : "61",
+  "TITLE" : "Nanclares 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/103.jpg",
+  "LATWGS84" : "42.81848",
+  "LONWGS84" : "-2.781124",
+  "ROAD" : "A-1",
+  "PK" : "341.500"
+}, {
+  "INDEX" : "62",
+  "TITLE" : "Abetxuko ",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/105.jpg",
+  "LATWGS84" : "42.88005",
+  "LONWGS84" : "-2.677502",
+  "ROAD" : "A-1",
+  "PK" : "353.500"
+}, {
+  "INDEX" : "63",
+  "TITLE" : "Gamarra 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/107.jpg",
+  "LATWGS84" : "42.88074",
+  "LONWGS84" : "-2.655757",
+  "ROAD" : "A-1",
+  "PK" : "354.000"
+}, {
+  "INDEX" : "64",
+  "TITLE" : "Argomaniz (Ola-Ona) 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/110.jpg",
+  "LATWGS84" : "42.879",
+  "LONWGS84" : "-2.517056",
+  "ROAD" : "A-1",
+  "PK" : "366.000"
+}, {
+  "INDEX" : "65",
+  "TITLE" : "Argomaniz (Ola-Ona) 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/109.jpg",
+  "LATWGS84" : "42.87919",
+  "LONWGS84" : "-2.516182",
+  "ROAD" : "A-1",
+  "PK" : "366.000"
+}, {
+  "INDEX" : "66",
+  "TITLE" : "Egino 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/112.jpg",
+  "LATWGS84" : "42.864838",
+  "LONWGS84" : "-2.253074",
+  "ROAD" : "A-1",
+  "PK" : "390.750"
+}, {
+  "INDEX" : "67",
+  "TITLE" : "Egino 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/111.jpg",
+  "LATWGS84" : "42.865227",
+  "LONWGS84" : "-2.251983",
+  "ROAD" : "A-1",
+  "PK" : "390.750"
+}, {
+  "INDEX" : "68",
+  "TITLE" : "Etzegarate",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/113.jpg",
+  "LATWGS84" : "42.93622",
+  "LONWGS84" : "-2.22604",
+  "ROAD" : "N-I",
+  "PK" : "405.800"
+}, {
+  "INDEX" : "69",
+  "TITLE" : "Olaberria 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/114.jpg",
+  "LATWGS84" : "43.03315",
+  "LONWGS84" : "-2.218649",
+  "ROAD" : "N-I",
+  "PK" : "416.500"
+}, {
+  "INDEX" : "70",
+  "TITLE" : "Olaberria 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/115.jpg",
+  "LATWGS84" : "43.03362",
+  "LONWGS84" : "-2.218617",
+  "ROAD" : "N-I",
+  "PK" : "416.500"
+}, {
+  "INDEX" : "71",
+  "TITLE" : "Ordizia 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/116.jpg",
+  "LATWGS84" : "43.051054",
+  "LONWGS84" : "-2.179263",
+  "ROAD" : "N-I",
+  "PK" : "421.000"
+}, {
+  "INDEX" : "72",
+  "TITLE" : "Ordizia 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/117.jpg",
+  "LATWGS84" : "43.051678",
+  "LONWGS84" : "-2.178045",
+  "ROAD" : "N-I",
+  "PK" : "421.000"
+}, {
+  "INDEX" : "73",
+  "TITLE" : "Irura 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/118.jpg",
+  "LATWGS84" : "43.17421",
+  "LONWGS84" : "-2.058955",
+  "ROAD" : "N-I",
+  "PK" : "440.500"
+}, {
+  "INDEX" : "74",
+  "TITLE" : "Irura 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/119.jpg",
+  "LATWGS84" : "43.17447",
+  "LONWGS84" : "-2.058853",
+  "ROAD" : "N-I",
+  "PK" : "440.500"
+}, {
+  "INDEX" : "75",
+  "TITLE" : "Andoain 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/121.jpg",
+  "LATWGS84" : "43.213238",
+  "LONWGS84" : "-2.02851",
+  "ROAD" : "N-I",
+  "PK" : "446.000"
+}, {
+  "INDEX" : "76",
+  "TITLE" : "Lasarte",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/122.jpg",
+  "LATWGS84" : "43.24495",
+  "LONWGS84" : "-2.023495",
+  "ROAD" : "N-I",
+  "PK" : "451.000"
+}, {
+  "INDEX" : "77",
+  "TITLE" : "Lemoa",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/4002.jpg",
+  "LATWGS84" : "43.17916",
+  "LONWGS84" : "-2.774745",
+  "ROAD" : "N-240",
+  "PK" : "47.000"
+}, {
+  "INDEX" : "78",
+  "TITLE" : "Foronda",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2201.jpg",
+  "LATWGS84" : "42.875506",
+  "LONWGS84" : "-2.692619",
+  "ROAD" : "N-622",
+  "PK" : "4.000"
+}, {
+  "INDEX" : "79",
+  "TITLE" : "Sarria 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2203.jpg",
+  "LATWGS84" : "42.961275",
+  "LONWGS84" : "-2.827091",
+  "ROAD" : "N-622",
+  "PK" : "20.000"
+}, {
+  "INDEX" : "80",
+  "TITLE" : "Sarria 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2204.jpg",
+  "LATWGS84" : "42.960937",
+  "LONWGS84" : "-2.829012",
+  "ROAD" : "N-622",
+  "PK" : "20.000"
+}, {
+  "INDEX" : "81",
+  "TITLE" : "Gamarra 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/108.jpg",
+  "LATWGS84" : "42.87785",
+  "LONWGS84" : "-2.656894",
+  "ROAD" : "N-240",
+  "PK" : "4.500"
+}, {
+  "INDEX" : "82",
+  "TITLE" : "Boroa 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/822.jpg",
+  "LATWGS84" : "43.23126",
+  "LONWGS84" : "-2.769212",
+  "ROAD" : "A-8",
+  "PK" : "101.000"
+}, {
+  "INDEX" : "83",
+  "TITLE" : "Rotonda Romo",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3723.jpg",
+  "LATWGS84" : "43.3331",
+  "LONWGS84" : "-3.001937",
+  "ROAD" : "BI-637",
+  "PK" : "13.500"
+}, {
+  "INDEX" : "84",
+  "TITLE" : "Malmasín Sur",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/825.jpg",
+  "LATWGS84" : "43.23114",
+  "LONWGS84" : "-2.888571",
+  "ROAD" : "A-8",
+  "PK" : "111.100"
+}, {
+  "INDEX" : "85",
+  "TITLE" : "Malmasín Norte",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/826.jpg",
+  "LATWGS84" : "43.23365",
+  "LONWGS84" : "-2.910234",
+  "ROAD" : "A-8",
+  "PK" : "113.000"
+}, {
+  "INDEX" : "86",
+  "TITLE" : "Bomberos Artaza",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3724.jpg",
+  "LATWGS84" : "43.33018",
+  "LONWGS84" : "-2.996275",
+  "ROAD" : "BI-637",
+  "PK" : "12.900"
+}, {
+  "INDEX" : "87",
+  "TITLE" : "Rontegi",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6006.jpg",
+  "LATWGS84" : "43.29512",
+  "LONWGS84" : "-2.975969",
+  "ROAD" : "N-637",
+  "PK" : "9.700"
+}, {
+  "INDEX" : "88",
+  "TITLE" : "Max Center (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/841.jpg",
+  "LATWGS84" : "43.28522",
+  "LONWGS84" : "-2.996849",
+  "ROAD" : "A-8",
+  "PK" : "123.300"
+}, {
+  "INDEX" : "89",
+  "TITLE" : "Ugaldebieta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/844.jpg",
+  "LATWGS84" : "43.32481",
+  "LONWGS84" : "-3.062233",
+  "ROAD" : "A-8",
+  "PK" : "130.500"
+}, {
+  "INDEX" : "90",
+  "TITLE" : "Salida de Balmaseda",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/835.jpg",
+  "LATWGS84" : "43.26804",
+  "LONWGS84" : "-2.964835",
+  "ROAD" : "A-8",
+  "PK" : "119.100"
+}, {
+  "INDEX" : "91",
+  "TITLE" : "Zorroza",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/836.jpg",
+  "LATWGS84" : "43.27411",
+  "LONWGS84" : "-2.974299",
+  "ROAD" : "A-8",
+  "PK" : "120.400"
+}, {
+  "INDEX" : "92",
+  "TITLE" : "Cruces",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/837.jpg",
+  "LATWGS84" : "43.28064",
+  "LONWGS84" : "-2.985133",
+  "ROAD" : "A-8",
+  "PK" : "122.000"
+}, {
+  "INDEX" : "93",
+  "TITLE" : "Rekalde (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/831.jpg",
+  "LATWGS84" : "43.24989",
+  "LONWGS84" : "-2.943746",
+  "ROAD" : "A-8",
+  "PK" : "116.500"
+}, {
+  "INDEX" : "94",
+  "TITLE" : "Entrada de Santurce",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/4401.jpg",
+  "LATWGS84" : "43.31728",
+  "LONWGS84" : "-3.047059",
+  "ROAD" : "A-8",
+  "PK" : "129.000"
+}, {
+  "INDEX" : "95",
+  "TITLE" : "Urioste",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/843.jpg",
+  "LATWGS84" : "43.31453",
+  "LONWGS84" : "-3.044056",
+  "ROAD" : "A-8",
+  "PK" : "128.500"
+}, {
+  "INDEX" : "96",
+  "TITLE" : "Larraskitu",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/8115.jpg",
+  "LATWGS84" : "43.24768",
+  "LONWGS84" : "-2.935795",
+  "ROAD" : "A-8",
+  "PK" : "115.500"
+}, {
+  "INDEX" : "97",
+  "TITLE" : "Urioste (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/9001.jpg",
+  "LATWGS84" : "43.31218",
+  "LONWGS84" : "-3.035826",
+  "ROAD" : "A-8",
+  "PK" : "128.000"
+}, {
+  "INDEX" : "98",
+  "TITLE" : "Salida Miraflores",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/828.jpg",
+  "LATWGS84" : "43.24066",
+  "LONWGS84" : "-2.926873",
+  "ROAD" : "A-8",
+  "PK" : "114.700"
+}, {
+  "INDEX" : "99",
+  "TITLE" : "Miribilla Salida",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3101.jpg",
+  "LATWGS84" : "43.248083",
+  "LONWGS84" : "-2.926371",
+  "ROAD" : "BI-631",
+  "PK" : "0.300"
+}, {
+  "INDEX" : "100",
+  "TITLE" : "Irusta",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/846.jpg",
+  "LATWGS84" : "43.23911",
+  "LONWGS84" : "-2.92554",
+  "ROAD" : "A-8",
+  "PK" : "114.500"
+}, {
+  "INDEX" : "101",
+  "TITLE" : "Nocedal",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/847.jpg",
+  "LATWGS84" : "43.31848",
+  "LONWGS84" : "-3.050342",
+  "ROAD" : "A-8",
+  "PK" : "129.500"
+}, {
+  "INDEX" : "102",
+  "TITLE" : "Trapaga",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/849.jpg",
+  "LATWGS84" : "43.2972",
+  "LONWGS84" : "-3.020573",
+  "ROAD" : "A-8",
+  "PK" : "125.500"
+}, {
+  "INDEX" : "103",
+  "TITLE" : "Trapaga 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/850.jpg",
+  "LATWGS84" : "43.29646",
+  "LONWGS84" : "-3.019722",
+  "ROAD" : "A-8",
+  "PK" : "125.500"
+}, {
+  "INDEX" : "104",
+  "TITLE" : "Entrada Portugalete",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/848.jpg",
+  "LATWGS84" : "43.30792",
+  "LONWGS84" : "-3.02781",
+  "ROAD" : "A-8",
+  "PK" : "127.000"
+}, {
+  "INDEX" : "105",
+  "TITLE" : "Ibarrekolanda",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6002.jpg",
+  "LATWGS84" : "43.28569",
+  "LONWGS84" : "-2.958599",
+  "ROAD" : "BI-604",
+  "PK" : "4.700"
+}, {
+  "INDEX" : "106",
+  "TITLE" : "Enekuri",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6001.jpg",
+  "LATWGS84" : "43.28985",
+  "LONWGS84" : "-2.96085",
+  "ROAD" : "BI-604",
+  "PK" : "5.300"
+}, {
+  "INDEX" : "107",
+  "TITLE" : "Asua",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6003.jpg",
+  "LATWGS84" : "43.29874",
+  "LONWGS84" : "-2.953727",
+  "ROAD" : "BI-604",
+  "PK" : "6.500"
+}, {
+  "INDEX" : "108",
+  "TITLE" : "Gerediaga",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/851.jpg",
+  "LATWGS84" : "43.17411",
+  "LONWGS84" : "-2.615571",
+  "ROAD" : "A-8",
+  "PK" : "87.000"
+}, {
+  "INDEX" : "109",
+  "TITLE" : "Barakaldo",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6008.jpg",
+  "LATWGS84" : "43.28938",
+  "LONWGS84" : "-2.985772",
+  "ROAD" : "N-637",
+  "PK" : "8.900"
+}, {
+  "INDEX" : "110",
+  "TITLE" : "Kukularra",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6009.jpg",
+  "LATWGS84" : "43.3009",
+  "LONWGS84" : "-2.964104",
+  "ROAD" : "N-637",
+  "PK" : "11.100"
+}, {
+  "INDEX" : "111",
+  "TITLE" : "Incorporación Astrabudua",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6010.jpg",
+  "LATWGS84" : "43.3159",
+  "LONWGS84" : "-2.968442",
+  "ROAD" : "BI-637",
+  "PK" : "10.000"
+}, {
+  "INDEX" : "112",
+  "TITLE" : "Leioa",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/6005.jpg",
+  "LATWGS84" : "43.324831",
+  "LONWGS84" : "-2.985478",
+  "ROAD" : "BI-637",
+  "PK" : "11.700"
+}, {
+  "INDEX" : "113",
+  "TITLE" : "Durana Arkaute",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/124.jpg",
+  "LATWGS84" : "42.881957",
+  "LONWGS84" : "-2.634242",
+  "ROAD" : "A-1",
+  "PK" : "356.900"
+}, {
+  "INDEX" : "114",
+  "TITLE" : "Luko",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/4003.jpg",
+  "LATWGS84" : "42.926571",
+  "LONWGS84" : "-2.643958",
+  "ROAD" : "N-240",
+  "PK" : "10.100"
+}, {
+  "INDEX" : "115",
+  "TITLE" : "Jundiz",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/1021.jpg",
+  "LATWGS84" : "42.828445",
+  "LONWGS84" : "-2.739926",
+  "ROAD" : "N-102",
+  "PK" : "344.800"
+}, {
+  "INDEX" : "116",
+  "TITLE" : "Jundiz",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/126.jpg",
+  "LATWGS84" : "42.836502",
+  "LONWGS84" : "-2.752356",
+  "ROAD" : "A-1",
+  "PK" : "345.450"
+}, {
+  "INDEX" : "117",
+  "TITLE" : "Arangiz",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2206.jpg",
+  "LATWGS84" : "42.889243",
+  "LONWGS84" : "-2.69813",
+  "ROAD" : "N-622",
+  "PK" : "5.850"
+}, {
+  "INDEX" : "118",
+  "TITLE" : "Agurain",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/125.jpg",
+  "LATWGS84" : "42.846541",
+  "LONWGS84" : "-2.418701",
+  "ROAD" : "A-1",
+  "PK" : "376.200"
+}, {
+  "INDEX" : "119",
+  "TITLE" : "Leioa túnel 1",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3728.jpg",
+  "LATWGS84" : "43.325103",
+  "LONWGS84" : "-2.985974",
+  "ROAD" : "BI-637",
+  "PK" : "11.800"
+}, {
+  "INDEX" : "120",
+  "TITLE" : "Leioa túnel 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3727.jpg",
+  "LATWGS84" : "43.327398",
+  "LONWGS84" : "-2.990669",
+  "ROAD" : "BI-637",
+  "PK" : "11.900"
+}, {
+  "INDEX" : "121",
+  "TITLE" : "Leioa túnel 3",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3726.jpg",
+  "LATWGS84" : "43.327905",
+  "LONWGS84" : "-2.991566",
+  "ROAD" : "BI-637",
+  "PK" : "11.950"
+}, {
+  "INDEX" : "122",
+  "TITLE" : "Leioa túnel 4",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3725.jpg",
+  "LATWGS84" : "43.329212",
+  "LONWGS84" : "-2.994179",
+  "ROAD" : "BI-637",
+  "PK" : "12.000"
+}, {
+  "INDEX" : "123",
+  "TITLE" : "Entrada túnel Romo",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3722.jpg",
+  "LATWGS84" : "43.33358",
+  "LONWGS84" : "-3.001458",
+  "ROAD" : "BI-637",
+  "PK" : "13.550"
+}, {
+  "INDEX" : "124",
+  "TITLE" : "Salida túnel Romo",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3721.jpg",
+  "LATWGS84" : "43.33283",
+  "LONWGS84" : "-3.00173",
+  "ROAD" : "BI-637",
+  "PK" : "13.450"
+}, {
+  "INDEX" : "125",
+  "TITLE" : "Salida Miraflores 2",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/827.jpg",
+  "LATWGS84" : "43.24372",
+  "LONWGS84" : "-2.930473",
+  "ROAD" : "A-8",
+  "PK" : "115.200"
+}, {
+  "INDEX" : "126",
+  "TITLE" : "Lopidana (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/127 .jpg",
+  "LATWGS84" : "42.8801",
+  "LONWGS84" : "-2.707395",
+  "ROAD" : "A-1",
+  "PK" : "350.000"
+}, {
+  "INDEX" : "127",
+  "TITLE" : "Etxabarri Ibiña (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2207.jpg",
+  "LATWGS84" : "42.905311",
+  "LONWGS84" : "-2.710822",
+  "ROAD" : "N-622",
+  "PK" : "8.000"
+}, {
+  "INDEX" : "128",
+  "TITLE" : "Abetxuko-Irun (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/128.jpg",
+  "LATWGS84" : "48.87984",
+  "LONWGS84" : "-2.677959",
+  "ROAD" : "A-1",
+  "PK" : "353.500"
+}, {
+  "INDEX" : "129",
+  "TITLE" : "Campa Erandio (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/3729.jpg",
+  "LATWGS84" : "43.31036",
+  "LONWGS84" : "-2.962614",
+  "ROAD" : "BI-637",
+  "PK" : "8.900"
+}, {
+  "INDEX" : "130",
+  "TITLE" : "Añorga (2)",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/2001.jpg",
+  "LATWGS84" : "43.295609",
+  "LONWGS84" : "-1.997044",
+  "ROAD" : "GI-20",
+  "PK" : "11.000"
+}, {
+  "INDEX" : "131",
+  "TITLE" : "Irun-Muga FHD ",
+  "URLCAM" : "https://www.trafikoa.eus/static/files/tr/camaras/852.jpg",
+  "LATWGS84" : "43.33959",
+  "LONWGS84" : "-1.75347",
+  "ROAD" : "A-8",
+  "PK" : "0.000"
+} ]);

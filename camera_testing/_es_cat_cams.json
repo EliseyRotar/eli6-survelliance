@@ -1,0 +1,1221 @@
+[
+ {
+  "carretera": "C-58",
+  "municipi": "Nus Trinitat",
+  "pk": "0.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc87.gif",
+  "font": "SCT",
+  "_imgid": "nc87.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "MONTCADA I REIXAC",
+  "pk": "1.82",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc85.gif",
+  "font": "SCT",
+  "_imgid": "nc85.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Ripollet ",
+  "pk": "6.15",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc89.gif",
+  "font": "SCT",
+  "_imgid": "nc89.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-66",
+  "municipi": "FORALLAC",
+  "pk": "5.30",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb24.gif",
+  "font": "SCT",
+  "_imgid": "cb24.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "HOSPITALET DE LLOBREGAT",
+  "pk": "195.60",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc5.gif",
+  "font": "SCT",
+  "_imgid": "sc5.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "Pl Dore",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam01.jpeg?a=1 &#13;\n",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Topete-Montcada",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam02.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Tarradelles-Abad Marcet",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam03.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Jaquard-Castellar",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam04.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Avda. Vallès - 22 juliol (est)",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam05.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Avda. Vallès - 22 juliol (oest)",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam06.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Avda. Gl. Catalanes-Agricultura",
+  "municipi": "Terrassa",
+  "link": "https://emap.terrassa.cat/it_terrassa/cam07.jpeg?a=1",
+  "font": "Terrassa"
+ },
+ {
+  "carretera": "Meridiana",
+  "municipi": "Meridiana",
+  "pk": "0.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc86.gif",
+  "font": "SCT",
+  "_imgid": "nc86.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "Bellvitge",
+  "pk": "196.93",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc74.gif",
+  "font": "SCT",
+  "_imgid": "sc74.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "BARCELONA",
+  "pk": "0.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc29.gif",
+  "font": "SCT",
+  "_imgid": "sc29.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "SANT JUST DESVERN",
+  "pk": "3.11",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc33.gif",
+  "font": "SCT",
+  "_imgid": "sc33.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Vallvidrera",
+  "pk": "4.76",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=rc1.gif",
+  "font": "SCT",
+  "_imgid": "rc1.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Rubí",
+  "pk": "14.85",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=rc2.gif",
+  "font": "SCT",
+  "_imgid": "rc2.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Terrassa",
+  "pk": "22.35",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=rc3.gif",
+  "font": "SCT",
+  "_imgid": "rc3.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "ENLLAÇ A-2",
+  "pk": "6.14",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc67.gif",
+  "font": "SCT",
+  "_imgid": "sc67.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "Av. Santa Coloma PK 1+950 / 979 metres",
+  "municipi": "Andorra",
+  "pk": "1.00",
+  "link": "https://app.mobilitat.ad/gifs/stacoloma.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG1 / PK 0+200 (Rotonda Josep Escaler) / 1.016 met",
+  "municipi": "Andorra",
+  "pk": "0.00",
+  "link": "https://app.mobilitat.ad/gifs/rotescaler.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 1+527 (Rotonda Engolasters) / 1.117 metre",
+  "municipi": "Andorra",
+  "pk": "2.00",
+  "link": "https://app.mobilitat.ad/gifs/engolaster.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 2+871 (La Bartra) / 1.175 metres",
+  "municipi": "Andorra",
+  "pk": "3.00",
+  "link": "https://app.mobilitat.ad/gifs/bartra.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 5+560 (Variant Nord Encamp) / 1.303 metre",
+  "municipi": "Andorra",
+  "pk": "6.00",
+  "link": "https://app.mobilitat.ad/gifs/variantn.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 8+500 (Meritxell) / 1.436 metres",
+  "municipi": "Andorra",
+  "pk": "8.00",
+  "link": "https://app.mobilitat.ad/gifs/meritxell.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 10+140 (Canillo Nord) / 1.540 metres",
+  "municipi": "Andorra",
+  "pk": "10.00",
+  "link": "https://app.mobilitat.ad/gifs/canillo.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 14+830 (El Tarter) / 1.663 metres",
+  "municipi": "Andorra",
+  "pk": "15.00",
+  "link": "https://app.mobilitat.ad/gifs/eltarter.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 16+486 (Incles) / 1.743 metres",
+  "municipi": "Andorra",
+  "pk": "16.00",
+  "link": "https://app.mobilitat.ad/gifs/incles.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 22+000 (Envalira) / 2.086 metres",
+  "municipi": "Andorra",
+  "pk": "21.00",
+  "link": "https://app.mobilitat.ad/gifs/grau.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 30+825 (Pas de la Casa Nord) / 2.150 metr",
+  "municipi": "Andorra",
+  "pk": "30.00",
+  "link": "https://app.mobilitat.ad/gifs/bomberspas.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Av. Meritxell - c. Bonaventura Armengol PK 0+550 /",
+  "municipi": "Andorra",
+  "pk": "0.00",
+  "link": "https://app.mobilitat.ad/gifs/bonarmen.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG3 / PK 0+175 (Meritxell - Carlemany) / 1.020 met",
+  "municipi": "Andorra",
+  "pk": "0.00",
+  "link": "https://app.mobilitat.ad/gifs/uniocarlemany.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Rotonda KM 0 / 1.028 metres",
+  "municipi": "Andorra",
+  "pk": "0.00",
+  "link": "https://app.mobilitat.ad/gifs/unioobac.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Av. Fiter i Rossell Sud / PK 1+841 / 1.051 metres",
+  "municipi": "Andorra",
+  "pk": "1.00",
+  "link": "https://app.mobilitat.ad/gifs/fitross.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG3 / PK 4+926 (Serra de l'Honor) / 1.235 metres",
+  "municipi": "Andorra",
+  "pk": "5.00",
+  "link": "https://app.mobilitat.ad/gifs/serrahonor.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG4 / PK 0+200 (Prat del Colat) / 1.246 metres",
+  "municipi": "Andorra",
+  "pk": "0.00",
+  "link": "https://app.mobilitat.ad/gifs/pratcolat.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG4 / PK 2+430 (Rotonda d'Erts) / 1.340 metres",
+  "municipi": "Andorra",
+  "pk": "2.00",
+  "link": "https://app.mobilitat.ad/gifs/erts.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG3 / PK 7+819 (Rotonda Aldosa) / 1.250 metres",
+  "municipi": "Andorra",
+  "pk": "8.00",
+  "link": "https://app.mobilitat.ad/gifs/aldosa.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG3 / PK 9+200 (Ordino Nord) / 1.280 metres",
+  "municipi": "Andorra",
+  "pk": "9.00",
+  "link": "https://app.mobilitat.ad/gifs/ordinon.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG3 / PK 16+514 (el Serrat) / 1.503 metres",
+  "municipi": "Andorra",
+  "pk": "16.00",
+  "link": "https://app.mobilitat.ad/gifs/serrat.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Plaça Antonio López",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlAntonioLopez.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Balmes - Gran Via",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/BalmesGranVia.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Balmes - Mitre",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/BalmesMitre.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Molina",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlMolina.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Marina - Pujades",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/MarinaPujades.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda de Dalt / Carretera Esplugues",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondadeDaltCrtaEsplugues.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda Litoral / Zona Franca",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondaLitoralZonaFranca.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda de Dalt / Velòdrom",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondadeDaltVelodrom.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda de Dalt / Sant Gervasi",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondadeDaltSantGervasi.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Diagonal - Ciutat de Granada",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/DiagonalCiutatdeGranada.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Urquinaona",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlUrquinaona.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Gran Via - Marina",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/GranViaMarina.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Espanya - Paral·lel",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlEspanya.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Catalunya - Pelai",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlCatalunya.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Meridiana - Felip II",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/MeridianaFelipII.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda Litoral / Moll de la Fusta",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondaLitoralMollFusta.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda Litoral / Badajoz",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondaLitoralBadajoz.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Ronda de Dalt / Meridiana",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondadeDaltMeridiana.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Països Catalans",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlPaissosCatalans.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Diagonal - Maria Cristina",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/DiagonalMCristina.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Pau Vila",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlPauVila.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "CG1 / PK 11+195 (Frontera Hispano-Andorrana) / 848",
+  "municipi": "Andorra",
+  "pk": "11.00",
+  "link": "https://app.mobilitat.ad/gifs/riuruner.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG1 / PK 10+200 (Rotonda Olivera) / 858 metres",
+  "municipi": "Andorra",
+  "pk": "10.00",
+  "link": "https://app.mobilitat.ad/gifs/depuradora.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Av. Fiter i Rossell - av. Pessebre / PK 1+841 / 1.",
+  "municipi": "Andorra",
+  "pk": "1.00",
+  "link": "https://app.mobilitat.ad/gifs/escapess.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG1 / PK 5+307 (Margineda) / 937 metres",
+  "municipi": "Andorra",
+  "pk": "5.00",
+  "link": "https://app.mobilitat.ad/gifs/margineda.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG1 / PK 4+900 (Rotonda Margineda) / 949 metres",
+  "municipi": "Andorra",
+  "pk": "5.00",
+  "link": "https://app.mobilitat.ad/gifs/rotmargine.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Ronda Litoral / Bon Pastor",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/RondaLitoralBonPastor.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Meridiana - Rio de Janeiro",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/MeridianaRioJaneiro.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "SANT FELIU DE LLOBREGAT",
+  "pk": "7.38",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc37.gif",
+  "font": "SCT",
+  "_imgid": "sc37.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "CG1 / PK 0+500 (Rotonda els Marginets) / 1.006 met",
+  "municipi": "Andorra",
+  "pk": "1.00",
+  "link": "https://app.mobilitat.ad/gifs/marginets.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "CG2 / PK 20+455 (Bordes d'Envalira) / 1.938 metres",
+  "municipi": "Andorra",
+  "pk": "20.00",
+  "link": "https://app.mobilitat.ad/gifs/peretol.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "Aragó - Passeig de Gràcia",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/AragoPgGracia.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "Plaça Cerdà",
+  "municipi": "Barcelona",
+  "link": "http://www.bcn.cat/transit/imatges/PlCerda.gif?a=1",
+  "font": "IMI"
+ },
+ {
+  "carretera": "CG1 / PK 9+791 (La Portalada) / 860 metres",
+  "municipi": "Andorra",
+  "pk": "9.00",
+  "link": "https://app.mobilitat.ad/gifs/bsabater.gif?a=1",
+  "font": "Andorra"
+ },
+ {
+  "carretera": "C-32",
+  "municipi": "ALELLA",
+  "pk": "85.05",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc10.gif",
+  "font": "SCT",
+  "_imgid": "nc10.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-32",
+  "municipi": "GAVÀ",
+  "pk": "50.37",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc72.gif",
+  "font": "SCT",
+  "_imgid": "sc72.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-32",
+  "municipi": "SANT BOI CENTRE",
+  "pk": "54.30",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc71.gif",
+  "font": "SCT",
+  "_imgid": "sc71.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-35",
+  "municipi": " LLAGOSTERA",
+  "pk": "94.70",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb5.gif",
+  "font": "SCT",
+  "_imgid": "cb5.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "SANTA CRISTINA D ARÓ",
+  "pk": "310.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb14.gif",
+  "font": "SCT",
+  "_imgid": "cb14.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "CASTELL D ARÓ",
+  "pk": "312.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb15.gif",
+  "font": "SCT",
+  "_imgid": "cb15.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "CASTELL D ARÓ",
+  "pk": "316.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb17.gif",
+  "font": "SCT",
+  "_imgid": "cb17.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "N-340",
+  "municipi": "C-44 1",
+  "pk": "1130.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cd14.gif",
+  "font": "SCT",
+  "_imgid": "cd14.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "PALAMÓS",
+  "pk": "327.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb20.gif",
+  "font": "SCT",
+  "_imgid": "cb20.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-66",
+  "municipi": " LA BISBAL D EMPORDÀ",
+  "pk": "7.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb25.gif",
+  "font": "SCT",
+  "_imgid": "cb25.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-65",
+  "municipi": "SANTA CRISTINA D ARÓ",
+  "pk": "5.40",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb13.gif",
+  "font": "SCT",
+  "_imgid": "cb13.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-65",
+  "municipi": "LLAGOSTERA",
+  "pk": "12.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb11.gif",
+  "font": "SCT",
+  "_imgid": "cb11.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-65",
+  "municipi": "CASSÀ DE LA SELVA",
+  "pk": "17.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb10.gif",
+  "font": "SCT",
+  "_imgid": "cb10.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "T-11",
+  "municipi": "TARRAGONA",
+  "pk": "0.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cd1.gif",
+  "font": "SCT",
+  "_imgid": "cd1.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "N-340",
+  "municipi": "SANT CARLES DE LA RAPITÀ",
+  "pk": "1072.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cd19.gif",
+  "font": "SCT",
+  "_imgid": "cd19.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "N-340",
+  "municipi": " L AMPOLLA",
+  "pk": "1099.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cd17.gif",
+  "font": "SCT",
+  "_imgid": "cd17.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "MONTCADA I REIXAC",
+  "pk": "1.82",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc85.gif",
+  "font": "SCT",
+  "_imgid": "nc85.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "BARBERÀ DEL VALLÈS",
+  "pk": "7.08",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc15.gif",
+  "font": "SCT",
+  "_imgid": "nc15.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "SABADELL",
+  "pk": "15.24",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc20.gif",
+  "font": "SCT",
+  "_imgid": "nc20.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "TERRASSA",
+  "pk": "17.73",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc28.gif",
+  "font": "SCT",
+  "_imgid": "nc28.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "BARBERÀ DEL VALLÈS",
+  "pk": "146.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc78.gif",
+  "font": "SCT",
+  "_imgid": "nc78.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "ST. CUGAT",
+  "pk": "154.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc80.gif",
+  "font": "SCT",
+  "_imgid": "nc80.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "BADALONA MONTIGALÀ",
+  "pk": "20.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc81.gif",
+  "font": "SCT",
+  "_imgid": "nc81.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "BADALONA",
+  "pk": "21.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc64.gif",
+  "font": "SCT",
+  "_imgid": "nc64.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "MONTGAT",
+  "pk": "24.65",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc67.gif",
+  "font": "SCT",
+  "_imgid": "nc67.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "SANT BOI",
+  "pk": "0.83",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc65.gif",
+  "font": "SCT",
+  "_imgid": "sc65.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "EL PRAT",
+  "pk": "1.65",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc64.gif",
+  "font": "SCT",
+  "_imgid": "sc64.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-35",
+  "municipi": "MAÇANET DE LA SELVA",
+  "pk": "84.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb1.gif",
+  "font": "SCT",
+  "_imgid": "cb1.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "SOSES",
+  "pk": "445.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc62.gif",
+  "font": "SCT",
+  "_imgid": "sc62.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "LLEIDA",
+  "pk": "456.73",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc63.gif",
+  "font": "SCT",
+  "_imgid": "sc63.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "MONTMANEU",
+  "pk": "534.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc61.gif",
+  "font": "SCT",
+  "_imgid": "sc61.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "CASTELLOLÍ",
+  "pk": "560.58",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc60.gif",
+  "font": "SCT",
+  "_imgid": "sc60.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "SANT JOAN DESPÍ",
+  "pk": "606.09",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc59.gif",
+  "font": "SCT",
+  "_imgid": "sc59.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "SANT JOAN DESPÍ",
+  "pk": "608.13",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc58.gif",
+  "font": "SCT",
+  "_imgid": "sc58.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "SANT VICENÇ DELS HORTS",
+  "pk": "11.10",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc40.gif",
+  "font": "SCT",
+  "_imgid": "sc40.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "PAPIOL",
+  "pk": "13.57",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc43.gif",
+  "font": "SCT",
+  "_imgid": "sc43.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "PAPIOL",
+  "pk": "15.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc44.gif",
+  "font": "SCT",
+  "_imgid": "sc44.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "SANT ADRIÀ DE BESÒS",
+  "pk": "209.13",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc2.gif",
+  "font": "SCT",
+  "_imgid": "nc2.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "BADALONA",
+  "pk": "210.15",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc3.gif",
+  "font": "SCT",
+  "_imgid": "nc3.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "BADALONA CENTRE",
+  "pk": "211.64",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc82.gif",
+  "font": "SCT",
+  "_imgid": "nc82.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "MONTGAT",
+  "pk": "215.81",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=nc8.gif",
+  "font": "SCT",
+  "_imgid": "nc8.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "CASTELLDEFELS",
+  "pk": "182.65",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc18.gif",
+  "font": "SCT",
+  "_imgid": "sc18.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "VILADECANS",
+  "pk": "188.94",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc12.gif",
+  "font": "SCT",
+  "_imgid": "sc12.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "AEROPORT",
+  "pk": "192.18",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=sc70.gif",
+  "font": "SCT",
+  "_imgid": "sc70.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-35",
+  "municipi": "CALDES DE MALAVELLA",
+  "pk": "91.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb4.gif",
+  "font": "SCT",
+  "_imgid": "cb4.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-35",
+  "municipi": " LLAGOSTERA",
+  "pk": "94.70",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb5.gif",
+  "font": "SCT",
+  "_imgid": "cb5.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-35",
+  "municipi": "LLAGOSTERA",
+  "pk": "96.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb6.gif",
+  "font": "SCT",
+  "_imgid": "cb6.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-66",
+  "municipi": " LA BISBAL D EMPORDÀ",
+  "pk": "7.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb25.gif",
+  "font": "SCT",
+  "_imgid": "cb25.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-65",
+  "municipi": "CASSÀ DE LA SELVA",
+  "pk": "17.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cb10.gif",
+  "font": "SCT",
+  "_imgid": "cb10.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "N-340",
+  "municipi": " L AMPOLLA",
+  "pk": "1099.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=cd17.gif",
+  "font": "SCT",
+  "_imgid": "cd17.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "Vandellòs i l'Hospitalet de l'Infant",
+  "pk": "288.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0802.gif",
+  "font": "SCT",
+  "_imgid": "c0802.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "Ulldecona",
+  "pk": "337.30",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0819.gif",
+  "font": "SCT",
+  "_imgid": "c0819.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Santa Coloma de Cervelló",
+  "pk": "603.63",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1106.gif",
+  "font": "SCT",
+  "_imgid": "c1106.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Alcoletge",
+  "pk": "469.40",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1137.gif",
+  "font": "SCT",
+  "_imgid": "c1137.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Guardiola de Berguedà",
+  "pk": "122.30",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1661.gif",
+  "font": "SCT",
+  "_imgid": "c1661.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "Sant Joan Despí",
+  "pk": "4.75",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c2306.gif",
+  "font": "SCT",
+  "_imgid": "c2306.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "Molins de Rei",
+  "pk": "12.19",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c2313.gif",
+  "font": "SCT",
+  "_imgid": "c2313.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Montcada i Reixac",
+  "pk": "2.83",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5813.gif",
+  "font": "SCT",
+  "_imgid": "c5813.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Cerdanyola del Vallès",
+  "pk": "7.83",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5821.gif",
+  "font": "SCT",
+  "_imgid": "c5821.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-30",
+  "municipi": "Cerdanyola del Vallès",
+  "pk": "8.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0746.gif",
+  "font": "SCT",
+  "_imgid": "c0746.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "Sant Cugat del Vallès",
+  "pk": "157.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0754.gif",
+  "font": "SCT",
+  "_imgid": "c0754.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "Castellbisbal",
+  "pk": "164.97",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0761.gif",
+  "font": "SCT",
+  "_imgid": "c0761.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "AP-7",
+  "municipi": "Martorell",
+  "pk": "171.19",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c0766.gif",
+  "font": "SCT",
+  "_imgid": "c0766.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Cornellà de Llobregat",
+  "pk": "609.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1101.gif",
+  "font": "SCT",
+  "_imgid": "c1101.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Sant Vicenç dels Horts",
+  "pk": "601.33",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1108.gif",
+  "font": "SCT",
+  "_imgid": "c1108.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Pallejà",
+  "pk": "597.28",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1111.gif",
+  "font": "SCT",
+  "_imgid": "c1111.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Abrera",
+  "pk": "583.68",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1121.gif",
+  "font": "SCT",
+  "_imgid": "c1121.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "El Bruc",
+  "pk": "570.65",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1123.gif",
+  "font": "SCT",
+  "_imgid": "c1123.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Cervera",
+  "pk": "524.35",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1130.gif",
+  "font": "SCT",
+  "_imgid": "c1130.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "A-2",
+  "municipi": "Tàrrega",
+  "pk": "512.75",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1132.gif",
+  "font": "SCT",
+  "_imgid": "c1132.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Berga",
+  "pk": "97.50",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1649.gif",
+  "font": "SCT",
+  "_imgid": "c1649.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Cercs",
+  "pk": "104.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1652.gif",
+  "font": "SCT",
+  "_imgid": "c1652.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-16",
+  "municipi": "Bagà",
+  "pk": "118.90",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1658.gif",
+  "font": "SCT",
+  "_imgid": "c1658.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-17",
+  "municipi": "Montcada i Reixac",
+  "pk": "6.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1701.gif",
+  "font": "SCT",
+  "_imgid": "c1701.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-17",
+  "municipi": "Parets del Vallès",
+  "pk": "15.70",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1708.gif",
+  "font": "SCT",
+  "_imgid": "c1708.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-17",
+  "municipi": "Lliçà de Vall",
+  "pk": "17.06",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c1709.gif",
+  "font": "SCT",
+  "_imgid": "c1709.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "Santa Coloma de Gramenet",
+  "pk": "17.10",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c2001.gif",
+  "font": "SCT",
+  "_imgid": "c2001.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "Molins de Rei",
+  "pk": "10.18",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c2311.gif",
+  "font": "SCT",
+  "_imgid": "c2311.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-23",
+  "municipi": "El Papiol",
+  "pk": "15.20",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c2316.gif",
+  "font": "SCT",
+  "_imgid": "c2316.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-31",
+  "municipi": "Montgat",
+  "pk": "215.80",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3108.gif",
+  "font": "SCT",
+  "_imgid": "c3108.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "B-20",
+  "municipi": "Cornellà de Llobregat",
+  "pk": "2.83",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3201.gif",
+  "font": "SCT",
+  "_imgid": "c3201.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-32",
+  "municipi": "Viladecans",
+  "pk": "51.60",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3206.gif",
+  "font": "SCT",
+  "_imgid": "c3206.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-32",
+  "municipi": "Gavà",
+  "pk": "49.11",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3208.gif",
+  "font": "SCT",
+  "_imgid": "c3208.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-33",
+  "municipi": "Montcada i Reixac",
+  "pk": "78.90",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3303.gif",
+  "font": "SCT",
+  "_imgid": "c3303.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "N-340",
+  "municipi": "Sant Vicenç dels Horts",
+  "pk": "1242.28",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c3402.gif",
+  "font": "SCT",
+  "_imgid": "c3402.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Barcelona",
+  "pk": "0.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5805.gif",
+  "font": "SCT",
+  "_imgid": "c5805.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Barcelona",
+  "pk": "1.00",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5807.gif",
+  "font": "SCT",
+  "_imgid": "c5807.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Badia del Vallès",
+  "pk": "9.55",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5822.gif",
+  "font": "SCT",
+  "_imgid": "c5822.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ },
+ {
+  "carretera": "C-58",
+  "municipi": "Sant Quirze del Vallès",
+  "pk": "11.73",
+  "link": "http://mct.gencat.cat/mct2bo/RenderService?sctidcam=c5823.gif",
+  "font": "SCT",
+  "_imgid": "c5823.gif</cite:link><cite:font>SCT</cite:font></cite:cameres>"
+ }
+]

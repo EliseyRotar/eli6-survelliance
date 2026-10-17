@@ -1,0 +1,4 @@
+{
+  "error" : true,
+  "message" : "no row or column access to non-tabular tables"
+}

@@ -1,0 +1,412 @@
+{
+ "written": [
+  [
+   "240220",
+   "cat-emap-cam01",
+   "cat",
+   "https://emap.terrassa.cat/it_terrassa/cam01.jpeg?a=1"
+  ],
+  [
+   "240221",
+   "cnt-abra-de-pas",
+   "cnt",
+   "https://cantur.com/camaras/home/cantucom/public_html/camaras/abra000.jpg"
+  ],
+  [
+   "240222",
+   "cnt-calgosa",
+   "cnt",
+   "https://cantur.com/camaras/multi/calgosa_vista_calgosa.jpg"
+  ],
+  [
+   "240223",
+   "cnt-el-chivo2",
+   "cnt",
+   "https://cantur.com/camaras/chivo/chivo_vista_valle.jpg"
+  ],
+  [
+   "240224",
+   "cnt-fuente-de",
+   "cnt",
+   "https://cantur.com/camaras/home/cantucom/public.html/camaras/fuentede.jpg"
+  ],
+  [
+   "240225",
+   "cnt-sierra-del-hijar",
+   "cnt",
+   "https://cantur.com/camaras/multi/calgosa_cuchillon_superior.jpg"
+  ],
+  [
+   "240226",
+   "cnt-tres-mares",
+   "cnt",
+   "https://cantur.com/camaras/3mares/3mares_vista_cornon.jpg"
+  ],
+  [
+   "240227",
+   "dgt-103",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/103.jpg"
+  ],
+  [
+   "240228",
+   "dgt-1040",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/1040.jpg"
+  ],
+  [
+   "240229",
+   "dgt-168856",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/168856.jpg"
+  ],
+  [
+   "240230",
+   "dgt-176531",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176531.jpg"
+  ],
+  [
+   "240231",
+   "dgt-176532",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176532.jpg"
+  ],
+  [
+   "240232",
+   "dgt-176533",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176533.jpg"
+  ],
+  [
+   "240233",
+   "dgt-176534",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176534.jpg"
+  ],
+  [
+   "240234",
+   "dgt-176535",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176535.jpg"
+  ],
+  [
+   "240235",
+   "dgt-176537",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/176537.jpg"
+  ],
+  [
+   "240236",
+   "dgt-178574",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/178574.jpg"
+  ],
+  [
+   "240237",
+   "dgt-18",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/18.jpg"
+  ],
+  [
+   "240238",
+   "dgt-181921",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/181921.jpg"
+  ],
+  [
+   "240239",
+   "dgt-181924",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/181924.jpg"
+  ],
+  [
+   "240240",
+   "dgt-187153",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187153.jpg"
+  ],
+  [
+   "240241",
+   "dgt-187154",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187154.jpg"
+  ],
+  [
+   "240242",
+   "dgt-187227",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187227.jpg"
+  ],
+  [
+   "240243",
+   "dgt-187228",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187228.jpg"
+  ],
+  [
+   "240244",
+   "dgt-187251",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187251.jpg"
+  ],
+  [
+   "240245",
+   "dgt-187482",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187482.jpg"
+  ],
+  [
+   "240246",
+   "dgt-187483",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187483.jpg"
+  ],
+  [
+   "240247",
+   "dgt-187680",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187680.jpg"
+  ],
+  [
+   "240248",
+   "dgt-187681",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187681.jpg"
+  ],
+  [
+   "240249",
+   "dgt-187682",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187682.jpg"
+  ],
+  [
+   "240250",
+   "dgt-187727",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187727.jpg"
+  ],
+  [
+   "240251",
+   "dgt-187728",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187728.jpg"
+  ],
+  [
+   "240252",
+   "dgt-187779",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187779.jpg"
+  ],
+  [
+   "240253",
+   "dgt-187780",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187780.jpg"
+  ],
+  [
+   "240254",
+   "dgt-187781",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187781.jpg"
+  ],
+  [
+   "240255",
+   "dgt-187878",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187878.jpg"
+  ],
+  [
+   "240256",
+   "dgt-187911",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187911.jpg"
+  ],
+  [
+   "240257",
+   "dgt-187921",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187921.jpg"
+  ],
+  [
+   "240258",
+   "dgt-187922",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187922.jpg"
+  ],
+  [
+   "240259",
+   "dgt-187923",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187923.jpg"
+  ],
+  [
+   "240260",
+   "dgt-187944",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187944.jpg"
+  ],
+  [
+   "240261",
+   "dgt-187946",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187946.jpg"
+  ],
+  [
+   "240262",
+   "dgt-187947",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187947.jpg"
+  ],
+  [
+   "240263",
+   "dgt-187948",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187948.jpg"
+  ],
+  [
+   "240264",
+   "dgt-187949",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187949.jpg"
+  ],
+  [
+   "240265",
+   "dgt-187950",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/187950.jpg"
+  ],
+  [
+   "240266",
+   "dgt-188670",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/188670.jpg"
+  ],
+  [
+   "240267",
+   "dgt-993",
+   "dgt",
+   "https://etraffic.dgt.es/camarasEtraffic/993.jpg"
+  ],
+  [
+   "240268",
+   "eusk-127",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/127.jpg"
+  ],
+  [
+   "240269",
+   "eusk-2207",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/2207.jpg"
+  ],
+  [
+   "240270",
+   "eusk-3401",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3401.jpg"
+  ],
+  [
+   "240271",
+   "eusk-3601",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3601.jpg"
+  ],
+  [
+   "240272",
+   "eusk-3725",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3725.jpg"
+  ],
+  [
+   "240273",
+   "eusk-3726",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3726.jpg"
+  ],
+  [
+   "240274",
+   "eusk-3727",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3727.jpg"
+  ],
+  [
+   "240275",
+   "eusk-3728",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/3728.jpg"
+  ],
+  [
+   "240276",
+   "eusk-806",
+   "eusk",
+   "https://www.trafikoa.eus/static/files/tr/camaras/806.jpg"
+  ],
+  [
+   "240277",
+   "ytw-ngOvyL2KbuA",
+   "web",
+   "https://www.youtube.com/watch?v=ngOvyL2KbuA"
+  ]
+ ],
+ "posters": {
+  "240222": "ok-cache",
+  "240224": "ok-cache",
+  "240223": "ok-cache",
+  "240221": "ok-cache",
+  "240229": "ok-cache",
+  "240226": "ok-cache",
+  "240228": "ok-cache",
+  "240225": "ok-cache",
+  "240230": "ok-cache",
+  "240231": "ok-cache",
+  "240227": "ok-cache",
+  "240234": "ok-cache",
+  "240233": "ok-cache",
+  "240239": "ok-cache",
+  "240232": "ok-cache",
+  "240241": "ok-cache",
+  "240237": "ok-cache",
+  "240236": "ok-cache",
+  "240238": "ok-cache",
+  "240235": "ok-cache",
+  "240240": "ok-cache",
+  "240242": "ok-cache",
+  "240245": "ok-cache",
+  "240247": "ok-cache",
+  "240244": "ok-cache",
+  "240246": "ok-cache",
+  "240243": "ok-cache",
+  "240250": "ok-cache",
+  "240248": "ok-cache",
+  "240252": "ok-cache",
+  "240249": "ok-cache",
+  "240253": "ok-cache",
+  "240251": "ok-cache",
+  "240257": "ok-cache",
+  "240255": "ok-cache",
+  "240259": "ok-cache",
+  "240258": "ok-cache",
+  "240256": "ok-cache",
+  "240254": "ok-cache",
+  "240261": "ok-cache",
+  "240262": "ok-cache",
+  "240263": "ok-cache",
+  "240260": "ok-cache",
+  "240264": "ok-cache",
+  "240265": "ok-cache",
+  "240267": "ok-cache",
+  "240277": "ok-cache",
+  "240266": "fail:HTTPError",
+  "240220": "ok-fetch",
+  "240269": "fail:URLError",
+  "240276": "fail:URLError",
+  "240270": "fail:URLError",
+  "240274": "fail:URLError",
+  "240268": "fail:URLError",
+  "240272": "fail:URLError",
+  "240271": "fail:URLError",
+  "240275": "fail:URLError",
+  "240273": "fail:URLError"
+ }
+}
