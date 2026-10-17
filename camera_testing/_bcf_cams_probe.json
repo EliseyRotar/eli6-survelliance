@@ -1,0 +1,756 @@
+{
+  "codes": [
+    "ALF",
+    "ALL",
+    "ALR",
+    "BEC",
+    "BKY",
+    "BOW",
+    "BTW",
+    "CAM",
+    "CFT",
+    "CHM",
+    "CMX",
+    "COR",
+    "DNE",
+    "DNM",
+    "DUK",
+    "EAS",
+    "ERL",
+    "FUL",
+    "GAB",
+    "HER",
+    "HRB",
+    "HRN",
+    "HSB",
+    "KLE",
+    "KPR",
+    "KTS",
+    "LNG",
+    "MCN",
+    "MIL",
+    "NAH",
+    "NAN",
+    "NBN",
+    "PBB",
+    "PEN",
+    "PLH",
+    "POB",
+    "POF",
+    "PPH",
+    "PPR",
+    "PSB",
+    "PSK",
+    "PST",
+    "PVB",
+    "PWR",
+    "QDR",
+    "SHW",
+    "SLT",
+    "SOI",
+    "STB",
+    "SWB",
+    "TEX",
+    "THT",
+    "TSA",
+    "VES"
+  ],
+  "hits": [
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12485"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13690"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13972"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9754"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11959"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8293"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11119"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12405"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13841"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9731"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12469"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11475"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12021"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13312"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9030"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7099"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9272"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13012"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14188"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7738"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7833"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11416"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11871"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15151"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15226"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11893"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8246"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13489"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9926"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12983"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14962"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10281"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12066"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12807"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12012"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12991"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8472"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10346"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12704"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11511"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11050"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10033"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_alf.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12485"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_alr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13690"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_bec.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13972"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_bky.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9754"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_bow.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11959"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_btw.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8293"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_cam.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11119"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_cft.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12405"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_chm.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13841"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_cmx.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9731"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_cor.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12469"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_dne.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11475"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_dnm.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12021"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_duk.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13312"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ful.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9030"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_gab.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7099"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_her.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9272"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_hrn.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13012"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_hsb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14188"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_kpr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7738"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_lng.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "7833"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_mcn.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11416"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_mil.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11871"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_nah.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15151"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_nan.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15226"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pbb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11893"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_plh.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8246"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pob.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "13489"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pof.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9926"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pph.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12983"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ppr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14962"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_psk.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10281"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pvb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12066"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_pwr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12807"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_qdr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12012"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_slt.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12991"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_stb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "8472"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_swb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10346"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_tex.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12704"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_tht.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11511"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_tsa.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11050"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ves.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10033"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9659"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9972"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "17121"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "21748"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ERL.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14025"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_HSB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "38411"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "23186"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15684"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_PWR.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "30465"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11483"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9455"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_alf.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9659"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_bky.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9972"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_cor.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "17121"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_duk.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "21748"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "14025"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_hsb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "38411"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_lng.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "23186"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_nan.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "15684"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_pwr.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "30465"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_swb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "11483"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_tsa.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9455"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_HSB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12909"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "51067"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10667"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_hsb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "12909"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_swb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "51067"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_tsa.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "10667"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_HSB.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "41710"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9955"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_hsb.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "41710"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_tsa.jpg",
+      "status": 200,
+      "ctype": "image/jpeg",
+      "clen": "9955"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "webcams_page": [
+    {
+      "terminal": "Nanaimo (Duke Point) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg"
+    },
+    {
+      "terminal": "Nanaimo (Duke Point) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg"
+    },
+    {
+      "terminal": "Nanaimo (Departure Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg"
+    },
+    {
+      "terminal": "Nanaimo (Departure Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg"
+    },
+    {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg"
+    },
+    {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg"
+    },
+    {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg"
+    },
+    {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg"
+    },
+    {
+      "terminal": "Sunshine Coast (Langdale) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg"
+    },
+    {
+      "terminal": "Sunshine Coast (Langdale) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg"
+    },
+    {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg"
+    },
+    {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg"
+    },
+    {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg"
+    },
+    {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "img": "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg"
+    }
+  ]
+}

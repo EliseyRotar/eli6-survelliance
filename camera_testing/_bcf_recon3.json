@@ -1,0 +1,32 @@
+{
+  "term_info": {
+    "https://www.bcferries.com/travel-boarding/terminal-directions-parking-food/vancouver-tsawwassen/TSA": {
+      "status": 200,
+      "cams": [],
+      "coords": [],
+      "geo": [],
+      "gmaps": []
+    },
+    "https://www.bcferries.com/travel-boarding/terminal-directions-parking-food/victoria-swartz-bay/SWB": {
+      "status": 200,
+      "cams": [],
+      "coords": [],
+      "geo": [],
+      "gmaps": []
+    },
+    "https://www.bcferries.com/travel-boarding/terminal-directions-parking-food/vancouver-horseshoe-bay/HSB": {
+      "status": 200,
+      "cams": [],
+      "coords": [],
+      "geo": [],
+      "gmaps": []
+    },
+    "https://www.bcferries.com/travel-boarding/terminal-directions-parking-food/powell-river-westview/PWR": {
+      "status": 200,
+      "cams": [],
+      "coords": [],
+      "geo": [],
+      "gmaps": []
+    }
+  }
+}

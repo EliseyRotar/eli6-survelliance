@@ -1,0 +1,808 @@
+[
+  {
+    "cam_n": 1,
+    "code": "ALF",
+    "file": "cam1_ALF.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+    "terminal": "Moresby Island (Alliford Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 53.2122332,
+    "lon": -131.9870075,
+    "geo_display": "Alliford Bay Ferry Terminal, Area E (Moresby Island), North Coast Regional District, British Columbia, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "ALR",
+    "file": "cam1_ALR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+    "terminal": "Cormorant Island (Alert Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.5879957,
+    "lon": -126.9314431,
+    "geo_display": "Cormorant Island (Alert Bay), Alert Bay Ferry Terminal, Area D (Nimpkish Valley/Cormorant Island), Regional District of Mount Waddington, British Columbia, V0N 1A0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "BEC",
+    "file": "cam1_BEC.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+    "terminal": "Bella Coola",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 52.3752663,
+    "lon": -126.795145,
+    "geo_display": "Bella Coola, Alexander MacKenzie Highway, Bella Coola, Area E (West Bella Coola/Clayton Falls/Tallheo), Central Coast Regional District, British Columbia, V0T 1C0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "BKY",
+    "file": "cam1_BKY.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+    "terminal": "Buckley Bay",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.5263919,
+    "lon": -124.846551,
+    "geo_display": "Buckley Bay, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 1W0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "BOW",
+    "file": "cam1_BOW.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+    "terminal": "Bowen Island (Snug Cove)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.3794924,
+    "lon": -123.3313455,
+    "geo_display": "Bowen Island (Snug Cove), Ferry Ramp, Snug Cove, Bowen Island Municipality, Metro Vancouver Regional District, British Columbia, V0N 1G1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "BTW",
+    "file": "cam1_BTW.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+    "terminal": "Brentwood Bay",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.5772513,
+    "lon": -123.4673414,
+    "geo_display": "Brentwood Bay, Saunders Lane, Central Saanich, Capital Regional District, British Columbia, V8M 1C5, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "CAM",
+    "file": "cam1_CAM.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+    "terminal": "Campbell River",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.0283191,
+    "lon": -125.242405,
+    "geo_display": "Campbell River Ferry Terminal, 7, Discovery Harbour, Campbell River, Strathcona Regional District, British Columbia, V9W 2C7, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "CFT",
+    "file": "cam1_CFT.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+    "terminal": "Crofton",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.8656961,
+    "lon": -123.6376385,
+    "geo_display": "Crofton, Crofton Community Seawalk, Crofton, North Cowichan, Cowichan Valley Regional District, British Columbia, V0R 1R0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "CHM",
+    "file": "cam1_CHM.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+    "terminal": "Chemainus",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.9255306,
+    "lon": -123.7141952,
+    "geo_display": "Chemainus, North Cowichan, Cowichan Valley Regional District, British Columbia, V0R 1K0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "CMX",
+    "file": "cam1_CMX.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+    "terminal": "Comox (Little River)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.7399519,
+    "lon": -124.925237,
+    "geo_display": "Little River, Ellenor Road, Area B (Lazo North), Comox Valley Regional District, British Columbia, V9M 4E5, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "COR",
+    "file": "cam1_COR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+    "terminal": "Cortes Island (Whaletown)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.1097436,
+    "lon": -125.053864,
+    "geo_display": "Cortes Island (Whaletown), Whaletown, Area B (Cortes Island), Strathcona Regional District, British Columbia, V0P 1Z0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "DNE",
+    "file": "cam1_DNE.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+    "terminal": "Denman Island East (Gravelly Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.4940714,
+    "lon": -124.7089558,
+    "geo_display": "Denman Island East (Gravelly Bay), Lambert Road, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 1Z0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "DNM",
+    "file": "cam1_DNM.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+    "terminal": "Denman Island West",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.5344473,
+    "lon": -124.823743,
+    "geo_display": "Denman Island West, Denman Road, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 1T0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "DUK",
+    "file": "cam1_DUK.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+    "terminal": "Nanaimo (Duke Point)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.1566627,
+    "lon": -123.891013,
+    "geo_display": "Duke Point Ferry Terminal, Duke Point, Nanaimo, Regional District of Nanaimo, British Columbia, V9X 1H6, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "FUL",
+    "file": "cam1_FUL.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+    "terminal": "Salt Spring Island (Fulford Harbour)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.7693942,
+    "lon": -123.4511261,
+    "geo_display": "Salt Spring Island (Fulford Harbour), Fulford Harbour, Salt Spring Island Electoral Area, Capital Regional District, British Columbia, V8K 1B0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "GAB",
+    "file": "cam1_GAB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+    "terminal": "Gabriola Island (Descanso Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.1778242,
+    "lon": -123.858716,
+    "geo_display": "Gabriola Island (Descanso Bay), Easthom Road, Gabriola, Area B (DeCourcy/Gabriola/Mudge), Regional District of Nanaimo, British Columbia, V0R 1X2, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "HER",
+    "file": "cam1_HER.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+    "terminal": "Quadra Island (Heriot Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.103515,
+    "lon": -125.2107469,
+    "geo_display": "Quadra Island (Heriot Bay), West Road, Heriot Bay, Area C (Discovery Islands/Mainland Inlets), Strathcona Regional District, British Columbia, V0P 1H0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "HRN",
+    "file": "cam1_HRN.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+    "terminal": "Hornby Island (Shingle Spit)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.5112535,
+    "lon": -124.7045392,
+    "geo_display": "Hornby Island (Shingle Spit), Shingle Spit Road, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 1Z0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "HSB",
+    "file": "cam1_HSB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+    "terminal": "Vancouver (Horseshoe Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.3685581,
+    "lon": -123.2758982,
+    "geo_display": "Horseshoe Bay Ferry Terminal, 6750, Keith Road, Horseshoe Bay, West Vancouver, Metro Vancouver Regional District, British Columbia, V7W 2V1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "KPR",
+    "file": "cam1_KPR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+    "terminal": "Penelakut Island (Telegraph Harbour)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.9707259,
+    "lon": -123.6612748,
+    "geo_display": "Penelakut Island (Telegraph Harbour), Penelakut Island Ferry Terminal, Spune\u2019luxutth, Area G (Saltair / Gulf Islands), Cowichan Valley Regional District, British Columbia, V0R 5K0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "LNG",
+    "file": "cam1_LNG.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+    "terminal": "Sunshine Coast (Langdale)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.4340451,
+    "lon": -123.4764627,
+    "geo_display": "Langdale Ferry Terminal, 1376, Port Mellon Highway, Langdale, Area F (West Howe Sound), Sunshine Coast Regional District, British Columbia, V0N 1V0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "MCN",
+    "file": "cam1_MCN.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+    "terminal": "Port McNeill",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.591687,
+    "lon": -127.0860213,
+    "geo_display": "Port McNeill Ferry Terminal, Port McNeill, Regional District of Mount Waddington, British Columbia, V0N 2R0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "MIL",
+    "file": "cam1_MIL.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+    "terminal": "Mill Bay",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.6139944,
+    "lon": -123.5177703,
+    "geo_display": "Mill Bay, Ferry Road, Area A (Mill Bay / Malahat), Cowichan Valley Regional District, British Columbia, V0R 2P4, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "NAH",
+    "file": "cam1_NAH.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+    "terminal": "Nanaimo (Nanaimo Harbour)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.1660087,
+    "lon": -123.9312351,
+    "geo_display": "Nanaimo Harbour Ferry Terminal, 160, Front Street, Downtown / Old City, Nanaimo, Regional District of Nanaimo, British Columbia, V9S 5R1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "NAN",
+    "file": "cam1_NAN.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+    "terminal": "Nanaimo (Departure Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.1912971,
+    "lon": -123.9537888,
+    "geo_display": "Departure Bay Ferry Terminal, 680, Trans-Canada Highway, Newcastle and Brechin, Nanaimo, Regional District of Nanaimo, British Columbia, V9S 5R1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PBB",
+    "file": "cam1_PBB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+    "terminal": "Bella Bella (McLoughlin Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 52.1388229,
+    "lon": -128.1437584,
+    "geo_display": "Bella Bella (McLoughlin Bay), McLouchlin Bay Ferry Terminal, Area A (Ocean Falls)"
+  },
+  {
+    "cam_n": 1,
+    "code": "PLH",
+    "file": "cam1_PLH.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+    "terminal": "Salt Spring Island (Long Harbour)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.852109,
+    "lon": -123.4457822,
+    "geo_display": "Salt Spring Island (Long Harbour), Long Harbour Road, Salt Spring Island Electoral Area, Capital Regional District, British Columbia, V8K 2J2, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "POB",
+    "file": "cam1_POB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+    "terminal": "Pender Island (Otter Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.8013298,
+    "lon": -123.3157077,
+    "geo_display": "Otter Bay Ferry Terminal, MacKinnon Road, Southern Gulf Islands Electoral Area, Capital Regional District, British Columbia, V0N 2M1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "POF",
+    "file": "cam1_POF.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+    "terminal": "Ocean Falls",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 52.3523391,
+    "lon": -127.692216,
+    "geo_display": "Ocean Falls Ferry Terminal, Ocean Falls, Area A (Ocean Falls/Outer Coast), Central Coast Regional District, British Columbia, V0T 1P0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PPH",
+    "file": "cam1_PPH.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+    "terminal": "Port Hardy (Bear Cove)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.7248668,
+    "lon": -127.4540702,
+    "geo_display": "Bear Cove Ferry Terminal, 9, Port Hardy, Regional District of Mount Waddington, British Columbia, V0N 2P0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PPR",
+    "file": "cam1_PPR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+    "terminal": "Prince Rupert",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 54.2913816,
+    "lon": -130.3544565,
+    "geo_display": "Prince Rupert Ferry Terminal, Prince Rupert, North Coast Regional District, British Columbia, V8J 2B6, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PSK",
+    "file": "cam1_PSK.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+    "terminal": "Graham Island (Skidegate)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 53.2462743,
+    "lon": -132.008948,
+    "geo_display": "Graham Island 2 (Skidegate), Yellowhead Highway, Skidegate, Daajing Giids, North Coast Regional District, British Columbia, V0T 1S1, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PVB",
+    "file": "cam1_PVB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+    "terminal": "Mayne Island (Village Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.8444306,
+    "lon": -123.3230459,
+    "geo_display": "Village Bay Ferry Terminal, 1, Mayne, Southern Gulf Islands Electoral Area, Capital Regional District, British Columbia, V0N 2J2, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "PWR",
+    "file": "cam1_PWR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+    "terminal": "Powell River (Westview)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.8352358,
+    "lon": -124.5307406,
+    "geo_display": "Powell River (Westview), Wharf Street, Westview, Powell River, qathet Regional District, British Columbia, V8A 2M6, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "QDR",
+    "file": "cam1_QDR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+    "terminal": "Quadra Island (Quathiaski Cove)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 50.0421918,
+    "lon": -125.217677,
+    "geo_display": "Quadra Island (Quathiaski Cove) Ferry Terminal, Quathiaski Cove Ferry Ramp, Quathiaski Cove, Area C (Discovery Islands/Mainland Inlets), Strathcona Regional District, British Columbia, V0P 1N0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "SLT",
+    "file": "cam1_SLT.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+    "terminal": "Powell River (Saltery Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.7814214,
+    "lon": -124.1770997,
+    "geo_display": "Powell River (Saltery Bay), Sunshine Coast Highway, Area C (Lois Lake/Saltery Bay), qathet Regional District, British Columbia, V8A 0N2, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "STB",
+    "file": "cam1_STB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+    "terminal": "Galiano Island (Sturdies Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.8782283,
+    "lon": -123.3168109,
+    "geo_display": "Sturdies Bay Ferry Terminal, Southern Gulf Islands Electoral Area, Capital Regional District, British Columbia, V0N 2J2, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "SWB",
+    "file": "cam1_SWB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+    "terminal": "Victoria (Swartz Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.6896425,
+    "lon": -123.409793,
+    "geo_display": "Victoria (Swartz Bay) Berth 2 (Foot Access), Swartz Bay, North Saanich, Capital Regional District, British Columbia, V8L 5J4, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "TEX",
+    "file": "cam1_TEX.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+    "terminal": "Texada Island (Blubber Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.7948162,
+    "lon": -124.6200744,
+    "geo_display": "Texada Island (Blubber Bay), Blubber Creek Road, Blubber Bay, Area D (Texada Island), qathet Regional District, British Columbia, V0N 3K0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "THT",
+    "file": "cam1_THT.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+    "terminal": "Thetis Island (Preedy Harbour)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.9804165,
+    "lon": -123.6787029,
+    "geo_display": "Thetis Island (Preedy Harbour), Ferry terminal, Area G (Saltair / Gulf Islands), Cowichan Valley Regional District, British Columbia, V0R 2Y0, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "TSA",
+    "file": "cam1_TSA.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+    "terminal": "Vancouver (Tsawwassen)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.0079388,
+    "lon": -123.1290908,
+    "geo_display": "Tsawwassen Ferry Terminal, 1, Ferry Causeway, Delta, Metro Vancouver Regional District, British Columbia, V4M 4G6, Canada"
+  },
+  {
+    "cam_n": 1,
+    "code": "VES",
+    "file": "cam1_VES.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+    "terminal": "Salt Spring Island (Vesuvius Bay)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 48.881253,
+    "lon": -123.5733857,
+    "geo_display": "Salt Spring Island (Vesuvius Bay), Vesuvius Bay Road, Salt Spring Island Electoral Area, Capital Regional District, British Columbia, V8K 1E2, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "ALF",
+    "file": "cam2_ALF.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+    "terminal": "Moresby Island (Alliford Bay)",
+    "captions": [
+      "Traffic to Graham Island (Skidegate)"
+    ],
+    "unlinked": false,
+    "lat": 53.2122332,
+    "lon": -131.9870075,
+    "geo_display": "Alliford Bay Ferry Terminal, Area E (Moresby Island), North Coast Regional District, British Columbia, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "BKY",
+    "file": "cam2_BKY.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+    "terminal": "Buckley Bay",
+    "captions": [
+      "Traffic to Denman Island West"
+    ],
+    "unlinked": false,
+    "lat": 49.5263919,
+    "lon": -124.846551,
+    "geo_display": "Buckley Bay, Area A (Baynes Sound), Comox Valley Regional District, British Columbia, V0R 1W0, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "COR",
+    "file": "cam2_COR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+    "terminal": "Cortes Island (Whaletown)",
+    "captions": [
+      "Traffic to Quadra Island (Heriot Bay)"
+    ],
+    "unlinked": false,
+    "lat": 50.1097436,
+    "lon": -125.053864,
+    "geo_display": "Cortes Island (Whaletown), Whaletown, Area B (Cortes Island), Strathcona Regional District, British Columbia, V0P 1Z0, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "DUK",
+    "file": "cam2_DUK.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+    "terminal": "Nanaimo (Duke Point)",
+    "captions": [
+      "Traffic to Vancouver (Tsawwassen)"
+    ],
+    "unlinked": false,
+    "lat": 49.1566627,
+    "lon": -123.891013,
+    "geo_display": "Duke Point Ferry Terminal, Duke Point, Nanaimo, Regional District of Nanaimo, British Columbia, V9X 1H6, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "ERL",
+    "file": "cam2_ERL.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ERL.jpg",
+    "terminal": "Sunshine Coast (Earls Cove)",
+    "captions": [
+      "Traffic at the terminal"
+    ],
+    "unlinked": false,
+    "lat": 49.7531547,
+    "lon": -124.0088423,
+    "geo_display": "Sunshine Coast (Earls Cove), 16550, Sunshine Coast Highway, Earls Cove, Area A (Egmont/Pender Harbour), Sunshine Coast Regional District, British Columbia, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "HSB",
+    "file": "cam2_HSB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_HSB.jpg",
+    "terminal": "Vancouver (Horseshoe Bay)",
+    "captions": [],
+    "unlinked": true,
+    "lat": 49.3685581,
+    "lon": -123.2758982,
+    "geo_display": "Horseshoe Bay Ferry Terminal, 6750, Keith Road, Horseshoe Bay, West Vancouver, Metro Vancouver Regional District, British Columbia, V7W 2V1, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "LNG",
+    "file": "cam2_LNG.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
+    "terminal": "Sunshine Coast (Langdale)",
+    "captions": [
+      "Traffic to Vancouver (Horseshoe Bay)"
+    ],
+    "unlinked": false,
+    "lat": 49.4340451,
+    "lon": -123.4764627,
+    "geo_display": "Langdale Ferry Terminal, 1376, Port Mellon Highway, Langdale, Area F (West Howe Sound), Sunshine Coast Regional District, British Columbia, V0N 1V0, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "NAN",
+    "file": "cam2_NAN.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
+    "terminal": "Nanaimo (Departure Bay)",
+    "captions": [
+      "Traffic to Vancouver (Horseshoe Bay)"
+    ],
+    "unlinked": false,
+    "lat": 49.1912971,
+    "lon": -123.9537888,
+    "geo_display": "Departure Bay Ferry Terminal, 680, Trans-Canada Highway, Newcastle and Brechin, Nanaimo, Regional District of Nanaimo, British Columbia, V9S 5R1, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "PWR",
+    "file": "cam2_PWR.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_PWR.jpg",
+    "terminal": "Powell River (Westview)",
+    "captions": [],
+    "unlinked": true,
+    "lat": 49.8352358,
+    "lon": -124.5307406,
+    "geo_display": "Powell River (Westview), Wharf Street, Westview, Powell River, qathet Regional District, British Columbia, V8A 2M6, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "SWB",
+    "file": "cam2_SWB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+    "terminal": "Victoria (Swartz Bay)",
+    "captions": [
+      "Traffic to Vancouver (Tsawwassen)"
+    ],
+    "unlinked": false,
+    "lat": 48.6896425,
+    "lon": -123.409793,
+    "geo_display": "Victoria (Swartz Bay) Berth 2 (Foot Access), Swartz Bay, North Saanich, Capital Regional District, British Columbia, V8L 5J4, Canada"
+  },
+  {
+    "cam_n": 2,
+    "code": "TSA",
+    "file": "cam2_TSA.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+    "terminal": "Vancouver (Tsawwassen)",
+    "captions": [
+      "Traffic to Victoria (Swartz Bay)"
+    ],
+    "unlinked": false,
+    "lat": 49.0079388,
+    "lon": -123.1290908,
+    "geo_display": "Tsawwassen Ferry Terminal, 1, Ferry Causeway, Delta, Metro Vancouver Regional District, British Columbia, V4M 4G6, Canada"
+  },
+  {
+    "cam_n": 3,
+    "code": "HSB",
+    "file": "cam3_HSB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_HSB.jpg",
+    "terminal": "Vancouver (Horseshoe Bay)",
+    "captions": [],
+    "unlinked": true,
+    "lat": 49.3685581,
+    "lon": -123.2758982,
+    "geo_display": "Horseshoe Bay Ferry Terminal, 6750, Keith Road, Horseshoe Bay, West Vancouver, Metro Vancouver Regional District, British Columbia, V7W 2V1, Canada"
+  },
+  {
+    "cam_n": 3,
+    "code": "SWB",
+    "file": "cam3_SWB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+    "terminal": "Victoria (Swartz Bay)",
+    "captions": [
+      "Traffic to Salt Spring Island (Fulford Harbour)",
+      "Traffic to Southern Gulf Islands"
+    ],
+    "unlinked": false,
+    "lat": 48.6896425,
+    "lon": -123.409793,
+    "geo_display": "Victoria (Swartz Bay) Berth 2 (Foot Access), Swartz Bay, North Saanich, Capital Regional District, British Columbia, V8L 5J4, Canada"
+  },
+  {
+    "cam_n": 3,
+    "code": "TSA",
+    "file": "cam3_TSA.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+    "terminal": "Vancouver (Tsawwassen)",
+    "captions": [
+      "Traffic to Nanaimo (Departure Bay)",
+      "Traffic to Nanaimo (Duke Point)"
+    ],
+    "unlinked": false,
+    "lat": 49.0079388,
+    "lon": -123.1290908,
+    "geo_display": "Tsawwassen Ferry Terminal, 1, Ferry Causeway, Delta, Metro Vancouver Regional District, British Columbia, V4M 4G6, Canada"
+  },
+  {
+    "cam_n": 4,
+    "code": "HSB",
+    "file": "cam4_HSB.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_HSB.jpg",
+    "terminal": "Vancouver (Horseshoe Bay)",
+    "captions": [],
+    "unlinked": true,
+    "lat": 49.3685581,
+    "lon": -123.2758982,
+    "geo_display": "Horseshoe Bay Ferry Terminal, 6750, Keith Road, Horseshoe Bay, West Vancouver, Metro Vancouver Regional District, British Columbia, V7W 2V1, Canada"
+  },
+  {
+    "cam_n": 4,
+    "code": "TSA",
+    "file": "cam4_TSA.jpg",
+    "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+    "terminal": "Vancouver (Tsawwassen)",
+    "captions": [
+      "Traffic to Southern Gulf Islands"
+    ],
+    "unlinked": false,
+    "lat": 49.0079388,
+    "lon": -123.1290908,
+    "geo_display": "Tsawwassen Ferry Terminal, 1, Ferry Causeway, Delta, Metro Vancouver Regional District, British Columbia, V4M 4G6, Canada"
+  }
+]

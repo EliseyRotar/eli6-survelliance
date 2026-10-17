@@ -1,0 +1,190 @@
+{
+  "ips": [
+    "98.158.84.78"
+  ],
+  "path_hits": [
+    {
+      "path": "/",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cam1_TSA.mjpg",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cam1_TSA.jpg",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cam1_TSA/video",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cam1_TSA/mjpg",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/axis-cgi/mjpg/video.cgi",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/video",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/mjpg",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/stream",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/live",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cgi-bin/mjpg/video.cgi",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cam1_TSA.cgi",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/videostream.cgi",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/isapi/Streaming/channels/101/httpGetSnapshot",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/onvif-http/snapshot",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cc/support/terminals/",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cc/support/",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    },
+    {
+      "path": "/cc/",
+      "status": 200,
+      "ctype": "text/html; charset=UTF-8",
+      "len": 730
+    }
+  ],
+  "cam_headers_t0": {
+    "Last-Modified": "Sat, 17 Oct 2026 07:12:03 GMT",
+    "Date": "Sat, 17 Oct 2026 07:12:10 GMT",
+    "ETag": "W/\"6777c0cf65edd1:0\"",
+    "Cache-Control": null,
+    "Expires": null,
+    "Content-Length": "10609",
+    "Server": "Microsoft-IIS/10.0",
+    "Content-Type": "image/jpeg"
+  },
+  "cam_headers_t70": {
+    "Last-Modified": "Sat, 17 Oct 2026 07:12:03 GMT",
+    "Date": "Sat, 17 Oct 2026 07:13:21 GMT",
+    "ETag": "W/\"6777c0cf65edd1:0\"",
+    "Cache-Control": null,
+    "Expires": null,
+    "Content-Length": "10609",
+    "Server": "Microsoft-IIS/10.0",
+    "Content-Type": "image/jpeg"
+  },
+  "image_changed_70s": false,
+  "captions_from_webcams_page": {
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg": {
+      "terminal": "Nanaimo (Duke Point) terminal",
+      "caption": "Traffic at the terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg": {
+      "terminal": "Nanaimo (Duke Point) terminal",
+      "caption": "Traffic to Vancouver (Tsawwassen)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg": {
+      "terminal": "Nanaimo (Departure Bay) terminal",
+      "caption": "Traffic at the terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg": {
+      "terminal": "Nanaimo (Departure Bay) terminal",
+      "caption": "Traffic to Vancouver (Horseshoe Bay)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg": {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "caption": "Traffic at the terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg": {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "caption": "Traffic to Nanaimo (Duke Point)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg": {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "caption": "Traffic to Southern Gulf Islands"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg": {
+      "terminal": "Vancouver (Tsawwassen) terminal",
+      "caption": "Traffic to Victoria (Swartz Bay)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg": {
+      "terminal": "Sunshine Coast (Langdale) terminal",
+      "caption": "Traffic at the terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg": {
+      "terminal": "Sunshine Coast (Langdale) terminal",
+      "caption": "Traffic to Vancouver (Horseshoe Bay)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg": {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "caption": "Traffic at the terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg": {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "caption": "Traffic to Salt Spring Island (Fulford Harbour)"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg": {
+      "terminal": "Victoria (Swartz Bay) terminal",
+      "caption": "Traffic to Vancouver (Tsawwassen)"
+    }
+  }
+}

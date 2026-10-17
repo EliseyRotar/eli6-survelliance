@@ -1,0 +1,4171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+
+<script type="text/javascript">
+    function loadViceScript() {
+        var currentPath = window.location.pathname;
+        var accountId = '072631f2-6d19-42e6-9072-4671031ebce9';
+        var siteId = 'a4a3e871-d183-4d98-8524-a876fa13a501';
+
+        if (accountId && siteId && currentPath.includes('checkout')) {
+            window.vice = {
+                config: {
+                    viceAccountId: ''+accountId,
+                    viceSiteId: ''+siteId
+                }
+            };
+            var viceLoaderScript = document.createElement('script');
+            viceLoaderScript.src = '//vice-prod.sdiapi.com/vice_loader/'+accountId+'/'+siteId;
+            document.head.appendChild(viceLoaderScript);
+        }
+    }
+    loadViceScript();
+</script>
+<!-- Matomo header -->
+<script type="text/javascript">
+    function isIE(){ua=navigator.userAgent; var is_ie=ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1; return is_ie;}if(window.location.origin.toLowerCase().indexOf("e.")===-1){if (!isIE()){var _mtm=_mtm || [];_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://mtm.bcferries.com/js/container_hLWMAkCe.js'; s.parentNode.insertBefore(g,s);}else{window.location.replace("https://mtm.bcferries.com/_msg/update-your-browser/");}}
+</script>
+<!-- End Matomo header -->
+<title>
+		Ferry Tracking | BC Ferries</title>
+
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<meta name="description" content="See where our ferries are right now and watch them navigate coastal BC with our tracking maps.">
+<meta name="robots" content="noindex,nofollow">
+
+
+
+
+
+
+
+ <link rel="canonical" href="https://www.bcferries.com/current-conditions/vessel-tracking-positions" />
+ <meta name="viewport" content="width=device-width">
+ <meta name="title" content="Ferry Tracking | BC Ferries">
+ 
+     
+ 
+<link rel="shortcut icon" type="image/x-icon" media="all" href="/_ui/responsive/theme-alpha/images/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/animate.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/bootstrap-nes-overrides.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/bootstrap-theme.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/custom-components-ui.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/owl.theme.default.min.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/fontawesome-all.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/flaticon.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/bootstrap-select.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/dataTables.bootstrap.min.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/stylesheet.min.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="/_ui/responsive/theme-bcf/css/font.css" />
+<link rel="icon" href="/_ui/responsive/theme-bcf/images/favicon.ico" type="image/ico" sizes="16x16">
+
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/bcfassistedservicesstorefront/responsive/common/css/bcfassistedservicesstorefront.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/bcfassistedservicesstorefront/responsive/common/css/storeFinder.css" />
+<link rel="stylesheet" type="text/css" media="all" href="/_ui/addons/smarteditaddon/responsive/common/css/smarteditaddon.css" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body class="page-ccFerryTrackingPage pageType-ContentPage template-pages-addon--bcfstorefrontaddon-pages-layout-transactionPageTemplate2 pageLabel--ccFerryTrackingPage smartedit-page-uid-ccFerryTrackingPage smartedit-page-uuid-eyJpdGVtSWQiOiJjY0ZlcnJ5VHJhY2tpbmdQYWdlIiwiY2F0YWxvZ0lkIjoidHJhbnNhY3Rpb25hbENvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ== smartedit-catalog-version-uuid-transactionalContentCatalog/Online  language-en">
+    <matomo:matomoBody/>
+    <div id="currentPage" class="hidden">ccFerryTrackingPage</div>
+	<main class="page-margin"
+			data-currency-iso-code="CAD">
+			<section class="yCmsContentSlot">
+<header class="header-region">
+    <nav class="navbar navbar-default navbar-static-top menu-mega-ui" id="js_navbar_menu">
+        <div class="container">
+            <div class="navbar-header ">
+                <div class="col-xs-4 col-md-2 text-left hidden-lg">
+                        <a class="navbar-toggle" data-toggle="collapse"
+                           data-target=".js-navbar-collapse"> <span class="sr-only">Toggle
+                            navigation</span>
+                            <span class="icon-bar"></span> <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="mobile-menu-link">Menu</span>
+                        </a>
+                        <div class="close-menu responsive-adjustment">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                <div class="col-xs-4 col-sm-6 col-md-2 col-lg-12 buffer-left-none buffer-right-none text-center">
+                    <a class="navbar-brand" href="/"><img title="Home"
+				alt="Home" src="https://www.bcferries.com/web_image/images/hfc/h82/8821728313374.png"></a>
+		</div>
+                <div class="col-xs-4 col-sm-2 hidden-md hidden-lg">
+                        <a class="text-center myAcount-data"
+                           href="/my-account"> <span
+                                class="sr-only">Toggle navigation</span> <span
+                                class="bcf bcf-icon-account header-login-icon"></span>
+                            <span class="mobile-login-user-link">
+                            <a href="/login" class="mobile-menu-link" >Login</a></span>
+                        </a>
+                    </div>
+                <div class="hidden-xs hidden-sm col-md-8 hidden-lg">
+                    <ul
+                            class="collapse-sailling link-none sec-nav fnt-14 sec-nav-tablet">
+                        <li><a href="/current-conditions/service-notices" class="mobile-menu-link" >Service notices&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                    <li><a href="/routes-fares/schedules" class="mobile-menu-link" >Schedules&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                    <li><a href="/RouteSelectionPage" class="mobile-menu-link" >Book now&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                    <li><a href="/login" class="mobile-menu-link" >Login</a></li>
+                                    <li class="dropdown top-dropdown-menu">
+                                            <div>
+                                                <a href="#"
+                                                   class="dropdown-toggle current-conditions full-width-mobile display-inline mobile-menu-link"
+                                                   type="button " data-toggle="dropdown">Current conditions&nbsp;
+                                                    <span class="down-a display-none-desktop cc-menu-arrow-adjust-mobile">
+                                                    <span class="bcf bcf-icon-down-arrow"></span>
+                                                 </span>
+                                                    <span class="bcf bcf-icon-down-arrow display-none-mobile"></span>
+                                                </a>
+                                                <ul class="dropdown-menu current-conditions-dropdown">
+                                                    <li>
+                                                                <a href="/current-conditions" class="mobile-menu-link text-align-left p-15-desktop">Conditions by route&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                        <li>
+                                                                <a href="/current-conditions/departures" class="mobile-menu-link text-align-left p-15-desktop">Departures & arrivals&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                        <li>
+                                                                <a href="/current-conditions/webcams" class="mobile-menu-link text-align-left p-15-desktop">Terminal webcams&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                        <li>
+                                                                <a href="/current-conditions/vessel-tracking-positions" class="mobile-menu-link border-none text-align-left p-15-desktop">Ferry tracking&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                        </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse js-navbar-collapse">
+                <ul class="collapse-sailling link-none sec-nav fnt-14 hidden-md ">
+                    <li>
+                                                <a href="/current-conditions/service-notices" class="mobile-menu-link" >Service notices&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                        <li>
+                                                <a href="/routes-fares/schedules" class="mobile-menu-link" >Schedules&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                        <li>
+                                                <a href="/RouteSelectionPage" class="mobile-menu-link" >Book now&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                        <li>
+                                                <a href="/login" class="mobile-menu-link" >Login</a></li>
+                                        <li class="dropdown top-dropdown-menu">
+                                                <div>
+                                                    <a href="#"
+                                                       class="dropdown-toggle current-conditions full-width-mobile display-inline mobile-menu-link"
+                                                       type="button " data-toggle="dropdown">Current conditions&nbsp;
+                                                        <span class="down-a display-none-desktop cc-menu-arrow-adjust-mobile">
+                                                    <span class="bcf bcf-icon-down-arrow"></span>
+                                                 </span>
+                                                        <span class="bcf bcf-icon-down-arrow display-none-mobile"></span>
+                                                    </a>
+                                                    <ul class="dropdown-menu current-conditions-dropdown">
+                                                        <li>
+                                                                    <a href="/current-conditions" class="mobile-menu-link text-align-left p-15-desktop">Conditions by route&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                            <li>
+                                                                    <a href="/current-conditions/departures" class="mobile-menu-link text-align-left p-15-desktop">Departures & arrivals&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                            <li>
+                                                                    <a href="/current-conditions/webcams" class="mobile-menu-link text-align-left p-15-desktop">Terminal webcams&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                            <li>
+                                                                    <a href="/current-conditions/vessel-tracking-positions" class="mobile-menu-link border-none text-align-left p-15-desktop">Ferry tracking&nbsp;<i class="fa fa-angle-right"></i></a></li>
+                                                            </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                <ul class="nav navbar-nav navbar-right mob-navigation ">
+                    <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-1">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Routes & fares<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-1'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>Routes & fares</h2>
+                                                <p></p> <div class="navigation-mob-link-n">
+                                                    <a href="/newfares" >Learn more&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/routes-fares/discover-route-map" >Routes</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/ferry-fares" >Fare & fee information</a></li>
+                                                        <li class="navigator deals-menu"><a href="/newfares" >Fare choices</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/ferry-fares/experience-card" >Experience Card</a></li>
+                                                        <li class="navigator deals-menu"><a href="https://www.bcferries.com/routes-fares/ferry-fares/assured-loading-card" >Assured Loading Card</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/fare-calculator" >Fare calculator</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/travel-gift-certificates" >Gift certificates</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/schedules" >Schedules</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt=''
+                                                                     title=''
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/h56/hb6/9101024493598.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><b>Sail direct from Tsawwassen to Departure Bay</b></font></p>
+
+<p>We&#39;ve added a direct sailing from Tsawwassen to Departure Bay to make travel more convenient.</p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="https://www.bcferries.com/tsawwassen-departure-bay-direct" >Learn more&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-2">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Book sailings<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-2'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>Book sailings</h2>
+                                                <p>Information to help plan and make personal, group, commercial, and travel agent bookings.</p> <div class="navigation-mob-link-n">
+                                                    <a href="/book-sailings" >Find out more&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/RouteSelectionPage" >Book now</a></li>
+                                                        <li class="navigator deals-menu"><a href="/book-sailings/personal-travel" >Personal</a></li>
+                                                        <li class="navigator deals-menu"><a href="/book-sailings/business-account-commercial-travel-services" >Commercial </a></li>
+                                                        <li class="navigator deals-menu"><a href="/book-sailings/group-bookings" >Group </a></li>
+                                                        <li class="navigator deals-menu"><a href="/book-sailings/travel-agents-and-tour-operators" >Travel agents & tours</a></li>
+                                                        <li class="navigator deals-menu"><a href="/routes-fares/schedules" >Schedules</a></li>
+                                                        <li class="navigator deals-menu"><a href="/allocating-space-on-board" >Bookable deck space</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt=''
+                                                                     title=''
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/h73/h60/8932259528734.jpg","480":"https://www.bcferries.com/web_image/h83/h1e/8932260708382.jpg","768":"https://www.bcferries.com/web_image/hbe/h08/8932260741150.jpg","1200":"https://www.bcferries.com/web_image/hb6/hce/8932264968222.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><b>Download the BC Ferries app</b></font><br />
+<br />
+Check schedules and current conditions, book sailings and manage your trips, all in one place.</p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="https://www.bcferries.com/app" >Find out more&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-3">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Travel & boarding<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-3'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>Travel & boarding</h2>
+                                                <p>Directions, transit options, and important check-in and boarding information for foot passengers and drivers.</p> <div class="navigation-mob-link-n">
+                                                    <a href="/travel-boarding" >Find out more&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/travel-boarding/travel-tips" >Travel tips</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/terminal-directions-parking-food" >Terminals</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/coach-bus-shuttle" >Public transportation, bus & coach</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/foot-passenger-check-in" >Foot passengers</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/cyclists" >Bicycles</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/travel-vehicle-car-truck" >Drivers</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/travel-with-pets" >Travelling with pets</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/baggage-luggage" >Boarding with luggage</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/livestock-transport" >Livestock</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/dangerous-goods" >Dangerous goods</a></li>
+                                                        <li class="navigator deals-menu"><a href="/accessibility" >Accessibility</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt='BC Ferries vessels sailing past each other'
+                                                                     title='BC Ferries vessels sailing past each other'
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/h71/h12/8851775356958.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><b>Travel tips</b></font><br />
+&nbsp;</p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="/travel-boarding/travel-tips" >Learn more&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-4">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        On the ferry<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-4'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>On the ferry</h2>
+                                                <p>Welcome aboard. Explore our fleet for information on safety, accessibility, dining, shopping, and more on our ferries.</p> <div class="navigation-mob-link-n">
+                                                    <a href="/on-the-ferry" >Find out more&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/on-the-ferry/our-fleet" >Fleet</a></li>
+                                                        <li class="navigator deals-menu"><a href="/on-the-ferry/eat-shop-relax" >Eat, shop & relax</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt='Foot passengers'
+                                                                     title='Foot passengers'
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/images/hb6/h6a/9085677207582.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><strong>Be the first to know</strong></font></p>
+
+<p>Receive special offers, travel updates, trip inspiration and Coastal Perks.</p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="deals-special-offers/onboard-enewsletter" >Subscribe to our eNewsletter&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-5">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Deals & offers<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-5'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>Deals & offers</h2>
+                                                <p><p>Take advantage of our latest onboard, sailing and promotions. We&#39;ve got the perfect deal for you.</p>
+</p> <div class="navigation-mob-link-n">
+                                                    <a href="/deals-special-offers" >Find out more&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/deals-special-offers/sailing-specials" >Sailing specials</a></li>
+                                                        <li class="navigator deals-menu"><a href="/deals-special-offers/onboard-offers" >Onboard offers</a></li>
+                                                        <li class="navigator deals-menu"><a href="https://www.bcferries.com/routes-fares/travel-gift-certificates" >Gift certificates</a></li>
+                                                        <li class="navigator deals-menu"><a href="/trip-planning/partner-offers" >Coastal Perks offers</a></li>
+                                                        <li class="navigator deals-menu"><a href="/deals-special-offers/onboard-enewsletter" >Sign up for offers</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt=''
+                                                                     title=''
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/h76/h08/9101020725278.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><b>Book your fall getaway</b></font></p>
+
+<p>Sail together with Saver fares from $49 one-way for car and driver for travel between Metro Vancouver &amp; Vancouver Island.</p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="https://www.bcferries.com/newfares"  target="_blank">Book now&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        <li
+                                    class="dropdown mega-dropdown dropdown-masked menu-6">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Trip planning & activities<span class="down-a"> <i
+                                        class="bcf bcf-icon-down-arrow" aria-hidden="true"></i>
+								</span>
+                                </a>
+                                <ul class="dropdown-menu mega-dropdown-menu"
+                                    data-panel='menu-6'>
+                                    <li>
+                                        <ul class="container list-unstyled m-auto">
+                                            <li class="col-sm-4 padding-left-0 icon-manage navigator">
+                                                <h2>Trip planning & activities</h2>
+                                                <p>BC is known for its diverse regions, from the vast wilderness of Northern BC, to the crystal-clear waters along the Sunshine Coast, to the outdoor playground of Vancouver Island. Find your next destination today.</p> <div class="navigation-mob-link-n">
+                                                    <a href="/trip-planning" >Go to trip planning&nbsp;<i class="fa fa-angle-right"></i></a></div>
+                                            </li>
+
+                                            <li class="col-sm-3 nav-value padding-0 navigator">
+                                                <ul>
+                                                    <li class="navigator deals-menu"><a href="/activities" >Book activities</a></li>
+                                                        <li class="navigator deals-menu"><a href="/trip-planning/events" >Events</a></li>
+                                                        <li class="navigator deals-menu"><a href="/travel-boarding/travel-tips" >Travel tips</a></li>
+                                                        <li class="navigator deals-menu"><a href="/trip-planning/sail-and-drive" >Sail & drive itineraries</a></li>
+                                                        <li class="navigator deals-menu"><a href="/trip-planning/places-to-visit" >Places to visit</a></li>
+                                                        <li class="navigator deals-menu"><a href="/places-to-stay" >Places to stay</a></li>
+                                                        <li class="navigator deals-menu"><a href="/trip-planning/indigenous-experiences" >Indigenous experiences</a></li>
+                                                        <li class="navigator deals-menu"><a href="/deals-special-offers" >Deals & Offers</a></li>
+                                                        </ul>
+                                            </li>
+                                            <li class="col-sm-5 padding-right-0 mob-img-box">
+                                                <ul>
+                                                    <li>
+                                                        <div class="menu-image-box navigator">
+                                                            <a href=""> <img class='img-fluid js-responsive-image'
+                                                                     alt='BC Ferries vessels sailing past each other'
+                                                                     title='BC Ferries vessels sailing past each other'
+                                                                     data-media='{"1":"https://www.bcferries.com/web_image/h71/h12/8851775356958.jpg"}'/>
+                                                            </a>
+                                                            <div class="navigation-img">
+                                                                <p class="text-dark-blue"><p><font color="#003366"><b>Travel tips</b></font></p>
+</p>
+                                                                <p class="m-0">
+                                                                    <b><a href="/travel-boarding/travel-tips" >Learn more&nbsp;<i class="fa fa-angle-right"></i></a></b>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ul>
+            </div>
+        </div>
+        <!-- /.nav-collapse -->
+    </nav>
+</header>
+</section><section class="yCmsContentSlot">
+</section><section class="yCmsContentSlot">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12  col-sm-12 col-xs-12">
+			<div class="breadcrumb-section">
+					<ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+            <li><a href="/current-conditions">Current conditions</a></li>
+            </ol>
+</div>
+			</div>
+	</div>
+</div>
+</section><section class="yCmsContentSlot">
+</section><div class="container">
+	<div class="modal fade" id="y_confirmFreshBookingModal" tabindex="-1" role="dialog" aria-labelledby="y_confirmFreshBookingModal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+				<h4 class="modal-title" id="confirmFreshBookingLabel">
+					Confirm New Booking</h4>
+			</div>
+			<div class="modal-body">
+				
+				<h3>
+					Another booking already started</h3>
+				<p>
+					You have another booking already started. Confirm you want to clear it and continue with your new booking.</p>
+				
+			</div>
+			<div class="modal-footer">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 mb-3">
+						<button class="btn btn-primary btn-block y_freshBooking" >
+							Confirm</button>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<button class="btn btn-secondary btn-block" data-dismiss="modal">
+							No thanks</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<input type="hidden" name="cartTimerContinueUrl" id="cartTimerContinueUrl">
+
+  <form action="#" method="GET" id="cartTimerContinueUrlForm">
+  </form>
+
+   <div class="modal " id="y_showCartAboutToExpireModal" tabindex="-1" role="dialog" aria-labelledby="y_showCartAboutToExpireModal">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+				<h4 class="modal-title" id="cartAboutToExpireModal">
+					Important</h4>
+			</div>
+			<div class="modal-body">
+                <span id="cartTimerAboutToExpireMessage"></span><br/>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+                            <button type="button" class="btn btn-transparent btn-block btn-cart-timer-continue" data-dismiss="modal">
+                                 Continue</button>
+                        </div>
+                    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="modal " id="y_showCartTimerExpired" tabindex="-1" role="dialog" aria-labelledby="y_showCartTimerExpired">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+
+				<h4 class="modal-title" id="cartTimerExpired">
+
+						Important</h4>
+			</div>
+
+			<div class="modal-body">
+                  Your session has expired. If you still want to book travel, select &quot;Search again&quot; below.<br/>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-xs-12">
+
+                          <button class="btn btn-primary btn-block cartTimerContinueButton" type="button" id="cartTimerContinueButton">
+
+                            Search again</button>
+                          </div>
+                    </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<section class="margin-top--I">
+		        <div class="container">
+		           <div class="row">
+		             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		               <div id="globalMessages">
+							</div>
+		             </div>
+		           </div>
+		        </div>
+				</section>
+				<section class="yCmsContentSlot">
+<div class="container">
+	<p class="text-grey margin-top-10">At-a-glance</p>
+	<h2 class="text-dark-blue">
+		<b>Ferry tracking</b>
+	</h2>
+
+
+	<div class="row">
+		<div class="col-xl-8 col-md-8 col-sm-12 col-xs-12">
+			<p>
+				See where our ferries are right now and watch them navigate coastal BC with our tracking maps.</p>
+
+<p>To check that your sailing is on time, <a href="/current-conditions/departures">view departures &amp; arrivals</a>.</p>
+		</div>
+	</div>
+
+
+	<p class="italic-style margin-top-20 margin-bottom-20 text-sm">
+		<em>
+		    Last updated:&nbsp;12:15 AM Saturday, Oct 17, 2026.
+            <a href="" onclick="return false" id="refreshDepartures">
+                Click to refresh</a>
+		</em>
+	</p>
+
+</div>
+<section >
+	<div class="container">
+		<div class="row my-5">
+			<div class="col-md-5">
+				<label class="text-grey">
+					Search by terminal</label>
+				<select class="select-custom selectpicker" id="selectFerryTrackingRoute">
+					<option value="default">
+						Select route</option>
+
+					<option value="Metro Vancouver__01TSAA">
+									Vancouver (Tsawwassen)&nbsp;to&nbsp;Victoria (Swartz Bay)</option>
+						<option value="Metro Vancouver__08HSBA">
+									Vancouver (Horseshoe Bay)&nbsp;to&nbsp;Bowen Island (Snug Cove)</option>
+						<option value="Metro Vancouver__30TSAA">
+									Vancouver (Tsawwassen)&nbsp;to&nbsp;Nanaimo (Duke Point)</option>
+						<option value="Metro Vancouver__TSASGI">
+									Vancouver (Tsawwassen)&nbsp;to&nbsp;Southern Gulf Islands</option>
+						<option value="Vancouver Island__01SWBA">
+									Victoria (Swartz Bay)&nbsp;to&nbsp;Vancouver (Tsawwassen)</option>
+						<option value="Vancouver Island__04SWBA">
+									Victoria (Swartz Bay)&nbsp;to&nbsp;Salt Spring Island (Fulford Harbour)</option>
+						<option value="Vancouver Island__06CFTA">
+									Crofton&nbsp;to&nbsp;Salt Spring Island (Vesuvius Bay)</option>
+						<option value="Vancouver Island__SWBSGI">
+									Victoria (Swartz Bay)&nbsp;to&nbsp;Southern Gulf Islands</option>
+						<option value="Vancouver Island__25MCNA">
+									Port McNeill&nbsp;to&nbsp;Malcolm Island (Sointula)</option>
+						<option value="Vancouver Island__25MCNC">
+									Port McNeill&nbsp;to&nbsp;Cormorant Island (Alert Bay)</option>
+						<option value="Vancouver Island__30DUKA">
+									Nanaimo (Duke Point)&nbsp;to&nbsp;Vancouver (Tsawwassen)</option>
+						<option value="Vancouver Island__12MILA">
+									Mill Bay&nbsp;to&nbsp;Brentwood Bay</option>
+						<option value="Vancouver Island__17CMXA">
+									Comox (Little River)&nbsp;to&nbsp;Powell River (Westview)</option>
+						<option value="Vancouver Island__19NAHA">
+									Nanaimo (Nanaimo Harbour)&nbsp;to&nbsp;Gabriola Island (Descanso Bay)</option>
+						<option value="Vancouver Island__20CHEC">
+									Chemainus&nbsp;to&nbsp;Thetis Island (Preedy Harbour)</option>
+						<option value="Vancouver Island__20CHED">
+									Chemainus&nbsp;to&nbsp;Penelakut Island (Telegraph Harbour)</option>
+						<option value="Vancouver Island__23CAMA">
+									Campbell River&nbsp;to&nbsp;Quadra Island (Quathiaski Cove)</option>
+						<option value="Vancouver Island__BKYDNEHRN">
+									Buckley Bay&nbsp;to&nbsp;Denman Island, Hornby Island</option>
+						<option value="Sunshine Coast__07ERLA">
+									Sunshine Coast (Earls Cove)&nbsp;to&nbsp;Powell River (Saltery Bay)</option>
+						<option value="Sunshine Coast__07SLTA">
+									Powell River (Saltery Bay)&nbsp;to&nbsp;Sunshine Coast (Earls Cove)</option>
+						<option value="Sunshine Coast__17PWRA">
+									Powell River (Westview)&nbsp;to&nbsp;Comox (Little River)</option>
+						<option value="Sunshine Coast__18PWRA">
+									Powell River (Westview)&nbsp;to&nbsp;Texada Island (Blubber Bay)</option>
+						<option value="Southern Gulf Islands__04FULA">
+									Salt Spring Island (Fulford Harbour)&nbsp;to&nbsp;Victoria (Swartz Bay)</option>
+						<option value="Southern Gulf Islands__06VESA">
+									Salt Spring Island (Vesuvius Bay)&nbsp;to&nbsp;Crofton</option>
+						<option value="Southern Gulf Islands__19GABA">
+									Gabriola Island (Descanso Bay)&nbsp;to&nbsp;Nanaimo (Nanaimo Harbour)</option>
+						<option value="Southern Gulf Islands__20PENA">
+									Penelakut Island (Telegraph Harbour)&nbsp;to&nbsp;Chemainus</option>
+						<option value="Southern Gulf Islands__20THTA">
+									Thetis Island (Preedy Harbour)&nbsp;to&nbsp;Chemainus</option>
+						<option value="Southern Gulf Islands__20THTD">
+									Thetis Island (Preedy Harbour)&nbsp;to&nbsp;Penelakut Island (Telegraph Harbour)</option>
+						<option value="Southern Gulf Islands__SGISWB">
+									Southern Gulf Islands&nbsp;to&nbsp;Victoria (Swartz Bay)</option>
+						<option value="Southern Gulf Islands__SGITSA">
+									Southern Gulf Islands&nbsp;to&nbsp;Vancouver (Tsawwassen)</option>
+						<option value="Northern Gulf Islands__25ALRC">
+									Cormorant Island (Alert Bay)&nbsp;to&nbsp;Port McNeill</option>
+						<option value="Northern Gulf Islands__25SOIA">
+									Malcolm Island (Sointula)&nbsp;to&nbsp;Port McNeill</option>
+						<option value="Northern Gulf Islands__25SOIB">
+									Malcolm Island (Sointula)&nbsp;to&nbsp;Cormorant Island (Alert Bay)</option>
+						<option value="Northern Gulf Islands__21DMNA">
+									Denman Island West&nbsp;to&nbsp;Buckley Bay</option>
+						<option value="Northern Gulf Islands__22DNEA">
+									Denman Island East (Gravelly Bay)&nbsp;to&nbsp;Hornby Island (Shingle Spit)</option>
+						<option value="Northern Gulf Islands__23QDRA">
+									Quadra Island (Quathiaski Cove)&nbsp;to&nbsp;Campbell River</option>
+						<option value="Northern Gulf Islands__24HRBA">
+									Quadra Island (Heriot Bay)&nbsp;to&nbsp;Cortes Island (Whaletown)</option>
+						<option value="Central Coast__CNCTNRCT">
+									Central Coast&nbsp;to&nbsp;North Coast</option>
+						<option value="Central Coast__CNCTCCCP">
+									Central Coast&nbsp;to&nbsp;Bella Bella, Shearwater, Ocean Falls, and Bella Coola</option>
+						<option value="North Coast__NRCTHGI">
+									North Coast&nbsp;to&nbsp;Haida Gwaii</option>
+						<option value="North Coast__NRCTCNCT">
+									North Coast&nbsp;to&nbsp;Central Coast</option>
+						<option value="Haida Gwaii__26ALFA">
+									Moresby Island (Alliford Bay)&nbsp;to&nbsp;Graham Island (Skidegate)</option>
+						<option value="Haida Gwaii__HGINRCT">
+									Haida Gwaii&nbsp;to&nbsp;North Coast</option>
+						</select>
+			</div>
+		</div>
+		<hr class="margin-top-30">
+	</div>
+</section>
+
+<div class="container">
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Metro Vancouver</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-01TSAA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals01TSAA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route0.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Vancouver (Tsawwassen)</span>
+                <span class="no-anchor">to</span>
+                <span>Victoria (Swartz Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals01TSAA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Vancouver (Tsawwassen)&nbsp;to&nbsp;Victoria (Swartz Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route0.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-08HSBA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals08HSBA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route5.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Vancouver (Horseshoe Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Bowen Island (Snug Cove)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals08HSBA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Vancouver (Horseshoe Bay)&nbsp;to&nbsp;Bowen Island (Snug Cove)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route5.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-30TSAA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals30TSAA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route1.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Vancouver (Tsawwassen)</span>
+                <span class="no-anchor">to</span>
+                <span>Nanaimo (Duke Point)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals30TSAA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Vancouver (Tsawwassen)&nbsp;to&nbsp;Nanaimo (Duke Point)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route1.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div id="ferryMap-TSASGI"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsTSASGI">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Vancouver (Tsawwassen)</span>
+                <span class="no-anchor">to</span>
+                <span>Southern Gulf Islands</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsTSASGI" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Vancouver (Tsawwassen)&nbsp;to&nbsp;Southern Gulf Islands</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route2.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="ferry-hr-separator" id="Metro Vancouver">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Vancouver Island</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-01SWBA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals01SWBA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route0.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Victoria (Swartz Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Vancouver (Tsawwassen)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals01SWBA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Victoria (Swartz Bay)&nbsp;to&nbsp;Vancouver (Tsawwassen)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route0.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-04SWBA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals04SWBA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route6.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Victoria (Swartz Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Salt Spring Island (Fulford Harbour)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals04SWBA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Victoria (Swartz Bay)&nbsp;to&nbsp;Salt Spring Island (Fulford Harbour)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route6.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-06CFTA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals06CFTA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route17.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Crofton</span>
+                <span class="no-anchor">to</span>
+                <span>Salt Spring Island (Vesuvius Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals06CFTA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Crofton&nbsp;to&nbsp;Salt Spring Island (Vesuvius Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route17.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div id="ferryMap-SWBSGI"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsSWBSGI">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Victoria (Swartz Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Southern Gulf Islands</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsSWBSGI" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Victoria (Swartz Bay)&nbsp;to&nbsp;Southern Gulf Islands</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route7.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-25MCNA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals25MCNA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Port McNeill</span>
+                <span class="no-anchor">to</span>
+                <span>Malcolm Island (Sointula)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals25MCNA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Port McNeill&nbsp;to&nbsp;Malcolm Island (Sointula)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route25.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-25MCNC"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals25MCNC">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Port McNeill</span>
+                <span class="no-anchor">to</span>
+                <span>Cormorant Island (Alert Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals25MCNC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Port McNeill&nbsp;to&nbsp;Cormorant Island (Alert Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route25.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center col-md-offset-4 col-sm-offset-4">
+									<button class="btn btn-primary btn-block ferryTrackingLoadMore margin-bottom-10">
+										View more</button>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-30DUKA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals30DUKA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route1.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Nanaimo (Duke Point)</span>
+                <span class="no-anchor">to</span>
+                <span>Vancouver (Tsawwassen)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals30DUKA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Nanaimo (Duke Point)&nbsp;to&nbsp;Vancouver (Tsawwassen)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route1.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-12MILA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals12MILA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route16.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Mill Bay</span>
+                <span class="no-anchor">to</span>
+                <span>Brentwood Bay</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals12MILA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Mill Bay&nbsp;to&nbsp;Brentwood Bay</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route16.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-17CMXA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals17CMXA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route23.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Comox (Little River)</span>
+                <span class="no-anchor">to</span>
+                <span>Powell River (Westview)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals17CMXA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Comox (Little River)&nbsp;to&nbsp;Powell River (Westview)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route23.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				<div class="row"> 
+				<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-19NAHA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals19NAHA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route19.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Nanaimo (Nanaimo Harbour)</span>
+                <span class="no-anchor">to</span>
+                <span>Gabriola Island (Descanso Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals19NAHA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Nanaimo (Nanaimo Harbour)&nbsp;to&nbsp;Gabriola Island (Descanso Bay)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route19.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-20CHEC">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals20CHEC">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Chemainus</span>
+                <span class="no-anchor">to</span>
+                <span>Thetis Island (Preedy Harbour)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals20CHEC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Chemainus&nbsp;to&nbsp;Thetis Island (Preedy Harbour)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route18.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-20CHED">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals20CHED">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Chemainus</span>
+                <span class="no-anchor">to</span>
+                <span>Penelakut Island (Telegraph Harbour)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals20CHED" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Chemainus&nbsp;to&nbsp;Penelakut Island (Telegraph Harbour)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route18.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				<div class="row"> 
+				<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-23CAMA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals23CAMA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route21.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Campbell River</span>
+                <span class="no-anchor">to</span>
+                <span>Quadra Island (Quathiaski Cove)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals23CAMA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Campbell River&nbsp;to&nbsp;Quadra Island (Quathiaski Cove)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route21.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-BKYDNEHRN">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsBKYDNEHRN">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Buckley Bay</span>
+                <span class="no-anchor">to</span>
+                <span>Denman Island, Hornby Island</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModalsBKYDNEHRN" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Buckley Bay&nbsp;to&nbsp;Denman Island, Hornby Island</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route20.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				<div class="ferry-hr-separator" id="Vancouver Island">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Sunshine Coast</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-07ERLA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals07ERLA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route29.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Sunshine Coast (Earls Cove)</span>
+                <span class="no-anchor">to</span>
+                <span>Powell River (Saltery Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals07ERLA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Sunshine Coast (Earls Cove)&nbsp;to&nbsp;Powell River (Saltery Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route29.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-07SLTA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals07SLTA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route29.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Powell River (Saltery Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Sunshine Coast (Earls Cove)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals07SLTA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Powell River (Saltery Bay)&nbsp;to&nbsp;Sunshine Coast (Earls Cove)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route29.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-17PWRA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals17PWRA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route23.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Powell River (Westview)</span>
+                <span class="no-anchor">to</span>
+                <span>Comox (Little River)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals17PWRA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Powell River (Westview)&nbsp;to&nbsp;Comox (Little River)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route23.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div id="ferryMap-18PWRA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals18PWRA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route24.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Powell River (Westview)</span>
+                <span class="no-anchor">to</span>
+                <span>Texada Island (Blubber Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals18PWRA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Powell River (Westview)&nbsp;to&nbsp;Texada Island (Blubber Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route24.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="ferry-hr-separator" id="Sunshine Coast">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Southern Gulf Islands</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-04FULA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals04FULA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route6.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Salt Spring Island (Fulford Harbour)</span>
+                <span class="no-anchor">to</span>
+                <span>Victoria (Swartz Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals04FULA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Salt Spring Island (Fulford Harbour)&nbsp;to&nbsp;Victoria (Swartz Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route6.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-06VESA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals06VESA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route17.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Salt Spring Island (Vesuvius Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Crofton</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals06VESA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Salt Spring Island (Vesuvius Bay)&nbsp;to&nbsp;Crofton</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route17.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-19GABA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals19GABA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route19.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Gabriola Island (Descanso Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Nanaimo (Nanaimo Harbour)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals19GABA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Gabriola Island (Descanso Bay)&nbsp;to&nbsp;Nanaimo (Nanaimo Harbour)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route19.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div id="ferryMap-20PENA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals20PENA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Penelakut Island (Telegraph Harbour)</span>
+                <span class="no-anchor">to</span>
+                <span>Chemainus</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals20PENA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Penelakut Island (Telegraph Harbour)&nbsp;to&nbsp;Chemainus</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route18.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-20THTA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals20THTA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Thetis Island (Preedy Harbour)</span>
+                <span class="no-anchor">to</span>
+                <span>Chemainus</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals20THTA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Thetis Island (Preedy Harbour)&nbsp;to&nbsp;Chemainus</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route18.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-20THTD"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals20THTD">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Thetis Island (Preedy Harbour)</span>
+                <span class="no-anchor">to</span>
+                <span>Penelakut Island (Telegraph Harbour)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals20THTD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Thetis Island (Preedy Harbour)&nbsp;to&nbsp;Penelakut Island (Telegraph Harbour)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route18.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center col-md-offset-4 col-sm-offset-4">
+									<button class="btn btn-primary btn-block ferryTrackingLoadMore margin-bottom-10">
+										View more</button>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-SGISWB">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsSGISWB">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Southern Gulf Islands</span>
+                <span class="no-anchor">to</span>
+                <span>Victoria (Swartz Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModalsSGISWB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Southern Gulf Islands&nbsp;to&nbsp;Victoria (Swartz Bay)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route7.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-SGITSA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsSGITSA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Southern Gulf Islands</span>
+                <span class="no-anchor">to</span>
+                <span>Vancouver (Tsawwassen)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModalsSGITSA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Southern Gulf Islands&nbsp;to&nbsp;Vancouver (Tsawwassen)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route2.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				<div class="ferry-hr-separator" id="Southern Gulf Islands">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Northern Gulf Islands</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-25ALRC"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals25ALRC">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Cormorant Island (Alert Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Port McNeill</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals25ALRC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Cormorant Island (Alert Bay)&nbsp;to&nbsp;Port McNeill</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route25.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-25SOIA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals25SOIA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Malcolm Island (Sointula)</span>
+                <span class="no-anchor">to</span>
+                <span>Port McNeill</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals25SOIA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Malcolm Island (Sointula)&nbsp;to&nbsp;Port McNeill</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route25.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-25SOIB"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals25SOIB">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Malcolm Island (Sointula)</span>
+                <span class="no-anchor">to</span>
+                <span>Cormorant Island (Alert Bay)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals25SOIB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Malcolm Island (Sointula)&nbsp;to&nbsp;Cormorant Island (Alert Bay)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route25.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div id="ferryMap-21DMNA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals21DMNA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Denman Island West</span>
+                <span class="no-anchor">to</span>
+                <span>Buckley Bay</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals21DMNA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Denman Island West&nbsp;to&nbsp;Buckley Bay</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route20.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-22DNEA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals22DNEA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Denman Island East (Gravelly Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Hornby Island (Shingle Spit)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals22DNEA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Denman Island East (Gravelly Bay)&nbsp;to&nbsp;Hornby Island (Shingle Spit)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route20.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-23QDRA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals23QDRA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route21.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Quadra Island (Quathiaski Cove)</span>
+                <span class="no-anchor">to</span>
+                <span>Campbell River</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals23QDRA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Quadra Island (Quathiaski Cove)&nbsp;to&nbsp;Campbell River</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route21.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-xs-12">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center col-md-offset-4 col-sm-offset-4">
+									<button class="btn btn-primary btn-block ferryTrackingLoadMore margin-bottom-10">
+										View more</button>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="row"> 
+				<div class="showMore box ferry-box-map hidden col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30" id="ferryMap-24HRBA">
+							<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals24HRBA">
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route22.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Quadra Island (Heriot Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Cortes Island (Whaletown)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+								<div class="modal fade" id="ferryTrackingModals24HRBA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	
+											</div>
+	
+											<div class="modal-body">
+												<h5>Quadra Island (Heriot Bay)&nbsp;to&nbsp;Cortes Island (Whaletown)</h5>
+												<div class="iframeContainer">
+													<iframe width="500px" height="633px" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route22.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+												</div></div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				<div class="ferry-hr-separator" id="Northern Gulf Islands">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Central Coast</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-CNCTNRCT"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsCNCTNRCT">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Central Coast</span>
+                <span class="no-anchor">to</span>
+                <span>North Coast</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsCNCTNRCT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Central Coast&nbsp;to&nbsp;North Coast</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-CNCTCCCP"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsCNCTCCCP">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Central Coast</span>
+                <span class="no-anchor">to</span>
+                <span>Bella Bella, Shearwater, Ocean Falls, and Bella Coola</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsCNCTCCCP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Central Coast&nbsp;to&nbsp;Bella Bella, Shearwater, Ocean Falls, and Bella Coola</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="ferry-hr-separator" id="Central Coast">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>North Coast</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-NRCTHGI"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsNRCTHGI">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>North Coast</span>
+                <span class="no-anchor">to</span>
+                <span>Haida Gwaii</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsNRCTHGI" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>North Coast&nbsp;to&nbsp;Haida Gwaii</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-NRCTCNCT"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsNRCTCNCT">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>North Coast</span>
+                <span class="no-anchor">to</span>
+                <span>Central Coast</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsNRCTCNCT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>North Coast&nbsp;to&nbsp;Central Coast</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="ferry-hr-separator" id="North Coast">
+				<hr />
+			</div>
+		</div>
+	<div class="content-wrapper">
+			<h4 class="ferry-region-map margin-top-30 margin-bottom-20">
+				<b>Haida Gwaii</b>
+			</h4>
+			<div class="row"> 
+				<div id="ferryMap-26ALFA"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModals26ALFA">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Moresby Island (Alliford Bay)</span>
+                <span class="no-anchor">to</span>
+                <span>Graham Island (Skidegate)</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModals26ALFA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Moresby Island (Alliford Bay)&nbsp;to&nbsp;Graham Island (Skidegate)</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="ferryMap-HGINRCT"
+							 class="ferry-box-map col-lg-4 col-md-4 col-sm-6 col-xs-12 margin-bottom-30">
+						<span class="popup" data-toggle="modal" data-target="#ferryTrackingModalsHGINRCT">
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+   <p class="margin-bottom-30 text-center">
+         <i class="cc-last-update-text">
+           Last updated:&nbsp;
+           
+         </i>
+   </p>
+   <div class="col-lg-12 col-md-12 iframe-map text-center">
+        
+            <div><img src="https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"/></div>
+        
+            <a href="#" class="margin-top-10 mb-5 fnt-14">
+                <span>Haida Gwaii</span>
+                <span class="no-anchor">to</span>
+                <span>North Coast</span>
+            </a>
+        
+        
+   </div>
+</div>
+</span>
+							<div class="modal fade" id="ferryTrackingModalsHGINRCT" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											Ferry tracking<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+										</div>
+
+										<div class="modal-body">
+											<h5>Haida Gwaii&nbsp;to&nbsp;North Coast</h5>
+											<div class="iframeContainer">
+												<iframe width="100%" height="633" style="overflow: hidden;" src="https://ccimg.bcferries.com/cc/support/vessels/route13.html" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+											</div></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+				<div class="ferry-hr-separator" id="Haida Gwaii">
+				<hr />
+			</div>
+		</div>
+	</div>
+<div class="container"><div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="content"><style type="text/css">#ferryMap-TSASGI {
+                position: relative;
+            }
+            
+            #ferryMap-TSASGI::after {
+                content: "Horseshoe Bay – Langdale and Horseshoe Bay – Departure Bay ferry tracking maps are temporarily unavailable\A\AThese ferry tracking maps are currently offline due to a technical issue. We are working to restore service as soon as possible.";
+                position: absolute;
+                left: calc(100% + 20px);
+                top: 25px;
+                width: 90%;
+                height: 342px;
+                margin-top: 27px;
+                background: #f7f7f7;
+                border: 1px solid #d9d9d9;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: center;
+                white-space: pre-line;
+                line-height: 1.5;
+                }
+    
+                /* Mobile */
+            @media (max-width: 767px) {
+                #ferryMap-TSASGI::after {
+                    position: relative;
+                    left: 0;
+                    top: 20px;
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 30px;
+                    padding: 40px 20px;
+                    }
+                }
+
+                #ferryMap-BKYDNEHRN {
+                position: relative;
+            }
+            
+            #ferryMap-BKYDNEHRN::after {
+                content: "Departure Bay – Horseshoe Bay ferry tracking is temporarily unavailable\A\AThis ferry tracking map is currently offline due to a technical issue. We are working to restore service as soon as possible.";
+                position: absolute;
+                left: calc(100% + 20px);
+                top: 25px;
+                width: 90%;
+                height: 342px;
+                margin-top: 27px;
+                background: #f7f7f7;
+                border: 1px solid #d9d9d9;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: center;
+                white-space: pre-line;
+                line-height: 1.5;
+                }
+    
+                /* Mobile */
+            @media (max-width: 767px) {
+                #ferryMap-BKYDNEHRN::after {
+                    position: relative;
+                    left: 0;
+                    top: 20px;
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 30px;
+                    padding: 40px 20px;
+                    }
+                }
+
+                #ferryMap-18PWRA {
+                position: relative;
+                }
+
+                #ferryMap-18PWRA::after {
+                content: "Langdale – Horseshoe Bay ferry tracking is temporarily unavailable\A\AThis ferry tracking is currently offline due to a technical issue. We are working to restore service as soon as possible.";
+                position: absolute;
+                left: calc(100% + 20px);
+                top: 25px;
+                width: 90%;
+                height: 342px;
+                margin-top: 27px;
+                background: #f7f7f7;
+                border: 1px solid #d9d9d9;
+                border-radius: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                box-sizing: border-box;
+                text-align: center;
+                white-space: pre-line;
+                line-height: 1.5;
+                }
+
+                /* Mobile */
+                @media (max-width: 767px) {
+                #ferryMap-18PWRA::after {
+                    position: relative;
+                    left: 0;
+                    top: 20px;
+                    width: 100%;
+                    display: block;
+                    margin-bottom: 30px;
+                    padding: 40px 20px;
+                    }
+                }</style></div></div></div></div></section><section class="yCmsContentSlot">
+<div class="container">
+<h4 class="margin-top-20 margin-bottom-20"><b>At-a-glance pages</b></h4>
+<div class="row information-div margin-bottom-30">
+	<div class="col-lg-4 col-sm-6 col-xs-12  img-icon-width">
+			<div class="m-info">
+				<a href="/current-conditions">
+	    <span class="cta-link"><span class="bcf bcf-icon-ferry bcf-vertical-middle bcf-icon-sm bcf-bule-icon" style="width:50px">&ZeroWidthSpace;</span>Conditions by route</span>
+        <i class="bcf bcf-icon-right-arrow"></i>
+        </a>
+    </div>
+		</div>
+	<div class="col-lg-4 col-sm-6 col-xs-12  img-icon-width">
+			<div class="m-info">
+				<a href="/current-conditions/departures">
+	    <span class="cta-link"><span class="bcf bcf-icon-ferry bcf-vertical-middle bcf-icon-sm bcf-bule-icon"> </span>Departures and arrivals</span>
+        </a>
+    </div>
+		</div>
+	<div class="col-lg-4 col-sm-6 col-xs-12  img-icon-width">
+			<div class="m-info">
+				<a href="/current-conditions/webcams">
+	    <span class="cta-link"><span class="bcf bcf-icon-webcam bcf-vertical-middle bcf-icon-sm bcf-bule-icon">&nbsp;</span>Terminal webcams</span>
+        </a>
+    </div>
+		</div>
+	</div>
+</div>
+
+<div class="js-current-conditions-url hidden">/current-conditions</div>
+<div id="tabs-4" class="departures-cc-component ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4>Sailing status by route</h4>
+                </div>
+        </div>
+
+        <input type="hidden" name="departureLocation" class="y_currentConditionsOriginLocationCode" />
+        <input type="hidden" name="arrivalLocation" class=" y_currentConditionsDestinationLocationCode"  />
+
+
+        <div class="row margin-top-17">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="ferry-routeInfoForm ferry-currentConditionsForm hidden"></div>
+            <form id="y_currentConditionsForm" class="fe-validate form-background form-booking-trip box-3" action="/currentconditions-details" method="GET">
+
+
+
+
+
+
+
+
+
+<div class="custom-error-4 alert alert-danger alert-dismissable custom-error-msg hidden">
+    <i class="bcf bcf-icon-alert"></i> <span></span>
+</div>
+<div class="bc-accordion ferry-drop current-condition accordion-content-w-9">
+    <label for="fromLocation" class="home-label-mobile">
+        Leave from
+    </label>
+
+    <div id="y_currentConditionsDepartureLocationTravelroute" class="autocomplete-suggestions-wrapper hidden"></div>
+    <div id="y_currentConditionsOriginLocationSuggestions" class="autocomplete-suggestions-wrapper hidden"></div>
+    <div id="currentcondition-accordion1" class="accordion-34 accordion-bg-white component-to-top">
+        <h3>
+          <span class="dropdown-text">
+  					<strong class="drop-text mt-0 destination-text">Select destination (city)</strong>
+  					<span class="custom-arrow"></span>
+  				</span>
+        </h3>
+        <div>
+          <div class="vacation-range-box">
+            <div class="form-height-fix style-3">
+
+
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<div class="hidden" id="farefinder-routeinfo-currentcondition-accordion2"></div>
+<div class="hidden" id="farefinder-routeinfo-currentcondition-accordion1"></div>
+
+<div class="bc-accordion ferry-drop current-condition accordion-content-w-9">
+    <label for="toLocation" class="home-label-mobile">
+        Going to
+    </label>
+
+    <div id="y_currentConditionsArrivalLocationTravelroute" class="autocomplete-suggestions-wrapper hidden"></div>
+    <div id="y_currentConditionsDestinationLocationSuggestions" class="autocomplete-suggestions-wrapper hidden"></div>
+    <div id="currentcondition-accordion2" class="accordion-34 accordion-bg-white component-to-top">
+        <h3>
+          <span class="dropdown-text">
+  			<strong class="drop-text destination-text">City</strong>
+            <span>Terminal</span>
+  					<span class="custom-arrow"></span>
+  				</span>
+        </h3>
+        <div>
+          <div class="vacation-range-box">
+            <div class="form-height-fix style-3">
+
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="bc-accordion ferry-drop current-condition cond-btn">
+                    <button class="btn btn-primary btn-block btn-curn js-current-conditions-submit" type="submit" value="Submit">
+                        View Conditions</button>
+                </div>
+            </form></div>
+        </div>
+    </div>
+</div>
+<div class="container"><div class="row"><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div class="content"><span style="color:#ffffff;">Ferry tracking</span>
+<style type="text/css">div.modal-content {width:100%; padding-bottom: 0;}
+#ferryTrackingModalsCNCTNRCT div.modal-content, 
+#ferryTrackingModalsCNCTCCCP div.modal-content, 
+#ferryTrackingModalsNRCTHGI div.modal-content, 
+#ferryTrackingModalsNRCTCNCT div.modal-content, 
+#ferryTrackingModals26ALFA div.modal-content, 
+#ferryTrackingModalsHGINRCT div.modal-content 
+{width:650px; padding-bottom: 0;}
+
+div.modal-body {padding-top: 0;}
+#ferryTrackingModalsCNCTNRCT div.modal-body, 
+#ferryTrackingModalsCNCTCCCP div.modal-body, 
+#ferryTrackingModalsNRCTHGI div.modal-body, 
+#ferryTrackingModalsNRCTCNCT div.modal-body, 
+#ferryTrackingModals26ALFA div.modal-body, 
+#ferryTrackingModalsHGINRCT div.modal-body 
+{padding-top: 0;}
+
+div.iframeContainer {max-width: 500px; height: 680px;}
+#ferryTrackingModalsCNCTNRCT div.iframeContainer, 
+#ferryTrackingModalsCNCTCCCP div.iframeContainer, 
+#ferryTrackingModalsNRCTHGI div.iframeContainer, 
+#ferryTrackingModalsNRCTCNCT div.iframeContainer, 
+#ferryTrackingModals26ALFA div.iframeContainer, 
+#ferryTrackingModalsHGINRCT div.iframeContainer 
+{max-width: 600px; height: 760px;}
+
+iframe {width: 500px; height: 670px;}
+#ferryTrackingModalsCNCTNRCT iframe, 
+#ferryTrackingModalsCNCTCCCP iframe, 
+#ferryTrackingModalsNRCTHGI iframe, 
+#ferryTrackingModalsNRCTCNCT iframe, 
+#ferryTrackingModals26ALFA iframe, 
+#ferryTrackingModalsHGINRCT iframe 
+{width: 100%; height: 750px;}
+
+.modal-open .modal {
+    overflow: auto !important;
+}
+
+button.close {
+    position: fixed; 
+    right: 20px;
+}
+</style>
+</div></div></div></div></section>
+
+
+
+
+    <div class="yCmsContentSlot">
+
+       <div>
+          <footer>
+    <div class="container">
+    <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 pull-right footer-m">
+                    <div class="footer-title"><em>onBoard</em> eNewsletter</div><ul class="list-unstyled" style="padding-bottom: 8px;"><li><a href="/deals-special-offers/onboard-enewsletter">Sign up for email offers</a></li></ul><div class="footer-title" style="margin-bottom:-2px">BC Ferries app</div><a href="https://play.google.com/store/apps/details?id=com.bcferries" target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="height:55px; margin:0 -10px 0 -8px" /></a> <a href="https://apps.apple.com/us/app/bc-ferries/id6444454630" target="_blank"><img alt="Download on the App Store" src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us?releaseDate=1678406400" style="border-radius: 6px; width: 111px; height: 37px;"><ul class="list-unstyled" style="padding-bottom:5px;"><li><a href="/app">Learn more</a></li></ul><div class="footer-title" style="margin-bottom:-2px">Connect on social media</div><ul class="list-inline" style="padding-top: 10px; margin-bottom: 40px;"> 	<li><a href="https://www.facebook.com/BCFerries/" target="_blank"><i aria-hidden="true" class="fab fa-2x fa-facebook-f">&nbsp;</i></a></li> 	<li><a href="https://twitter.com/bcferries" target="_blank"><i aria-hidden="true" class="bcf bcf-icon-twitter" style="font-size: 24px; margin-top: -6px;">&ZeroWidthSpace;</i></a></li> 	 	<li><a href="https://www.linkedin.com/company/25762/" target="_blank"><i aria-hidden="true" class="fab fa-2x fa-linkedin-in">&nbsp;</i></a></li> 	<li><a href="https://instagram.com/bcferries/" target="_blank"><i aria-hidden="true" class="fab fa-2x fa-instagram">&nbsp;</i></a></li> 	<li><a href="https://www.youtube.com/c/bcferries" target="_blank"><i aria-hidden="true" class="fab fa-2x fa-youtube">&nbsp;</i></a></li> </ul></div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-m">
+                    <div class="footer-title">Our company</div>
+                    <ul class="list-unstyled">
+                        <li><a href="/our-company" >About us</a></li>
+                        <li><a href="/our-company/leadership" >Leadership & governance</a></li>
+                        <li><a href="/our-company/indigenous-relations" >Indigenous relations</a></li>
+                        <li><a href="/our-company/investor-relations" >Investor relations</a></li>
+                        <li><a href="/our-company/freedom-of-information" >Freedom of information</a></li>
+                        <li><a href="/our-company/procurement" >Procurement</a></li>
+                        <li><a href="/our-company/bc-ferries-jobs" >Careers</a></li>
+                        </ul>
+                </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-m">
+                    <div class="footer-title">Our community</div>
+                    <ul class="list-unstyled">
+                        <li><a href="/community-engagement" >Community engagement</a></li>
+                        <li><a href="/in-the-community/community-social-investment" >Community & social investment</a></li>
+                        <li><a href="/in-the-community/resources" >Policies, reports & plans</a></li>
+                        <li><a href="https://www.bcferries.com/fleet-renewal"  target="_blank">Fleet renewal</a></li>
+                        </ul>
+                </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-m">
+                    <div class="footer-title">Contact us</div>
+                    <ul class="list-unstyled">
+                        <li><a href="/contact-us" >General contact &amp; customer service</a></li>
+                        <li><a href="/contact-us/helping-you-during-a-service-disruption" >Service disruptions</a></li>
+                        <li><a href="/contact-us/media-room" ><span class="tracking-media-room">Media room</span></a></li>
+                        <li><a href="/contact-us/property-or-injury" >Property damage or injury claims</a></li>
+                        <li><a href="/contact-us/baggage" >Missing or damaged baggage</a></li>
+                        <li><a href="/contact-us/scam-alerts" >Scam alerts</a></li>
+                        <li><a href="/contact-us/ferry-vessel-chartering" >Charter a ferry</a></li>
+                        <li><a href="/contact-us/film-production-request" >Film production request</a></li>
+                        <li><a href="/contact-us/onboard-advertising" >Onboard advertising</a></li>
+                        </ul>
+                </div>
+            </div>
+
+
+
+		<div class="row">
+          <div class="additional-links">
+                    <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                        <ul class="footer-bottom-links">
+                            <li><a href="/sitemap" >Sitemap</a></li>
+                            <li><a href="/terms-and-conditions" >Terms & conditions</a></li>
+                            <li><a href="/privacy-statement" >Privacy statement</a></li>
+                            <li><a href="/travel-policies" >Travel policies</a></li>
+                            <li><a href="/accessibility" >Accessibility</a></li>
+                            <li><a href="/employee-login" >Employee login</a></li>
+                            </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 text-center">
+                        Copyright © 2026 British Columbia Ferry Services Inc.</div>
+                </div>
+                </div>
+
+
+    </div>
+</footer>
+
+       </div>
+    </div>
+
+</main>
+	<form name="accessiblityForm" class="hidden">
+		<input type="hidden" id="accesibility_refreshScreenReaderBufferField" name="accesibility_refreshScreenReaderBufferField" value=""/>
+	</form>
+	<div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text" aria-live="polite"></div>
+
+	<span class="d-none" id="password.strength.veryweak">Very weak</span>
+<span class="d-none" id="password.strength.weak">Weak</span>
+<span class="d-none" id="password.strength.medium">Medium</span>
+<span class="d-none" id="password.strength.strong">Strong</span>
+<span class="d-none" id="password.strength.verystrong">Very strong</span>
+<span class="d-none" id="password.strength.unsafepwd">password.strength.unsafepwd</span>
+<span class="d-none" id="password.strength.tooshortpwd">Too short</span>
+<span class="d-none" id="password.strength.minchartext">Use %d - %m characters with a mix of upper case letters, lower case letters, numbers &amp; symbols (do not use &lt; &gt; / &#39; or &amp;)</span>
+<span class="d-none" id="password.strength.minchar">8</span>
+<span class="d-none" id="password.strength.maxchar">32</span>
+<span class="d-none" id="password.minchar.validation.msg">Password must be more than eight characters and contain a mix of any three of the following: upper case letters, numbers and symbols.</span>
+<span class="d-none" id="password.maxchar.validation.msg">Password must be less than 32 characters and contain a mix of any three of the following: upper case letters, numbers and symbols.</span>
+<span class="d-none" id="password.empty.validation.msg">Enter current password</span>
+<span class="d-none" id="email.validation.msg">Enter valid email address</span>
+<span class="d-none" id="password.validation.msg">Password not valid</span>
+<span class="d-none" id="register.accountType.invalid">Select account type</span>
+<span class="d-none" id="register.firstName.invalid">Enter first name</span>
+<span class="d-none" id="register.lastName.invalid">Enter last name</span>
+<span class="d-none" id="confirmEmail.validation.msg">Confirm Email Not Valid</span>
+<span class="d-none" id="password.pattern.validation.msg">Password must be more than eight characters and contain a mix of any three of the following: upper case letters, numbers and symbols.</span>
+<span class="d-none" id="reconfirm.password.validation.msg">Passwords do not match</span>
+<span class="d-none" id="postcode.pattern.validation.msg">Enter valid postal/zip code</span>
+<span class="d-none" id="aria.pickupinstore.loading">Loading... Please wait...</span>
+<span class="d-none" id="aria.pickupinstore.storesloaded">Stores loaded</span>
+<span class="d-none" id="text.schedule.view.schedule.from.label">View schedule from</span>
+<span class="d-none" id="text.cc.view.sailingStatus.from.label">View sailing status from</span>
+<span class="d-none" id="text.discover.routes.from.label">Discover our routes from</span>
+<span class="d-none" id="text.view.schedule.to.label">to</span>
+<script type="text/javascript">
+		/*<![CDATA[*/
+		
+		var ACC = { config: {} };
+			ACC.config.contextPath = "";
+			ACC.config.encodedContextPath = "";
+			ACC.config.commonResourcePath = "/_ui/responsive/common";
+			ACC.config.themeResourcePath = "/_ui/responsive/theme-bcf";
+			ACC.config.siteResourcePath = "/_ui/responsive/site-bcferries";
+			ACC.config.rootPath = "/_ui/responsive";
+			ACC.config.CSRFToken = "d21478b7-dc16-4f34-9958-278e14a2cb6b";
+			ACC.pwdStrengthVeryWeak = document.getElementById("password.strength.veryweak").innerText;
+			ACC.pwdStrengthWeak = document.getElementById("password.strength.weak").innerText;
+			ACC.pwdStrengthMedium =  document.getElementById("password.strength.medium").innerText;
+			ACC.pwdStrengthStrong = document.getElementById("password.strength.strong").innerText
+			ACC.pwdStrengthVeryStrong = document.getElementById("password.strength.verystrong").innerText;
+			ACC.pwdStrengthUnsafePwd = document.getElementById("password.strength.unsafepwd").innerText;
+			ACC.pwdStrengthTooShortPwd = document.getElementById("password.strength.tooshortpwd").innerText;
+			ACC.pwdStrengthMinCharText = document.getElementById("password.strength.minchartext").innerText;
+			ACC.pwdStrengthMinChar = document.getElementById("password.strength.minchar").innerText;
+			ACC.pwdStrengthMaxChar =  document.getElementById("password.strength.maxchar").innerText;
+			ACC.pwdMinCharValidationMsg = document.getElementById("password.minchar.validation.msg").innerText;
+			ACC.pwdMaxCharValidationMsg = document.getElementById("password.maxchar.validation.msg").innerText;
+			ACC.pwdEmptyValidationMsg = document.getElementById("password.empty.validation.msg").innerText;
+			ACC.emailValidationMsg = document.getElementById("email.validation.msg").innerText;
+			ACC.passwordValidationMsg = document.getElementById("password.validation.msg").innerText;
+			ACC.accountTypeValidationMsg = document.getElementById("register.accountType.invalid").innerText;
+			ACC.firstNameValidationMsg = document.getElementById("register.firstName.invalid").innerText;
+			ACC.lastNameValidationMsg = document.getElementById("register.lastName.invalid").innerText;
+		    ACC.confirmEmailValidationMsg = document.getElementById("confirmEmail.validation.msg").innerText;
+			ACC.pwdPatternValidationMsg = document.getElementById("password.pattern.validation.msg").innerText;
+			ACC.reconfirmPasswordValidationMsg = document.getElementById("reconfirm.password.validation.msg").innerText;
+	        ACC.postCodePatternValidationMsg = document.getElementById("postcode.pattern.validation.msg").innerText;
+			ACC.accessibilityLoading = document.getElementById("aria.pickupinstore.loading").innerText;
+			ACC.accessibilityStoresLoaded = document.getElementById("aria.pickupinstore.storesloaded").innerText;
+			ACC.config.googleApiKey="";
+			ACC.config.googleApiVersion="3.7";
+
+			
+			ACC.autocompleteUrl = '/search/autocompleteSecure';
+
+			
+			ACC.config.loginUrl = '/login';
+
+			
+			ACC.config.authenticationStatusUrl = '/authentication/status';
+			ACC.viewScheduleFrom = document.getElementById("text.schedule.view.schedule.from.label").innerText;
+			ACC.viewSailingStatusFrom = document.getElementById("text.cc.view.sailingStatus.from.label").innerText;
+			ACC.viewDiscoverRoutesFrom = document.getElementById("text.discover.routes.from.label").innerText;
+			ACC.viewScheduleTo = document.getElementById("text.view.schedule.to.label").innerText;
+
+			
+		/*]]>*/
+	</script>
+	<script type="text/javascript">
+	/*<![CDATA[*/
+	ACC.addons = {};	//JS holder for addons properties
+			
+	
+		ACC.addons.bcfcheckoutaddon = [];
+		
+		ACC.addons.bcfstorefrontaddon = [];
+		
+		ACC.addons.bcfvoyageaddon = [];
+		
+		ACC.addons.bcfassistedservicesstorefront = [];
+		
+		ACC.addons.smarteditaddon = [];
+		
+		ACC.addons.bcfaccommodationsaddon = [];
+		
+		ACC.addons.bcfcommonsaddon = [];
+		
+	/*]]>*/
+</script>
+<script type="text/javascript" src="/_ui/responsive/common/../js/jsLibrary.min.js"></script>
+      <script type="text/javascript" src="/_ui/responsive/common/../js/common.min.js"></script>
+	<script type="text/javascript">
+$(document).ready(function() {
+
+	$('.js-main-box .add-on-box:nth-child(3)').addClass("accordion-arriv");
+	$(function() {
+		$("#accordion-review").accordion();
+		$("#accordion-review").accordion({
+			header : "h4",
+			collapsible : true,
+			active : false
+		});
+	});
+	$(function() {
+		$(".accordion-arriv #accordion-review").accordion();
+		$(".accordion-arriv #accordion-review").accordion({
+			header : "h4",
+			collapsible : true,
+			active : false
+		});
+	});
+	 $( "#tabs" ).tabs();
+});
+
+// Jquery Loader
+$(document).ready(function() {
+  $('.js_form_submit').on('submit', function(event) {
+    event.preventDefault();
+    $('#mtmLC').show();
+    $.ajax({
+      type: $(this).attr('method'),
+      url: $(this).attr('action'),
+      data: $(this).serialize(),
+      success: function(response) {
+        var tempElement = $('<div>').html(response);
+        var redirectUrl = tempElement.find('link[rel="canonical"]').attr('href');
+        window.location.href = redirectUrl;
+      },
+      error: function(error) {
+        console.error('Error:', error);
+      }
+    });
+  });
+});
+
+
+// configuration for datatable starts here
+
+$(document).ready(function() {
+
+// custom logic to sort dates. Dates should be in format 'dd/MM/YYYY hh:mm:ss'
+
+    jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+        "date-euro-pre": function ( a ) {
+            var x;
+
+            if ( $.trim(a) !== '' ) {
+                var frDatea = $.trim(a).split(' ');
+                var frTimea = (undefined != frDatea[1]) ? frDatea[1].split(':') : [00,00,00];
+                var frDatea2 = frDatea[0].split('/');
+                x = (frDatea2[2] + frDatea2[1] + frDatea2[0] + frTimea[0] + frTimea[1] + ((undefined != frTimea[2]) ? frTimea[2] : 0)) * 1;
+            }
+            else {
+                x = Infinity;
+            }
+
+            return x;
+        },
+
+        "date-euro-asc": function ( a, b ) {
+            return a - b;
+        },
+
+        "date-euro-desc": function ( a, b ) {
+            return b - a;
+        }
+    } );
+
+//initialize pending(on-request) orders datatable -->
+
+    $('#pendingOrdersContentList').DataTable({
+     "order": [[ 3, "desc" ]],
+     "columnDefs": [
+     {
+         "targets": [ 7 ],
+         "searchable": false,
+         "orderable": false
+     },
+      {
+          "targets": [ 8 ],
+          "searchable": false,
+          "orderable": false
+      }
+      ],
+      "lengthMenu": [[5,10, 25, 50, -1], [5,10, 25, 50, "All"]],
+      "aoColumns": [
+           null,
+           null,
+           null,
+           { "sType": "date-euro" },
+           null,
+           { "sType": "date-euro" },
+           null
+      ]
+       });
+
+// initialize booking Inquiry data table
+		$('#js-schedule-table').DataTable({
+			"paging":   false,
+			"info":     false,
+			"searching": false
+
+		});
+		$('.js-data-table').DataTable({
+			"paging":   true,
+			"info":     false,
+			"searching": true,
+			"columnDefs": [
+			    { "width": "20%", "targets": "_all" }
+			  ]
+
+		});
+        $('#bookingInquiryContentList').DataTable({
+             "order": [[ 4, "desc" ]],
+             "columnDefs": [
+             {
+                 "targets": [ 7 ],
+                 "searchable": false,
+                 "orderable": false
+             },
+              {
+                  "targets": [ 8 ],
+                  "searchable": false,
+                  "orderable": false
+              }
+              ],
+              "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+              "aoColumns": [
+                   null,
+                   null,
+                   null,
+                   null,
+                   { "sType": "date-euro" },
+                   { "sType": "date-euro" },
+                   null,
+                   null,
+                   null,
+                   null
+              ]
+        });
+//booking Inquiry data table configuratons end
+
+} );
+// configuration for datatable ends here
+
+$(document).ready(function() {
+			if ($(window).width() >= 980) {
+						$("#js_navbar_menu .dropdown-toggle").click(function() {
+							if ($(".orbeon").length > 0) {
+								$(this).parent().toggleClass("open");
+							}
+						});
+					}
+
+			$(window).resize(function() {
+				if ($(window).width() >= 980) {
+					$("#js_navbar_menu .dropdown-toggle").click(function() {
+						if ($(".orbeon").length > 0) {
+							$(this).parent().toggleClass("open");
+						}
+						});
+					}
+
+					});
+			 $(window).click(function(e){
+				if ($('.tab-depart').hasClass("active")) {
+					$('.depart-calendar').addClass("active");
+					$('.return-calendar').removeClass("active");
+				}
+
+			});
+			$(window).click(function(e){
+				if ($('.tab-return').hasClass("active")) {
+					$('.return-calendar').addClass("active");
+					$('.depart-calendar').removeClass("active");
+				}
+
+			});
+		  	$('#vacation-accordion2').on('click', function(e) {
+		  	    var target = $(this);
+		  	    $('html, body').animate({
+		  	        scrollTop: target.offset().top
+		  	    }, 500);
+		  	});
+
+			// document ready
+		});
+	</script>
+
+</body>
+
+</html>

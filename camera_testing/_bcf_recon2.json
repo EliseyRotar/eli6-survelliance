@@ -1,0 +1,2771 @@
+{
+  "subdomains": [
+    {
+      "host": "98.158.84.104",
+      "ip": "access.bcferries.com"
+    },
+    {
+      "host": "98.158.84.71",
+      "ip": "apex.bcferries.com"
+    },
+    {
+      "host": "98.158.84.79",
+      "ip": "apigateway.bcferries.com"
+    },
+    {
+      "host": "98.158.84.110",
+      "ip": "autodiscover.bcferries.com"
+    },
+    {
+      "host": "98.158.84.80",
+      "ip": "bcfsvc.bcferries.com"
+    },
+    {
+      "host": "15.222.78.70",
+      "ip": "archive.campaigner.bcferries.com"
+    },
+    {
+      "host": "16.54.1.106",
+      "ip": "click.campaigner.bcferries.com"
+    },
+    {
+      "host": "98.158.84.72",
+      "ip": "cc.bcferries.com"
+    },
+    {
+      "host": "98.158.84.78",
+      "ip": "ccimg.bcferries.com"
+    },
+    {
+      "host": "98.158.84.110",
+      "ip": "citrix.bcferries.com"
+    },
+    {
+      "host": "34.102.239.211",
+      "ip": "email.comms.bcferries.com"
+    },
+    {
+      "host": "98.158.84.80",
+      "ip": "csdcustomer.bcferries.com"
+    },
+    {
+      "host": "192.168.251.65",
+      "ip": "cwa.bcferries.com"
+    },
+    {
+      "host": "45.60.121.180",
+      "ip": "ebiz.dev.bcferries.com"
+    },
+    {
+      "host": "45.60.121.180",
+      "ip": "ebiz-api.dev.bcferries.com"
+    },
+    {
+      "host": "98.158.84.87",
+      "ip": "drive.bcferries.com"
+    },
+    {
+      "host": "98.158.84.81",
+      "ip": "ecom-na4.bcferries.com"
+    },
+    {
+      "host": "216.24.229.220",
+      "ip": "em.bcferries.com"
+    },
+    {
+      "host": "98.158.84.93",
+      "ip": "ess.bcferries.com"
+    },
+    {
+      "host": "98.158.84.92",
+      "ip": "ess-sso.bcferries.com"
+    },
+    {
+      "host": "98.158.84.81",
+      "ip": "feedback.bcferries.com"
+    },
+    {
+      "host": "98.158.84.94",
+      "ip": "isupplier.bcferries.com"
+    },
+    {
+      "host": "144.217.64.106",
+      "ip": "learning.bcferries.com"
+    },
+    {
+      "host": "52.237.54.109",
+      "ip": "dev.mqtt.bcferries.com"
+    },
+    {
+      "host": "130.107.230.164",
+      "ip": "prod.mqtt.bcferries.com"
+    },
+    {
+      "host": "4.172.121.8",
+      "ip": "stg.mqtt.bcferries.com"
+    },
+    {
+      "host": "98.158.84.75",
+      "ip": "mtm.bcferries.com"
+    },
+    {
+      "host": "98.158.84.73",
+      "ip": "mycard.bcferries.com"
+    },
+    {
+      "host": "98.158.84.198",
+      "ip": "notifications.bcferries.com"
+    },
+    {
+      "host": "98.158.84.90",
+      "ip": "notifications2.bcferries.com"
+    },
+    {
+      "host": "98.158.84.92",
+      "ip": "olm.bcferries.com"
+    },
+    {
+      "host": "23.44.111.25",
+      "ip": "oraclefusion-dev2.bcferries.com"
+    },
+    {
+      "host": "23.33.40.80",
+      "ip": "oraclefusion-dev5.bcferries.com"
+    },
+    {
+      "host": "98.158.84.106",
+      "ip": "sbc01.bcferries.com"
+    },
+    {
+      "host": "98.158.84.109",
+      "ip": "sbc02.bcferries.com"
+    },
+    {
+      "host": "45.60.121.180",
+      "ip": "ebiz.sit.bcferries.com"
+    },
+    {
+      "host": "64.141.7.76",
+      "ip": "apex.stg.bcferries.com"
+    },
+    {
+      "host": "64.141.7.74",
+      "ip": "apigateway.stg.bcferries.com"
+    },
+    {
+      "host": "64.141.7.77",
+      "ip": "ess.stg.bcferries.com"
+    },
+    {
+      "host": "64.141.7.72",
+      "ip": "ess-sso.stg.bcferries.com"
+    },
+    {
+      "host": "64.141.7.73",
+      "ip": "isupplier.stg.bcferries.com"
+    },
+    {
+      "host": "172.64.154.133",
+      "ip": "url2622.bcferries.com"
+    },
+    {
+      "host": "98.158.84.155",
+      "ip": "vpn.bcferries.com"
+    },
+    {
+      "host": "209.53.155.140",
+      "ip": "vpn2.bcferries.com"
+    },
+    {
+      "host": "98.158.84.77",
+      "ip": "webforms.bcferries.com"
+    },
+    {
+      "host": "98.158.84.110",
+      "ip": "webmail.bcferries.com"
+    },
+    {
+      "host": "209.53.155.141",
+      "ip": "workspacedr.bcferries.com"
+    },
+    {
+      "host": "98.158.84.74",
+      "ip": "www.bcferries.com"
+    }
+  ],
+  "cam_meta": {
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "ALR-MCN",
+        "ALR-SOI"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "BEC-PBB",
+        "BEC-POF",
+        "BEC-PPH",
+        "BEC-SHW"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "ALF-PSK"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg": {
+      "captions": [
+        "Traffic to Graham Island (Skidegate)"
+      ],
+      "routes": [
+        "ALF-PSK"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "BKY-DNM"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg": {
+      "captions": [
+        "Traffic to Denman Island West"
+      ],
+      "routes": [
+        "BKY-DNM"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "BOW-HSB"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "CHM-PEN",
+        "CHM-THT"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "BTW-MIL"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "CAM-QDR"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "COR-HRB"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg": {
+      "captions": [
+        "Traffic to Quadra Island (Heriot Bay)"
+      ],
+      "routes": [
+        "COR-HRB"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "CMX-PWR"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "DUK-TSA"
+      ],
+      "terminal_from_page": "Nanaimo (Duke Point) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg": {
+      "captions": [
+        "Traffic to Vancouver (Tsawwassen)"
+      ],
+      "routes": [
+        "DUK-TSA"
+      ],
+      "terminal_from_page": "Nanaimo (Duke Point) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "DNM-BKY"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "DNE-HRN"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "ERL-SLT"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "GAB-NAH"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "FUL-SWB"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "HRB-COR"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "CFT-VES"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "HRN-DNE"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "HSB-BOW",
+        "HSB-LNG"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "LNG-HSB"
+      ],
+      "terminal_from_page": "Sunshine Coast (Langdale) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg": {
+      "captions": [
+        "Traffic to Vancouver (Horseshoe Bay)"
+      ],
+      "routes": [
+        "LNG-HSB"
+      ],
+      "terminal_from_page": "Sunshine Coast (Langdale) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "MCN-ALR",
+        "MCN-SOI"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "MIL-BTW"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "NAH-GAB"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PBB-BEC",
+        "PBB-KLE",
+        "PBB-POF",
+        "PBB-PPH",
+        "PBB-PPR",
+        "PBB-SHW"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "NAN-HSB"
+      ],
+      "terminal_from_page": "Nanaimo (Departure Bay) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg": {
+      "captions": [
+        "Traffic to Vancouver (Horseshoe Bay)"
+      ],
+      "routes": [
+        "NAN-HSB"
+      ],
+      "terminal_from_page": "Nanaimo (Departure Bay) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PEN-CHM",
+        "PEN-THT"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PLH-POB",
+        "PLH-PSB",
+        "PLH-PST",
+        "PLH-PVB",
+        "PLH-TSA"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "POB-PLH",
+        "POB-PSB",
+        "POB-PST",
+        "POB-PVB",
+        "POB-SWB",
+        "POB-TSA"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "POF-BEC",
+        "POF-PBB",
+        "POF-PPH",
+        "POF-SHW"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PPH-BEC",
+        "PPH-KLE",
+        "PPH-PBB",
+        "PPH-POF",
+        "PPH-PPR",
+        "PPH-SHW"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PPR-KLE",
+        "PPR-PBB",
+        "PPR-PPH",
+        "PPR-PSK"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PSB-PLH",
+        "PSB-POB",
+        "PSB-PST",
+        "PSB-PVB",
+        "PSB-SWB",
+        "PSB-TSA"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PSK-ALF",
+        "PSK-PPR"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PVB-PLH",
+        "PVB-POB",
+        "PVB-PSB",
+        "PVB-PST",
+        "PVB-SWB",
+        "PVB-TSA"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "PWR-CMX",
+        "PWR-TEX"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "QDR-CAM"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "SLT-ERL"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "TEX-PWR"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "THT-CHM",
+        "THT-PEN"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "SWB-FUL",
+        "SWB-SGI",
+        "SWB-TSA"
+      ],
+      "terminal_from_page": "Victoria (Swartz Bay) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg": {
+      "captions": [
+        "Traffic to Vancouver (Tsawwassen)"
+      ],
+      "routes": [
+        "SWB-TSA"
+      ],
+      "terminal_from_page": "Victoria (Swartz Bay) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg": {
+      "captions": [
+        "Traffic to Salt Spring Island (Fulford Harbour)",
+        "Traffic to Southern Gulf Islands"
+      ],
+      "routes": [
+        "SWB-FUL",
+        "SWB-SGI"
+      ],
+      "terminal_from_page": "Victoria (Swartz Bay) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "TSA-DUK",
+        "TSA-NAN",
+        "TSA-SGI",
+        "TSA-SWB"
+      ],
+      "terminal_from_page": "Vancouver (Tsawwassen) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg": {
+      "captions": [
+        "Traffic to Nanaimo (Departure Bay)",
+        "Traffic to Nanaimo (Duke Point)"
+      ],
+      "routes": [
+        "TSA-DUK",
+        "TSA-NAN"
+      ],
+      "terminal_from_page": "Vancouver (Tsawwassen) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg": {
+      "captions": [
+        "Traffic to Southern Gulf Islands"
+      ],
+      "routes": [
+        "TSA-SGI"
+      ],
+      "terminal_from_page": "Vancouver (Tsawwassen) terminal"
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg": {
+      "captions": [
+        "Traffic at the terminal"
+      ],
+      "routes": [
+        "VES-CFT"
+      ],
+      "terminal_from_page": null
+    },
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg": {
+      "captions": [
+        "Traffic to Victoria (Swartz Bay)"
+      ],
+      "routes": [
+        "TSA-SWB"
+      ],
+      "terminal_from_page": "Vancouver (Tsawwassen) terminal"
+    }
+  },
+  "census": [
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:02 GMT",
+      "content_length": "12440",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "13364",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "13889",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "9654",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "11575",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "8121",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "11139",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "12671",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:08 GMT",
+      "content_length": "13909",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:34 GMT",
+      "content_length": "9839",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:06 GMT",
+      "content_length": "12385",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "11261",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:08 GMT",
+      "content_length": "12048",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:00 GMT",
+      "content_length": "13315",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:05 GMT",
+      "content_length": "9042",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "7079",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "9202",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:12 GMT",
+      "content_length": "12990",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:13:52 GMT",
+      "content_length": "14075",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "7615",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:12:03 GMT",
+      "content_length": "8070",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "11173",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "11723",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:06 GMT",
+      "content_length": "15206",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:00 GMT",
+      "content_length": "15185",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:03 GMT",
+      "content_length": "12188",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:05 GMT",
+      "content_length": "8286",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "13592",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:09 GMT",
+      "content_length": "9921",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "13936",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "15000",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "10284",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "11874",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:05 GMT",
+      "content_length": "12885",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "11332",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:06 GMT",
+      "content_length": "12705",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:08 GMT",
+      "content_length": "8423",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:06:05 GMT",
+      "content_length": "10346",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "12659",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:06 GMT",
+      "content_length": "11490",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:03 GMT",
+      "content_length": "10995",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:08 GMT",
+      "content_length": "10006",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "9768",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "9942",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:07 GMT",
+      "content_length": "17142",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:03 GMT",
+      "content_length": "21521",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ERL.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:05 GMT",
+      "content_length": "14021",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_HSB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:04:06 GMT",
+      "content_length": "38411",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:03 GMT",
+      "content_length": "23116",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:01 GMT",
+      "content_length": "15745",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_PWR.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:15:04 GMT",
+      "content_length": "30576",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:14:00 GMT",
+      "content_length": "11267",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:08:03 GMT",
+      "content_length": "9451",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_HSB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:08:03 GMT",
+      "content_length": "12991",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:12:04 GMT",
+      "content_length": "51168",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:12:04 GMT",
+      "content_length": "10359",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_HSB.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:10:05 GMT",
+      "content_length": "41522",
+      "server": "Microsoft-IIS/10.0"
+    },
+    {
+      "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+      "status": 200,
+      "last_modified": "Sat, 17 Oct 2026 07:08:03 GMT",
+      "content_length": "9702",
+      "server": "Microsoft-IIS/10.0"
+    }
+  ],
+  "route_data_summary": [
+    {
+      "route": "ALR-SOI",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Cormorant Island (Alert Bay)",
+          "address": "10 Fir Street, Alert Bay, V0N 1A0"
+        }
+      ]
+    },
+    {
+      "route": "ALR-MCN",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Cormorant Island (Alert Bay)",
+          "address": "10 Fir Street, Alert Bay, V0N 1A0"
+        }
+      ]
+    },
+    {
+      "route": "BEC-PBB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Coola",
+          "address": "Chilcotin-Bella Coola Hwy, Bella Coola, V0T 1C0"
+        }
+      ]
+    },
+    {
+      "route": "BEC-SHW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Coola",
+          "address": "Chilcotin-Bella Coola Hwy, Bella Coola, V0T 1C0"
+        }
+      ]
+    },
+    {
+      "route": "BEC-PPH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Coola",
+          "address": "Chilcotin-Bella Coola Hwy, Bella Coola, V0T 1C0"
+        }
+      ]
+    },
+    {
+      "route": "BEC-POF",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Coola",
+          "address": "Chilcotin-Bella Coola Hwy, Bella Coola, V0T 1C0"
+        }
+      ]
+    },
+    {
+      "route": "ALF-PSK",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+          "caption": "Traffic to Graham Island (Skidegate)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Moresby Island (Alliford Bay)",
+          "address": "Beach Road, Moresby Island Haida Gwaii, V0T 1T0"
+        }
+      ]
+    },
+    {
+      "route": "BKY-DNM",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+          "caption": "Traffic to Denman Island West"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Buckley Bay",
+          "address": "6866 Island Highway, Fanny Bay, V0R 1W0"
+        }
+      ]
+    },
+    {
+      "route": "BOW-HSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bowen Island (Snug Cove)",
+          "address": "Snug Cove,  Bowen Island, V0N 1G0"
+        }
+      ]
+    },
+    {
+      "route": "CHM-PEN",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Chemainus",
+          "address": "2830 Oak Street, Chemainus, V0R 1K1"
+        }
+      ]
+    },
+    {
+      "route": "BTW-MIL",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Brentwood Bay",
+          "address": "809 Verdier Avenue, Brentwood Bay, V8M 1C5"
+        }
+      ]
+    },
+    {
+      "route": "CHM-THT",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Chemainus",
+          "address": "2830 Oak Street, Chemainus, V0R 1K1"
+        }
+      ]
+    },
+    {
+      "route": "CAM-QDR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Campbell River",
+          "address": "1001 Island Highway, Campbell River, V9W 8C7"
+        }
+      ]
+    },
+    {
+      "route": "COR-HRB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+          "caption": "Traffic to Quadra Island (Heriot Bay)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Cortes Island (Whaletown)",
+          "address": "Whaletown, Cortes Island, V0P 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "CMX-PWR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Comox (Little River)",
+          "address": "1300 Ellenor Rd, Comox, V9M 4B3"
+        }
+      ]
+    },
+    {
+      "route": "DUK-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+          "caption": "Traffic to Vancouver (Tsawwassen)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Nanaimo (Duke Point)",
+          "address": "400 Duke Point Highway, Nanaimo, V9X 1H6"
+        }
+      ]
+    },
+    {
+      "route": "DNM-BKY",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Denman Island West",
+          "address": "3661 Denman Road, Denman Island , V0R 1T0"
+        }
+      ]
+    },
+    {
+      "route": "DNE-HRN",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Denman Island East (Gravelly Bay)",
+          "address": "Gravelly Bay, East Road, Denman Island, V0R 1T0"
+        }
+      ]
+    },
+    {
+      "route": "ERL-SLT",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Sunshine Coast (Earls Cove)",
+          "address": "16550 Sunshine Coast Highway, Madeira Park, V0N 2H4"
+        }
+      ]
+    },
+    {
+      "route": "GAB-NAH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Gabriola Island (Descanso Bay)",
+          "address": "350 North Road, Descanso Bay, Gabriola, V0R 1X2"
+        }
+      ]
+    },
+    {
+      "route": "FUL-SWB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Fulford Harbour)",
+          "address": "2920 Fulford-Ganges Road, Salt Spring Island, V8K 1Z2"
+        }
+      ]
+    },
+    {
+      "route": "HRB-COR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Quadra Island (Heriot Bay)",
+          "address": "West Road, Heriot Bay, V9W 5E3"
+        }
+      ]
+    },
+    {
+      "route": "CFT-VES",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Crofton",
+          "address": "1499 Chaplin Street, Crofton, V0R 1R0"
+        }
+      ]
+    },
+    {
+      "route": "KLE-PBB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Klemtu",
+          "address": "Marine Drive, Swindle Island, V0T 1L0"
+        }
+      ]
+    },
+    {
+      "route": "HRN-DNE",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Hornby Island (Shingle Spit)",
+          "address": "Shingle Spit, 4000 Central Rd, Hornby Island, V0R 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "KLE-PPH",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Klemtu",
+          "address": "Marine Drive, Swindle Island, V0T 1L0"
+        }
+      ]
+    },
+    {
+      "route": "KLE-PPR",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Klemtu",
+          "address": "Marine Drive, Swindle Island, V0T 1L0"
+        }
+      ]
+    },
+    {
+      "route": "HSB-BOW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Horseshoe Bay)",
+          "address": "6750 Keith Rd , West Vancouver, V7W 2V1"
+        }
+      ]
+    },
+    {
+      "route": "HSB-LNG",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Horseshoe Bay)",
+          "address": "6750 Keith Rd , West Vancouver, V7W 2V1"
+        }
+      ]
+    },
+    {
+      "route": "HSB-NAN",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Vancouver (Horseshoe Bay)",
+          "address": "6750 Keith Rd , West Vancouver, V7W 2V1"
+        }
+      ]
+    },
+    {
+      "route": "LNG-HSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
+          "caption": "Traffic to Vancouver (Horseshoe Bay)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Sunshine Coast (Langdale)",
+          "address": "1376 Port Mellon Highway, Langdale, V0N 1V0"
+        }
+      ]
+    },
+    {
+      "route": "MCN-SOI",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port McNeill",
+          "address": "1626 Beach Drive , Port McNeill, V0N 2R0"
+        }
+      ]
+    },
+    {
+      "route": "MCN-ALR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port McNeill",
+          "address": "1626 Beach Drive , Port McNeill, V0N 2R0"
+        }
+      ]
+    },
+    {
+      "route": "MIL-BTW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mill Bay",
+          "address": "Ferry Road, Mill Bay, V0R 2P4"
+        }
+      ]
+    },
+    {
+      "route": "NAH-GAB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Nanaimo (Nanaimo Harbour)",
+          "address": "160 Front Street, Nanaimo, V9S 5R1"
+        }
+      ]
+    },
+    {
+      "route": "PBB-BEC",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "PBB-KLE",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "NAN-HSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
+          "caption": "Traffic to Vancouver (Horseshoe Bay)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Nanaimo (Departure Bay)",
+          "address": "680 Trans-Canada Highway, Nanaimo, V9S 5R1"
+        }
+      ]
+    },
+    {
+      "route": "PBB-POF",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "PBB-PPH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "PBB-PPR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "PBB-SHW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Bella Bella (McLoughlin Bay)",
+          "address": "Waglisla , Bella Bella, V0T 1Z0"
+        }
+      ]
+    },
+    {
+      "route": "PEN-CHM",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Penelakut Island (Telegraph Harbour)",
+          "address": "Clam Bay Rd N, Penelakut Island, V0R 1K6"
+        }
+      ]
+    },
+    {
+      "route": "PEN-THT",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Penelakut Island (Telegraph Harbour)",
+          "address": "Clam Bay Rd N, Penelakut Island, V0R 1K6"
+        }
+      ]
+    },
+    {
+      "route": "PLH-POB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Long Harbour)",
+          "address": "1000 Long Harbour Rd, Salt Spring Island, V8K 2L8"
+        }
+      ]
+    },
+    {
+      "route": "PLH-PSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Long Harbour)",
+          "address": "1000 Long Harbour Rd, Salt Spring Island, V8K 2L8"
+        }
+      ]
+    },
+    {
+      "route": "PLH-PST",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Long Harbour)",
+          "address": "1000 Long Harbour Rd, Salt Spring Island, V8K 2L8"
+        }
+      ]
+    },
+    {
+      "route": "PLH-PVB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Long Harbour)",
+          "address": "1000 Long Harbour Rd, Salt Spring Island, V8K 2L8"
+        }
+      ]
+    },
+    {
+      "route": "PLH-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Long Harbour)",
+          "address": "1000 Long Harbour Rd, Salt Spring Island, V8K 2L8"
+        }
+      ]
+    },
+    {
+      "route": "POB-PLH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POB-PSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POB-PST",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POB-PVB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POB-SWB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POB-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Pender Island (Otter Bay)",
+          "address": "1371 Otter Bay Road, North Pender Island, V0N 2M0"
+        }
+      ]
+    },
+    {
+      "route": "POF-BEC",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Ocean Falls",
+          "address": "Marine Drive, Ocean Falls, V0T 1P0"
+        }
+      ]
+    },
+    {
+      "route": "POF-PBB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Ocean Falls",
+          "address": "Marine Drive, Ocean Falls, V0T 1P0"
+        }
+      ]
+    },
+    {
+      "route": "POF-PPH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Ocean Falls",
+          "address": "Marine Drive, Ocean Falls, V0T 1P0"
+        }
+      ]
+    },
+    {
+      "route": "POF-SHW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Ocean Falls",
+          "address": "Marine Drive, Ocean Falls, V0T 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-KLE",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-BEC",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-PBB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-POF",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-PPR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPH-SHW",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Port Hardy (Bear Cove)",
+          "address": "6800 Highway 19, Port Hardy, V0N 2P0"
+        }
+      ]
+    },
+    {
+      "route": "PPR-KLE",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Prince Rupert",
+          "address": "2000 Park Avenue, Prince Rupert, V8J 3S1"
+        }
+      ]
+    },
+    {
+      "route": "PPR-PBB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Prince Rupert",
+          "address": "2000 Park Avenue, Prince Rupert, V8J 3S1"
+        }
+      ]
+    },
+    {
+      "route": "PPR-PPH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Prince Rupert",
+          "address": "2000 Park Avenue, Prince Rupert, V8J 3S1"
+        }
+      ]
+    },
+    {
+      "route": "PSB-PLH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PPR-PSK",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Prince Rupert",
+          "address": "2000 Park Avenue, Prince Rupert, V8J 3S1"
+        }
+      ]
+    },
+    {
+      "route": "PSB-POB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PSB-PST",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PSB-PVB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PSB-SWB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PST-PLH",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PSB-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Galiano Island (Sturdies Bay)",
+          "address": "2622 Sturdies Bay Road, Galiano Island, V0N 1P0"
+        }
+      ]
+    },
+    {
+      "route": "PST-POB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PST-PSB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PSK-PPR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Graham Island (Skidegate)",
+          "address": "#1 Hwy 16 Skidegate Landing, Haida Gwaii, V0T 1S1"
+        }
+      ]
+    },
+    {
+      "route": "PST-PVB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PSK-ALF",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Graham Island (Skidegate)",
+          "address": "#1 Hwy 16 Skidegate Landing, Haida Gwaii, V0T 1S1"
+        }
+      ]
+    },
+    {
+      "route": "PST-SWB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PST-TSA",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Saturna Island (Lyall Harbour)",
+          "address": "100 East Point Rd, Saturna Island, V0N 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-PLH",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-POB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-PST",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-SWB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-PSB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PVB-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Mayne Island (Village Bay)",
+          "address": "Village Bay Road, Mayne Island , V0N 2J0"
+        }
+      ]
+    },
+    {
+      "route": "PWR-CMX",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Powell River (Westview)",
+          "address": "4465 Willingdon Avenue, Powell River, V8A 2M7"
+        }
+      ]
+    },
+    {
+      "route": "PWR-TEX",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Powell River (Westview)",
+          "address": "4465 Willingdon Avenue, Powell River, V8A 2M7"
+        }
+      ]
+    },
+    {
+      "route": "SHW-BEC",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Shearwater",
+          "address": "Denny Island, Shearwater, V0T 1B0"
+        }
+      ]
+    },
+    {
+      "route": "QDR-CAM",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Quadra Island (Quathiaski Cove)",
+          "address": "Quathiaski Cove Road, Quathiaski Cove, V0P 1N0"
+        }
+      ]
+    },
+    {
+      "route": "SHW-PBB",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Shearwater",
+          "address": "Denny Island, Shearwater, V0T 1B0"
+        }
+      ]
+    },
+    {
+      "route": "SHW-POF",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Shearwater",
+          "address": "Denny Island, Shearwater, V0T 1B0"
+        }
+      ]
+    },
+    {
+      "route": "SHW-PPH",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Shearwater",
+          "address": "Denny Island, Shearwater, V0T 1B0"
+        }
+      ]
+    },
+    {
+      "route": "SOI-ALR",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Malcolm Island (Sointula)",
+          "address": "1st Street, Malcolm Island, V0N 3E0"
+        }
+      ]
+    },
+    {
+      "route": "SOI-MCN",
+      "cams": [],
+      "terminals": [
+        {
+          "name": "Malcolm Island (Sointula)",
+          "address": "1st Street, Malcolm Island, V0N 3E0"
+        }
+      ]
+    },
+    {
+      "route": "SLT-ERL",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Powell River (Saltery Bay)",
+          "address": "15070 Highway 101, Powell River, V8A 0N2"
+        }
+      ]
+    },
+    {
+      "route": "TEX-PWR",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Texada Island (Blubber Bay)",
+          "address": "1000 Blubber Bay Road, Texada Island, V0N 3K0"
+        }
+      ]
+    },
+    {
+      "route": "THT-CHM",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Thetis Island (Preedy Harbour)",
+          "address": "Preedy Harbour, Thetis Island, V0R 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "SWB-TSA",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+          "caption": "Traffic to Vancouver (Tsawwassen)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Victoria (Swartz Bay)",
+          "address": "11300 Patricia Bay Hwy, Sidney, V8L 5J4"
+        }
+      ]
+    },
+    {
+      "route": "SWB-FUL",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+          "caption": "Traffic to Salt Spring Island (Fulford Harbour)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Victoria (Swartz Bay)",
+          "address": "11300 Patricia Bay Hwy, Sidney, V8L 5J4"
+        }
+      ]
+    },
+    {
+      "route": "SWB-SGI",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+          "caption": "Traffic to Southern Gulf Islands"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Victoria (Swartz Bay)",
+          "address": "11300 Patricia Bay Hwy, Sidney, V8L 5J4"
+        }
+      ]
+    },
+    {
+      "route": "TSA-DUK",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+          "caption": "Traffic to Nanaimo (Duke Point)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Tsawwassen)",
+          "address": "1 Ferry Causeway, Delta, V4M 4G6"
+        }
+      ]
+    },
+    {
+      "route": "TSA-NAN",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+          "caption": "Traffic to Nanaimo (Departure Bay)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Tsawwassen)",
+          "address": "1 Ferry Causeway, Delta, V4M 4G6"
+        }
+      ]
+    },
+    {
+      "route": "THT-PEN",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Thetis Island (Preedy Harbour)",
+          "address": "Preedy Harbour, Thetis Island, V0R 2Y0"
+        }
+      ]
+    },
+    {
+      "route": "TSA-SGI",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+          "caption": "Traffic to Southern Gulf Islands"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Tsawwassen)",
+          "address": "1 Ferry Causeway, Delta, V4M 4G6"
+        }
+      ]
+    },
+    {
+      "route": "VES-CFT",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+          "caption": "Traffic at the terminal"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Salt Spring Island (Vesuvius Bay)",
+          "address": "Vesuvius Bay Road, Salt Spring Island, V8K 1L6"
+        }
+      ]
+    },
+    {
+      "route": "TSA-SWB",
+      "cams": [
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+          "caption": "Traffic at the terminal"
+        },
+        {
+          "url": "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+          "caption": "Traffic to Victoria (Swartz Bay)"
+        }
+      ],
+      "terminals": [
+        {
+          "name": "Vancouver (Tsawwassen)",
+          "address": "1 Ferry Causeway, Delta, V4M 4G6"
+        }
+      ]
+    }
+  ]
+}

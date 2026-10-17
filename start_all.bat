@@ -3,6 +3,13 @@ REM ============================================================
 REM ELI6 SURVEILLANCE - MASTER START
 REM Starts dashboard + all proxies + background services
 REM
+REM Session 46 update (2026-10-17) - BC FERRIES INGEST:
+REM   - 58 cams enumerated across 43 terminals (webcams page + 110
+REM     route pages + brute-force camN_CODE.jpg probe; 4 unlinked caught)
+REM   - 58 rows bcf_240162..bcf_240219; static JPEG only (Imperva in
+REM     front of ccimg; no MJPEG/RTSP/ONVIF anywhere)
+REM   - CSV 231,675 rows: public 231,534 / private 136 / unknown 5
+REM
 REM Session 45 update (2026-10-17) - DRIVEBC INGEST:
 REM   - 1,068 cams enumerated via /api/webcams/ (exact GPS + replay API)
 REM   - 1,068 rows dbc_239094..dbc_240161; no public live video (Axis POST

@@ -1,5 +1,38 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
+## ✅ Session 46 (2026-10-17) — BC Ferries terminal webcams: 58-cam enumeration + live-feed hunt + ingest
+
+### Done
+- Enumerated ALL BC Ferries terminal cams: dedicated
+  `/current-conditions/webcams` page (5 majors, per-cam captions) +
+  all 110 route pages + brute-force probe `cam{1..6}_{CODE}.jpg`
+  across 55 terminal codes → **58 live cams on 43 terminals**
+- Probe caught 4 cams **not linked from any public page**:
+  `cam2/3/4_HSB`, `cam2_PWR`
+- Legacy filename codes mapped: HER=Heriot Bay (HRB),
+  KPR=Penelakut/Telegraph Harbour (PEN, old Kuper code),
+  STB=Sturdies Bay/Galiano (PSB), lowercase cam2_erl=Earls Cove
+- Cadence ~5 min (Last-Modified census staggered :00–:15)
+- Live-feed hunt verdict: **static JPEG only** — Imperva Securesphere
+  in front of ccimg (98.158.84.78); origin cc.bcferries.com
+  (Apache/2.4.6 RHEL) does not serve cam paths; no MJPEG/RTSP/ONVIF/
+  axis-cgi anywhere; apigateway closed; MQTT 8883 = vessel GPS only;
+  InternetDB sweep of 21 hosts found no stream ports
+- All 43 terminals geocoded via Nominatim (incl. McLoughlin Bay
+  ferry terminal node for PBB)
+- Ingested **58 rows `bcf_240162..bcf_240219`** + 58 posters; classifier
+  `'bcf'` prefix → all public
+- 231,675 rows; public **231,534** / private 136 / unknown 5;
+  API refreshed + verified (q=bcferries-webcams = 58)
+
+### Next
+- Optional: full Shodan sweep of BC gov net for Axis/RTSP if login
+  becomes available (field cams likely carrier-NAT'd)
+- Periodic re-pull of DriveBC `/api/webcams/` and BC Ferries
+  brute-force probe (new cams added over time)
+- Optional: other marine/port webcam sources (Port of Vancouver,
+  Vancouver Fraser Port Authority AIS cams, etc.)
+
 ## ✅ Session 45 (2026-10-17) — DriveBC: 1,068-cam enumeration + live-feed hunt + ingest
 
 ### Done

@@ -1,0 +1,1605 @@
+{
+  "pages": [
+    {
+      "path": "/current-conditions/ALF-PSK",
+      "route": "ALF-PSK",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86562
+    },
+    {
+      "path": "/current-conditions/ALR-MCN",
+      "route": "ALR-MCN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85528
+    },
+    {
+      "path": "/current-conditions/ALR-SOI",
+      "route": "ALR-SOI",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85621
+    },
+    {
+      "path": "/current-conditions/BEC-PBB",
+      "route": "BEC-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85686
+    },
+    {
+      "path": "/current-conditions/BEC-POF",
+      "route": "BEC-POF",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85485
+    },
+    {
+      "path": "/current-conditions/BEC-PPH",
+      "route": "BEC-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85962
+    },
+    {
+      "path": "/current-conditions/BEC-SHW",
+      "route": "BEC-SHW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85866
+    },
+    {
+      "path": "/current-conditions/BKY-DNM",
+      "route": "BKY-DNM",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 101946
+    },
+    {
+      "path": "/current-conditions/BOW-HSB",
+      "route": "BOW-HSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route5.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route5.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86568
+    },
+    {
+      "path": "/current-conditions/BTW-MIL",
+      "route": "BTW-MIL",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route16.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route16.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85934
+    },
+    {
+      "path": "/current-conditions/CAM-QDR",
+      "route": "CAM-QDR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route21.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route21.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 113730
+    },
+    {
+      "path": "/current-conditions/CFT-VES",
+      "route": "CFT-VES",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route17.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route17.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 99068
+    },
+    {
+      "path": "/current-conditions/CHM-PEN",
+      "route": "CHM-PEN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86121
+    },
+    {
+      "path": "/current-conditions/CHM-THT",
+      "route": "CHM-THT",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86076
+    },
+    {
+      "path": "/current-conditions/CMX-PWR",
+      "route": "CMX-PWR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route23.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route23.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 93373
+    },
+    {
+      "path": "/current-conditions/COR-HRB",
+      "route": "COR-HRB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route22.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route22.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85947
+    },
+    {
+      "path": "/current-conditions/DNE-HRN",
+      "route": "DNE-HRN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85725
+    },
+    {
+      "path": "/current-conditions/DNM-BKY",
+      "route": "DNM-BKY",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85484
+    },
+    {
+      "path": "/current-conditions/DUK-TSA",
+      "route": "DUK-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 111855
+    },
+    {
+      "path": "/current-conditions/ERL-SLT",
+      "route": "ERL-SLT",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route29.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route29.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85662
+    },
+    {
+      "path": "/current-conditions/FUL-SWB",
+      "route": "FUL-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route6.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route6.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86271
+    },
+    {
+      "path": "/current-conditions/GAB-NAH",
+      "route": "GAB-NAH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route19.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route19.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86321
+    },
+    {
+      "path": "/current-conditions/HRB-COR",
+      "route": "HRB-COR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route22.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route22.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85619
+    },
+    {
+      "path": "/current-conditions/HRN-DNE",
+      "route": "HRN-DNE",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route20.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85700
+    },
+    {
+      "path": "/current-conditions/HSB-BOW",
+      "route": "HSB-BOW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route5.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route5.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 114961
+    },
+    {
+      "path": "/current-conditions/HSB-LNG",
+      "route": "HSB-LNG",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 115600
+    },
+    {
+      "path": "/current-conditions/HSB-NAN",
+      "route": "HSB-NAN",
+      "ccimg": [],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 102283
+    },
+    {
+      "path": "/current-conditions/KLE-PBB",
+      "route": "KLE-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85414
+    },
+    {
+      "path": "/current-conditions/KLE-PPH",
+      "route": "KLE-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85364
+    },
+    {
+      "path": "/current-conditions/KLE-PPR",
+      "route": "KLE-PPR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85298
+    },
+    {
+      "path": "/current-conditions/LNG-HSB",
+      "route": "LNG-HSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 111990
+    },
+    {
+      "path": "/current-conditions/MCN-ALR",
+      "route": "MCN-ALR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85511
+    },
+    {
+      "path": "/current-conditions/MCN-SOI",
+      "route": "MCN-SOI",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85495
+    },
+    {
+      "path": "/current-conditions/MIL-BTW",
+      "route": "MIL-BTW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route16.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route16.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85911
+    },
+    {
+      "path": "/current-conditions/NAH-GAB",
+      "route": "NAH-GAB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route19.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route19.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 107862
+    },
+    {
+      "path": "/current-conditions/NAN-HSB",
+      "route": "NAN-HSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 111563
+    },
+    {
+      "path": "/current-conditions/PBB-BEC",
+      "route": "PBB-BEC",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86010
+    },
+    {
+      "path": "/current-conditions/PBB-KLE",
+      "route": "PBB-KLE",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85976
+    },
+    {
+      "path": "/current-conditions/PBB-POF",
+      "route": "PBB-POF",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86010
+    },
+    {
+      "path": "/current-conditions/PBB-PPH",
+      "route": "PBB-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86096
+    },
+    {
+      "path": "/current-conditions/PBB-PPR",
+      "route": "PBB-PPR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86030
+    },
+    {
+      "path": "/current-conditions/PBB-SHW",
+      "route": "PBB-SHW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85935
+    },
+    {
+      "path": "/current-conditions/PEN-CHM",
+      "route": "PEN-CHM",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86172
+    },
+    {
+      "path": "/current-conditions/PEN-THT",
+      "route": "PEN-THT",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86323
+    },
+    {
+      "path": "/current-conditions/PLH-POB",
+      "route": "PLH-POB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86388
+    },
+    {
+      "path": "/current-conditions/PLH-PSB",
+      "route": "PLH-PSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86417
+    },
+    {
+      "path": "/current-conditions/PLH-PST",
+      "route": "PLH-PST",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86424
+    },
+    {
+      "path": "/current-conditions/PLH-PVB",
+      "route": "PLH-PVB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86394
+    },
+    {
+      "path": "/current-conditions/PLH-TSA",
+      "route": "PLH-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 87206
+    },
+    {
+      "path": "/current-conditions/POB-PLH",
+      "route": "POB-PLH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86320
+    },
+    {
+      "path": "/current-conditions/POB-PSB",
+      "route": "POB-PSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86288
+    },
+    {
+      "path": "/current-conditions/POB-PST",
+      "route": "POB-PST",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86295
+    },
+    {
+      "path": "/current-conditions/POB-PVB",
+      "route": "POB-PVB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86265
+    },
+    {
+      "path": "/current-conditions/POB-SWB",
+      "route": "POB-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86001
+    },
+    {
+      "path": "/current-conditions/POB-TSA",
+      "route": "POB-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 87064
+    },
+    {
+      "path": "/current-conditions/POF-BEC",
+      "route": "POF-BEC",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85780
+    },
+    {
+      "path": "/current-conditions/POF-PBB",
+      "route": "POF-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85981
+    },
+    {
+      "path": "/current-conditions/POF-PPH",
+      "route": "POF-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85931
+    },
+    {
+      "path": "/current-conditions/POF-SHW",
+      "route": "POF-SHW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85835
+    },
+    {
+      "path": "/current-conditions/PPH-BEC",
+      "route": "PPH-BEC",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86594
+    },
+    {
+      "path": "/current-conditions/PPH-KLE",
+      "route": "PPH-KLE",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86560
+    },
+    {
+      "path": "/current-conditions/PPH-PBB",
+      "route": "PPH-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86730
+    },
+    {
+      "path": "/current-conditions/PPH-POF",
+      "route": "PPH-POF",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86594
+    },
+    {
+      "path": "/current-conditions/PPH-PPR",
+      "route": "PPH-PPR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86614
+    },
+    {
+      "path": "/current-conditions/PPH-SHW",
+      "route": "PPH-SHW",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86584
+    },
+    {
+      "path": "/current-conditions/PPR-KLE",
+      "route": "PPR-KLE",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86587
+    },
+    {
+      "path": "/current-conditions/PPR-PBB",
+      "route": "PPR-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86757
+    },
+    {
+      "path": "/current-conditions/PPR-PPH",
+      "route": "PPR-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86707
+    },
+    {
+      "path": "/current-conditions/PPR-PSK",
+      "route": "PPR-PSK",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86990
+    },
+    {
+      "path": "/current-conditions/PSB-PLH",
+      "route": "PSB-PLH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86333
+    },
+    {
+      "path": "/current-conditions/PSB-POB",
+      "route": "PSB-POB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86272
+    },
+    {
+      "path": "/current-conditions/PSB-PST",
+      "route": "PSB-PST",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86308
+    },
+    {
+      "path": "/current-conditions/PSB-PVB",
+      "route": "PSB-PVB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86278
+    },
+    {
+      "path": "/current-conditions/PSB-SWB",
+      "route": "PSB-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86014
+    },
+    {
+      "path": "/current-conditions/PSB-TSA",
+      "route": "PSB-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 87082
+    },
+    {
+      "path": "/current-conditions/PSK-ALF",
+      "route": "PSK-ALF",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 98880
+    },
+    {
+      "path": "/current-conditions/PSK-PPR",
+      "route": "PSK-PPR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86922
+    },
+    {
+      "path": "/current-conditions/PST-PLH",
+      "route": "PST-PLH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85786
+    },
+    {
+      "path": "/current-conditions/PST-POB",
+      "route": "PST-POB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85725
+    },
+    {
+      "path": "/current-conditions/PST-PSB",
+      "route": "PST-PSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85754
+    },
+    {
+      "path": "/current-conditions/PST-PVB",
+      "route": "PST-PVB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85731
+    },
+    {
+      "path": "/current-conditions/PST-SWB",
+      "route": "PST-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85467
+    },
+    {
+      "path": "/current-conditions/PST-TSA",
+      "route": "PST-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 86536
+    },
+    {
+      "path": "/current-conditions/PVB-PLH",
+      "route": "PVB-PLH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86324
+    },
+    {
+      "path": "/current-conditions/PVB-POB",
+      "route": "PVB-POB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86263
+    },
+    {
+      "path": "/current-conditions/PVB-PSB",
+      "route": "PVB-PSB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86292
+    },
+    {
+      "path": "/current-conditions/PVB-PST",
+      "route": "PVB-PST",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86299
+    },
+    {
+      "path": "/current-conditions/PVB-SWB",
+      "route": "PVB-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86005
+    },
+    {
+      "path": "/current-conditions/PVB-TSA",
+      "route": "PVB-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 87068
+    },
+    {
+      "path": "/current-conditions/PWR-CMX",
+      "route": "PWR-CMX",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route23.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route23.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 91576
+    },
+    {
+      "path": "/current-conditions/PWR-TEX",
+      "route": "PWR-TEX",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route24.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route24.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 94142
+    },
+    {
+      "path": "/current-conditions/QDR-CAM",
+      "route": "QDR-CAM",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route21.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route21.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86657
+    },
+    {
+      "path": "/current-conditions/SHW-BEC",
+      "route": "SHW-BEC",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85306
+    },
+    {
+      "path": "/current-conditions/SHW-PBB",
+      "route": "SHW-PBB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85377
+    },
+    {
+      "path": "/current-conditions/SHW-POF",
+      "route": "SHW-POF",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85306
+    },
+    {
+      "path": "/current-conditions/SHW-PPH",
+      "route": "SHW-PPH",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85392
+    },
+    {
+      "path": "/current-conditions/SLT-ERL",
+      "route": "SLT-ERL",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route29.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route29.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 94156
+    },
+    {
+      "path": "/current-conditions/SOI-ALR",
+      "route": "SOI-ALR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 85091
+    },
+    {
+      "path": "/current-conditions/SOI-MCN",
+      "route": "SOI-MCN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg"
+      ],
+      "cam_imgs": [],
+      "has_webcam": true,
+      "bytes": 84982
+    },
+    {
+      "path": "/current-conditions/SWB-FUL",
+      "route": "SWB-FUL",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route6.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route6.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 106113
+    },
+    {
+      "path": "/current-conditions/SWB-SGI",
+      "route": "SWB-SGI",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 111080
+    },
+    {
+      "path": "/current-conditions/SWB-TSA",
+      "route": "SWB-TSA",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route0.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route0.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 118218
+    },
+    {
+      "path": "/current-conditions/TEX-PWR",
+      "route": "TEX-PWR",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route24.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route24.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85640
+    },
+    {
+      "path": "/current-conditions/THT-CHM",
+      "route": "THT-CHM",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86076
+    },
+    {
+      "path": "/current-conditions/THT-PEN",
+      "route": "THT-PEN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 85727
+    },
+    {
+      "path": "/current-conditions/TSA-DUK",
+      "route": "TSA-DUK",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 115313
+    },
+    {
+      "path": "/current-conditions/TSA-NAN",
+      "route": "TSA-NAN",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route1.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 94753
+    },
+    {
+      "path": "/current-conditions/TSA-SGI",
+      "route": "TSA-SGI",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 107742
+    },
+    {
+      "path": "/current-conditions/TSA-SWB",
+      "route": "TSA-SWB",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route0.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route0.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+        "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 121067
+    },
+    {
+      "path": "/current-conditions/VES-CFT",
+      "route": "VES-CFT",
+      "ccimg": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+        "https://ccimg.bcferries.com/cc/support/vessels/route17.html",
+        "https://ccimg.bcferries.com/cc/support/vessels/route17.jpg"
+      ],
+      "cam_imgs": [
+        "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg"
+      ],
+      "has_webcam": true,
+      "bytes": 86162
+    }
+  ],
+  "unique_images": [
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALF.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_ALR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BEC.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BKY.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BOW.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_BTW.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CAM.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CFT.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CHM.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_CMX.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_COR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNE.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DNM.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_DUK.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_FUL.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_GAB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HER.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HRN.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_HSB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_KPR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_LNG.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_MCN.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_MIL.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAH.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_NAN.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PBB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PLH.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_POB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_POF.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPH.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PPR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PSK.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PVB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_PWR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_QDR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_SLT.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_STB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_SWB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_TEX.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_THT.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_TSA.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam1_VES.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_ALF.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_BKY.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_COR.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_DUK.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_LNG.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_NAN.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_SWB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_TSA.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam2_erl.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_SWB.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam3_TSA.jpg",
+    "https://ccimg.bcferries.com/cc/support/terminals/cam4_TSA.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route0.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route0.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route1.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route1.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route13.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route13.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route16.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route16.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route17.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route17.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route18.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route18.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route19.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route19.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route2.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route2.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route20.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route20.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route21.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route21.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route22.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route22.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route23.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route23.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route24.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route24.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route25.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route25.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route29.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route29.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route5.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route5.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route6.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route6.jpg",
+    "https://ccimg.bcferries.com/cc/support/vessels/route7.html",
+    "https://ccimg.bcferries.com/cc/support/vessels/route7.jpg"
+  ]
+}
