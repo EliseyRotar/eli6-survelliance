@@ -300,6 +300,89 @@ images only as last resort; ingest everything into the dataset.
   `controllable_Webcams.csv` (231,261 → **231,291**),
   `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
 
+## Round 4 — Sant Boi ArcGIS gap closed (47g, 2026-10-18)
+
+- Identified the missing source: AGOL owner `opendatasb` item
+  **"Càmeres de trànsit" `2689b1e5cf764645a0204ef1c014aafe`** →
+  `https://cartoweb.santboi.cat/server/rest/services/OD/
+  Mobilitat_Trànsit/FeatureServer/0` (also `Hosted/Càmeres_trànsit`
+  layer 20; layer 0 fields: TRXCA_NUM/ZONA/DIRECCIO/CARRILS/SENTIT/
+  ORIENTACIO/TIPUS/CODI_ENS/NOM_ENS/EXTRACCIO; extent EPSG:25831
+  418272–420544 E / 4574894–4578704 N ≈ the 3 windy disc_ coords).
+- **Closed as no-ingestible-content**: (1) layer schema has **no
+  image/stream URL field** — it is a camera-*position* layer for the
+  mobility map; (2) `cartoweb.santboi.cat` + `www.santboi.cat`
+  (195.53.118.228/.237) TCP 80+443 timeout from this network
+  (same egress-block family as trafikoa; webfetch too); (3) Wayback:
+  **zero** snapshots of any `/server/rest/services/*` (only EXB app
+  shell + `/portal/*`); AGOL items `78c49718…`/`369e83c4…` are
+  enterprise-local (400 on arcgis.com); (4) public Sant Boi feeds
+   already covered — 3 live `disc_` opencctv-windy rows (Ciutat
+   Cooperativa / South-east / generic). `santboi.cat/novescamerespolicia`
+   = police bodycams, irrelevant.
+
+## Round 5 — Euskadi 5-source harvest + Bilbao/Gipuzkoa ingest (47h, 2026-10-18)
+
+- **Official 5-source index** found:
+  `euskadi.eus/contenidos/ds_localizaciones/camaras_trafico_euskal_admin/
+  opendata/traffic-cameras.json` → GV (`camaras-trafico.geojson`, 131,
+  JSONP `jsonCallback(` wrapper, trafikoa urls), AVG Vitoria (40 GEOJSON,
+  `action=get&id=CMxx_ROI_n` images), ADS Donostia (6 via wayback,
+  trafikoa.net), AB Bilbao (119 via wayback
+  `srvDatasetCamaras?formato=geojson` @20240509), DFB Bizkaia (226-row
+  CSV).
+- **Overlap = 0 new for 4 of 5 sources**: GV 131 ⊆ 139 existing trk
+  rows; AVG 40 = 40 `tv_137262+` vitoria rows; ADS covered; DFB **90/90
+  url-bearing ids already in CSV** (105 existing bizkaimove rows —
+  `_eusk_analyze3.py` claimed "90 new" from a `k[:3] == "bm"` bug:
+  `'bm8'[:3] == 'bm8'`, so the csv-side set was always empty; corrected
+  by `_eusk_bm_diff.py` url-set diff). 135 DFB rows have no URL at all.
+- **Bilbao AB: 95/119 name-matched** to existing `geobilbao.eus` rows →
+  **24 truly-new codec cams** (Bernaola TER/DAI ramp series, Iturribide/
+  Estufa/Esperanza PC junctions, Zunzunegui) ingested as
+  `blb_240321..240344`, coords from the wayback geojson,
+  `location_precision=precise`. `www.bilbao.eus` = **403 WAF for the
+  whole netblock** (curl full-headers, http/https, agent-browser direct
+  load *and* homepage-cookie sequence → F5 "403 Error 403 Prohibido"
+  error page) → honest `live_status=''`, `http_status=403`,
+  `notes waf-403@2026-10-18`; no wayback jpgs for codec snapshots → no
+  posters.
+- **Gipuzkoa beach pages**: all 11 pages fetched — the webcam is an
+  HLS `<video>` (videojs) on
+  `58f14c0895a20.streamlock.net/camaramar/GIP_{beach}_169.stream/
+  playlist.m3u8`, siblings `GIP_kontxa/hondarribia/zurriola` already
+  in CSV as `tv_121095/96/108` → **8 new**: ondarreta, orio, zarautz,
+  getaria(Malkorbe), deba, mutrikukaia, saturraran (7× probe 200
+  `application/vnd.apple.mpegurl` → live) + `GIP_zumaia2` from
+  zumaia.eus = **404 in all name variants** → honest dead
+  (`gip_240320`). Ingested `gip_240313..240320` (`type=video`,
+  category scenic, beach-centroid coords, zip+city per municipality).
+- **177 junk titles rectified** (rename-only, coords proven
+  inside-ES-bbox already): 120 trafikoa `… · Apps · #N` rows → official
+  GV `{title} ({road} pk{pk})` (e.g. `Iurreta (A-8 pk91.000)`), 57
+  bizkaimove `… · Bizkaimove · #N` rows → official DFB names (e.g.
+  `CCTV 117 - Nudo de Cruces (BI-10 pk122+400)`); 0 rows lacked a
+  catalog name; notes + `name-fixed=euskadi-ods@2026-10-18`.
+- **WAF/ingest findings**: opendatabizkaia.eus F5 rejects `/es/`
+  dumps, `/api/3/action/*` and `datastore/dump` ("Request Rejected"
+  245B) — `/en/dump/{uuid}/traffic-cameras?format=csv` **with browser
+  headers + Referer** passes; geobilbao.eus (101 live rows) is a
+  different host than www.bilbao.eus and still serves.
+- Classifier: `'gip'`, `'blb'` added to `PUBLIC_CSV_PREFIXES`.
+- Final: **231,323 rows** — public **231,182** / private 136 /
+  unknown 5; API `/api/refresh` OK (231,323); ES/AD url collisions 0.
+
+## Files
+
+- New: `scripts/ingest/es_eusk_ingest.py` (3 phases, one atomic write),
+  `camera_testing/_eusk_parse1..4.py`, `_eusk_analyze{,2,3}.py`,
+  `_eusk_bm_diff.py`, `_eusk_gip_parse.py`, `_eusk_gip_meta.py`,
+  `_eusk_verify_fix.py`, `_dn_od_parse.py`,
+  `camera_testing/es_eusk_ingest_state.json`
+- Modified: `scripts/fix/classify_visibility.py` (gip, blb),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

@@ -69,15 +69,33 @@
   410/434 listings (**0 new etraffic ids**; espalet/valdezcaray/
   trafikoa externals already in CSV) + `_es_arch5_webcam.py`
   all 77 `/webcam/` pages → 1 new YT id `rxU0zIUTgtI` = deleted
-  video (oEmbed 404) → **no ingestible leftovers anywhere in the
-  camarasdgt wayback corpus**
+   video (oEmbed 404) → **no ingestible leftovers anywhere in the
+   camarasdgt wayback corpus**
+- **Euskadi 5-source harvest (47h)**: official index
+  `camaras_trafico_euskal_admin/opendata/traffic-cameras.json` →
+  GV 131 / AVG 40 / ADS 6 / AB 119 / DFB 226 rows all overlap-checked
+  (**GV/AVG/ADS/DFB = 0 new**, 90/90 bizkaimove ids already in CSV) →
+  **32 rows ingested**: `gip_240313..240320` (8 Gipuzkoa beach HLS
+  streams on `streamlock.net/camaramar`, 7 live + Zumaia 404-honest)
+  + `blb_240321..240344` (24 Bilbao Ayto codec cams, coords from
+  wayback geojson, `live_status=''` — bilbao.eus 403 WAF for our IP
+  even via agent-browser) + **177 junk titles rectified** from the
+  catalogs (120 trafikoa `Apps` + 57 `Bizkaimove`, official
+  name/road/pk, coords untouched) → 231,323 rows / public
+  **231,182** (`gip`+`blb` prefixes)
 
 ### Next
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
-  live_status/posters)
-- Catalog gaps: Donostia/Bilbao open-data (403 WAF), Sant Boi
-  ArcGIS, 32 gencat ids retired from current WFS; mct.gencat 84
-  `internet=0` cameras (internal, skip unless they go public)
+  live_status/posters); re-probe `www.bilbao.eus` codec jpgs from a
+  Spanish IP (24 `blb_` rows WAF-403 here) + recheck `GIP_zumaia2`
+  stream (page live, m3u8 404 @2026-10-18)
+- Catalog gaps: ~~Donostia/Bilbao open-data~~ **closed 47h**,
+  32 gencat ids
+  retired from current WFS; mct.gencat 84 `internet=0` cameras
+  (internal, skip unless they go public). ~~Sant Boi ArcGIS~~
+  **closed 47g**: layer `OD/Mobilitat_Trànsit` is positions-only
+  (no image field), cartoweb netblock unreachable, 3 windy cams
+  already in CSV
 - Residual (low value): 24 camarasdgt listing pages still erroring
   on Wayback — `_es_arch4.py` resume, 0 new ids in 3 runs
 - **New epic**: global url-dedupe for 30,013 colliding rows

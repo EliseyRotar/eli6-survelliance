@@ -1,0 +1,48 @@
+{
+ "date": "2026-10-18",
+ "phase": "done",
+ "gip_ingested": 8,
+ "gip_live": 7,
+ "gip_dead": [
+  "gip_240320"
+ ],
+ "blb_ingested": 24,
+ "blb_ids": [
+  "blb_240321",
+  "blb_240322",
+  "blb_240323",
+  "blb_240324",
+  "blb_240325",
+  "blb_240326",
+  "blb_240327",
+  "blb_240328",
+  "blb_240329",
+  "blb_240330",
+  "blb_240331",
+  "blb_240332",
+  "blb_240333",
+  "blb_240334",
+  "blb_240335",
+  "blb_240336",
+  "blb_240337",
+  "blb_240338",
+  "blb_240339",
+  "blb_240340",
+  "blb_240341",
+  "blb_240342",
+  "blb_240343",
+  "blb_240344"
+ ],
+ "fixed_trafikoa": 120,
+ "fixed_bizkaimove": 57,
+ "skipped_no_catalog": {
+  "trafikoa": 0,
+  "bizkaimove": 0
+ },
+ "rows_before": 231291,
+ "rows_after": 231323,
+ "idx_range": [
+  240313,
+  240344
+ ]
+}
