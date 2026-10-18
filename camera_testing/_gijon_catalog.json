@@ -1,0 +1,52 @@
+{
+ "source": "drupal.gijon.es/es/webcams/?_format=json",
+ "fetched": "2026-10-18",
+ "channel": "UCGUbYgA8GKjBLZL_nujT7Xw",
+ "count": 4,
+ "cams": [
+  {
+   "para": 3965,
+   "yt": "ncuuM-iMl3A",
+   "name": "Gijón San Lorenzo",
+   "sc": null,
+   "src": "https://www.youtube.com/embed/ncuuM-iMl3A?rel=0",
+   "lat": "43.541062",
+   "lon": "-5.650062",
+   "geo": "manual:beach-centroid",
+   "prec": ""
+  },
+  {
+   "para": 4216,
+   "yt": "arVrUGnJRlc",
+   "name": "Gijón San Lorenzo (S-7907)",
+   "sc": "S-7907",
+   "src": "https://camstreamer.com/yt-embed/31ffd3d8d7a921c/S-7907?rel=0",
+   "lat": "43.541062",
+   "lon": "-5.650062",
+   "geo": "manual:beach-centroid",
+   "prec": ""
+  },
+  {
+   "para": 25997,
+   "yt": "hAweouDR-vM",
+   "name": "Gijón Playa San Lorenzo",
+   "sc": "S-14546",
+   "src": "https://camstreamer.com/yt-embed/41fc64dd6ad16cb/S-14546?rel=0",
+   "lat": "43.541062",
+   "lon": "-5.650062",
+   "geo": "manual:beach-centroid",
+   "prec": ""
+  },
+  {
+   "para": 66976,
+   "yt": "e3TFH0g1mvU",
+   "name": "Gijón Playa Peña Rubia, Parque de la Providencia",
+   "sc": "S-14543",
+   "src": "https://camstreamer.com/yt-embed/879f2b2e877d3c1/S-14543?rel=0",
+   "lat": "43.5519688",
+   "lon": "-5.6234813",
+   "geo": "nominatim",
+   "prec": "nominatim-poi"
+  }
+ ]
+}

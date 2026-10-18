@@ -1,14 +1,14 @@
 # Visibility classification report (Session 41)
 
-- Rows: **231,325**
-- Column: `visibility` — **public** 231,184, **private** 136, **unknown** 5
+- Rows: **231,329**
+- Column: `visibility` — **public** 231,188, **private** 136, **unknown** 5
 - Source: `controllable_Webcams.csv` (backup: `backups/session_v41_20261003/`)
 
 ## Counts per rule
 
 | rule | visibility | rows |
 |---|---|---|
-| U1-subject | public | 139,902 |
+| U1-subject | public | 139,906 |
 | U2-csv_id | public | 89,140 |
 | U4-category | public | 1,144 |
 | U5-host | public | 975 |
@@ -20,7 +20,7 @@
 
 ## Rule detail (samples)
 
-### U1-subject — 139,902 rows
+### U1-subject — 139,906 rows
 
 ```
 6 | traffic | weathercam.digitraffic.fi | public | Road 74 Ilomantsi | https://weathercam.digitraffic.fi/C0857502.jpg

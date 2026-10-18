@@ -99,14 +99,21 @@
   catedral×2/ogrove/ortigueira/sanxenxo flipped from fake `live` to
   `live_status=''` 404) — no new rows, counts unchanged (231,325 /
   231,184)
+- **Gijón (47k)**: `www.gijon.es` SPA backed by headless Drupal
+  `drupal.gijon.es/es/webcams/?_format=json` (node 4508 → 4 paragraphs
+  → YouTube/camstreamer embeds on channel Ayuntamiento de Gijón) →
+  **4 ingested** `gij_240347..240350` all live (San Lorenzo ×3 beach
+  centroid, Peñarrubia/Providencia OSM POI) → 231,329 rows / public
+  **231,188** (`gij` prefix); `observa.gijon.es` ODS tenant decommissioned
+  (expired cert + Huwise 404)
 
 ### Next
-- **New scouting**: Tiivii tenant enumeration
-  (`webcams.tiivii.com/public/` may list other white-label webcam
-  sites → `/assets/{host}/config.json` pattern) + regional portals
-  still uncharted (Gijón municipal, Sierra Nevada, Cuenca, Torrevieja,
-  WebcamMurcia); MeteoGalicia PDF-only retired cams (Fontaneira/Lira)
-  skipped; re-probe CRTVG `sanxenxo` (config active, stream 404)
+- **New scouting**: regional portals still uncharted (Sierra Nevada,
+  Cuenca, Torrevieja, WebcamMurcia); Tiivii tenant enumeration parked
+  (`webcams.tiivii.com/public/` = marketing page only, no tenant
+  directory — need tenant hostnames from elsewhere); MeteoGalicia
+  PDF-only retired cams (Fontaneira/Lira) skipped; re-probe CRTVG
+  `sanxenxo` (config active, stream 404)
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters); re-probe `www.bilbao.eus` codec jpgs from a
   Spanish IP (24 `blb_` rows WAF-403 here) + recheck `GIP_zumaia2`

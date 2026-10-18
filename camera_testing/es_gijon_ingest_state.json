@@ -1,0 +1,13 @@
+{
+ "date": "2026-10-18",
+ "phase": "done",
+ "ingested": [
+  "ncuuM-iMl3A",
+  "arVrUGnJRlc",
+  "hAweouDR-vM",
+  "e3TFH0g1mvU"
+ ],
+ "live": 4,
+ "rows_after": 231329,
+ "skipped_existing": []
+}

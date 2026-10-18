@@ -504,6 +504,55 @@ images only as last resort; ingest everything into the dataset.
   checking).
 
 
+## Round 8 — Gijón municipal webcams ingest (47k, 2026-10-18)
+
+- **Source chain**: `www.gijon.es/es/turismo/webcams` = Angular SPA;
+  content comes from headless Drupal
+  `drupal.gijon.es/es/webcams/?_format=json` (node 4508,
+  `field_bloques_de_contenido` = 4 paragraphs) →
+  `drupal.gijon.es/es/detalle_paragraph/?_format=json&id_padre=4508&…&ids=(4216)|(3965)|(25997)|(66976)`
+  → 4 iframe embeds: 1× direct `youtube.com/embed/<id>`, 3×
+  `camstreamer.com/yt-embed/<hash>/<S-code>` resolving to YouTube ids.
+- **4 cams, all live** on channel `UCGUbYgA8GKjBLZL_nujT7Xw`
+  (Ayuntamiento de Gijón - Xixón): `ncuuM-iMl3A` "Gijón San Lorenzo",
+  `arVrUGnJRlc` "Gijón San Lorenzo (S-7907)" [duplicate title
+  disambiguated with the official camstreamer S-code],
+  `hAweouDR-vM` "Gijón Playa San Lorenzo", `e3TFH0g1mvU` "Gijón Playa
+  Peña Rubia, Parque de la Providencia". oEmbed titles + fresh watch-page
+  `isLive` probes (4 × 200, ~1.2 MB each) verified 2026-10-18. Channel
+  streams/videos/home tabs expose no additional currently-live cams.
+- **0 CSV overlap** for all 4 ids (existing `tv_133992` / `tv_180021` /
+  `tv_133667` Gijón/Asturias rows are distinct feeds).
+- **4 ingested** `gij_240347..gij_240350`, type=video, no posters (gip
+  precedent). Coords: 3× San Lorenzo → official beach centroid
+  43.541062/-5.650062 (`manual:beach-centroid`); Peñarrubia → OSM beach
+  POI 43.5519688/-5.6234813 (`nominatim`/`nominatim-poi`; official
+  title "Peña Rubia" = Playa de Peñarrubia below Parque de la
+  Providencia, verified via websearch + Nominatim) → total **231,329**
+  rows, public **231,188** (`gij` prefix) / private 136 / unknown 5;
+  classifier rerun + `GET /api/refresh` OK (231,329).
+- `observa.gijon.es` = decommissioned OpenDataSoft tenant (expired TLS
+  cert `SEC_E_CERT_EXPIRED` + 404 "domain could not be found — Huwise");
+  the cam catalog is gone there — Drupal JSON API was the working path.
+- agent-browser used for the SPA (cookie banner dismissed, section
+  header read) but DOM stayed unhydrated for cams → Drupal JSON API
+  used instead.
+
+### Files
+
+- New: `scripts/ingest/es_gijon_ingest.py`,
+  `camera_testing/_gijon_{scan,paras,resolve,ch,streams,home}.py`,
+  `_gijon_dom.js`, `_gijon_catalog.json`, `es_gijon_ingest_state.json`
+- Modified: `scripts/fix/classify_visibility.py` (`gij` prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- The two "Gijón San Lorenzo" streams are distinct video ids (both
+  live); disambiguate names further if official labels appear.
+- Regional queue next: Sierra Nevada, Cuenca, Torrevieja, WebcamMurcia.
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

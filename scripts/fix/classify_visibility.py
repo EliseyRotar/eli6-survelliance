@@ -50,7 +50,7 @@ PUBLIC_CSV_PREFIXES = {
     'tv', 'disc', 'occtv', 'fl', 'transtar', 'az', 'africam', 'kenyawebcam',
     'cam', 'sr', 'd', 'high', 'trafficvision', 'psb', 'ric', 'dbc', 'bcf',
     'dgt', 'eusk', 'cat', 'cnt', 'web', 'vdc', 'vdq', 'esp', 'cic', 'fgc',
-    'gip', 'blb', 'mg',
+    'gip', 'blb', 'mg', 'gij',
 }
 PUBLIC_CSV_RE = re.compile(r'^(511ny_|[0-9]+$)')
 
