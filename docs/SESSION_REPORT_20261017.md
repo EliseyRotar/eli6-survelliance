@@ -448,6 +448,61 @@ images only as last resort; ingest everything into the dataset.
   meteogalicia now 34; gijon/sierra-nevada/camurcia 0).
 - Re-probe blb rows from a Spanish IP (bilbao.eus hard-403 WAF).
 
+## Round 7 — CRTVG / Tiivii rectify (47j, 2026-10-18)
+
+### Recon
+
+- CRTVG page `crtvg.es/crtvg/camaras-web` embeds 30 static archive
+  jpgs (`www.g24.gal/prog24/ARQUIVO/CAMARAS_WEB/*.jpg`, Last-Modified
+  days-to-weeks old = archive only) + links viewer
+  `camarasweb.g24.gal` → **Tiivii white-label platform**: tenant
+  config `/assets/camarasweb.g24.gal/config.json` (98KB, regenerated
+  2026-10-18) = **26 active cams** with exact lat/lon, official
+  names, 11-language descriptions, and live HLS urls
+  `https://www.crtvg.es:1554|1555|1556/hls/{slug}/index.m3u8`.
+- **All 30 cams already in CSV** as `tv_100328..100357` +
+  `tv_173000/173001` (TrafficVision g24 family, public) → no ingest
+  needed; this round = rectify only.
+
+### Fixes (30 rows touched)
+
+- **Honest live re-probe of every m3u8**: 25 live /
+  **5 ×404 → `live_status=''`**: `catedral_nc`, `catedral_nl`,
+  `ogrove`, `ortigueira` (retired from Tiivii config; their ARQUIVO
+  stills still exist) + `sanxenxo` (in config `active=true` but
+  stream 404). Was: all 30 marked live with stale http 200.
+- **26 rows: exact Tiivii coords** replace trafficvision geocoder
+  junk (e.g. `Arúa` at 42.9667/-8.5 = Santiago province, actual
+  A Rúa 42.3945/-7.1131; `Bando` city Rianxo → real San Marcos in
+  Santiago; `Mourense` 42.1667/-7.5333 → 42.3286/-7.8659) +
+  `location_precision=precise`, `geo_source=src:camarasweb.g24.gal`.
+- **15 renamed to operator-verbatim Tiivii names** (`Arúa`→`A Rua`
+  [config itself is unaccented], `Bando (Bunch)`→`San Marcos`,
+  `Marina de A Coruña`→`A Coruña Móbil`, `Tui, Galicia · Crtvg ·
+  #315`→`Tui`, `Mourense`→`Ourense Móbil`, `Manzaneda Ski Resort`→
+  `Cabeza de Manzaneda`, …); city mapping fixed (Ares for the Ferrol
+  cam per official desc, Pedrafita do Cebreiro, …), zip cleared where
+  city changed; official `description_en` replaces G24 stub text.
+- Posters skipped — video rows carry none (gip precedent).
+- Classifier rerun (tv_ prefix, counts unchanged) +
+  API `/api/refresh` OK.
+
+### Files
+
+- New: `camera_testing/_crtvg_scan{,2,3}.py`, `_crtvg_probe.py`,
+  `_crtvg_inv.py`, `_crtvg_fix.py`, `_crtvg_fix_state.json`,
+  `_tiivii_scan{,2,3}.py`
+- Modified: `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- Re-probe `sanxenxo` later (config says active/ok, stream 404 —
+  may be a schedule gap).
+- Tiivii platform = reusable lead: other tenants may be enumerable
+  via `/assets/{host}/config.json` if we find tenant hostnames
+  (webcams.tiivii.com main domain = `/public/` tenant list worth
+  checking).
+
 
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)

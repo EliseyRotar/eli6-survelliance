@@ -92,12 +92,21 @@
   tv_102089 city `Viveiro (Nursery)`→`Viveiro`) + **2 ingested**
   `mg_240345` Cíes-Faro-Sur / `mg_240346` Ons Praia (both live 200
   jpeg + posters) → 231,325 rows / public **231,184** (`mg` prefix)
+- **CRTVG (47j)**: `camarasweb.g24.gal` = Tiivii white-label; tenant
+  config gives 26 active cams (exact coords + HLS on
+  crtvg.es:1554-6); all 30 cams already `tv_` rows → **rectified 30**
+  (15 renamed to operator names, 26 exact coords, 5 dead streams
+  catedral×2/ogrove/ortigueira/sanxenxo flipped from fake `live` to
+  `live_status=''` 404) — no new rows, counts unchanged (231,325 /
+  231,184)
 
 ### Next
-- **New scouting**: CRTVG `crtvg.es/crtvg/camaras-web` (Galician
-  public-TV cams, seen in mg chunk) + regional portals still uncharted
-  (Gijón municipal, Sierra Nevada, Cuenca, Torrevieja, WebcamMurcia);
-  MeteoGalicia PDF-only retired cams (Fontaneira/Lira) skipped
+- **New scouting**: Tiivii tenant enumeration
+  (`webcams.tiivii.com/public/` may list other white-label webcam
+  sites → `/assets/{host}/config.json` pattern) + regional portals
+  still uncharted (Gijón municipal, Sierra Nevada, Cuenca, Torrevieja,
+  WebcamMurcia); MeteoGalicia PDF-only retired cams (Fontaneira/Lira)
+  skipped; re-probe CRTVG `sanxenxo` (config active, stream 404)
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters); re-probe `www.bilbao.eus` codec jpgs from a
   Spanish IP (24 `blb_` rows WAF-403 here) + recheck `GIP_zumaia2`
