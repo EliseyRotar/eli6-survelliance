@@ -1,0 +1,14 @@
+{
+ "date": "2026-10-18",
+ "phase": "done",
+ "rectified_json": 32,
+ "rectified_tv_city": 0,
+ "radar_row": "disc_32319",
+ "ingested": [
+  "mg_240345",
+  "mg_240346"
+ ],
+ "live": 2,
+ "posters": 2,
+ "rows_after": 231325
+}

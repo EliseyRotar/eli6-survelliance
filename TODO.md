@@ -81,10 +81,23 @@
   wayback geojson, `live_status=''` — bilbao.eus 403 WAF for our IP
   even via agent-browser) + **177 junk titles rectified** from the
   catalogs (120 trafikoa `Apps` + 57 `Bizkaimove`, official
-  name/road/pk, coords untouched) → 231,323 rows / public
-  **231,182** (`gip`+`blb` prefixes)
+   name/road/pk, coords untouched) → 231,323 rows / public
+   **231,182** (`gip`+`blb` prefixes)
+- **MeteoGalicia (47i)**: current JSON found in Angular chunk —
+  `/mgrss/observacion/jsonCamaras.action` (old documented `/mg/rss/`
+  path 404) = 33 cams; ArcGIS layer backup 34 (33 + dir=Radar) →
+  **32 rectified** (31 disc_ junk `12th Street · Niemegk, Brandenburg`
+  titles + shared bogus coords 42.555164,-9.028601 replaced from JSON;
+  radar row → Xesteiras/Cuntis + `live_status=''` 3,084B placeholder;
+  tv_102089 city `Viveiro (Nursery)`→`Viveiro`) + **2 ingested**
+  `mg_240345` Cíes-Faro-Sur / `mg_240346` Ons Praia (both live 200
+  jpeg + posters) → 231,325 rows / public **231,184** (`mg` prefix)
 
 ### Next
+- **New scouting**: CRTVG `crtvg.es/crtvg/camaras-web` (Galician
+  public-TV cams, seen in mg chunk) + regional portals still uncharted
+  (Gijón municipal, Sierra Nevada, Cuenca, Torrevieja, WebcamMurcia);
+  MeteoGalicia PDF-only retired cams (Fontaneira/Lira) skipped
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters); re-probe `www.bilbao.eus` codec jpgs from a
   Spanish IP (24 `blb_` rows WAF-403 here) + recheck `GIP_zumaia2`

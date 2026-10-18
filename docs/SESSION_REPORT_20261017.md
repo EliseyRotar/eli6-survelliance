@@ -382,6 +382,72 @@ images only as last resort; ingest everything into the dataset.
 - Modified: `scripts/fix/classify_visibility.py` (gip, blb),
   `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
 
+## Round 6 — MeteoGalicia rectify + gap ingest (47i, 2026-10-18)
+
+### Recon — current JSON service (old docs endpoint is dead)
+
+- Documented `servizos.meteogalicia.gal/mg/rss/observacion/
+  jsonCamaras.action` → **404** (site reorganized). Current Angular
+  SPA (`/web/observacion/camaras`, main bundle `main-QEGW3TMS.js`,
+  cams chunk `chunk-A6AZO46B.js` WEBCAMS_ROUTES) points at
+  **`/mgrss/observacion/jsonCamaras.action`** (note `mgrss`) → 200,
+  **33 cams** with `identificador/nomeCamara/concello/provincia/lat/
+  lon/imaxeCamara/dataUltimaAct` (timestamps same-day = live list).
+- ArcGIS backup layer: `ideg.xunta.gal/meteogalicia/rest/services/
+  METEO2_WS/Camaras/MapServer/0` → **34 features** = the JSON 33 +
+  `dir=Radar` mapped to Xesteiras/Cuntis.
+- Image pattern (live): `www.meteogalicia.gal/datosred/camaras/
+  {Group}/{Directorio}/ultima.jpg`, `Group` ∈ {MeteoGalicia,
+  MedioRural} (full urls already in JSON `imaxeCamara`).
+
+### Three-way diff (JSON 33 / ArcGIS 34 / CSV 32)
+
+- **2 missing cams → ingested**: `ciesfarosur` + `onsplaya`.
+- **31 junk disc_ rows** (Argus: title `12th Street · Niemegk,
+  Brandenburg · Meteogalicia · #73330`-style, region/city/address
+  junk, **shared bogus coords 42.555164,-9.028601** on all 31 =
+  Corrubedo's) rectified from JSON: official `nomeCamara`, region
+  Galicia, city=concello, address/road cleared, per-cam lat/lon
+  `location_precision=precise`, `geo_source=src:servizos.meteogalicia.
+  gal`, org → MeteoGalicia (Xunta de Galicia), notes +
+  `mg-webcam-id=N; rectified=2026-10-18; mg-rectified@2026-10-18`.
+- `disc_32319` (`dir=Radar`, absent from JSON list) → ArcGIS
+  name Xesteiras/Cuntis + coords, **`live_status=''`** (serves a
+  3,084B placeholder identical to retired Fontaneira/Lira; PDF-only
+  cams skipped as stale).
+- `tv_102089` Penedo do Galo also JSON-matched → city
+  `Viveiro (Nursery)` → `Viveiro`, coords aligned (32 rows touched).
+
+### Ingest
+
+- **`mg_240345` Cíes-Faro-Sur** (Vigo, 42.21409/-8.914742) +
+  **`mg_240346` Ons Praia** (Bueu, 42.376904/-8.932206): probe 200
+  `image/jpeg` 255KB/281KB → `live`, posters written, `type=image`,
+  `category=scenic`, exact JSON coords, notes carry mg-webcam-id,
+  dir and `data-ultima-act=2026-10-18`.
+- Classifier: `'mg'` added to `PUBLIC_CSV_PREFIXES`.
+- Final: **231,325 rows** — public **231,184** / private 136 /
+  unknown 5; API `/api/refresh` OK (231,325); meteogalicia url
+  collisions 0 (34 mg rows = 33 JSON + radar).
+
+### Files
+
+- New: `scripts/ingest/es_mg_ingest.py` (2 phases, one atomic write),
+  `camera_testing/_mg_scout{,2,3,4,5}.py`, `_mg_overlap.py`,
+  `_mg_3way.py`, `_mg_catalog.json` (33-cam provenance copy),
+  `es_mg_ingest_state.json`, posters `240345.jpg`, `240346.jpg`
+- Modified: `scripts/fix/classify_visibility.py` (mg),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- **CRTVG** (`crtvg.es/crtvg/camaras-web`) surfaced while grepping the
+  chunk — Galician public-TV cam page, not yet enumerated.
+- Regional-portal scouting still open: Gijón municipal, Sierra Nevada,
+  Cuenca, Torrevieja, WebcamMurcia (CSV keyword hits: torrevieja 6,
+  meteogalicia now 34; gijon/sierra-nevada/camurcia 0).
+- Re-probe blb rows from a Spanish IP (bilbao.eus hard-403 WAF).
+
 
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
