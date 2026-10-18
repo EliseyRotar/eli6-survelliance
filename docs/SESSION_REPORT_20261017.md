@@ -115,9 +115,11 @@ images only as last resort; ingest everything into the dataset.
 
 ## Follow-ups
 
-- camarasdgt.es firewall: retry later → 255 pending Wayback listing
-  pages (`_es_arch4.py` resume) + full 324-page `/webcam/` subtree for
-  more YouTube live embeds.
+- ~~camarasdgt.es Wayback listings + `/webcam/` subtree~~ — **done in
+  47f**: 410/434 listings (0 new ids) + all 77 `/webcam/` pages
+  (1 new YT id, deleted video). Residual: 24 listing pages still
+  erroring on Wayback (resume `_es_arch4.py` any time — low value,
+  0 new ids from 3 prior runs).
 - `trafikoa.eus` image host unreachable from this network: retry to
   fill 9 `eusk_` rows' `live_status` + posters (URLs are authoritative).
 - Donostia/Bilbao open-data (403 WAF), Sant Boi ArcGIS, 32 gencat ids
@@ -236,6 +238,68 @@ images only as last resort; ingest everything into the dataset.
 - Modified: `scripts/fix/classify_visibility.py` (`cic` prefix),
   `controllable_Webcams.csv` (231,737 → **231,261**),
   `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+## Round 3 — FGC webcams + IA harvest completion (47e–47f, 2026-10-18)
+
+### FGC tourist webcams (47e) — `scripts/ingest/es_fgc_ingest.py`
+
+- Resolved the unresolved href dataset `739g-m9dx` ("FGC - Webcams dels
+  equipaments turístics"): metadata `additionalAccessPoints` →
+  **`dadesobertes.fgc.cat` (OpenDataSoft portal)** dataset
+  `webcams-actives-tim` → ODS API `records/1.0/search` = **30 records,
+  all `is_active=1`** (fields: name_bu, nom_servei, url, `coordenadas`
+  as `[lat, lon]` list, imatge_2 file).
+- URL families + image resolution: `projecte4estacions.com` snapshots (2),
+  `api.pirineu365.cat/webcam/{id}` (5), `fgc.roundshot.com` pages (12 →
+  `og:image` → `/cams/{n}` live JPEG), `media.turismefgc.cat` (10),
+  `webtv.feratel.com/webtv/?cam=15100` (1). Fallback for non-image urls:
+  ODS file API `/api/datasets/1.0/webcams-actives-tim/files/{id}`.
+- **30 rows `fgc_240283..fgc_240312`** ingested: `{name_bu} -
+  {nom_servei}`, Catalunya/Spain, official coords (`src=fgc-ods`,
+  `precise`), category=scenic, org=FGC, `fgc-webcam-id/tipus/bu-id`
+  notes. **28 live + 28 posters; 2 dead** (`fgc_240293`
+  pirineu365/webcam/32 → 404; `fgc_240300` feratel cam=15100 → 404/410
+  despite ODS `is_active=1` — both honestly marked
+  `probe-failed@2026-10-18`).
+- Overlap guards had to be FGC-specific (`fgc.roundshot.com`, not
+  `roundshot.com`; `cam=15100`, not `feratel` — Swiss roundshot
+  campaigns and other feratel pages already exist in CSV).
+- Classifier: `fgc` prefix added → all 30 public.
+
+### IA / camarasdgt harvest completion (47f) — archive.org back online
+
+- `_es_arch4.py` resume: 434 → 410 listing pages ok (24 err),
+  **`etraffic ids: 27, NEW: 0`** — no new DGT ids from the remaining
+  43 pages. Externals sanity-checked: `espalet.eu/Frontera_18008`
+  (= already-ingested `esp_240281`), `valdezcaray/Debutantes`
+  (= `vdc_240278`), `trafikoa 6001-6003` (= live `disc_` rows),
+  `infocar legacy paths` = Akamai SPA fallbacks (dead, historical),
+  camarasdgt blog images = firewalled host, blog headers not cams.
+  → **listing harvest fully closed, 0 ingestible leftovers.**
+- `_es_arch5_webcam.py` (new): extracted YouTube ids from **all 77
+  `/webcam/` wayback pages** (arch4 only regexed `<img>`, missing
+  iframes; CDX prefix query 503'd → used existing CDX set, 3 resume
+  runs to 77/77). **1 new id `rxU0zIUTgtI`** (Playa de Zurriola,
+  Donostia) → oEmbed 404 + `playabilityStatus ERROR` = deleted video.
+  **No ingestible new YT cams; /webcam/ subtree closed.**
+
+### Round-3 verification
+
+- Classifier → **231,291 rows** — public **231,150** / private 136 /
+  unknown 5; API `/api/refresh` OK; fgc rows verified (30 public,
+  28 live, posters, complete coords).
+
+### Round-3 files
+
+- New: `scripts/ingest/es_fgc_ingest.py`, `camera_testing/_es_fgc_probe.py`,
+  `_es_fgc_parse.py`, `_es_fgc_parse2.py`, `_es_fgc_catalog.json`,
+  `es_fgc_ingest_state.json`, `_es_arch5_webcam.py`,
+  `_es_arch5_webcam.json` (77 pages), `_es_arch_listings.json`
+  (410 pages), `_es_fgc_*` temp parses, 28 posters
+- Modified: `scripts/fix/classify_visibility.py` (`fgc` prefix),
+  `controllable_Webcams.csv` (231,261 → **231,291**),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

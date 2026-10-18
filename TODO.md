@@ -60,16 +60,26 @@
   disc_ side) = separate future dedupe epic
 - Final: **231,261 rows**; public **231,120** / private 136 /
   unknown 5; API refreshed + spot-checked (q=SCT B-23, Terrassa)
+- **FGC (47e)**: href dataset `739g-m9dx` resolved → ODS portal
+  `dadesobertes.fgc.cat/webcams-actives-tim` (30 active cams) →
+  **30 rows `fgc_240283..240312`** (roundshot og:image trick, ODS
+  file fallback), 28 live + 28 posters, 2 honest 404-deads,
+  `fgc` prefix public → 231,291 rows / public **231,150**
+- **IA harvest closed (47f)**: archive.org back → `_es_arch4.py`
+  410/434 listings (**0 new etraffic ids**; espalet/valdezcaray/
+  trafikoa externals already in CSV) + `_es_arch5_webcam.py`
+  all 77 `/webcam/` pages → 1 new YT id `rxU0zIUTgtI` = deleted
+  video (oEmbed 404) → **no ingestible leftovers anywhere in the
+  camarasdgt wayback corpus**
 
 ### Next
-- Retry camarasdgt.es once firewall ban lifts: `_es_arch4.py` resume
-  (255 Wayback listing pages) + full 324-page `/webcam/` subtree →
-  more YouTube live embeds
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters)
-- Catalog gaps: Donostia/Bilbao (403 WAF), Sant Boi ArcGIS, 32
-  gencat ids retired from current WFS; mct.gencat 84 `internet=0`
-  cameras (internal, skip unless they go public)
+- Catalog gaps: Donostia/Bilbao open-data (403 WAF), Sant Boi
+  ArcGIS, 32 gencat ids retired from current WFS; mct.gencat 84
+  `internet=0` cameras (internal, skip unless they go public)
+- Residual (low value): 24 camarasdgt listing pages still erroring
+  on Wayback — `_es_arch4.py` resume, 0 new ids in 3 runs
 - **New epic**: global url-dedupe for 30,013 colliding rows
   (US/global; decide keep-side by coord quality, Spain/AD clean)
 - Periodic DGT re-census (21 cams died since last ingest)

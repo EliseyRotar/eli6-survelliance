@@ -49,7 +49,7 @@ REPORT_PATH = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\docs\VISIBI
 PUBLIC_CSV_PREFIXES = {
     'tv', 'disc', 'occtv', 'fl', 'transtar', 'az', 'africam', 'kenyawebcam',
     'cam', 'sr', 'd', 'high', 'trafficvision', 'psb', 'ric', 'dbc', 'bcf',
-    'dgt', 'eusk', 'cat', 'cnt', 'web', 'vdc', 'vdq', 'esp', 'cic',
+    'dgt', 'eusk', 'cat', 'cnt', 'web', 'vdc', 'vdq', 'esp', 'cic', 'fgc',
 }
 PUBLIC_CSV_RE = re.compile(r'^(511ny_|[0-9]+$)')
 

@@ -1,0 +1,17 @@
+{
+ "date": "2026-10-18",
+ "source": "dadesobertes.fgc.cat/webcams-actives-tim (ODS records/1.0)",
+ "ingested": 30,
+ "live": 28,
+ "dead": [
+  "fgc_240293",
+  "fgc_240300"
+ ],
+ "posters": 28,
+ "poster_fail": [],
+ "rows_after": 231291,
+ "idx_range": [
+  240283,
+  240312
+ ]
+}
