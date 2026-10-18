@@ -35,6 +35,31 @@
 - 8 Nominatim geocodes (6 Cantur + Benidorm beach; Altea pre-had)
 - 231,733 rows; public **231,592** / private 136 / unknown 5;
   API refreshed + verified (q=Cantur → 7)
+- **Madrid city (47b)**: informo KML dedupe 718→366 (352 dup ids
+  dropped), 344 `disc_` rectified from KML, 9 retired-from-KML
+  neutralized, bbox scan resolved 321 outliers (205 Canary + 3
+  Algeciras legit + 113 foreign-garbage)
+- **Tenerife (47c)**: CIC chain solved (viewer list + DataServer
+  marker JSON, join via `cam_web_{A}_{B}` keys) → 96 rectified to
+  official `realLat/realLon` + 1 new `cic_240282` = 97 live cams,
+  97 posters
+- **Small fixes (47c)**: Sóller named+geocoded, gotafreda dead
+  (host unreachable), Banana Beach → Morocco, 66 IPTV streams
+  neutralized as non-cameras (coords cleared)
+- **Barcelona (47d)**: 24 bcn.cat gif dupes dropped (`disc_` vs
+  `tv_` pairs), PlCerda renamed "Plaça de Cerdà", 26 posters
+- **MeteoCat/SCT (47d)**: WFS chain solved (`sct-gis/wfs`,
+  `cite:mct2_cameres` ⨝ `mct2_cam_punt_active` on fid =
+  id_camera) → 94 `disc_` dupes dropped, 130 `tv_` rows rectified
+  (road+pk+municipi names, official geometry), 130/130 live,
+  130 posters; Terrassa 7 url-collision dupes dropped →
+  **ES/AD url collisions now 0**
+- Findings: `csv_id` non-unique (39,189 benign dup groups, all
+  different urls); **global 14,478 urls / 30,013 rows collide**
+  (US `disc_` vs `occtv/tv/transtar/az511` pairs — junk coords on
+  disc_ side) = separate future dedupe epic
+- Final: **231,261 rows**; public **231,120** / private 136 /
+  unknown 5; API refreshed + spot-checked (q=SCT B-23, Terrassa)
 
 ### Next
 - Retry camarasdgt.es once firewall ban lifts: `_es_arch4.py` resume
@@ -42,8 +67,11 @@
   more YouTube live embeds
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters)
-- Catalog gaps: Madrid + Barcelona city cams, Donostia/Bilbao
-  (403 WAF), Sant Boi ArcGIS, 32 gencat ids retired from current WFS
+- Catalog gaps: Donostia/Bilbao (403 WAF), Sant Boi ArcGIS, 32
+  gencat ids retired from current WFS; mct.gencat 84 `internet=0`
+  cameras (internal, skip unless they go public)
+- **New epic**: global url-dedupe for 30,013 colliding rows
+  (US/global; decide keep-side by coord quality, Spain/AD clean)
 - Periodic DGT re-census (21 cams died since last ingest)
 
 

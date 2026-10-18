@@ -120,11 +120,123 @@ images only as last resort; ingest everything into the dataset.
   more YouTube live embeds.
 - `trafikoa.eus` image host unreachable from this network: retry to
   fill 9 `eusk_` rows' `live_status` + posters (URLs are authoritative).
-- Still missing from catalog: Madrid city cams, Barcelona city cams,
-  Donostia/Bilbao open-data (403 WAF), Sant Boi ArcGIS, 32 gencat ids
+- Donostia/Bilbao open-data (403 WAF), Sant Boi ArcGIS, 32 gencat ids
   present in CSV but retired from current WFS.
 - Periodic re-census of DGT (images refresh every few minutes;
   retirements happen — 21 died since last ingest).
+
+## Round 2 — Madrid / Tenerife / Barcelona / MeteoCat (47b–47d, 2026-10-17/18)
+
+### Madrid city (47b) — `_es_madrid_fix.py`
+
+- `datos.madrid.es` informo CCTV KML (`_es_madrid_cctv.kml`, 367
+  markers) vs CSV: 718 informo-id rows → **352 duplicate ids dropped**
+  (same camera ingested twice under different url styles) → 366 kept;
+  364 live / 2 dead (`tv_121179`, `disc_29456` →
+  `image-404@2026-10-17`).
+- 9 KML-absent ids marked `retired-from-informo-kml@2026-10-17`,
+  neutral names (`Madrid Informo camera {id}`), junk NL coords cleared.
+- 344 `disc_` rows rectified from KML (`geo_source=src=informo-kml`);
+  `tv_` rows already had correct coords (same KML source).
+- Spain bbox plausibility scan: 231,737 rows → **321 outliers** =
+  205 Canary legit + 3 Algeciras border legit + 113 foreign-garbage
+  (96 Tenerife CIC, 14 IPTV, misc) — all resolved in 47c.
+
+### Tenerife CIC + small fixes (47c) — `_es_tenerife_fix.py`, `_es_smallfix.py`
+
+- **CIC source chain solved**: `cic.tenerife.es` (www subdomain dead)
+  → frameset `web3/listado_camaras_def.html` = 96 named cameras
+  (`cam_web_{A}_{B}`; `_es_tenerife_list.json`) → map service
+  `Control?act=detMapInci` → **DataServer**
+  `?ele=equ&type=1&li=-18.5&ld=-13.5&ln=29.5&ls=27.5&zoom=13&...&date={ms}`
+  (session cookie jar; zoom≥13) = 97 markers with `realLat/realLon`
+  + `title/alia/paramsHtml`; images on `e-Traffic3/data/camara-{A}-{B}.jpg`
+  (e-Traffic1/2 dead).
+- **96 rows rectified** (name from marker title, official coords,
+  Canary Islands/Tenerife, road/group in notes,
+  `geo_source=src=cic-dataserver`, `precise`) + **1 new row
+  `cic_240282`** (marker 2934, key 2701001-61, not in viewer list);
+  97 posters; all 97 live. `disc_17860` transient probe failure
+  repaired manually.
+- Small fixes: `disc_42996` → "Club Nàutic Sóller - Webcam HD"
+  (nominatim-poi coords, live); `disc_201367` gotafreda host
+  unreachable → coords cleared + `host-unreachable@2026-10-17`;
+  `tv_121105` Banana Beach country → Morocco; **66 IPTV rows**
+  (`/canal_X/index.m3u8`, not cameras) neutralized: coords cleared,
+  name `IPTV stream canal_X (non-camera)`,
+  `non-camera-iptv-stream@2026-10-17`.
+
+### Barcelona (47d) — `_es_bcn_fix.py`
+
+- `www.bcn.cat/transit/imatges/{Key}.gif` catalog: 25 cameras existed
+  **twice** — 24 exact gif-path pairs (junk-gazetteer `disc_` names
+  vs proper `tv_` names) + `disc_17301`/`PlCerda` + `tv_139634`/
+  `TunelRovira`. Dropped the 24 `disc_` sides, renamed `disc_17301`
+  → "Plaça de Cerdà", 26 posters (gif→jpg via PIL). All 25 gifs live.
+
+### MeteoCat / SCT (47d) — `_es_mct_fix.py`, `_es_mct_fix2/3.py`
+
+- **Source chain**: 224 `mct.gencat.cat` rows (argus junk names,
+  real towns) → MCT visor `mct.gencat.cat` → OpenLayers app JS →
+  **WFS** `mct.gencat.cat/sct-gis/wfs` (format=json, EPSG:4326):
+  layer `cite:mct2_cameres` = 268 features (nom_fitxer, carretera, pk,
+  nom_municipi, url, internet flag) joined with layer
+  `cite:mct2_cam_punt_active` = 164 points — **join key
+  `punt.id_camera` == info fid number** (159/159 matched). Catalog
+  artifact `_es_mct_catalog.json` (216 named, 130 with geom; the 84
+  catalog-only cameras are `internet=0` → not public, not ingested).
+- CSV had 224 rows / **130 distinct cameras** — 94 double-ingested
+  via both `RenderService?sctidcam=` and `TransitCamera?nom=` styles:
+  dropped the 94 `disc_` sides, rectified the 130 `tv_` survivors
+  (name `SCT {road} pk{pk} - {municipi}`, official WFS geometry,
+  org SCT, `mct-id`/`mct-fid` notes, `src=mct-wfs`).
+- Endpoint quirks: `RenderService` **302-redirects to http://**
+  (unfollowable) → canonical is
+  `TransitCamera?nom={id}.gif&visualitzacio=imatge`; `nom_fitxer`
+  needs `.gif` appended; host uses a **weak DH key** (`DH_KEY_TOO_SMALL`
+  — Python urllib/OpenSSL refuses, curl accepts) → probes via curl.exe.
+  Final: **130/130 live, 130 posters**.
+- **7 last Terrassa dupes** found via url-collision rescan (6 `disc_`
+  Emap rows + `cat_240220` vs the rectified `tv_` rows on
+  `emap.terrassa.cat/it_terrassa/cam0N.jpeg`) → dropped, 1 orphan
+  poster removed. ES/Andorra exact-url collisions now **0**.
+
+### Dataset-wide findings
+
+- **`csv_id` is not a unique key**: 39,189 duplicate-id groups
+  (all different urls — pre-existing, benign; url /
+  `live_stream_url` is the real identity key). Classifier U2 matches
+  on csv_id prefixes, unaffected.
+- **Global url collisions**: 14,478 urls shared by 30,013 rows —
+  mostly US/global (`disc_` vs `occtv/tv/transtar/az511/511ny` pairs;
+  disc_ side carries junk gazetteer coords, other side good).
+  Spain/Andorra is clean. **Dedupe = separate future epic, out of
+  scope for this session.**
+
+### Round-2 verification
+
+- Classifier: `PUBLIC_CSV_PREFIXES` += `cic` → **231,261 rows** —
+  public **231,120** / private 136 / unknown 5.
+- API `/api/refresh` OK (rows=231261); spot-checks: `q=SCT B-23` →
+  official names + coords + public, Tenerife/Barcelona/Sóller
+  rectifications all visible in `/api/cams`.
+- Transient issues handled: dashboard held the CSV during one
+  classifier `os.replace` (PermissionError → immediate retry OK);
+  stale CSV locks left by runs removed (`os.open` fd now closed
+  explicitly in new scripts).
+
+### Round-2 files
+
+- New: `camera_testing/_es_madrid_fix.py` + `_es_madrid_fix_state.json`
+  + `_es_madrid_cctv.kml`, `_es_tenerife_fix.py` + state +
+  `_es_tenerife_list.json` + `_es_tenerife_markers.json`,
+  `_es_smallfix.py` + state, `_es_bcn_fix.py` + state,
+  `_es_mct_fix.py`/`_es_mct_fix2.py`/`_es_mct_fix3.py` + states,
+  `_es_mct_catalog.json`, `_es_terrassa_dedupe_state.json`
+- Modified: `scripts/fix/classify_visibility.py` (`cic` prefix),
+  `controllable_Webcams.csv` (231,737 → **231,261**),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 
 ## Goal

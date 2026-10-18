@@ -1,0 +1,584 @@
+{
+ "131": {
+  "lat": 28.47454808,
+  "lon": -16.31056666,
+  "title": "TV 13.1 Vía Ronda",
+  "alia": "TV 13.1 Vía Ronda"
+ },
+ "514": {
+  "lat": 28.47441605,
+  "lon": -16.31134987,
+  "title": "TV 5.14 Vía Ronda (M)",
+  "alia": "TV 5.14 Vía Ronda (M)"
+ },
+ "516": {
+  "lat": 28.47744335,
+  "lon": -16.31420373,
+  "title": "TV 5.16 Lora Tamayo (M)",
+  "alia": "TV 5.16 Lora Tamayo (M)"
+ },
+ "517": {
+  "lat": 28.48043283,
+  "lon": -16.31884932,
+  "title": "TV 5.17 Anchieta TF-24",
+  "alia": "TV 5.17 Anchieta TF-24"
+ },
+ "519": {
+  "lat": 28.48130043,
+  "lon": -16.31877422,
+  "title": "TV 5.19 Anchieta (M)",
+  "alia": "TV 5.19 Anchieta (M)"
+ },
+ "520": {
+  "lat": 28.48654358,
+  "lon": -16.32395625,
+  "title": "TV 5.20 San Benito",
+  "alia": "TV 5.20 San Benito"
+ },
+ "521": {
+  "lat": 28.48729797,
+  "lon": -16.32520079,
+  "title": "TV 5.21 San Benito (M)",
+  "alia": "TV 5.21 San Benito (M)"
+ },
+ "522": {
+  "lat": 28.49016291,
+  "lon": -16.33646784,
+  "title": "TV 5.22 Los Rodeos",
+  "alia": "TV 5.22 Los Rodeos"
+ },
+ "523": {
+  "lat": 28.49005954,
+  "lon": -16.33963341,
+  "title": "TV 5.23 Los Rodeos (M)",
+  "alia": "TV 5.23 Los Rodeos (M)"
+ },
+ "524": {
+  "lat": 28.49102268,
+  "lon": -16.35666847,
+  "title": "TV 5.24 Portezuelo",
+  "alia": "TV 5.24 Portezuelo"
+ },
+ "525": {
+  "lat": 28.49075865,
+  "lon": -16.35552048,
+  "title": "TV 5.25 Portezuelo (M)",
+  "alia": "TV 5.25 Portezuelo (M)"
+ },
+ "526": {
+  "lat": 28.4812816,
+  "lon": -16.39682651,
+  "title": "TV 5.26 Los Naranjeros",
+  "alia": "TV 5.26 Los Naranjeros"
+ },
+ "527": {
+  "lat": 28.4819323,
+  "lon": -16.39569997,
+  "title": "TV 5.27 Los Naranjeros (M)",
+  "alia": "TV 5.27 Los Naranjeros (M)"
+ },
+ "528": {
+  "lat": 28.4758401,
+  "lon": -16.41390681,
+  "title": "TV 5.28 Tacoronte",
+  "alia": "TV 5.28 Tacoronte"
+ },
+ "529": {
+  "lat": 28.4760476,
+  "lon": -16.41250133,
+  "title": "TV 5.29 Tacoronte (M)",
+  "alia": "TV 5.29 Tacoronte (M)"
+ },
+ "530": {
+  "lat": 28.4690969,
+  "lon": -16.43390536,
+  "title": "TV 5.30 El Sauzal",
+  "alia": "TV 5.30 El Sauzal"
+ },
+ "531": {
+  "lat": 28.4702663,
+  "lon": -16.43336892,
+  "title": "TV 5.31 El Sauzal (M)",
+  "alia": "TV 5.31 El Sauzal (M)"
+ },
+ "532": {
+  "lat": 28.4592688,
+  "lon": -16.44977331,
+  "title": "TV 5.32 La Matanza",
+  "alia": "TV 5.32 La Matanza"
+ },
+ "533": {
+  "lat": 28.4598725,
+  "lon": -16.44864678,
+  "title": "TV 5.33 La Matanza (M)",
+  "alia": "TV 5.33 La Matanza (M)"
+ },
+ "534": {
+  "lat": 28.4311568,
+  "lon": -16.48572564,
+  "title": "TV 5.34 Santa Úrsula",
+  "alia": "TV 5.34 Santa Úrsula"
+ },
+ "535": {
+  "lat": 28.4322701,
+  "lon": -16.48435235,
+  "title": "TV 5.35 Santa Úrsula (M)",
+  "alia": "TV 5.35 Santa Úrsula (M)"
+ },
+ "536": {
+  "lat": 28.4269068,
+  "lon": -16.49420165,
+  "title": "TV 5.36 La Quinta",
+  "alia": "TV 5.36 La Quinta"
+ },
+ "537": {
+  "lat": 28.4269988,
+  "lon": -16.49323895,
+  "title": "TV 5.37 La Quinta (M)",
+  "alia": "TV 5.37 La Quinta (M)"
+ },
+ "538": {
+  "lat": 28.4021029,
+  "lon": -16.51780486,
+  "title": "TV 5.38 Puerto Cruz",
+  "alia": "TV 5.38 Puerto Cruz"
+ },
+ "539": {
+  "lat": 28.4027164,
+  "lon": -16.51668906,
+  "title": "TV 5.39 Puerto Cruz (M)",
+  "alia": "TV 5.39 Puerto Cruz (M)"
+ },
+ "540": {
+  "lat": 28.3980302,
+  "lon": -16.52393455,
+  "title": "TV 5.40 Enlace La Orotava",
+  "alia": "TV 5.40 Enlace La Orotava"
+ },
+ "541": {
+  "lat": 28.3985545,
+  "lon": -16.52256645,
+  "title": "TV 5.41 Enlace La Orotava (M)",
+  "alia": "TV 5.41 Enlace La Orotava (M)"
+ },
+ "542": {
+  "lat": 28.3976991,
+  "lon": -16.5338708,
+  "title": "TV 5.42 Bomberos La Orotava",
+  "alia": "TV 5.42 Bomberos La Orotava"
+ },
+ "543": {
+  "lat": 28.3977746,
+  "lon": -16.53299125,
+  "title": "TV 5.43 Bomberos La Orotava(M)",
+  "alia": "TV 5.43 Bomberos La Orotava(M)"
+ },
+ "544": {
+  "lat": 28.3946188,
+  "lon": -16.55151486,
+  "title": "TV 5.44 La Villa",
+  "alia": "TV 5.44 La Villa"
+ },
+ "545": {
+  "lat": 28.3952323,
+  "lon": -16.55064582,
+  "title": "TV 5.45 La Villa (M)",
+  "alia": "TV 5.45 La Villa (M)"
+ },
+ "546": {
+  "lat": 28.3914476,
+  "lon": -16.57840132,
+  "title": "TV 5.46 Los Realejos",
+  "alia": "TV 5.46 Los Realejos"
+ },
+ "547": {
+  "lat": 28.3915514,
+  "lon": -16.57954931,
+  "title": "TV 5.47 Los Realejos (M)",
+  "alia": "TV 5.47 Los Realejos (M)"
+ },
+ "548": {
+  "lat": 28.3921932,
+  "lon": -16.59057855,
+  "title": "TV 5.48 T. San Vicente",
+  "alia": "TV 5.48 T. San Vicente"
+ },
+ "549": {
+  "lat": 28.3885783,
+  "lon": -16.67161345,
+  "title": "TV 5.49 T. Santo Domingo",
+  "alia": "TV 5.49 T. Santo Domingo"
+ },
+ "550": {
+  "lat": 28.3817728,
+  "lon": -16.67727828,
+  "title": "TV 5.50 Buen Paso",
+  "alia": "TV 5.50 Buen Paso"
+ },
+ "551": {
+  "lat": 28.382679,
+  "lon": -16.67724609,
+  "title": "TV 5.51 Buen Paso (M)",
+  "alia": "TV 5.51 Buen Paso (M)"
+ },
+ "552": {
+  "lat": 28.357785,
+  "lon": -16.77355885,
+  "title": "TV 5.52 El Tanque",
+  "alia": "TV 5.52 El Tanque"
+ },
+ "553": {
+  "lat": 28.3577661,
+  "lon": -16.77285075,
+  "title": "TV 5.53 El Tanque (M)",
+  "alia": "TV 5.53 El Tanque (M)"
+ },
+ "823": {
+  "lat": 28.2668233,
+  "lon": -16.8102442,
+  "title": "BI-TVM-1.01",
+  "alia": "BI-TVM-1.01"
+ },
+ "824": {
+  "lat": 28.2786665,
+  "lon": -16.8086018,
+  "title": "BI-TVM-2.01",
+  "alia": "BI-TVM-2.01"
+ },
+ "2701": {
+  "lat": 28.360825084563313,
+  "lon": -16.730386018755365,
+  "title": "LA-TV-1",
+  "alia": "LA-TV-1"
+ },
+ "2715": {
+  "lat": 28.354839263382285,
+  "lon": -16.719464063646647,
+  "title": "LA-TV-15",
+  "alia": "LA-TV-15"
+ },
+ "2716": {
+  "lat": 28.361750307558278,
+  "lon": -16.73306822777028,
+  "title": "LA-TVM-1",
+  "alia": "LA-TVM-1"
+ },
+ "2717": {
+  "lat": 28.353139757366442,
+  "lon": -16.716846227648084,
+  "title": "LA-TVM-2",
+  "alia": "LA-TVM-2"
+ },
+ "2888": {
+  "lat": 28.4601083,
+  "lon": -16.25086069,
+  "title": "3M-TV-14  (Túnel 3 de Mayo )",
+  "alia": "3M-TV-14  (Túnel 3 de Mayo )"
+ },
+ "2889": {
+  "lat": 28.45704278,
+  "lon": -16.2643683,
+  "title": "3M-TVM-21 (Túnel 3 de Mayo)",
+  "alia": "3M-TVM-21 (Túnel 3 de Mayo)"
+ },
+ "2890": {
+  "lat": 28.4657675,
+  "lon": -16.30252004,
+  "title": "CH-TVM-1 (TF-5 a TF-2)",
+  "alia": "CH-TVM-1 (TF-5 a TF-2)"
+ },
+ "2891": {
+  "lat": 28.46425841,
+  "lon": -16.30453706,
+  "title": "CH-TVM-2 (Chumberas)",
+  "alia": "CH-TVM-2 (Chumberas)"
+ },
+ "2892": {
+  "lat": 28.46788019,
+  "lon": -16.30422592,
+  "title": "TV 5.12 Guajara (M)",
+  "alia": "TV 5.12 Guajara (M)"
+ },
+ "2893": {
+  "lat": 28.46857812,
+  "lon": -16.30506277,
+  "title": "TV 5.13 Guajara",
+  "alia": "TV 5.13 Guajara"
+ },
+ "2897": {
+  "lat": 28.47570809,
+  "lon": -16.30759478,
+  "title": "TV 13.5 Salida V. Ronda (M)",
+  "alia": "TV 13.5 Salida V. Ronda (M)"
+ },
+ "2908": {
+  "lat": 28.45852367,
+  "lon": -16.25955105,
+  "title": "3M-TV-6 (Túnel 3 de Mayo)",
+  "alia": "3M-TV-6 (Túnel 3 de Mayo)"
+ },
+ "2913": {
+  "lat": 28.45741064,
+  "lon": -16.26714706,
+  "title": "TV 5.1 Salida 3M (M)",
+  "alia": "TV 5.1 Salida 3M (M)"
+ },
+ "2914": {
+  "lat": 28.45254337,
+  "lon": -16.27568722,
+  "title": "TV 5.4 Somosierra (M)",
+  "alia": "TV 5.4 Somosierra (M)"
+ },
+ "2915": {
+  "lat": 28.44665706,
+  "lon": -16.28525734,
+  "title": "TV 5.6 Residencia (M)",
+  "alia": "TV 5.6 Residencia (M)"
+ },
+ "2916": {
+  "lat": 28.44862863,
+  "lon": -16.2917161,
+  "title": "TV 5.8 Taco (M)",
+  "alia": "TV 5.8 Taco (M)"
+ },
+ "2917": {
+  "lat": 28.46337181,
+  "lon": -16.2994194,
+  "title": "TV 5.11 Chumberas (M)",
+  "alia": "TV 5.11 Chumberas (M)"
+ },
+ "2920": {
+  "lat": 28.45339233,
+  "lon": -16.25907898,
+  "title": "TV 4.1 Recinto Ferial (M)",
+  "alia": "TV 4.1 Recinto Ferial (M)"
+ },
+ "2922": {
+  "lat": 28.45718426,
+  "lon": -16.30673647,
+  "title": "TV 2.9 Leroy (M)",
+  "alia": "TV 2.9 Leroy (M)"
+ },
+ "2923": {
+  "lat": 28.45076996,
+  "lon": -16.27487183,
+  "title": "TV 5.2 Somosierra",
+  "alia": "TV 5.2 Somosierra"
+ },
+ "2924": {
+  "lat": 28.44975119,
+  "lon": -16.27727509,
+  "title": "TV 5.3 Somosierra TF-29",
+  "alia": "TV 5.3 Somosierra TF-29"
+ },
+ "2926": {
+  "lat": 28.4472042,
+  "lon": -16.27105236,
+  "title": "TV 4.2 Falso Túnel",
+  "alia": "TV 4.2 Falso Túnel"
+ },
+ "2927": {
+  "lat": 28.44163835,
+  "lon": -16.27869129,
+  "title": "TV 4.4 Enlace TF-1",
+  "alia": "TV 4.4 Enlace TF-1"
+ },
+ "2928": {
+  "lat": 28.43892135,
+  "lon": -16.28023624,
+  "title": "TV 4.5 Enlace TF-1",
+  "alia": "TV 4.5 Enlace TF-1"
+ },
+ "2929": {
+  "lat": 28.46544682,
+  "lon": -16.30401134,
+  "title": "CH-TV-3 (Chumberas)",
+  "alia": "CH-TV-3 (Chumberas)"
+ },
+ "2934": {
+  "lat": 28.4243163,
+  "lon": -16.30723,
+  "title": "TV 1.6 S. María del Mar (M)",
+  "alia": "TV 1.6 S. María del Mar (M)"
+ },
+ "2935": {
+  "lat": 28.42159886,
+  "lon": -16.30353928,
+  "title": "TV 1.7 S. María del Mar",
+  "alia": "TV 1.7 S. María del Mar"
+ },
+ "2936": {
+  "lat": 28.42439178,
+  "lon": -16.30087852,
+  "title": "TV 1.8 S. María del Mar",
+  "alia": "TV 1.8 S. María del Mar"
+ },
+ "2941": {
+  "lat": 28.4033295,
+  "lon": -16.327185,
+  "title": "TV 1.10 Radazul (M)",
+  "alia": "TV 1.10 Radazul (M)"
+ },
+ "2942": {
+  "lat": 28.4029998,
+  "lon": -16.339201,
+  "title": "TV 1.12 Tabaiba (M)",
+  "alia": "TV 1.12 Tabaiba (M)"
+ },
+ "2943": {
+  "lat": 28.3934391,
+  "lon": -16.343708,
+  "title": "TV 1.14 Bco. Hondo (M)",
+  "alia": "TV 1.14 Bco. Hondo (M)"
+ },
+ "2944": {
+  "lat": 28.3833358,
+  "lon": -16.362848,
+  "title": "TV 1.16 Caletillas (M)",
+  "alia": "TV 1.16 Caletillas (M)"
+ },
+ "2945": {
+  "lat": 28.3692745,
+  "lon": -16.366882,
+  "title": "TV 1.18 Pta. Larga (M)",
+  "alia": "TV 1.18 Pta. Larga (M)"
+ },
+ "2946": {
+  "lat": 28.3579455,
+  "lon": -16.372976,
+  "title": "TV 1.20 Candelaria (M)",
+  "alia": "TV 1.20 Candelaria (M)"
+ },
+ "2947": {
+  "lat": 28.3286355,
+  "lon": -16.374177,
+  "title": "TV 1.22 Pol. Güimar (M)",
+  "alia": "TV 1.22 Pol. Güimar (M)"
+ },
+ "2948": {
+  "lat": 28.3015091,
+  "lon": -16.381731,
+  "title": "TV 1.24 Pto. Güimar (M)",
+  "alia": "TV 1.24 Pto. Güimar (M)"
+ },
+ "2951": {
+  "lat": 28.4597876,
+  "lon": -16.298689,
+  "title": "TV 5.10 Majuelos (M)",
+  "alia": "TV 5.10 Majuelos (M)"
+ },
+ "2952": {
+  "lat": 28.2223947,
+  "lon": -16.416192,
+  "title": "TV 1.28 Fasnia (M)",
+  "alia": "TV 1.28 Fasnia (M)"
+ },
+ "2953": {
+  "lat": 28.0683071,
+  "lon": -16.555838,
+  "title": "TV 1.30 San Isidro (M)",
+  "alia": "TV 1.30 San Isidro (M)"
+ },
+ "2954": {
+  "lat": 28.0565485,
+  "lon": -16.581716,
+  "title": "TV 1.32 Aerop. Sur (M)",
+  "alia": "TV 1.32 Aerop. Sur (M)"
+ },
+ "2955": {
+  "lat": 28.0515681,
+  "lon": -16.656001,
+  "title": "TV 1.34 Parque Reina (M)",
+  "alia": "TV 1.34 Parque Reina (M)"
+ },
+ "2956": {
+  "lat": 28.0522681,
+  "lon": -16.677031,
+  "title": "TV 1.36 Guaza (M)",
+  "alia": "TV 1.36 Guaza (M)"
+ },
+ "2957": {
+  "lat": 28.10325361,
+  "lon": -16.7295599,
+  "title": "TV 1.38 Fañabé (M)",
+  "alia": "TV 1.38 Fañabé (M)"
+ },
+ "2958": {
+  "lat": 28.11672937,
+  "lon": -16.73466682,
+  "title": "TV 1.40 Adeje (M)",
+  "alia": "TV 1.40 Adeje (M)"
+ },
+ "2959": {
+  "lat": 28.37203107,
+  "lon": -16.74252033,
+  "title": "GH-TVM-1 (Garachico)",
+  "alia": "GH-TVM-1 (Garachico)"
+ },
+ "2960": {
+  "lat": 28.37206883,
+  "lon": -16.73565388,
+  "title": "GH-TVM-2 (Icod)",
+  "alia": "GH-TVM-2 (Icod)"
+ },
+ "2961": {
+  "lat": 28.43394559,
+  "lon": -16.3000194,
+  "title": "TV 2.1 San Matías",
+  "alia": "TV 2.1 San Matías"
+ },
+ "2962": {
+  "lat": 28.43518503,
+  "lon": -16.3034526,
+  "title": "TV 2.2 San Matías (M)",
+  "alia": "TV 2.2 San Matías (M)"
+ },
+ "2963": {
+  "lat": 28.43880814,
+  "lon": -16.30602837,
+  "title": "TV 2.3 Bco. Grande",
+  "alia": "TV 2.3 Bco. Grande"
+ },
+ "2964": {
+  "lat": 28.44273268,
+  "lon": -16.30302429,
+  "title": "TV 2.4 Bco. Grande",
+  "alia": "TV 2.4 Bco. Grande"
+ },
+ "2965": {
+  "lat": 28.44273268,
+  "lon": -16.30954742,
+  "title": "TV 2.5 Tincer",
+  "alia": "TV 2.5 Tincer"
+ },
+ "2966": {
+  "lat": 28.44590238,
+  "lon": -16.30551338,
+  "title": "TV 2.6 Tincer (M)",
+  "alia": "TV 2.6 Tincer (M)"
+ },
+ "2991": {
+  "lat": 28.4648016,
+  "lon": -16.24715969,
+  "title": "VL-TVM-1 (Norte)",
+  "alia": "VL-TVM-1 (Norte)"
+ },
+ "2992": {
+  "lat": 28.47082279,
+  "lon": -16.24736309,
+  "title": "VL-TVM-2 (Sur)",
+  "alia": "VL-TVM-2 (Sur)"
+ },
+ "2993": {
+  "lat": 28.46825745,
+  "lon": -16.24570012,
+  "title": "VL-TV-1.3 (Norte)",
+  "alia": "VL-TV-1.3 (Norte)"
+ },
+ "2994": {
+  "lat": 28.46751236,
+  "lon": -16.24738455,
+  "title": "VL-TV-2.3 (Sur)",
+  "alia": "VL-TV-2.3 (Sur)"
+ }
+}

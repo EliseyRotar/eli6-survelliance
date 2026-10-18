@@ -1,0 +1,137 @@
+{
+ "stats": {
+  "dropped_disc": [
+   [
+    "disc_17300",
+    "AragoPgGracia"
+   ],
+   [
+    "disc_17324",
+    "BalmesGranVia"
+   ],
+   [
+    "disc_17323",
+    "BalmesMitre"
+   ],
+   [
+    "disc_17314",
+    "DiagonalCiutatdeGranada"
+   ],
+   [
+    "disc_17303",
+    "DiagonalMCristina"
+   ],
+   [
+    "disc_17315",
+    "GranViaMarina"
+   ],
+   [
+    "disc_17321",
+    "MarinaPujades"
+   ],
+   [
+    "disc_17306",
+    "MeridianaFelipII"
+   ],
+   [
+    "disc_17305",
+    "MeridianaRioJaneiro"
+   ],
+   [
+    "disc_17325",
+    "PlAntonioLopez"
+   ],
+   [
+    "disc_17312",
+    "PlCatalunya"
+   ],
+   [
+    "disc_17317",
+    "PlEspanya"
+   ],
+   [
+    "disc_17320",
+    "PlMolina"
+   ],
+   [
+    "disc_17308",
+    "PlPaissosCatalans"
+   ],
+   [
+    "disc_17310",
+    "PlPauVila"
+   ],
+   [
+    "disc_17313",
+    "PlUrquinaona"
+   ],
+   [
+    "disc_17311",
+    "RondaLitoralBadajoz"
+   ],
+   [
+    "disc_17307",
+    "RondaLitoralBonPastor"
+   ],
+   [
+    "disc_17304",
+    "RondaLitoralMollFusta"
+   ],
+   [
+    "disc_17322",
+    "RondaLitoralZonaFranca"
+   ],
+   [
+    "disc_17319",
+    "RondadeDaltCrtaEsplugues"
+   ],
+   [
+    "disc_17309",
+    "RondadeDaltMeridiana"
+   ],
+   [
+    "disc_17318",
+    "RondadeDaltSantGervasi"
+   ],
+   [
+    "disc_17316",
+    "RondadeDaltVelodrom"
+   ]
+  ],
+  "renamed": [
+   [
+    "disc_17301",
+    "PlCerda"
+   ]
+  ],
+  "probed": []
+ },
+ "posters": {
+  "139065": "ok",
+  "139067": "ok",
+  "139057": "ok",
+  "139056": "ok",
+  "139079": "ok",
+  "139075": "ok",
+  "139070": "ok",
+  "139059": "ok",
+  "139069": "ok",
+  "139078": "ok",
+  "139055": "ok",
+  "20610": "ok",
+  "139074": "ok",
+  "139058": "ok",
+  "139068": "ok",
+  "139076": "ok",
+  "139066": "ok",
+  "139072": "ok",
+  "139077": "ok",
+  "139071": "ok",
+  "139062": "ok",
+  "139061": "ok",
+  "139073": "ok",
+  "139063": "ok",
+  "139060": "ok",
+  "139064": "ok"
+ }
+}
