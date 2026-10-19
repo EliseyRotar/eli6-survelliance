@@ -553,6 +553,59 @@ images only as last resort; ingest everything into the dataset.
 - Regional queue next: Sierra Nevada, Cuenca, Torrevieja, WebcamMurcia.
 
 
+## Round 9 — Sierra Nevada + feratel ES/AD public-source flip (47l, 2026-10-18)
+
+- **Official lead**: `sierranevada.es/es/invierno/la-estacion/en-directo/webcams/`
+  embeds 5× feratel webtv (`webtv.feratel.com/webtv/?design=v5&cam=15110..15114`)
+  + official snapshot `recursos.sierranevada.es/_extras/fotos_camaras/pradollano/snap_c1.jpg`
+  (Last-Modified minute-fresh) + DGT `camarasEtraffic/313.jpg` (already
+  `tv_108284` A-395, live).
+- **feratel player leak**: webtv `<title>` = operator-verbatim camera
+  name (`Livecam <name>-Webcam …`) + `apinfo.infolat/infolong` coords.
+  Public frame endpoint: `webtvhotspot.feratel.com/hotspot/37/<id>/0.jpeg?design=v3`
+  (200 image/jpeg, Last-Modified advances ~45 s = live; watermarks+clock
+  visible on frames, e.g. Veleta 05:29 / Pas de la Casa 05:32).
+- **TrafficVision mirrors are unusable**: all 817
+  `media.trafficvision.live/feratel/<id>.mp4` rows are `live_status=auth_required`
+  (403 "forbidden"; with referer: unmirrored ids answer "upstream 410").
+- **21 Spain/Andorra feratel rows flipped** to public hotspot jpgs:
+  url/type=image/content_type/live_status + operator-verbatim renames
+  (12 Andorra Grandvalira/Vallnord, Panticosa/Boí Taüll/Cerler ×2
+  Aragón, Cambrils + Cala Santanyí, 3 Sierra Nevada) + region filled
+  (Andorra/Andalucía/Aragón/Catalunya/Illes Balears). Junk title fix:
+  `tv_129261` "United States · Media · #22419" → **Cambrils - Hafen**
+  (feratel-15010, Tarragona coast).
+- **Placeholder detection**: md5-identical German card "Derzeit ist
+  kein aktuelles Bild verfügbar." across 15110/15114/15080/76100 =
+  offline feeds → `live_status=''` (+240351 Laguna ingest included);
+  other 19 verified live (pre-dawn frames with watermarks).
+- **3 ingested** `sn_240351..353` (prefix `sn` + classifier):
+  Zona Laguna (feratel-15110, placeholder → `''`), Zona Veleta
+  (feratel-15112, live, posters), **Pradollano** official snapshot
+  (live IR frame "Zona Pradollano-Rio" 18.Oct.2026 05:34:04 stamp;
+  coords = OSM Pradollano hamlet 37.0943/-3.3991, Monachil; posters).
+- Totals: **231,332** rows, public **231,191** / private 136 /
+  unknown 5; classifier + `GET /api/refresh` OK.
+
+### Files
+
+- New: `scripts/fix/es_feratel_fix.py`,
+  `camera_testing/_sn_{scan,map,ctx,feratel,probe,probe2,probe3,scope,all,md5}.py`,
+  `_sn_feratel_catalog.json`, `es_feratel_fix_state.json`,
+  `_sn_hotspot/` (temp frames, not committed)
+- Modified: `scripts/fix/classify_visibility.py` (`sn` prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- Same hotspot flip is applicable to the remaining **795 worldwide**
+  `auth_required` feratel rows (out of ES/AD scope) — one-off epic.
+- sierranevada.es page headings (La Visera, Jardín Alpino,
+  Granados-Morillas, Rebeco y Zorro) are marketing names for the same
+  5 feratel zone cams; used feratel titles as canonical instead of
+  mapping heading↔id.
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

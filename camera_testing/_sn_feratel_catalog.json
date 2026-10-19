@@ -1,0 +1,242 @@
+{
+ "source": [
+  "webtv.feratel.com (titles/coords)",
+  "webtvhotspot.feratel.com (frames)",
+  "sierranevada.es/en-directo/webcams",
+  "recursos.sierranevada.es (pradollano)"
+ ],
+ "fetched": "2026-10-18",
+ "count": 23,
+ "cams": {
+  "15030": {
+   "webtv_title": "feratel MediaPlayer | Livecam Arcalís - Cap de la Coma-Webcam Cap de la Coma,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.618372",
+   "lon": "1.487506",
+   "hotspot": {
+    "code": "200",
+    "size": "18640",
+    "last_modified": "Sun, 18 Oct 2026 03:28:01 GMT"
+   }
+  },
+  "15055": {
+   "webtv_title": "feratel MediaPlayer | Livecam Pas de la Casa-Webcam Pas de la Casa,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.540914",
+   "lon": "1.733267",
+   "hotspot": {
+    "code": "200",
+    "size": "89784",
+    "last_modified": "Sun, 18 Oct 2026 03:09:59 GMT"
+   }
+  },
+  "15050": {
+   "webtv_title": "feratel MediaPlayer | Livecam Grau Roig - Sector Grau Roig-Webcam Sector Grau Roig,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.532089",
+   "lon": "1.699939",
+   "hotspot": {
+    "code": "200",
+    "size": "102000",
+    "last_modified": "Sat, 17 Oct 2026 17:16:19 GMT"
+   }
+  },
+  "15061": {
+   "webtv_title": "feratel MediaPlayer | Livecam Soldeu - Estadi Creand-Webcam Estadi Creand,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.575833",
+   "lon": "1.668333",
+   "hotspot": {
+    "code": "200",
+    "size": "109800",
+    "last_modified": "Sat, 17 Oct 2026 17:13:39 GMT"
+   }
+  },
+  "15031": {
+   "webtv_title": "feratel MediaPlayer | Livecam Arcalís - Base sector La Coma-Webcam Base sector La Coma,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.631797",
+   "lon": "1.482694",
+   "hotspot": {
+    "code": "200",
+    "size": "19982",
+    "last_modified": "Sun, 18 Oct 2026 03:17:40 GMT"
+   }
+  },
+  "15090": {
+   "webtv_title": "feratel MediaPlayer | Livecam Encamp - Cortals-Webcam Cortals,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.542292",
+   "lon": "1.661319",
+   "hotspot": {
+    "code": "200",
+    "size": "19473",
+    "last_modified": "Sat, 17 Oct 2026 17:14:56 GMT"
+   }
+  },
+  "15056": {
+   "webtv_title": "feratel MediaPlayer | Livecam Pas de la Casa - Coll Blanc-Webcam Coll Blanc,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.527939",
+   "lon": "1.720974",
+   "hotspot": {
+    "code": "200",
+    "size": "21216",
+    "last_modified": "Sun, 18 Oct 2026 03:17:22 GMT"
+   }
+  },
+  "15060": {
+   "webtv_title": "feratel MediaPlayer | Livecam Soldeu - Espiolets-Webcam Espiolets,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.564722",
+   "lon": "1.662667",
+   "hotspot": {
+    "code": "200",
+    "size": "48366",
+    "last_modified": "Sat, 17 Oct 2026 17:11:33 GMT"
+   }
+  },
+  "15065": {
+   "webtv_title": "feratel MediaPlayer | Livecam Canillo - El Forn-Webcam El Forn,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.555964",
+   "lon": "1.615544",
+   "hotspot": {
+    "code": "200",
+    "size": "20283",
+    "last_modified": "Sun, 18 Oct 2026 03:21:32 GMT"
+   }
+  },
+  "15045": {
+   "webtv_title": "feratel MediaPlayer | Livecam El Tarter - Pi de Migdia-Webcam Pi de Migdia,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.568333",
+   "lon": "1.643333",
+   "hotspot": {
+    "code": "200",
+    "size": "21690",
+    "last_modified": "Sun, 18 Oct 2026 03:26:45 GMT"
+   }
+  },
+  "15040": {
+   "webtv_title": "feratel MediaPlayer | Livecam Pal - La Caubella-Webcam La Caubella,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.536553",
+   "lon": "1.491019",
+   "hotspot": {
+    "code": "200",
+    "size": "43638",
+    "last_modified": "Sun, 18 Oct 2026 03:13:43 GMT"
+   }
+  },
+  "15024": {
+   "webtv_title": "feratel MediaPlayer | Livecam Panticosa - Zona Petrosos-Webcam Zona Petrosos,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "42.703306",
+   "lon": "-0.274478",
+   "hotspot": {
+    "code": "200",
+    "size": "22655",
+    "last_modified": "Sat, 17 Oct 2026 17:14:53 GMT"
+   }
+  },
+  "15100": {
+   "webtv_title": "feratel MediaPlayer | Livecam Vall de Boí - Pla de Vaques-Webcam Pla de Vaques,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "42.477764",
+   "lon": "0.869342",
+   "hotspot": {
+    "code": "200",
+    "size": "85991",
+    "last_modified": "Sat, 17 Oct 2026 17:02:01 GMT"
+   }
+  },
+  "15083": {
+   "webtv_title": "feratel MediaPlayer | Livecam Cerler - Restaurante El Bosque-Webcam Restaurante El Bosque,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "42.566018",
+   "lon": "0.537646",
+   "hotspot": {
+    "code": "200",
+    "size": "19425",
+    "last_modified": "Sun, 18 Oct 2026 03:16:34 GMT"
+   }
+  },
+  "15010": {
+   "webtv_title": "feratel MediaPlayer | Livecam Cambrils - Hafen-Webcam Hafen,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "41.066071",
+   "lon": "1.064108",
+   "hotspot": {
+    "code": "200",
+    "size": "124117",
+    "last_modified": "Sat, 17 Oct 2026 17:10:27 GMT"
+   }
+  },
+  "15114": {
+   "webtv_title": "feratel MediaPlayer | Livecam Sierra Nevada - Mirlo Blanco-Webcam Mirlo Blanco,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "37.090944",
+   "lon": "-3.399593",
+   "hotspot": {
+    "code": "200",
+    "size": "75806",
+    "last_modified": "Sun, 18 Oct 2026 03:33:26 GMT"
+   }
+  },
+  "15115": {
+   "webtv_title": "feratel MediaPlayer | Livecam Cala Santanyí-Webcam Cala Santanyí,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "39.330668",
+   "lon": "3.146688",
+   "hotspot": {
+    "code": "200",
+    "size": "26327",
+    "last_modified": "Sun, 18 Oct 2026 03:29:36 GMT"
+   }
+  },
+  "15111": {
+   "webtv_title": "feratel MediaPlayer | Livecam Sierra Nevada - Zona Borreguiles-Webcam Zona Borreguiles,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "37.071122",
+   "lon": "-3.389411",
+   "hotspot": {
+    "code": "200",
+    "size": "20047",
+    "last_modified": "Sun, 18 Oct 2026 03:28:04 GMT"
+   }
+  },
+  "76100": {
+   "webtv_title": "feratel MediaPlayer | Livecam Grandvalira - FlyingCam-Webcam Grandvalira - FlyingCam,Andorra-Panoramakamera,Weather-feratel AG",
+   "lat": "42.577865",
+   "lon": "1.648687",
+   "hotspot": {
+    "code": "200",
+    "size": "75806",
+    "last_modified": "Sun, 18 Oct 2026 03:33:29 GMT"
+   }
+  },
+  "15080": {
+   "webtv_title": "feratel MediaPlayer | Livecam Cerler - Ampriu-Webcam Ampriu,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "42.560444",
+   "lon": "0.569083",
+   "hotspot": {
+    "code": "200",
+    "size": "75806",
+    "last_modified": "Sun, 18 Oct 2026 03:33:32 GMT"
+   }
+  },
+  "15113": {
+   "webtv_title": "feratel MediaPlayer | Livecam Sierra Nevada - Zona Montebajo-Webcam Zona Montebajo,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "37.083357",
+   "lon": "-3.405949",
+   "hotspot": {
+    "code": "200",
+    "size": "47175",
+    "last_modified": "Sat, 17 Oct 2026 17:31:49 GMT"
+   }
+  },
+  "15110": {
+   "webtv_title": "feratel MediaPlayer | Livecam Sierra Nevada - Zona Laguna-Webcam Zona Laguna,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "37.058909",
+   "lon": "-3.39374",
+   "hotspot": {
+    "code": "200",
+    "size": "75806",
+    "last_modified": "Sun, 18 Oct 2026 03:33:34 GMT"
+   }
+  },
+  "15112": {
+   "webtv_title": "feratel MediaPlayer | Livecam Sierra Nevada - Zona Veleta-Webcam Zona Veleta,Spain-Panoramakamera,Weather-feratel AG",
+   "lat": "37.062669",
+   "lon": "-3.373692",
+   "hotspot": {
+    "code": "200",
+    "size": "18634",
+    "last_modified": "Sun, 18 Oct 2026 03:29:36 GMT"
+   }
+  }
+ }
+}

@@ -106,14 +106,27 @@
   centroid, Peñarrubia/Providencia OSM POI) → 231,329 rows / public
   **231,188** (`gij` prefix); `observa.gijon.es` ODS tenant decommissioned
   (expired cert + Huwise 404)
+- **Sierra Nevada / feratel ES-AD (47l)**: official webcams page = 5
+  feratel webtv cams (15110-15114, titles leaked via player `<title>` +
+  coords via apinfo) + Pradollano snapshot; trafficvision mirrors all
+  `auth_required` 403 → **21 ES/AD rows flipped** to public
+  `webtvhotspot.feratel.com` jpgs (renames incl junk
+  `United States · Media`→`Cambrils - Hafen`, regions filled, 4 German
+  "no current image" placeholders → `live_status=''`) + **3 ingested**
+  `sn_240351..353` (Laguna placeholder / Veleta live / Pradollano live
+  + posters) → 231,332 rows / public **231,191** (`sn` prefix)
 
 ### Next
-- **New scouting**: regional portals still uncharted (Sierra Nevada,
-  Cuenca, Torrevieja, WebcamMurcia); Tiivii tenant enumeration parked
+- **New scouting**: regional portals still uncharted (Cuenca,
+  Torrevieja, WebcamMurcia); Tiivii tenant enumeration parked
   (`webcams.tiivii.com/public/` = marketing page only, no tenant
   directory — need tenant hostnames from elsewhere); MeteoGalicia
   PDF-only retired cams (Fontaneira/Lira) skipped; re-probe CRTVG
   `sanxenxo` (config active, stream 404)
+- **Epic (worldwide, not ES/AD)**: flip remaining **795**
+  `media.trafficvision.live/feratel/*.mp4` `auth_required` rows to
+  public `webtvhotspot.feratel.com/hotspot/37/<id>/0.jpeg` (same
+  method as 47l; placeholder md5-check each)
 - Retry `trafikoa.eus` from another network (9 eusk rows lack
   live_status/posters); re-probe `www.bilbao.eus` codec jpgs from a
   Spanish IP (24 `blb_` rows WAF-403 here) + recheck `GIP_zumaia2`
