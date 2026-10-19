@@ -131,11 +131,17 @@
   Mata pKAlUXmJnDU); torrevieja.com IPCamLive keeper = websocket
   stream, no public m3u8, parked → 231,341 rows / public
   **231,200** (`cuen`, `trv` prefixes)
+- **DGT eTraffic re-census (47o)**: API 1,960→1,972 (0 removed);
+  12 new ids 188736..747 all AG-53/AG-54 Pontevedra, image 404
+  everywhere (pipeline lag) → ingested `dgt_240363..374`
+  live_status='' + recheck note; 22 dead rows re-probed, 0 revived
+  (24 stamped still-404@2026-10-19) → 231,353 rows / public
+  **231,212**
 
 ### Next
-- **DGT eTraffic re-census**: re-verify 21 dead / 150 auth_required
-  rows, catch new cams; camarasdgt.es IP-firewalled but eTraffic
-  JSON endpoints reachable from here
+- **Recheck 12 AG-53/54 DGT cams** (`dgt_240363..374`) + monthly
+  recheck of 22 still-dead rows; camarasdgt.es IP-firewalled but
+  eTraffic JSON endpoints reachable from here
 - Tiivii tenant enumeration parked (`webcams.tiivii.com/public/` =
   marketing page only, no tenant directory — need tenant hostnames
   from elsewhere); MeteoGalicia PDF-only retired cams

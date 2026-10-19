@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-19",
+ "api_now": 1972,
+ "new": {
+  "188741": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188739": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188737": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188736": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188740": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188738": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188742": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188744": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188745": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188743": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188746": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  },
+  "188747": {
+   "code": 404,
+   "ctype": "",
+   "lm": "",
+   "bytes": 0,
+   "live": false
+  }
+ },
+ "revived": {},
+ "gone_from_api": []
+}

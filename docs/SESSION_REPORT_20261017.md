@@ -687,6 +687,41 @@ images only as last resort; ingest everything into the dataset.
 - Next: DGT eTraffic re-census (re-verify 21 dead, catch new cams).
 
 
+## Round 12 — DGT eTraffic re-census (47o, 2026-10-19)
+
+- Prod `getCamaras` re-POST: **1,960 → 1,972** cams (0 removed).
+  12 new ids `188736..188747`, all **AG-53/AG-54** (Autovía Central
+  Gallega + Santiago airport link, Pontevedra), official API coords
+  precise.
+- All 12 image endpoints **404** on prod / pre-env hosts (infocar
+  200 = SPA fallback, wrong content-type): registered in getCamaras
+  but `camarasEtraffic` host not yet serving (pipeline lag or
+  pre-commission). Ingested `dgt_240363..240374` with
+  `live_status=''` + `image-404` note + `recheck@next-session`
+  (precedent: unverifiable-but-official rows are still ingested).
+- **22 dead rows** (404 since 2026-10-17 census) re-probed: **0
+  revived**, all still 404 → 24 rows stamped `still-404@2026-10-19`.
+- Totals **231,353** rows, public **231,212** / private 136 /
+  unknown 5; classifier + `GET /api/refresh` OK. `dgt` prefix
+  already in PUBLIC_CSV_PREFIXES.
+
+### Files
+
+- New: `camera_testing/_es_recensus47.py`,
+  `_es_camaras_etraffic_2026-10-19.json`, `_es_recensus_2026-10-19.json`,
+  `scripts/fix/es_dgt_recensus_ingest.py`,
+  `es_dgt_recensus_state.json`
+- Modified: `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- Recheck 12 AG-53/54 cams at next session start (image pipeline
+  may catch up); 22 still-dead rows recheck monthly.
+- Session 47 regional/census queue complete; open items are the
+  parked/global ones in TODO (Tiivii tenants, IPCamLive m3u8
+  pattern, worldwide feratel epic, Spanish-IP re-probes).
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 
