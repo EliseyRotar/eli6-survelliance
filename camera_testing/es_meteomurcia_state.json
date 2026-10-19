@@ -1,0 +1,13 @@
+{
+ "date": "2026-10-19",
+ "phase": "done",
+ "windy_notes_enriched": 1,
+ "ingested": [
+  "mmu_240354",
+  "mmu_240355",
+  "mmu_240356",
+  "mmu_240357"
+ ],
+ "live": 4,
+ "rows_after": 231336
+}

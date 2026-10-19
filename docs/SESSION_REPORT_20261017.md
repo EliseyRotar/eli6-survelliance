@@ -606,6 +606,42 @@ images only as last resort; ingest everything into the dataset.
   mapping heading↔id.
 
 
+## Round 10 — Murcia (MeteoMurcia.com) ingest (47m, 2026-10-19)
+
+- **webcammurcia.com** (Av. Libertad): already in CSV as live
+  `avlibertad.jpg` row (trafficvision `webcammurcia-avlibertad`,
+  Last-Modified fresh); enriched notes with the cam's Windy
+  cross-listing (`windy-id=1334517004`).
+- **meteomurcia.com/webcam.php** (Puente Tocinos private weather
+  station) embeds 4 feeds. Label↔embed mapping solved by captions
+  following embeds + YT og:title cross-check (CGNR = PTZ per own
+  title):
+  1. YouTube `CGNR241h08Q` = Webcam 1, PTZ robotizada 360° (live,
+     channel `UCG3TWlJ9eh4n7-zNXNfPISg` "MeteoMurcia.com")
+  2. CamSecure `wmcam.html` → `https://camsecure.co/HLS/murcia.m3u8`
+     = Webcam 2, fija Oeste-Suroeste (200 live, segmenting)
+  3. CamSecure `xmcam.html` → `…/murcia2.m3u8` = Webcam 3, fija
+     Este-Sureste (200 live)
+  4. YouTube `L1rgJ3gI2Eg` = composición webcams 2+3 (live)
+- Coords: OSM "Puente Tocinos" suburb 37.9929006/-1.1022155
+  (`nominatim-poi`; station coords not public on the page).
+- **4 ingested** `mmu_240354..357` (prefix `mmu`), type=video, all
+  live → totals **231,336** rows, public **231,195** / private 136 /
+  unknown 5; classifier + `GET /api/refresh` OK.
+
+### Files
+
+- New: `scripts/ingest/es_meteomurcia_ingest.py`,
+  `camera_testing/_murcia_{scan,probe,probe2,probe3,ctx}.py`,
+  `es_meteomurcia_state.json`
+- Modified: `scripts/fix/classify_visibility.py` (`mmu` prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- Next regional portals: Cuenca, Torrevieja; then DGT re-census.
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

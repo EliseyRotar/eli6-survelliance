@@ -115,10 +115,16 @@
   "no current image" placeholders → `live_status=''`) + **3 ingested**
   `sn_240351..353` (Laguna placeholder / Veleta live / Pradollano live
   + posters) → 231,332 rows / public **231,191** (`sn` prefix)
+- **Murcia (47m)**: webcammurcia.com Av. Libertad already live in CSV
+  (notes += windy-id 1334517004); MeteoMurcia.com (Puente Tocinos)
+  4 feeds all live ingested `mmu_240354..357` (PTZ YT CGNR241h08Q,
+  CamSecure HLS murcia/murcia2 = webcams 2/3 fijas, composition YT
+  L1rgJ3gI2Eg; OSM Puente Tocinos coords) → 231,336 rows / public
+  **231,195** (`mmu` prefix)
 
 ### Next
 - **New scouting**: regional portals still uncharted (Cuenca,
-  Torrevieja, WebcamMurcia); Tiivii tenant enumeration parked
+  Torrevieja); Tiivii tenant enumeration parked
   (`webcams.tiivii.com/public/` = marketing page only, no tenant
   directory — need tenant hostnames from elsewhere); MeteoGalicia
   PDF-only retired cams (Fontaneira/Lira) skipped; re-probe CRTVG
