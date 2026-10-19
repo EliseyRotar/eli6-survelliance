@@ -642,6 +642,51 @@ images only as last resort; ingest everything into the dataset.
 - Next regional portals: Cuenca, Torrevieja; then DGT re-census.
 
 
+## Round 11 — Cuenca + Torrevieja ingest (47n, 2026-10-19)
+
+- **Cuenca (Ayuntamiento)**: 2 municipal cams on cuenca.es portal.
+  1. Plaza Mayor: old Axis ASP generator
+     `https://webcam.cuenca.es/live_plazamayor/readImage.asp`
+     (200 image/jpeg, 800×450; md5 changes every poll = live refresh).
+     Host root = 403 dir listing (no path enumeration).
+  2. San Miguel: `/webcam-sanmiguel` embeds iframe →
+     `https://cuenca.es/webcam/imagen.php` (title "Webcam Excmo. Ayto.
+     Cuenca - Anteplaza", 60s meta-refresh) → `./image-r.jpg`
+     (960×540). Full-res sibling `image.jpg` (1920×1080) shares the
+     exact Last-Modified = same camera; ingested the full-res URL.
+- **Torrevieja (Proyecto Mastral)**: portal
+  `webcams.eltiempoentorrevieja.es` lists 7 YouTube live cams; 5
+  already in CSV (`tv_133987..133991`, all live). 3 new ids live
+  ingested: `SxXx0nFpJRo` (Laguna de Torrevieja / Hospital
+  Universitario), `kyWsLIVS4Oo` (Salinas — current portal id; note
+  existing `tv_133987` uses older `p3m2po8KcAg`, both live → both
+  kept), `pKAlUXmJnDU` (Laguna de La Mata, distinct from beach cam
+  `tv_133989` Playa de La Mata). All owner `ProyectoMastral`.
+- torrevieja.com tourism portal embeds IPCamLive `alias=keeper`
+  (Paseo Juan Aparicio): websocket-streamed player, common
+  ipcamlive playlist URLs all 404 → parked, not ingestible as
+  standard url.
+- **5 ingested** `cuen_240358..359` + `trv_240360..362` (prefixes
+  `cuen`, `trv`) → totals **231,341** rows, public **231,200** /
+  private 136 / unknown 5; classifier + `GET /api/refresh` OK.
+
+### Files
+
+- New: `scripts/ingest/es_cuenca_torv_ingest.py`,
+  `camera_testing/_cuenca_{torv_scan,torv_probe,keeper_probe,cams_probe,links,urls,sm_probe}.py`,
+  `es_cuenca_torv_state.json`
+- Modified: `scripts/fix/classify_visibility.py` (`cuen`, `trv`
+  prefixes), `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- Regional portal queue now exhausted (Gijón, Sierra Nevada, Murcia,
+  Cuenca, Torrevieja done); IPCamLive public stream URL pattern still
+  unknown (worth one dedicated session if more IPCamLive cams appear
+  in CSV).
+- Next: DGT eTraffic re-census (re-verify 21 dead, catch new cams).
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 

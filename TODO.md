@@ -121,14 +121,26 @@
   CamSecure HLS murcia/murcia2 = webcams 2/3 fijas, composition YT
   L1rgJ3gI2Eg; OSM Puente Tocinos coords) → 231,336 rows / public
   **231,195** (`mmu` prefix)
+- **Cuenca + Torrevieja (47n)**: Cuenca municipal 2 cams live
+  ingested `cuen_240358..359` (Plaza Mayor Axis ASP readImage.asp;
+  San Miguel/Anteplaza imagen.php→image.jpg full-res, same
+  Last-Modified as image-r.jpg); Torrevieja Proyecto Mastral portal
+  = 7 YT cams, 5 already live in CSV, 3 new live ingested
+  `trv_240360..362` (Laguna/Hospital SxXx0nFpJRo, Salinas nueva
+  kyWsLIVS4Oo alongside older p3m2po8KcAg both live, Laguna de La
+  Mata pKAlUXmJnDU); torrevieja.com IPCamLive keeper = websocket
+  stream, no public m3u8, parked → 231,341 rows / public
+  **231,200** (`cuen`, `trv` prefixes)
 
 ### Next
-- **New scouting**: regional portals still uncharted (Cuenca,
-  Torrevieja); Tiivii tenant enumeration parked
-  (`webcams.tiivii.com/public/` = marketing page only, no tenant
-  directory — need tenant hostnames from elsewhere); MeteoGalicia
-  PDF-only retired cams (Fontaneira/Lira) skipped; re-probe CRTVG
-  `sanxenxo` (config active, stream 404)
+- **DGT eTraffic re-census**: re-verify 21 dead / 150 auth_required
+  rows, catch new cams; camarasdgt.es IP-firewalled but eTraffic
+  JSON endpoints reachable from here
+- Tiivii tenant enumeration parked (`webcams.tiivii.com/public/` =
+  marketing page only, no tenant directory — need tenant hostnames
+  from elsewhere); MeteoGalicia PDF-only retired cams
+  (Fontaneira/Lira) skipped; re-probe CRTVG `sanxenxo` (config
+  active, stream 404)
 - **Epic (worldwide, not ES/AD)**: flip remaining **795**
   `media.trafficvision.live/feratel/*.mp4` `auth_required` rows to
   public `webtvhotspot.feratel.com/hotspot/37/<id>/0.jpeg` (same
