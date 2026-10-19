@@ -750,8 +750,10 @@ images only as last resort; ingest everything into the dataset.
   (official name+quadrant, precise coords, region/city/category,
   marker `rectified-2026-10-19-from-official-source`); 4 unlisted
   junk rows cleaned to "Calgary traffic camera (unlisted locN)";
-  **4 ingested** `yyc_240375..378` (loc159/169/210/223, live,
-  posters, `no_geocode_result` — absent from open data).
+  **4 ingested** `yyc_240375..378` (loc159/169/210/223, posters);
+  overlay+md5 evidence then marked loc159/169/210 **frozen**
+  (`live_status=''`, stale-overlay dates Jul 05 / Jan 08 / Jul 21)
+  and loc223 live (50 Ave & Macleod Tr S, Oct 19 frame).
 - Alberta 511 `Cctv/` cams: 360 rows already in CSV (province
   source, out of Calgary scope, left as-is).
 - Totals **231,357** rows, public **231,216** / private 136 /
@@ -769,7 +771,15 @@ images only as last resort; ingest everything into the dataset.
 
 - The 4 unlisted cams (loc159/169/210/223) could be located via
   image-landmark matching (downtown/skyline views) if coords are
-  ever needed; not blocking.
+  ever needed; not blocking. **Done same day**: overlays read from
+  frames identified all 4 (4 Ave & 2 St SW / 9 Ave & 9 St SW /
+  96 Ave/Airport Tr & 60 St NE / 50 Ave & Macleod Tr S); md5
+  freshness @95s proved loc159/169/210 = **frozen stale frames**
+  (overlay dates Jul 05 / Jan 08 / Jul 21 — explains why they're
+  unlisted) → `live_status=''` + overlay evidence notes; loc223
+  live (overlay Oct 19, md5 changed). loc159 geocoded precise
+  (Nominatim bus_stop, downtown); other 3 Nominatim queries fell
+  back to city centroid → rejected, honest `no_geocode_result`.
 - trafficcalgary.ca aggregator loads cams via its own JS/pages —
   if it later adds non-Calgary sources worth ingesting, revisit.
 

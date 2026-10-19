@@ -141,8 +141,12 @@
   loc0..223 (stills-only by design, all video variants 404, ATIS
   Motorola host Incapsula-403); Socrata k7p9-kppz 216 cams used to
   rectify 201 junk disc_ rows (name/quadrant/precise coords) +
-  clean 4 unlisted; 4 missing live cams ingested yyc_240375..378
-  (loc159/169/210/223 unlisted, posters, no coords) → 231,357
+  clean 4 unlisted; 4 missing cams ingested yyc_240375..378 with
+  posters; overlay+md5 identified all 4 unlisted (4 Ave & 2 St SW /
+  9 Ave & 9 St SW / 96 Ave/Airport Tr & 60 St NE / 50 Ave &
+  Macleod Tr S) — 3 frozen stale frames (Jul 05 / Jan 08 / Jul 21,
+  live_status='') + 1 live (loc223); loc159 geocoded, other 3
+  honest no_geocode_result (nominatim centroid rejected) → 231,357
   rows / public **231,216** (`yyc` prefix)
 
 ### Next
