@@ -137,6 +137,13 @@
   live_status='' + recheck note; 22 dead rows re-probed, 0 revived
   (24 stamped still-404@2026-10-19) → 231,353 rows / public
   **231,212**
+- **Calgary traffic cams (48a)**: full range probe 224 alive
+  loc0..223 (stills-only by design, all video variants 404, ATIS
+  Motorola host Incapsula-403); Socrata k7p9-kppz 216 cams used to
+  rectify 201 junk disc_ rows (name/quadrant/precise coords) +
+  clean 4 unlisted; 4 missing live cams ingested yyc_240375..378
+  (loc159/169/210/223 unlisted, posters, no coords) → 231,357
+  rows / public **231,216** (`yyc` prefix)
 
 ### Next
 - **Recheck 12 AG-53/54 DGT cams** (`dgt_240363..374`) + monthly

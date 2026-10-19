@@ -722,6 +722,58 @@ images only as last resort; ingest everything into the dataset.
   pattern, worldwide feratel epic, Spanish-IP re-probes).
 
 
+## Round 13 — Calgary traffic cameras (48a, 2026-10-19)
+
+- **Sources**: calgary.ca main page (JS-driven, no inline cam
+  URLs), `trafficcam.calgary.ca` stills host
+  (`loc<N>.jpg`, ~60s refresh verified), Open Calgary Socrata
+  `k7p9-kppz` (216 cams: camera_location + quadrant + GeoJSON
+  point), `y47k-7e97` (empty schema, skip), `dv2f-necx` (57
+  intersection safety/enforcement cams — devices, no public image
+  feed, skipped).
+- **Full range probe 0..250**: **224 alive** (`loc0..loc223`
+  contiguous), all ≥224 404 → 8 live cams unlisted on open data
+  (`10,109,118,159,169,171,210,223`).
+- **Live-feed hunt verdict: stills-only by design.** All
+  video-shaped variants (`.m3u8/.mjpg/.mp4/.ts`, `/locN/`,
+  `/hls/…`, axis-cgi, ISAPI, getimage.cgi, query forms) 404;
+  root 403 (no dir listing); InternetDB ports 80/443/8443, 8443
+  TLS-dead/filtered; ATIS footer host
+  `calgary-cwiprod.motorolasolutions.com` = Incapsula WAF 403
+  (311 request system, not a cam viewer); official FAQ: footage
+  not recorded. No public live video exists.
+- **CSV prior state**: 417 `trafficcam.calgary.ca` rows / 220
+  unique locs = 197 locs had junk argus `disc_` twin (url = host
+  root `:80`, name "Canada · Trafficcam · #N") alongside a good
+  `tv_` row; 4 live locs missing entirely.
+- **Actions**: 201 junk rows **rectified** from Socrata
+  (official name+quadrant, precise coords, region/city/category,
+  marker `rectified-2026-10-19-from-official-source`); 4 unlisted
+  junk rows cleaned to "Calgary traffic camera (unlisted locN)";
+  **4 ingested** `yyc_240375..378` (loc159/169/210/223, live,
+  posters, `no_geocode_result` — absent from open data).
+- Alberta 511 `Cctv/` cams: 360 rows already in CSV (province
+  source, out of Calgary scope, left as-is).
+- Totals **231,357** rows, public **231,216** / private 136 /
+  unknown 5; classifier (`yyc` prefix) + `GET /api/refresh` OK.
+
+### Files
+
+- New: `camera_testing/_yyc_{recon,variants,gap_atis,range,pages_csv,csv_cmpic,dups_atis,portswp}.py`,
+  `scripts/ingest/yyc_ingest.py`, `yyc_ingest_state.json`,
+  `k7p9-kppz.json` (temp), `yyc_range.json` (temp)
+- Modified: `scripts/fix/classify_visibility.py` (`yyc` prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+
+### Follow-ups
+
+- The 4 unlisted cams (loc159/169/210/223) could be located via
+  image-landmark matching (downtown/skyline views) if coords are
+  ever needed; not blocking.
+- trafficcalgary.ca aggregator loads cams via its own JS/pages —
+  if it later adds non-Calgary sources worth ingesting, revisit.
+
+
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 
