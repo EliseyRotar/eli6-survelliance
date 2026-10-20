@@ -782,6 +782,96 @@ images only as last resort; ingest everything into the dataset.
   back to city centroid → rejected, honest `no_geocode_result`.
 - trafficcalgary.ca aggregator loads cams via its own JS/pages —
   if it later adds non-Calgary sources worth ingesting, revisit.
+  **Resolved 48f**: it just hotlinks `trafficcam.calgary.ca/locN.jpg`
+  (same source, no new archive).
+
+
+## Round 14 — Calgary slideshow/timelapse loops + dataset-wide archive research (48c-48l, 2026-10-20)
+
+### Official 20-min slideshow source (FOUND)
+
+- calgary.ca map popup slideshow decoded from
+  `map_modular/clientlibs.min.js` (1.14 MB):
+  `MapX5.SlideshowControl(src, "trafficcam.calgary.ca/loc",
+  "trafficcam.calgary.ca/ss/$$1/loc", 9)` — the class loops indices
+  `9..0` then appends the live image:
+  **`https://trafficcam.calgary.ca/ss/<0..9>/locN.jpg` + `/locN.jpg`**
+  = **11 frames at exactly 2-min spacing = 20-minute loop** per cam
+  (Last-Modified sweep on loc86: ss9=15:46 … ss0=16:04, live=16:06,
+  11/11 unique md5s). This is the official slideshow the website shows.
+- **Built `official.{mp4,gif}` for 222/224 cams** →
+  `web_viewer/static/loops/yyc/<loc>/` (11 frames @1 fps). The 2
+  exceptions: **loc159/169** = the frozen retired cams — no `/ss/`
+  history at all (only the stale live jpg), skipped honestly.
+
+### Wayback multi-year loops (in progress)
+
+- CDX digest-collapsed per loc (filter statuscode:200, image/jpeg):
+  depth varies wildly — loc17≈47, loc4/5≈49-54, loc22=117, loc202=0.
+- Raw `id_` downloads got aggressively 429-throttled by Wayback after
+  an initial burst; fixed by **sequential walker + 5 s success pacing
+  + 60 s×attempt backoff** (3-worker burst = hours of penalties).
+  Job runs detached (`camera_testing/yyc_wayback.log`), incremental
+  per-cam frame cache, builds `wayback.{mp4,gif}` (2 fps / GIF
+  subsampled 640px) for cams with ≥2 frames. Some high-numbered locs
+  genuinely have 0 Wayback history.
+
+### Dataset-wide archive-capable source research (user: "other cameras that supports this")
+
+- Grep of all `live_stream_url`/`url` for archive-ish patterns surfaced
+  two dated-path families + many benign "snapshot" live endpoints.
+- **AB511 (360 rows): live-only, NO archive.** `/map/Cctv/<id>` serves
+  the live still (PNG placeholder if offline). `/map/Cctv/<id>/<idx>`
+  looks like history but **ignores the id** (138975 ≡ 139001 bytes,
+  bogus ids also 200) with dynamic content; the real JS
+  (`/bundles/myCctv`) only uses bare `/map/Cctv/${d.id}` +
+  `data-refresh-rate`. Dead end.
+- **IEM `mesonet.agron.iastate.edu` (17 CSV rows, 13 unique cams):
+  REAL multi-year archive.** Daily dirs list **288 frames/day at
+  5-min granularity** (`camera/KCCI-036/KCCI-036_YYYYMMDDHHMM.jpg`);
+  dirs exist 2016→today (2008/2012 404) → years of history possible.
+  Cams: KCCI-027/034/036 + KCRG-001/005/012/013/016/018/027/029/
+  032/035. **Built `archive_7d.mp4`** (last 7 days @5-min, 4 fps,
+  ~1,731-2,009 frames/cam, full-res) **+ `archive_1d.gif`** (last day
+  @6 fps, 480 px) for **all 13** → `loops/iem/<CAM>/` (~2.0 GB total;
+  KCRG-001 retired ~Oct 01 — fallback walker anchored its window there).
+- trafficcalgary.ca: hotlink of trafficcam (already covered).
+- **allsky.tv (145 rows): NOT enumerable** — S3 bucket listing
+  `AccessDenied`; only `AMS18/LATEST/*` fetchable.
+- **MBJB Malaysia (22 rows): host unreachable** (curl 000) from our
+  network — dated dirs exist per CSV URL but blocked.
+- Verdict: beyond Calgary's own 20-min loop, **IEM's 13 cams** are the
+  only dataset source with a real long-form archive loop capability.
+
+### Totals / artifacts
+
+- Loop artifacts live in `web_viewer/static/loops/{yyc,iem}/`
+  (**not committed** — hundreds of MB; manifest committed instead at
+  `docs/loops_manifest.json` via `camera_testing/_loops_manifest.py`).
+- CSV untouched this round (no new rows; 231,357 / public 231,216).
+
+### Files
+
+- New: `camera_testing/_yyc_timelapse_recon.py`, `_yyc_ss_extract.py`,
+  `_yyc_ss_extract2.py`, `_yyc_ss_probe.py`, `_yyc_loops_official.py`,
+  `_yyc_loops_wayback.py`, `_iem_loops.py`, `_iem_loops_fallback.py`,
+  `_loops_manifest.py`, `_yyc_other_sources_probe{,2}.py`,
+  `_yyc_ab511_{probe,decode}.py`, `_yyc_allsky_{mbjb,s3}_probe.py`;
+  logs `yyc_wayback.log`, `iem_loops.log`;
+  state `yyc_official_loops.json`, `yyc_wayback_loops.json`,
+  `iem_loops.json`
+- Modified: `TODO.md`, this report
+
+### Follow-ups
+
+- Wayback job: let it finish; patch Round 14 + manifest with final
+  cam/frame counts.
+- If deeper loops desired later: IEM supports arbitrary depth (walk
+  back years at 5-min steps — a 30-day loop = 8,640 frames/cam);
+  Calgary official archive is hard-capped at 20 min.
+- Wayback CDX for `trafficcam.calgary.ca/ss/*` paths (the /ss/ frames
+  themselves may have been archived → could extend the 20-min window
+  historically) — not yet probed.
 
 
 

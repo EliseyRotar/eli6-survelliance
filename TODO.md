@@ -1,6 +1,57 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
 
+## ✅ Session 48 (2026-10-19/20) — Calgary enum/rectify (48a-b) + slideshow/timelapse loop videos (48c-k)
+
+### Done
+- **48a/48b**: Calgary 224-cam census, 201 `disc_` rectified from
+  Socrata, 4 unlisted ingested `yyc_240375..378`, overlay IDs +
+  frozen/live verdicts (details: SESSION_REPORT Round 13)
+- **48c slideshow source FOUND**: `map_modular/clientlibs.min.js` →
+  `MapX5.SlideshowControl(src, "trafficcam.calgary.ca/loc",
+  "trafficcam.calgary.ca/ss/$$1/loc", 9)` = official archive
+  **`https://trafficcam.calgary.ca/ss/<0..9>/locN.jpg`** — 11 frames
+  incl. live at exactly **2-min spacing = 20-min loop** (Last-Modified
+  sweep 15:46→16:06 verified; this is the site's slideshow)
+- **48d official loops**: `official.{mp4,gif}` built for **222/224**
+  cams → `web_viewer/static/loops/yyc/<loc>/` (11 frames @1 fps);
+  loc159/169 retired → no `/ss/` history (1 frame only, skipped)
+- **48e Wayback multi-year loops**: CDX digest-collapsed per loc
+  (loc17=47, loc5=54, loc202=0 rows) → downloads needed aggressive
+  pacing (Wayback 429 → sequential + 5 s success / 60 s backoff),
+  builds `wayback.{mp4,gif}` for cams with ≥2 frames (incremental cache)
+- **Archive-source research (dataset-wide)**:
+  - AB511 360 rows: **live-only** — `/map/Cctv/<id>/<idx>` ignores
+    the id (identical bytes across valid ids, dynamic content);
+    real JS uses bare `/map/Cctv/${id}` + refresh-rate only
+  - trafficcalgary.ca: hotlinks `trafficcam.calgary.ca/locN.jpg` —
+    same source already covered (follow-up resolved)
+  - **IEM `mesonet.agron.iastate.edu` = real archive**: 13 unique
+    cams (KCCI-027/034/036, KCRG-001/005/012/013/016/018/027/029/
+    032/035; 17 CSV rows), **288 frames/day @5-min**, dirs exist
+    2016→today (2008/2012 404) → `archive_7d.mp4` + `archive_1d.gif`
+  - allsky.tv: S3 listing `AccessDenied`, only `AMS18/LATEST/` fetchable
+    → no enumerable archive
+  - MBJB Malaysia dated dirs: host unreachable (curl 000) from our
+    network → blocked
+- User format decision: **MP4 + GIF both**, every camera
+
+### In progress
+- Wayback Calgary loops (detached, `camera_testing/yyc_wayback.log`)
+- IEM 13-cam archive loops (detached, `camera_testing/iem_loops.log`)
+
+### Files
+- New: `camera_testing/_yyc_timelapse_recon.py`,
+  `_yyc_ss_extract{,2}.py`, `_yyc_ss_probe.py`, `_yyc_loops_official.py`,
+  `_yyc_loops_wayback.py`, `_iem_loops.py`, `_loops_manifest.py`,
+  `_yyc_other_sources_probe{,2}.py`, `_yyc_ab511_{probe,decode}.py`,
+  `_yyc_allsky_{mbjb,s3}_probe.py`; logs `yyc_wayback.log`,
+  `iem_loops.log`; state `yyc_official_loops.json`,
+  `yyc_wayback_loops.json`, `iem_loops.json`
+- Artifacts (uncommitted): `web_viewer/static/loops/{yyc,iem}/`;
+  manifest → `docs/loops_manifest.json`
+
+
 ## ✅ Session 47 (2026-10-17) — Spain/Andorra: eTraffic gap-close + 5-source enum + 2,086-row rectification
 
 ### Done

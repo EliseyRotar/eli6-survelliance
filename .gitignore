@@ -76,3 +76,4 @@ camera_testing/rockyou.txt
 camera_testing/tv_catalog*.json
 camera_testing/csv_chunks/
 data/cams.db
+web_viewer/static/loops/
