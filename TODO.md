@@ -56,6 +56,29 @@
   `yyc_wayback_loops.json`, `iem_loops.json`
 - Artifacts (uncommitted): `web_viewer/static/loops/{yyc,iem}/`;
   manifest → `docs/loops_manifest.json`
+- **48p auto-refresh (DONE — official loops now live, never stale)**:
+  `_yyc_loops_ring.py` ring refresher — every cycle fetches only
+  `live + /ss/0/` per cam (2 req, ~37 MB/cycle, ~10 GB/day), appends
+  to an 11-frame ring, re-encodes `official.{mp4,gif}` atomically,
+  regenerates gallery index; **Windows Task Scheduler**:
+  `Eli6LoopsOfficialRing` (every 5 min, `StartWhenAvailable` — missed
+  windows catch up on wake) + `Eli6LoopsOfficialDaily` (`--full`
+  rebuild @04:00); launchers `run_ring{,_full}.cmd` (pythonw, no
+  console), log `camera_testing/yyc_ring.log`. Loop at 5-min cadence =
+  ~55-min window, newest frame ≤7 min old. IEM loops left static
+  (user), Wayback manual-only (snapshots accumulate every ~weeks)
+- Direct cam links: `http://127.0.0.1:8773/?cam=<idx>`
+  (loc86=139672, loc17=139659, loc223=240378) — verified deep-link
+  opens the cam player
+
+### Next
+- Parked: AG-53/54 DGT recheck; Tiivii tenant enumeration;
+  IPCamLive public m3u8 pattern; worldwide feratel epic (~795
+  `media.trafficvision.live/feratel/*.mp4` auth_required); CRTVG
+  `sanxenxo` re-probe; Spanish-IP re-probes (blb 403, trafikoa,
+  camarasdgt)
+- Optional later: deeper IEM loops (arbitrary depth); re-run
+  `_yyc_loops_wayback.py` months later for new snapshots
 
 
 ## ✅ Session 47 (2026-10-17) — Spain/Andorra: eTraffic gap-close + 5-source enum + 2,086-row rectification

@@ -880,6 +880,40 @@ images only as last resort; ingest everything into the dataset.
   `_yyc_loops_wayback.py` months later to pick up new captures (cache
   is incremental).
 
+### Round 14 addendum — official-loop auto-refresh (48p, 2026-10-20)
+
+- User feedback: built `official.mp4` files are frozen snapshots (built
+  overnight Oct 20) — they must show **today, right now**, updating
+  daily. Root cause: the `/ss/` archive only ever holds the last 20
+  min, so a one-shot MP4 goes stale immediately.
+- Design (user choices: 5-min cadence, IEM stays static, PC often off
+  overnight): **rolling ring refresher** `_yyc_loops_ring.py` —
+  every cycle fetches only `live + /ss/0/` per cam (2 × ~85 KB ×
+  222 ≈ 37 MB/cycle, ~10 GB/day), appends new frames (cap 11,
+  drop oldest), re-encodes `official.{mp4,gif}` **atomically**
+  (tmp + `os.replace` — no stutter/404 mid-encode), regenerates the
+  gallery index. Loop geometry at 5-min sampling: 11 frames ≈
+  **55-min window, newest ≤7 min old** (exact 20-min@2-min window at
+  5-min cadence would be 60 GB/day scraping — rejected as rude).
+- **Windows Task Scheduler** (not a resident process):
+  `Eli6LoopsOfficialRing` = every 5 min, `Eli6LoopsOfficialDaily` =
+  `--full` clean rebuild @04:00; both with `StartWhenAvailable`
+  (missed windows — e.g. PC off overnight — catch up on next
+  wake/boot), `IgnoreNew` overlap guard, no battery-stop.
+  Launchers: `camera_testing/run_ring{,_full}.cmd` → `pythonw.exe`
+  (no console), logs to `camera_testing/yyc_ring.log`.
+- Verified: 2 test cycles — 218 ring-ok / 4 nochange / 2
+  loc159+169 ring-init (frozen, no `/ss/` frames — skip honestly);
+  steady state 11 frames/cam; task start chain tested via
+  `Start-ScheduledTask` (log line confirmed). IEM/wayback loops
+  deliberately left non-auto (IEM static per user; Wayback snapshots
+  accumulate every few weeks).
+- Direct cam deep-links (user asked): `http://127.0.0.1:8773/?cam=<idx>`
+  (e.g. `?cam=139672` = loc86, `?cam=139659` = loc17,
+  `?cam=240378` = loc223) — verified: `app.js` URL routing
+  (`URL_KEYS.cam`, boot `openDetail` app.js:1832) + first-visit
+  consent gate accepted.
+
 
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)

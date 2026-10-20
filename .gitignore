@@ -69,6 +69,7 @@ controllable_Webcams_*
 # Runtime state / progress artifacts
 *.pid
 *.err
+*.lock
 reap_results.json
 
 # Large reference data (password lists, catalogs)

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T08:09:32",
+ "generated": "2026-10-20T18:30:17",
  "loops": [
   {
    "source": "iem",
@@ -202,11 +202,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/0/official.mp4",
-     "bytes": 1044479
+     "bytes": 1319534
     },
     "official_gif": {
      "path": "yyc/0/official.gif",
-     "bytes": 4146650
+     "bytes": 4099152
     },
     "wayback_mp4": {
      "path": "yyc/0/wayback.mp4",
@@ -226,11 +226,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/1/official.mp4",
-     "bytes": 488712
+     "bytes": 652868
     },
     "official_gif": {
      "path": "yyc/1/official.gif",
-     "bytes": 3576119
+     "bytes": 3335539
     },
     "wayback_mp4": {
      "path": "yyc/1/wayback.mp4",
@@ -250,11 +250,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/2/official.mp4",
-     "bytes": 743937
+     "bytes": 1107815
     },
     "official_gif": {
      "path": "yyc/2/official.gif",
-     "bytes": 3774087
+     "bytes": 3667447
     },
     "wayback_mp4": {
      "path": "yyc/2/wayback.mp4",
@@ -274,11 +274,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/3/official.mp4",
-     "bytes": 925704
+     "bytes": 1301558
     },
     "official_gif": {
      "path": "yyc/3/official.gif",
-     "bytes": 3986839
+     "bytes": 4075578
     },
     "wayback_mp4": {
      "path": "yyc/3/wayback.mp4",
@@ -298,11 +298,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/4/official.mp4",
-     "bytes": 998876
+     "bytes": 1450762
     },
     "official_gif": {
      "path": "yyc/4/official.gif",
-     "bytes": 4174899
+     "bytes": 4145647
     },
     "wayback_mp4": {
      "path": "yyc/4/wayback.mp4",
@@ -322,11 +322,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/5/official.mp4",
-     "bytes": 784912
+     "bytes": 1031983
     },
     "official_gif": {
      "path": "yyc/5/official.gif",
-     "bytes": 3461469
+     "bytes": 3078169
     },
     "wayback_mp4": {
      "path": "yyc/5/wayback.mp4",
@@ -346,11 +346,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/6/official.mp4",
-     "bytes": 535469
+     "bytes": 697172
     },
     "official_gif": {
      "path": "yyc/6/official.gif",
-     "bytes": 3714424
+     "bytes": 3334452
     },
     "wayback_mp4": {
      "path": "yyc/6/wayback.mp4",
@@ -370,11 +370,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/7/official.mp4",
-     "bytes": 624905
+     "bytes": 824891
     },
     "official_gif": {
      "path": "yyc/7/official.gif",
-     "bytes": 3052652
+     "bytes": 3246896
     },
     "wayback_mp4": {
      "path": "yyc/7/wayback.mp4",
@@ -394,11 +394,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/8/official.mp4",
-     "bytes": 913786
+     "bytes": 1380342
     },
     "official_gif": {
      "path": "yyc/8/official.gif",
-     "bytes": 4143165
+     "bytes": 4206344
     },
     "wayback_mp4": {
      "path": "yyc/8/wayback.mp4",
@@ -418,11 +418,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/9/official.mp4",
-     "bytes": 600649
+     "bytes": 1114348
     },
     "official_gif": {
      "path": "yyc/9/official.gif",
-     "bytes": 3203656
+     "bytes": 3763965
     },
     "wayback_mp4": {
      "path": "yyc/9/wayback.mp4",
@@ -442,11 +442,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/10/official.mp4",
-     "bytes": 130629
+     "bytes": 1268209
     },
     "official_gif": {
      "path": "yyc/10/official.gif",
-     "bytes": 324475
+     "bytes": 4040093
     },
     "wayback_mp4": {
      "path": "yyc/10/wayback.mp4",
@@ -466,11 +466,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/11/official.mp4",
-     "bytes": 448108
+     "bytes": 686105
     },
     "official_gif": {
      "path": "yyc/11/official.gif",
-     "bytes": 3123676
+     "bytes": 3257598
     },
     "wayback_mp4": {
      "path": "yyc/11/wayback.mp4",
@@ -490,11 +490,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/12/official.mp4",
-     "bytes": 534117
+     "bytes": 784603
     },
     "official_gif": {
      "path": "yyc/12/official.gif",
-     "bytes": 3218496
+     "bytes": 3272265
     },
     "wayback_mp4": {
      "path": "yyc/12/wayback.mp4",
@@ -514,11 +514,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/13/official.mp4",
-     "bytes": 736877
+     "bytes": 932393
     },
     "official_gif": {
      "path": "yyc/13/official.gif",
-     "bytes": 3963666
+     "bytes": 3267929
     },
     "wayback_mp4": {
      "path": "yyc/13/wayback.mp4",
@@ -538,11 +538,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/14/official.mp4",
-     "bytes": 679952
+     "bytes": 982012
     },
     "official_gif": {
      "path": "yyc/14/official.gif",
-     "bytes": 3396368
+     "bytes": 3387570
     },
     "wayback_mp4": {
      "path": "yyc/14/wayback.mp4",
@@ -562,11 +562,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/15/official.mp4",
-     "bytes": 1255766
+     "bytes": 1524206
     },
     "official_gif": {
      "path": "yyc/15/official.gif",
-     "bytes": 4278109
+     "bytes": 4106936
     },
     "wayback_mp4": {
      "path": "yyc/15/wayback.mp4",
@@ -586,11 +586,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/16/official.mp4",
-     "bytes": 526470
+     "bytes": 768070
     },
     "official_gif": {
      "path": "yyc/16/official.gif",
-     "bytes": 3133907
+     "bytes": 3190588
     },
     "wayback_mp4": {
      "path": "yyc/16/wayback.mp4",
@@ -610,11 +610,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/17/official.mp4",
-     "bytes": 1110309
+     "bytes": 1475834
     },
     "official_gif": {
      "path": "yyc/17/official.gif",
-     "bytes": 3981023
+     "bytes": 4141492
     },
     "wayback_mp4": {
      "path": "yyc/17/wayback.mp4",
@@ -634,11 +634,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/18/official.mp4",
-     "bytes": 708676
+     "bytes": 1121260
     },
     "official_gif": {
      "path": "yyc/18/official.gif",
-     "bytes": 3730054
+     "bytes": 3925860
     },
     "wayback_mp4": {
      "path": "yyc/18/wayback.mp4",
@@ -658,11 +658,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/19/official.mp4",
-     "bytes": 1048556
+     "bytes": 1451883
     },
     "official_gif": {
      "path": "yyc/19/official.gif",
-     "bytes": 4061623
+     "bytes": 4261905
     },
     "wayback_mp4": {
      "path": "yyc/19/wayback.mp4",
@@ -682,11 +682,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/20/official.mp4",
-     "bytes": 931482
+     "bytes": 1238646
     },
     "official_gif": {
      "path": "yyc/20/official.gif",
-     "bytes": 3471075
+     "bytes": 3611400
     },
     "wayback_mp4": {
      "path": "yyc/20/wayback.mp4",
@@ -706,11 +706,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/21/official.mp4",
-     "bytes": 639128
+     "bytes": 983583
     },
     "official_gif": {
      "path": "yyc/21/official.gif",
-     "bytes": 3227486
+     "bytes": 3795599
     },
     "wayback_mp4": {
      "path": "yyc/21/wayback.mp4",
@@ -730,11 +730,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/22/official.mp4",
-     "bytes": 799619
+     "bytes": 1186694
     },
     "official_gif": {
      "path": "yyc/22/official.gif",
-     "bytes": 3297550
+     "bytes": 3623959
     },
     "wayback_mp4": {
      "path": "yyc/22/wayback.mp4",
@@ -754,11 +754,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/23/official.mp4",
-     "bytes": 803138
+     "bytes": 1276900
     },
     "official_gif": {
      "path": "yyc/23/official.gif",
-     "bytes": 3370077
+     "bytes": 4120998
     },
     "wayback_mp4": {
      "path": "yyc/23/wayback.mp4",
@@ -778,11 +778,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/24/official.mp4",
-     "bytes": 1292802
+     "bytes": 1586937
     },
     "official_gif": {
      "path": "yyc/24/official.gif",
-     "bytes": 3843083
+     "bytes": 4196577
     },
     "wayback_mp4": {
      "path": "yyc/24/wayback.mp4",
@@ -802,11 +802,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/25/official.mp4",
-     "bytes": 634329
+     "bytes": 556345
     },
     "official_gif": {
      "path": "yyc/25/official.gif",
-     "bytes": 2906058
+     "bytes": 2549230
     },
     "wayback_mp4": {
      "path": "yyc/25/wayback.mp4",
@@ -826,11 +826,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/26/official.mp4",
-     "bytes": 530399
+     "bytes": 723199
     },
     "official_gif": {
      "path": "yyc/26/official.gif",
-     "bytes": 3357193
+     "bytes": 3376137
     },
     "wayback_mp4": {
      "path": "yyc/26/wayback.mp4",
@@ -850,11 +850,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/27/official.mp4",
-     "bytes": 900560
+     "bytes": 1218910
     },
     "official_gif": {
      "path": "yyc/27/official.gif",
-     "bytes": 3571749
+     "bytes": 3976253
     },
     "wayback_mp4": {
      "path": "yyc/27/wayback.mp4",
@@ -874,11 +874,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/28/official.mp4",
-     "bytes": 1005389
+     "bytes": 1209887
     },
     "official_gif": {
      "path": "yyc/28/official.gif",
-     "bytes": 3868443
+     "bytes": 3942747
     },
     "wayback_mp4": {
      "path": "yyc/28/wayback.mp4",
@@ -898,11 +898,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/29/official.mp4",
-     "bytes": 587149
+     "bytes": 857095
     },
     "official_gif": {
      "path": "yyc/29/official.gif",
-     "bytes": 3429899
+     "bytes": 3712322
     },
     "wayback_mp4": {
      "path": "yyc/29/wayback.mp4",
@@ -922,11 +922,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/30/official.mp4",
-     "bytes": 541480
+     "bytes": 1316395
     },
     "official_gif": {
      "path": "yyc/30/official.gif",
-     "bytes": 2732039
+     "bytes": 4095273
     },
     "wayback_mp4": {
      "path": "yyc/30/wayback.mp4",
@@ -946,11 +946,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/31/official.mp4",
-     "bytes": 539449
+     "bytes": 875631
     },
     "official_gif": {
      "path": "yyc/31/official.gif",
-     "bytes": 3057992
+     "bytes": 3549999
     },
     "wayback_mp4": {
      "path": "yyc/31/wayback.mp4",
@@ -970,11 +970,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/32/official.mp4",
-     "bytes": 261717
+     "bytes": 1429935
     },
     "official_gif": {
      "path": "yyc/32/official.gif",
-     "bytes": 437401
+     "bytes": 4016590
     },
     "wayback_mp4": {
      "path": "yyc/32/wayback.mp4",
@@ -994,11 +994,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/33/official.mp4",
-     "bytes": 901730
+     "bytes": 1328764
     },
     "official_gif": {
      "path": "yyc/33/official.gif",
-     "bytes": 3718240
+     "bytes": 3751534
     },
     "wayback_mp4": {
      "path": "yyc/33/wayback.mp4",
@@ -1018,11 +1018,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/34/official.mp4",
-     "bytes": 596973
+     "bytes": 862751
     },
     "official_gif": {
      "path": "yyc/34/official.gif",
-     "bytes": 3387140
+     "bytes": 3902449
     },
     "wayback_mp4": {
      "path": "yyc/34/wayback.mp4",
@@ -1042,11 +1042,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/35/official.mp4",
-     "bytes": 884571
+     "bytes": 1102860
     },
     "official_gif": {
      "path": "yyc/35/official.gif",
-     "bytes": 3583029
+     "bytes": 3827912
     },
     "wayback_mp4": {
      "path": "yyc/35/wayback.mp4",
@@ -1066,11 +1066,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/36/official.mp4",
-     "bytes": 516221
+     "bytes": 678593
     },
     "official_gif": {
      "path": "yyc/36/official.gif",
-     "bytes": 3303185
+     "bytes": 3895169
     },
     "wayback_mp4": {
      "path": "yyc/36/wayback.mp4",
@@ -1090,11 +1090,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/37/official.mp4",
-     "bytes": 742885
+     "bytes": 941234
     },
     "official_gif": {
      "path": "yyc/37/official.gif",
-     "bytes": 3243534
+     "bytes": 3499689
     },
     "wayback_mp4": {
      "path": "yyc/37/wayback.mp4",
@@ -1114,11 +1114,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/38/official.mp4",
-     "bytes": 485970
+     "bytes": 778681
     },
     "official_gif": {
      "path": "yyc/38/official.gif",
-     "bytes": 2917371
+     "bytes": 3369509
     },
     "wayback_mp4": {
      "path": "yyc/38/wayback.mp4",
@@ -1138,11 +1138,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/39/official.mp4",
-     "bytes": 588322
+     "bytes": 874826
     },
     "official_gif": {
      "path": "yyc/39/official.gif",
-     "bytes": 3106498
+     "bytes": 3447133
     },
     "wayback_mp4": {
      "path": "yyc/39/wayback.mp4",
@@ -1162,11 +1162,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/40/official.mp4",
-     "bytes": 657722
+     "bytes": 1026953
     },
     "official_gif": {
      "path": "yyc/40/official.gif",
-     "bytes": 3840790
+     "bytes": 3757964
     },
     "wayback_mp4": {
      "path": "yyc/40/wayback.mp4",
@@ -1186,11 +1186,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/41/official.mp4",
-     "bytes": 547418
+     "bytes": 789240
     },
     "official_gif": {
      "path": "yyc/41/official.gif",
-     "bytes": 3009043
+     "bytes": 3525854
     },
     "wayback_mp4": {
      "path": "yyc/41/wayback.mp4",
@@ -1210,11 +1210,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/42/official.mp4",
-     "bytes": 1171881
+     "bytes": 1355154
     },
     "official_gif": {
      "path": "yyc/42/official.gif",
-     "bytes": 4186775
+     "bytes": 4027505
     },
     "wayback_mp4": {
      "path": "yyc/42/wayback.mp4",
@@ -1234,11 +1234,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/43/official.mp4",
-     "bytes": 541781
+     "bytes": 962124
     },
     "official_gif": {
      "path": "yyc/43/official.gif",
-     "bytes": 3258908
+     "bytes": 3338021
     },
     "wayback_mp4": {
      "path": "yyc/43/wayback.mp4",
@@ -1258,11 +1258,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/44/official.mp4",
-     "bytes": 1028208
+     "bytes": 1338424
     },
     "official_gif": {
      "path": "yyc/44/official.gif",
-     "bytes": 4028561
+     "bytes": 3895416
     },
     "wayback_mp4": {
      "path": "yyc/44/wayback.mp4",
@@ -1282,11 +1282,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/45/official.mp4",
-     "bytes": 850778
+     "bytes": 1240065
     },
     "official_gif": {
      "path": "yyc/45/official.gif",
-     "bytes": 3768142
+     "bytes": 4146427
     },
     "wayback_mp4": {
      "path": "yyc/45/wayback.mp4",
@@ -1306,11 +1306,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/46/official.mp4",
-     "bytes": 554438
+     "bytes": 1006809
     },
     "official_gif": {
      "path": "yyc/46/official.gif",
-     "bytes": 3284943
+     "bytes": 3683892
     },
     "wayback_mp4": {
      "path": "yyc/46/wayback.mp4",
@@ -1330,11 +1330,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/47/official.mp4",
-     "bytes": 518875
+     "bytes": 670507
     },
     "official_gif": {
      "path": "yyc/47/official.gif",
-     "bytes": 3027736
+     "bytes": 2875988
     },
     "wayback_mp4": {
      "path": "yyc/47/wayback.mp4",
@@ -1354,11 +1354,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/48/official.mp4",
-     "bytes": 928920
+     "bytes": 1227073
     },
     "official_gif": {
      "path": "yyc/48/official.gif",
-     "bytes": 3954658
+     "bytes": 4174588
     },
     "wayback_mp4": {
      "path": "yyc/48/wayback.mp4",
@@ -1378,11 +1378,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/49/official.mp4",
-     "bytes": 695438
+     "bytes": 911911
     },
     "official_gif": {
      "path": "yyc/49/official.gif",
-     "bytes": 3594115
+     "bytes": 3628228
     },
     "wayback_mp4": {
      "path": "yyc/49/wayback.mp4",
@@ -1402,11 +1402,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/50/official.mp4",
-     "bytes": 906312
+     "bytes": 949264
     },
     "official_gif": {
      "path": "yyc/50/official.gif",
-     "bytes": 3541831
+     "bytes": 3678114
     },
     "wayback_mp4": {
      "path": "yyc/50/wayback.mp4",
@@ -1426,11 +1426,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/51/official.mp4",
-     "bytes": 1148483
+     "bytes": 1427474
     },
     "official_gif": {
      "path": "yyc/51/official.gif",
-     "bytes": 4008780
+     "bytes": 4208120
     },
     "wayback_mp4": {
      "path": "yyc/51/wayback.mp4",
@@ -1450,11 +1450,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/52/official.mp4",
-     "bytes": 646442
+     "bytes": 1343520
     },
     "official_gif": {
      "path": "yyc/52/official.gif",
-     "bytes": 3598060
+     "bytes": 4387363
     },
     "wayback_mp4": {
      "path": "yyc/52/wayback.mp4",
@@ -1474,11 +1474,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/53/official.mp4",
-     "bytes": 660018
+     "bytes": 1076558
     },
     "official_gif": {
      "path": "yyc/53/official.gif",
-     "bytes": 3774567
+     "bytes": 3796428
     },
     "wayback_mp4": {
      "path": "yyc/53/wayback.mp4",
@@ -1498,11 +1498,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/54/official.mp4",
-     "bytes": 570941
+     "bytes": 685072
     },
     "official_gif": {
      "path": "yyc/54/official.gif",
-     "bytes": 3163705
+     "bytes": 3056958
     },
     "wayback_mp4": {
      "path": "yyc/54/wayback.mp4",
@@ -1522,11 +1522,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/55/official.mp4",
-     "bytes": 595618
+     "bytes": 934151
     },
     "official_gif": {
      "path": "yyc/55/official.gif",
-     "bytes": 3510301
+     "bytes": 3293605
     },
     "wayback_mp4": {
      "path": "yyc/55/wayback.mp4",
@@ -1546,11 +1546,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/56/official.mp4",
-     "bytes": 585953
+     "bytes": 952055
     },
     "official_gif": {
      "path": "yyc/56/official.gif",
-     "bytes": 3584426
+     "bytes": 3332313
     },
     "wayback_mp4": {
      "path": "yyc/56/wayback.mp4",
@@ -1570,11 +1570,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/57/official.mp4",
-     "bytes": 967903
+     "bytes": 1410397
     },
     "official_gif": {
      "path": "yyc/57/official.gif",
-     "bytes": 4202320
+     "bytes": 4383380
     },
     "wayback_mp4": {
      "path": "yyc/57/wayback.mp4",
@@ -1594,11 +1594,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/58/official.mp4",
-     "bytes": 501266
+     "bytes": 930463
     },
     "official_gif": {
      "path": "yyc/58/official.gif",
-     "bytes": 3424320
+     "bytes": 3735329
     },
     "wayback_mp4": {
      "path": "yyc/58/wayback.mp4",
@@ -1618,11 +1618,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/59/official.mp4",
-     "bytes": 705827
+     "bytes": 1181706
     },
     "official_gif": {
      "path": "yyc/59/official.gif",
-     "bytes": 3439547
+     "bytes": 3271657
     },
     "wayback_mp4": {
      "path": "yyc/59/wayback.mp4",
@@ -1642,11 +1642,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/60/official.mp4",
-     "bytes": 513151
+     "bytes": 633485
     },
     "official_gif": {
      "path": "yyc/60/official.gif",
-     "bytes": 3258283
+     "bytes": 3290894
     },
     "wayback_mp4": {
      "path": "yyc/60/wayback.mp4",
@@ -1666,11 +1666,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/61/official.mp4",
-     "bytes": 889123
+     "bytes": 1109046
     },
     "official_gif": {
      "path": "yyc/61/official.gif",
-     "bytes": 4138113
+     "bytes": 3942382
     },
     "wayback_mp4": {
      "path": "yyc/61/wayback.mp4",
@@ -1690,11 +1690,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/62/official.mp4",
-     "bytes": 858288
+     "bytes": 1062187
     },
     "official_gif": {
      "path": "yyc/62/official.gif",
-     "bytes": 3879826
+     "bytes": 3820158
     },
     "wayback_mp4": {
      "path": "yyc/62/wayback.mp4",
@@ -1714,11 +1714,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/63/official.mp4",
-     "bytes": 644648
+     "bytes": 718094
     },
     "official_gif": {
      "path": "yyc/63/official.gif",
-     "bytes": 3567352
+     "bytes": 3464400
     },
     "wayback_mp4": {
      "path": "yyc/63/wayback.mp4",
@@ -1738,11 +1738,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/64/official.mp4",
-     "bytes": 850833
+     "bytes": 976692
     },
     "official_gif": {
      "path": "yyc/64/official.gif",
-     "bytes": 3875397
+     "bytes": 3784466
     },
     "wayback_mp4": {
      "path": "yyc/64/wayback.mp4",
@@ -1762,11 +1762,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/65/official.mp4",
-     "bytes": 752236
+     "bytes": 984027
     },
     "official_gif": {
      "path": "yyc/65/official.gif",
-     "bytes": 3526825
+     "bytes": 3605609
     },
     "wayback_mp4": {
      "path": "yyc/65/wayback.mp4",
@@ -1786,11 +1786,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/66/official.mp4",
-     "bytes": 578909
+     "bytes": 716542
     },
     "official_gif": {
      "path": "yyc/66/official.gif",
-     "bytes": 3198879
+     "bytes": 3049587
     },
     "wayback_mp4": {
      "path": "yyc/66/wayback.mp4",
@@ -1810,11 +1810,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/67/official.mp4",
-     "bytes": 838509
+     "bytes": 1023310
     },
     "official_gif": {
      "path": "yyc/67/official.gif",
-     "bytes": 3611125
+     "bytes": 3625457
     },
     "wayback_mp4": {
      "path": "yyc/67/wayback.mp4",
@@ -1834,11 +1834,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/68/official.mp4",
-     "bytes": 674378
+     "bytes": 874715
     },
     "official_gif": {
      "path": "yyc/68/official.gif",
-     "bytes": 3019601
+     "bytes": 3198130
     },
     "wayback_mp4": {
      "path": "yyc/68/wayback.mp4",
@@ -1858,11 +1858,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/69/official.mp4",
-     "bytes": 549840
+     "bytes": 989899
     },
     "official_gif": {
      "path": "yyc/69/official.gif",
-     "bytes": 3171777
+     "bytes": 3835301
     },
     "wayback_mp4": {
      "path": "yyc/69/wayback.mp4",
@@ -1882,11 +1882,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/70/official.mp4",
-     "bytes": 625580
+     "bytes": 807012
     },
     "official_gif": {
      "path": "yyc/70/official.gif",
-     "bytes": 3399513
+     "bytes": 3894163
     },
     "wayback_mp4": {
      "path": "yyc/70/wayback.mp4",
@@ -1906,11 +1906,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/71/official.mp4",
-     "bytes": 473793
+     "bytes": 725844
     },
     "official_gif": {
      "path": "yyc/71/official.gif",
-     "bytes": 2955660
+     "bytes": 3476067
     },
     "wayback_mp4": {
      "path": "yyc/71/wayback.mp4",
@@ -1930,11 +1930,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/72/official.mp4",
-     "bytes": 502453
+     "bytes": 618267
     },
     "official_gif": {
      "path": "yyc/72/official.gif",
-     "bytes": 2675493
+     "bytes": 2888679
     },
     "wayback_mp4": {
      "path": "yyc/72/wayback.mp4",
@@ -1954,11 +1954,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/73/official.mp4",
-     "bytes": 467666
+     "bytes": 564704
     },
     "official_gif": {
      "path": "yyc/73/official.gif",
-     "bytes": 2766056
+     "bytes": 2661401
     },
     "wayback_mp4": {
      "path": "yyc/73/wayback.mp4",
@@ -1978,11 +1978,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/74/official.mp4",
-     "bytes": 517203
+     "bytes": 685020
     },
     "official_gif": {
      "path": "yyc/74/official.gif",
-     "bytes": 2904039
+     "bytes": 2549604
     },
     "wayback_mp4": {
      "path": "yyc/74/wayback.mp4",
@@ -2002,11 +2002,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/75/official.mp4",
-     "bytes": 828052
+     "bytes": 1159428
     },
     "official_gif": {
      "path": "yyc/75/official.gif",
-     "bytes": 3500167
+     "bytes": 3843082
     },
     "wayback_mp4": {
      "path": "yyc/75/wayback.mp4",
@@ -2026,11 +2026,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/76/official.mp4",
-     "bytes": 793717
+     "bytes": 1072522
     },
     "official_gif": {
      "path": "yyc/76/official.gif",
-     "bytes": 3593957
+     "bytes": 3414901
     },
     "wayback_mp4": {
      "path": "yyc/76/wayback.mp4",
@@ -2050,11 +2050,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/77/official.mp4",
-     "bytes": 877197
+     "bytes": 1458628
     },
     "official_gif": {
      "path": "yyc/77/official.gif",
-     "bytes": 3411371
+     "bytes": 4597143
     },
     "wayback_mp4": {
      "path": "yyc/77/wayback.mp4",
@@ -2074,11 +2074,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/78/official.mp4",
-     "bytes": 593200
+     "bytes": 1034840
     },
     "official_gif": {
      "path": "yyc/78/official.gif",
-     "bytes": 3545533
+     "bytes": 4032209
     },
     "wayback_mp4": {
      "path": "yyc/78/wayback.mp4",
@@ -2098,11 +2098,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/79/official.mp4",
-     "bytes": 480454
+     "bytes": 767896
     },
     "official_gif": {
      "path": "yyc/79/official.gif",
-     "bytes": 2896744
+     "bytes": 3232709
     },
     "wayback_mp4": {
      "path": "yyc/79/wayback.mp4",
@@ -2122,11 +2122,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/80/official.mp4",
-     "bytes": 840490
+     "bytes": 1291861
     },
     "official_gif": {
      "path": "yyc/80/official.gif",
-     "bytes": 3865103
+     "bytes": 3960812
     },
     "wayback_mp4": {
      "path": "yyc/80/wayback.mp4",
@@ -2146,11 +2146,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/81/official.mp4",
-     "bytes": 831708
+     "bytes": 1349964
     },
     "official_gif": {
      "path": "yyc/81/official.gif",
-     "bytes": 3430884
+     "bytes": 3850596
     },
     "wayback_mp4": {
      "path": "yyc/81/wayback.mp4",
@@ -2170,11 +2170,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/82/official.mp4",
-     "bytes": 779064
+     "bytes": 1100213
     },
     "official_gif": {
      "path": "yyc/82/official.gif",
-     "bytes": 3621996
+     "bytes": 3469343
     },
     "wayback_mp4": {
      "path": "yyc/82/wayback.mp4",
@@ -2194,11 +2194,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/83/official.mp4",
-     "bytes": 464428
+     "bytes": 885991
     },
     "official_gif": {
      "path": "yyc/83/official.gif",
-     "bytes": 2860654
+     "bytes": 3233052
     },
     "wayback_mp4": {
      "path": "yyc/83/wayback.mp4",
@@ -2218,11 +2218,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/84/official.mp4",
-     "bytes": 622857
+     "bytes": 826644
     },
     "official_gif": {
      "path": "yyc/84/official.gif",
-     "bytes": 3149435
+     "bytes": 3531438
     },
     "wayback_mp4": {
      "path": "yyc/84/wayback.mp4",
@@ -2242,11 +2242,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/85/official.mp4",
-     "bytes": 501331
+     "bytes": 863202
     },
     "official_gif": {
      "path": "yyc/85/official.gif",
-     "bytes": 2742060
+     "bytes": 3115730
     },
     "wayback_mp4": {
      "path": "yyc/85/wayback.mp4",
@@ -2266,11 +2266,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/86/official.mp4",
-     "bytes": 577095
+     "bytes": 866149
     },
     "official_gif": {
      "path": "yyc/86/official.gif",
-     "bytes": 3061998
+     "bytes": 2996987
     },
     "wayback_mp4": {
      "path": "yyc/86/wayback.mp4",
@@ -2290,11 +2290,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/87/official.mp4",
-     "bytes": 544142
+     "bytes": 817662
     },
     "official_gif": {
      "path": "yyc/87/official.gif",
-     "bytes": 3109995
+     "bytes": 3606283
     },
     "wayback_mp4": {
      "path": "yyc/87/wayback.mp4",
@@ -2314,11 +2314,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/88/official.mp4",
-     "bytes": 723817
+     "bytes": 1174211
     },
     "official_gif": {
      "path": "yyc/88/official.gif",
-     "bytes": 3487510
+     "bytes": 3709744
     },
     "wayback_mp4": {
      "path": "yyc/88/wayback.mp4",
@@ -2338,11 +2338,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/89/official.mp4",
-     "bytes": 505660
+     "bytes": 745933
     },
     "official_gif": {
      "path": "yyc/89/official.gif",
-     "bytes": 3052505
+     "bytes": 2881970
     },
     "wayback_mp4": {
      "path": "yyc/89/wayback.mp4",
@@ -2362,11 +2362,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/90/official.mp4",
-     "bytes": 495687
+     "bytes": 610427
     },
     "official_gif": {
      "path": "yyc/90/official.gif",
-     "bytes": 3142398
+     "bytes": 3155020
     },
     "wayback_mp4": {
      "path": "yyc/90/wayback.mp4",
@@ -2386,11 +2386,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/91/official.mp4",
-     "bytes": 947646
+     "bytes": 1077249
     },
     "official_gif": {
      "path": "yyc/91/official.gif",
-     "bytes": 3951694
+     "bytes": 3809606
     },
     "wayback_mp4": {
      "path": "yyc/91/wayback.mp4",
@@ -2410,11 +2410,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/92/official.mp4",
-     "bytes": 834019
+     "bytes": 1086710
     },
     "official_gif": {
      "path": "yyc/92/official.gif",
-     "bytes": 3591111
+     "bytes": 3729106
     },
     "wayback_mp4": {
      "path": "yyc/92/wayback.mp4",
@@ -2434,11 +2434,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/93/official.mp4",
-     "bytes": 816981
+     "bytes": 994301
     },
     "official_gif": {
      "path": "yyc/93/official.gif",
-     "bytes": 3689049
+     "bytes": 3653180
     },
     "wayback_mp4": {
      "path": "yyc/93/wayback.mp4",
@@ -2458,11 +2458,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/94/official.mp4",
-     "bytes": 868274
+     "bytes": 1135749
     },
     "official_gif": {
      "path": "yyc/94/official.gif",
-     "bytes": 3584167
+     "bytes": 3400441
     },
     "wayback_mp4": {
      "path": "yyc/94/wayback.mp4",
@@ -2482,11 +2482,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/95/official.mp4",
-     "bytes": 622743
+     "bytes": 1100073
     },
     "official_gif": {
      "path": "yyc/95/official.gif",
-     "bytes": 3147648
+     "bytes": 3129868
     },
     "wayback_mp4": {
      "path": "yyc/95/wayback.mp4",
@@ -2506,11 +2506,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/96/official.mp4",
-     "bytes": 658585
+     "bytes": 927704
     },
     "official_gif": {
      "path": "yyc/96/official.gif",
-     "bytes": 3664667
+     "bytes": 3772051
     },
     "wayback_mp4": {
      "path": "yyc/96/wayback.mp4",
@@ -2530,11 +2530,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/97/official.mp4",
-     "bytes": 928610
+     "bytes": 1122165
     },
     "official_gif": {
      "path": "yyc/97/official.gif",
-     "bytes": 3886915
+     "bytes": 3994351
     },
     "wayback_mp4": {
      "path": "yyc/97/wayback.mp4",
@@ -2554,11 +2554,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/98/official.mp4",
-     "bytes": 643439
+     "bytes": 864104
     },
     "official_gif": {
      "path": "yyc/98/official.gif",
-     "bytes": 3684671
+     "bytes": 3628848
     },
     "wayback_mp4": {
      "path": "yyc/98/wayback.mp4",
@@ -2578,11 +2578,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/99/official.mp4",
-     "bytes": 905766
+     "bytes": 1419883
     },
     "official_gif": {
      "path": "yyc/99/official.gif",
-     "bytes": 3666873
+     "bytes": 3891612
     },
     "wayback_mp4": {
      "path": "yyc/99/wayback.mp4",
@@ -2602,11 +2602,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/100/official.mp4",
-     "bytes": 652999
+     "bytes": 760382
     },
     "official_gif": {
      "path": "yyc/100/official.gif",
-     "bytes": 3563492
+     "bytes": 2869806
     },
     "wayback_mp4": {
      "path": "yyc/100/wayback.mp4",
@@ -2626,11 +2626,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/101/official.mp4",
-     "bytes": 976632
+     "bytes": 1352679
     },
     "official_gif": {
      "path": "yyc/101/official.gif",
-     "bytes": 4059770
+     "bytes": 4268834
     },
     "wayback_mp4": {
      "path": "yyc/101/wayback.mp4",
@@ -2650,11 +2650,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/102/official.mp4",
-     "bytes": 982355
+     "bytes": 1398417
     },
     "official_gif": {
      "path": "yyc/102/official.gif",
-     "bytes": 3892742
+     "bytes": 4155722
     },
     "wayback_mp4": {
      "path": "yyc/102/wayback.mp4",
@@ -2674,11 +2674,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/103/official.mp4",
-     "bytes": 615585
+     "bytes": 592636
     },
     "official_gif": {
      "path": "yyc/103/official.gif",
-     "bytes": 3607886
+     "bytes": 2982413
     },
     "wayback_mp4": {
      "path": "yyc/103/wayback.mp4",
@@ -2698,11 +2698,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/104/official.mp4",
-     "bytes": 437176
+     "bytes": 600266
     },
     "official_gif": {
      "path": "yyc/104/official.gif",
-     "bytes": 2856471
+     "bytes": 2786500
     },
     "wayback_mp4": {
      "path": "yyc/104/wayback.mp4",
@@ -2722,11 +2722,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/105/official.mp4",
-     "bytes": 907261
+     "bytes": 1263691
     },
     "official_gif": {
      "path": "yyc/105/official.gif",
-     "bytes": 4035765
+     "bytes": 3757897
     },
     "wayback_mp4": {
      "path": "yyc/105/wayback.mp4",
@@ -2746,11 +2746,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/106/official.mp4",
-     "bytes": 680276
+     "bytes": 881212
     },
     "official_gif": {
      "path": "yyc/106/official.gif",
-     "bytes": 3583550
+     "bytes": 3693035
     },
     "wayback_mp4": {
      "path": "yyc/106/wayback.mp4",
@@ -2770,11 +2770,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/107/official.mp4",
-     "bytes": 563382
+     "bytes": 806057
     },
     "official_gif": {
      "path": "yyc/107/official.gif",
-     "bytes": 3417099
+     "bytes": 3399541
     },
     "wayback_mp4": {
      "path": "yyc/107/wayback.mp4",
@@ -2794,11 +2794,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/108/official.mp4",
-     "bytes": 866384
+     "bytes": 1215177
     },
     "official_gif": {
      "path": "yyc/108/official.gif",
-     "bytes": 3676567
+     "bytes": 3876558
     },
     "wayback_mp4": {
      "path": "yyc/108/wayback.mp4",
@@ -2842,11 +2842,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/110/official.mp4",
-     "bytes": 505561
+     "bytes": 818038
     },
     "official_gif": {
      "path": "yyc/110/official.gif",
-     "bytes": 3144707
+     "bytes": 3377362
     },
     "wayback_mp4": {
      "path": "yyc/110/wayback.mp4",
@@ -2866,11 +2866,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/111/official.mp4",
-     "bytes": 1080870
+     "bytes": 1341035
     },
     "official_gif": {
      "path": "yyc/111/official.gif",
-     "bytes": 3979171
+     "bytes": 4115314
     },
     "wayback_mp4": {
      "path": "yyc/111/wayback.mp4",
@@ -2890,11 +2890,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/112/official.mp4",
-     "bytes": 1335554
+     "bytes": 1301104
     },
     "official_gif": {
      "path": "yyc/112/official.gif",
-     "bytes": 4491151
+     "bytes": 4028599
     },
     "wayback_mp4": {
      "path": "yyc/112/wayback.mp4",
@@ -2914,11 +2914,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/113/official.mp4",
-     "bytes": 419253
+     "bytes": 461423
     },
     "official_gif": {
      "path": "yyc/113/official.gif",
-     "bytes": 2911618
+     "bytes": 2917590
     },
     "wayback_mp4": {
      "path": "yyc/113/wayback.mp4",
@@ -2938,11 +2938,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/114/official.mp4",
-     "bytes": 713605
+     "bytes": 896555
     },
     "official_gif": {
      "path": "yyc/114/official.gif",
-     "bytes": 3346152
+     "bytes": 3228317
     },
     "wayback_mp4": {
      "path": "yyc/114/wayback.mp4",
@@ -2962,11 +2962,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/115/official.mp4",
-     "bytes": 540187
+     "bytes": 763453
     },
     "official_gif": {
      "path": "yyc/115/official.gif",
-     "bytes": 2929427
+     "bytes": 2919781
     },
     "wayback_mp4": {
      "path": "yyc/115/wayback.mp4",
@@ -2986,11 +2986,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/116/official.mp4",
-     "bytes": 857869
+     "bytes": 1441028
     },
     "official_gif": {
      "path": "yyc/116/official.gif",
-     "bytes": 3671305
+     "bytes": 4063902
     },
     "wayback_mp4": {
      "path": "yyc/116/wayback.mp4",
@@ -3010,11 +3010,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/117/official.mp4",
-     "bytes": 458577
+     "bytes": 643596
     },
     "official_gif": {
      "path": "yyc/117/official.gif",
-     "bytes": 2762728
+     "bytes": 3166582
     },
     "wayback_mp4": {
      "path": "yyc/117/wayback.mp4",
@@ -3034,11 +3034,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/118/official.mp4",
-     "bytes": 169306
+     "bytes": 939751
     },
     "official_gif": {
      "path": "yyc/118/official.gif",
-     "bytes": 344796
+     "bytes": 3019532
     },
     "wayback_mp4": {
      "path": "yyc/118/wayback.mp4",
@@ -3058,11 +3058,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/119/official.mp4",
-     "bytes": 561294
+     "bytes": 784679
     },
     "official_gif": {
      "path": "yyc/119/official.gif",
-     "bytes": 3329730
+     "bytes": 3707003
     },
     "wayback_mp4": {
      "path": "yyc/119/wayback.mp4",
@@ -3082,11 +3082,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/120/official.mp4",
-     "bytes": 485986
+     "bytes": 822744
     },
     "official_gif": {
      "path": "yyc/120/official.gif",
-     "bytes": 3009707
+     "bytes": 3458950
     },
     "wayback_mp4": {
      "path": "yyc/120/wayback.mp4",
@@ -3106,11 +3106,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/121/official.mp4",
-     "bytes": 203412
+     "bytes": 673991
     },
     "official_gif": {
      "path": "yyc/121/official.gif",
-     "bytes": 891559
+     "bytes": 2769760
     },
     "wayback_mp4": {
      "path": "yyc/121/wayback.mp4",
@@ -3130,11 +3130,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/122/official.mp4",
-     "bytes": 729733
+     "bytes": 905096
     },
     "official_gif": {
      "path": "yyc/122/official.gif",
-     "bytes": 3253651
+     "bytes": 3241268
     },
     "wayback_mp4": {
      "path": "yyc/122/wayback.mp4",
@@ -3154,11 +3154,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/123/official.mp4",
-     "bytes": 483607
+     "bytes": 867701
     },
     "official_gif": {
      "path": "yyc/123/official.gif",
-     "bytes": 2921241
+     "bytes": 2862619
     },
     "wayback_mp4": {
      "path": "yyc/123/wayback.mp4",
@@ -3178,11 +3178,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/124/official.mp4",
-     "bytes": 1109656
+     "bytes": 1448330
     },
     "official_gif": {
      "path": "yyc/124/official.gif",
-     "bytes": 3827616
+     "bytes": 4008500
     },
     "wayback_mp4": {
      "path": "yyc/124/wayback.mp4",
@@ -3202,11 +3202,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/125/official.mp4",
-     "bytes": 914111
+     "bytes": 984156
     },
     "official_gif": {
      "path": "yyc/125/official.gif",
-     "bytes": 3466015
+     "bytes": 3817159
     },
     "wayback_mp4": {
      "path": "yyc/125/wayback.mp4",
@@ -3226,11 +3226,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/126/official.mp4",
-     "bytes": 1068645
+     "bytes": 1400797
     },
     "official_gif": {
      "path": "yyc/126/official.gif",
-     "bytes": 3474725
+     "bytes": 3986657
     },
     "wayback_mp4": {
      "path": "yyc/126/wayback.mp4",
@@ -3250,11 +3250,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/127/official.mp4",
-     "bytes": 911977
+     "bytes": 1090724
     },
     "official_gif": {
      "path": "yyc/127/official.gif",
-     "bytes": 3729751
+     "bytes": 3747717
     },
     "wayback_mp4": {
      "path": "yyc/127/wayback.mp4",
@@ -3274,11 +3274,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/128/official.mp4",
-     "bytes": 686257
+     "bytes": 986277
     },
     "official_gif": {
      "path": "yyc/128/official.gif",
-     "bytes": 3314085
+     "bytes": 3808034
     },
     "wayback_mp4": {
      "path": "yyc/128/wayback.mp4",
@@ -3298,11 +3298,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/129/official.mp4",
-     "bytes": 522976
+     "bytes": 813676
     },
     "official_gif": {
      "path": "yyc/129/official.gif",
-     "bytes": 3295828
+     "bytes": 3259140
     },
     "wayback_mp4": {
      "path": "yyc/129/wayback.mp4",
@@ -3322,11 +3322,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/130/official.mp4",
-     "bytes": 797334
+     "bytes": 953697
     },
     "official_gif": {
      "path": "yyc/130/official.gif",
-     "bytes": 3270645
+     "bytes": 3392957
     },
     "wayback_mp4": {
      "path": "yyc/130/wayback.mp4",
@@ -3346,11 +3346,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/131/official.mp4",
-     "bytes": 373328
+     "bytes": 592112
     },
     "official_gif": {
      "path": "yyc/131/official.gif",
-     "bytes": 2667163
+     "bytes": 3011058
     },
     "wayback_mp4": {
      "path": "yyc/131/wayback.mp4",
@@ -3370,11 +3370,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/132/official.mp4",
-     "bytes": 471249
+     "bytes": 592697
     },
     "official_gif": {
      "path": "yyc/132/official.gif",
-     "bytes": 2625857
+     "bytes": 2797000
     },
     "wayback_mp4": {
      "path": "yyc/132/wayback.mp4",
@@ -3394,11 +3394,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/133/official.mp4",
-     "bytes": 554971
+     "bytes": 835650
     },
     "official_gif": {
      "path": "yyc/133/official.gif",
-     "bytes": 3422425
+     "bytes": 3462791
     },
     "wayback_mp4": {
      "path": "yyc/133/wayback.mp4",
@@ -3418,11 +3418,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/134/official.mp4",
-     "bytes": 382125
+     "bytes": 1060517
     },
     "official_gif": {
      "path": "yyc/134/official.gif",
-     "bytes": 2548410
+     "bytes": 3542378
     },
     "wayback_mp4": {
      "path": "yyc/134/wayback.mp4",
@@ -3442,11 +3442,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/135/official.mp4",
-     "bytes": 378140
+     "bytes": 939010
     },
     "official_gif": {
      "path": "yyc/135/official.gif",
-     "bytes": 2754508
+     "bytes": 3260269
     },
     "wayback_mp4": {
      "path": "yyc/135/wayback.mp4",
@@ -3466,11 +3466,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/136/official.mp4",
-     "bytes": 533453
+     "bytes": 504815
     },
     "official_gif": {
      "path": "yyc/136/official.gif",
-     "bytes": 3122794
+     "bytes": 2607119
     },
     "wayback_mp4": {
      "path": "yyc/136/wayback.mp4",
@@ -3490,11 +3490,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/137/official.mp4",
-     "bytes": 522193
+     "bytes": 793086
     },
     "official_gif": {
      "path": "yyc/137/official.gif",
-     "bytes": 2890079
+     "bytes": 3058812
     },
     "wayback_mp4": {
      "path": "yyc/137/wayback.mp4",
@@ -3514,11 +3514,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/138/official.mp4",
-     "bytes": 458348
+     "bytes": 678427
     },
     "official_gif": {
      "path": "yyc/138/official.gif",
-     "bytes": 3078913
+     "bytes": 3354684
     },
     "wayback_mp4": {
      "path": "yyc/138/wayback.mp4",
@@ -3538,11 +3538,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/139/official.mp4",
-     "bytes": 940360
+     "bytes": 1123818
     },
     "official_gif": {
      "path": "yyc/139/official.gif",
-     "bytes": 3457060
+     "bytes": 2975549
     },
     "wayback_mp4": {
      "path": "yyc/139/wayback.mp4",
@@ -3562,11 +3562,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/140/official.mp4",
-     "bytes": 415679
+     "bytes": 579268
     },
     "official_gif": {
      "path": "yyc/140/official.gif",
-     "bytes": 3321461
+     "bytes": 3099042
     },
     "wayback_mp4": {
      "path": "yyc/140/wayback.mp4",
@@ -3586,11 +3586,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/141/official.mp4",
-     "bytes": 670359
+     "bytes": 1181746
     },
     "official_gif": {
      "path": "yyc/141/official.gif",
-     "bytes": 3353975
+     "bytes": 3537766
     },
     "wayback_mp4": {
      "path": "yyc/141/wayback.mp4",
@@ -3610,11 +3610,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/142/official.mp4",
-     "bytes": 421600
+     "bytes": 593093
     },
     "official_gif": {
      "path": "yyc/142/official.gif",
-     "bytes": 2945835
+     "bytes": 2600913
     },
     "wayback_mp4": {
      "path": "yyc/142/wayback.mp4",
@@ -3634,11 +3634,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/143/official.mp4",
-     "bytes": 532240
+     "bytes": 905384
     },
     "official_gif": {
      "path": "yyc/143/official.gif",
-     "bytes": 3405291
+     "bytes": 3220446
     },
     "wayback_mp4": {
      "path": "yyc/143/wayback.mp4",
@@ -3658,11 +3658,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/144/official.mp4",
-     "bytes": 755679
+     "bytes": 1004531
     },
     "official_gif": {
      "path": "yyc/144/official.gif",
-     "bytes": 3513177
+     "bytes": 3523845
     },
     "wayback_mp4": {
      "path": "yyc/144/wayback.mp4",
@@ -3682,11 +3682,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/145/official.mp4",
-     "bytes": 744588
+     "bytes": 1028714
     },
     "official_gif": {
      "path": "yyc/145/official.gif",
-     "bytes": 3586307
+     "bytes": 3627034
     },
     "wayback_mp4": {
      "path": "yyc/145/wayback.mp4",
@@ -3706,11 +3706,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/146/official.mp4",
-     "bytes": 624149
+     "bytes": 968966
     },
     "official_gif": {
      "path": "yyc/146/official.gif",
-     "bytes": 3804381
+     "bytes": 4303104
     },
     "wayback_mp4": {
      "path": "yyc/146/wayback.mp4",
@@ -3730,11 +3730,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/147/official.mp4",
-     "bytes": 801373
+     "bytes": 826968
     },
     "official_gif": {
      "path": "yyc/147/official.gif",
-     "bytes": 3668516
+     "bytes": 3606724
     },
     "wayback_mp4": {
      "path": "yyc/147/wayback.mp4",
@@ -3754,11 +3754,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/148/official.mp4",
-     "bytes": 854117
+     "bytes": 1125825
     },
     "official_gif": {
      "path": "yyc/148/official.gif",
-     "bytes": 3811151
+     "bytes": 3767005
     },
     "wayback_mp4": {
      "path": "yyc/148/wayback.mp4",
@@ -3778,11 +3778,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/149/official.mp4",
-     "bytes": 433316
+     "bytes": 604876
     },
     "official_gif": {
      "path": "yyc/149/official.gif",
-     "bytes": 2856341
+     "bytes": 2650240
     },
     "wayback_mp4": {
      "path": "yyc/149/wayback.mp4",
@@ -3802,11 +3802,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/150/official.mp4",
-     "bytes": 614825
+     "bytes": 881957
     },
     "official_gif": {
      "path": "yyc/150/official.gif",
-     "bytes": 3434580
+     "bytes": 3385771
     },
     "wayback_mp4": {
      "path": "yyc/150/wayback.mp4",
@@ -3826,11 +3826,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/151/official.mp4",
-     "bytes": 664634
+     "bytes": 915712
     },
     "official_gif": {
      "path": "yyc/151/official.gif",
-     "bytes": 3447593
+     "bytes": 3001906
     },
     "wayback_mp4": {
      "path": "yyc/151/wayback.mp4",
@@ -3850,11 +3850,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/152/official.mp4",
-     "bytes": 690660
+     "bytes": 1085741
     },
     "official_gif": {
      "path": "yyc/152/official.gif",
-     "bytes": 3395503
+     "bytes": 3495710
     },
     "wayback_mp4": {
      "path": "yyc/152/wayback.mp4",
@@ -3874,11 +3874,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/153/official.mp4",
-     "bytes": 767306
+     "bytes": 1103146
     },
     "official_gif": {
      "path": "yyc/153/official.gif",
-     "bytes": 3591146
+     "bytes": 3611113
     },
     "wayback_mp4": {
      "path": "yyc/153/wayback.mp4",
@@ -3898,11 +3898,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/154/official.mp4",
-     "bytes": 738533
+     "bytes": 1194601
     },
     "official_gif": {
      "path": "yyc/154/official.gif",
-     "bytes": 3950522
+     "bytes": 3894587
     },
     "wayback_mp4": {
      "path": "yyc/154/wayback.mp4",
@@ -3922,11 +3922,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/155/official.mp4",
-     "bytes": 621761
+     "bytes": 930096
     },
     "official_gif": {
      "path": "yyc/155/official.gif",
-     "bytes": 3344811
+     "bytes": 3336893
     },
     "wayback_mp4": {
      "path": "yyc/155/wayback.mp4",
@@ -3946,11 +3946,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/156/official.mp4",
-     "bytes": 598376
+     "bytes": 1071087
     },
     "official_gif": {
      "path": "yyc/156/official.gif",
-     "bytes": 4143002
+     "bytes": 4024933
     },
     "wayback_mp4": {
      "path": "yyc/156/wayback.mp4",
@@ -3970,11 +3970,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/157/official.mp4",
-     "bytes": 627949
+     "bytes": 1020793
     },
     "official_gif": {
      "path": "yyc/157/official.gif",
-     "bytes": 3554418
+     "bytes": 3452315
     },
     "wayback_mp4": {
      "path": "yyc/157/wayback.mp4",
@@ -3994,11 +3994,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/158/official.mp4",
-     "bytes": 633770
+     "bytes": 834203
     },
     "official_gif": {
      "path": "yyc/158/official.gif",
-     "bytes": 3847637
+     "bytes": 3177746
     },
     "wayback_mp4": {
      "path": "yyc/158/wayback.mp4",
@@ -4034,11 +4034,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/160/official.mp4",
-     "bytes": 623822
+     "bytes": 769658
     },
     "official_gif": {
      "path": "yyc/160/official.gif",
-     "bytes": 3577133
+     "bytes": 3407943
     },
     "wayback_mp4": {
      "path": "yyc/160/wayback.mp4",
@@ -4058,11 +4058,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/161/official.mp4",
-     "bytes": 610357
+     "bytes": 1329858
     },
     "official_gif": {
      "path": "yyc/161/official.gif",
-     "bytes": 3400781
+     "bytes": 4046506
     },
     "wayback_mp4": {
      "path": "yyc/161/wayback.mp4",
@@ -4082,11 +4082,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/162/official.mp4",
-     "bytes": 723375
+     "bytes": 1087412
     },
     "official_gif": {
      "path": "yyc/162/official.gif",
-     "bytes": 3842131
+     "bytes": 3383799
     },
     "wayback_mp4": {
      "path": "yyc/162/wayback.mp4",
@@ -4106,11 +4106,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/163/official.mp4",
-     "bytes": 536302
+     "bytes": 665278
     },
     "official_gif": {
      "path": "yyc/163/official.gif",
-     "bytes": 3420098
+     "bytes": 3517555
     },
     "wayback_mp4": {
      "path": "yyc/163/wayback.mp4",
@@ -4130,11 +4130,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/164/official.mp4",
-     "bytes": 583377
+     "bytes": 975414
     },
     "official_gif": {
      "path": "yyc/164/official.gif",
-     "bytes": 3140954
+     "bytes": 3426082
     },
     "wayback_mp4": {
      "path": "yyc/164/wayback.mp4",
@@ -4154,11 +4154,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/165/official.mp4",
-     "bytes": 613159
+     "bytes": 1114843
     },
     "official_gif": {
      "path": "yyc/165/official.gif",
-     "bytes": 3320811
+     "bytes": 3758320
     },
     "wayback_mp4": {
      "path": "yyc/165/wayback.mp4",
@@ -4178,11 +4178,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/166/official.mp4",
-     "bytes": 894194
+     "bytes": 1141553
     },
     "official_gif": {
      "path": "yyc/166/official.gif",
-     "bytes": 3346631
+     "bytes": 3472555
     },
     "wayback_mp4": {
      "path": "yyc/166/wayback.mp4",
@@ -4202,11 +4202,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/167/official.mp4",
-     "bytes": 615481
+     "bytes": 1220007
     },
     "official_gif": {
      "path": "yyc/167/official.gif",
-     "bytes": 3344041
+     "bytes": 3966840
     },
     "wayback_mp4": {
      "path": "yyc/167/wayback.mp4",
@@ -4226,11 +4226,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/168/official.mp4",
-     "bytes": 470595
+     "bytes": 600904
     },
     "official_gif": {
      "path": "yyc/168/official.gif",
-     "bytes": 3003269
+     "bytes": 3038156
     },
     "wayback_mp4": {
      "path": "yyc/168/wayback.mp4",
@@ -4266,11 +4266,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/170/official.mp4",
-     "bytes": 515000
+     "bytes": 656004
     },
     "official_gif": {
      "path": "yyc/170/official.gif",
-     "bytes": 3373034
+     "bytes": 3637878
     },
     "wayback_mp4": {
      "path": "yyc/170/wayback.mp4",
@@ -4314,11 +4314,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/172/official.mp4",
-     "bytes": 565374
+     "bytes": 705843
     },
     "official_gif": {
      "path": "yyc/172/official.gif",
-     "bytes": 2830059
+     "bytes": 2825131
     },
     "wayback_mp4": {
      "path": "yyc/172/wayback.mp4",
@@ -4338,11 +4338,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/173/official.mp4",
-     "bytes": 563031
+     "bytes": 787767
     },
     "official_gif": {
      "path": "yyc/173/official.gif",
-     "bytes": 3095483
+     "bytes": 3264416
     },
     "wayback_mp4": {
      "path": "yyc/173/wayback.mp4",
@@ -4362,11 +4362,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/174/official.mp4",
-     "bytes": 513983
+     "bytes": 779226
     },
     "official_gif": {
      "path": "yyc/174/official.gif",
-     "bytes": 3042453
+     "bytes": 2887488
     },
     "wayback_mp4": {
      "path": "yyc/174/wayback.mp4",
@@ -4386,11 +4386,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/175/official.mp4",
-     "bytes": 580556
+     "bytes": 744570
     },
     "official_gif": {
      "path": "yyc/175/official.gif",
-     "bytes": 3207658
+     "bytes": 3363547
     },
     "wayback_mp4": {
      "path": "yyc/175/wayback.mp4",
@@ -4410,11 +4410,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/176/official.mp4",
-     "bytes": 520642
+     "bytes": 701128
     },
     "official_gif": {
      "path": "yyc/176/official.gif",
-     "bytes": 2811195
+     "bytes": 3039373
     }
    },
    "official_frames": 11,
@@ -4426,11 +4426,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/177/official.mp4",
-     "bytes": 615578
+     "bytes": 961037
     },
     "official_gif": {
      "path": "yyc/177/official.gif",
-     "bytes": 3314767
+     "bytes": 3797026
     }
    },
    "official_frames": 11,
@@ -4442,11 +4442,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/178/official.mp4",
-     "bytes": 797471
+     "bytes": 849568
     },
     "official_gif": {
      "path": "yyc/178/official.gif",
-     "bytes": 3228774
+     "bytes": 3256353
     }
    },
    "official_frames": 11,
@@ -4458,11 +4458,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/179/official.mp4",
-     "bytes": 407341
+     "bytes": 611167
     },
     "official_gif": {
      "path": "yyc/179/official.gif",
-     "bytes": 2567466
+     "bytes": 2673102
     },
     "wayback_mp4": {
      "path": "yyc/179/wayback.mp4",
@@ -4498,11 +4498,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/181/official.mp4",
-     "bytes": 610143
+     "bytes": 878751
     },
     "official_gif": {
      "path": "yyc/181/official.gif",
-     "bytes": 3503160
+     "bytes": 3633696
     }
    },
    "official_frames": 11,
@@ -4514,11 +4514,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/182/official.mp4",
-     "bytes": 560604
+     "bytes": 837672
     },
     "official_gif": {
      "path": "yyc/182/official.gif",
-     "bytes": 3541438
+     "bytes": 3346622
     }
    },
    "official_frames": 11,
@@ -4530,11 +4530,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/183/official.mp4",
-     "bytes": 539209
+     "bytes": 773098
     },
     "official_gif": {
      "path": "yyc/183/official.gif",
-     "bytes": 2978223
+     "bytes": 3039635
     }
    },
    "official_frames": 11,
@@ -4546,11 +4546,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/184/official.mp4",
-     "bytes": 694714
+     "bytes": 835541
     },
     "official_gif": {
      "path": "yyc/184/official.gif",
-     "bytes": 3634663
+     "bytes": 3251412
     }
    },
    "official_frames": 11,
@@ -4562,11 +4562,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/185/official.mp4",
-     "bytes": 566868
+     "bytes": 763044
     },
     "official_gif": {
      "path": "yyc/185/official.gif",
-     "bytes": 3692846
+     "bytes": 3596551
     }
    },
    "official_frames": 11,
@@ -4578,11 +4578,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/186/official.mp4",
-     "bytes": 593643
+     "bytes": 805824
     },
     "official_gif": {
      "path": "yyc/186/official.gif",
-     "bytes": 3348462
+     "bytes": 3275012
     }
    },
    "official_frames": 11,
@@ -4594,11 +4594,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/187/official.mp4",
-     "bytes": 690739
+     "bytes": 938690
     },
     "official_gif": {
      "path": "yyc/187/official.gif",
-     "bytes": 3664479
+     "bytes": 3560173
     }
    },
    "official_frames": 11,
@@ -4610,11 +4610,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/188/official.mp4",
-     "bytes": 600751
+     "bytes": 685590
     },
     "official_gif": {
      "path": "yyc/188/official.gif",
-     "bytes": 3260103
+     "bytes": 2815784
     }
    },
    "official_frames": 11,
@@ -4626,11 +4626,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/189/official.mp4",
-     "bytes": 527845
+     "bytes": 740772
     },
     "official_gif": {
      "path": "yyc/189/official.gif",
-     "bytes": 3207064
+     "bytes": 3085556
     }
    },
    "official_frames": 11,
@@ -4642,11 +4642,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/190/official.mp4",
-     "bytes": 632479
+     "bytes": 974213
     },
     "official_gif": {
      "path": "yyc/190/official.gif",
-     "bytes": 3736988
+     "bytes": 3968307
     }
    },
    "official_frames": 11,
@@ -4658,11 +4658,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/191/official.mp4",
-     "bytes": 481071
+     "bytes": 545064
     },
     "official_gif": {
      "path": "yyc/191/official.gif",
-     "bytes": 2835317
+     "bytes": 2485269
     }
    },
    "official_frames": 11,
@@ -4674,11 +4674,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/192/official.mp4",
-     "bytes": 663143
+     "bytes": 789546
     },
     "official_gif": {
      "path": "yyc/192/official.gif",
-     "bytes": 3278924
+     "bytes": 2978673
     },
     "wayback_mp4": {
      "path": "yyc/192/wayback.mp4",
@@ -4698,11 +4698,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/193/official.mp4",
-     "bytes": 529644
+     "bytes": 707536
     },
     "official_gif": {
      "path": "yyc/193/official.gif",
-     "bytes": 2994022
+     "bytes": 2700912
     }
    },
    "official_frames": 11,
@@ -4714,11 +4714,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/194/official.mp4",
-     "bytes": 498673
+     "bytes": 765194
     },
     "official_gif": {
      "path": "yyc/194/official.gif",
-     "bytes": 3053819
+     "bytes": 2877383
     }
    },
    "official_frames": 11,
@@ -4730,11 +4730,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/195/official.mp4",
-     "bytes": 546182
+     "bytes": 710263
     },
     "official_gif": {
      "path": "yyc/195/official.gif",
-     "bytes": 3525384
+     "bytes": 3352979
     }
    },
    "official_frames": 11,
@@ -4746,11 +4746,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/196/official.mp4",
-     "bytes": 699769
+     "bytes": 625389
     },
     "official_gif": {
      "path": "yyc/196/official.gif",
-     "bytes": 3597252
+     "bytes": 3168115
     }
    },
    "official_frames": 11,
@@ -4762,11 +4762,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/197/official.mp4",
-     "bytes": 410508
+     "bytes": 563986
     },
     "official_gif": {
      "path": "yyc/197/official.gif",
-     "bytes": 2797575
+     "bytes": 2219992
     }
    },
    "official_frames": 11,
@@ -4778,11 +4778,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/198/official.mp4",
-     "bytes": 512849
+     "bytes": 713532
     },
     "official_gif": {
      "path": "yyc/198/official.gif",
-     "bytes": 2921540
+     "bytes": 2714491
     }
    },
    "official_frames": 11,
@@ -4794,11 +4794,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/199/official.mp4",
-     "bytes": 465168
+     "bytes": 649107
     },
     "official_gif": {
      "path": "yyc/199/official.gif",
-     "bytes": 3188010
+     "bytes": 3068346
     }
    },
    "official_frames": 11,
@@ -4810,11 +4810,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/200/official.mp4",
-     "bytes": 542409
+     "bytes": 844687
     },
     "official_gif": {
      "path": "yyc/200/official.gif",
-     "bytes": 3170727
+     "bytes": 3394045
     }
    },
    "official_frames": 11,
@@ -4826,11 +4826,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/201/official.mp4",
-     "bytes": 824285
+     "bytes": 843479
     },
     "official_gif": {
      "path": "yyc/201/official.gif",
-     "bytes": 3570991
+     "bytes": 3554286
     }
    },
    "official_frames": 11,
@@ -4842,11 +4842,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/202/official.mp4",
-     "bytes": 683708
+     "bytes": 891291
     },
     "official_gif": {
      "path": "yyc/202/official.gif",
-     "bytes": 3548157
+     "bytes": 3332291
     }
    },
    "official_frames": 11,
@@ -4858,11 +4858,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/203/official.mp4",
-     "bytes": 591043
+     "bytes": 820294
     },
     "official_gif": {
      "path": "yyc/203/official.gif",
-     "bytes": 3200908
+     "bytes": 3074288
     }
    },
    "official_frames": 11,
@@ -4874,11 +4874,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/204/official.mp4",
-     "bytes": 640182
+     "bytes": 891360
     },
     "official_gif": {
      "path": "yyc/204/official.gif",
-     "bytes": 3653092
+     "bytes": 3600369
     }
    },
    "official_frames": 11,
@@ -4890,11 +4890,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/205/official.mp4",
-     "bytes": 826285
+     "bytes": 1213032
     },
     "official_gif": {
      "path": "yyc/205/official.gif",
-     "bytes": 3773144
+     "bytes": 3773584
     }
    },
    "official_frames": 11,
@@ -4906,11 +4906,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/206/official.mp4",
-     "bytes": 467497
+     "bytes": 559535
     },
     "official_gif": {
      "path": "yyc/206/official.gif",
-     "bytes": 2795326
+     "bytes": 2519766
     }
    },
    "official_frames": 11,
@@ -4922,11 +4922,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/207/official.mp4",
-     "bytes": 451727
+     "bytes": 580027
     },
     "official_gif": {
      "path": "yyc/207/official.gif",
-     "bytes": 2731741
+     "bytes": 2700600
     }
    },
    "official_frames": 11,
@@ -4938,11 +4938,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/208/official.mp4",
-     "bytes": 227593
+     "bytes": 443985
     },
     "official_gif": {
      "path": "yyc/208/official.gif",
-     "bytes": 2495124
+     "bytes": 2217767
     }
    },
    "official_frames": 11,
@@ -4954,11 +4954,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/209/official.mp4",
-     "bytes": 694005
+     "bytes": 698350
     },
     "official_gif": {
      "path": "yyc/209/official.gif",
-     "bytes": 3385100
+     "bytes": 3207557
     }
    },
    "official_frames": 11,
@@ -4986,11 +4986,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/211/official.mp4",
-     "bytes": 378289
+     "bytes": 573697
     },
     "official_gif": {
      "path": "yyc/211/official.gif",
-     "bytes": 2954909
+     "bytes": 2585854
     }
    },
    "official_frames": 11,
@@ -5002,11 +5002,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/212/official.mp4",
-     "bytes": 507802
+     "bytes": 694461
     },
     "official_gif": {
      "path": "yyc/212/official.gif",
-     "bytes": 3009401
+     "bytes": 2949140
     }
    },
    "official_frames": 11,
@@ -5018,11 +5018,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/213/official.mp4",
-     "bytes": 476758
+     "bytes": 652195
     },
     "official_gif": {
      "path": "yyc/213/official.gif",
-     "bytes": 2949949
+     "bytes": 3026678
     }
    },
    "official_frames": 11,
@@ -5034,11 +5034,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/214/official.mp4",
-     "bytes": 815888
+     "bytes": 1286632
     },
     "official_gif": {
      "path": "yyc/214/official.gif",
-     "bytes": 3227069
+     "bytes": 3366747
     }
    },
    "official_frames": 11,
@@ -5050,11 +5050,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/215/official.mp4",
-     "bytes": 484017
+     "bytes": 699901
     },
     "official_gif": {
      "path": "yyc/215/official.gif",
-     "bytes": 2738340
+     "bytes": 3240389
     }
    },
    "official_frames": 11,
@@ -5066,11 +5066,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/216/official.mp4",
-     "bytes": 612955
+     "bytes": 845478
     },
     "official_gif": {
      "path": "yyc/216/official.gif",
-     "bytes": 3458351
+     "bytes": 3210692
     }
    },
    "official_frames": 11,
@@ -5082,11 +5082,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/217/official.mp4",
-     "bytes": 424375
+     "bytes": 496627
     },
     "official_gif": {
      "path": "yyc/217/official.gif",
-     "bytes": 2722304
+     "bytes": 2692262
     }
    },
    "official_frames": 11,
@@ -5098,11 +5098,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/218/official.mp4",
-     "bytes": 658085
+     "bytes": 896997
     },
     "official_gif": {
      "path": "yyc/218/official.gif",
-     "bytes": 3496726
+     "bytes": 3714908
     }
    },
    "official_frames": 11,
@@ -5114,11 +5114,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/219/official.mp4",
-     "bytes": 735253
+     "bytes": 902167
     },
     "official_gif": {
      "path": "yyc/219/official.gif",
-     "bytes": 2952581
+     "bytes": 2752008
     }
    },
    "official_frames": 11,
@@ -5130,11 +5130,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/220/official.mp4",
-     "bytes": 778631
+     "bytes": 1063198
     },
     "official_gif": {
      "path": "yyc/220/official.gif",
-     "bytes": 3243502
+     "bytes": 3171331
     }
    },
    "official_frames": 11,
@@ -5146,11 +5146,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/221/official.mp4",
-     "bytes": 549915
+     "bytes": 557435
     },
     "official_gif": {
      "path": "yyc/221/official.gif",
-     "bytes": 2537819
+     "bytes": 2356975
     }
    },
    "official_frames": 11,
@@ -5162,11 +5162,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/222/official.mp4",
-     "bytes": 561782
+     "bytes": 705003
     },
     "official_gif": {
      "path": "yyc/222/official.gif",
-     "bytes": 3115341
+     "bytes": 3339302
     }
    },
    "official_frames": 11,
@@ -5178,11 +5178,11 @@
    "videos": {
     "official_mp4": {
      "path": "yyc/223/official.mp4",
-     "bytes": 594555
+     "bytes": 843375
     },
     "official_gif": {
      "path": "yyc/223/official.gif",
-     "bytes": 2975497
+     "bytes": 3492885
     }
    },
    "official_frames": 11,
@@ -5194,7 +5194,7 @@
   "yyc_official": 222,
   "yyc_wayback": 178,
   "iem": 13,
-  "total_bytes": 3359743748
+  "total_bytes": 3446648676
  },
  "without_loops": []
 }
