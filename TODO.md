@@ -16,10 +16,12 @@
 - **48d official loops**: `official.{mp4,gif}` built for **222/224**
   cams → `web_viewer/static/loops/yyc/<loc>/` (11 frames @1 fps);
   loc159/169 retired → no `/ss/` history (1 frame only, skipped)
-- **48e Wayback multi-year loops**: CDX digest-collapsed per loc
-  (loc17=47, loc5=54, loc202=0 rows) → downloads needed aggressive
-  pacing (Wayback 429 → sequential + 5 s success / 60 s backoff),
-  builds `wayback.{mp4,gif}` for cams with ≥2 frames (incremental cache)
+- **48e Wayback multi-year loops (DONE)**: CDX digest-collapsed per
+  loc (loc22/37=117 snapshots, loc215=0) → downloads needed aggressive
+  pacing (Wayback 429 → sequential + 5 s success / 60 s backoff,
+  ~6 h walk) → **`wayback.{mp4,gif}` for 178/224 locs, 3,050 frames**;
+  46 locs <2 snapshots (new high-numbered cams); loc159/169 retired
+  rescued via history → all 224 Calgary locs covered
 - **Archive-source research (dataset-wide)**:
   - AB511 360 rows: **live-only** — `/map/Cctv/<id>/<idx>` ignores
     the id (identical bytes across valid ids, dynamic content);
@@ -30,15 +32,19 @@
     cams (KCCI-027/034/036, KCRG-001/005/012/013/016/018/027/029/
     032/035; 17 CSV rows), **288 frames/day @5-min**, dirs exist
     2016→today (2008/2012 404) → `archive_7d.mp4` + `archive_1d.gif`
+    **built all 13** (KCRG-001 retired → fallback walker anchored
+    its last window @2026-10-01, 2,009 frames)
   - allsky.tv: S3 listing `AccessDenied`, only `AMS18/LATEST/` fetchable
     → no enumerable archive
   - MBJB Malaysia dated dirs: host unreachable (curl 000) from our
     network → blocked
 - User format decision: **MP4 + GIF both**, every camera
 
-### In progress
-- Wayback Calgary loops (detached, `camera_testing/yyc_wayback.log`)
-- IEM 13-cam archive loops (detached, `camera_testing/iem_loops.log`)
+### Final totals
+- **237 cameras with loop videos** (224 Calgary + 13 IEM),
+  **3.36 GB** MP4+GIF under `web_viewer/static/loops/` (gitignored);
+  manifest `docs/loops_manifest.json` (committed); jobs done — no
+  background processes left
 
 ### Files
 - New: `camera_testing/_yyc_timelapse_recon.py`,

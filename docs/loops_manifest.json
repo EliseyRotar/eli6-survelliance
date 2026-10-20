@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T04:58:30",
+ "generated": "2026-10-20T08:09:32",
  "loops": [
   {
    "source": "iem",
@@ -1215,10 +1215,18 @@
     "official_gif": {
      "path": "yyc/42/official.gif",
      "bytes": 4186775
+    },
+    "wayback_mp4": {
+     "path": "yyc/42/wayback.mp4",
+     "bytes": 711291
+    },
+    "wayback_gif": {
+     "path": "yyc/42/wayback.gif",
+     "bytes": 2213016
     }
    },
    "official_frames": 11,
-   "wayback_frames": 7
+   "wayback_frames": 64
   },
   {
    "source": "yyc",
@@ -1231,10 +1239,18 @@
     "official_gif": {
      "path": "yyc/43/official.gif",
      "bytes": 3258908
+    },
+    "wayback_mp4": {
+     "path": "yyc/43/wayback.mp4",
+     "bytes": 243397
+    },
+    "wayback_gif": {
+     "path": "yyc/43/wayback.gif",
+     "bytes": 1675849
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 18
   },
   {
    "source": "yyc",
@@ -1247,10 +1263,18 @@
     "official_gif": {
      "path": "yyc/44/official.gif",
      "bytes": 4028561
+    },
+    "wayback_mp4": {
+     "path": "yyc/44/wayback.mp4",
+     "bytes": 570447
+    },
+    "wayback_gif": {
+     "path": "yyc/44/wayback.gif",
+     "bytes": 2622602
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 44
   },
   {
    "source": "yyc",
@@ -1263,10 +1287,18 @@
     "official_gif": {
      "path": "yyc/45/official.gif",
      "bytes": 3768142
+    },
+    "wayback_mp4": {
+     "path": "yyc/45/wayback.mp4",
+     "bytes": 543950
+    },
+    "wayback_gif": {
+     "path": "yyc/45/wayback.gif",
+     "bytes": 2318677
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 38
   },
   {
    "source": "yyc",
@@ -1279,10 +1311,18 @@
     "official_gif": {
      "path": "yyc/46/official.gif",
      "bytes": 3284943
+    },
+    "wayback_mp4": {
+     "path": "yyc/46/wayback.mp4",
+     "bytes": 691074
+    },
+    "wayback_gif": {
+     "path": "yyc/46/wayback.gif",
+     "bytes": 2781292
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 42
   },
   {
    "source": "yyc",
@@ -1295,10 +1335,18 @@
     "official_gif": {
      "path": "yyc/47/official.gif",
      "bytes": 3027736
+    },
+    "wayback_mp4": {
+     "path": "yyc/47/wayback.mp4",
+     "bytes": 744741
+    },
+    "wayback_gif": {
+     "path": "yyc/47/wayback.gif",
+     "bytes": 3053384
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 64
   },
   {
    "source": "yyc",
@@ -1311,10 +1359,18 @@
     "official_gif": {
      "path": "yyc/48/official.gif",
      "bytes": 3954658
+    },
+    "wayback_mp4": {
+     "path": "yyc/48/wayback.mp4",
+     "bytes": 471338
+    },
+    "wayback_gif": {
+     "path": "yyc/48/wayback.gif",
+     "bytes": 1663654
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 25
   },
   {
    "source": "yyc",
@@ -1327,10 +1383,18 @@
     "official_gif": {
      "path": "yyc/49/official.gif",
      "bytes": 3594115
+    },
+    "wayback_mp4": {
+     "path": "yyc/49/wayback.mp4",
+     "bytes": 396862
+    },
+    "wayback_gif": {
+     "path": "yyc/49/wayback.gif",
+     "bytes": 1193759
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 37
   },
   {
    "source": "yyc",
@@ -1343,10 +1407,18 @@
     "official_gif": {
      "path": "yyc/50/official.gif",
      "bytes": 3541831
+    },
+    "wayback_mp4": {
+     "path": "yyc/50/wayback.mp4",
+     "bytes": 294128
+    },
+    "wayback_gif": {
+     "path": "yyc/50/wayback.gif",
+     "bytes": 1218853
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 22
   },
   {
    "source": "yyc",
@@ -1359,10 +1431,18 @@
     "official_gif": {
      "path": "yyc/51/official.gif",
      "bytes": 4008780
+    },
+    "wayback_mp4": {
+     "path": "yyc/51/wayback.mp4",
+     "bytes": 542534
+    },
+    "wayback_gif": {
+     "path": "yyc/51/wayback.gif",
+     "bytes": 1761906
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 46
   },
   {
    "source": "yyc",
@@ -1375,10 +1455,18 @@
     "official_gif": {
      "path": "yyc/52/official.gif",
      "bytes": 3598060
+    },
+    "wayback_mp4": {
+     "path": "yyc/52/wayback.mp4",
+     "bytes": 250104
+    },
+    "wayback_gif": {
+     "path": "yyc/52/wayback.gif",
+     "bytes": 1341052
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 22
   },
   {
    "source": "yyc",
@@ -1415,10 +1503,18 @@
     "official_gif": {
      "path": "yyc/54/official.gif",
      "bytes": 3163705
+    },
+    "wayback_mp4": {
+     "path": "yyc/54/wayback.mp4",
+     "bytes": 303357
+    },
+    "wayback_gif": {
+     "path": "yyc/54/wayback.gif",
+     "bytes": 1142662
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 23
   },
   {
    "source": "yyc",
@@ -1431,10 +1527,18 @@
     "official_gif": {
      "path": "yyc/55/official.gif",
      "bytes": 3510301
+    },
+    "wayback_mp4": {
+     "path": "yyc/55/wayback.mp4",
+     "bytes": 316966
+    },
+    "wayback_gif": {
+     "path": "yyc/55/wayback.gif",
+     "bytes": 1298674
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 20
   },
   {
    "source": "yyc",
@@ -1447,10 +1551,18 @@
     "official_gif": {
      "path": "yyc/56/official.gif",
      "bytes": 3584426
+    },
+    "wayback_mp4": {
+     "path": "yyc/56/wayback.mp4",
+     "bytes": 310835
+    },
+    "wayback_gif": {
+     "path": "yyc/56/wayback.gif",
+     "bytes": 1254990
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 20
   },
   {
    "source": "yyc",
@@ -1463,10 +1575,18 @@
     "official_gif": {
      "path": "yyc/57/official.gif",
      "bytes": 4202320
+    },
+    "wayback_mp4": {
+     "path": "yyc/57/wayback.mp4",
+     "bytes": 353203
+    },
+    "wayback_gif": {
+     "path": "yyc/57/wayback.gif",
+     "bytes": 1258022
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 21
   },
   {
    "source": "yyc",
@@ -1503,10 +1623,18 @@
     "official_gif": {
      "path": "yyc/59/official.gif",
      "bytes": 3439547
+    },
+    "wayback_mp4": {
+     "path": "yyc/59/wayback.mp4",
+     "bytes": 343162
+    },
+    "wayback_gif": {
+     "path": "yyc/59/wayback.gif",
+     "bytes": 1519412
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 22
   },
   {
    "source": "yyc",
@@ -1567,10 +1695,18 @@
     "official_gif": {
      "path": "yyc/62/official.gif",
      "bytes": 3879826
+    },
+    "wayback_mp4": {
+     "path": "yyc/62/wayback.mp4",
+     "bytes": 232781
+    },
+    "wayback_gif": {
+     "path": "yyc/62/wayback.gif",
+     "bytes": 1190047
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 17
   },
   {
    "source": "yyc",
@@ -1583,10 +1719,18 @@
     "official_gif": {
      "path": "yyc/63/official.gif",
      "bytes": 3567352
+    },
+    "wayback_mp4": {
+     "path": "yyc/63/wayback.mp4",
+     "bytes": 229076
+    },
+    "wayback_gif": {
+     "path": "yyc/63/wayback.gif",
+     "bytes": 1290584
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 23
   },
   {
    "source": "yyc",
@@ -1599,10 +1743,18 @@
     "official_gif": {
      "path": "yyc/64/official.gif",
      "bytes": 3875397
+    },
+    "wayback_mp4": {
+     "path": "yyc/64/wayback.mp4",
+     "bytes": 206072
+    },
+    "wayback_gif": {
+     "path": "yyc/64/wayback.gif",
+     "bytes": 1116821
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 16
   },
   {
    "source": "yyc",
@@ -1615,10 +1767,18 @@
     "official_gif": {
      "path": "yyc/65/official.gif",
      "bytes": 3526825
+    },
+    "wayback_mp4": {
+     "path": "yyc/65/wayback.mp4",
+     "bytes": 124205
+    },
+    "wayback_gif": {
+     "path": "yyc/65/wayback.gif",
+     "bytes": 826135
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -1631,10 +1791,18 @@
     "official_gif": {
      "path": "yyc/66/official.gif",
      "bytes": 3198879
+    },
+    "wayback_mp4": {
+     "path": "yyc/66/wayback.mp4",
+     "bytes": 162762
+    },
+    "wayback_gif": {
+     "path": "yyc/66/wayback.gif",
+     "bytes": 708060
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 14
   },
   {
    "source": "yyc",
@@ -1647,10 +1815,18 @@
     "official_gif": {
      "path": "yyc/67/official.gif",
      "bytes": 3611125
+    },
+    "wayback_mp4": {
+     "path": "yyc/67/wayback.mp4",
+     "bytes": 237400
+    },
+    "wayback_gif": {
+     "path": "yyc/67/wayback.gif",
+     "bytes": 1113534
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 17
   },
   {
    "source": "yyc",
@@ -1663,10 +1839,18 @@
     "official_gif": {
      "path": "yyc/68/official.gif",
      "bytes": 3019601
+    },
+    "wayback_mp4": {
+     "path": "yyc/68/wayback.mp4",
+     "bytes": 203432
+    },
+    "wayback_gif": {
+     "path": "yyc/68/wayback.gif",
+     "bytes": 1134261
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -1703,10 +1887,18 @@
     "official_gif": {
      "path": "yyc/70/official.gif",
      "bytes": 3399513
+    },
+    "wayback_mp4": {
+     "path": "yyc/70/wayback.mp4",
+     "bytes": 183936
+    },
+    "wayback_gif": {
+     "path": "yyc/70/wayback.gif",
+     "bytes": 966455
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 13
   },
   {
    "source": "yyc",
@@ -1719,10 +1911,18 @@
     "official_gif": {
      "path": "yyc/71/official.gif",
      "bytes": 2955660
+    },
+    "wayback_mp4": {
+     "path": "yyc/71/wayback.mp4",
+     "bytes": 129638
+    },
+    "wayback_gif": {
+     "path": "yyc/71/wayback.gif",
+     "bytes": 1125548
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -1735,10 +1935,18 @@
     "official_gif": {
      "path": "yyc/72/official.gif",
      "bytes": 2675493
+    },
+    "wayback_mp4": {
+     "path": "yyc/72/wayback.mp4",
+     "bytes": 209577
+    },
+    "wayback_gif": {
+     "path": "yyc/72/wayback.gif",
+     "bytes": 1019201
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -1751,10 +1959,18 @@
     "official_gif": {
      "path": "yyc/73/official.gif",
      "bytes": 2766056
+    },
+    "wayback_mp4": {
+     "path": "yyc/73/wayback.mp4",
+     "bytes": 120221
+    },
+    "wayback_gif": {
+     "path": "yyc/73/wayback.gif",
+     "bytes": 746562
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -1767,10 +1983,18 @@
     "official_gif": {
      "path": "yyc/74/official.gif",
      "bytes": 2904039
+    },
+    "wayback_mp4": {
+     "path": "yyc/74/wayback.mp4",
+     "bytes": 96876
+    },
+    "wayback_gif": {
+     "path": "yyc/74/wayback.gif",
+     "bytes": 769842
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -1783,10 +2007,18 @@
     "official_gif": {
      "path": "yyc/75/official.gif",
      "bytes": 3500167
+    },
+    "wayback_mp4": {
+     "path": "yyc/75/wayback.mp4",
+     "bytes": 154819
+    },
+    "wayback_gif": {
+     "path": "yyc/75/wayback.gif",
+     "bytes": 1190900
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 10
   },
   {
    "source": "yyc",
@@ -1799,10 +2031,18 @@
     "official_gif": {
      "path": "yyc/76/official.gif",
      "bytes": 3593957
+    },
+    "wayback_mp4": {
+     "path": "yyc/76/wayback.mp4",
+     "bytes": 127467
+    },
+    "wayback_gif": {
+     "path": "yyc/76/wayback.gif",
+     "bytes": 1105729
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -1815,10 +2055,18 @@
     "official_gif": {
      "path": "yyc/77/official.gif",
      "bytes": 3411371
+    },
+    "wayback_mp4": {
+     "path": "yyc/77/wayback.mp4",
+     "bytes": 203481
+    },
+    "wayback_gif": {
+     "path": "yyc/77/wayback.gif",
+     "bytes": 1540094
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 10
   },
   {
    "source": "yyc",
@@ -1831,10 +2079,18 @@
     "official_gif": {
      "path": "yyc/78/official.gif",
      "bytes": 3545533
+    },
+    "wayback_mp4": {
+     "path": "yyc/78/wayback.mp4",
+     "bytes": 210498
+    },
+    "wayback_gif": {
+     "path": "yyc/78/wayback.gif",
+     "bytes": 1125394
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 17
   },
   {
    "source": "yyc",
@@ -1847,10 +2103,18 @@
     "official_gif": {
      "path": "yyc/79/official.gif",
      "bytes": 2896744
+    },
+    "wayback_mp4": {
+     "path": "yyc/79/wayback.mp4",
+     "bytes": 117317
+    },
+    "wayback_gif": {
+     "path": "yyc/79/wayback.gif",
+     "bytes": 912399
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -1863,10 +2127,18 @@
     "official_gif": {
      "path": "yyc/80/official.gif",
      "bytes": 3865103
+    },
+    "wayback_mp4": {
+     "path": "yyc/80/wayback.mp4",
+     "bytes": 216163
+    },
+    "wayback_gif": {
+     "path": "yyc/80/wayback.gif",
+     "bytes": 1359176
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -1879,10 +2151,18 @@
     "official_gif": {
      "path": "yyc/81/official.gif",
      "bytes": 3430884
+    },
+    "wayback_mp4": {
+     "path": "yyc/81/wayback.mp4",
+     "bytes": 206866
+    },
+    "wayback_gif": {
+     "path": "yyc/81/wayback.gif",
+     "bytes": 1319097
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -1895,10 +2175,18 @@
     "official_gif": {
      "path": "yyc/82/official.gif",
      "bytes": 3621996
+    },
+    "wayback_mp4": {
+     "path": "yyc/82/wayback.mp4",
+     "bytes": 119465
+    },
+    "wayback_gif": {
+     "path": "yyc/82/wayback.gif",
+     "bytes": 879272
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -1911,10 +2199,18 @@
     "official_gif": {
      "path": "yyc/83/official.gif",
      "bytes": 2860654
+    },
+    "wayback_mp4": {
+     "path": "yyc/83/wayback.mp4",
+     "bytes": 140787
+    },
+    "wayback_gif": {
+     "path": "yyc/83/wayback.gif",
+     "bytes": 1130989
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -1927,10 +2223,18 @@
     "official_gif": {
      "path": "yyc/84/official.gif",
      "bytes": 3149435
+    },
+    "wayback_mp4": {
+     "path": "yyc/84/wayback.mp4",
+     "bytes": 110552
+    },
+    "wayback_gif": {
+     "path": "yyc/84/wayback.gif",
+     "bytes": 942549
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 10
   },
   {
    "source": "yyc",
@@ -1943,10 +2247,18 @@
     "official_gif": {
      "path": "yyc/85/official.gif",
      "bytes": 2742060
+    },
+    "wayback_mp4": {
+     "path": "yyc/85/wayback.mp4",
+     "bytes": 120638
+    },
+    "wayback_gif": {
+     "path": "yyc/85/wayback.gif",
+     "bytes": 826907
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 9
   },
   {
    "source": "yyc",
@@ -1959,10 +2271,18 @@
     "official_gif": {
      "path": "yyc/86/official.gif",
      "bytes": 3061998
+    },
+    "wayback_mp4": {
+     "path": "yyc/86/wayback.mp4",
+     "bytes": 424264
+    },
+    "wayback_gif": {
+     "path": "yyc/86/wayback.gif",
+     "bytes": 925556
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -1975,10 +2295,18 @@
     "official_gif": {
      "path": "yyc/87/official.gif",
      "bytes": 3109995
+    },
+    "wayback_mp4": {
+     "path": "yyc/87/wayback.mp4",
+     "bytes": 536620
+    },
+    "wayback_gif": {
+     "path": "yyc/87/wayback.gif",
+     "bytes": 1215387
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -1991,10 +2319,18 @@
     "official_gif": {
      "path": "yyc/88/official.gif",
      "bytes": 3487510
+    },
+    "wayback_mp4": {
+     "path": "yyc/88/wayback.mp4",
+     "bytes": 169149
+    },
+    "wayback_gif": {
+     "path": "yyc/88/wayback.gif",
+     "bytes": 954516
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 12
   },
   {
    "source": "yyc",
@@ -2007,10 +2343,18 @@
     "official_gif": {
      "path": "yyc/89/official.gif",
      "bytes": 3052505
+    },
+    "wayback_mp4": {
+     "path": "yyc/89/wayback.mp4",
+     "bytes": 662614
+    },
+    "wayback_gif": {
+     "path": "yyc/89/wayback.gif",
+     "bytes": 1389201
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -2023,10 +2367,18 @@
     "official_gif": {
      "path": "yyc/90/official.gif",
      "bytes": 3142398
+    },
+    "wayback_mp4": {
+     "path": "yyc/90/wayback.mp4",
+     "bytes": 341838
+    },
+    "wayback_gif": {
+     "path": "yyc/90/wayback.gif",
+     "bytes": 923595
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2039,10 +2391,18 @@
     "official_gif": {
      "path": "yyc/91/official.gif",
      "bytes": 3951694
+    },
+    "wayback_mp4": {
+     "path": "yyc/91/wayback.mp4",
+     "bytes": 1078940
+    },
+    "wayback_gif": {
+     "path": "yyc/91/wayback.gif",
+     "bytes": 1797501
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 9
   },
   {
    "source": "yyc",
@@ -2055,10 +2415,18 @@
     "official_gif": {
      "path": "yyc/92/official.gif",
      "bytes": 3591111
+    },
+    "wayback_mp4": {
+     "path": "yyc/92/wayback.mp4",
+     "bytes": 608601
+    },
+    "wayback_gif": {
+     "path": "yyc/92/wayback.gif",
+     "bytes": 1094157
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2071,10 +2439,18 @@
     "official_gif": {
      "path": "yyc/93/official.gif",
      "bytes": 3689049
+    },
+    "wayback_mp4": {
+     "path": "yyc/93/wayback.mp4",
+     "bytes": 582982
+    },
+    "wayback_gif": {
+     "path": "yyc/93/wayback.gif",
+     "bytes": 1206805
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2087,10 +2463,18 @@
     "official_gif": {
      "path": "yyc/94/official.gif",
      "bytes": 3584167
+    },
+    "wayback_mp4": {
+     "path": "yyc/94/wayback.mp4",
+     "bytes": 695754
+    },
+    "wayback_gif": {
+     "path": "yyc/94/wayback.gif",
+     "bytes": 1222050
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -2103,10 +2487,18 @@
     "official_gif": {
      "path": "yyc/95/official.gif",
      "bytes": 3147648
+    },
+    "wayback_mp4": {
+     "path": "yyc/95/wayback.mp4",
+     "bytes": 5855913
+    },
+    "wayback_gif": {
+     "path": "yyc/95/wayback.gif",
+     "bytes": 9533595
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 50
   },
   {
    "source": "yyc",
@@ -2119,10 +2511,18 @@
     "official_gif": {
      "path": "yyc/96/official.gif",
      "bytes": 3664667
+    },
+    "wayback_mp4": {
+     "path": "yyc/96/wayback.mp4",
+     "bytes": 584749
+    },
+    "wayback_gif": {
+     "path": "yyc/96/wayback.gif",
+     "bytes": 1211504
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2135,10 +2535,18 @@
     "official_gif": {
      "path": "yyc/97/official.gif",
      "bytes": 3886915
+    },
+    "wayback_mp4": {
+     "path": "yyc/97/wayback.mp4",
+     "bytes": 598612
+    },
+    "wayback_gif": {
+     "path": "yyc/97/wayback.gif",
+     "bytes": 1108601
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2151,10 +2559,18 @@
     "official_gif": {
      "path": "yyc/98/official.gif",
      "bytes": 3684671
+    },
+    "wayback_mp4": {
+     "path": "yyc/98/wayback.mp4",
+     "bytes": 429016
+    },
+    "wayback_gif": {
+     "path": "yyc/98/wayback.gif",
+     "bytes": 954032
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2167,10 +2583,18 @@
     "official_gif": {
      "path": "yyc/99/official.gif",
      "bytes": 3666873
+    },
+    "wayback_mp4": {
+     "path": "yyc/99/wayback.mp4",
+     "bytes": 740260
+    },
+    "wayback_gif": {
+     "path": "yyc/99/wayback.gif",
+     "bytes": 1260659
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2183,10 +2607,18 @@
     "official_gif": {
      "path": "yyc/100/official.gif",
      "bytes": 3563492
+    },
+    "wayback_mp4": {
+     "path": "yyc/100/wayback.mp4",
+     "bytes": 376398
+    },
+    "wayback_gif": {
+     "path": "yyc/100/wayback.gif",
+     "bytes": 807361
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2199,10 +2631,18 @@
     "official_gif": {
      "path": "yyc/101/official.gif",
      "bytes": 4059770
+    },
+    "wayback_mp4": {
+     "path": "yyc/101/wayback.mp4",
+     "bytes": 668369
+    },
+    "wayback_gif": {
+     "path": "yyc/101/wayback.gif",
+     "bytes": 1093710
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2215,10 +2655,18 @@
     "official_gif": {
      "path": "yyc/102/official.gif",
      "bytes": 3892742
+    },
+    "wayback_mp4": {
+     "path": "yyc/102/wayback.mp4",
+     "bytes": 402353
+    },
+    "wayback_gif": {
+     "path": "yyc/102/wayback.gif",
+     "bytes": 812414
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2231,10 +2679,18 @@
     "official_gif": {
      "path": "yyc/103/official.gif",
      "bytes": 3607886
+    },
+    "wayback_mp4": {
+     "path": "yyc/103/wayback.mp4",
+     "bytes": 460288
+    },
+    "wayback_gif": {
+     "path": "yyc/103/wayback.gif",
+     "bytes": 1115685
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2247,10 +2703,18 @@
     "official_gif": {
      "path": "yyc/104/official.gif",
      "bytes": 2856471
+    },
+    "wayback_mp4": {
+     "path": "yyc/104/wayback.mp4",
+     "bytes": 74031
+    },
+    "wayback_gif": {
+     "path": "yyc/104/wayback.gif",
+     "bytes": 910639
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2263,10 +2727,18 @@
     "official_gif": {
      "path": "yyc/105/official.gif",
      "bytes": 4035765
+    },
+    "wayback_mp4": {
+     "path": "yyc/105/wayback.mp4",
+     "bytes": 519785
+    },
+    "wayback_gif": {
+     "path": "yyc/105/wayback.gif",
+     "bytes": 924503
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2279,10 +2751,18 @@
     "official_gif": {
      "path": "yyc/106/official.gif",
      "bytes": 3583550
+    },
+    "wayback_mp4": {
+     "path": "yyc/106/wayback.mp4",
+     "bytes": 99418
+    },
+    "wayback_gif": {
+     "path": "yyc/106/wayback.gif",
+     "bytes": 909223
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2295,10 +2775,18 @@
     "official_gif": {
      "path": "yyc/107/official.gif",
      "bytes": 3417099
+    },
+    "wayback_mp4": {
+     "path": "yyc/107/wayback.mp4",
+     "bytes": 113240
+    },
+    "wayback_gif": {
+     "path": "yyc/107/wayback.gif",
+     "bytes": 1013196
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2311,10 +2799,18 @@
     "official_gif": {
      "path": "yyc/108/official.gif",
      "bytes": 3676567
+    },
+    "wayback_mp4": {
+     "path": "yyc/108/wayback.mp4",
+     "bytes": 554452
+    },
+    "wayback_gif": {
+     "path": "yyc/108/wayback.gif",
+     "bytes": 1032654
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2327,10 +2823,18 @@
     "official_gif": {
      "path": "yyc/109/official.gif",
      "bytes": 366567
+    },
+    "wayback_mp4": {
+     "path": "yyc/109/wayback.mp4",
+     "bytes": 110899
+    },
+    "wayback_gif": {
+     "path": "yyc/109/wayback.gif",
+     "bytes": 962316
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2343,10 +2847,18 @@
     "official_gif": {
      "path": "yyc/110/official.gif",
      "bytes": 3144707
+    },
+    "wayback_mp4": {
+     "path": "yyc/110/wayback.mp4",
+     "bytes": 104732
+    },
+    "wayback_gif": {
+     "path": "yyc/110/wayback.gif",
+     "bytes": 1106115
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2359,10 +2871,18 @@
     "official_gif": {
      "path": "yyc/111/official.gif",
      "bytes": 3979171
+    },
+    "wayback_mp4": {
+     "path": "yyc/111/wayback.mp4",
+     "bytes": 553554
+    },
+    "wayback_gif": {
+     "path": "yyc/111/wayback.gif",
+     "bytes": 1073797
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2375,10 +2895,18 @@
     "official_gif": {
      "path": "yyc/112/official.gif",
      "bytes": 4491151
+    },
+    "wayback_mp4": {
+     "path": "yyc/112/wayback.mp4",
+     "bytes": 87914
+    },
+    "wayback_gif": {
+     "path": "yyc/112/wayback.gif",
+     "bytes": 838638
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2415,10 +2943,18 @@
     "official_gif": {
      "path": "yyc/114/official.gif",
      "bytes": 3346152
+    },
+    "wayback_mp4": {
+     "path": "yyc/114/wayback.mp4",
+     "bytes": 542620
+    },
+    "wayback_gif": {
+     "path": "yyc/114/wayback.gif",
+     "bytes": 1044363
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2431,10 +2967,18 @@
     "official_gif": {
      "path": "yyc/115/official.gif",
      "bytes": 2929427
+    },
+    "wayback_mp4": {
+     "path": "yyc/115/wayback.mp4",
+     "bytes": 241961
+    },
+    "wayback_gif": {
+     "path": "yyc/115/wayback.gif",
+     "bytes": 692308
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2447,10 +2991,18 @@
     "official_gif": {
      "path": "yyc/116/official.gif",
      "bytes": 3671305
+    },
+    "wayback_mp4": {
+     "path": "yyc/116/wayback.mp4",
+     "bytes": 632308
+    },
+    "wayback_gif": {
+     "path": "yyc/116/wayback.gif",
+     "bytes": 1141577
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2463,10 +3015,18 @@
     "official_gif": {
      "path": "yyc/117/official.gif",
      "bytes": 2762728
+    },
+    "wayback_mp4": {
+     "path": "yyc/117/wayback.mp4",
+     "bytes": 447833
+    },
+    "wayback_gif": {
+     "path": "yyc/117/wayback.gif",
+     "bytes": 1047213
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2479,10 +3039,18 @@
     "official_gif": {
      "path": "yyc/118/official.gif",
      "bytes": 344796
+    },
+    "wayback_mp4": {
+     "path": "yyc/118/wayback.mp4",
+     "bytes": 351026
+    },
+    "wayback_gif": {
+     "path": "yyc/118/wayback.gif",
+     "bytes": 953019
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2495,10 +3063,18 @@
     "official_gif": {
      "path": "yyc/119/official.gif",
      "bytes": 3329730
+    },
+    "wayback_mp4": {
+     "path": "yyc/119/wayback.mp4",
+     "bytes": 414559
+    },
+    "wayback_gif": {
+     "path": "yyc/119/wayback.gif",
+     "bytes": 1065649
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 8
   },
   {
    "source": "yyc",
@@ -2511,10 +3087,18 @@
     "official_gif": {
      "path": "yyc/120/official.gif",
      "bytes": 3009707
+    },
+    "wayback_mp4": {
+     "path": "yyc/120/wayback.mp4",
+     "bytes": 232024
+    },
+    "wayback_gif": {
+     "path": "yyc/120/wayback.gif",
+     "bytes": 926779
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2527,10 +3111,18 @@
     "official_gif": {
      "path": "yyc/121/official.gif",
      "bytes": 891559
+    },
+    "wayback_mp4": {
+     "path": "yyc/121/wayback.mp4",
+     "bytes": 321176
+    },
+    "wayback_gif": {
+     "path": "yyc/121/wayback.gif",
+     "bytes": 972264
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2567,10 +3159,18 @@
     "official_gif": {
      "path": "yyc/123/official.gif",
      "bytes": 2921241
+    },
+    "wayback_mp4": {
+     "path": "yyc/123/wayback.mp4",
+     "bytes": 4137640
+    },
+    "wayback_gif": {
+     "path": "yyc/123/wayback.gif",
+     "bytes": 9404018
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 70
   },
   {
    "source": "yyc",
@@ -2607,10 +3207,18 @@
     "official_gif": {
      "path": "yyc/125/official.gif",
      "bytes": 3466015
+    },
+    "wayback_mp4": {
+     "path": "yyc/125/wayback.mp4",
+     "bytes": 584126
+    },
+    "wayback_gif": {
+     "path": "yyc/125/wayback.gif",
+     "bytes": 1043151
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2623,10 +3231,18 @@
     "official_gif": {
      "path": "yyc/126/official.gif",
      "bytes": 3474725
+    },
+    "wayback_mp4": {
+     "path": "yyc/126/wayback.mp4",
+     "bytes": 1215192
+    },
+    "wayback_gif": {
+     "path": "yyc/126/wayback.gif",
+     "bytes": 9709329
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 79
   },
   {
    "source": "yyc",
@@ -2639,10 +3255,18 @@
     "official_gif": {
      "path": "yyc/127/official.gif",
      "bytes": 3729751
+    },
+    "wayback_mp4": {
+     "path": "yyc/127/wayback.mp4",
+     "bytes": 895913
+    },
+    "wayback_gif": {
+     "path": "yyc/127/wayback.gif",
+     "bytes": 1609545
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 9
   },
   {
    "source": "yyc",
@@ -2655,10 +3279,18 @@
     "official_gif": {
      "path": "yyc/128/official.gif",
      "bytes": 3314085
+    },
+    "wayback_mp4": {
+     "path": "yyc/128/wayback.mp4",
+     "bytes": 273090
+    },
+    "wayback_gif": {
+     "path": "yyc/128/wayback.gif",
+     "bytes": 623776
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2671,10 +3303,18 @@
     "official_gif": {
      "path": "yyc/129/official.gif",
      "bytes": 3295828
+    },
+    "wayback_mp4": {
+     "path": "yyc/129/wayback.mp4",
+     "bytes": 508595
+    },
+    "wayback_gif": {
+     "path": "yyc/129/wayback.gif",
+     "bytes": 1232792
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2687,10 +3327,18 @@
     "official_gif": {
      "path": "yyc/130/official.gif",
      "bytes": 3270645
+    },
+    "wayback_mp4": {
+     "path": "yyc/130/wayback.mp4",
+     "bytes": 421619
+    },
+    "wayback_gif": {
+     "path": "yyc/130/wayback.gif",
+     "bytes": 898278
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2703,10 +3351,18 @@
     "official_gif": {
      "path": "yyc/131/official.gif",
      "bytes": 2667163
+    },
+    "wayback_mp4": {
+     "path": "yyc/131/wayback.mp4",
+     "bytes": 316368
+    },
+    "wayback_gif": {
+     "path": "yyc/131/wayback.gif",
+     "bytes": 857638
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 7
   },
   {
    "source": "yyc",
@@ -2719,10 +3375,18 @@
     "official_gif": {
      "path": "yyc/132/official.gif",
      "bytes": 2625857
+    },
+    "wayback_mp4": {
+     "path": "yyc/132/wayback.mp4",
+     "bytes": 233026
+    },
+    "wayback_gif": {
+     "path": "yyc/132/wayback.gif",
+     "bytes": 667494
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2735,10 +3399,18 @@
     "official_gif": {
      "path": "yyc/133/official.gif",
      "bytes": 3422425
+    },
+    "wayback_mp4": {
+     "path": "yyc/133/wayback.mp4",
+     "bytes": 338535
+    },
+    "wayback_gif": {
+     "path": "yyc/133/wayback.gif",
+     "bytes": 772764
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2775,10 +3447,18 @@
     "official_gif": {
      "path": "yyc/135/official.gif",
      "bytes": 2754508
+    },
+    "wayback_mp4": {
+     "path": "yyc/135/wayback.mp4",
+     "bytes": 195393
+    },
+    "wayback_gif": {
+     "path": "yyc/135/wayback.gif",
+     "bytes": 551450
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2791,10 +3471,18 @@
     "official_gif": {
      "path": "yyc/136/official.gif",
      "bytes": 3122794
+    },
+    "wayback_mp4": {
+     "path": "yyc/136/wayback.mp4",
+     "bytes": 299057
+    },
+    "wayback_gif": {
+     "path": "yyc/136/wayback.gif",
+     "bytes": 770117
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2807,10 +3495,18 @@
     "official_gif": {
      "path": "yyc/137/official.gif",
      "bytes": 2890079
+    },
+    "wayback_mp4": {
+     "path": "yyc/137/wayback.mp4",
+     "bytes": 324383
+    },
+    "wayback_gif": {
+     "path": "yyc/137/wayback.gif",
+     "bytes": 753738
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2847,10 +3543,18 @@
     "official_gif": {
      "path": "yyc/139/official.gif",
      "bytes": 3457060
+    },
+    "wayback_mp4": {
+     "path": "yyc/139/wayback.mp4",
+     "bytes": 370911
+    },
+    "wayback_gif": {
+     "path": "yyc/139/wayback.gif",
+     "bytes": 872519
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2863,10 +3567,18 @@
     "official_gif": {
      "path": "yyc/140/official.gif",
      "bytes": 3321461
+    },
+    "wayback_mp4": {
+     "path": "yyc/140/wayback.mp4",
+     "bytes": 272130
+    },
+    "wayback_gif": {
+     "path": "yyc/140/wayback.gif",
+     "bytes": 700809
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2879,10 +3591,18 @@
     "official_gif": {
      "path": "yyc/141/official.gif",
      "bytes": 3353975
+    },
+    "wayback_mp4": {
+     "path": "yyc/141/wayback.mp4",
+     "bytes": 517588
+    },
+    "wayback_gif": {
+     "path": "yyc/141/wayback.gif",
+     "bytes": 987966
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 6
   },
   {
    "source": "yyc",
@@ -2895,10 +3615,18 @@
     "official_gif": {
      "path": "yyc/142/official.gif",
      "bytes": 2945835
+    },
+    "wayback_mp4": {
+     "path": "yyc/142/wayback.mp4",
+     "bytes": 300065
+    },
+    "wayback_gif": {
+     "path": "yyc/142/wayback.gif",
+     "bytes": 735006
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -2911,10 +3639,18 @@
     "official_gif": {
      "path": "yyc/143/official.gif",
      "bytes": 3405291
+    },
+    "wayback_mp4": {
+     "path": "yyc/143/wayback.mp4",
+     "bytes": 346817
+    },
+    "wayback_gif": {
+     "path": "yyc/143/wayback.gif",
+     "bytes": 718224
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -2927,10 +3663,18 @@
     "official_gif": {
      "path": "yyc/144/official.gif",
      "bytes": 3513177
+    },
+    "wayback_mp4": {
+     "path": "yyc/144/wayback.mp4",
+     "bytes": 256078
+    },
+    "wayback_gif": {
+     "path": "yyc/144/wayback.gif",
+     "bytes": 654704
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -2943,10 +3687,18 @@
     "official_gif": {
      "path": "yyc/145/official.gif",
      "bytes": 3586307
+    },
+    "wayback_mp4": {
+     "path": "yyc/145/wayback.mp4",
+     "bytes": 314212
+    },
+    "wayback_gif": {
+     "path": "yyc/145/wayback.gif",
+     "bytes": 671764
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -2959,10 +3711,18 @@
     "official_gif": {
      "path": "yyc/146/official.gif",
      "bytes": 3804381
+    },
+    "wayback_mp4": {
+     "path": "yyc/146/wayback.mp4",
+     "bytes": 221174
+    },
+    "wayback_gif": {
+     "path": "yyc/146/wayback.gif",
+     "bytes": 495382
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -2975,10 +3735,18 @@
     "official_gif": {
      "path": "yyc/147/official.gif",
      "bytes": 3668516
+    },
+    "wayback_mp4": {
+     "path": "yyc/147/wayback.mp4",
+     "bytes": 297580
+    },
+    "wayback_gif": {
+     "path": "yyc/147/wayback.gif",
+     "bytes": 601104
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -2991,10 +3759,18 @@
     "official_gif": {
      "path": "yyc/148/official.gif",
      "bytes": 3811151
+    },
+    "wayback_mp4": {
+     "path": "yyc/148/wayback.mp4",
+     "bytes": 276296
+    },
+    "wayback_gif": {
+     "path": "yyc/148/wayback.gif",
+     "bytes": 571557
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3007,10 +3783,18 @@
     "official_gif": {
      "path": "yyc/149/official.gif",
      "bytes": 2856341
+    },
+    "wayback_mp4": {
+     "path": "yyc/149/wayback.mp4",
+     "bytes": 180285
+    },
+    "wayback_gif": {
+     "path": "yyc/149/wayback.gif",
+     "bytes": 447224
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3023,10 +3807,18 @@
     "official_gif": {
      "path": "yyc/150/official.gif",
      "bytes": 3434580
+    },
+    "wayback_mp4": {
+     "path": "yyc/150/wayback.mp4",
+     "bytes": 298606
+    },
+    "wayback_gif": {
+     "path": "yyc/150/wayback.gif",
+     "bytes": 605784
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -3039,10 +3831,18 @@
     "official_gif": {
      "path": "yyc/151/official.gif",
      "bytes": 3447593
+    },
+    "wayback_mp4": {
+     "path": "yyc/151/wayback.mp4",
+     "bytes": 373719
+    },
+    "wayback_gif": {
+     "path": "yyc/151/wayback.gif",
+     "bytes": 747331
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -3055,10 +3855,18 @@
     "official_gif": {
      "path": "yyc/152/official.gif",
      "bytes": 3395503
+    },
+    "wayback_mp4": {
+     "path": "yyc/152/wayback.mp4",
+     "bytes": 399625
+    },
+    "wayback_gif": {
+     "path": "yyc/152/wayback.gif",
+     "bytes": 706351
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -3071,10 +3879,18 @@
     "official_gif": {
      "path": "yyc/153/official.gif",
      "bytes": 3591146
+    },
+    "wayback_mp4": {
+     "path": "yyc/153/wayback.mp4",
+     "bytes": 345929
+    },
+    "wayback_gif": {
+     "path": "yyc/153/wayback.gif",
+     "bytes": 733841
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -3087,10 +3903,18 @@
     "official_gif": {
      "path": "yyc/154/official.gif",
      "bytes": 3950522
+    },
+    "wayback_mp4": {
+     "path": "yyc/154/wayback.mp4",
+     "bytes": 203722
+    },
+    "wayback_gif": {
+     "path": "yyc/154/wayback.gif",
+     "bytes": 485737
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3103,10 +3927,18 @@
     "official_gif": {
      "path": "yyc/155/official.gif",
      "bytes": 3344811
+    },
+    "wayback_mp4": {
+     "path": "yyc/155/wayback.mp4",
+     "bytes": 222529
+    },
+    "wayback_gif": {
+     "path": "yyc/155/wayback.gif",
+     "bytes": 522960
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3119,10 +3951,18 @@
     "official_gif": {
      "path": "yyc/156/official.gif",
      "bytes": 4143002
+    },
+    "wayback_mp4": {
+     "path": "yyc/156/wayback.mp4",
+     "bytes": 262501
+    },
+    "wayback_gif": {
+     "path": "yyc/156/wayback.gif",
+     "bytes": 543338
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3135,10 +3975,18 @@
     "official_gif": {
      "path": "yyc/157/official.gif",
      "bytes": 3554418
+    },
+    "wayback_mp4": {
+     "path": "yyc/157/wayback.mp4",
+     "bytes": 289931
+    },
+    "wayback_gif": {
+     "path": "yyc/157/wayback.gif",
+     "bytes": 533241
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3151,10 +3999,34 @@
     "official_gif": {
      "path": "yyc/158/official.gif",
      "bytes": 3847637
+    },
+    "wayback_mp4": {
+     "path": "yyc/158/wayback.mp4",
+     "bytes": 282469
+    },
+    "wayback_gif": {
+     "path": "yyc/158/wayback.gif",
+     "bytes": 577230
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
+  },
+  {
+   "source": "yyc",
+   "camera": "159",
+   "videos": {
+    "wayback_mp4": {
+     "path": "yyc/159/wayback.mp4",
+     "bytes": 178615
+    },
+    "wayback_gif": {
+     "path": "yyc/159/wayback.gif",
+     "bytes": 405224
+    }
+   },
+   "official_frames": 1,
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3167,10 +4039,18 @@
     "official_gif": {
      "path": "yyc/160/official.gif",
      "bytes": 3577133
+    },
+    "wayback_mp4": {
+     "path": "yyc/160/wayback.mp4",
+     "bytes": 257467
+    },
+    "wayback_gif": {
+     "path": "yyc/160/wayback.gif",
+     "bytes": 490313
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3183,10 +4063,18 @@
     "official_gif": {
      "path": "yyc/161/official.gif",
      "bytes": 3400781
+    },
+    "wayback_mp4": {
+     "path": "yyc/161/wayback.mp4",
+     "bytes": 427363
+    },
+    "wayback_gif": {
+     "path": "yyc/161/wayback.gif",
+     "bytes": 859035
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 5
   },
   {
    "source": "yyc",
@@ -3199,10 +4087,18 @@
     "official_gif": {
      "path": "yyc/162/official.gif",
      "bytes": 3842131
+    },
+    "wayback_mp4": {
+     "path": "yyc/162/wayback.mp4",
+     "bytes": 332564
+    },
+    "wayback_gif": {
+     "path": "yyc/162/wayback.gif",
+     "bytes": 713892
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -3215,10 +4111,18 @@
     "official_gif": {
      "path": "yyc/163/official.gif",
      "bytes": 3420098
+    },
+    "wayback_mp4": {
+     "path": "yyc/163/wayback.mp4",
+     "bytes": 223381
+    },
+    "wayback_gif": {
+     "path": "yyc/163/wayback.gif",
+     "bytes": 531489
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3231,10 +4135,18 @@
     "official_gif": {
      "path": "yyc/164/official.gif",
      "bytes": 3140954
+    },
+    "wayback_mp4": {
+     "path": "yyc/164/wayback.mp4",
+     "bytes": 207383
+    },
+    "wayback_gif": {
+     "path": "yyc/164/wayback.gif",
+     "bytes": 467447
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3247,10 +4159,18 @@
     "official_gif": {
      "path": "yyc/165/official.gif",
      "bytes": 3320811
+    },
+    "wayback_mp4": {
+     "path": "yyc/165/wayback.mp4",
+     "bytes": 291606
+    },
+    "wayback_gif": {
+     "path": "yyc/165/wayback.gif",
+     "bytes": 512073
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3263,10 +4183,18 @@
     "official_gif": {
      "path": "yyc/166/official.gif",
      "bytes": 3346631
+    },
+    "wayback_mp4": {
+     "path": "yyc/166/wayback.mp4",
+     "bytes": 196491
+    },
+    "wayback_gif": {
+     "path": "yyc/166/wayback.gif",
+     "bytes": 421780
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3279,10 +4207,18 @@
     "official_gif": {
      "path": "yyc/167/official.gif",
      "bytes": 3344041
+    },
+    "wayback_mp4": {
+     "path": "yyc/167/wayback.mp4",
+     "bytes": 411199
+    },
+    "wayback_gif": {
+     "path": "yyc/167/wayback.gif",
+     "bytes": 764012
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 4
   },
   {
    "source": "yyc",
@@ -3295,10 +4231,34 @@
     "official_gif": {
      "path": "yyc/168/official.gif",
      "bytes": 3003269
+    },
+    "wayback_mp4": {
+     "path": "yyc/168/wayback.mp4",
+     "bytes": 205736
+    },
+    "wayback_gif": {
+     "path": "yyc/168/wayback.gif",
+     "bytes": 466626
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
+  },
+  {
+   "source": "yyc",
+   "camera": "169",
+   "videos": {
+    "wayback_mp4": {
+     "path": "yyc/169/wayback.mp4",
+     "bytes": 292327
+    },
+    "wayback_gif": {
+     "path": "yyc/169/wayback.gif",
+     "bytes": 536362
+    }
+   },
+   "official_frames": 1,
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3311,10 +4271,18 @@
     "official_gif": {
      "path": "yyc/170/official.gif",
      "bytes": 3373034
+    },
+    "wayback_mp4": {
+     "path": "yyc/170/wayback.mp4",
+     "bytes": 222750
+    },
+    "wayback_gif": {
+     "path": "yyc/170/wayback.gif",
+     "bytes": 541800
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3327,10 +4295,18 @@
     "official_gif": {
      "path": "yyc/171/official.gif",
      "bytes": 291212
+    },
+    "wayback_mp4": {
+     "path": "yyc/171/wayback.mp4",
+     "bytes": 76100
+    },
+    "wayback_gif": {
+     "path": "yyc/171/wayback.gif",
+     "bytes": 185625
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3343,10 +4319,18 @@
     "official_gif": {
      "path": "yyc/172/official.gif",
      "bytes": 2830059
+    },
+    "wayback_mp4": {
+     "path": "yyc/172/wayback.mp4",
+     "bytes": 115215
+    },
+    "wayback_gif": {
+     "path": "yyc/172/wayback.gif",
+     "bytes": 306080
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3359,10 +4343,18 @@
     "official_gif": {
      "path": "yyc/173/official.gif",
      "bytes": 3095483
+    },
+    "wayback_mp4": {
+     "path": "yyc/173/wayback.mp4",
+     "bytes": 161373
+    },
+    "wayback_gif": {
+     "path": "yyc/173/wayback.gif",
+     "bytes": 337925
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3375,10 +4367,18 @@
     "official_gif": {
      "path": "yyc/174/official.gif",
      "bytes": 3042453
+    },
+    "wayback_mp4": {
+     "path": "yyc/174/wayback.mp4",
+     "bytes": 187265
+    },
+    "wayback_gif": {
+     "path": "yyc/174/wayback.gif",
+     "bytes": 459089
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3391,10 +4391,18 @@
     "official_gif": {
      "path": "yyc/175/official.gif",
      "bytes": 3207658
+    },
+    "wayback_mp4": {
+     "path": "yyc/175/wayback.mp4",
+     "bytes": 130531
+    },
+    "wayback_gif": {
+     "path": "yyc/175/wayback.gif",
+     "bytes": 373348
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 3
   },
   {
    "source": "yyc",
@@ -3410,7 +4418,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3442,7 +4450,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3455,10 +4463,18 @@
     "official_gif": {
      "path": "yyc/179/official.gif",
      "bytes": 2567466
+    },
+    "wayback_mp4": {
+     "path": "yyc/179/wayback.mp4",
+     "bytes": 108174
+    },
+    "wayback_gif": {
+     "path": "yyc/179/wayback.gif",
+     "bytes": 299555
     }
    },
    "official_frames": 11,
-   "wayback_frames": 1
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3474,7 +4490,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3490,7 +4506,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3506,7 +4522,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3522,7 +4538,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3538,7 +4554,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3554,7 +4570,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3570,7 +4586,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3586,7 +4602,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3602,7 +4618,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3618,7 +4634,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3634,7 +4650,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3650,7 +4666,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3663,10 +4679,18 @@
     "official_gif": {
      "path": "yyc/192/official.gif",
      "bytes": 3278924
+    },
+    "wayback_mp4": {
+     "path": "yyc/192/wayback.mp4",
+     "bytes": 131014
+    },
+    "wayback_gif": {
+     "path": "yyc/192/wayback.gif",
+     "bytes": 317627
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 2
   },
   {
    "source": "yyc",
@@ -3682,7 +4706,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3762,7 +4786,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -3842,7 +4866,7 @@
     }
    },
    "official_frames": 11,
-   "wayback_frames": 0
+   "wayback_frames": 1
   },
   {
    "source": "yyc",
@@ -4166,14 +5190,11 @@
   }
  ],
  "totals": {
-  "cameras_with_loops": 235,
+  "cameras_with_loops": 237,
   "yyc_official": 222,
-  "yyc_wayback": 52,
+  "yyc_wayback": 178,
   "iem": 13,
-  "total_bytes": 3159549014
+  "total_bytes": 3359743748
  },
- "without_loops": [
-  "yyc/159",
-  "yyc/169"
- ]
+ "without_loops": []
 }

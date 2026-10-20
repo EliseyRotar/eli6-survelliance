@@ -804,17 +804,23 @@ images only as last resort; ingest everything into the dataset.
   exceptions: **loc159/169** = the frozen retired cams — no `/ss/`
   history at all (only the stale live jpg), skipped honestly.
 
-### Wayback multi-year loops (in progress)
+### Wayback multi-year loops (DONE — 178/224)
 
 - CDX digest-collapsed per loc (filter statuscode:200, image/jpeg):
-  depth varies wildly — loc17≈47, loc4/5≈49-54, loc22=117, loc202=0.
+  depth declines with loc id — early locs 30-117 snapshots (loc22=117,
+  loc37=117), mid ~5-10, tail 0-3 (loc190=1, loc215=0).
 - Raw `id_` downloads got aggressively 429-throttled by Wayback after
   an initial burst; fixed by **sequential walker + 5 s success pacing
   + 60 s×attempt backoff** (3-worker burst = hours of penalties).
-  Job runs detached (`camera_testing/yyc_wayback.log`), incremental
-  per-cam frame cache, builds `wayback.{mp4,gif}` (2 fps / GIF
-  subsampled 640px) for cams with ≥2 frames. Some high-numbered locs
-  genuinely have 0 Wayback history.
+  Full walk 02:05→08:05 (~6 h), incremental per-cam frame cache.
+- **Result: `wayback.{mp4,gif}` built for 178/224 locs** (2 fps MP4 /
+  GIF subsampled 640 px), **3,050 historical frames total**; 46 locs
+  skipped honestly (<2 Wayback snapshots — mostly new high-numbered
+  cams). **loc159/169 (the retired frozen cams) were rescued here** —
+  Wayback has ≥2 historical frames each, so all 224 Calgary locs now
+  have at least one loop video. Wayback holds **no** `/ss/` frames
+  (CDX empty), so the official 20-min window can't be extended
+  historically.
 
 ### Dataset-wide archive-capable source research (user: "other cameras that supports this")
 
@@ -845,8 +851,10 @@ images only as last resort; ingest everything into the dataset.
 
 ### Totals / artifacts
 
-- Loop artifacts live in `web_viewer/static/loops/{yyc,iem}/`
-  (**not committed** — hundreds of MB; manifest committed instead at
+- **Final: 237 cameras with loop videos** = 224 Calgary (222 official
+  20-min + 178 Wayback multi-year, overlapping) + 13 IEM —
+  **3.36 GB** of MP4+GIF under `web_viewer/static/loops/{yyc,iem}/`
+  (**not committed** — gitignored; manifest committed at
   `docs/loops_manifest.json` via `camera_testing/_loops_manifest.py`).
 - CSV untouched this round (no new rows; 231,357 / public 231,216).
 
@@ -864,14 +872,13 @@ images only as last resort; ingest everything into the dataset.
 
 ### Follow-ups
 
-- Wayback job: let it finish; patch Round 14 + manifest with final
-  cam/frame counts.
 - If deeper loops desired later: IEM supports arbitrary depth (walk
   back years at 5-min steps — a 30-day loop = 8,640 frames/cam);
-  Calgary official archive is hard-capped at 20 min.
-- Wayback CDX for `trafficcam.calgary.ca/ss/*` paths (the /ss/ frames
-  themselves may have been archived → could extend the 20-min window
-  historically) — not yet probed.
+  Calgary official archive is hard-capped at 20 min, Wayback adds
+  sparse frames up to 2006 (loc17: 47 unique across 2007-2025).
+- 46 Calgary locs have <2 Wayback snapshots — re-run
+  `_yyc_loops_wayback.py` months later to pick up new captures (cache
+  is incremental).
 
 
 
