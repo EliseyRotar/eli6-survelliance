@@ -1,4 +1,4 @@
-# Python
+﻿# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -50,7 +50,7 @@ camera_config_corrected.json
 camera_testing/__pycache__/
 camera_testing/camera_test_results_*.json
 
-# Backups (39 GB of CSV/DB snapshots — local only)
+# Backups (39 GB of CSV/DB snapshots â€” local only)
 backups/
 !backups/.gitkeep
 
@@ -76,4 +76,5 @@ camera_testing/rockyou.txt
 camera_testing/tv_catalog*.json
 camera_testing/csv_chunks/
 data/cams.db
-web_viewer/static/loops/
+web_viewer/static/loops/*
+!web_viewer/static/loops/index.html
