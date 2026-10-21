@@ -41,7 +41,7 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from flask import Flask, jsonify, request, send_from_directory, abort, Response
+from flask import Flask, jsonify, request, send_from_directory, abort, Response, redirect
 
 # ====== Paths ======
 CSV_PATH    = Path(r'C:\Users\eli6-admin\Documents\eli6-surveillance\controllable_Webcams.csv')
@@ -2099,6 +2099,208 @@ def api_ai_query():
 
     answer = f"Sorry, I couldn't interpret '{q}'. Try: 'top 5 countries', 'cams in Japan', 'traffic cams', or '500 hls cams'."
     return jsonify({'answer': answer, 'results': [], 'type': 'unknown'})
+
+
+# ====== feratel live webcam broker (Session 50) ======
+# feratel's webtv player (t=1) names the current rolling MP4 fragment in its
+# og:video meta: https://stsNNN.feratel.co.at/streams/stsstoreNNN/1/<camid>_<frag>Vid.mp4
+# Active cams rotate to a fresh fragment (new uuid, growing size) every ~60-90s;
+# inactive cams keep a frozen fragment; image-only cams have no og:video at all.
+# We resolve+cache the fragment server-side and hand the player a stable 302 URL,
+# so rotation never hits the client. Origin sends CORS *, byte ranges work direct.
+
+_FT_FRAG_CACHE = {}    # camid -> (frag_url, frag_age_s, frag_size, resolved_ts) | None
+_FT_ROW_CACHE = {}     # idx -> dict (camid, name, lat, lon, page, live_status, notes)
+_FT_STILL_CACHE = {}   # idx -> (data, ts)
+_FT_WX_CACHE = {}      # (lat, lon) -> (payload, ts)
+_FT_LOCK = threading.Lock()
+_FT_UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131.0',
+          'Accept': 'text/html'}
+_FT_FRAG_TTL = 40
+_FT_STILL_TTL = 30
+_FT_WX_TTL = 600
+
+
+def _ft_row(idx):
+    """Row lookup for a feratel cam (csv_id ft_<camid>), cached."""
+    idx = int(idx)
+    hit = _FT_ROW_CACHE.get(idx)
+    if hit is not None:
+        return hit
+    _ensure_db()
+    row = _DB_CONN.execute(
+        'SELECT name, url, lat, lon, live_status, notes, full_row FROM cams WHERE idx = ?',
+        (idx,)).fetchone()
+    if not row:
+        return None
+    camid = ''
+    page_title = ''
+    try:
+        fr = json.loads(row['full_row'] or '{}')
+        cid = fr.get('csv_id') or ''
+        if cid.startswith('ft_'):
+            camid = cid[3:]
+        page_title = fr.get('page_title') or ''
+    except (TypeError, ValueError):
+        pass
+    if not camid:
+        return None
+    rec = {'idx': idx, 'camid': camid, 'name': row['name'], 'page': row['url'],
+           'lat': row['lat'], 'lon': row['lon'], 'live_status': row['live_status'],
+           'notes': row['notes'] or '', 'page_title': page_title}
+    with _FT_LOCK:
+        _FT_ROW_CACHE[idx] = rec
+    return rec
+
+
+def _ft_resolve_frag(camid, force=False):
+    """Fetch webtv t=1 and return (frag_url, frag_age_s, frag_size, ts) or None."""
+    now = time.time()
+    with _FT_LOCK:
+        hit = _FT_FRAG_CACHE.get(camid)
+    if hit is not None and not force and now - hit[3] < _FT_FRAG_TTL:
+        return hit
+    frag = age = size = None
+    try:
+        req = urllib.request.Request(
+            f'https://webtvfc.feratel.com/webtv/?cam={camid}&t=1&lg=en&design=v5',
+            headers=_FT_UA)
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode('utf-8', 'replace')
+        m = re.search(r'property="og:video" content="([^"]+)"', html)
+        if m:
+            frag = m.group(1)
+            try:
+                rq = urllib.request.Request(frag, headers={**_FT_UA, 'Range': 'bytes=0-0'})
+                with urllib.request.urlopen(rq, timeout=10) as rr:
+                    cr = rr.headers.get('Content-Range', '')
+                    if '/' in cr and cr.rsplit('/', 1)[1].isdigit():
+                        size = int(cr.rsplit('/', 1)[1])
+                    et = (rr.headers.get('ETag') or '').strip('"')
+                    ts0 = et.split('_')[0]
+                    if ts0.isdigit():
+                        age = max(0, int(now - int(ts0) / 1000))
+            except Exception:
+                pass
+    except Exception:
+        frag = age = size = None
+    out = (frag, age, size, now) if frag else None
+    with _FT_LOCK:
+        _FT_FRAG_CACHE[camid] = out
+    return out
+
+
+@app.route('/api/feratel/meta/<int:idx>')
+def api_feratel_meta(idx):
+    """Everything the player/overlay needs for one feratel cam."""
+    rec = _ft_row(idx)
+    if not rec:
+        abort(404)
+    force = request.args.get('fresh') in ('1', 'true')
+    frag = _ft_resolve_frag(rec['camid'], force=force)
+    notes = rec['notes']
+    m_webtv = re.search(r'webtv=(\S+?)(?:, |$)', notes)
+    m_latest = re.search(r'latest_mp4=(\S+?)(?:, |$)', notes)
+    kind = 'video' if frag else 'image'
+    out = {
+        'idx': rec['idx'],
+        'camid': rec['camid'],
+        'name': rec['name'],
+        'page_title': rec['page_title'],
+        'page': rec['page'],
+        'lat': rec['lat'],
+        'lon': rec['lon'],
+        'live_status': rec['live_status'],
+        'kind': kind,
+        'stream': f'/api/feratel/live/{idx}.mp4' if kind == 'video' else None,
+        'image': f'/api/feratel/img/{idx}.jpg',
+        'frag_url': frag[0] if frag else None,
+        'frag_age_s': frag[1] if frag else None,
+        'frag_size': frag[2] if frag else None,
+        'resolved_at': frag[3] if frag else None,
+        'webtv': m_webtv.group(1) if m_webtv else None,
+        'latest_mp4': m_latest.group(1) if m_latest else None,
+        'weather_url': f'/api/feratel/weather?lat={rec["lat"]}&lon={rec["lon"]}'
+                       if rec['lat'] is not None and rec['lon'] is not None else None,
+        'rotates': bool(frag and rec['live_status'] == 'live'),
+    }
+    return jsonify(out)
+
+
+@app.route('/api/feratel/live/<int:idx>.mp4')
+def api_feratel_live(idx):
+    """302 to the current rolling fragment (re-resolved every _FT_FRAG_TTL)."""
+    rec = _ft_row(idx)
+    if not rec:
+        abort(404)
+    frag = _ft_resolve_frag(rec['camid'])
+    if not frag:
+        abort(404, 'no live fragment for this cam')
+    return redirect(frag[0], code=302)
+
+
+@app.route('/api/feratel/img/<int:idx>.jpg')
+def api_feratel_img(idx):
+    """Current still thumbnail (wtvthmb), cached 30s."""
+    rec = _ft_row(idx)
+    if not rec:
+        abort(404)
+    now = time.time()
+    hit = _FT_STILL_CACHE.get(idx)
+    if hit and now - hit[1] < _FT_STILL_TTL:
+        return (hit[0], 200, {'Content-Type': 'image/jpeg',
+                              'Cache-Control': 'no-store', 'X-Cache': 'HIT'})
+    url = f'https://wtvthmb.feratel.com/thumbnails/{rec["camid"]}.jpeg?design=v5'
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': _FT_UA['User-Agent'],
+                                                   'Referer': 'https://www.feratel.com/'})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data = r.read()
+        if data[:3] == b'\xff\xd8\xff':
+            _FT_STILL_CACHE[idx] = (data, now)
+            if len(_FT_STILL_CACHE) > 400:
+                for k in sorted(_FT_STILL_CACHE, key=lambda x: _FT_STILL_CACHE[x][1])[:100]:
+                    del _FT_STILL_CACHE[k]
+            return (data, 200, {'Content-Type': 'image/jpeg', 'Cache-Control': 'no-store',
+                                'X-Cache': 'MISS'})
+    except Exception:
+        pass
+    abort(404)
+
+
+@app.route('/api/feratel/weather')
+def api_feratel_weather():
+    """Current weather at a cam position (open-meteo, cached 10 min)."""
+    try:
+        lat = float(request.args.get('lat', ''))
+        lon = float(request.args.get('lon', ''))
+    except (TypeError, ValueError):
+        return jsonify({'error': 'lat/lon must be floats'}), 400
+    if not (-90 <= lat <= 90 and -180 <= lon <= 180):
+        return jsonify({'error': 'lat/lon out of range'}), 400
+    key = (round(lat, 3), round(lon, 3))
+    now = time.time()
+    hit = _FT_WX_CACHE.get(key)
+    if hit and now - hit[1] < _FT_WX_TTL:
+        payload = dict(hit[0])
+        payload['cached'] = True
+        return jsonify(payload)
+    u = ('https://api.open-meteo.com/v1/forecast?latitude=%.4f&longitude=%.4f'
+         '&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,'
+         'weather_code,cloud_cover,wind_speed_10m,wind_direction_10m,is_day'
+         '&wind_speed_unit=kmh&timezone=auto' % (lat, lon))
+    try:
+        req = urllib.request.Request(u, headers={'User-Agent': 'eli6-dashboard/1.0'})
+        with urllib.request.urlopen(req, timeout=12) as r:
+            data = json.loads(r.read().decode('utf-8', 'replace'))
+    except Exception as e:
+        return jsonify({'error': f'open-meteo failed: {e!r}'}), 502
+    data['cached'] = False
+    _FT_WX_CACHE[key] = (data, now)
+    if len(_FT_WX_CACHE) > 2000:
+        for k in sorted(_FT_WX_CACHE, key=lambda x: _FT_WX_CACHE[x][1])[:500]:
+            del _FT_WX_CACHE[k]
+    return jsonify(data)
 
 
 if __name__ == '__main__':

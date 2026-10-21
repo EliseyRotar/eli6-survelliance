@@ -982,6 +982,132 @@ images only as last resort; ingest everything into the dataset.
   `Eli6LoopsOfficialDaily`
 
 
+## Round 16 — feratel.com full enumeration (1,070 cams) + rolling-fragment proxy + weather + infra recon (50, 2026-10-21)
+
+- **Enumeration (saturated)**: feratel XML sitemaps → **1,070 cam
+  pages**, all fetched (0 fail). Key parser constraint: each Astro
+  page's *main player island* carries only `cam:{id:<uuid>}` — the
+  full cam object (camId/geo/mp4Url/keywords) usually sits in the
+  *related sliders of other pages* → cross-page registry build
+  (`_enumerate.py` v2 → `cams2.jsonl`), plus 89 region index pages
+  (German slugs must be fetched as-is, no `/en/` rewrite) and
+  `home_en.html` (311 geo cams). Pages with no slider object (116)
+  recovered from JSON-LD `Place` geo (often wrapped in `@graph` —
+  iterate sub-items). Result: `cams_final.json` — **1,070/1,070 with
+  geo** (954 exact astro-island, 116 jsonld-place).
+- **Live-feed mechanism (new pattern)**: webtv `t=1` og:video is a
+  **rolling ~53 s MP4 fragment** `https://stsNNN.feratel.co.at/streams/
+  stsstoreNNN/1/<camid>_<uuid>Vid.mp4?dcsdesign=feratel4`. Active
+  cams **rotate to a fresh uuid every ~60–90 s** (8000004: 45.8 MB →
+  47.1 MB new ETag in 77 s); inactive cams freeze (5970, 15045).
+  sts hosts are an interchangeable LB (sts203/sts209/sts006 serve the
+  same store); JSESSIONID optional (plain urllib gets 206); origin
+  sends `Access-Control-Allow-Origin: *`. Image-only cams have no
+  og:video; webtv og:image = `//wtvthmb.feratel.com/thumbnails/<id>.
+  jpeg?design=v5`. Backend `feratelcom.pixelpoint.dev/api/v4/…` is
+  401/404 (abandoned); `dcs.feratel.co.at` is a placeholder redirect
+  page (dead end).
+- **Probe results (`live_probes.jsonl`)**: **523 live** (frag age
+  p50=1 s), **354 stale-10m** (600–3,851 s), **193 none/still-image**
+  (og:image present), 0 transport errors. Frag sizes 2.4–95.6 MB,
+  median ~40.8 MB. Per-country live: AT 205/469, DE 95/183, IT 79/162,
+  CH 36/91, CZ 55/68, SK 34/51.
+- **Ingest**: `_ingest.py` → **1,070 rows `ft_<camid>` idx
+  240416..241485** (CSV → **232,464**); all 193 image URLs probed
+  200; 51 unique stream hosts resolved + RIPE whois + rdns. First
+  pass leaked probe statuses into `live_status` and left `page_title`
+  empty → `_fix_rows.py` repaired (rule: ingestion maps probe stage
+  → `live_status`, never stores the probe vocabulary itself). Final:
+  **live 523 / stale 354 / still_image 193**; type video 877 / image
+  193; categories mountain 642, scenic 237, city 92, water 46, coast
+  40, traffic 13; countries AT 469, DE 183, IT 162, CH 91, CZ 68,
+  SK 51, ES 22, AD 17 +6 small. **788 camIds** already mirrored as
+  `media.trafficvision.live/feratel/<id>.mp4` IPCamLive rows →
+  cross-linked (`tv_feratel_map.json`, 796 ids) as
+  `ipcamlive_mirror_idx=<idx>` in notes.
+- **Classifier + totals**: `ft` added to `PUBLIC_CSV_PREFIXES` →
+  visibility **public 232,323 / private 136 / unknown 5**;
+  `GET /api/refresh` → 200 (`rows: 232464`).
+- **Broker API (`api/app.py`)**: `/api/feratel/meta/<idx>` (resolves
+  current fragment via Range+ETag probe, 40 s TTL, `?fresh=1` forces
+  re-resolve, `frag_age_s` clamped ≥0 for clock skew),
+  `/api/feratel/live/<idx>.mp4` (**302 → current fragment**; origin
+  answers the browser's Range with 206 + CORS `*`),
+  `/api/feratel/img/<idx>.jpg` (wtvthmb stills, 30 s TTL, X-Cache),
+  `/api/feratel/weather?lat&lon` (open-meteo, multi-coord batch
+  verified, 600 s TTL).
+- **Player (`player.js`)**: new `feratel` stream type — meta fetch →
+  `kind=video` creates `<video>` pointed at the 302 broker, polls meta
+  every 45 s and swaps src only when the **fragment path** changes
+  (`frag_key` normalizes LB host flapping sts067→sts064), reloads on
+  `error`/`ended` (fresh resolve), `LIVE`/`DELAY` labels (stale cams
+  never use `offline`/`error` classes — those trigger the blocking
+  overlay); `kind=image` → `<img>` refreshed every 30 s cache-busted,
+  label `STILL`.
+- **Weather in detail modal (`app.js`)**: new "weather at cam
+  position" section in `openDetail` — `/api/feratel/weather` with WMO
+  code→text+emoji map (temp/feels/wind/humidity/precip/cloud/observed).
+  Shown for **any** cam with lat/lon. Verified per-position: Arinsal
+  42.5673 → −1.9 °C wind 275°, Grandvalira 42.5779 → +1.8 °C wind
+  103° (same valley, distinct readings, correct Europe/Andorra TZ).
+- **Infra recon (nmap + DNS + cert SANs)**:
+  - `nmap -PS80,443 -T4` on **193.41.139.0/24** (feratel media
+    technologies AG, AS42060 FERATELAUSTRIA): ~60 hosts up, mostly
+    80/443; `.162` also FTP; results `nmap_sweep.*`,
+    `sweep_up_hosts.txt`.
+  - **162.19.222.0/24** (OVH GmbH AS16276): ~140 hosts — shared
+    hosting (unrelated tenants), incl. **`stsfc001.feratel.co.at`
+    (.102)**.
+  - **5.9.68.0/24** (Hetzner AS24940): ~130 hosts — shared
+    `your-server.de` tenants; **www.feratel.com = 5.9.68.16** (own
+    prior scan: 22 OpenSSH 9.2 Debian + 80/443 Traefik, default cert
+    only `*.traefik.default` SANs).
+  - **DNS brute (1,363 names → 77 live)**: **64-host sts streaming
+    pool** (sts001-016, 051-052, 061-068, 101-116, 151-159, 201-210
+    across Hetzner/Scaleway/OVH/Helsinki), `webtv.feratel.com`
+    (.33), `wtvthmb` (.179), `wiki` → redirect to
+    `feratel.atlassian.net`, `sso` → `/auth`, `dcs` (placeholder),
+    `download`, `maps`, `mail`, `ns1/ns2` (.10/.11), `time`
+    (193.41.138.48), `blog` (external 188.94.253.88),
+    `www.feratel.at/.co.at` (193.41.138.37).
+  - **Cert-SAN vhost map (`vhost_map.json`, 64 TLS probed)**: 4
+    GitLabs (`tele-/card-/deskline-/feratel-gitlab.feratel.com` =
+    .154-.157), **`Feratel Maps TEST`** (.151), `deskline.net`
+    cluster (.144-.152), **`feratel.io` app tiers** (.203-.215:
+    cardprod/cardtest/desklineprod/desklinetest/piaprod/bmfera),
+    `ferfw.feratel.co.at` (firmware, .89), `baragate` (gateway,
+    .175), `*.feratel.com` wildcard on most hosts,
+    `mail.holidayservice.info` (.177, third-party on their net).
+  - crt.sh 502 throughout (fallbacks not needed); ffuf/gobuster/
+    subfinder absent from box — enum done with raw DNS + curl.
+- **Browser end-to-end (agent-browser)**: fresh tab `?cam=240416`
+  (Arinsal, AT) → `<video>` via `/api/feratel/live/240416.mp4`,
+  readyState 2, duration **53.159 s**, status `LIVE`, meta polls
+  observed re-resolving (4 polls @45 s, cache-bust `r=` changing);
+  fresh tab `?cam=240426` (Grandvalira) → status `STILL`,
+  `/api/feratel/img/240426.jpg` 184 px wide loaded, weather section
+  filled. (Note: agent-browser `open` on an already-open same-origin
+  tab can leave the old document live with a rewritten query string —
+  always re-verify in a **new tab**.)
+
+### Files
+
+- New: `camera_testing/_feratel/` — `cam_urls.txt`, `_enumerate.py`,
+  `_enumerate_regions.py`, `_build_registry.py`, `_fix_missing_geo.py`,
+  `_probe_live.py`, `_report_live.py`, `_ingest.py`, `_fix_rows.py`,
+  `_prep_ingest.py`, `_subenum.py`, `_vhostmap.py`, `cams_final.json`,
+  `live_probes.jsonl`, `subenum.json`, `vhost_map.json`,
+  `tv_feratel_map.json`, `sweep_up_hosts.txt`, `nmap_sweep.*`,
+  `nmap_www.*`
+- Modified: `api/app.py` (feratel meta/live/img/weather endpoints),
+  `web_viewer/static/js/player.js` (feratel rotation mode),
+  `web_viewer/static/js/app.js` (weather section in detail modal),
+  `scripts/fix/classify_visibility.py` (`ft` public prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+- Data: `controllable_Webcams.csv` 231,394 → **232,464** rows
+  (max idx 241485)
+
+
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
 
 ## Goal

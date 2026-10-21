@@ -1,0 +1,18 @@
+# Nmap 7.80 scan initiated Wed Oct 21 21:26:47 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -sC -T4 -Pn -oA camera_testing\\_feratel\\nmap_www 5.9.68.16
+Nmap scan report for static.16.68.9.5.clients.your-server.de (5.9.68.16)
+Host is up (0.11s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 9.2p1 Debian 2+deb12u10 (protocol 2.0)
+80/tcp  open  http     Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+443/tcp open  ssl/http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)
+|_http-title: Site doesn't have a title (text/plain; charset=utf-8).
+| ssl-cert: Subject: commonName=TRAEFIK DEFAULT CERT
+| Subject Alternative Name: DNS:519f0f65eedf80188461b47a81222da4.42d0d876d56590737dff604c442dc897.traefik.default
+| Not valid before: 2026-10-20T18:18:29
+|_Not valid after:  2027-10-20T18:18:29
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 21 21:27:33 2026 -- 1 IP address (1 host up) scanned in 46.88 seconds

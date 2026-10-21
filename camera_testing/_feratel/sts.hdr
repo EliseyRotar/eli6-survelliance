@@ -1,0 +1,15 @@
+HTTP/1.1 206 206
+Date: Wed, 21 Oct 2026 18:44:32 GMT
+Server: Apache
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0, must-revalidate
+Set-Cookie: JSESSIONID=14984ED74409E7311EFEDED0E31A5ED7; Path=/streams; Secure; HttpOnly; SameSite=Strict
+Set-Cookie: dcs=0a360572-557f-495f-902a-8150c7857293; Path=/streams; SameSite=Strict
+Last-Modified: Wed, 21 Oct 2026 18:33:02 GMT
+ETag: "1792607582000_15045_6ad8f125-41d7Vid.mp4"
+Accept-Ranges: bytes
+Content-Range: bytes 0-300000/35855859
+Content-Length: 300001
+Content-Type: video/mp4
+

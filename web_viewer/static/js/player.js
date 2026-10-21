@@ -1,4 +1,4 @@
-// player.js - HLS / YouTube / MJPEG / MP4 dispatcher with offline overlay
+﻿// player.js - HLS / YouTube / MJPEG / MP4 dispatcher with offline overlay
 const PROXY_FL511   = 'http://localhost:8770';
 const PROXY_SKYLINE = 'http://localhost:8771';
 
@@ -168,6 +168,16 @@ export function buildStream(cam) {
     return { type: 'mp4', url: `/api/satap/proxy?u=${encodeURIComponent(u)}&t=${Date.now()}` };
   }
 
+  // feratel.com: rolling ~53s MP4 fragments (webtv t=1 og:video) that rotate
+  // to a fresh uuid every ~60-90s on active cams; image-only cams serve only
+  // a thumbnail. Our broker resolves the current fragment and 302s to it;
+  // the meta endpoint tells the player when the origin rotated.
+  if (u.includes('feratel.co.at') || u.includes('feratel.com') ||
+      (cam.host || '').includes('feratel')) {
+    if (cam.idx == null) return { type: 'mp4', url: u };
+    return { type: 'feratel', idx: cam.idx, meta: `/api/feratel/meta/${cam.idx}` };
+  }
+
   // TV-catalog verified live URLs (loaded from /api/live_mappings)
   const live = LIVE_MAP.get(Number(cam.idx));
   if (live && live.live_url && live.live_url !== u) {
@@ -265,7 +275,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
       } else {
         media.classList.remove('loading');
         if (state.cls === 'live') {
-          // Live video is playing — hide the placeholder
+          // Live video is playing â€” hide the placeholder
           media.classList.add('has-video');
         } else {
           media.classList.remove('has-video');
@@ -491,6 +501,143 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     return { dispose: () => { alive = false; if (tick) clearInterval(tick); if (img.parentNode) img.remove(); hideOfflineOverlay(wrap); }, type: 'mjpeg' };
   }
 
+  // ---- feratel: brokered rolling fragments (/api/feratel/*) ----
+  // meta.kind=video -> <video> pointed at the 302 broker; every 45s we ask
+  // for fresh meta and swap src when the origin rotated to a new fragment
+  // (also on 'ended' = fragment window reached its end, and on error).
+  // meta.kind=image -> refreshing still from /api/feratel/img/<idx>.jpg.
+  if (stream.type === 'feratel') {
+    let alive = true;
+    let meta = null;
+    let lastFrag = null;
+    let timer = null;
+    let errStreak = 0;
+    let video = null;
+
+    async function loadMeta(force) {
+      try {
+        const r = await fetch(`${stream.meta}${force ? '?fresh=1' : ''}`, { cache: 'no-store' });
+        if (!r.ok) throw new Error('meta ' + r.status);
+        errStreak = 0;
+        const m = await r.json();
+        // LB round-robin serves the same fragment from different sts hosts ->
+        // normalize to path so we only reload when the fragment uuid rotates
+        if (m && m.frag_url) m.frag_key = m.frag_url.replace(/^https?:\/\/[^/]+/, '');
+        return m;
+      } catch (e) {
+        errStreak++;
+        if (errStreak >= 3) setState({ label: 'OFF', cls: 'offline', retry });
+        return null;
+      }
+    }
+
+    function statusFor(m) {
+      if (m.kind === 'image') return { label: 'STILL', cls: 'live' };
+      if (m.live_status === 'stale') return { label: 'DELAY', cls: 'live' };
+      return { label: 'LIVE', cls: 'live' };
+    }
+
+    function startImage(m) {
+      const img = document.createElement('img');
+      img.alt = cam.name || `cam ${idx}`;
+      img.loading = 'lazy';
+      img.style.cssText = 'width:100%;height:100%;object-fit:contain;background:#000;';
+      wrap.appendChild(img);
+      const show = () => { if (alive) img.src = `${m.image}?t=${Date.now()}`; };
+      show();
+      setState(statusFor(m));
+      timer = setInterval(show, 30000);
+      img.onerror = () => {
+        if (!alive) return;
+        if (++errStreak >= 3) setState({ label: 'OFF', cls: 'offline', retry });
+      };
+      img.onload = () => { errStreak = 0; };
+    }
+
+    function startVideo(m) {
+      meta = m;
+      lastFrag = m.frag_key;
+      video = document.createElement('video');
+      video.muted = true;
+      video.playsInline = true;
+      video.autoplay = true;
+      video.loop = false;
+      video.controls = false;
+      video.style.cssText = 'width:100%;height:100%;object-fit:contain;background:#000;';
+      wrap.appendChild(video);
+      const setSrc = (mm) => {
+        video.src = `${mm.stream}?r=${Date.now()}`;
+        video.play().catch(() => {});
+      };
+      video.addEventListener('loadeddata', () => {
+        if (!alive) return;
+        errStreak = 0;
+        setState(statusFor(meta));
+      });
+      video.addEventListener('error', async () => {
+        if (!alive) return;
+        if (++errStreak >= 4) {
+          setState({ label: 'OFF', cls: 'offline', retry });
+          return;
+        }
+        // fragment likely rotated away/deleted -> force a fresh resolve
+        const mm = await loadMeta(true);
+        if (alive && mm && mm.kind === 'video') {
+          meta = mm;
+          lastFrag = mm.frag_key;
+          setSrc(mm);
+        }
+      });
+      video.addEventListener('ended', () => {
+        // fragment window reached its end and no newer frag was pushed yet
+        if (alive && meta && meta.kind === 'video') setSrc(meta);
+      });
+      setSrc(m);
+      timer = setInterval(async () => {
+        const mm = await loadMeta(false);
+        if (!alive || !mm) return;
+        meta = mm;
+        if (mm.kind !== 'video') return;
+        if (mm.frag_key && mm.frag_key !== lastFrag) {
+          lastFrag = mm.frag_key;
+          setSrc(mm);
+        }
+      }, 45000);
+    }
+
+    async function boot() {
+      const m = await loadMeta(false);
+      if (!alive || !m) return;
+      meta = m;
+      if (m.kind === 'video') startVideo(m);
+      else startImage(m);
+    }
+    function retry() {
+      errStreak = 0;
+      setState({ label: '...', cls: 'loading' });
+      boot();
+    }
+    boot();
+
+    return {
+      type: 'feratel',
+      pause: () => { try { video && video.pause(); } catch {} },
+      resume: () => { try { video && video.play().catch(() => {}); } catch {} },
+      dispose: () => {
+        alive = false;
+        if (timer) clearInterval(timer);
+        if (video) { try { video.pause(); } catch {} }
+        const kids = [...wrap.children];
+        for (const k of kids) {
+          if (k === video || (k.tagName === 'IMG' && k.alt === (cam.name || `cam ${idx}`))) {
+            try { k.remove(); } catch {}
+          }
+        }
+        hideOfflineOverlay(wrap);
+      },
+    };
+  }
+
   const video = document.createElement('video');
   video.muted = true;
   video.playsInline = true;
@@ -606,7 +753,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
         setState({ label: 'LIVE', cls: 'live' });
         video.play().catch(() => {});
       });
-      // "Stop after 30s playing" — bandwidth optimization (matches trafficvision.live).
+      // "Stop after 30s playing" â€” bandwidth optimization (matches trafficvision.live).
       // After 30s of successful playback, pause the video and stop fetching segments.
       // The last frame stays visible. The video resumes on hover/click.
       let stopTimer = null;
@@ -624,7 +771,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
       video.addEventListener('playing', onPlaying, { once: false });
       hls.on(Hls.Events.ERROR, (e, data) => {
         if (data?.fatal && !disposed) {
-          // kcscout token may be IP-restricted — show AUTH
+          // kcscout token may be IP-restricted â€” show AUTH
           if (stream.kcscout_file) {
             setState({ label: 'AUTH', cls: 'offline' });
           } else {
@@ -636,7 +783,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     startHls();
     cleanup = () => { try { hls?.destroy(); } catch {} };
   } else if (stream.type === 'hls' && video.canPlayType('application/vnd.apple.mpegurl')) {
-    // Safari native HLS — handle kcscout via token fetch first
+    // Safari native HLS â€” handle kcscout via token fetch first
     if (stream.kcscout_file) {
       (async () => {
         try {
@@ -710,7 +857,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
       }
     },
     resume: () => {
-      // Resume from paused state — hls.js buffer is still valid
+      // Resume from paused state â€” hls.js buffer is still valid
       if (disposed) return;
       try { video.play().catch(() => {}); } catch {}
     },
@@ -737,9 +884,9 @@ function showOfflineOverlay(wrap, label, onRetry) {
   overlay.className = 'offline-overlay';
   overlay.dataset.label = label;
   overlay.innerHTML = `
-    <div class="offline-icon">⏻</div>
+    <div class="offline-icon">â»</div>
     <div class="offline-label">${label}</div>
-    <button class="offline-retry" type="button" title="Retry">↻</button>
+    <button class="offline-retry" type="button" title="Retry">â†»</button>
   `;
   overlay.style.cssText = 'position:absolute;inset:0;background:rgba(0,0,0,0.78);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;z-index:3;cursor:default;backdrop-filter:blur(2px);';
   overlay.addEventListener('click', (e) => {

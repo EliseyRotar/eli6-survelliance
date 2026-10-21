@@ -1,0 +1,238 @@
+{
+ "found": {
+  "blog.feratel.com": [
+   "188.94.253.88"
+  ],
+  "mail.feratel.com": [
+   "193.41.138.162"
+  ],
+  "maps.feratel.com": [
+   "193.41.137.202"
+  ],
+  "ns1.feratel.com": [
+   "193.41.139.10"
+  ],
+  "ns2.feratel.com": [
+   "193.41.139.11"
+  ],
+  "sso.feratel.com": [
+   "193.41.139.88"
+  ],
+  "webtv.feratel.com": [
+   "193.41.139.33"
+  ],
+  "wiki.feratel.com": [
+   "193.41.139.166"
+  ],
+  "www.feratel.com": [
+   "5.9.68.16"
+  ],
+  "wtvthmb.feratel.com": [
+   "193.41.139.179"
+  ],
+  "download.feratel.com": [
+   "193.41.139.73"
+  ],
+  "dcs.feratel.co.at": [
+   "193.41.139.34"
+  ],
+  "www.feratel.co.at": [
+   "193.41.138.37"
+  ],
+  "time.feratel.co.at": [
+   "193.41.138.48"
+  ],
+  "ns1.feratel.at": [
+   "193.41.139.10"
+  ],
+  "ns2.feratel.at": [
+   "193.41.139.11"
+  ],
+  "www.feratel.at": [
+   "193.41.138.37"
+  ],
+  "time.feratel.at": [
+   "193.41.138.48"
+  ],
+  "sts001.feratel.co.at": [
+   "94.130.216.30"
+  ],
+  "sts002.feratel.co.at": [
+   "195.201.196.120"
+  ],
+  "sts003.feratel.co.at": [
+   "88.198.38.89"
+  ],
+  "sts004.feratel.co.at": [
+   "94.130.161.125"
+  ],
+  "sts005.feratel.co.at": [
+   "88.198.38.88"
+  ],
+  "sts006.feratel.co.at": [
+   "138.201.226.157"
+  ],
+  "sts007.feratel.co.at": [
+   "138.201.226.160"
+  ],
+  "sts008.feratel.co.at": [
+   "138.201.222.161"
+  ],
+  "sts009.feratel.co.at": [
+   "195.201.175.118"
+  ],
+  "sts010.feratel.co.at": [
+   "144.76.45.187"
+  ],
+  "sts011.feratel.co.at": [
+   "138.201.85.107"
+  ],
+  "sts012.feratel.co.at": [
+   "138.201.86.189"
+  ],
+  "sts013.feratel.co.at": [
+   "138.201.120.166"
+  ],
+  "sts014.feratel.co.at": [
+   "138.201.120.248"
+  ],
+  "sts015.feratel.co.at": [
+   "138.201.121.41"
+  ],
+  "sts016.feratel.co.at": [
+   "138.201.125.150"
+  ],
+  "sts051.feratel.co.at": [
+   "51.91.6.109"
+  ],
+  "sts052.feratel.co.at": [
+   "51.91.30.140"
+  ],
+  "sts061.feratel.co.at": [
+   "141.94.196.103"
+  ],
+  "sts062.feratel.co.at": [
+   "141.94.196.131"
+  ],
+  "sts063.feratel.co.at": [
+   "162.19.87.53"
+  ],
+  "sts064.feratel.co.at": [
+   "57.128.20.101"
+  ],
+  "sts065.feratel.co.at": [
+   "57.128.20.102"
+  ],
+  "sts066.feratel.co.at": [
+   "162.19.170.149"
+  ],
+  "sts067.feratel.co.at": [
+   "162.19.170.150"
+  ],
+  "sts068.feratel.co.at": [
+   "162.19.29.54"
+  ],
+  "sts101.feratel.co.at": [
+   "95.217.76.154"
+  ],
+  "sts102.feratel.co.at": [
+   "95.217.62.87"
+  ],
+  "sts103.feratel.co.at": [
+   "95.217.95.147"
+  ],
+  "sts104.feratel.co.at": [
+   "95.217.73.147"
+  ],
+  "sts105.feratel.co.at": [
+   "95.217.73.146"
+  ],
+  "sts106.feratel.co.at": [
+   "95.217.60.34"
+  ],
+  "sts107.feratel.co.at": [
+   "95.217.77.61"
+  ],
+  "sts108.feratel.co.at": [
+   "95.217.77.59"
+  ],
+  "sts109.feratel.co.at": [
+   "95.217.77.58"
+  ],
+  "sts110.feratel.co.at": [
+   "95.217.77.57"
+  ],
+  "sts111.feratel.co.at": [
+   "65.21.228.254"
+  ],
+  "sts112.feratel.co.at": [
+   "65.21.233.250"
+  ],
+  "sts113.feratel.co.at": [
+   "65.108.224.233"
+  ],
+  "sts116.feratel.co.at": [
+   "65.109.113.48"
+  ],
+  "sts151.feratel.co.at": [
+   "138.201.85.107"
+  ],
+  "sts152.feratel.co.at": [
+   "138.201.86.189"
+  ],
+  "sts153.feratel.co.at": [
+   "138.201.120.166"
+  ],
+  "sts154.feratel.co.at": [
+   "138.201.120.248"
+  ],
+  "sts155.feratel.co.at": [
+   "138.201.121.41"
+  ],
+  "sts156.feratel.co.at": [
+   "138.201.125.150"
+  ],
+  "sts157.feratel.co.at": [
+   "195.201.246.247"
+  ],
+  "sts158.feratel.co.at": [
+   "157.90.5.253"
+  ],
+  "sts159.feratel.co.at": [
+   "157.90.92.31"
+  ],
+  "sts201.feratel.co.at": [
+   "65.21.228.254"
+  ],
+  "sts202.feratel.co.at": [
+   "65.21.233.250"
+  ],
+  "sts203.feratel.co.at": [
+   "65.108.224.233"
+  ],
+  "sts204.feratel.co.at": [
+   "65.109.34.78"
+  ],
+  "sts205.feratel.co.at": [
+   "65.109.84.117"
+  ],
+  "sts206.feratel.co.at": [
+   "65.109.113.48"
+  ],
+  "sts207.feratel.co.at": [
+   "65.108.44.237"
+  ],
+  "sts208.feratel.co.at": [
+   "65.21.196.176"
+  ],
+  "sts209.feratel.co.at": [
+   "135.181.63.120"
+  ],
+  "sts210.feratel.co.at": [
+   "37.27.65.168"
+  ]
+ },
+ "elapsed_s": 4.3,
+ "tried": 1363,
+ "ts": "2026-10-21T21:53:36"
+}

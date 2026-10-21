@@ -1,0 +1,11 @@
+HTTP/1.1 200 200
+Date: Wed, 21 Oct 2026 18:35:46 GMT
+Server: Apache
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Cache-Control: private, max-age=0, must-revalidate
+Set-Cookie: JSESSIONID=8596F81F5FC67EC27F8D805134037E6F; Path=/streams; Secure; HttpOnly; SameSite=Strict
+Content-Length: 0
+Connection: close
+Content-Type: video/mp4
+

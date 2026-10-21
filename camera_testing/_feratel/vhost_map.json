@@ -1,0 +1,846 @@
+{
+ "ts": "2026-10-21T22:01:06",
+ "hosts": {
+  "162.19.222.14": {
+   "http80": {
+    "status": 301,
+    "server": "",
+    "loc": "https://www.feratel.com/",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.aureomzike.vip"
+    ],
+    "not_after": "2026-12-31 19:17:54"
+   }
+  },
+  "162.19.222.15": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "error": "ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively"
+   }
+  },
+  "162.19.222.16": {
+   "http80": {
+    "status": 200,
+    "server": "nginx",
+    "loc": "",
+    "title": "Dynamic Image Generation: API & No-Code | DynaPictures"
+   },
+   "tls443": {
+    "error": "SSLError: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1010)"
+   }
+  },
+  "162.19.222.21": {
+   "http80": {
+    "status": 404,
+    "server": "nginx/1.24.0 (Ubuntu)",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "blapp.ptmbeton.ma"
+    ],
+    "not_after": "2026-11-26 04:24:55"
+   }
+  },
+  "162.19.222.24": {
+   "http80": {
+    "status": 403,
+    "server": "cloudflare",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "ovh2.proxmox.core.blockfrost.io"
+    ],
+    "not_after": "2027-01-01 05:16:18"
+   }
+  },
+  "162.19.222.3": {
+   "http80": {
+    "status": 301,
+    "server": "",
+    "loc": "https://www.feratel.com/",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "esxi-fra-scale-i2-01.telco-vision.com"
+    ],
+    "not_after": "2029-02-28 12:03:44"
+   }
+  },
+  "162.19.222.9": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.100": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.104": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "works"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.107": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "works"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.109": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.127": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.131": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.133": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.at",
+     "feratel.at"
+    ],
+    "not_after": "2027-04-24 23:59:59"
+   }
+  },
+  "193.41.139.134": {
+   "http80": {
+    "status": 200,
+    "server": "nginx",
+    "loc": "",
+    "title": "Welcome to nginx!"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.142": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.144": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.145": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.146": {
+   "http80": {
+    "status": 200,
+    "server": "lighttpd/1.4.69",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.147": {
+   "http80": {
+    "status": 403,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.148": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host"
+   }
+  },
+  "193.41.139.149": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.150": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.151": {
+   "http80": {
+    "status": 200,
+    "server": "nginx",
+    "loc": "",
+    "title": "Feratel Maps TEST"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.152": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.deskline.net",
+     "deskline.net"
+    ],
+    "not_after": "2027-04-23 23:59:59"
+   }
+  },
+  "193.41.139.153": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.154": {
+   "http80": {
+    "status": 403,
+    "server": "nginx",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "tele-gitlab.feratel.com"
+    ],
+    "not_after": "2027-01-12 02:31:54"
+   }
+  },
+  "193.41.139.155": {
+   "http80": {
+    "status": 403,
+    "server": "nginx",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "card-gitlab.feratel.com"
+    ],
+    "not_after": "2027-01-12 02:31:50"
+   }
+  },
+  "193.41.139.156": {
+   "http80": {
+    "status": 403,
+    "server": "nginx",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "deskline-gitlab.feratel.com"
+    ],
+    "not_after": "2027-01-06 03:01:57"
+   }
+  },
+  "193.41.139.157": {
+   "http80": {
+    "status": 403,
+    "server": "nginx",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "feratel-gitlab.feratel.com"
+    ],
+    "not_after": "2026-12-06 03:01:57"
+   }
+  },
+  "193.41.139.160": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.162": {
+   "http80": {
+    "status": 200,
+    "server": "Microsoft-IIS/10.0",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host"
+   }
+  },
+  "193.41.139.165": {
+   "http80": {
+    "status": 200,
+    "server": "nginx",
+    "loc": "",
+    "title": "Welcome to nginx!"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.co.at",
+     "feratel.co.at"
+    ],
+    "not_after": "2026-10-22 23:59:59"
+   }
+  },
+  "193.41.139.166": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.169": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.170": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.175": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "baragate.feratel.co.at"
+    ],
+    "not_after": "2027-08-11 12:33:18"
+   }
+  },
+  "193.41.139.177": {
+   "http80": {
+    "status": 200,
+    "server": "Apache/2.4.68 (Debian)",
+    "loc": "",
+    "title": "Apache2 Debian Default Page: It works"
+   },
+   "tls443": {
+    "names": [
+     "mail.holidayservice.info"
+    ],
+    "not_after": "2027-01-13 03:12:33"
+   }
+  },
+  "193.41.139.178": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.179": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.184": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.203": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.cardprod.feratel.io"
+    ],
+    "not_after": "2026-12-10 10:25:40"
+   }
+  },
+  "193.41.139.204": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.cardtest.feratel.io"
+    ],
+    "not_after": "2026-11-28 21:22:35"
+   }
+  },
+  "193.41.139.205": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.desklineprod.feratel.io"
+    ],
+    "not_after": "2027-01-18 16:49:12"
+   }
+  },
+  "193.41.139.206": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.desklinetest.feratel.io"
+    ],
+    "not_after": "2026-12-06 11:32:45"
+   }
+  },
+  "193.41.139.207": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.piaprod.feratel.io"
+    ],
+    "not_after": "2026-12-12 16:42:42"
+   }
+  },
+  "193.41.139.215": {
+   "http80": {
+    "status": 503,
+    "server": "",
+    "loc": "",
+    "title": ""
+   },
+   "tls443": {
+    "names": [
+     "*.apps.bmfera.feratel.io"
+    ],
+    "not_after": "2026-12-06 09:48:20"
+   }
+  },
+  "193.41.139.227": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.32": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.33": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.34": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.72": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.73": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.74": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.78": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.79": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.at",
+     "feratel.at"
+    ],
+    "not_after": "2026-10-18 23:59:59"
+   }
+  },
+  "193.41.139.80": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.82": {
+   "http80": {
+    "status": 200,
+    "server": "Apache/2.4.67 (Debian)",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.co.at",
+     "feratel.co.at"
+    ],
+    "not_after": "2025-04-26 23:59:59"
+   }
+  },
+  "193.41.139.83": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.85": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.88": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  },
+  "193.41.139.89": {
+   "http80": {
+    "error": "URLError"
+   },
+   "tls443": {
+    "names": [
+     "ferfw.feratel.co.at"
+    ],
+    "not_after": "2044-03-14 11:24:51"
+   }
+  },
+  "193.41.139.98": {
+   "http80": {
+    "status": 200,
+    "server": "Apache/2.4.25 (Debian)",
+    "loc": "",
+    "title": "feratel media technologies AG"
+   },
+   "tls443": {
+    "error": "TimeoutError: timed out"
+   }
+  },
+  "193.41.139.99": {
+   "http80": {
+    "status": 200,
+    "server": "Apache",
+    "loc": "",
+    "title": "works"
+   },
+   "tls443": {
+    "names": [
+     "*.feratel.com",
+     "feratel.com"
+    ],
+    "not_after": "2027-03-15 23:59:59"
+   }
+  }
+ }
+}

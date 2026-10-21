@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Oct 21 21:26:47 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -sC -T4 -Pn -oA camera_testing\\_feratel\\nmap_www 5.9.68.16
+Host: 5.9.68.16 (static.16.68.9.5.clients.your-server.de)	Status: Up
+Host: 5.9.68.16 (static.16.68.9.5.clients.your-server.de)	Ports: 22/open/tcp//ssh//OpenSSH 9.2p1 Debian 2+deb12u10 (protocol 2.0)/, 80/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/, 443/open/tcp//ssl|http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/	Ignored State: filtered (997)
+# Nmap done at Wed Oct 21 21:27:33 2026 -- 1 IP address (1 host up) scanned in 46.88 seconds

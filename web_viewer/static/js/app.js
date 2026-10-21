@@ -1070,6 +1070,57 @@ async function loadAIData() {
 }
 
 // ==================== DETAIL MODAL ====================
+const WMO_CODE = {
+  0: 'clear sky', 1: 'mainly clear', 2: 'partly cloudy', 3: 'overcast',
+  45: 'fog', 48: 'depositing rime fog',
+  51: 'light drizzle', 53: 'drizzle', 55: 'dense drizzle',
+  56: 'freezing drizzle', 57: 'freezing drizzle',
+  61: 'light rain', 63: 'rain', 65: 'heavy rain',
+  66: 'freezing rain', 67: 'freezing rain',
+  71: 'light snow', 73: 'snow', 75: 'heavy snow', 77: 'snow grains',
+  80: 'rain showers', 81: 'rain showers', 82: 'violent rain showers',
+  85: 'snow showers', 86: 'snow showers',
+  95: 'thunderstorm', 96: 'thunderstorm w/ hail', 99: 'thunderstorm w/ hail',
+};
+
+function wmoIcon(code, isDay) {
+  if (code === 0 || code === 1) return isDay ? '☀️' : '🌙';
+  if (code === 2) return '⛅';
+  if (code === 3) return '☁️';
+  if (code === 45 || code === 48) return '🌫️';
+  if (code >= 51 && code <= 57) return '🌦️';
+  if ((code >= 61 && code <= 67) || (code >= 80 && code <= 82)) return '🌧️';
+  if ((code >= 71 && code <= 77) || code === 85 || code === 86) return '🌨️';
+  if (code >= 95) return '⛈️';
+  return '🌡️';
+}
+
+async function loadCamWeather(lat, lon) {
+  const body = document.getElementById('wxBody');
+  if (!body) return;
+  try {
+    const r = await fetch(`/api/feratel/weather?lat=${lat}&lon=${lon}`, { cache: 'no-store' });
+    if (!r.ok) throw new Error('http ' + r.status);
+    const j = await r.json();
+    const c = j.current || {};
+    const code = c.weather_code;
+    const rows = [
+      ['temperature', `${c.temperature_2m} °C (feels ${c.apparent_temperature} °C)`],
+      ['conditions', `${wmoIcon(code, c.is_day)} ${WMO_CODE[code] || 'code ' + code}`],
+      ['wind', `${c.wind_speed_10m} km/h · ${c.wind_direction_10m}°`],
+      ['humidity', `${c.relative_humidity_2m} %`],
+      ['precipitation', `${c.precipitation} mm`],
+      ['cloud cover', `${c.cloud_cover} %`],
+      ['observed', `${c.time || '—'} (${j.timezone || 'local'})`],
+    ];
+    body.innerHTML = rows.map(([k, v]) =>
+      `<div class="drawer-row"><span class="k">${escapeHtml(k)}</span><span class="v">${escapeHtml(String(v))}</span></div>`
+    ).join('');
+  } catch (e) {
+    body.textContent = 'weather unavailable: ' + e.message;
+  }
+}
+
 async function openDetail(cam) {
   state.currentCam = cam;
   saveRecent(cam);
@@ -1121,10 +1172,23 @@ async function openDetail(cam) {
       <div class="drawer-row"><span class="k">isp</span><span class="v">${escapeHtml(f.isp || '—')}</span></div>
       <div class="drawer-row"><span class="k">confidence</span><span class="v">${f.confidence || 0}</span></div>
     </div>
+    <div class="ai-section" id="wxSection" style="display:none">
+      <div class="ai-section-title">weather at cam position</div>
+      <div id="wxBody" style="color:var(--text-dim);font-size:12px;padding:4px 0">loading…</div>
+    </div>
     <div class="ai-section" id="similarSection" style="display:none">
       <div class="ai-section-title">similar cams</div>
       <div id="similarList">searching…</div>
     </div>`;
+
+  // Weather at the exact cam coordinates (open-meteo via our API, 10-min cache)
+  if (f.lat != null && f.lon != null) {
+    const wxSec = document.getElementById('wxSection');
+    if (wxSec) {
+      wxSec.style.display = '';
+      loadCamWeather(f.lat, f.lon);
+    }
+  }
 
   // Player
   if (state.modalDispose) { state.modalDispose(); state.modalDispose = null; }
