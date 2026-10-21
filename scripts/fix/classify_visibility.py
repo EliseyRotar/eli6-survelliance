@@ -51,6 +51,7 @@ PUBLIC_CSV_PREFIXES = {
     'cam', 'sr', 'd', 'high', 'trafficvision', 'psb', 'ric', 'dbc', 'bcf',
     'dgt', 'eusk', 'cat', 'cnt', 'web', 'vdc', 'vdq', 'esp', 'cic', 'fgc',
     'gip', 'blb', 'mg', 'gij', 'sn', 'mmu', 'cuen', 'trv', 'yyc',
+    'cg',
 }
 PUBLIC_CSV_RE = re.compile(r'^(511ny_|[0-9]+$)')
 

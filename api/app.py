@@ -1325,6 +1325,109 @@ def api_transtar_frames():
     })
 
 
+# ====== Calgary traffic cam slideshow (official /ss/ ring, Session 49) ======
+# trafficcam.calgary.ca keeps an official slideshow: /ss/<0..9>/locN.jpg are
+# the 10 archive frames (2-min spacing) plus the live /locN.jpg = 11 frames
+# = 20-minute loop (decoded from calgary.ca MapX5.SlideshowControl). The
+# origin sends NO CORS headers, so the browser cannot fetch directly; we
+# proxy through here WITH a server-side TTL cache so a viewer cycling at
+# ~0.7 fps costs the origin at most one fetch per frame per TTL (~0.15
+# req/s), and NOTHING when nobody is watching. Zero disk, zero background
+# bandwidth — the loop is always real-time.
+
+_YYC_FRAME_TTL = 75          # seconds; origin rotates ss slots every ~2 min
+_YYC_IMG_CACHE = {}          # (loc, frame) -> (data, content_type, ts)
+
+
+def _yyc_fetch(url, timeout=5):
+    req = urllib.request.Request(url, headers={
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
+        'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+        'Cache-Control': 'no-cache',
+    })
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        data = r.read()
+        ct = r.headers.get('Content-Type', 'image/jpeg')
+    return data, ct
+
+
+def _yyc_cache_put(key, data, ts):
+    _YYC_IMG_CACHE[key] = (data, 'image/jpeg', ts)
+    if len(_YYC_IMG_CACHE) > 600:  # crude cap: viewed cams only, ~50MB max
+        for k in sorted(_YYC_IMG_CACHE, key=lambda x: _YYC_IMG_CACHE[x][2])[:200]:
+            del _YYC_IMG_CACHE[k]
+
+
+@app.route('/api/calgary/frames')
+def api_calgary_frames():
+    """Slideshow JSON for a Calgary traffic cam (official 20-min loop).
+
+    Returns {"frames":[{"url":"/api/calgary/img/<loc>/<frame>.jpg"}, ...]}
+    ordered oldest -> newest: archive slot 9 .. 0, then the live frame.
+    """
+    try:
+        loc = int(request.args.get('loc', ''))
+    except ValueError:
+        return jsonify({'error': 'loc must be an int'}), 400
+    if not 0 <= loc <= 999:
+        return jsonify({'error': 'loc out of range'}), 400
+    frames = [{'url': '/api/calgary/img/%d/%d.jpg' % (loc, i)} for i in range(9, -1, -1)]
+    frames.append({'url': '/api/calgary/img/%d/live.jpg' % loc})
+    return jsonify({'frames': frames, 'frame_count': len(frames)})
+
+
+@app.route('/api/calgary/img/<int:loc>/<frame>.jpg')
+def api_calgary_img(loc, frame):
+    """Cached Calgary frame proxy. frame: '0'..'9' (archive) or 'live'.
+
+    On archive 404 (retired cams have no /ss/ history) falls back to the
+    live frame so the slideshow still renders instead of broken images.
+    """
+    if frame == 'live':
+        key = (loc, 'live')
+        origin = 'https://trafficcam.calgary.ca/loc%d.jpg' % loc
+    elif frame.isdigit() and 0 <= int(frame) <= 9:
+        key = (loc, frame)
+        origin = 'https://trafficcam.calgary.ca/ss/%s/loc%d.jpg' % (frame, loc)
+    else:
+        abort(404)
+    now = time.time()
+    hit = _YYC_IMG_CACHE.get(key)
+    if hit and now - hit[2] < _YYC_FRAME_TTL:
+        return (hit[0], 200, {
+            'Content-Type': hit[1],
+            'Cache-Control': 'no-store',
+            'X-Cache': 'HIT',
+        })
+    data = None
+    try:
+        data, _ct = _yyc_fetch(origin)
+    except Exception:
+        data = None
+    if data and len(data) > 500 and data[:3] == b'\xff\xd8\xff':
+        _yyc_cache_put(key, data, now)
+        return (data, 200, {
+            'Content-Type': 'image/jpeg',
+            'Cache-Control': 'no-store',
+            'X-Cache': 'MISS',
+        })
+    if key[1] == 'live':
+        abort(404)
+    # Archive slot missing -> substitute the live frame (short-lived cache)
+    try:
+        data, _ct = _yyc_fetch('https://trafficcam.calgary.ca/loc%d.jpg' % loc)
+        if data and len(data) > 500 and data[:3] == b'\xff\xd8\xff':
+            _yyc_cache_put(key, data, now)
+            return (data, 200, {
+                'Content-Type': 'image/jpeg',
+                'Cache-Control': 'no-store',
+                'X-Cache': 'FALLBACK',
+            })
+    except Exception:
+        pass
+    abort(404)
+
+
 # ====== SATAP A4 webcam proxy (Italian A4 toll highway) ======
 # SATAP serves short looping .mp4 files at /wp-content/uploads/webcam/a4/{info}.mp4
 # Each MP4 is ~85-260KB and is overwritten on the server every ~30s with a fresh

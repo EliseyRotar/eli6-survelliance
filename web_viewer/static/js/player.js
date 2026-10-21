@@ -135,6 +135,17 @@ export function buildStream(cam) {
     }
   }
 
+  // Calgary traffic cams: official /ss/ ring (10 archive frames, 2-min
+  // spacing + live = 20-min loop). Origin has no CORS -> frames go through
+  // our server-side cached proxy (/api/calgary/*): always real-time,
+  // zero storage, ~0.15 req/s to the origin only while a cam is open.
+  if (u.includes('trafficcam.calgary.ca/') && /\/loc\d+\.jpe?g/i.test(u)) {
+    const m = u.match(/\/loc(\d+)\.jpe?g/i);
+    if (m) {
+      return { type: 'slideshow', url: `/api/calgary/frames?loc=${m[1]}`, frame_ms: 1500 };
+    }
+  }
+
   // fl511 (divas.cloud) HLS via proxy using full URL (token in URL)
   if (u.includes('dis-se') && u.includes('divas.cloud')) {
     const params = new URLSearchParams({ u });
@@ -336,7 +347,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     let refreshTick = null;
     let errStreak = 0;
     let lastFetchUrl = '';
-    const FRAME_MS = 800;  // 1.25 fps through frames (slightly faster)
+    const FRAME_MS = stream.frame_ms || 800;  // per-stream rotation speed
     const REFRESH_MS = 30_000;  // re-fetch slideshow JSON every 30s (catches server updates faster)
     function showFrame(i) {
       if (!alive) return;

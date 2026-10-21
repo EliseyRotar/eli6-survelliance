@@ -1,6 +1,66 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
 
+## ✅ Session 49 (2026-10-20) — cctvguesser 154-cam extraction + 37 new rows + on-demand Calgary slideshow (ring retired)
+
+### Done
+- **User decisions applied**: 48p ring's ~10 GB/day rejected → both
+  scheduled tasks **disabled** (registered, re-enableable, code
+  `ac7e762` kept); loop videos stay **static**; slideshow now
+  **on-demand** (only while a cam page is open)
+- **cctvguesser.com extraction (saturated)**: `/api/cameras` = 1
+  random cam/request, params ignored → coupon-collector
+  `_cctvguesser_collect.py` 2,696 req @12.7/s, 1,100 zero-new tail →
+  **154 unique cams** (US 88, KR 32, ID 15, +12 countries);
+  Supabase scoreboard-only anon access, SSR payload has lat/lng,
+  no sitemap (details: SESSION_REPORT Round 15)
+- **Ingest**: url-normalized dedupe → 117 dupes / **37 new rows
+  `cg_<id32>` idx 240379..240415** (hls, traffic, precise, public);
+  liveness probe **30 live**, 7 offline/geo-blocked left blank
+- **Classifier + refresh**: `cg` in `PUBLIC_CSV_PREFIXES` → public
+  **231,253** / private 136 / unknown 5, total **231,394**;
+  `GET /api/refresh` 200; stats OK
+- **BOM bug fixed**: ingest wrote `utf-8-sig` → app's plain-utf-8 read
+  saw `\ufeffidx` → all rows skipped → `/api/refresh` 500
+  `IndexError` (`api/app.py:396`, `rows[0]`); BOM stripped, writer
+  now plain `utf-8` — **rule: CSV writers plain `utf-8`, readers may
+  use `utf-8-sig`**
+- **On-demand Calgary slideshow**: `GET /api/calgary/frames?loc=N` +
+  `/api/calgary/img/<loc>/<frame>.jpg` (75 s TTL server cache,
+  X-Cache HIT/MISS/FALLBACK, live-frame fallback for frozen
+  loc159/169) + `player.js` detector
+  `trafficcam.calgary.ca/loc<N>.jpg` → slideshow @1,500 ms/frame;
+  JPEG magic fixed (`ffd8ff`); ≤~0.15 req/s to origin only while a
+  cam is open, 0 closed; verified (curl + browser SLIDE rotation)
+- No Calgary archive exists online (official FAQ: footage not
+  recorded) — confirmed dataset-wide that the 20-min `/ss/` ring is
+  the only history
+- Browser end-to-end: `?cam=240379` (Jasa Marga HLS) plays 352×288,
+  readyState 4; consent gate handled
+
+### Final totals
+- **231,394 rows** (public 231,253 / private 136 / unknown 5),
+  max idx 240415; 154/154 cctvguesser cams accounted (117 pre-existed)
+- Bandwidth: ring retired → Calgary cost now ~0 (on-demand only)
+
+### Files
+- New: `camera_testing/_cctvguesser_collect.py`, `_cctvguesser_ingest.py`,
+  `cctvguesser_raw.jsonl`, `cctvguesser_cameras.csv`,
+  `cctvguesser_scoreboard_cids.txt`, `cctvguesser_ingest.json`
+- Modified: `api/app.py`, `web_viewer/static/js/player.js`,
+  `scripts/fix/classify_visibility.py`, `docs/VISIBILITY_REPORT.md`,
+  `docs/SESSION_REPORT_20261017.md` (Round 15), this file
+- Disabled: Task Scheduler `Eli6LoopsOfficialRing`,
+  `Eli6LoopsOfficialDaily`
+
+### Next
+- Parked carry-over: AG-53/54 DGT recheck; Tiivii tenant enum;
+  IPCamLive public m3u8 pattern; worldwide feratel epic; CRTVG
+  `sanxenxo`; Spanish-IP re-probes (blb/trafikoa/camarasdgt);
+  Wayback loop re-run months later
+- Optional: re-probe the 7 non-live cctvguesser HLS from a US IP
+
+
 ## ✅ Session 48 (2026-10-19/20) — Calgary enum/rectify (48a-b) + slideshow/timelapse loop videos (48c-k)
 
 ### Done
@@ -66,7 +126,10 @@
   rebuild @04:00); launchers `run_ring{,_full}.cmd` (pythonw, no
   console), log `camera_testing/yyc_ring.log`. Loop at 5-min cadence =
   ~55-min window, newest frame ≤7 min old. IEM loops left static
-  (user), Wayback manual-only (snapshots accumulate every ~weeks)
+  (user), Wayback manual-only (snapshots accumulate every ~weeks).
+  **Status 2026-10-20 (Session 49): both tasks DISABLED after user
+  review (10 GB/day rejected) — replaced by on-demand slideshow;
+  code stays, re-enableable**
 - Direct cam links: `http://127.0.0.1:8773/?cam=<idx>`
   (loc86=139672, loc17=139659, loc223=240378) — verified deep-link
   opens the cam player

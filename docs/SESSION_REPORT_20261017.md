@@ -911,9 +911,75 @@ images only as last resort; ingest everything into the dataset.
 - Direct cam deep-links (user asked): `http://127.0.0.1:8773/?cam=<idx>`
   (e.g. `?cam=139672` = loc86, `?cam=139659` = loc17,
   `?cam=240378` = loc223) — verified: `app.js` URL routing
-  (`URL_KEYS.cam`, boot `openDetail` app.js:1832) + first-visit
-  consent gate accepted.
+   (`URL_KEYS.cam`, boot `openDetail` app.js:1832) + first-visit
+   consent gate accepted.
 
+
+## Round 15 — cctvguesser.com 154-cam extraction + on-demand Calgary slideshow (49, 2026-10-20)
+
+- User review of 48p: **~10 GB/day ring rejected** → decisions: (a)
+  replace auto-refresh with an **on-demand Calgary slideshow** (only
+  while a cam page is open), (b) keep existing loop videos static,
+  (c) ingest the full 154-camera CCTV Guesser list with dedupe.
+  `Eli6LoopsOfficialRing` + `Eli6LoopsOfficialDaily` **disabled**
+  (stay registered, re-enableable); code `ac7e762` kept.
+- **cctvguesser extraction**: Nuxt SPA + Supabase (publishable key is
+  client-side by design; only `scoreboard` anon-readable — 21 rows/19
+  cam_ids; cam table server-side only). `/api/cameras` returns **1
+  random camera per request, all params ignored** → coupon-collector:
+  `_cctvguesser_collect.py` 2,696 requests @12.7/s with 1,100-request
+  zero-new tail → **saturation at 154 unique cams** (US 88, KR 32,
+  ID 15, +12 countries). Answers (lat/lng) ship in the SSR payload;
+  no sitemap. Artifacts: `cctvguesser_raw.jsonl` (154),
+  `cctvguesser_cameras.csv`, `cctvguesser_scoreboard_cids.txt`.
+- **Ingest (user-approved)**: normalized-url dedupe (lower, scheme
+  strip, trailing slash) vs url + live_stream_url of all rows →
+  117 already present, **37 new rows `cg_<id32>` idx
+  240379..240415** (`type=hls`, `category=traffic`,
+  `geo_source=cctvguesser`, `confidence=high`,
+  `notes=cctvguesser_id=…, blackout_rects=N, ingested-2026-10-20`);
+  liveness probe → **30/37 live** (7 offline/geo-blocked left
+  `live_status=''` honestly). State: `cctvguesser_ingest.json`.
+- **Classifier + totals**: `cg` added to `PUBLIC_CSV_PREFIXES` →
+  visibility **public 231,253 / private 136 / unknown 5**, dataset
+  total **231,394**; `GET /api/refresh` → 200; dashboard stats OK.
+- **BOM incident (fixed)**: ingest wrote the CSV with `utf-8-sig` →
+  leading `EF BB BF`; app reads plain `utf-8` → header became
+  `\ufeffidx` → every row skipped in `_ensure_db` → `/api/refresh`
+  500 `IndexError: list index out of range` at `api/app.py:396`
+  (`rows[0]` on empty list). Stripped BOM (file now starts `idx`),
+  script writer switched to plain `utf-8` (classifier already wrote
+  plain utf-8). **Rule: CSV writers use plain `utf-8`; read side may
+  use `utf-8-sig`.** Re-verified: 200, visibility counts intact.
+- **On-demand Calgary slideshow (replaces the ring)**:
+  `GET /api/calgary/frames?loc=N` → 11-frame JSON (`/ss/9/`→`/ss/0/`
+  →live) + `GET /api/calgary/img/<loc>/<frame>.jpg` with 75 s
+  server-side TTL cache (`_YYC_IMG_CACHE`, `X-Cache:
+  HIT/MISS/FALLBACK`, live-frame fallback for frozen loc159/169,
+  cap 600). `player.js`: buildStream detector for
+  `trafficcam.calgary.ca/loc<N>.jpg` → `{type:'slideshow',
+  frame_ms:1500}` (+ generic `stream.frame_ms`). JPEG magic fixed to
+  `\xff\xd8\xff`. Cost: ≤~0.15 req/s to origin while a cam is open,
+  **zero when closed**. Verified: X-Cache cycling + frozen-cam
+  FALLBACK 200 + browser `SLIDE` state rotating frames @1,500 ms.
+- **No Calgary archive exists online** (official FAQ: "traffic camera
+  footage is not recorded") — slideshow is the only history (20 min);
+  TranStar/Digitraffic slideshow precedents already in `app.py`.
+- Browser end-to-end on a new cam: `?cam=240379` (Jasa Marga
+  KM 797+550, Indonesia) → HLS `readyState=4`, 352×288, plays
+  (muted-after-gesture), first-visit consent gate handled.
+
+### Files
+
+- New: `camera_testing/_cctvguesser_collect.py`, `_cctvguesser_ingest.py`,
+  `cctvguesser_raw.jsonl`, `cctvguesser_cameras.csv`,
+  `cctvguesser_scoreboard_cids.txt`, `cctvguesser_ingest.json`
+- Modified: `api/app.py` (calgary frames/img endpoints),
+  `web_viewer/static/js/player.js` (slideshow detector + frame_ms),
+  `scripts/fix/classify_visibility.py` (`cg` public prefix),
+  `docs/VISIBILITY_REPORT.md`, `TODO.md`, this report
+- Disabled (not deleted): scheduled tasks `Eli6LoopsOfficialRing`,
+  `Eli6LoopsOfficialDaily`
 
 
 # Session 46 — BC Ferries terminal webcams: full enumeration (58 cams) + live-feed hunt + ingest (2026-10-17)
