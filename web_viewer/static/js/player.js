@@ -168,12 +168,14 @@ export function buildStream(cam) {
     return { type: 'mp4', url: `/api/satap/proxy?u=${encodeURIComponent(u)}&t=${Date.now()}` };
   }
 
-  // feratel.com: rolling ~53s MP4 fragments (webtv t=1 og:video) that rotate
-  // to a fresh uuid every ~60-90s on active cams; image-only cams serve only
-  // a thumbnail. Our broker resolves the current fragment and 302s to it;
-  // the meta endpoint tells the player when the origin rotated.
-  if (u.includes('feratel.co.at') || u.includes('feratel.com') ||
-      (cam.host || '').includes('feratel')) {
+  // feratel broker: rolling ~53s MP4 fragments (webtv t=1 og:video) that
+  // rotate to a fresh uuid every ~60-90s on active cams. Gate: only the ft_
+  // ingest rows (idx 240416..241485) or any direct sts fragment URL — the
+  // 1.7k argus disc_* rows also live on wtv*.feratel.com but serve plain
+  // JPEGs and must fall through to the normal mjpeg branch below.
+  const isFtIdx = cam.idx != null && cam.idx >= 240416 && cam.idx <= 241485;
+  const isStsFrag = /feratel\.co\.at\/streams\/stsstore\d+\/\d+\//.test(u);
+  if (isFtIdx || isStsFrag) {
     if (cam.idx == null) return { type: 'mp4', url: u };
     return { type: 'feratel', idx: cam.idx, meta: `/api/feratel/meta/${cam.idx}` };
   }

@@ -2122,16 +2122,24 @@ _FT_WX_TTL = 600
 
 
 def _ft_row(idx):
-    """Row lookup for a feratel cam (csv_id ft_<camid>), cached."""
+    """Row lookup for a feratel cam (csv_id ft_<camid>), cached.
+
+    Misses are negatively cached (False) so non-ft rows that slip through
+    the client gate don't rescan the 232k-row DB on every request. Falls
+    back to parsing the camid from a direct sts fragment URL for the rare
+    non-ft row that still points at a rolling stream.
+    """
     idx = int(idx)
-    hit = _FT_ROW_CACHE.get(idx)
-    if hit is not None:
-        return hit
+    if idx in _FT_ROW_CACHE:
+        v = _FT_ROW_CACHE[idx]
+        return v if v else None
     _ensure_db()
     row = _DB_CONN.execute(
         'SELECT name, url, lat, lon, live_status, notes, full_row FROM cams WHERE idx = ?',
         (idx,)).fetchone()
     if not row:
+        with _FT_LOCK:
+            _FT_ROW_CACHE[idx] = False
         return None
     camid = ''
     page_title = ''
@@ -2140,10 +2148,17 @@ def _ft_row(idx):
         cid = fr.get('csv_id') or ''
         if cid.startswith('ft_'):
             camid = cid[3:]
+        if not camid:
+            m = re.search(r'feratel\.co\.at/streams/stsstore\d+/\d+/(\d+)_',
+                          fr.get('live_stream_url') or '')
+            if m:
+                camid = m.group(1)
         page_title = fr.get('page_title') or ''
     except (TypeError, ValueError):
         pass
     if not camid:
+        with _FT_LOCK:
+            _FT_ROW_CACHE[idx] = False
         return None
     rec = {'idx': idx, 'camid': camid, 'name': row['name'], 'page': row['url'],
            'lat': row['lat'], 'lon': row['lon'], 'live_status': row['live_status'],

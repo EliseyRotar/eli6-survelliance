@@ -65,6 +65,24 @@
 - Optional: dcsimg `kamerainformation` weather-icon PNG guid (needs
   browser Weather-button click on feratel page)
 
+### Post-session fix (2026-10-21, user report)
+- User's grid search `feratel` showed tiles stuck on `...` +
+  `/api/feratel/meta/<idx>` **404s (idx 64xxx/80xxx)**: the broker
+  branch matched ANY `feratel.com`/`feratel`-host URL, catching **1,728
+  argus `disc_*` rows** (wtvpict/wtvthmb direct JPEGs) that the broker
+  doesn't know (only `ft_` rows 240416..241485) → each tile fired a
+  meta 404 and never played. **Fix**: client gate = ft idx range OR
+  direct `sts*/streams/stsstoreN/...` URL only (disc rows fall back to
+  the normal mjpeg branch → `/api/proxy/mjpeg`, verified loading);
+  server `_ft_row` now **negatively caches misses** (no repeat DB
+  scans) and falls back to camid-from-live-URL for non-ft sts rows.
+  Re-verified: 0 out-of-range meta requests, disc tiles `MJPG` w/ img,
+  ft tiles `LIVE` video. Also added `/static/favicon.svg` + icon links
+  (kills the favicon.ico 404). Cookie SameSite warnings on fragment
+  302s are cosmetic (browser declines to *store* origin cookies;
+  streams load fine — cookies optional); Cascadia Code warning is
+  Firefox-internal.
+
 
 ## ✅ Session 49 (2026-10-20) — cctvguesser 154-cam extraction + 37 new rows + on-demand Calgary slideshow (ring retired)
 
