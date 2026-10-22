@@ -399,14 +399,16 @@ function renderTile(cam, index) {
         } else {
           // Existing player scrolled back into view — resume
           entry.isIntersecting = true;
-          if (controlsFor(cam.idx)) controlsFor(cam.idx).resume();
+          const c = controlsFor(cam.idx);
+          if (c && typeof c.resume === 'function') { try { c.resume(); } catch {} }
         }
       } else {
         if (entry) {
           // Scrolled out of viewport but still mounted. Pause to save bandwidth,
           // keep buffer so resume is instant.
           entry.isIntersecting = false;
-          if (controlsFor(cam.idx)) controlsFor(cam.idx).pause();
+          const c = controlsFor(cam.idx);
+          if (c && typeof c.pause === 'function') { try { c.pause(); } catch {} }
         }
       }
     }

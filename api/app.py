@@ -2126,8 +2126,9 @@ def _ft_row(idx):
 
     Misses are negatively cached (False) so non-ft rows that slip through
     the client gate don't rescan the 232k-row DB on every request. Falls
-    back to parsing the camid from a direct sts fragment URL for the rare
-    non-ft row that still points at a rolling stream.
+    back to parsing the camid from a direct sts fragment URL or from a
+    legacy webtv page URL (?cam=<camid>) for rows that still point at one
+    of those.
     """
     idx = int(idx)
     if idx in _FT_ROW_CACHE:
@@ -2150,6 +2151,11 @@ def _ft_row(idx):
             camid = cid[3:]
         if not camid:
             m = re.search(r'feratel\.co\.at/streams/stsstore\d+/\d+/(\d+)_',
+                          fr.get('live_stream_url') or '')
+            if m:
+                camid = m.group(1)
+        if not camid:
+            m = re.search(r'webtv\.feratel\.com/webtv/\?.*?cam=(\d+)',
                           fr.get('live_stream_url') or '')
             if m:
                 camid = m.group(1)

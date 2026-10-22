@@ -83,6 +83,34 @@
   streams load fine — cookies optional); Cascadia Code warning is
   Firefox-internal.
 
+### Post-session fix 2 (2026-10-21, user report — Session 50c)
+- **`TypeError: controlsFor(...).pause is not a function`**
+  (app.js IntersectionObserver): the `youtube`/`slideshow`/`mjpeg`
+  branches of `attachPlayback` returned controls **without**
+  pause/resume while the observer called them on scroll-out. **Fix**:
+  every branch now returns real pause/resume (slideshow/mjpeg stop
+  their refresh intervals = bandwidth saved while scrolled out;
+  feratel clears its meta-poll timer via stored timerFn; youtube
+  no-op) + defensive `typeof` guards in app.js. Verified: scroll
+  cycle produced 0 JS errors.
+- **502 on `/api/proxy/mjpeg?u=...webtv.feratel.com/webtv/?...cam=N`**:
+  50 legacy `tv_*` rows carry the webtv **page URL** as live (HTML,
+  not an image) → mjpeg proxy 502. **Fix**: client routes
+  `webtv.feratel.com/webtv/?...cam=<id>` to the feratel broker;
+  server `_ft_row` extracts camid from the `?cam=` param. Verified:
+  idx 157182 (Lake Constance) now LIVE video via broker + weather
+  (was 502); idx 104677 (camid 18021) correctly OFF (upstream
+  thumbnail 404 — feratel removed the cam).
+- **Preview-image tiles removed (user request)**: deleted the **1,728
+  argus `disc_*` rows whose live URL is a wtvthmb/wtvpict JPEG**
+  (static preview with baked-in play button, e.g. cam 80745 →
+  thumbnails/5216.jpeg). CSV 232,464 → **230,736** rows
+  (`scripts/fix/remove_disc_wtv_previews.py`; CSV itself is
+  gitignored — recovery = re-run the argus ingest, source logs in
+  `camera_testing/argus2_*`/`argus3_*`); `/api/refresh` reloaded.
+  Grid `q=feratel` verified: 0 direct wtv image tiles, 0 webtv-page
+  mjpeg requests, ft tiles LIVE via broker.
+
 
 ## ✅ Session 49 (2026-10-20) — cctvguesser 154-cam extraction + 37 new rows + on-demand Calgary slideshow (ring retired)
 

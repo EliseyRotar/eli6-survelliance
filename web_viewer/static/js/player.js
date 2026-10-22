@@ -170,12 +170,15 @@ export function buildStream(cam) {
 
   // feratel broker: rolling ~53s MP4 fragments (webtv t=1 og:video) that
   // rotate to a fresh uuid every ~60-90s on active cams. Gate: only the ft_
-  // ingest rows (idx 240416..241485) or any direct sts fragment URL — the
-  // 1.7k argus disc_* rows also live on wtv*.feratel.com but serve plain
-  // JPEGs and must fall through to the normal mjpeg branch below.
+  // ingest rows (idx 240416..241485), any direct sts fragment URL, or legacy
+  // tv_* rows whose live URL is a webtv page with ?cam=<camid> (those 502'd
+  // through the mjpeg proxy — the broker can resolve them by camid).
+  // The 1.7k argus disc_* wtv*.feratel.com JPEG rows must fall through to
+  // the normal mjpeg branch below.
   const isFtIdx = cam.idx != null && cam.idx >= 240416 && cam.idx <= 241485;
   const isStsFrag = /feratel\.co\.at\/streams\/stsstore\d+\/\d+\//.test(u);
-  if (isFtIdx || isStsFrag) {
+  const isWebtvPage = /webtv\.feratel\.com\/webtv\/\?.*cam=\d+/.test(u);
+  if (isFtIdx || isStsFrag || isWebtvPage) {
     if (cam.idx == null) return { type: 'mp4', url: u };
     return { type: 'feratel', idx: cam.idx, meta: `/api/feratel/meta/${cam.idx}` };
   }
@@ -333,6 +336,9 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     }, 12000);
     return {
       type: 'youtube',
+      // YT iframe API not loaded; pause/resume are no-ops (muted autoplay only)
+      pause: () => {},
+      resume: () => {},
       dispose: () => {
         clearTimeout(tm);
         disposed = true;
@@ -414,6 +420,17 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
         if (refreshTick) clearInterval(refreshTick);
         if (img.parentNode) img.remove();
         hideOfflineOverlay(wrap);
+      },
+      // Scrolled out of viewport: stop cycling + server refresh (bandwidth).
+      // Last frame stays visible in the tile.
+      pause: () => {
+        if (tick) { clearInterval(tick); tick = null; }
+        if (refreshTick) { clearInterval(refreshTick); refreshTick = null; }
+      },
+      resume: () => {
+        if (!alive) return;
+        if (!tick) tick = setInterval(cycleFrame, FRAME_MS);
+        if (!refreshTick) refreshTick = setInterval(loadFrames, REFRESH_MS);
       },
       type: 'slideshow',
     };
@@ -500,7 +517,21 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     wrap.appendChild(img);
     refresh();
     tick = setInterval(refresh, refreshMs);
-    return { dispose: () => { alive = false; if (tick) clearInterval(tick); if (img.parentNode) img.remove(); hideOfflineOverlay(wrap); }, type: 'mjpeg' };
+    return {
+      dispose: () => { alive = false; if (tick) clearInterval(tick); if (img.parentNode) img.remove(); hideOfflineOverlay(wrap); },
+      type: 'mjpeg',
+      // Scrolled out of viewport: stop the refresh loop (bandwidth).
+      // Guards inside refresh()/handlers use `if (tick)` so they won't
+      // resurrect the interval while paused.
+      pause: () => {
+        if (tick) { clearInterval(tick); tick = null; }
+      },
+      resume: () => {
+        if (!alive || tick) return;
+        refresh();
+        tick = setInterval(refresh, refreshMs);
+      },
+    };
   }
 
   // ---- feratel: brokered rolling fragments (/api/feratel/*) ----
@@ -513,8 +544,17 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
     let meta = null;
     let lastFrag = null;
     let timer = null;
+    let timerFn = null;   // current interval callback (re-armed on resume)
+    let timerMs = 0;
     let errStreak = 0;
     let video = null;
+
+    function setTimer(ms, fn) {
+      if (timer) clearInterval(timer);
+      timerFn = fn;
+      timerMs = ms;
+      timer = setInterval(fn, ms);
+    }
 
     async function loadMeta(force) {
       try {
@@ -548,7 +588,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
       const show = () => { if (alive) img.src = `${m.image}?t=${Date.now()}`; };
       show();
       setState(statusFor(m));
-      timer = setInterval(show, 30000);
+      setTimer(30000, show);
       img.onerror = () => {
         if (!alive) return;
         if (++errStreak >= 3) setState({ label: 'OFF', cls: 'offline', retry });
@@ -595,7 +635,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
         if (alive && meta && meta.kind === 'video') setSrc(meta);
       });
       setSrc(m);
-      timer = setInterval(async () => {
+      setTimer(45000, async () => {
         const mm = await loadMeta(false);
         if (!alive || !mm) return;
         meta = mm;
@@ -604,7 +644,7 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
           lastFrag = mm.frag_key;
           setSrc(mm);
         }
-      }, 45000);
+      });
     }
 
     async function boot() {
@@ -623,8 +663,14 @@ export function attachPlayback(wrap, statusEl, cam, stream, onStateChange) {
 
     return {
       type: 'feratel',
-      pause: () => { try { video && video.pause(); } catch {} },
-      resume: () => { try { video && video.play().catch(() => {}); } catch {} },
+      pause: () => {
+        if (timer) { clearInterval(timer); timer = null; }
+        try { video && video.pause(); } catch {}
+      },
+      resume: () => {
+        if (alive && !timer && timerFn) timer = setInterval(timerFn, timerMs);
+        try { video && video.play().catch(() => {}); } catch {}
+      },
       dispose: () => {
         alive = false;
         if (timer) clearInterval(timer);
