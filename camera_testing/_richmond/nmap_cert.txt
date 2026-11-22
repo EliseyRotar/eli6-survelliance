@@ -1,0 +1,21 @@
+# Nmap 7.80 scan initiated Wed Oct 28 20:34:05 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV --script ssl-cert -p 443 -oN camera_testing\\_richmond\\nmap_cert.txt 199.175.129.66
+Nmap scan report for www.richmond.ca (199.175.129.66)
+Host is up (0.23s latency).
+
+PORT    STATE SERVICE  VERSION
+443/tcp open  ssl/http Microsoft IIS httpd 10.0
+|_http-server-header: Microsoft-IIS/10.0
+| ssl-cert: Subject: commonName=*.richmond.ca/organizationName=City of Richmond/stateOrProvinceName=British Columbia/countryName=CA
+| Subject Alternative Name: DNS:*.richmond.ca, DNS:richmond.ca
+| Issuer: commonName=GeoTrust TLS RSA CA G1/organizationName=DigiCert Inc/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2025-11-18T00:00:00
+| Not valid after:  2026-12-03T23:59:59
+| MD5:   2fb1 a539 e654 c3ed 67c9 d427 e7da 4ea5
+|_SHA-1: dab6 8f57 775e b5cd 3623 0caf 09ce fe7d d682 3115
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 28 20:34:31 2026 -- 1 IP address (1 host up) scanned in 26.16 seconds

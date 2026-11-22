@@ -1,6 +1,48 @@
 # ELI6 ▸ SURVEILLANCE — TODO
 
 
+## 🎯 Session 51 (2026-11-22) – Richmond BC traffic cams: full inventory + hidden live cams
+
+### Done
+- **Feed mechanism resolved**: City of Richmond publishes **static JPEG per
+  camera, re-written every 60 s** (`/trafficcam/<file>.jpg`, IIS 10). No public
+  MJPEG/HLS/RTSP/ONVIF anywhere (`.mjpg`, `axis-cgi`, `/trafficcam/` dir 403,
+  PROPFIND 405). Archived video is **MyRichmond login-gated**
+  (`videorequest.htm`) — no stream URL exposed.
+- **Inventory**: 162 Leaflet markers → 602 images / 162 intersections;
+  148 intersections carry the camera icon. Two families: `vdd_<road>_<block>_<dir>`
+  (381) and `<16-hex serial>_<seq>` (217, direction in alt text).
+- **Same-IP recon**: nmap top-100 (all filtered, 443 IIS), vhost map
+  (myrichmond .129.174, citycouncil .130.167, maps .129.19, corportal1 .130.134,
+  infocentre 192.29.10.217). **ArcGIS portal find**:
+  `VehicleTracking/Intersection_Cameras/MapServer/0` exposes a public
+  `camera_url` layer → **148 features, zero new intersections** (confirms site list).
+- **Hidden cams**: Wayback CDX diff (607 vs 602) → 36 CDX-only files;
+  **18 = one shared 76,480-byte placeholder** (MD5 `1e8e5171…`), 2 dead,
+  **16 unique-content live cams**. Located 9 hex serials from **Wayback 2023
+  detail pages** (Minoru@Westminster ×4, No.5 Rd@10700 ×3, Knight@Westminster ×2);
+  7 vdd legacy names mapped by filename. Blurred-correlation check 0.03–0.45 →
+  **distinct views, not renamed duplicates**.
+- **Ingest** (`scripts/fix/richmond_missing_ingest.py`): +19 `ric_` rows
+  (6 site cams missing from CSV + 13 hidden) → CSV **230,736 → 230,755**;
+  all live, full lat/lon + `intersection_id` + serial notes.
+- **Classifier + refresh**: public 230,614 / private 136 / unknown 5;
+  `/api/refresh` → `{"ok":true,"rows":230755}`.
+- **Browser verify**: cam view renders 1280×720 and cycles refreshes via
+  `/api/proxy/mjpeg` (~1.6 s, 200 image/jpeg).
+
+### Richmond totals
+- 463 `ric_` + 154 `tv_` + 20 `disc_` + 2 legacy = **638 live rows** on
+  `richmond.ca/trafficcam`; 162 intersections, 602 referenced + 13 hidden cams.
+- Retired intersections 2750/4950/3413 serve pages with no images.
+
+### Limitation (report to user)
+- **No live video stream exists publicly** — 60 s JPEG snapshots only;
+  recordings require a MyRichmond login.
+
+Full report: `docs/SESSION_REPORT_20261122.md`
+
+
 ## ✅ Session 50 (2026-10-21) — feratel.com epic: 1,070-cam enumeration + rolling-fragment proxy + weather at cam position + infra recon
 
 ### Done

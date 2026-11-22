@@ -1,0 +1,6 @@
+# Nmap 7.80 scan initiated Wed Oct 28 20:34:04 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -Pn -T4 --top-ports 100 -oN camera_testing\\_richmond\\nmap_top100.txt 199.175.129.66
+Nmap scan report for www.richmond.ca (199.175.129.66)
+Host is up.
+All 100 scanned ports on www.richmond.ca (199.175.129.66) are filtered
+
+# Nmap done at Wed Oct 28 20:34:17 2026 -- 1 IP address (1 host up) scanned in 14.06 seconds

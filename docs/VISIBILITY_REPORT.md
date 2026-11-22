@@ -1,7 +1,7 @@
 # Visibility classification report (Session 41)
 
-- Rows: **232,464**
-- Column: `visibility` — **public** 232,323, **private** 136, **unknown** 5
+- Rows: **230,755**
+- Column: `visibility` — **public** 230,614, **private** 136, **unknown** 5
 - Source: `controllable_Webcams.csv` (backup: `backups/session_v41_20261003/`)
 
 ## Counts per rule
@@ -9,7 +9,7 @@
 | rule | visibility | rows |
 |---|---|---|
 | U1-subject | public | 140,135 |
-| U2-csv_id | public | 90,046 |
+| U2-csv_id | public | 88,337 |
 | U4-category | public | 1,144 |
 | U5-host | public | 975 |
 | P7-ipcam-name | private | 119 |
@@ -37,7 +37,7 @@
 18 | traffic | weathercam.digitraffic.fi | public | Road 9 Muurame | https://weathercam.digitraffic.fi/C0950301.jpg
 ```
 
-### U2-csv_id — 90,046 rows
+### U2-csv_id — 88,337 rows
 
 ```
 1 | public | cameras.alertcalifornia.or | public | United States · ALERTCalifornia · #Axis-HerdPeak2 | https://cameras.alertcalifornia.org:443

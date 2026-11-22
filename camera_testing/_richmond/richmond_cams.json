@@ -1,0 +1,4470 @@
+[
+ {
+  "id": "2753",
+  "lat": 49.162741,
+  "lon": -123.145126,
+  "name": "7100 block at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_granville_7100_eb.jpg",
+    "alt": "Live Camera Image: 7100 block at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_granville_7100_nb.jpg",
+    "alt": "Live Camera Image: 7100 block at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_granville_7100_wb.jpg",
+    "alt": "Live Camera Image: 7100 block at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3402",
+  "lat": 49.18469968,
+  "lon": -123.1344496,
+  "name": "8100 block at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aberdeen_cambie_eb.jpg",
+    "alt": "Live Camera Image: 8100 Block at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aberdeen_cambie_nb.jpg",
+    "alt": "Live Camera Image: 8100 Block at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aberdeen_cambie_wb.jpg",
+    "alt": "Live Camera Image: 8100 Block at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3283",
+  "lat": 49.16651892,
+  "lon": -123.13521834,
+  "name": "8100 block at Cook Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cook_8100_eb.jpg",
+    "alt": "Live Camera Image: 8100 block at Cook Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cook_8100_sb.jpg",
+    "alt": "Live Camera Image: 8100 block at Cook Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cook_8100_sb2.jpg",
+    "alt": "Live Camera Image: 8100 block at Cook Road SB2",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cook_8100_wb.jpg",
+    "alt": "Live Camera Image: 8100 block at Cook Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2833",
+  "lat": 49.173862,
+  "lon": -123.144142,
+  "name": "Alderbridge Way at Lansdowne Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFB15E5238_00.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Lansdowne Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF8578EC3D_00.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Lansdowne Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF993EED3D_00.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Lansdowne Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFFF718E23D_00.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Lansdowne Road Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2803",
+  "lat": 49.17020448,
+  "lon": -123.1446088,
+  "name": "Alderbridge Way at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_alderbridge_westminster_eb.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_alderbridge_westminster_sb.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_alderbridge_westminster_wb.jpg",
+    "alt": "Live Camera Image: Alderbridge Way at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2453",
+  "lat": 49.19276,
+  "lon": -123.15702,
+  "name": "Aurora Connector at Grant McConachie Way",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF98496432_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Grant McConachie Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FFEC1A6032_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Grant McConachie Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF3C465832_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Grant McConachie Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF914C6432_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Grant McConachie Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2452",
+  "lat": 49.192123,
+  "lon": -123.156998,
+  "name": "Aurora Connector at Miller Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF442AA440_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Miller Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF8537A03D_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Miller Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF4B53D635_00.jpg",
+    "alt": "Live Camera Image: Aurora Connector at Miller Road Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1905",
+  "lat": 49.19283,
+  "lon": -123.166866,
+  "name": "Aviation Avenue at Grant McConachie Way",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF62236032_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Grant McConachie Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF9C496432_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Grant McConachie Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFF64E4A32_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Grant McConachie Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF10695E32_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Grant McConachie Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1904",
+  "lat": 49.192207,
+  "lon": -123.16713,
+  "name": "Aviation Avenue at Miller Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF9B24A835_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Miller Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFA44D6235_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Miller Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FF05846E3A_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Miller Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF76D4D438_00.jpg",
+    "alt": "Live Camera Image: Aviation Avenue at Miller Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2448",
+  "lat": 49.192112,
+  "lon": -123.154088,
+  "name": "Aylmer Road at Miller Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aylmer_miller_eb.jpg",
+    "alt": "Live Camera Image: Aylmer Road at Miller Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aylmer_miller_nb.jpg",
+    "alt": "Live Camera Image: Aylmer Road at Miller Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_aylmer_miller_wb.jpg",
+    "alt": "Live Camera Image: Aylmer Road at Miller Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3293",
+  "lat": 49.16885074,
+  "lon": -123.1336858,
+  "name": "Buswell Road at Saba Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_saba_eb.jpg",
+    "alt": "Live Camera Image: Buswell Road at Saba Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_saba_nb.jpg",
+    "alt": "Live Camera Image: Buswell Road at Saba Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_saba_sb.jpg",
+    "alt": "Live Camera Image: Buswell Road at Saba Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_saba_wb.jpg",
+    "alt": "Live Camera Image: Buswell Road at Saba Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3281",
+  "lat": 49.16654527,
+  "lon": -123.13368791,
+  "name": "Buswell Street at Cook Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_cook_eb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Cook Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_cook_nb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Cook Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_cook_sb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Cook Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_cook_wb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Cook Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3253",
+  "lat": 49.16272202,
+  "lon": -123.1337397,
+  "name": "Buswell Street at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_granville_eb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_granville_sb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_granville_wb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3273",
+  "lat": 49.164693,
+  "lon": -123.133721,
+  "name": "Buswell Street at Park Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_park_eb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Park Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_park_nb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Park Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_park_sb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Park Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_buswell_park_wb.jpg",
+    "alt": "Live Camera Image: Buswell Street at Park Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2844",
+  "lat": 49.175243,
+  "lon": -123.142761,
+  "name": "Cedarbridge Way at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF5C31983D_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Alderbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FF8C509F3D_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Alderbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF6994A03D_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Alderbridge Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFFD15B5238_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Alderbridge Way Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2835",
+  "lat": 49.173904,
+  "lon": -123.14225,
+  "name": "Cedarbridge Way at Lansdowne Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF1A1CA440_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Lansdowne Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF7526A440_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Lansdowne Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF9226A440_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Lansdowne Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFFFFB71E41_00.jpg",
+    "alt": "Live Camera Image: Cedarbridge Way at Lansdowne Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3275",
+  "lat": 49.164684,
+  "lon": -123.131566,
+  "name": "Cooney Road at Park Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cooney_park_eb.jpg",
+    "alt": "Live Camera Image: Cooney Road at Park Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cooney_park_nb.jpg",
+    "alt": "Live Camera Image: Cooney Road at Park Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cooney_park_sb.jpg",
+    "alt": "Live Camera Image: Cooney Road at Park Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_cooney_park_wb.jpg",
+    "alt": "Live Camera Image: Cooney Road at Park Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4556",
+  "lat": 49.133366,
+  "lon": -123.096886,
+  "name": "Coppersmith Place at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FFEF5A0A37_00.jpg",
+    "alt": "Live Camera Image: Coppersmith Place at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FFB365E83A_00.jpg",
+    "alt": "Live Camera Image: Coppersmith Place at Steveston Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFB2DE0C37_00.jpg",
+    "alt": "Live Camera Image: Coppersmith Place at Steveston Highway Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2305",
+  "lat": 49.17016406,
+  "lon": -123.1525298,
+  "name": "Elmbridge Way at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_elmbridge_westminster_eb.jpg",
+    "alt": "Live Camera Image: Elmbridge Way at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_elmbridge_westminster_sb.jpg",
+    "alt": "Live Camera Image: Elmbridge Way at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_elmbridge_westminster_wb.jpg",
+    "alt": "Live Camera Image: Elmbridge Way at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9805",
+  "lat": 49.16928,
+  "lon": -122.9837232,
+  "name": "Fraserwood Place at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_fraserwood_westminster_eb.jpg",
+    "alt": "Live Camera Image: Fraserwood Place at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_fraserwood_westminster_nb.jpg",
+    "alt": "Live Camera Image: Fraserwood Place at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_fraserwood_westminster_wb.jpg",
+    "alt": "Live Camera Image: Fraserwood Place at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3850",
+  "lat": 49.17728,
+  "lon": -123.124565,
+  "name": "Garden City Road at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF4F575E38_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Alderbridge Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF99595E38_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Alderbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFDB535E38_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Alderbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF3F665238_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Alderbridge Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3900",
+  "lat": 49.184666,
+  "lon": -123.124542,
+  "name": "Garden City Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF73299640_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FFA9D66A40_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF54219640_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Cambie Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF66189640_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Cambie Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3920",
+  "lat": 49.18779514,
+  "lon": -123.12476497,
+  "name": "Garden City Road at Capstan Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_eb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Capstan Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_nb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Capstan Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_sb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Capstan Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_capstan_wb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Capstan Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3750",
+  "lat": 49.162914,
+  "lon": -123.125626,
+  "name": "Garden City Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FF517C6C32_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFB15D4830_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Northeast",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF77538C32_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF3A4F8C32_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF0A5C6C32_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF5D5C6C32_00.jpg",
+    "alt": "Live Camera Image: Garden City Road at Granville Avenue Southwest",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3600",
+  "lat": 49.14086573,
+  "lon": -123.12527,
+  "name": "Garden City Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_eb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Williams Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_nb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Williams Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_sb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Williams Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_williams_wb.jpg",
+    "alt": "Live Camera Image: Garden City Road at Williams Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2821",
+  "lat": 49.172556,
+  "lon": -123.146664,
+  "name": "Gilbert Road at Elmbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0546FF2B3AAE2A_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Elmbridge Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0547FFA154AE2A_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Elmbridge Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0548FF495AAE2A_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Elmbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C054BFFBA95722A_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Elmbridge Way Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2831",
+  "lat": 49.17385607,
+  "lon": -123.1455452,
+  "name": "Gilbert Road at Lansdowne Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_eb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Lansdowne Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_nb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Lansdowne Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_sb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Lansdowne Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_lansdowne_wb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Lansdowne Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2337",
+  "lat": 49.176087,
+  "lon": -123.14579,
+  "name": "Gilbert Road at River Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF1D3DF635_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at River Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF3F43F635_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at River Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFF64BF635_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at River Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF8E4FF635_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at River Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2550",
+  "lat": 49.133495,
+  "lon": -123.147804,
+  "name": "Gilbert Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF6638D036_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF2DE1E436_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Steveston Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFFB520C37_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFC6D3D836_00.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Steveston Highway Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2800",
+  "lat": 49.170184,
+  "lon": -123.147701,
+  "name": "Gilbert Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_eb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_nb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_sb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gilbert_westminster_wb.jpg",
+    "alt": "Live Camera Image: Gilbert Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9800",
+  "lat": 49.16943976,
+  "lon": -122.98978141,
+  "name": "Graybar Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_graybar_westminster_eb.jpg",
+    "alt": "Live Camera Image: Graybar Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_graybar_westminster_nb.jpg",
+    "alt": "Live Camera Image: Graybar Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_graybar_westminster_wb.jpg",
+    "alt": "Live Camera Image: Graybar Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3940",
+  "lat": 49.19105631,
+  "lon": -123.1244877,
+  "name": "Great Canadian Way / Garden City Road at Sea Island Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_eb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way /Garden City Road at Sea Island Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_nb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way /Garden City Road at Sea Island Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_sb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way /Garden City Road at Sea Island Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_garden_city_sea_island_wb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way /Garden City Road at Sea Island Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3980",
+  "lat": 49.19572308,
+  "lon": -123.12533275,
+  "name": "Great Canadian Way at Bridgeport Bus Mall",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_bus_mall_nb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Bus Mall Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_bus_mall_sb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Bus Mall Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3950",
+  "lat": 49.192055,
+  "lon": -123.1244025,
+  "name": "Great Canadian Way at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3990",
+  "lat": 49.19663982,
+  "lon": -123.1261491,
+  "name": "Great Canadian Way at River Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_eb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at River Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_nb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at River Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_sb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at River Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_great_canadian_river_wb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at River Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3960",
+  "lat": 49.19481803,
+  "lon": -123.12487585,
+  "name": "Great Canadian Way at Van Horne Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_eb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Van Horne Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_nb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Van Horne Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_sb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Van Horne Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_gcw_van_horne_wb.jpg",
+    "alt": "Live Camera Image: Great Canadian Way at Van Horne Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3403",
+  "lat": 49.18470601,
+  "lon": -123.1324426,
+  "name": "Hazelbridge Way at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_eb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_nb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_sb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_cambie_wb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Cambie Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3425",
+  "lat": 49.188291,
+  "lon": -123.131163,
+  "name": "Hazelbridge Way at Capstan Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_eb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Capstan Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_nb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Capstan Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_sb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Capstan Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hazelbridge_capstan_wb.jpg",
+    "alt": "Live Camera Image: Hazelbridge Way at Capstan Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2326",
+  "lat": 49.173921,
+  "lon": -123.147581,
+  "name": "Hollybridge Way / Lansdowne Road at Pearson Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FF7FAE1E41_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way / Lansdowne Rd at Pearson Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF12D11E41_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way / Lansdowne Rd at Pearson Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF274A2541_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way / Lansdowne Rd at Pearson Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF0EA51E41_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way / Lansdowne Rd at Pearson Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2325",
+  "lat": 49.17297683,
+  "lon": -123.147857,
+  "name": "Hollybridge Way at Elmbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hollybridge_elmbridge_eb.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at Elmbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hollybridge_elmbridge_sb.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at Elmbridge Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_hollybridge_elmbridge_wb.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at Elmbridge Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2335",
+  "lat": 49.174666,
+  "lon": -123.148736,
+  "name": "Hollybridge Way at River Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF67C7FA35_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at River Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF07C7FA35_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at River Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF1041F635_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at River Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF4C49F635_00.jpg",
+    "alt": "Live Camera Image: Hollybridge Way at River Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5800",
+  "lat": 49.170273,
+  "lon": -123.080391,
+  "name": "Jacombs Road / Sidaway Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF5C326A40_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road / Sidaway Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF8A998840_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road / Sidaway Road at Westminster Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFEE329440_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road / Sidaway Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF41706840_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road / Sidaway Road at Westminster Highway Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5900",
+  "lat": 49.18455139,
+  "lon": -123.0803182,
+  "name": "Jacombs Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_eb.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_nb.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_sb.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_jacombs_cambie_wb.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5810",
+  "lat": 49.171902,
+  "lon": -123.080276,
+  "name": "Jacombs Road at Smallwood Place",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF43EC9E40_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Smallwood Place Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF3827A440_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Smallwood Place Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFB926A440_00.jpg",
+    "alt": "Live Camera Image: Jacombs Road at Smallwood Place Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5805",
+  "lat": 49.170273,
+  "lon": -123.074425,
+  "name": "Knight Street at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_knight_westminster_eb.jpg",
+    "alt": "Live Camera Image: Knight Street at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_knight_westminster_sb.jpg",
+    "alt": "Live Camera Image: Knight Street at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_knight_westminster_wb.jpg",
+    "alt": "Live Camera Image: Knight Street at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1755",
+  "lat": 49.16273336,
+  "lon": -123.1645912,
+  "name": "Lynas Lane at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_granville_eb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_granville_nb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_granville_sb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_granville_wb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1805",
+  "lat": 49.17010964,
+  "lon": -123.1645239,
+  "name": "Lynas Lane at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_eb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_nb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_sb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_lynas_westminster_wb.jpg",
+    "alt": "Live Camera Image: Lynas Lane at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3856",
+  "lat": 49.17728,
+  "lon": -123.118393,
+  "name": "May Drive at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF09012641_00.jpg",
+    "alt": "Live Camera Image: May Drive at Alderbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF604F2541_00.jpg",
+    "alt": "Live Camera Image: May Drive at Alderbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFE4B81E41_00.jpg",
+    "alt": "Live Camera Image: May Drive at Alderbridge Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3854",
+  "lat": 49.17728,
+  "lon": -123.121361,
+  "name": "McClelland Road at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF01B71E41_00.jpg",
+    "alt": "Live Camera Image: McClelland Road at Alderbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF2B7DE440_00.jpg",
+    "alt": "Live Camera Image: McClelland Road at Alderbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFFABA41E41_00.jpg",
+    "alt": "Live Camera Image: McClelland Road at Alderbridge Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4456",
+  "lat": 49.192021,
+  "lon": -123.107826,
+  "name": "McLennan Avenue at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mclennan_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: McLennan Avenue at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mclennan_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: McLennan Avenue at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mclennan_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: McLennan Avenue at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9306",
+  "lat": 49.169235,
+  "lon": -122.993973,
+  "name": "McMillan Way at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF8C28A03D_00.jpg",
+    "alt": "Live Camera Image: McMillan Way at Westminster Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFA730A03D_00.jpg",
+    "alt": "Live Camera Image: McMillan Way at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF2497A03D_00.jpg",
+    "alt": "Live Camera Image: McMillan Way at Westminster Highway Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2896",
+  "lat": 49.17626655,
+  "lon": -123.1405097,
+  "name": "Minoru Boulevard at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_alderbridge_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Alderbridge Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_alderbridge_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Alderbridge Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_alderbridge_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Alderbridge Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2826",
+  "lat": 49.17202092,
+  "lon": -123.1402096,
+  "name": "Minoru Boulevard at Elmbridge Way / Ackroyd Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Elmbridge Way / Ackroyd Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Elmbridge Way / Ackroyd Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Elmbridge Way / Ackroyd Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_elmbridge_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Elmbridge Way / Ackroyd Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2796",
+  "lat": 49.168716,
+  "lon": -123.140244,
+  "name": "Minoru Boulevard at Gollner Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFA6095438_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Gollner Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF4892A03D_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Gollner Avenue Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF13265238_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Gollner Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF526F5238_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Gollner Avenue Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2756",
+  "lat": 49.162743,
+  "lon": -123.140251,
+  "name": "Minoru Boulevard at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_granville_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_granville_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_granville_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_granville_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2836",
+  "lat": 49.17386148,
+  "lon": -123.1401825,
+  "name": "Minoru Boulevard at Lansdowne Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Lansdowne Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Lansdowne Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Lansdowne Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_lansdowne_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Lansdowne Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2775",
+  "lat": 49.165879,
+  "lon": -123.141169,
+  "name": "Minoru Boulevard at Mah Bing Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Mah Bing Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Mah Bing Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Mah Bing Street Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_mah_bing_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Mah Bing Street Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2766",
+  "lat": 49.16378788,
+  "lon": -123.1402368,
+  "name": "Minoru Boulevard at Minoru Gate",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_library_eb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Minoru Gate Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_library_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Library Arts Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_library_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Library Arts Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_library_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Minoru Gate Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2776",
+  "lat": 49.167091,
+  "lon": -123.140472,
+  "name": "Minoru Boulevard at Murdoch Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF753E4638_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Murdoch Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF1E555238_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Murdoch Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF66414638_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Murdoch Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFA4565238_00.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Murdoch Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2806",
+  "lat": 49.170205,
+  "lon": -123.140219,
+  "name": "Minoru Boulevard at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/VDD_Minoru_Westminster_EB.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_nb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_sb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_minoru_westminster_wb.jpg",
+    "alt": "Live Camera Image: Minoru Boulevard at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2754",
+  "lat": 49.162799,
+  "lon": -123.143046,
+  "name": "Minoru Gate at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/VDD_Minoru_Gate_Granville_EB.jpg",
+    "alt": "Live Camera Image: Minoru Gate at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/VDD_Minoru_Gate_Granville_SB.jpg",
+    "alt": "Live Camera Image: Minoru Gate at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/VDD_Minoru_Gate_Granville_WB.jpg",
+    "alt": "Live Camera Image: Minoru Gate at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3553",
+  "lat": 49.1334961,
+  "lon": -123.121871,
+  "name": "Mortfield Gate at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mortfield_steveston_eb.jpg",
+    "alt": "Live Camera Image: Mortfield Gate at Steveston Highway",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mortfield_steveston_sb.jpg",
+    "alt": "Live Camera Image: Mortfield Gate at Steveston Highway",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_mortfield_steveston_wb.jpg",
+    "alt": "Live Camera Image: Mortfield Gate at Steveston Highway",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "8700",
+  "lat": 49.159476,
+  "lon": -123.012889,
+  "name": "Nelson Road at Blundell Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_eb.jpg",
+    "alt": "Live Camera Image: Nelson Road at Blundell Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_nb.jpg",
+    "alt": "Live Camera Image: Nelson Road at Blundell Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_sb.jpg",
+    "alt": "Live Camera Image: Nelson Road at Blundell Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_nelson_blundell_wb.jpg",
+    "alt": "Live Camera Image: Nelson Road at Blundell Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1010",
+  "lat": 49.12645514,
+  "lon": -123.1812098,
+  "name": "No. 1 Road at Chatham Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_eb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Chatham Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_nb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Chatham Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_sb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Chatham Street Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_chatham_wb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Chatham Street Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1150",
+  "lat": 49.14833,
+  "lon": -123.18136,
+  "name": "No. 1 Road at Francis Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_francis_eb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Francis Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_francis_nb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Francis Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_francis_sb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Francis Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_francis_wb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Francis Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1020",
+  "lat": 49.12929,
+  "lon": -123.18125,
+  "name": "No. 1 Road at Garry Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_garry_eb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Garry Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_garry_nb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Garry Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_garry_sb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Garry Street Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_garry_wb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Garry Street Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1000",
+  "lat": 49.125199,
+  "lon": -123.181187,
+  "name": "No. 1 Road at Moncton Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100597FFB25BDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Moncton Street Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598ffbf5fde2d_00.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Moncton Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598ffe664de2d_00.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Moncton Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100599FFAD4DDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Moncton Street Intersection",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100599ffc74bde2d_00.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Moncton Street Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1130",
+  "lat": 49.145908,
+  "lon": -123.181328,
+  "name": "No. 1 Road at Osmond Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_eb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Osmond Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_nb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Osmond Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_sb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Osmond Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_1_osmond_wb.jpg",
+    "alt": "Live Camera Image: No. 1 Road at Osmond Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2190",
+  "lat": 49.154188,
+  "lon": -123.158939,
+  "name": "No. 2 Road at 8100 block",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FFF61FE431_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Plaza Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF5935E431_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Plaza Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF2C11E431_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Plaza Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2200",
+  "lat": 49.155586,
+  "lon": -123.15894,
+  "name": "No. 2 Road at Blundell Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFB62DD030_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFB066C430_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF386CC430_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100582FF1A68A230_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Blundell Road Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2150",
+  "lat": 49.148357,
+  "lon": -123.158968,
+  "name": "No. 2 Road at Francis Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF17573231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at  Francis Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF454E3231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at  Francis Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFE769C430_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at  Francis Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF3B2BD030_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at  Francis Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2250",
+  "lat": 49.162754,
+  "lon": -123.158836,
+  "name": "No. 2 Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF4C563231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Granville Avenue Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF7EC83231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100582FF76483231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100582FF88473231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Granville Avenue Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2140",
+  "lat": 49.146809,
+  "lon": -123.158974,
+  "name": "No. 2 Road at Maple Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFA0605238_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Maple Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF25095438_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Maple Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF2A595E38_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Maple Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FFAE275238_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Maple Road Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2000",
+  "lat": 49.12497872,
+  "lon": -123.1588661,
+  "name": "No. 2 Road at Moncton Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_moncton_eb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Moncton Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_moncton_nb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Moncton Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_moncton_sb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Moncton Street Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2050",
+  "lat": 49.133515,
+  "lon": -123.158869,
+  "name": "No. 2 Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF37119A31_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF56447231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Steveston Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FFC01F7231_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FFEC296B31_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Steveston Highway Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2070",
+  "lat": 49.137474,
+  "lon": -123.15892,
+  "name": "No. 2 Road at Wallace Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF08806C3E_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Wallace Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FFB07A6C3E_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Wallace Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FFFB876C3E_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Wallace Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF5D4A2541_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Wallace Road Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2300",
+  "lat": 49.17018,
+  "lon": -123.158801,
+  "name": "No. 2 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_eb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_nb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_sb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_2_westminster_wb.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2100",
+  "lat": 49.141024,
+  "lon": -123.158977,
+  "name": "No. 2 Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF1F209A31_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Williams Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF7F189A31_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Williams Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF531B9A31_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Williams Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF82579831_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road at Williams Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2120",
+  "lat": 49.143911,
+  "lon": -123.158974,
+  "name": "No. 2 Road at Woodwards Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF553DF635_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road  at Woodwards Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FFB85C6235_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road  at Woodwards Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFCA4D6335_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road  at Woodwards Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054BFF1680F635_00.jpg",
+    "alt": "Live Camera Image: No. 2 Road  at Woodwards Road Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3420",
+  "lat": 49.18742681,
+  "lon": -123.1339072,
+  "name": "No. 3 Road at 3600 block",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3600_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3600 block",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3600_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3600 block",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3600_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3600 block",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3600_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3600 block",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3410",
+  "lat": 49.18650276,
+  "lon": -123.1347987,
+  "name": "No. 3 Road at 3700 block",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3700_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3700 block Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3700_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3700 block Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_3700_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at 3700 block Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3320",
+  "lat": 49.17201301,
+  "lon": -123.1366282,
+  "name": "No. 3 Road at Ackroyd Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Ackroyd Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Ackroyd Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Ackroyd Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_ackroyd_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Ackroyd Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3350",
+  "lat": 49.17735216,
+  "lon": -123.1366372,
+  "name": "No. 3 Road at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Alderbridge Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Alderbridge Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Alderbridge Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_alderbridge_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Alderbridge Way",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3390",
+  "lat": 49.1828708,
+  "lon": -123.1366669,
+  "name": "No. 3 Road at Browngate Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_browngate_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Browngate Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_browngate_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Browngate Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_browngate_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Browngate Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3291",
+  "lat": 49.1681381,
+  "lon": -123.1365442,
+  "name": "No. 3 Road at Bus Mall",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_brighouse_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Bus Mall Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_brighouse_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Bus Mall Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_brighouse_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Bus Mall Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3400",
+  "lat": 49.18466541,
+  "lon": -123.1365017,
+  "name": "No. 3 Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cambie_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cambie Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3423",
+  "lat": 49.18887012,
+  "lon": -123.1324839,
+  "name": "No. 3 Road at Capstan Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Capstan Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Capstan Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Capstan Way",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_capstan_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Capstan Way",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3280",
+  "lat": 49.16652065,
+  "lon": -123.1365475,
+  "name": "No. 3 Road at Cook Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cook_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cook Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cook_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cook Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cook_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cook Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_cook_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Cook Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3340",
+  "lat": 49.175425,
+  "lon": -123.136756,
+  "name": "No. 3 Road at Gill Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_gill_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Gill Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_gill_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Gill Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_gill_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Gill Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3250",
+  "lat": 49.16272603,
+  "lon": -123.1365735,
+  "name": "No. 3 Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_granville_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_granville_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_granville_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_granville_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3330",
+  "lat": 49.17385958,
+  "lon": -123.136739,
+  "name": "No. 3 Road at Lansdowne Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._3_lansdowne_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Lansdowne Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._3_lansdowne_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Lansdowne Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_lansdowne_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Lansdowne Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_lansdowne_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Lansdowne Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3370",
+  "lat": 49.17974625,
+  "lon": -123.1366523,
+  "name": "No. 3 Road at Leslie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Leslie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Leslie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Leslie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_leslie_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Leslie Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3434",
+  "lat": 49.189852,
+  "lon": -123.131667,
+  "name": "No. 3 Road at McMyn Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._3_mcmyn_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at McMyn Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._3_mcmyn_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at McMyn Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3270",
+  "lat": 49.16471593,
+  "lon": -123.1365822,
+  "name": "No. 3 Road at Park Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_park_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Park Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_park_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Park Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_park_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Park Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_park_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Park Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3290",
+  "lat": 49.16882179,
+  "lon": -123.1365395,
+  "name": "No. 3 Road at Saba Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_saba_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Saba Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_saba_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Saba Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_saba_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Saba Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_saba_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Saba Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3050",
+  "lat": 49.133514,
+  "lon": -123.136612,
+  "name": "No. 3 Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFD6600A37_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FFE7D30C37_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Steveston Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFF8D60C37_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF8A660C37_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Steveston Highway Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3300",
+  "lat": 49.170236,
+  "lon": -123.136521,
+  "name": "No. 3 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFB9496432_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF4E6B5E32_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFD0236032_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598FFB15FDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3100",
+  "lat": 49.14089147,
+  "lon": -123.1366964,
+  "name": "No. 3 Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_williams_eb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Williams Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_williams_nb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Williams Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_williams_sb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Williams Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_3_williams_wb.jpg",
+    "alt": "Live Camera Image: No. 3 Road at Williams Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4200",
+  "lat": 49.15549827,
+  "lon": -123.11409933,
+  "name": "No. 4 Road at Blundell Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Blundell Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Blundell Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Blundell Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_blundell_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Blundell Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4400",
+  "lat": 49.18464,
+  "lon": -123.113978,
+  "name": "No. 4 Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_cambie_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4230",
+  "lat": 49.160924,
+  "lon": -123.114069,
+  "name": "No. 4 Road at Edgington Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_edgington_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Edgington Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_edgington_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Edgington Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_edgington_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Edgington Avenue Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4150",
+  "lat": 49.147998,
+  "lon": -123.114216,
+  "name": "No. 4 Road at Francis Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_francis_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Francis Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_francis_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Francis Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_francis_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Francis Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_francis_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Francis Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4250",
+  "lat": 49.162822,
+  "lon": -123.114064,
+  "name": "No. 4 Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_granville_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_granville_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_granville_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_granville_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4050",
+  "lat": 49.133434,
+  "lon": -123.114281,
+  "name": "No. 4 Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF6046E536_00.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FF195B0E37_00.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF0F5CD236_00.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF865ED236_00.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Steveston Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4300",
+  "lat": 49.170155,
+  "lon": -123.113995,
+  "name": "No. 4 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._4_westminster_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4100",
+  "lat": 49.14074727,
+  "lon": -123.1141297,
+  "name": "No. 4 Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_williams_eb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Williams Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_williams_nb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Williams Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_williams_sb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Williams Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_4_williams_wb.jpg",
+    "alt": "Live Camera Image: No. 4 Road at Williams Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5060",
+  "lat": 49.134796,
+  "lon": -123.092036,
+  "name": "No. 5 Road at 10700 block",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_thegardens_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at 10700 block Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_thegardens_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at 10700 block Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_thegardens_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at 10700 block Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5200",
+  "lat": 49.15543655,
+  "lon": -123.0917479,
+  "name": "No. 5 Road at Blundell Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Blundell Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Blundell Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Blundell Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_blundell_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Blundell Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5450",
+  "lat": 49.19193962,
+  "lon": -123.09150849,
+  "name": "No. 5 Road at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5400",
+  "lat": 49.18457273,
+  "lon": -123.09152846,
+  "name": "No. 5 Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_cambie_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5250",
+  "lat": 49.162736,
+  "lon": -123.091678,
+  "name": "No. 5 Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_granville_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_granville_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_granville_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Granville Avenue Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5020",
+  "lat": 49.1310335,
+  "lon": -123.0921037,
+  "name": "No. 5 Road at Horseshoe Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_horseshoe_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Horseshoe Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_horseshoe_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Horseshoe Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_horseshoe_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Horseshoe Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5130",
+  "lat": 49.14430144,
+  "lon": -123.0918025,
+  "name": "No. 5 Road at King Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_king_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at King Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_king_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at King Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_king_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at King Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5050",
+  "lat": 49.13338,
+  "lon": -123.092169,
+  "name": "No. 5 Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF4C5E8A32_00.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100597FF445CDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100597FF7C5FDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598FF144BDE2D_00.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Steveston Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5460",
+  "lat": 49.19385336,
+  "lon": -123.09145663,
+  "name": "No. 5 Road at Vulcan Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_vulcan_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Vulcan Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_vulcan_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Vulcan Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_vulcan_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Vulcan Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5300",
+  "lat": 49.1702861,
+  "lon": -123.09163137,
+  "name": "No. 5 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no._5_westminster_wb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5100",
+  "lat": 49.1406944,
+  "lon": -123.0917229,
+  "name": "No. 5 Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_williams_eb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Williams Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_williams_nb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Williams Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_5_williams_sb.jpg",
+    "alt": "Live Camera Image: No. 5 Road at Williams Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "6450",
+  "lat": 49.19197653,
+  "lon": -123.0692087,
+  "name": "No. 6 Road at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "6400",
+  "lat": 49.1847226,
+  "lon": -123.069128,
+  "name": "No. 6 Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_eb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_nb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_sb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_cambie_wb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "6340",
+  "lat": 49.17635087,
+  "lon": -123.0692554,
+  "name": "No. 6 Road at Commerce Parkway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_commerce_eb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Commerce Parkway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_commerce_nb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Commerce Parkway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_commerce_sb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Commerce Parkway Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "6370",
+  "lat": 49.1816546,
+  "lon": -123.0691436,
+  "name": "No. 6 Road at Mayfield Place",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_mayfield_eb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Mayfield Place Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_mayfield_nb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Mayfield Place Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_6_mayfield_sb.jpg",
+    "alt": "Live Camera Image: No. 6 Road at Mayfield Place Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "6300",
+  "lat": 49.170193,
+  "lon": -123.069176,
+  "name": "No. 6 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF3D276A40_00.jpg",
+    "alt": "Live Camera Image: No.6 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF49216A40_00.jpg",
+    "alt": "Live Camera Image: No.6 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FFFB978840_00.jpg",
+    "alt": "Live Camera Image: No.6 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFB0329440_00.jpg",
+    "alt": "Live Camera Image: No.6 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "8200",
+  "lat": 49.158192,
+  "lon": -123.024254,
+  "name": "No. 8 Road at Blundell Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0549FFF958AE2A_00.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Blundell Road Southbound Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C054AFF8A40AE2A_00.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Blundell Road Westbound Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0582FF4664AE2A_00.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Blundell Road Northbound Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0585FF0150B42A_00.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Blundell Road Eastbound Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "8300",
+  "lat": 49.16989421,
+  "lon": -123.0242497,
+  "name": "No. 8 Road at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_eb.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_nb.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Westminster Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_sb.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_no_8_westminster_wb.jpg",
+    "alt": "Live Camera Image: No. 8 Road at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9302",
+  "lat": 49.16917503,
+  "lon": -122.99873263,
+  "name": "Old Westminster Highway at Westminster Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_old_west_westminster_eb.jpg",
+    "alt": "Live Camera Image: Old Westminster Highway at Westminster Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_old_west_westminster_sb.jpg",
+    "alt": "Live Camera Image: Old Westminster Highway at Westminster Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_old_west_westminster_wb.jpg",
+    "alt": "Live Camera Image: Old Westminster Highway at Westminster Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2334",
+  "lat": 49.1732869,
+  "lon": -123.1527994,
+  "name": "Oval Way at River Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_oval_river_eb.jpg",
+    "alt": "Live Camera Image: Oval Way at River Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_oval_river_sb.jpg",
+    "alt": "Live Camera Image: Oval Way at River Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_oval_river_wb.jpg",
+    "alt": "Live Camera Image: Oval Way at River Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2336",
+  "lat": 49.175499,
+  "lon": -123.147049,
+  "name": "Pearson Way at River Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FF5644A03E_00.jpg",
+    "alt": "Live Camera Image: Pearson Way at River Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100547FFFF61AC3E_00.jpg",
+    "alt": "Live Camera Image: Pearson Way at River Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF0159AC3E_00.jpg",
+    "alt": "Live Camera Image: Pearson Way at River Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10054AFF9C75AC3E_00.jpg",
+    "alt": "Live Camera Image: Pearson Way at River Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1650",
+  "lat": 49.14838,
+  "lon": -123.16984,
+  "name": "Railway Avenue at Francis Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_francis_eb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Francis Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_francis_nb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Francis Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_francis_sb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Francis Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_francis_wb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Francis Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1520",
+  "lat": 49.12933,
+  "lon": -123.169835,
+  "name": "Railway Avenue at Garry Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_garry_eb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Garry Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_garry_nb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Garry Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_garry_sb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Garry Street Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1750",
+  "lat": 49.162374,
+  "lon": -123.169083,
+  "name": "Railway Avenue at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_granville_eb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_granville_nb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Granville Avenue Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1500",
+  "lat": 49.12513378,
+  "lon": -123.1698422,
+  "name": "Railway Avenue at Moncton Street",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_moncton_eb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Moncton Street Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_moncton_nb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Moncton Street Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_moncton_sb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Moncton Street Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_moncton_wb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Moncton Street Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "1550",
+  "lat": 49.13373,
+  "lon": -123.16982,
+  "name": "Railway Avenue at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_steveston_eb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_steveston_nb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_steveston_sb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_railway_steveston_wb.jpg",
+    "alt": "Live Camera Image: Railway Avenue at Steveston Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2899",
+  "lat": 49.178096,
+  "lon": -123.141589,
+  "name": "River Parkway at 7200 block",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_7200_nb.jpg",
+    "alt": "Live Camera Image: River Parkway at 7200 block Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_7200_sb.jpg",
+    "alt": "Live Camera Image: River Parkway at 7200 block Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2950",
+  "lat": 49.18461389,
+  "lon": -123.1376073,
+  "name": "River Parkway at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_cambie_eb.jpg",
+    "alt": "Live Camera Image: River Parkway at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_cambie_nb.jpg",
+    "alt": "Live Camera Image: River Parkway at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_cambie_wb.jpg",
+    "alt": "Live Camera Image: River Parkway at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2900",
+  "lat": 49.17988152,
+  "lon": -123.1401212,
+  "name": "River Parkway at Leslie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_leslie_nb.jpg",
+    "alt": "Live Camera Image: River Parkway at Leslie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_leslie_sb.jpg",
+    "alt": "Live Camera Image: River Parkway at Leslie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_river_leslie_wb.jpg",
+    "alt": "Live Camera Image: River Parkway at Leslie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2922",
+  "lat": 49.186364,
+  "lon": -123.145013,
+  "name": "Russ Baker Way at Cessna Drive",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF08599232_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Cessna Drive Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF9D469832_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Cessna Drive Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFAD399832_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Cessna Drive Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FFA7589232_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Cessna Drive Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2386",
+  "lat": 49.181225,
+  "lon": -123.15164,
+  "name": "Russ Baker Way at Gilbert Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0547FF1A4DB42A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Gilbert Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C054BFFFB5AB42A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Gilbert Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0582FF3C59B42A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Gilbert Road Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2933",
+  "lat": 49.189183,
+  "lon": -123.143459,
+  "name": "Russ Baker Way at Hudson Avenue",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF4E528C32_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Hudson Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FF803A0632_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Hudson Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100599FF8D56DE2D_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Hudson Avenue Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2374",
+  "lat": 49.179789,
+  "lon": -123.153509,
+  "name": "Russ Baker Way at Inglis Way",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FFD2F8A635_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Inglis Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFA25C6235_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Inglis Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF474C6235_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Inglis Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF8220A635_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Inglis Way Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2954",
+  "lat": 49.192115,
+  "lon": -123.142318,
+  "name": "Russ Baker Way at Miller Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0547FF3251B42A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Miller Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0547FFB055AE2A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Miller Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0548FF184FB42A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Miller Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C054BFFAA43AE2A_00.jpg",
+    "alt": "Live Camera Image: Russ Baker Way at Miller Road Northbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4553",
+  "lat": 49.133411,
+  "lon": -123.099617,
+  "name": "Seaward Gate at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF505AD036_00.jpg",
+    "alt": "Live Camera Image: Seaward Gate at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF7946D236_00.jpg",
+    "alt": "Live Camera Image: Seaward Gate at Steveston Highway Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFA7419236_00.jpg",
+    "alt": "Live Camera Image: Seaward Gate at Steveston Highway Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3408",
+  "lat": 49.18467706,
+  "lon": -123.128144,
+  "name": "Sexsmith Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_eb.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_nb.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_sb.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Cambie Road",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sexsmith_cambie_wb.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Cambie Road",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3428",
+  "lat": 49.18779629,
+  "lon": -123.12813444,
+  "name": "Sexsmith Road at Capstan Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FF1A2DA03D_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Capstan Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF8559A03D_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Capstan Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FFED55A03D_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Capstan Way Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10057DFF1332D248_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Capstan Way Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3438",
+  "lat": 49.18916642,
+  "lon": -123.1281121,
+  "name": "Sexsmith Road at Hazelbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FF2B342841_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Hazelbridge Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FF9AAD1E41_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Hazelbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FF0A502541_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Hazelbridge Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100578FF9C291A49_00.jpg",
+    "alt": "Live Camera Image: Sexsmith Road at Hazelbridge Way Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4850",
+  "lat": 49.177124,
+  "lon": -123.102928,
+  "name": "Shell Road at Alderbridge Way",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100537FF764C8C32_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Alderbridge Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FFF633F635_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Alderbridge Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598FF955FDE2D_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Alderbridge Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100598FFD447DF2D_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Alderbridge Way Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4900",
+  "lat": 49.184581,
+  "lon": -123.102736,
+  "name": "Shell Road at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_cambie_eb.jpg",
+    "alt": "Live Camera Image: Shell Road at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_cambie_nb.jpg",
+    "alt": "Live Camera Image: Shell Road at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_cambie_sb.jpg",
+    "alt": "Live Camera Image: Shell Road at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_cambie_wb.jpg",
+    "alt": "Live Camera Image: Shell Road at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4550",
+  "lat": 49.1334,
+  "lon": -123.103264,
+  "name": "Shell Road at Steveston Highway",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FF3B6C0C37_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Steveston Highway Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FFBED80C37_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Steveston Highway Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF1852D236_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Steveston Highway Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/1005DEFF9E660C37_00.jpg",
+    "alt": "Live Camera Image: Shell Road at Steveston Highway Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4600",
+  "lat": 49.140739,
+  "lon": -123.102599,
+  "name": "Shell Road at Williams Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_eb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road East  (east of rail tracks)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_nb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Northbound (east of rail tracks)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_sb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Southbound (East of train tracks)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_east_wb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Westbound (East of Railway)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_eb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Eastbound (West of Railway",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_nb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Northbound (West of Railway)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_sb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Southbound (West of Railway)",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_shell_williams_west_wb.jpg",
+    "alt": "Live Camera Image: Shell Road at Williams Road Westbound (West of Railway)",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4953",
+  "lat": 49.192007,
+  "lon": -123.098993,
+  "name": "Simpson Road at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_simpson_bport_eb.jpg",
+    "alt": "Live Camera Image: Simpson Road at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_simpson_bport_nb.jpg",
+    "alt": "Live Camera Image: Simpson Road at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_simpson_bport_sb.jpg",
+    "alt": "Live Camera Image: Simpson Road at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_simpson_bport_wb.jpg",
+    "alt": "Live Camera Image: Simpson Road at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3255",
+  "lat": 49.162743,
+  "lon": -123.131001,
+  "name": "St Albans Road / Cooney Road at Granville Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0301FF7BD8CC22_00.jpg",
+    "alt": "Live Camera Image: Cooney Road at Granville Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0546FFF13DAE2A_00.jpg",
+    "alt": "Live Camera Image: St. Albans Road at Granville Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0547ff9651b42a_00.jpg",
+    "alt": "Live Camera Image: St. Albans Road at Granville Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/0C0548fffb59b42a_00.jpg",
+    "alt": "Live Camera Image: St. Albans Road at Granville Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4450",
+  "lat": 49.19195,
+  "lon": -123.112306,
+  "name": "St. Edwards Drive at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_edwards_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_edwards_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_edwards_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "4407",
+  "lat": 49.184601,
+  "lon": -123.104671,
+  "name": "St. Edwards Drive at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_eb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_nb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_sb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_st._edwards_cambie_wb.jpg",
+    "alt": "Live Camera Image: St. Edwards Drive at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "3905",
+  "lat": 49.184669,
+  "lon": -123.119751,
+  "name": "Stolberg Street at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFBFD74638_00.jpg",
+    "alt": "Live Camera Image: Stolberg Street at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100545FFFA5F4638_00.jpg",
+    "alt": "Live Camera Image: Stolberg Street at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF1BE04638_00.jpg",
+    "alt": "Live Camera Image: Stolberg Street at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100546FF30624638_00.jpg",
+    "alt": "Live Camera Image: Stolberg Street at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5458",
+  "lat": 49.19194492,
+  "lon": -123.08247556,
+  "name": "Sweden Way at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: Sweden Way at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: Sweden Way at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: Sweden Way at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_sweden_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: Sweden Way at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2455",
+  "lat": 49.193215,
+  "lon": -123.150688,
+  "name": "Templeton Street at Grant McConachie Way",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FF2B470632_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grant McConachie Way Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FFDE340632_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grant McConachie Way Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFEC340632_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grant McConachie Way Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100548FFB9485631_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grant McConachie Way Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2458",
+  "lat": 49.199356,
+  "lon": -123.149101,
+  "name": "Templeton Street at Grauer Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100538FFB54F0C37_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grauer Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF2055DE36_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grauer Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF9557CA36_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grauer Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100549FFDB570E37_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Grauer Road Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2454",
+  "lat": 49.19215,
+  "lon": -123.150694,
+  "name": "Templeton Street at Miller Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100501FFB33E4232_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Miller Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF2B504A32_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Miller Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF7F665E32_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Miller Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100585FF421F6032_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at Miller Road Southbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "2457",
+  "lat": 49.196903,
+  "lon": -123.150149,
+  "name": "Templeton Street at North Service Road",
+  "has_video_recording": false,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FF0D40CA36_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at North Service Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/100539FFFC3DD236_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at North Service Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFF7343B036_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at North Service Road Westbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/10053AFFE3500C37_00.jpg",
+    "alt": "Live Camera Image: Templeton Street at North Service Road Eastbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5959",
+  "lat": 49.19199884,
+  "lon": -123.0733317,
+  "name": "Viking Way at Bridgeport Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_eb.jpg",
+    "alt": "Live Camera Image: Viking Way at Bridgeport Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_nb.jpg",
+    "alt": "Live Camera Image: Viking Way at Bridgeport Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_sb.jpg",
+    "alt": "Live Camera Image: Viking Way at Bridgeport Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_bridgeport_wb.jpg",
+    "alt": "Live Camera Image: Viking Way at Bridgeport Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "5909",
+  "lat": 49.18465264,
+  "lon": -123.0732685,
+  "name": "Viking Way at Cambie Road",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_cambie_eb.jpg",
+    "alt": "Live Camera Image: Viking Way at Cambie Road Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_cambie_nb.jpg",
+    "alt": "Live Camera Image: Viking Way at Cambie Road Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_cambie_sb.jpg",
+    "alt": "Live Camera Image: Viking Way at Cambie Road Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_viking_cambie_wb.jpg",
+    "alt": "Live Camera Image: Viking Way at Cambie Road Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9845",
+  "lat": 49.17398009,
+  "lon": -122.970365,
+  "name": "Westminster Highway at McLean Avenue",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_eb.jpg",
+    "alt": "Live Camera Image: Westminster Highway at McLean Avenue Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_nb.jpg",
+    "alt": "Live Camera Image: Westminster Highway at McLean Avenue Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_sb.jpg",
+    "alt": "Live Camera Image: Westminster Highway at McLean Avenue Southbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_mclean_wb.jpg",
+    "alt": "Live Camera Image: Westminster Highway at McLean Avenue Westbound",
+    "direction": ""
+   }
+  ]
+ },
+ {
+  "id": "9835",
+  "lat": 49.171576,
+  "lon": -122.971835,
+  "name": "Westminster Highway at Westminster Highway North",
+  "has_video_recording": true,
+  "cams": [
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_west_north_eb.jpg",
+    "alt": "Live Camera Image: Westminster Hwy at Westminster Hwy North Eastbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_west_north_nb.jpg",
+    "alt": "Live Camera Image: Westminster Hwy at Westminster Hwy North Northbound",
+    "direction": ""
+   },
+   {
+    "url": "https://www.richmond.ca/trafficcam/vdd_westminster_west_north_sb.jpg",
+    "alt": "Live Camera Image: Westminster Hwy at Westminster Hwy North Southbound",
+    "direction": ""
+   }
+  ]
+ }
+]
